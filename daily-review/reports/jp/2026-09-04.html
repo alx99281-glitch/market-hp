@@ -47,20 +47,18 @@ h2 {
   padding-bottom: 6px;
   margin-bottom: 14px;
 }
-.tp-row { margin-bottom: 14px; }
-.tp-label { display: flex; justify-content: space-between; font-size: 0.92rem; margin-bottom: 4px; }
-.tp-name { color: var(--text); }
-.tp-z { font-variant-numeric: tabular-nums; color: var(--muted); }
-.bar-track { background: #21262c; border-radius: 3px; height: 8px; overflow: hidden; }
-.bar-fill { height: 100%; border-radius: 3px; }
 .pos { background: var(--pos); }
 .neg { background: var(--neg); }
-.news-placeholder { color: var(--muted); font-size: 0.85rem; margin-top: 4px; font-style: italic; }
-.news-box { margin-top: 8px; padding: 10px 12px; background: #1c2128; border-radius: 4px; border-left: 3px solid var(--accent); }
-.news-summary { font-size: 0.85rem; line-height: 1.6; }
-.news-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
-.news-sources a { color: var(--accent); }
-.news-sources li { margin-bottom: 2px; }
+.tp-item { margin-bottom: 14px; }
+.tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
+.tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
+.tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+.tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
+.tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
+.tp-sources a { color: var(--accent); }
+.tp-sources li { margin-bottom: 2px; }
+.pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
+.pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
 table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
 th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
 th { color: var(--muted); font-weight: 500; }
@@ -93,43 +91,33 @@ footer div { margin-bottom: 2px; }
   <section>
     <h2>本日の論点（|z| ≥ 1.5, ローリング120日）</h2>
     
-        <div class="tp-row">
-          <div class="tp-label">
-            <span class="tp-name">factor:Value</span>
-            <span class="tp-z">値=-0.0257 &nbsp; z=-1.92</span>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot neg"></span>前日(9/3)まで銀行・保険・商社・電力など「バリュー株」に資金が向かっていたが、9/4は前日の米国株高（AI・半導体主導）を受けてグロース色の強い値がさ・ハイテク株に資金が回帰し、バリュー株が相対的に売られる「値がさ株・グロース優位」の一日となった。</div>
+            <div class="tp-meta">Valueファクターの値動き ／ 変動の大きさ(zスコア) -1.92</div>
           </div>
-          <div class="bar-track"><div class="bar-fill neg" style="width:100.0%"></div></div>
-          <div class="news-box">
-      <div class="news-summary">裏付けニュース: 前日(9/3)まで銀行・保険・商社・電力など「バリュー株」に資金が向かっていたが、9/4は前日の米国株高（AI・半導体主導）を受けてグロース色の強い値がさ・ハイテク株に資金が回帰し、バリュー株が相対的に売られる「値がさ株・グロース優位」の一日となった。</div>
-      <ul class="news-sources"><li><a href='https://note.com/kabuzaru/n/n24594d4b27c7' target='_blank' rel='noopener'>2026年9月3日（木）今日の日本株｜日経平均4日続落、実は商社と内需が主役</a></li><li><a href='https://sanhorie.hatenablog.com/entry/2026/09/04/213348' target='_blank' rel='noopener'>【漫画】2026年9月4日の日本株｜日経平均は806円高、TOPIXは小幅高</a></li></ul>
-    </div>
+          <ul class='tp-sources'><li><a href='https://note.com/kabuzaru/n/n24594d4b27c7' target='_blank' rel='noopener'>2026年9月3日（木）今日の日本株｜日経平均4日続落、実は商社と内需が主役</a></li><li><a href='https://sanhorie.hatenablog.com/entry/2026/09/04/213348' target='_blank' rel='noopener'>【漫画】2026年9月4日の日本株｜日経平均は806円高、TOPIXは小幅高</a></li></ul>
         </div>
-        <div class="tp-row">
-          <div class="tp-label">
-            <span class="tp-name">pca_sector:PC3</span>
-            <span class="tp-z">値=-0.0337 &nbsp; z=-1.56</span>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot neg"></span>市場の値動きパターン（セクターベース、第3主成分）が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。</div>
+            <div class="tp-meta">市場の値動きパターン（セクターベース、第3主成分） ／ 変動の大きさ(zスコア) -1.56</div>
           </div>
-          <div class="bar-track"><div class="bar-fill neg" style="width:81.6%"></div></div>
-          <div class='news-placeholder'>裏付けニュース: 要因不明</div>
+          
         </div>
-        <div class="tp-row">
-          <div class="tp-label">
-            <span class="tp-name">pca:PC3</span>
-            <span class="tp-z">値=-0.1437 &nbsp; z=-1.55</span>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot neg"></span>市場の値動きパターン（銘柄ベース、第3主成分）が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。</div>
+            <div class="tp-meta">市場の値動きパターン（銘柄ベース、第3主成分） ／ 変動の大きさ(zスコア) -1.55</div>
           </div>
-          <div class="bar-track"><div class="bar-fill neg" style="width:80.7%"></div></div>
-          <div class='news-placeholder'>裏付けニュース: 要因不明</div>
+          
         </div>
-        <div class="tp-row">
-          <div class="tp-label">
-            <span class="tp-name">sector:電力・ガス</span>
-            <span class="tp-z">値=-0.0006 &nbsp; z=-1.54</span>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot neg"></span>前日までの商社・銀行・保険・電力・海運などバリュー株優位の資金の流れが一服し、前日の米国株高を受けたAI・半導体関連への物色シフトの中で電気・ガス業は東証33業種の値下がり上位となった。</div>
+            <div class="tp-meta">電力・ガスセクターの値動き ／ 変動の大きさ(zスコア) -1.54</div>
           </div>
-          <div class="bar-track"><div class="bar-fill neg" style="width:80.5%"></div></div>
-          <div class="news-box">
-      <div class="news-summary">裏付けニュース: 前日までの商社・銀行・保険・電力・海運などバリュー株優位の資金の流れが一服し、前日の米国株高を受けたAI・半導体関連への物色シフトの中で電気・ガス業は東証33業種の値下がり上位となった。</div>
-      <ul class="news-sources"><li><a href='https://www.youtube.com/watch?v=4bDdkFoewtI' target='_blank' rel='noopener'>【9月4日(金)東京株式市場】日経平均は5日ぶり反発</a></li><li><a href='https://stock.f-frontier.com/2026/09/04/234924/' target='_blank' rel='noopener'>2026年9月4日のマーケット情報</a></li></ul>
-    </div>
+          <ul class='tp-sources'><li><a href='https://www.youtube.com/watch?v=4bDdkFoewtI' target='_blank' rel='noopener'>【9月4日(金)東京株式市場】日経平均は5日ぶり反発</a></li><li><a href='https://stock.f-frontier.com/2026/09/04/234924/' target='_blank' rel='noopener'>2026年9月4日のマーケット情報</a></li></ul>
         </div>
   </section>
 
@@ -339,12 +327,15 @@ footer div { margin-bottom: 2px; }
   </section>
 
   <section>
-    <h2>PCA射影（銘柄レベル、直近60日）</h2>
+    <h2>主成分分析(PCA)から分かること</h2>
     
-    <p style="color:var(--muted);font-size:0.85rem">
-      軸推定日: 2026-09-05 / 対象銘柄数: 224 / 説明分散比率: PC1 30.7% / PC2 12.8% / PC3 3.8% / PC4 2.8% / PC5 2.2%
-    </p>
-    <div style="display:flex; gap:24px; flex-wrap:wrap; margin-bottom:16px"><div>
+    <div class="pca-box">
+      <div class="pca-narrative">直近で最も動いたのは第3主成分（過去の値動き全体の分散のうち4%を説明する変動パターン）でした。本日の値動きの約59%は過去の主要な値動きパターンで説明できましたが、残り約41%は個別要因によるものでした。</div>
+      <p style="color:var(--muted);font-size:0.78rem">
+        （主成分分析(PCA)＝多数の銘柄の値動きを少数の共通パターンに要約する統計手法。
+        軸推定日: 2026-09-05 / 対象銘柄数: 224 / 各パターンの説明力: PC1 30.7% / PC2 12.8% / PC3 3.8% / PC4 2.8% / PC5 2.2%）
+      </p>
+      <div style="display:flex; gap:24px; flex-wrap:wrap; margin:14px 0 16px"><div>
           <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC1</div>
           
     <svg viewBox="0 0 260 60" width="260" height="60">
@@ -369,13 +360,14 @@ footer div { margin-bottom: 2px; }
       <text x="256.0" y="51.2" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#f0883e">-0.144</text>
     </svg>
         </div></div>
-    <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">残差比率（PC1〜PC5で説明できなかった当日分散の比率、直近60日）</div>
-    
+      <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">説明できなかった動きの比率（直近60日の推移）</div>
+      
     <svg viewBox="0 0 780 70" width="780" height="70">
       <polyline points="4.0,12.6 17.1,38.3 30.2,53.8 43.3,25.2 56.3,11.3 69.4,12.8 82.5,31.0 95.6,28.6 108.7,47.1 121.8,12.0 134.8,33.3 147.9,48.5 161.0,32.4 174.1,27.6 187.2,43.1 200.3,59.3 213.4,15.2 226.4,32.9 239.5,48.6 252.6,27.6 265.7,33.4 278.8,32.3 291.9,33.0 304.9,14.5 318.0,42.0 331.1,50.0 344.2,63.0 357.3,38.5 370.4,34.9 383.5,19.0 396.5,42.6 409.6,47.0 422.7,66.0 435.8,57.2 448.9,12.5 462.0,62.3 475.1,6.8 488.1,29.2 501.2,40.2 514.3,41.9 527.4,18.4 540.5,40.3 553.6,20.0 566.6,31.5 579.7,11.4 592.8,39.1 605.9,47.1 619.0,49.5 632.1,32.9 645.2,22.0 658.2,10.8 671.3,13.7 684.4,5.3 697.5,12.9 710.6,22.4 723.7,4.0 736.7,32.0 749.8,36.8 762.9,16.0 776.0,45.7" fill="none" stroke="#f85149" stroke-width="1.6" />
       <circle cx="776.0" cy="45.7" r="2.5" fill="#f85149" />
       <text x="776.0" y="45.7" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#f85149">41%</text>
     </svg>
+    </div>
   </section>
 
   
@@ -383,7 +375,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: 日経225構成銘柄数比率（cap-weightではない近似）</div>
     <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
-    <div>レポート生成時刻(UTC): 2026-09-05T12:10:26+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-05T23:41:39+00:00</div>
   </footer>
 </body>
 </html>

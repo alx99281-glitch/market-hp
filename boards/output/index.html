@@ -11,462 +11,294 @@
     h1 { font-size:1.4rem; margin-bottom:4px; }
     .subtitle { color:var(--muted); font-size:0.85rem; margin-top:0; margin-bottom:8px; }
     .methodology { background:var(--panel); border:1px solid var(--border); border-left:4px solid var(--accent); border-radius:6px; padding:12px 16px; font-size:0.82rem; color:var(--muted); margin-bottom:28px; line-height:1.6; }
-    h2 { font-size:1.05rem; border-bottom:1px solid var(--border); padding-bottom:8px; margin-bottom:16px; margin-top:36px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:14px; }
-    .card { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:14px 16px; display:flex; flex-direction:column; }
-    .card-head { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
-    .avatar { width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.9rem; color:#fff; flex-shrink:0; }
-    .name { font-size:0.98rem; font-weight:600; }
-    .name-en { font-weight:400; color:var(--muted); font-size:0.82rem; }
-    .role { font-size:0.8rem; color:var(--muted); margin-top:2px; }
-    .since { font-size:0.75rem; }
-    .bio { font-size:0.82rem; color:var(--text); opacity:0.9; margin-bottom:10px; line-height:1.5; }
-    .score-row { display:flex; align-items:center; gap:10px; margin-bottom:8px; }
-    .score-track { position:relative; flex:1; height:8px; background:#21262c; border-radius:4px; }
-    .score-mid { position:absolute; left:50%; top:-2px; bottom:-2px; width:1px; background:var(--border); }
-    .score-fill { position:absolute; top:0; bottom:0; border-radius:4px; }
-    .score-label { font-size:0.78rem; font-weight:600; white-space:nowrap; width:96px; text-align:right; }
-    .rationale { font-size:0.78rem; color:var(--muted); line-height:1.5; margin-bottom:8px; flex:1; }
-    .bio-link { font-size:0.78rem; color:var(--accent); text-decoration:none; }
+    h2 { font-size:1.05rem; border-bottom:1px solid var(--border); padding-bottom:8px; margin-bottom:14px; margin-top:36px; }
+    .spectrum-wrap { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:12px 16px 4px; margin-bottom:16px; overflow-x:auto; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(230px,1fr)); gap:12px; }
+    .card { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:12px; display:flex; gap:10px; }
+    .avatar-img { width:48px; height:58px; object-fit:cover; border-radius:6px; flex-shrink:0; background:#21262c; }
+    .avatar { width:48px; height:58px; border-radius:6px; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:#fff; flex-shrink:0; }
+    .card-body { min-width:0; flex:1; }
+    .name { font-size:0.88rem; font-weight:600; line-height:1.3; }
+    .name-en { font-size:0.7rem; color:var(--muted); margin-bottom:2px; }
+    .role { font-size:0.72rem; color:var(--muted); margin-bottom:5px; }
+    .since { font-size:0.68rem; }
+    .score-badge { display:inline-block; font-size:0.7rem; font-weight:600; padding:1px 8px; border:1px solid; border-radius:10px; margin-bottom:6px; }
+    .bio { font-size:0.72rem; color:var(--text); opacity:0.85; line-height:1.45; margin-bottom:4px; }
+    .rationale { font-size:0.68rem; color:var(--muted); line-height:1.45; margin-bottom:5px; }
+    .bio-link { font-size:0.7rem; color:var(--accent); text-decoration:none; }
     footer { margin-top:32px; padding-top:14px; border-top:1px solid var(--border); color:var(--muted); font-size:0.78rem; }
     </style>
 </head>
 <body>
   <h1>中央銀行審議委員まとめ</h1>
-  <p class="subtitle">日銀・FRBの金融政策メンバー — タカ派/ハト派スコア順 (更新: 2026-09-05)</p>
+  <p class="subtitle">日銀・FRBの金融政策メンバー (更新: 2026-09-05)</p>
   <div class="methodology">スコアは公開されている発言・投票行動・経歴の傾向に基づく編集部の定性評価であり、AIによる自動テキスト分析や公式指標ではない。-5(最ハト派)〜+5(最タカ派)。就任間もない委員は実績が少なく、評価の確度が低い点に留意。</div>
   
   <section>
-    <h2>FRB (FOMC投票メンバー)（タカ派→ハト派順）</h2>
+    <h2>FRB (FOMC投票メンバー)</h2>
+    <div class="spectrum-wrap"><svg viewBox="0 0 980 272" width="100%" height="272" style="max-width:980px"><line x1="70" y1="16" x2="70" y2="276" stroke="#21262c" stroke-width="1"/><line x1="70.0" y1="10" x2="70.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="154.0" y1="10" x2="154.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="238.0" y1="10" x2="238.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="322.0" y1="10" x2="322.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="406.0" y1="10" x2="406.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="490.0" y1="10" x2="490.0" y2="270" stroke="#8b949e" stroke-width="0.5" opacity="0.35"/><line x1="574.0" y1="10" x2="574.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="658.0" y1="10" x2="658.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="742.0" y1="10" x2="742.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="826.0" y1="10" x2="826.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="910.0" y1="10" x2="910.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><text x="70" y="268" fill="#58a6ff" font-size="11">← ハト派（緩和的）</text><text x="910" y="268" fill="#f85149" font-size="11" text-anchor="end">タカ派（引き締め的） →</text><circle cx="742.0" cy="22.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="733.0" y="26.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ケビン・ウォーシュ</text><circle cx="658.0" cy="42.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="649.0" y="46.0" fill="#e6edf3" font-size="11.5" text-anchor="end">クリストファー・ウォラー</text><circle cx="658.0" cy="62.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="649.0" y="66.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ベス・ハマック</text><circle cx="658.0" cy="82.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="649.0" y="86.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ローリー・ローガン</text><circle cx="490.0" cy="102.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="106.0" fill="#e6edf3" font-size="11.5" text-anchor="end">アナ・ポールソン</text><circle cx="490.0" cy="122.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="126.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ジェローム・パウエル</text><circle cx="490.0" cy="142.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="146.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ジョン・ウィリアムズ</text><circle cx="490.0" cy="162.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="166.0" fill="#e6edf3" font-size="11.5" text-anchor="end">フィリップ・ジェファーソン</text><circle cx="406.0" cy="182.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="415.0" y="186.0" fill="#e6edf3" font-size="11.5" text-anchor="start">ニール・カシュカリ</text><circle cx="406.0" cy="202.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="415.0" y="206.0" fill="#e6edf3" font-size="11.5" text-anchor="start">マイケル・バー</text><circle cx="406.0" cy="222.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="415.0" y="226.0" fill="#e6edf3" font-size="11.5" text-anchor="start">ミシェル・ボウマン</text><circle cx="322.0" cy="242.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="331.0" y="246.0" fill="#e6edf3" font-size="11.5" text-anchor="start">リサ・クック</text></svg></div>
     <div class="grid">
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#8957e5">KW</div>
-        <div>
-          <div class="name">ケビン・ウォーシュ <span class="name-en">Kevin Warsh</span></div>
-          <div class="role">議長 <span class="since">(2026年5月)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/chairman-warsh-130x168.png" alt="ケビン・ウォーシュ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>KW</div>'">
+      <div class="card-body">
+        <div class="name">ケビン・ウォーシュ</div>
+        <div class="name-en">Kevin Warsh</div>
+        <div class="role">議長 <span class="since">2026年5月</span></div>
+        <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+3)</span>
+        <div class="bio">元FRB理事(2006-2011年)。スタンフォード大学フーバー研究所出身。2026年5月にパウエル氏の後任として議長就任。</div>
+        <div class="rationale">FRB理事時代からインフレ抑制優先の姿勢で知られ、量的緩和にも批判的だったタカ派。</div>
+        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元FRB理事(2006-2011年)。スタンフォード大学フーバー研究所出身。2026年5月にパウエル氏の後任として議長就任。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:30%; background:#f85149"></div>
-      </div>
-      <div class="score-label" style="color:#f85149">タカ派 (+3)</div>
-    </div>
-      <div class="rationale">FRB理事時代からインフレ抑制優先の姿勢で知られ、量的緩和にも批判的だったタカ派。</div>
-      <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#cf222e">CW</div>
-        <div>
-          <div class="name">クリストファー・ウォラー <span class="name-en">Christopher Waller</span></div>
-          <div class="role">理事 <span class="since">(2020年〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/waller_christopher_September_01_2025-1022_highres_rdax_130x163s.jpg" alt="クリストファー・ウォラー" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>CW</div>'">
+      <div class="card-body">
+        <div class="name">クリストファー・ウォラー</div>
+        <div class="name-en">Christopher Waller</div>
+        <div class="role">理事 <span class="since">2020年〜</span></div>
+        <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+2)</span>
+        <div class="bio">セントルイス連銀出身のエコノミスト。</div>
+        <div class="rationale">インフレ指標を重視した発言が多くタカ派とされるが、労働市場悪化時には利下げ支持に転じる柔軟さもある。</div>
+        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/waller.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">セントルイス連銀出身のエコノミスト。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:20%; background:#f85149"></div>
-      </div>
-      <div class="score-label" style="color:#f85149">タカ派 (+2)</div>
-    </div>
-      <div class="rationale">インフレ指標を重視した発言が多くタカ派とされるが、労働市場悪化時には利下げ支持に転じる柔軟さもある。</div>
-      <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/waller.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#cf222e">BM</div>
-        <div>
-          <div class="name">ベス・ハマック <span class="name-en">Beth M. Hammack</span></div>
-          <div class="role">クリーブランド連銀総裁 <span class="since">(2024年〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/people/profiles/h/hammack-beth-th.png" alt="ベス・ハマック" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>BM</div>'">
+      <div class="card-body">
+        <div class="name">ベス・ハマック</div>
+        <div class="name-en">Beth M. Hammack</div>
+        <div class="role">クリーブランド連銀総裁 <span class="since">2024年〜</span></div>
+        <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+2)</span>
+        <div class="bio">元ゴールドマン・サックス幹部。2024年にクリーブランド連銀総裁に就任。</div>
+        <div class="rationale">着任以来、インフレ再燃への警戒を強調する発言が目立つ。</div>
+        <a class="bio-link" href="https://www.clevelandfed.org/people/profiles/h/hammack-beth-m" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元ゴールドマン・サックス幹部。2024年にクリーブランド連銀総裁に就任。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:20%; background:#f85149"></div>
-      </div>
-      <div class="score-label" style="color:#f85149">タカ派 (+2)</div>
-    </div>
-      <div class="rationale">着任以来、インフレ再燃への警戒を強調する発言が目立つ。</div>
-      <a class="bio-link" href="https://www.clevelandfed.org/people/beth-hammack" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#bf3989">LK</div>
-        <div>
-          <div class="name">ローリー・ローガン <span class="name-en">Lorie K. Logan</span></div>
-          <div class="role">ダラス連銀総裁 <span class="since">(2022年〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.dallasfed.org/~/media/Images/People/dallasfed/Logan_Lorie.jpg" alt="ローリー・ローガン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#bf3989&quot;>LK</div>'">
+      <div class="card-body">
+        <div class="name">ローリー・ローガン</div>
+        <div class="name-en">Lorie K. Logan</div>
+        <div class="role">ダラス連銀総裁 <span class="since">2022年〜</span></div>
+        <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+2)</span>
+        <div class="bio">ニューヨーク連銀出身、資産購入・SOMA運営の専門家。</div>
+        <div class="rationale">資産圧縮ペースやインフレの粘着性について慎重な発言が多く、タカ派とされる。</div>
+        <a class="bio-link" href="https://www.dallasfed.org/fed/leadership/logan" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">ニューヨーク連銀出身、資産購入・SOMA運営の専門家。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:20%; background:#f85149"></div>
-      </div>
-      <div class="score-label" style="color:#f85149">タカ派 (+2)</div>
-    </div>
-      <div class="rationale">資産圧縮ペースやインフレの粘着性について慎重な発言が多く、タカ派とされる。</div>
-      <a class="bio-link" href="https://www.dallasfed.org/research/bios/logan" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#8957e5">PJ</div>
-        <div>
-          <div class="name">フィリップ・ジェファーソン <span class="name-en">Philip Jefferson</span></div>
-          <div class="role">副議長 <span class="since">(2023年9月(理事は2022年〜))</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/jefferson_phillip_rdax_130x162s.jpg" alt="フィリップ・ジェファーソン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>PJ</div>'">
+      <div class="card-body">
+        <div class="name">フィリップ・ジェファーソン</div>
+        <div class="name-en">Philip Jefferson</div>
+        <div class="role">副議長 <span class="since">2023年9月(理事は2022年〜)</span></div>
+        <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
+        <div class="bio">デービッドソン大学教授出身の経済学者。2022年にFRB理事就任。</div>
+        <div class="rationale">労働市場とインフレのバランスを重視する発言が多く、中立派とされる。</div>
+        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/jefferson.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">デービッドソン大学教授出身の経済学者。2022年にFRB理事就任。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:0%; background:#8b949e"></div>
-      </div>
-      <div class="score-label" style="color:#8b949e">中立 (+0)</div>
-    </div>
-      <div class="rationale">労働市場とインフレのバランスを重視する発言が多く、中立派とされる。</div>
-      <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/jefferson.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#db6d28">JP</div>
-        <div>
-          <div class="name">ジェローム・パウエル <span class="name-en">Jerome Powell</span></div>
-          <div class="role">理事(前議長) <span class="since">(2012年〜(議長は2018-2026年))</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/Powell_Jerome_Aug_16_22-674_8x10_rdax_130x162s.jpg" alt="ジェローム・パウエル" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>JP</div>'">
+      <div class="card-body">
+        <div class="name">ジェローム・パウエル</div>
+        <div class="name-en">Jerome Powell</div>
+        <div class="role">理事(前議長) <span class="since">2012年〜(議長は2018-2026年)</span></div>
+        <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
+        <div class="bio">弁護士・投資銀行家出身。2018年から2026年5月まで議長を務め、退任後も理事として残留。</div>
+        <div class="rationale">在任中は「データ次第」の姿勢を貫いた中立派で、極端な発言は少なかった。</div>
+        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/powell.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">弁護士・投資銀行家出身。2018年から2026年5月まで議長を務め、退任後も理事として残留。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:0%; background:#8b949e"></div>
-      </div>
-      <div class="score-label" style="color:#8b949e">中立 (+0)</div>
-    </div>
-      <div class="rationale">在任中は「データ次第」の姿勢を貫いた中立派で、極端な発言は少なかった。</div>
-      <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/powell.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#2ea043">JC</div>
-        <div>
-          <div class="name">ジョン・ウィリアムズ <span class="name-en">John C. Williams</span></div>
-          <div class="role">ニューヨーク連銀総裁(常任投票権) <span class="since">(2018年〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.newyorkfed.org/medialibrary/media/images/v4/about_the_fed/featured_panel/johnwilliams-feature-panel.jpg" alt="ジョン・ウィリアムズ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#2ea043&quot;>JC</div>'">
+      <div class="card-body">
+        <div class="name">ジョン・ウィリアムズ</div>
+        <div class="name-en">John C. Williams</div>
+        <div class="role">ニューヨーク連銀総裁(常任投票権) <span class="since">2018年〜</span></div>
+        <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
+        <div class="bio">元サンフランシスコ連銀総裁。金融市場調節(公開市場操作)の実務責任者。</div>
+        <div class="rationale">FOMC副議長格として、議長方針を支持する中立的な発言が中心。</div>
+        <a class="bio-link" href="https://www.newyorkfed.org/aboutthefed/orgchart/williams" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元サンフランシスコ連銀総裁。金融市場調節(公開市場操作)の実務責任者。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:0%; background:#8b949e"></div>
-      </div>
-      <div class="score-label" style="color:#8b949e">中立 (+0)</div>
-    </div>
-      <div class="rationale">FOMC副議長格として、議長方針を支持する中立的な発言が中心。</div>
-      <a class="bio-link" href="https://www.newyorkfed.org/aboutthefed/officers/williams-john" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#cf222e">AP</div>
-        <div>
-          <div class="name">アナ・ポールソン <span class="name-en">Anna Paulson</span></div>
-          <div class="role">フィラデルフィア連銀総裁 <span class="since">(2025年〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/People/Executive-Leadership/25-06_Anna-Paulson.jpg" alt="アナ・ポールソン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>AP</div>'">
+      <div class="card-body">
+        <div class="name">アナ・ポールソン</div>
+        <div class="name-en">Anna Paulson</div>
+        <div class="role">フィラデルフィア連銀総裁 <span class="since">2025年〜</span></div>
+        <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
+        <div class="bio">元シカゴ連銀調査局長。2025年にフィラデルフィア連銀総裁に就任。</div>
+        <div class="rationale">就任間もなく金融政策に関する発言実績が少ないため、評価は暫定的。</div>
+        <a class="bio-link" href="https://www.philadelphiafed.org/our-people/anna-paulson" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元シカゴ連銀調査局長。2025年にフィラデルフィア連銀総裁に就任。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:0%; background:#8b949e"></div>
-      </div>
-      <div class="score-label" style="color:#8b949e">中立 (+0)</div>
-    </div>
-      <div class="rationale">就任間もなく金融政策に関する発言実績が少ないため、評価は暫定的。</div>
-      <a class="bio-link" href="https://www.philadelphiafed.org/about-us/anna-paulson" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#0969da">MB</div>
-        <div>
-          <div class="name">ミシェル・ボウマン <span class="name-en">Michelle Bowman</span></div>
-          <div class="role">金融監督担当副議長 <span class="since">(2025年〜(理事は2018年〜))</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/bowman_michelle_rdax_130x163s.jpg" alt="ミシェル・ボウマン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#0969da&quot;>MB</div>'">
+      <div class="card-body">
+        <div class="name">ミシェル・ボウマン</div>
+        <div class="name-en">Michelle Bowman</div>
+        <div class="role">金融監督担当副議長 <span class="since">2025年〜(理事は2018年〜)</span></div>
+        <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">中立 (-1)</span>
+        <div class="bio">元カンザス州銀行監督官。2018年にFRB理事就任、2025年に金融監督担当副議長に就任。</div>
+        <div class="rationale">かつては規制強化に慎重なタカ派とされたが、2025年以降は利下げを支持する発言が目立つ。</div>
+        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/bowman.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元カンザス州銀行監督官。2018年にFRB理事就任、2025年に金融監督担当副議長に就任。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:40%; width:10%; background:#58a6ff"></div>
-      </div>
-      <div class="score-label" style="color:#58a6ff">中立 (-1)</div>
-    </div>
-      <div class="rationale">かつては規制強化に慎重なタカ派とされたが、2025年以降は利下げを支持する発言が目立つ。</div>
-      <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/bowman.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#8957e5">MB</div>
-        <div>
-          <div class="name">マイケル・バー <span class="name-en">Michael Barr</span></div>
-          <div class="role">理事 <span class="since">(2022年〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/Barr_michael_8x10_July_25_22-444_rdax_130x162s.jpg" alt="マイケル・バー" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>MB</div>'">
+      <div class="card-body">
+        <div class="name">マイケル・バー</div>
+        <div class="name-en">Michael Barr</div>
+        <div class="role">理事 <span class="since">2022年〜</span></div>
+        <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">中立 (-1)</span>
+        <div class="bio">元財務次官。金融規制の専門家で、金融監督担当副議長を2025年まで務めた。</div>
+        <div class="rationale">金融規制強化派として知られ、金融政策面では相対的にハト派的な発言が多い。</div>
+        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/barr.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元財務次官。金融規制の専門家で、金融監督担当副議長を2025年まで務めた。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:40%; width:10%; background:#58a6ff"></div>
-      </div>
-      <div class="score-label" style="color:#58a6ff">中立 (-1)</div>
-    </div>
-      <div class="rationale">金融規制強化派として知られ、金融政策面では相対的にハト派的な発言が多い。</div>
-      <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/barr.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#db6d28">NK</div>
-        <div>
-          <div class="name">ニール・カシュカリ <span class="name-en">Neel Kashkari</span></div>
-          <div class="role">ミネアポリス連銀総裁 <span class="since">(2016年〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.minneapolisfed.org/-/media/assets/people/neel-kashkari/neel-kashkari.jpg" alt="ニール・カシュカリ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>NK</div>'">
+      <div class="card-body">
+        <div class="name">ニール・カシュカリ</div>
+        <div class="name-en">Neel Kashkari</div>
+        <div class="role">ミネアポリス連銀総裁 <span class="since">2016年〜</span></div>
+        <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">中立 (-1)</span>
+        <div class="bio">元財務省高官(TARPの責任者)。</div>
+        <div class="rationale">2017年の利上げに反対票を投じるなど歴史的にハト派として知られたが、2022年以降のインフレ高進を受けタカ派的発言も増え、現在は中立に近い。</div>
+        <a class="bio-link" href="https://www.minneapolisfed.org/people/neel-kashkari" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元財務省高官(TARPの責任者)。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:40%; width:10%; background:#58a6ff"></div>
-      </div>
-      <div class="score-label" style="color:#58a6ff">中立 (-1)</div>
-    </div>
-      <div class="rationale">2017年の利上げに反対票を投じるなど歴史的にハト派として知られたが、2022年以降のインフレ高進を受けタカ派的発言も増え、現在は中立に近い。</div>
-      <a class="bio-link" href="https://www.minneapolisfed.org/people/neel-kashkari" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#db6d28">LC</div>
-        <div>
-          <div class="name">リサ・クック <span class="name-en">Lisa Cook</span></div>
-          <div class="role">理事 <span class="since">(2022年〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/Cook_Lisa_8x10_June_29_22-316_pp_rdax_130x162s.jpg" alt="リサ・クック" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>LC</div>'">
+      <div class="card-body">
+        <div class="name">リサ・クック</div>
+        <div class="name-en">Lisa Cook</div>
+        <div class="role">理事 <span class="since">2022年〜</span></div>
+        <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">ハト派 (-2)</span>
+        <div class="bio">ミシガン州立大学教授出身の経済学者。トランプ政権による解任を巡り係争中も職務を継続。</div>
+        <div class="rationale">雇用の最大化を重視する発言が目立ち、ハト派として知られる。</div>
+        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/cook.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">ミシガン州立大学教授出身の経済学者。トランプ政権による解任を巡り係争中も職務を継続。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:30%; width:20%; background:#58a6ff"></div>
-      </div>
-      <div class="score-label" style="color:#58a6ff">ハト派 (-2)</div>
-    </div>
-      <div class="rationale">雇用の最大化を重視する発言が目立ち、ハト派として知られる。</div>
-      <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/cook.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div></div>
   </section>
   <section>
-    <h2>日本銀行 政策委員会（タカ派→ハト派順）</h2>
+    <h2>日本銀行 政策委員会</h2>
+    <div class="spectrum-wrap"><svg viewBox="0 0 980 212" width="100%" height="212" style="max-width:980px"><line x1="70" y1="16" x2="70" y2="216" stroke="#21262c" stroke-width="1"/><line x1="70.0" y1="10" x2="70.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="154.0" y1="10" x2="154.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="238.0" y1="10" x2="238.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="322.0" y1="10" x2="322.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="406.0" y1="10" x2="406.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="490.0" y1="10" x2="490.0" y2="210" stroke="#8b949e" stroke-width="0.5" opacity="0.35"/><line x1="574.0" y1="10" x2="574.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="658.0" y1="10" x2="658.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="742.0" y1="10" x2="742.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="826.0" y1="10" x2="826.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="910.0" y1="10" x2="910.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><text x="70" y="208" fill="#58a6ff" font-size="11">← ハト派（緩和的）</text><text x="910" y="208" fill="#f85149" font-size="11" text-anchor="end">タカ派（引き締め的） →</text><circle cx="742.0" cy="22.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="733.0" y="26.0" fill="#e6edf3" font-size="11.5" text-anchor="end">田村直樹</text><circle cx="658.0" cy="42.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="649.0" y="46.0" fill="#e6edf3" font-size="11.5" text-anchor="end">高田創</text><circle cx="574.0" cy="62.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="565.0" y="66.0" fill="#e6edf3" font-size="11.5" text-anchor="end">増一行</text><circle cx="574.0" cy="82.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="565.0" y="86.0" fill="#e6edf3" font-size="11.5" text-anchor="end">植田和男</text><circle cx="490.0" cy="102.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="106.0" fill="#e6edf3" font-size="11.5" text-anchor="end">内田眞一</text><circle cx="490.0" cy="122.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="126.0" fill="#e6edf3" font-size="11.5" text-anchor="end">小枝淳子</text><circle cx="490.0" cy="142.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="146.0" fill="#e6edf3" font-size="11.5" text-anchor="end">氷見野良三</text><circle cx="238.0" cy="162.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="247.0" y="166.0" fill="#e6edf3" font-size="11.5" text-anchor="start">佐藤綾野</text><circle cx="154.0" cy="182.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="163.0" y="186.0" fill="#e6edf3" font-size="11.5" text-anchor="start">浅田統一郎</text></svg></div>
     <div class="grid">
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#1f6feb">NT</div>
-        <div>
-          <div class="name">田村直樹 <span class="name-en">Naoki Tamura</span></div>
-          <div class="role">審議委員 <span class="since">(2022年7月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/tamura.jpg" alt="田村直樹" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#1f6feb&quot;>NT</div>'">
+      <div class="card-body">
+        <div class="name">田村直樹</div>
+        <div class="name-en">Naoki Tamura</div>
+        <div class="role">審議委員 <span class="since">2022年7月〜</span></div>
+        <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+3)</span>
+        <div class="bio">元三井住友銀行出身。</div>
+        <div class="rationale">審議委員の中でも特に利上げの必要性を主張する発言が多く、最もタカ派的とされる。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_tamura.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元三井住友銀行出身。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:30%; background:#f85149"></div>
-      </div>
-      <div class="score-label" style="color:#f85149">タカ派 (+3)</div>
-    </div>
-      <div class="rationale">審議委員の中でも特に利上げの必要性を主張する発言が多く、最もタカ派的とされる。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_tamura.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#db6d28">HT</div>
-        <div>
-          <div class="name">高田創 <span class="name-en">Hajime Takata</span></div>
-          <div class="role">審議委員 <span class="since">(2022年7月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/takata.jpg" alt="高田創" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>HT</div>'">
+      <div class="card-body">
+        <div class="name">高田創</div>
+        <div class="name-en">Hajime Takata</div>
+        <div class="role">審議委員 <span class="since">2022年7月〜</span></div>
+        <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+2)</span>
+        <div class="bio">元みずほ総合研究所チーフエコノミスト。</div>
+        <div class="rationale">早くから金融政策の正常化の必要性を主張してきたタカ派として知られる。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_takata.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元みずほ総合研究所チーフエコノミスト。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:20%; background:#f85149"></div>
-      </div>
-      <div class="score-label" style="color:#f85149">タカ派 (+2)</div>
-    </div>
-      <div class="rationale">早くから金融政策の正常化の必要性を主張してきたタカ派として知られる。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_takata.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#bf3989">KU</div>
-        <div>
-          <div class="name">植田和男 <span class="name-en">Kazuo Ueda</span></div>
-          <div class="role">総裁 <span class="since">(2023年4月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/ueda.jpg" alt="植田和男" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#bf3989&quot;>KU</div>'">
+      <div class="card-body">
+        <div class="name">植田和男</div>
+        <div class="name-en">Kazuo Ueda</div>
+        <div class="role">総裁 <span class="since">2023年4月〜</span></div>
+        <span class="score-badge" style="color:#f85149;border-color:#f85149">中立 (+1)</span>
+        <div class="bio">経済学者(東京大学名誉教授)。マイナス金利政策の解除・YCC撤廃を主導。</div>
+        <div class="rationale">急激な変更は避けつつも着実な正常化を進めており、穏健な正常化派と位置づけられる。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/gv_ueda.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">経済学者(東京大学名誉教授)。マイナス金利政策の解除・YCC撤廃を主導。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:10%; background:#f85149"></div>
-      </div>
-      <div class="score-label" style="color:#f85149">中立 (+1)</div>
-    </div>
-      <div class="rationale">急激な変更は避けつつも着実な正常化を進めており、穏健な正常化派と位置づけられる。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/gv_ueda.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#cf222e">KM</div>
-        <div>
-          <div class="name">増一行 <span class="name-en">Kazuyuki Masu</span></div>
-          <div class="role">審議委員 <span class="since">(2025年7月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/masu.jpg" alt="増一行" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>KM</div>'">
+      <div class="card-body">
+        <div class="name">増一行</div>
+        <div class="name-en">Kazuyuki Masu</div>
+        <div class="role">審議委員 <span class="since">2025年7月〜</span></div>
+        <span class="score-badge" style="color:#f85149;border-color:#f85149">中立 (+1)</span>
+        <div class="bio">元三菱商事代表取締役常務(CFO)。</div>
+        <div class="rationale">就任後、利上げが「近づいている」と発言するなど、やや前向きな姿勢を見せている。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_masu.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元三菱商事代表取締役常務(CFO)。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:10%; background:#f85149"></div>
-      </div>
-      <div class="score-label" style="color:#f85149">中立 (+1)</div>
-    </div>
-      <div class="rationale">就任後、利上げが「近づいている」と発言するなど、やや前向きな姿勢を見せている。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_masu.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#db6d28">SU</div>
-        <div>
-          <div class="name">内田眞一 <span class="name-en">Shinichi Uchida</span></div>
-          <div class="role">副総裁 <span class="since">(2023年3月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/uchida.jpg" alt="内田眞一" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>SU</div>'">
+      <div class="card-body">
+        <div class="name">内田眞一</div>
+        <div class="name-en">Shinichi Uchida</div>
+        <div class="role">副総裁 <span class="since">2023年3月〜</span></div>
+        <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
+        <div class="bio">日銀プロパー、金融市場局長等を歴任。YCC解除の実務を主導した。</div>
+        <div class="rationale">植田総裁を支える実務派で、市場との対話を重視した中立的な発言が多い。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/dg_uchida.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">日銀プロパー、金融市場局長等を歴任。YCC解除の実務を主導した。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:0%; background:#8b949e"></div>
-      </div>
-      <div class="score-label" style="color:#8b949e">中立 (+0)</div>
-    </div>
-      <div class="rationale">植田総裁を支える実務派で、市場との対話を重視した中立的な発言が多い。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/dg_uchida.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#8957e5">RH</div>
-        <div>
-          <div class="name">氷見野良三 <span class="name-en">Ryozo Himino</span></div>
-          <div class="role">副総裁 <span class="since">(2023年3月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/himino.jpg" alt="氷見野良三" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>RH</div>'">
+      <div class="card-body">
+        <div class="name">氷見野良三</div>
+        <div class="name-en">Ryozo Himino</div>
+        <div class="role">副総裁 <span class="since">2023年3月〜</span></div>
+        <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
+        <div class="bio">元金融庁長官。</div>
+        <div class="rationale">金融システムの安定を重視する発言が中心で、金利観については比較的中立。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/dg_himino.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">元金融庁長官。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:0%; background:#8b949e"></div>
-      </div>
-      <div class="score-label" style="color:#8b949e">中立 (+0)</div>
-    </div>
-      <div class="rationale">金融システムの安定を重視する発言が中心で、金利観については比較的中立。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/dg_himino.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#bf3989">JK</div>
-        <div>
-          <div class="name">小枝淳子 <span class="name-en">Junko Koeda</span></div>
-          <div class="role">審議委員 <span class="since">(2025年3月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/koeda.jpg" alt="小枝淳子" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#bf3989&quot;>JK</div>'">
+      <div class="card-body">
+        <div class="name">小枝淳子</div>
+        <div class="name-en">Junko Koeda</div>
+        <div class="role">審議委員 <span class="since">2025年3月〜</span></div>
+        <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
+        <div class="bio">早稲田大学教授、金融政策理論が専門。</div>
+        <div class="rationale">学術的・データに基づく発言が中心で、明確な方向性は示していない。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_koeda.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">早稲田大学教授、金融政策理論が専門。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:50%; width:0%; background:#8b949e"></div>
-      </div>
-      <div class="score-label" style="color:#8b949e">中立 (+0)</div>
-    </div>
-      <div class="rationale">学術的・データに基づく発言が中心で、明確な方向性は示していない。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_koeda.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#0969da">AS</div>
-        <div>
-          <div class="name">佐藤綾野 <span class="name-en">Ayano Sato</span></div>
-          <div class="role">審議委員 <span class="since">(2026年6月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/asato.jpg" alt="佐藤綾野" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#0969da&quot;>AS</div>'">
+      <div class="card-body">
+        <div class="name">佐藤綾野</div>
+        <div class="name-en">Ayano Sato</div>
+        <div class="role">審議委員 <span class="since">2026年6月〜</span></div>
+        <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">ハト派 (-3)</span>
+        <div class="bio">青山学院大学教授、国際金融が専門。</div>
+        <div class="rationale">「リフレ派」の起用と報じられ、金融緩和的な政策運営を支持するとみられる。就任間もなく評価は暫定的。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_asato.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">青山学院大学教授、国際金融が専門。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:20%; width:30%; background:#58a6ff"></div>
-      </div>
-      <div class="score-label" style="color:#58a6ff">ハト派 (-3)</div>
-    </div>
-      <div class="rationale">「リフレ派」の起用と報じられ、金融緩和的な政策運営を支持するとみられる。就任間もなく評価は暫定的。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_asato.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div>
     <div class="card">
-      <div class="card-head">
-        <div class="avatar" style="background:#db6d28">TA</div>
-        <div>
-          <div class="name">浅田統一郎 <span class="name-en">Toichiro Asada</span></div>
-          <div class="role">審議委員 <span class="since">(2026年4月〜)</span></div>
-        </div>
+      <img class="avatar-img" src="https://www.boj.or.jp/about/organization/policyboard/img/asada.jpg" alt="浅田統一郎" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>TA</div>'">
+      <div class="card-body">
+        <div class="name">浅田統一郎</div>
+        <div class="name-en">Toichiro Asada</div>
+        <div class="role">審議委員 <span class="since">2026年4月〜</span></div>
+        <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">ハト派 (-4)</span>
+        <div class="bio">中央大学名誉教授。「リフレ派」の代表的論客として知られる。</div>
+        <div class="rationale">長年、金融緩和の継続を主張してきた「リフレ派」の代表的論客。首相の緩和志向を反映した起用と報じられた。</div>
+        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_asada.htm" target="_blank" rel="noopener">公式略歴 →</a>
       </div>
-      <div class="bio">中央大学名誉教授。「リフレ派」の代表的論客として知られる。</div>
-      
-    <div class="score-row">
-      <div class="score-track">
-        <div class="score-mid"></div>
-        <div class="score-fill" style="left:10%; width:40%; background:#58a6ff"></div>
-      </div>
-      <div class="score-label" style="color:#58a6ff">ハト派 (-4)</div>
-    </div>
-      <div class="rationale">長年、金融緩和の継続を主張してきた「リフレ派」の代表的論客。首相の緩和志向を反映した起用と報じられた。</div>
-      <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/pb260401a.htm" target="_blank" rel="noopener">公式略歴 →</a>
     </div></div>
   </section>
   <footer>
-    出所: 各氏の公式略歴ページ（Federal Reserve Board / Bank of Japan）、報道各社の報道内容を基に編集部が作成<br>
-    写真は本人イニシャルのアバターで代替。実際の顔写真は各氏の公式略歴ページ（カードの「公式略歴」リンク）で確認できる
+    出所: 各氏の公式略歴ページ（Federal Reserve Board / Bank of Japan / 各地区連銀）、報道各社の報道内容を基に編集部が作成<br>
+    写真は各氏の公式略歴ページから直接埋め込み。読み込めない場合はイニシャルのアバターで代替表示される
   </footer>
 </body>
 </html>

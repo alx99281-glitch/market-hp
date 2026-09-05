@@ -61,20 +61,18 @@ h2 {
   padding-bottom: 6px;
   margin-bottom: 14px;
 }
-.tp-row { margin-bottom: 14px; }
-.tp-label { display: flex; justify-content: space-between; font-size: 0.92rem; margin-bottom: 4px; }
-.tp-name { color: var(--text); }
-.tp-z { font-variant-numeric: tabular-nums; color: var(--muted); }
-.bar-track { background: #21262c; border-radius: 3px; height: 8px; overflow: hidden; }
-.bar-fill { height: 100%; border-radius: 3px; }
 .pos { background: var(--pos); }
 .neg { background: var(--neg); }
-.news-placeholder { color: var(--muted); font-size: 0.85rem; margin-top: 4px; font-style: italic; }
-.news-box { margin-top: 8px; padding: 10px 12px; background: #1c2128; border-radius: 4px; border-left: 3px solid var(--accent); }
-.news-summary { font-size: 0.85rem; line-height: 1.6; }
-.news-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
-.news-sources a { color: var(--accent); }
-.news-sources li { margin-bottom: 2px; }
+.tp-item { margin-bottom: 14px; }
+.tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
+.tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
+.tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+.tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
+.tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
+.tp-sources a { color: var(--accent); }
+.tp-sources li { margin-bottom: 2px; }
+.pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
+.pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
 table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
 th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
 th { color: var(--muted); font-weight: 500; }
@@ -103,42 +101,75 @@ def _cls(v: float) -> str:
     return "pos" if v >= 0 else "neg"
 
 
+def humanize_metric(name: str) -> str:
+    """層2の技術的なメトリクス名を、レポートの読み手向けの平易な日本語に変換する。"""
+    if ":" in name:
+        prefix, label = name.split(":", 1)
+    else:
+        prefix, label = name, ""
+
+    if prefix == "sector":
+        return f"{label}セクターの値動き"
+    if prefix == "factor":
+        return f"{label}ファクターの値動き"
+    if prefix == "sector_internal_dispersion":
+        return f"{label}セクター内での銘柄ごとの値動きのばらつき"
+    if prefix == "dispersion" and label == "cross_sectional":
+        return "指数構成銘柄全体の値動きのばらつき"
+    if prefix == "correlation" and label == "sector_avg":
+        return "セクター間の値動きの連動性"
+    if prefix in ("pca", "pca_sector"):
+        scope = "銘柄" if prefix == "pca" else "セクター"
+        if label == "residual_ratio":
+            return f"過去の値動きパターン（{scope}ベース）では説明できない動きの大きさ"
+        return f"市場の値動きパターン（{scope}ベース、第{label.replace('PC','')}主成分）"
+    return name
+
+
 def _fmt_pct(v: float, digits: int = 2) -> str:
     if pd.isna(v):
         return "N/A"
     return f"{v:+.{digits}%}"
 
 
-def _render_news(news: dict | None) -> str:
-    if not news:
-        return "<div class='news-placeholder'>裏付けニュース: 要因不明</div>"
-    sources = "".join(
+def _render_sources(news: dict | None) -> str:
+    """ニュースの出典リンクだけを、説明ボックスの外側に描画する。"""
+    if not news or not news.get("sources"):
+        return ""
+    links = "".join(
         f"<li><a href='{html.escape(s['url'])}' target='_blank' rel='noopener'>{html.escape(s['title'])}</a></li>"
         for s in news["sources"]
     )
-    return f"""<div class="news-box">
-      <div class="news-summary">裏付けニュース: {html.escape(news['summary'])}</div>
-      <ul class="news-sources">{sources}</ul>
-    </div>"""
+    return f"<ul class='tp-sources'>{links}</ul>"
 
 
 def _render_talking_points(tp: pd.DataFrame) -> str:
+    """「何がマーケットを主導したか」を箇条書きで示す。
+
+    説明ボックスの中身は、ニュースが見つかった論点は要約文そのもの（既に
+    平易な日本語の説明になっている）、見つからなかった論点は技術指標名を
+    人間向けに言い換えた一文。出典リンクはボックスの外・下に分離する
+    （説明文と出典を視覚的に分けるため）。
+    """
     if tp.empty:
-        return "<p style='color:var(--muted)'>本日、しきい値を超える論点はありませんでした。</p>"
-    max_abs_z = max(tp["zscore"].abs().max(), 1.5)
+        return "<p style='color:var(--muted)'>本日、しきい値を超える目立った論点はありませんでした。</p>"
     rows = []
     for _, row in tp.iterrows():
-        pct = min(100, abs(row["zscore"]) / max_abs_z * 100)
+        news = row.get("news")
         cls = _cls(row["zscore"])
-        name = html.escape(str(row["metric"]))
+        metric_label = html.escape(humanize_metric(str(row["metric"])))
+        if news:
+            main_text = html.escape(news["summary"])
+        else:
+            main_text = f"{metric_label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。"
+
         rows.append(f"""
-        <div class="tp-row">
-          <div class="tp-label">
-            <span class="tp-name">{name}</span>
-            <span class="tp-z">値={row['value']:+.4f} &nbsp; z={row['zscore']:+.2f}</span>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot {cls}"></span>{main_text}</div>
+            <div class="tp-meta">{metric_label} ／ 変動の大きさ(zスコア) {row['zscore']:+.2f}</div>
           </div>
-          <div class="bar-track"><div class="bar-fill {cls}" style="width:{pct:.1f}%"></div></div>
-          {_render_news(row.get("news"))}
+          {_render_sources(news)}
         </div>""")
     return "".join(rows)
 
@@ -229,6 +260,42 @@ def _sparkline_svg(series: pd.Series, color: str, w: int = 260, h: int = 60, fmt
     </svg>"""
 
 
+def _pca_narrative(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dict) -> str:
+    """主成分分析(PCA)の結果、本日は何が言えるかを平易な文章にまとめる。"""
+    exp = meta["explained_variance_ratio"]
+    last_date = pc_scores.dropna(how="all").index[-1]
+    today_pc = pc_scores.loc[last_date]
+    today_resid = residual_ratio.loc[last_date] if last_date in residual_ratio.index else float("nan")
+
+    n_show = min(3, len(today_pc))
+    dominant_i = int(today_pc.iloc[:n_show].abs().values.argmax())
+    dominant_pc_num = dominant_i + 1
+    dominant_exp = exp[dominant_i]
+
+    if pd.isna(today_resid):
+        resid_sentence = "残差比率のデータが不足しているため、説明力は評価できません。"
+    elif today_resid >= 0.7:
+        resid_sentence = (
+            f"本日の値動きのうち約{today_resid:.0%}は、過去の主要な値動きパターン（第1〜第5主成分）"
+            f"では説明できませんでした。個別銘柄・個別材料が主導した、市場全体としては説明しにくい一日と言えます。"
+        )
+    elif today_resid <= 0.4:
+        resid_sentence = (
+            f"本日の値動きの約{1 - today_resid:.0%}は、過去の主要な値動きパターンで説明できました。"
+            f"これまでと似た構造で相場が動いた一日と言えます。"
+        )
+    else:
+        resid_sentence = (
+            f"本日の値動きの約{1 - today_resid:.0%}は過去の主要な値動きパターンで説明できましたが、"
+            f"残り約{today_resid:.0%}は個別要因によるものでした。"
+        )
+
+    return (
+        f"直近で最も動いたのは第{dominant_pc_num}主成分（過去の値動き全体の分散のうち{dominant_exp:.0%}を説明する"
+        f"変動パターン）でした。{resid_sentence}"
+    )
+
+
 def _render_pca_section(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dict, days: int) -> str:
     exp = meta["explained_variance_ratio"]
     exp_txt = " / ".join(f"PC{i+1} {v:.1%}" for i, v in enumerate(exp))
@@ -241,13 +308,18 @@ def _render_pca_section(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta
         for i, col in enumerate(pc_scores.columns[:3])
     )
     resid_chart = _sparkline_svg(residual_ratio.tail(days), "#f85149", w=780, h=70, fmt_last="{:.0%}")
+    narrative = html.escape(_pca_narrative(pc_scores, residual_ratio, meta))
     return f"""
-    <p style="color:var(--muted);font-size:0.85rem">
-      軸推定日: {meta['estimated_at'][:10]} / 対象銘柄数: {meta['n_tickers']} / 説明分散比率: {exp_txt}
-    </p>
-    <div style="display:flex; gap:24px; flex-wrap:wrap; margin-bottom:16px">{pc_charts}</div>
-    <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">残差比率（PC1〜PC5で説明できなかった当日分散の比率、直近{days}日）</div>
-    {resid_chart}"""
+    <div class="pca-box">
+      <div class="pca-narrative">{narrative}</div>
+      <p style="color:var(--muted);font-size:0.78rem">
+        （主成分分析(PCA)＝多数の銘柄の値動きを少数の共通パターンに要約する統計手法。
+        軸推定日: {meta['estimated_at'][:10]} / 対象銘柄数: {meta['n_tickers']} / 各パターンの説明力: {exp_txt}）
+      </p>
+      <div style="display:flex; gap:24px; flex-wrap:wrap; margin:14px 0 16px">{pc_charts}</div>
+      <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">説明できなかった動きの比率（直近{days}日の推移）</div>
+      {resid_chart}
+    </div>"""
 
 
 def render_html(d: dict) -> str:
@@ -296,7 +368,7 @@ def render_html(d: dict) -> str:
   </section>
 
   <section>
-    <h2>PCA射影（銘柄レベル、直近60日）</h2>
+    <h2>主成分分析(PCA)から分かること</h2>
     {_render_pca_section(d['pc_scores'], d['residual_ratio'], d['pca_axes_meta']['stocks'], 60)}
   </section>
 

@@ -10,7 +10,8 @@
       "bio": "元FRB理事(2006-2011年)。スタンフォード大学フーバー研究所出身。2026年5月にパウエル氏の後任として議長就任。",
       "score": 3,
       "rationale": "FRB理事時代からインフレ抑制優先の姿勢で知られ、量的緩和にも批判的だったタカ派。",
-      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm"
+      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm",
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/chairman-warsh-130x168.png"
     },
     {
       "name_ja": "フィリップ・ジェファーソン",
@@ -20,7 +21,8 @@
       "bio": "デービッドソン大学教授出身の経済学者。2022年にFRB理事就任。",
       "score": 0,
       "rationale": "労働市場とインフレのバランスを重視する発言が多く、中立派とされる。",
-      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/jefferson.htm"
+      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/jefferson.htm",
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/jefferson_phillip_rdax_130x162s.jpg"
     },
     {
       "name_ja": "ミシェル・ボウマン",
@@ -30,7 +32,8 @@
       "bio": "元カンザス州銀行監督官。2018年にFRB理事就任、2025年に金融監督担当副議長に就任。",
       "score": -1,
       "rationale": "かつては規制強化に慎重なタカ派とされたが、2025年以降は利下げを支持する発言が目立つ。",
-      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/bowman.htm"
+      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/bowman.htm",
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/bowman_michelle_rdax_130x163s.jpg"
     },
     {
       "name_ja": "マイケル・バー",
@@ -40,7 +43,8 @@
       "bio": "元財務次官。金融規制の専門家で、金融監督担当副議長を2025年まで務めた。",
       "score": -1,
       "rationale": "金融規制強化派として知られ、金融政策面では相対的にハト派的な発言が多い。",
-      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/barr.htm"
+      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/barr.htm",
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Barr_michael_8x10_July_25_22-444_rdax_130x162s.jpg"
     },
     {
       "name_ja": "リサ・クック",
@@ -50,7 +54,8 @@
       "bio": "ミシガン州立大学教授出身の経済学者。トランプ政権による解任を巡り係争中も職務を継続。",
       "score": -2,
       "rationale": "雇用の最大化を重視する発言が目立ち、ハト派として知られる。",
-      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/cook.htm"
+      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/cook.htm",
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Cook_Lisa_8x10_June_29_22-316_pp_rdax_130x162s.jpg"
     },
     {
       "name_ja": "ジェローム・パウエル",
@@ -60,7 +65,8 @@
       "bio": "弁護士・投資銀行家出身。2018年から2026年5月まで議長を務め、退任後も理事として残留。",
       "score": 0,
       "rationale": "在任中は「データ次第」の姿勢を貫いた中立派で、極端な発言は少なかった。",
-      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/powell.htm"
+      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/powell.htm",
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Powell_Jerome_Aug_16_22-674_8x10_rdax_130x162s.jpg"
     },
     {
       "name_ja": "クリストファー・ウォラー",
@@ -70,7 +76,8 @@
       "bio": "セントルイス連銀出身のエコノミスト。",
       "score": 2,
       "rationale": "インフレ指標を重視した発言が多くタカ派とされるが、労働市場悪化時には利下げ支持に転じる柔軟さもある。",
-      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/waller.htm"
+      "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/waller.htm",
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/waller_christopher_September_01_2025-1022_highres_rdax_130x163s.jpg"
     },
     {
       "name_ja": "ジョン・ウィリアムズ",
@@ -80,7 +87,8 @@
       "bio": "元サンフランシスコ連銀総裁。金融市場調節(公開市場操作)の実務責任者。",
       "score": 0,
       "rationale": "FOMC副議長格として、議長方針を支持する中立的な発言が中心。",
-      "bio_url": "https://www.newyorkfed.org/aboutthefed/officers/williams-john"
+      "bio_url": "https://www.newyorkfed.org/aboutthefed/orgchart/williams",
+      "photo_url": "https://www.newyorkfed.org/medialibrary/media/images/v4/about_the_fed/featured_panel/johnwilliams-feature-panel.jpg"
     },
     {
       "name_ja": "アナ・ポールソン",
@@ -90,7 +98,8 @@
       "bio": "元シカゴ連銀調査局長。2025年にフィラデルフィア連銀総裁に就任。",
       "score": 0,
       "rationale": "就任間もなく金融政策に関する発言実績が少ないため、評価は暫定的。",
-      "bio_url": "https://www.philadelphiafed.org/about-us/anna-paulson"
+      "bio_url": "https://www.philadelphiafed.org/our-people/anna-paulson",
+      "photo_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/People/Executive-Leadership/25-06_Anna-Paulson.jpg"
     },
     {
       "name_ja": "ベス・ハマック",
@@ -100,7 +109,8 @@
       "bio": "元ゴールドマン・サックス幹部。2024年にクリーブランド連銀総裁に就任。",
       "score": 2,
       "rationale": "着任以来、インフレ再燃への警戒を強調する発言が目立つ。",
-      "bio_url": "https://www.clevelandfed.org/people/beth-hammack"
+      "bio_url": "https://www.clevelandfed.org/people/profiles/h/hammack-beth-m",
+      "photo_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/people/profiles/h/hammack-beth-th.png"
     },
     {
       "name_ja": "ローリー・ローガン",
@@ -110,7 +120,8 @@
       "bio": "ニューヨーク連銀出身、資産購入・SOMA運営の専門家。",
       "score": 2,
       "rationale": "資産圧縮ペースやインフレの粘着性について慎重な発言が多く、タカ派とされる。",
-      "bio_url": "https://www.dallasfed.org/research/bios/logan"
+      "bio_url": "https://www.dallasfed.org/fed/leadership/logan",
+      "photo_url": "https://www.dallasfed.org/~/media/Images/People/dallasfed/Logan_Lorie.jpg"
     },
     {
       "name_ja": "ニール・カシュカリ",
@@ -120,7 +131,8 @@
       "bio": "元財務省高官(TARPの責任者)。",
       "score": -1,
       "rationale": "2017年の利上げに反対票を投じるなど歴史的にハト派として知られたが、2022年以降のインフレ高進を受けタカ派的発言も増え、現在は中立に近い。",
-      "bio_url": "https://www.minneapolisfed.org/people/neel-kashkari"
+      "bio_url": "https://www.minneapolisfed.org/people/neel-kashkari",
+      "photo_url": "https://www.minneapolisfed.org/-/media/assets/people/neel-kashkari/neel-kashkari.jpg"
     }
   ],
   "boj": [
@@ -132,7 +144,8 @@
       "bio": "経済学者(東京大学名誉教授)。マイナス金利政策の解除・YCC撤廃を主導。",
       "score": 1,
       "rationale": "急激な変更は避けつつも着実な正常化を進めており、穏健な正常化派と位置づけられる。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/gv_ueda.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/gv_ueda.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/ueda.jpg"
     },
     {
       "name_ja": "内田眞一",
@@ -142,7 +155,8 @@
       "bio": "日銀プロパー、金融市場局長等を歴任。YCC解除の実務を主導した。",
       "score": 0,
       "rationale": "植田総裁を支える実務派で、市場との対話を重視した中立的な発言が多い。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/dg_uchida.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/dg_uchida.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/uchida.jpg"
     },
     {
       "name_ja": "氷見野良三",
@@ -152,7 +166,8 @@
       "bio": "元金融庁長官。",
       "score": 0,
       "rationale": "金融システムの安定を重視する発言が中心で、金利観については比較的中立。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/dg_himino.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/dg_himino.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/himino.jpg"
     },
     {
       "name_ja": "高田創",
@@ -162,7 +177,8 @@
       "bio": "元みずほ総合研究所チーフエコノミスト。",
       "score": 2,
       "rationale": "早くから金融政策の正常化の必要性を主張してきたタカ派として知られる。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_takata.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_takata.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/takata.jpg"
     },
     {
       "name_ja": "田村直樹",
@@ -172,7 +188,8 @@
       "bio": "元三井住友銀行出身。",
       "score": 3,
       "rationale": "審議委員の中でも特に利上げの必要性を主張する発言が多く、最もタカ派的とされる。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_tamura.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_tamura.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/tamura.jpg"
     },
     {
       "name_ja": "小枝淳子",
@@ -182,7 +199,8 @@
       "bio": "早稲田大学教授、金融政策理論が専門。",
       "score": 0,
       "rationale": "学術的・データに基づく発言が中心で、明確な方向性は示していない。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_koeda.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_koeda.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/koeda.jpg"
     },
     {
       "name_ja": "増一行",
@@ -192,7 +210,8 @@
       "bio": "元三菱商事代表取締役常務(CFO)。",
       "score": 1,
       "rationale": "就任後、利上げが「近づいている」と発言するなど、やや前向きな姿勢を見せている。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_masu.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_masu.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/masu.jpg"
     },
     {
       "name_ja": "浅田統一郎",
@@ -202,7 +221,8 @@
       "bio": "中央大学名誉教授。「リフレ派」の代表的論客として知られる。",
       "score": -4,
       "rationale": "長年、金融緩和の継続を主張してきた「リフレ派」の代表的論客。首相の緩和志向を反映した起用と報じられた。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/pb260401a.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_asada.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/asada.jpg"
     },
     {
       "name_ja": "佐藤綾野",
@@ -212,7 +232,8 @@
       "bio": "青山学院大学教授、国際金融が専門。",
       "score": -3,
       "rationale": "「リフレ派」の起用と報じられ、金融緩和的な政策運営を支持するとみられる。就任間もなく評価は暫定的。",
-      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_asato.htm"
+      "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_asato.htm",
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/asato.jpg"
     }
   ]
 }

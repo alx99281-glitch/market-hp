@@ -75,20 +75,24 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     print("\n[結論]")
     print(" " + d["headline"])
 
-    print(f"\n[本日の論点] |z| >= {d['zscore_threshold']}（ローリング{d['zscore_window']}日）")
+    print(f"\n[本日の論点: 何がマーケットを主導したか] |z| >= {d['zscore_threshold']}（ローリング{d['zscore_window']}日）")
     tp = d["talking_points"]
     if tp.empty:
-        print("  該当なし")
+        print("  目立った論点はありませんでした。")
     else:
+        from html_report import humanize_metric
+
         for _, row in tp.iterrows():
-            print(f"  - {row['metric']:42s} 値={row['value']:+.4f}  z={row['zscore']:+.2f}")
             news = row.get("news")
+            label = humanize_metric(str(row["metric"]))
             if news:
-                print(f"      裏付けニュース: {news['summary']}")
+                print(f"  - {news['summary']}")
+                print(f"      ({label} / z={row['zscore']:+.2f})")
                 for src in news["sources"]:
-                    print(f"        - {src['title']} ({src['url']})")
+                    print(f"      出典: {src['title']} ({src['url']})")
             else:
-                print("      裏付けニュース: 要因不明")
+                print(f"  - {label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。")
+                print(f"      (z={row['zscore']:+.2f})")
 
     print("\n[補足: セクター寄与度ウォーターフォール（自前計算）]")
     for name, val in d["sector_contrib"].items():
@@ -111,10 +115,13 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     for _, row in d["top_bottom"].iterrows():
         print(f"  [{row['group']:6s}] {row['ticker']:6s} return={row['return']:+.3%}  contribution={row['contribution']:+.4%}")
 
-    print("\n[補足: PCA射影（銘柄レベル、直近5日）]")
+    print("\n[主成分分析(PCA)から分かること]")
+    from html_report import _pca_narrative
+
     meta = d["pca_axes_meta"]["stocks"]
+    print("  " + _pca_narrative(d["pc_scores"], d["residual_ratio"], meta))
     exp = ", ".join(f"PC{i+1}={v:.1%}" for i, v in enumerate(meta["explained_variance_ratio"]))
-    print(f"  軸推定日: {meta['estimated_at']}  銘柄数: {meta['n_tickers']}  寄与率: {exp}")
+    print(f"  （軸推定日: {meta['estimated_at'][:10]}  銘柄数: {meta['n_tickers']}  各パターンの説明力: {exp}）")
     print(d["pc_scores"].tail(5).to_string())
     print("  残差比率(直近5日、PC1-5で説明できなかった当日分散の比率):")
     print("  " + d["residual_ratio"].tail(5).to_string().replace("\n", "\n  "))
