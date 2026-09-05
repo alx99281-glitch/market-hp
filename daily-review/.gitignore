@@ -1,0 +1,4 @@
+data/
+reports/*.txt
+__pycache__/
+*.pyc

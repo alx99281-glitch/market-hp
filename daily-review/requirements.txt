@@ -1,0 +1,10 @@
+# 日次マーケット振り返りシステム 依存パッケージ
+# インストール: python -m pip install -r requirements.txt
+# Python 3.10以上推奨
+
+yfinance>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+requests>=2.31.0
+lxml>=5.0.0

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>マーケット分析ダッシュボード</title>
+<style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --border: #30363d; --text: #e6edf3;
+    --muted: #8b949e; --accent: #58a6ff;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg); color: var(--text); display: flex; flex-direction: column;
+    font-family: -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
+  }
+  header {
+    padding: 14px 20px 0; border-bottom: 1px solid var(--border); flex-shrink: 0;
+  }
+  h1 { font-size: 1.2rem; margin: 0 0 12px; }
+  .tabs { display: flex; gap: 4px; }
+  .tab-btn {
+    background: transparent; border: 1px solid var(--border); border-bottom: none;
+    color: var(--muted); padding: 10px 20px; border-radius: 8px 8px 0 0; cursor: pointer;
+    font-size: 0.92rem; font-weight: 500;
+  }
+  .tab-btn.active { background: var(--panel); color: var(--text); border-color: var(--border); }
+  .subnav {
+    display: none; gap: 8px; padding: 8px 20px; background: var(--panel);
+    border-bottom: 1px solid var(--border); flex-shrink: 0; flex-wrap: wrap;
+  }
+  .subnav.visible { display: flex; }
+  .subnav button {
+    background: #21262c; border: 1px solid var(--border); color: var(--text);
+    padding: 5px 14px; border-radius: 5px; cursor: pointer; font-size: 0.8rem;
+  }
+  .subnav button.active { background: var(--accent); color: #04101f; border-color: var(--accent); font-weight: 600; }
+  main { flex: 1; min-height: 0; }
+  iframe { width: 100%; height: 100%; border: none; display: block; background: var(--bg); }
+</style>
+</head>
+<body>
+  <header>
+    <h1>マーケット分析ダッシュボード</h1>
+    <div class="tabs">
+      <button class="tab-btn active" id="tab-chart" onclick="switchTab('chart')">📈 マーケットチャート</button>
+      <button class="tab-btn" id="tab-daily" onclick="switchTab('daily')">📰 日次市場サマリー</button>
+      <button class="tab-btn" id="tab-board" onclick="switchTab('board')">🏛️ 審議委員まとめ</button>
+    </div>
+  </header>
+
+  <div class="subnav" id="daily-subnav">
+    <button id="sub-us-daily" onclick="loadDaily('us-daily')">米国 日次</button>
+    <button id="sub-jp-daily" onclick="loadDaily('jp-daily')">日本 日次</button>
+    <button id="sub-us-structure" onclick="loadDaily('us-structure')">米国 構造ページ</button>
+    <button id="sub-jp-structure" onclick="loadDaily('jp-structure')">日本 構造ページ</button>
+  </div>
+
+  <main>
+    <iframe id="content" src="charts/output/index.html"></iframe>
+  </main>
+
+<script>
+const PAGES = {
+  chart: 'charts/output/index.html',
+  board: 'boards/output/index.html',
+  'us-daily': 'daily-review/reports/us/latest.html',
+  'jp-daily': 'daily-review/reports/jp/latest.html',
+  'us-structure': 'daily-review/reports/structure/us/index.html',
+  'jp-structure': 'daily-review/reports/structure/jp/index.html',
+};
+
+function setActive(id, cls) {
+  document.querySelectorAll('.' + cls).forEach(el => el.classList.remove('active'));
+  const el = document.getElementById(id);
+  if (el) el.classList.add('active');
+}
+
+function switchTab(tab) {
+  setActive('tab-' + tab, 'tab-btn');
+  document.getElementById('daily-subnav').classList.toggle('visible', tab === 'daily');
+  if (tab === 'chart') {
+    document.getElementById('content').src = PAGES.chart;
+  } else if (tab === 'board') {
+    document.getElementById('content').src = PAGES.board;
+  } else if (tab === 'daily') {
+    loadDaily('us-daily');
+  }
+}
+
+function loadDaily(key) {
+  setActive('sub-' + key, 'subnav button');
+  document.getElementById('content').src = PAGES[key];
+}
+</script>
+</body>
+</html>

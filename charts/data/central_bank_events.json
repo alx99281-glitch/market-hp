@@ -1,0 +1,494 @@
+[
+  {
+    "date": "2016-01-29",
+    "bank": "日銀",
+    "type": "policy_change",
+    "detail": "マイナス金利政策の導入を決定（-0.1%）"
+  },
+  {
+    "date": "2016-09-21",
+    "bank": "日銀",
+    "type": "policy_change",
+    "detail": "長短金利操作(YCC)を導入、10年金利目標0%程度"
+  },
+  {
+    "date": "2016-12-14",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "0.25→0.50%へ利上げ（利上げサイクル再開）"
+  },
+  {
+    "date": "2017-03-15",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "0.50→0.75%へ利上げ"
+  },
+  {
+    "date": "2017-06-14",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "0.75→1.00%へ利上げ"
+  },
+  {
+    "date": "2017-12-13",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "1.00→1.25%へ利上げ"
+  },
+  {
+    "date": "2018-03-21",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "1.25→1.50%へ利上げ"
+  },
+  {
+    "date": "2018-06-13",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "1.50→1.75%へ利上げ"
+  },
+  {
+    "date": "2018-07-31",
+    "bank": "日銀",
+    "type": "policy_change",
+    "detail": "YCCの運用柔軟化（変動幅拡大を容認）"
+  },
+  {
+    "date": "2018-09-26",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "1.75→2.00%へ利上げ"
+  },
+  {
+    "date": "2018-12-19",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "2.00→2.25%へ利上げ（当時「利上げ継続」姿勢が株安を招いた会合）"
+  },
+  {
+    "date": "2019-01-30",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。利上げ休止シグナルで市場好感"
+  },
+  {
+    "date": "2019-03-20",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。年内利上げ見送りを示唆"
+  },
+  {
+    "date": "2019-05-01",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2019-06-19",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。利下げ地ならし"
+  },
+  {
+    "date": "2019-07-31",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "2.25→2.00%へ利下げ（「保険的利下げ」の開始）"
+  },
+  {
+    "date": "2019-09-18",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "2.00→1.75%へ利下げ"
+  },
+  {
+    "date": "2019-10-30",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "1.75→1.50%へ利下げ"
+  },
+  {
+    "date": "2019-12-11",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2020-01-29",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2020-03-03",
+    "bank": "FRB",
+    "type": "emergency_cut",
+    "detail": "臨時会合で1.50→1.00%へ緊急利下げ（新型コロナ）"
+  },
+  {
+    "date": "2020-03-15",
+    "bank": "FRB",
+    "type": "emergency_cut",
+    "detail": "臨時会合で1.00→0.00-0.25%へ緊急利下げ・量的緩和再開"
+  },
+  {
+    "date": "2020-04-29",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き（ゼロ金利継続）"
+  },
+  {
+    "date": "2020-06-10",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2020-07-29",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2020-09-16",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。平均インフレ目標(AIT)を導入"
+  },
+  {
+    "date": "2020-11-05",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2020-12-16",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2021-01-27",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2021-03-17",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2021-03-19",
+    "bank": "日銀",
+    "type": "policy_change",
+    "detail": "YCC変動幅を明確化(±0.25%)、ETF買入を弾力化"
+  },
+  {
+    "date": "2021-04-28",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2021-06-16",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。ドットチャートで利上げ前倒し示唆（タカ派化）"
+  },
+  {
+    "date": "2021-07-28",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2021-09-22",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。テーパリング(資産購入減額)を示唆"
+  },
+  {
+    "date": "2021-11-03",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。テーパリング開始を決定"
+  },
+  {
+    "date": "2021-12-15",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。テーパリング加速、利上げ前倒しを示唆"
+  },
+  {
+    "date": "2022-01-26",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。3月利上げを事実上予告"
+  },
+  {
+    "date": "2022-03-16",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "0-0.25→0.25-0.50%へ利上げ（利上げサイクル開始）"
+  },
+  {
+    "date": "2022-05-04",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "0.25-0.50→0.75-1.00%へ+50bp利上げ"
+  },
+  {
+    "date": "2022-06-15",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "0.75-1.00→1.50-1.75%へ+75bp利上げ（1994年以来の大幅利上げ）"
+  },
+  {
+    "date": "2022-07-27",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "1.50-1.75→2.25-2.50%へ+75bp利上げ"
+  },
+  {
+    "date": "2022-09-21",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "2.25-2.50→3.00-3.25%へ+75bp利上げ"
+  },
+  {
+    "date": "2022-11-02",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "3.00-3.25→3.75-4.00%へ+75bp利上げ"
+  },
+  {
+    "date": "2022-12-14",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "3.75-4.00→4.25-4.50%へ+50bp利上げ（利上げペース減速）"
+  },
+  {
+    "date": "2022-12-20",
+    "bank": "日銀",
+    "type": "policy_change",
+    "detail": "YCC変動幅を±0.25%→±0.5%に拡大（事実上の利上げと市場は解釈、円急騰）"
+  },
+  {
+    "date": "2023-02-01",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "4.25-4.50→4.50-4.75%へ+25bp利上げ"
+  },
+  {
+    "date": "2023-03-22",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "4.50-4.75→4.75-5.00%へ+25bp利上げ（SVB破綻直後）"
+  },
+  {
+    "date": "2023-05-03",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "4.75-5.00→5.00-5.25%へ+25bp利上げ"
+  },
+  {
+    "date": "2023-06-14",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き（利上げ休止、but タカ派ドットチャート）"
+  },
+  {
+    "date": "2023-07-26",
+    "bank": "FRB",
+    "type": "hike",
+    "detail": "5.00-5.25→5.25-5.50%へ+25bp利上げ（本利上げサイクル最後の利上げ）"
+  },
+  {
+    "date": "2023-07-28",
+    "bank": "日銀",
+    "type": "policy_change",
+    "detail": "YCCをさらに柔軟化、1.0%を上限の目途に"
+  },
+  {
+    "date": "2023-09-20",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2023-10-31",
+    "bank": "日銀",
+    "type": "policy_change",
+    "detail": "YCCの上限を「目途」として実質撤廃に近い運用へ"
+  },
+  {
+    "date": "2023-11-01",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2023-12-13",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。2024年の利下げ転換を示唆（ハト派転換で株高）"
+  },
+  {
+    "date": "2024-01-31",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2024-03-19",
+    "bank": "日銀",
+    "type": "hike",
+    "detail": "マイナス金利政策とYCCを解除、政策金利を0～0.1%に（17年ぶりの利上げ）"
+  },
+  {
+    "date": "2024-03-20",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2024-05-01",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2024-06-12",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2024-07-31",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き。9月利下げを示唆"
+  },
+  {
+    "date": "2024-07-31",
+    "bank": "日銀",
+    "type": "hike",
+    "detail": "政策金利を0.25%程度に引き上げ、国債買入減額計画を決定（円キャリー巻き戻しの契機）"
+  },
+  {
+    "date": "2024-09-18",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "5.25-5.50→4.75-5.00%へ-50bp利下げ（利下げサイクル開始）"
+  },
+  {
+    "date": "2024-11-07",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "4.75-5.00→4.50-4.75%へ-25bp利下げ"
+  },
+  {
+    "date": "2024-12-18",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "4.50-4.75→4.25-4.50%へ-25bp利下げ。2025年の利下げ回数見通しを縮小（タカ派修正で株安）"
+  },
+  {
+    "date": "2025-01-24",
+    "bank": "日銀",
+    "type": "hike",
+    "detail": "政策金利を0.5%程度に引き上げ"
+  },
+  {
+    "date": "2025-01-29",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2025-03-19",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2025-05-07",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2025-06-18",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2025-07-30",
+    "bank": "FRB",
+    "type": "hold",
+    "detail": "据え置き"
+  },
+  {
+    "date": "2025-09-17",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "4.25-4.50→4.00-4.25%へ-25bp利下げ（2025年の利下げ再開）"
+  },
+  {
+    "date": "2025-10-29",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "4.00-4.25→3.75-4.00%へ-25bp利下げ"
+  },
+  {
+    "date": "2025-12-10",
+    "bank": "FRB",
+    "type": "cut",
+    "detail": "3.75-4.00→3.50-3.75%へ-25bp利下げ。今後の利下げは慎重姿勢を示唆"
+  },
+  {
+    "date": "2025-12-19",
+    "bank": "日銀",
+    "type": "hike",
+    "detail": "政策金利を0.75%程度に引き上げ（1995年以来の水準）"
+  },
+  {
+    "date": "2026-01-28",
+    "bank": "FRB",
+    "type": "unknown",
+    "detail": "会合日程（結果は要検証）"
+  },
+  {
+    "date": "2026-03-18",
+    "bank": "FRB",
+    "type": "unknown",
+    "detail": "会合日程（結果は要検証）"
+  },
+  {
+    "date": "2026-04-29",
+    "bank": "FRB",
+    "type": "unknown",
+    "detail": "会合日程（結果は要検証）"
+  },
+  {
+    "date": "2026-06-17",
+    "bank": "FRB",
+    "type": "unknown",
+    "detail": "会合日程（結果は要検証）"
+  },
+  {
+    "date": "2026-07-29",
+    "bank": "FRB",
+    "type": "unknown",
+    "detail": "会合日程（結果は要検証）"
+  },
+  {
+    "date": "2026-09-16",
+    "bank": "FRB",
+    "type": "unknown",
+    "detail": "会合日程（結果は要検証）"
+  }
+]

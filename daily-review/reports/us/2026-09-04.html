@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日次市場サマリー（米国） 2026-09-04</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --panel: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --pos: #3fb950;
+  --neg: #f85149;
+  --accent: #58a6ff;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  line-height: 1.6;
+}
+h1 { font-size: 1.4rem; margin-bottom: 4px; }
+.subtitle { color: var(--muted); margin-top: 0; margin-bottom: 24px; font-size: 0.9rem; }
+.headline {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 16px 20px;
+  font-size: 1.15rem;
+  margin-bottom: 28px;
+}
+section { margin-bottom: 32px; }
+h2 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 14px;
+}
+.tp-row { margin-bottom: 14px; }
+.tp-label { display: flex; justify-content: space-between; font-size: 0.92rem; margin-bottom: 4px; }
+.tp-name { color: var(--text); }
+.tp-z { font-variant-numeric: tabular-nums; color: var(--muted); }
+.bar-track { background: #21262c; border-radius: 3px; height: 8px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 3px; }
+.pos { background: var(--pos); }
+.neg { background: var(--neg); }
+.news-placeholder { color: var(--muted); font-size: 0.85rem; margin-top: 4px; font-style: italic; }
+.news-box { margin-top: 8px; padding: 10px 12px; background: #1c2128; border-radius: 4px; border-left: 3px solid var(--accent); }
+.news-summary { font-size: 0.85rem; line-height: 1.6; }
+.news-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
+.news-sources a { color: var(--accent); }
+.news-sources li { margin-bottom: 2px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-weight: 500; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+.waterfall-row { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; font-size: 0.85rem; }
+.waterfall-name { width: 180px; flex-shrink: 0; color: var(--muted); }
+.waterfall-bar-wrap { flex: 1; display: flex; align-items: center; }
+.waterfall-center { width: 1px; background: var(--border); align-self: stretch; }
+.waterfall-bar { height: 14px; border-radius: 2px; }
+.waterfall-val { width: 80px; text-align: right; font-variant-numeric: tabular-nums; flex-shrink: 0; }
+.badge {
+  display: inline-block; font-size: 0.72rem; padding: 1px 8px; border-radius: 10px;
+  border: 1px solid var(--border); color: var(--muted); margin-left: 8px;
+}
+footer {
+  margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border);
+  color: var(--muted); font-size: 0.78rem;
+}
+footer div { margin-bottom: 2px; }
+</style>
+</head>
+<body>
+  <h1>日次市場サマリー（米国）</h1>
+  <p class="subtitle">2026-09-04 <span class="badge">S&amp;P500</span></p>
+
+  <div class="headline">指数は小幅下落（-0.38%）。最も動いたのはBetaファクター（+2.67%）</div>
+
+  <section>
+    <h2>本日の論点（|z| ≥ 1.5, ローリング120日）</h2>
+    
+        <div class="tp-row">
+          <div class="tp-label">
+            <span class="tp-name">sector_internal_dispersion:Consumer Discretionary</span>
+            <span class="tp-z">値=+0.0300 &nbsp; z=+2.00</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill pos" style="width:100.0%"></div></div>
+          <div class="news-box">
+      <div class="news-summary">裏付けニュース: メモリー半導体(Micron, SanDisk等)がAI需要によるDRAM/NAND逼迫と大幅値上げ観測、Dellの950億ドル規模のAIサーバー受注残などを材料に急伸する一方、雇用統計の上振れでFRB利上げ観測が一時50%を超えるなど金利敏感株には逆風となり、同じセクター内でも明暗が分かれた。</div>
+      <ul class="news-sources"><li><a href='https://finance.yahoo.com/technology/articles/micron-sandisk-lead-memory-chip-174447419.html' target='_blank' rel='noopener'>Micron, SanDisk Lead Memory Chip Stocks Rally on Strong AI Demand</a></li><li><a href='https://finance.yahoo.com/markets/stocks/articles/micron-sandisk-jump-4-even-151013489.html' target='_blank' rel='noopener'>Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%</a></li><li><a href='https://247wallst.com/investing/2026/09/04/sandisk-soars-8-is-the-nand-pricing-cycle-still-accelerating/' target='_blank' rel='noopener'>SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?</a></li></ul>
+    </div>
+        </div>
+  </section>
+
+  <section>
+    <h2>セクター寄与度（自前計算・SPY保有構成ベース（cap-weight近似））</h2>
+    
+        <div class="waterfall-row">
+          <div class="waterfall-name">Information Technology</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:26.8%"></div></div>
+          <div class="waterfall-val">+0.079%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Industrials</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:7.4%"></div></div>
+          <div class="waterfall-val">+0.022%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Utilities</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:0.5%"></div></div>
+          <div class="waterfall-val">+0.002%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Materials</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:1.7%; margin-left:48.3%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.005%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Real Estate</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:4.0%; margin-left:46.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.012%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Energy</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:9.7%; margin-left:40.3%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.029%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Consumer Staples</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:12.2%; margin-left:37.8%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.036%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Consumer Discretionary</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:18.7%; margin-left:31.3%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.055%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Health Care</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:28.9%; margin-left:21.1%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.085%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Financials</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:35.5%; margin-left:14.5%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.105%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Communication Services</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:50.0%; margin-left:0.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.147%</div>
+        </div>
+  </section>
+
+  <section>
+    <h2>セクターETFベース簡易版（整合性チェック）</h2>
+    
+        <div class="waterfall-row">
+          <div class="waterfall-name">Technology</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:26.5%"></div></div>
+          <div class="waterfall-val">+0.704%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Industrials</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:15.3%"></div></div>
+          <div class="waterfall-val">+0.407%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Utilities</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:4.4%"></div></div>
+          <div class="waterfall-val">+0.116%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Materials</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:12.9%; margin-left:37.1%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.342%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Real Estate</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:27.2%; margin-left:22.8%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.723%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Financials</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:29.5%; margin-left:20.5%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.786%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Consumer Staples</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:30.0%; margin-left:20.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.798%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Energy</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:32.6%; margin-left:17.4%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.867%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Health Care</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:39.2%; margin-left:10.8%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-1.045%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Communication Services</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:44.7%; margin-left:5.3%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-1.191%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Consumer Discretionary</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:50.0%; margin-left:0.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-1.331%</div>
+        </div>
+  </section>
+
+  <section>
+    <h2>ファクター日次リターン</h2>
+    <table>
+      <thead><tr><th>ファクター</th><th class='num'>自前計算</th><th class='num'>ETFベース簡易版</th></tr></thead>
+      <tbody><tr><td>Momentum</td><td class='num'>+2.354%</td><td class='num'>+1.817%</td></tr><tr><td>Volatility</td><td class='num'>+0.473%</td><td class='num'>-0.992%</td></tr><tr><td>Beta</td><td class='num'>+2.672%</td><td class='num'>—</td></tr><tr><td>Liquidity</td><td class='num'>+0.780%</td><td class='num'>—</td></tr><tr><td>Value</td><td class='num'>-0.780%</td><td class='num'>+0.804%</td></tr><tr><td>Growth</td><td class='num'>+0.390%</td><td class='num'>—</td></tr><tr><td>Quality</td><td class='num'>+0.673%</td><td class='num'>-0.394%</td></tr><tr><td>Size</td><td class='num'>-0.660%</td><td class='num'>+0.278%</td></tr></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>個別銘柄寄与</h2>
+    
+    <div class="two-col">
+      <div>
+        <h3 style="font-size:0.85rem;color:var(--pos);margin-bottom:6px;">寄与上位10</h3>
+        <table><thead><tr><th>銘柄</th><th class='num'>リターン</th><th class='num'>寄与度</th></tr></thead>
+        <tbody><tr><td>MU</td><td class='num'>+6.10%</td><td class='num'>+0.094%</td></tr><tr><td>NVDA</td><td class='num'>+0.84%</td><td class='num'>+0.062%</td></tr><tr><td>AMD</td><td class='num'>+4.69%</td><td class='num'>+0.049%</td></tr><tr><td>SNDK</td><td class='num'>+11.90%</td><td class='num'>+0.041%</td></tr><tr><td>INTC</td><td class='num'>+4.51%</td><td class='num'>+0.031%</td></tr><tr><td>LRCX</td><td class='num'>+5.12%</td><td class='num'>+0.026%</td></tr><tr><td>KLAC</td><td class='num'>+7.32%</td><td class='num'>+0.024%</td></tr><tr><td>META</td><td class='num'>+1.00%</td><td class='num'>+0.021%</td></tr><tr><td>AMAT</td><td class='num'>+4.31%</td><td class='num'>+0.021%</td></tr><tr><td>MRVL</td><td class='num'>+7.05%</td><td class='num'>+0.019%</td></tr></tbody></table>
+      </div>
+      <div>
+        <h3 style="font-size:0.85rem;color:var(--neg);margin-bottom:6px;">寄与下位10</h3>
+        <table><thead><tr><th>銘柄</th><th class='num'>リターン</th><th class='num'>寄与度</th></tr></thead>
+        <tbody><tr><td>AAPL</td><td class='num'>-2.51%</td><td class='num'>-0.157%</td></tr><tr><td>TSLA</td><td class='num'>-5.92%</td><td class='num'>-0.111%</td></tr><tr><td>MSFT</td><td class='num'>-2.04%</td><td class='num'>-0.102%</td></tr><tr><td>GOOGL</td><td class='num'>-1.17%</td><td class='num'>-0.065%</td></tr><tr><td>GOOG</td><td class='num'>-1.11%</td><td class='num'>-0.061%</td></tr><tr><td>PLTR</td><td class='num'>-4.49%</td><td class='num'>-0.025%</td></tr><tr><td>NFLX</td><td class='num'>-5.35%</td><td class='num'>-0.023%</td></tr><tr><td>XOM</td><td class='num'>-1.69%</td><td class='num'>-0.015%</td></tr><tr><td>WMT</td><td class='num'>-1.18%</td><td class='num'>-0.014%</td></tr><tr><td>LLY</td><td class='num'>-0.88%</td><td class='num'>-0.012%</td></tr></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>PCA射影（銘柄レベル、直近60日）</h2>
+    
+    <p style="color:var(--muted);font-size:0.85rem">
+      軸推定日: 2026-09-05 / 対象銘柄数: 496 / 説明分散比率: PC1 17.1% / PC2 13.4% / PC3 9.2% / PC4 5.4% / PC5 2.6%
+    </p>
+    <div style="display:flex; gap:24px; flex-wrap:wrap; margin-bottom:16px"><div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC1</div>
+          
+    <svg viewBox="0 0 260 60" width="260" height="60">
+      <polyline points="4.0,11.5 8.3,27.6 12.5,18.4 16.8,40.7 21.1,28.0 25.4,20.2 29.6,20.5 33.9,52.4 38.2,34.3 42.4,20.7 46.7,53.6 51.0,23.3 55.3,23.8 59.5,50.5 63.8,53.8 68.1,24.1 72.3,48.0 76.6,25.7 80.9,22.4 85.2,32.6 89.4,45.3 93.7,21.4 98.0,39.2 102.2,50.2 106.5,33.2 110.8,32.2 115.1,14.1 119.3,28.2 123.6,31.9 127.9,45.6 132.1,40.7 136.4,51.1 140.7,51.0 144.9,4.0 149.2,28.3 153.5,25.9 157.8,19.3 162.0,34.9 166.3,36.4 170.6,29.0 174.8,38.9 179.1,29.2 183.4,22.4 187.7,36.7 191.9,29.0 196.2,24.5 200.5,49.7 204.7,56.0 209.0,31.9 213.3,33.3 217.6,41.5 221.8,27.0 226.1,27.0 230.4,30.6 234.6,43.3 238.9,31.4 243.2,39.2 247.5,30.6 251.7,31.2 256.0,19.9" fill="none" stroke="#58a6ff" stroke-width="1.6" />
+      <circle cx="256.0" cy="19.9" r="2.5" fill="#58a6ff" />
+      <text x="256.0" y="19.9" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#58a6ff">+0.299</text>
+    </svg>
+        </div><div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC2</div>
+          
+    <svg viewBox="0 0 260 60" width="260" height="60">
+      <polyline points="4.0,22.2 8.3,14.7 12.5,17.5 16.8,13.4 21.1,7.3 25.4,16.8 29.6,9.7 33.9,10.7 38.2,17.2 42.4,13.6 46.7,18.4 51.0,14.0 55.3,12.4 59.5,15.9 63.8,17.4 68.1,13.6 72.3,9.6 76.6,4.0 80.9,17.4 85.2,11.2 89.4,9.9 93.7,11.2 98.0,14.4 102.2,14.6 106.5,6.6 110.8,9.3 115.1,13.3 119.3,10.5 123.6,9.2 127.9,15.5 132.1,19.7 136.4,18.8 140.7,7.4 144.9,13.0 149.2,9.8 153.5,19.6 157.8,21.3 162.0,12.8 166.3,7.7 170.6,19.8 174.8,11.6 179.1,13.9 183.4,13.0 187.7,16.5 191.9,10.9 196.2,8.0 200.5,9.3 204.7,56.0 209.0,4.1 213.3,18.5 217.6,11.4 221.8,16.4 226.1,10.8 230.4,11.3 234.6,10.2 238.9,9.6 243.2,8.5 247.5,14.4 251.7,16.1 256.0,10.4" fill="none" stroke="#3fb950" stroke-width="1.6" />
+      <circle cx="256.0" cy="10.4" r="2.5" fill="#3fb950" />
+      <text x="256.0" y="10.4" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#3fb950">+0.070</text>
+    </svg>
+        </div><div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC3</div>
+          
+    <svg viewBox="0 0 260 60" width="260" height="60">
+      <polyline points="4.0,12.3 8.3,14.4 12.5,16.9 16.8,16.2 21.1,31.2 25.4,16.8 29.6,18.8 33.9,15.7 38.2,10.1 42.4,17.5 46.7,12.1 51.0,18.3 55.3,18.9 59.5,9.8 63.8,11.8 68.1,17.8 72.3,15.7 76.6,25.7 80.9,13.8 85.2,12.4 89.4,15.8 93.7,21.2 98.0,14.0 102.2,5.4 106.5,22.9 110.8,19.6 115.1,20.7 119.3,19.0 123.6,20.9 127.9,5.8 132.1,7.3 136.4,4.0 140.7,19.2 144.9,26.0 149.2,17.6 153.5,8.8 157.8,8.6 162.0,15.9 166.3,20.7 170.6,15.1 174.8,17.6 179.1,16.9 183.4,20.5 187.7,10.4 191.9,19.6 196.2,26.6 200.5,16.1 204.7,56.0 209.0,17.1 213.3,14.0 217.6,13.4 221.8,21.6 226.1,15.9 230.4,16.6 234.6,15.5 238.9,22.9 243.2,26.6 247.5,13.8 251.7,11.1 256.0,21.4" fill="none" stroke="#f0883e" stroke-width="1.6" />
+      <circle cx="256.0" cy="21.4" r="2.5" fill="#f0883e" />
+      <text x="256.0" y="21.4" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#f0883e">-0.116</text>
+    </svg>
+        </div></div>
+    <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">残差比率（PC1〜PC5で説明できなかった当日分散の比率、直近60日）</div>
+    
+    <svg viewBox="0 0 780 70" width="780" height="70">
+      <polyline points="4.0,43.3 17.1,5.2 30.2,33.5 43.3,20.8 56.3,22.0 69.4,24.7 82.5,25.7 95.6,40.6 108.7,18.0 121.8,22.9 134.8,41.4 147.9,16.0 161.0,15.5 174.1,40.1 187.2,42.7 200.3,21.3 213.4,43.8 226.4,34.5 239.5,29.1 252.6,18.3 265.7,38.7 278.8,19.2 291.9,15.6 304.9,45.8 318.0,17.6 331.1,8.9 344.2,39.3 357.3,16.0 370.4,6.0 383.5,35.1 396.5,36.3 409.6,43.4 422.7,29.6 435.8,41.7 448.9,7.3 462.0,20.1 475.1,24.7 488.1,9.3 501.2,13.8 514.3,10.7 527.4,21.4 540.5,6.2 553.6,20.7 566.6,17.9 579.7,14.7 592.8,31.2 605.9,44.4 619.0,66.0 632.1,18.5 645.2,15.0 658.2,33.2 671.3,24.4 684.4,18.4 697.5,32.6 710.6,25.7 723.7,13.9 736.7,29.0 749.8,4.0 762.9,12.3 776.0,32.8" fill="none" stroke="#f85149" stroke-width="1.6" />
+      <circle cx="776.0" cy="32.8" r="2.5" fill="#f85149" />
+      <text x="776.0" y="32.8" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#f85149">51%</text>
+    </svg>
+  </section>
+
+  <section>
+    <h2>日米連携指標</h2>
+    <p style="color:var(--muted)">フェーズ6未実装</p>
+  </section>
+
+  <footer>
+    <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: SPY保有構成ベース（cap-weight近似）</div>
+    <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
+    <div>レポート生成時刻(UTC): 2026-09-05T12:09:46+00:00</div>
+  </footer>
+</body>
+</html>

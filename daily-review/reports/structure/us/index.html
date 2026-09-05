@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>構造ページ（米国）</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --panel: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --pos: #3fb950;
+  --neg: #f85149;
+  --accent: #58a6ff;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  line-height: 1.6;
+}
+h1 { font-size: 1.4rem; margin-bottom: 4px; }
+.subtitle { color: var(--muted); margin-top: 0; margin-bottom: 24px; font-size: 0.9rem; }
+.headline {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 16px 20px;
+  font-size: 1.15rem;
+  margin-bottom: 28px;
+}
+section { margin-bottom: 32px; }
+h2 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 14px;
+}
+.tp-row { margin-bottom: 14px; }
+.tp-label { display: flex; justify-content: space-between; font-size: 0.92rem; margin-bottom: 4px; }
+.tp-name { color: var(--text); }
+.tp-z { font-variant-numeric: tabular-nums; color: var(--muted); }
+.bar-track { background: #21262c; border-radius: 3px; height: 8px; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 3px; }
+.pos { background: var(--pos); }
+.neg { background: var(--neg); }
+.news-placeholder { color: var(--muted); font-size: 0.85rem; margin-top: 4px; font-style: italic; }
+.news-box { margin-top: 8px; padding: 10px 12px; background: #1c2128; border-radius: 4px; border-left: 3px solid var(--accent); }
+.news-summary { font-size: 0.85rem; line-height: 1.6; }
+.news-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
+.news-sources a { color: var(--accent); }
+.news-sources li { margin-bottom: 2px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-weight: 500; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+.waterfall-row { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; font-size: 0.85rem; }
+.waterfall-name { width: 180px; flex-shrink: 0; color: var(--muted); }
+.waterfall-bar-wrap { flex: 1; display: flex; align-items: center; }
+.waterfall-center { width: 1px; background: var(--border); align-self: stretch; }
+.waterfall-bar { height: 14px; border-radius: 2px; }
+.waterfall-val { width: 80px; text-align: right; font-variant-numeric: tabular-nums; flex-shrink: 0; }
+.badge {
+  display: inline-block; font-size: 0.72rem; padding: 1px 8px; border-radius: 10px;
+  border: 1px solid var(--border); color: var(--muted); margin-left: 8px;
+}
+footer {
+  margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border);
+  color: var(--muted); font-size: 0.78rem;
+}
+footer div { margin-bottom: 2px; }
+</style>
+</head>
+<body>
+  <h1>構造ページ（米国）</h1>
+  <p class="subtitle">週次更新 <span class="badge">S&amp;P500</span></p>
+
+  <div class="headline">PC1説明力 16.0%（z=-0.62）。直近の平均的な水準の範囲内です。</div>
+
+  <section>
+    <h2>先週比の変化</h2>
+    <p style='color:var(--muted)'>先週比での顕著な変化はありませんでした。</p>
+  </section>
+
+  <section>
+    <h2>現在の主成分の解釈</h2>
+    <ul style='font-size:0.9rem; line-height:1.9'><li><b>PC1（第1主成分）</b>: 正方向＝Information Technology,Industrials,Materials / 負方向＝Real Estate,Energy,Consumer Staples</li><li><b>PC2（第2主成分）</b>: 正方向＝Consumer Discretionary,Health Care,Financials / 負方向＝Information Technology,Utilities,Energy</li><li><b>PC3（第3主成分）</b>: 正方向＝Information Technology,Communication Services,Energy / 負方向＝Materials,Utilities,Consumer Staples</li></ul>
+  </section>
+
+  <section>
+    <h2>PC1説明力の推移（分散比率、直近52週）</h2>
+    
+    <svg viewBox="0 0 760 70" width="760" height="70">
+      <polyline points="4.0,5.7 18.7,6.6 33.5,6.5 48.2,7.3 63.0,6.0 77.7,6.2 92.5,6.1 107.2,6.9 122.0,7.2 136.7,6.7 151.5,5.0 166.2,4.5 180.9,4.6 195.7,4.1 210.4,4.0 225.2,5.6 239.9,6.0 254.7,6.8 269.4,7.4 284.2,6.8 298.9,6.8 313.6,8.0 328.4,8.5 343.1,7.8 357.9,8.8 372.6,10.2 387.4,10.7 402.1,12.3 416.9,12.9 431.6,13.1 446.4,26.8 461.1,52.1 475.8,56.4 490.6,57.7 505.3,59.2 520.1,62.6 534.8,63.4 549.6,65.1 564.3,65.2 579.1,63.3 593.8,64.2 608.5,64.7 623.3,65.3 638.0,64.9 652.8,65.2 667.5,65.1 682.3,63.9 697.0,63.1 711.8,63.2 726.5,65.9 741.3,65.7 756.0,66.0" fill="none" stroke="#58a6ff" stroke-width="1.6" />
+      <circle cx="756.0" cy="66.0" r="2.5" fill="#58a6ff" />
+      <text x="756.0" y="66.0" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#58a6ff">16.0%</text>
+    </svg>
+  </section>
+
+  <section>
+    <h2>短期軸(60日) vs 長期軸(250日) のPC1ローディング相関（直近52週）</h2>
+    <p style="color:var(--muted);font-size:0.85rem">相関が0.8を下回ると「構造変化の疑い」フラグ</p>
+    
+    <svg viewBox="0 0 760 70" width="760" height="70">
+      <polyline points="4.0,63.8 18.7,64.6 33.5,61.9 48.2,66.0 63.0,31.7 77.7,20.1 92.5,12.5 107.2,20.3 122.0,9.0 136.7,9.2 151.5,8.5 166.2,9.4 180.9,9.7 195.7,8.0 210.4,8.1 225.2,7.7 239.9,7.7 254.7,12.3 269.4,14.2 284.2,14.0 298.9,13.7 313.6,12.3 328.4,12.4 343.1,14.1 357.9,15.5 372.6,11.9 387.4,13.5 402.1,13.7 416.9,12.9 431.6,13.0 446.4,11.3 461.1,7.5 475.8,7.9 490.6,8.0 505.3,11.4 520.1,12.5 534.8,12.4 549.6,11.5 564.3,9.0 579.1,7.4 593.8,5.8 608.5,8.1 623.3,7.8 638.0,8.1 652.8,7.0 667.5,6.4 682.3,4.7 697.0,4.3 711.8,4.0 726.5,12.1 741.3,9.5 756.0,16.0" fill="none" stroke="#3fb950" stroke-width="1.6" />
+      <circle cx="756.0" cy="16.0" r="2.5" fill="#3fb950" />
+      <text x="756.0" y="16.0" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#3fb950">0.81</text>
+    </svg>
+  </section>
+
+  <section>
+    <h2>残差比率の週次平均の推移（直近52週）</h2>
+    
+    <svg viewBox="0 0 760 70" width="760" height="70">
+      <polyline points="4.0,22.0 18.7,14.4 33.5,5.5 48.2,14.2 63.0,30.6 77.7,29.7 92.5,17.7 107.2,10.6 122.0,16.6 136.7,30.7 151.5,35.2 166.2,33.5 180.9,13.6 195.7,28.6 210.4,32.9 225.2,4.6 239.9,27.9 254.7,27.9 269.4,16.6 284.2,17.6 298.9,15.5 313.6,45.4 328.4,18.7 343.1,4.0 357.9,35.4 372.6,34.6 387.4,36.3 402.1,18.8 416.9,43.9 431.6,56.3 446.4,35.9 461.1,50.7 475.8,29.1 490.6,16.9 505.3,33.5 520.1,36.0 534.8,34.0 549.6,34.9 564.3,57.3 579.1,55.3 593.8,43.5 608.5,55.3 623.3,53.0 638.0,51.7 652.8,47.0 667.5,36.7 682.3,56.4 697.0,18.0 711.8,25.3 726.5,66.0 741.3,46.3 756.0,27.7" fill="none" stroke="#f85149" stroke-width="1.6" />
+      <circle cx="756.0" cy="27.7" r="2.5" fill="#f85149" />
+      <text x="756.0" y="27.7" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#f85149">75.0%</text>
+    </svg>
+  </section>
+
+  <section>
+    <h2>セクター間平均相関60日の推移（直近52週）</h2>
+    
+    <svg viewBox="0 0 760 70" width="760" height="70">
+      <polyline points="4.0,20.8 18.7,25.1 33.5,23.6 48.2,27.9 63.0,23.1 77.7,18.9 92.5,17.2 107.2,19.1 122.0,20.1 136.7,15.2 151.5,15.5 166.2,10.9 180.9,8.1 195.7,6.4 210.4,7.2 225.2,9.0 239.9,4.0 254.7,14.6 269.4,22.3 284.2,15.3 298.9,19.5 313.6,21.4 328.4,26.9 343.1,33.0 357.9,42.7 372.6,37.4 387.4,38.4 402.1,25.4 416.9,25.8 431.6,26.3 446.4,23.2 461.1,27.1 475.8,28.5 490.6,20.8 505.3,23.4 520.1,22.6 534.8,21.2 549.6,22.2 564.3,30.7 579.1,33.6 593.8,38.5 608.5,43.6 623.3,50.3 638.0,56.1 652.8,55.5 667.5,56.4 682.3,63.2 697.0,63.5 711.8,66.0 726.5,64.7 741.3,64.3 756.0,64.0" fill="none" stroke="#f0883e" stroke-width="1.6" />
+      <circle cx="756.0" cy="64.0" r="2.5" fill="#f0883e" />
+      <text x="756.0" y="64.0" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#f0883e">0.14</text>
+    </svg>
+  </section>
+
+  <section>
+    <h2>構造変化フラグ履歴（直近12週）</h2>
+    <table><thead><tr><th>週末</th><th class='num'>PC1相関(短期/長期)</th>
+      <th class='num'>PC2相関(短期/長期)</th><th>フラグ</th></tr></thead><tbody><tr><td>2026-06-18</td><td class='num'>0.91</td><td class='num'>0.71</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-06-26</td><td class='num'>0.89</td><td class='num'>0.72</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-07-02</td><td class='num'>0.89</td><td class='num'>0.67</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-07-10</td><td class='num'>0.89</td><td class='num'>0.53</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-07-17</td><td class='num'>0.90</td><td class='num'>0.49</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-07-24</td><td class='num'>0.91</td><td class='num'>0.47</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-07-31</td><td class='num'>0.92</td><td class='num'>0.50</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-08-07</td><td class='num'>0.93</td><td class='num'>0.56</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-08-14</td><td class='num'>0.93</td><td class='num'>0.58</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-08-21</td><td class='num'>0.85</td><td class='num'>0.17</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-08-28</td><td class='num'>0.88</td><td class='num'>0.21</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr><tr><td>2026-09-04</td><td class='num'>0.81</td><td class='num'>0.06</td><td><span style="color:var(--neg)">構造変化の疑い</span></td></tr></tbody></table>
+  </section>
+
+  <section>
+    <h2>月次サマリー</h2>
+    <table><thead><tr><th>月</th><th class='num'>PC1説明力(平均)</th>
+      <th class='num'>PC1相関(平均)</th><th class='num'>残差比率(平均)</th>
+      <th class='num'>セクター間相関60日(平均)</th><th>構造変化</th></tr></thead><tbody><tr><td>2024-09</td><td class='num'>23.5%</td><td class='num'>0.88</td><td class='num'>79.3%</td><td class='num'>0.44</td><td>—</td></tr><tr><td>2024-10</td><td class='num'>22.7%</td><td class='num'>0.88</td><td class='num'>84.1%</td><td class='num'>0.46</td><td>構造変化あり</td></tr><tr><td>2024-11</td><td class='num'>20.9%</td><td class='num'>0.76</td><td class='num'>73.6%</td><td class='num'>0.33</td><td>構造変化あり</td></tr><tr><td>2024-12</td><td class='num'>20.2%</td><td class='num'>0.64</td><td class='num'>76.2%</td><td class='num'>0.31</td><td>構造変化あり</td></tr><tr><td>2025-01</td><td class='num'>20.4%</td><td class='num'>0.76</td><td class='num'>77.2%</td><td class='num'>0.39</td><td>構造変化あり</td></tr><tr><td>2025-02</td><td class='num'>20.0%</td><td class='num'>0.88</td><td class='num'>78.4%</td><td class='num'>0.41</td><td>—</td></tr><tr><td>2025-03</td><td class='num'>21.8%</td><td class='num'>0.93</td><td class='num'>60.8%</td><td class='num'>0.45</td><td>—</td></tr><tr><td>2025-04</td><td class='num'>32.2%</td><td class='num'>0.98</td><td class='num'>63.8%</td><td class='num'>0.70</td><td>—</td></tr><tr><td>2025-05</td><td class='num'>35.1%</td><td class='num'>0.98</td><td class='num'>81.7%</td><td class='num'>0.75</td><td>—</td></tr><tr><td>2025-06</td><td class='num'>35.7%</td><td class='num'>0.97</td><td class='num'>79.9%</td><td class='num'>0.77</td><td>構造変化あり</td></tr><tr><td>2025-07</td><td class='num'>35.5%</td><td class='num'>0.84</td><td class='num'>80.1%</td><td class='num'>0.54</td><td>構造変化あり</td></tr><tr><td>2025-08</td><td class='num'>33.9%</td><td class='num'>0.57</td><td class='num'>78.8%</td><td class='num'>0.38</td><td>構造変化あり</td></tr><tr><td>2025-09</td><td class='num'>32.6%</td><td class='num'>0.40</td><td class='num'>85.7%</td><td class='num'>0.31</td><td>構造変化あり</td></tr><tr><td>2025-10</td><td class='num'>32.4%</td><td class='num'>0.68</td><td class='num'>80.1%</td><td class='num'>0.32</td><td>構造変化あり</td></tr><tr><td>2025-11</td><td class='num'>32.6%</td><td class='num'>0.88</td><td class='num'>74.1%</td><td class='num'>0.34</td><td>構造変化あり</td></tr><tr><td>2025-12</td><td class='num'>32.9%</td><td class='num'>0.89</td><td class='num'>80.5%</td><td class='num'>0.38</td><td>構造変化あり</td></tr><tr><td>2026-01</td><td class='num'>32.3%</td><td class='num'>0.85</td><td class='num'>79.7%</td><td class='num'>0.34</td><td>—</td></tr><tr><td>2026-02</td><td class='num'>31.9%</td><td class='num'>0.84</td><td class='num'>76.3%</td><td class='num'>0.28</td><td>構造変化あり</td></tr><tr><td>2026-03</td><td class='num'>31.0%</td><td class='num'>0.84</td><td class='num'>71.1%</td><td class='num'>0.27</td><td>構造変化あり</td></tr><tr><td>2026-04</td><td class='num'>24.0%</td><td class='num'>0.87</td><td class='num'>64.3%</td><td class='num'>0.30</td><td>構造変化あり</td></tr><tr><td>2026-05</td><td class='num'>17.2%</td><td class='num'>0.86</td><td class='num'>72.7%</td><td class='num'>0.31</td><td>構造変化あり</td></tr><tr><td>2026-06</td><td class='num'>16.5%</td><td class='num'>0.90</td><td class='num'>57.4%</td><td class='num'>0.25</td><td>構造変化あり</td></tr><tr><td>2026-07</td><td class='num'>16.3%</td><td class='num'>0.90</td><td class='num'>60.1%</td><td class='num'>0.17</td><td>構造変化あり</td></tr><tr><td>2026-08</td><td class='num'>16.5%</td><td class='num'>0.90</td><td class='num'>67.2%</td><td class='num'>0.13</td><td>構造変化あり</td></tr><tr><td>2026-09</td><td class='num'>16.0%</td><td class='num'>0.81</td><td class='num'>75.0%</td><td class='num'>0.14</td><td>構造変化あり</td></tr></tbody></table>
+  </section>
+
+  <footer>
+    <div>データ出所: Yahoo Finance (yfinance) / PCA: 自前計算（numpy固有値分解）</div>
+    <div>短期軸=60日ローリング, 長期軸=250日ローリング, zスコア窓=26週</div>
+    <div>レポート生成時刻(UTC): 2026-09-05T12:09:49+00:00</div>
+  </footer>
+</body>
+</html>

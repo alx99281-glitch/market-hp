@@ -1,0 +1,12 @@
+# 計算用データ・キャッシュはローカル保存のみ（リポジトリには含めない）
+daily-review/data/
+charts/data/*.json
+!charts/data/central_bank_events.json
+!charts/data/general_market_events.json
+
+# ログ・一時ファイル
+*.log
+*_log.txt
+__pycache__/
+*.pyc
+.DS_Store
