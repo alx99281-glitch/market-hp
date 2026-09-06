@@ -88,6 +88,23 @@ def load_axes(ctx: MarketContext, level: str) -> dict | None:
     return json.loads(p.read_text(encoding="utf-8"))
 
 
+def sector_loading_summary(axes: dict, universe: pd.DataFrame, pc_index: int, n: int = 3) -> tuple[list[str], list[str]]:
+    """指定した主成分(pc_index, 0始まり)について、ローディング上位・下位のセクターを返す。
+
+    「第1主成分とは何か」を数値だけでなく定性的に語れるようにするための補助
+    （層4の構造ページで使っているセクター解釈と同じ考え方を日次レポートにも適用）。
+    """
+    sector_map = universe.set_index("symbol")["sector"]
+    loadings = np.array(axes["loadings"])[:, pc_index]
+    s = pd.Series(loadings, index=axes["tickers"])
+    s = s.groupby(sector_map.reindex(s.index)).mean().dropna().sort_values(ascending=False)
+    if s.empty:
+        return [], []
+    top = list(s.head(n).index)
+    bottom = list(s.tail(n).index)
+    return top, bottom
+
+
 def needs_reestimation(axes: dict | None) -> bool:
     if axes is None:
         return True

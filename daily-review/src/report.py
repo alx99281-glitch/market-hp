@@ -10,7 +10,7 @@ from config import ZSCORE_THRESHOLD, ZSCORE_WINDOW
 from decompose import run_layer1, top_bottom_contributors
 from market_context import MarketContext
 from news_store import load_news_for_date
-from pca import run_layer3
+from pca import load_axes, run_layer3
 from zscore import run_layer2
 
 
@@ -59,6 +59,7 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
         "pc_scores": l3.pc_scores.tail(60),
         "residual_ratio": l3.residual_ratio.tail(60),
         "pca_axes_meta": l3.axes_meta,
+        "pca_stock_axes": load_axes(ctx, "stocks"),
         "generated_at": datetime.now(timezone.utc),
         "zscore_window": ZSCORE_WINDOW,
         "zscore_threshold": ZSCORE_THRESHOLD,
@@ -119,7 +120,7 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     from html_report import _pca_narrative
 
     meta = d["pca_axes_meta"]["stocks"]
-    print("  " + _pca_narrative(d["pc_scores"], d["residual_ratio"], meta))
+    print("  " + _pca_narrative(d["pc_scores"], d["residual_ratio"], meta, d["pca_stock_axes"], ctx.universe_df))
     exp = ", ".join(f"PC{i+1}={v:.1%}" for i, v in enumerate(meta["explained_variance_ratio"]))
     print(f"  （軸推定日: {meta['estimated_at'][:10]}  銘柄数: {meta['n_tickers']}  各パターンの説明力: {exp}）")
     print(d["pc_scores"].tail(5).to_string())

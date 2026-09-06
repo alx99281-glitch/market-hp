@@ -260,8 +260,14 @@ def _sparkline_svg(series: pd.Series, color: str, w: int = 260, h: int = 60, fmt
     </svg>"""
 
 
-def _pca_narrative(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dict) -> str:
-    """主成分分析(PCA)の結果、本日は何が言えるかを平易な文章にまとめる。"""
+def _pca_narrative(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dict, axes: dict | None = None, universe: pd.DataFrame | None = None) -> str:
+    """主成分分析(PCA)の結果、本日は何が言えるかを平易な文章にまとめる。
+
+    axes・universeが渡された場合は、最も動いた主成分がどのセクターの
+    組み合わせに対応するかを言語化し、単なる数値の説明で終わらせない
+    （「第1主成分」だけでは意味が伝わらないため、構造ページと同じ考え方で
+    セクターローディングに結びつける）。
+    """
     exp = meta["explained_variance_ratio"]
     last_date = pc_scores.dropna(how="all").index[-1]
     today_pc = pc_scores.loc[last_date]
@@ -271,6 +277,24 @@ def _pca_narrative(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dic
     dominant_i = int(today_pc.iloc[:n_show].abs().values.argmax())
     dominant_pc_num = dominant_i + 1
     dominant_exp = exp[dominant_i]
+    dominant_score = today_pc.iloc[dominant_i]
+
+    sector_sentence = ""
+    if axes is not None and universe is not None:
+        from pca import sector_loading_summary
+
+        top, bottom = sector_loading_summary(axes, universe, dominant_i)
+        if top and bottom:
+            if dominant_score > 0:
+                stronger, weaker = top, bottom
+            else:
+                stronger, weaker = bottom, top
+            sector_sentence = (
+                f"この変動パターンは普段、「{'・'.join(top)}」が一方に、「{'・'.join(bottom)}」が"
+                f"逆方向に動く形で現れます。本日はこのパターンが強く出ており、"
+                f"「{'・'.join(stronger)}」が相対的に強く、「{'・'.join(weaker)}」が相対的に弱い"
+                f"値動きだった可能性があります。"
+            )
 
     if pd.isna(today_resid):
         resid_sentence = "残差比率のデータが不足しているため、説明力は評価できません。"
@@ -292,11 +316,11 @@ def _pca_narrative(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dic
 
     return (
         f"直近で最も動いたのは第{dominant_pc_num}主成分（過去の値動き全体の分散のうち{dominant_exp:.0%}を説明する"
-        f"変動パターン）でした。{resid_sentence}"
+        f"変動パターン）でした。{sector_sentence}{resid_sentence}"
     )
 
 
-def _render_pca_section(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dict, days: int) -> str:
+def _render_pca_section(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dict, days: int, axes: dict | None = None, universe: pd.DataFrame | None = None) -> str:
     exp = meta["explained_variance_ratio"]
     exp_txt = " / ".join(f"PC{i+1} {v:.1%}" for i, v in enumerate(exp))
     colors = ["#58a6ff", "#3fb950", "#f0883e"]
@@ -308,7 +332,7 @@ def _render_pca_section(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta
         for i, col in enumerate(pc_scores.columns[:3])
     )
     resid_chart = _sparkline_svg(residual_ratio.tail(days), "#f85149", w=780, h=70, fmt_last="{:.0%}")
-    narrative = html.escape(_pca_narrative(pc_scores, residual_ratio, meta))
+    narrative = html.escape(_pca_narrative(pc_scores, residual_ratio, meta, axes, universe))
     return f"""
     <div class="pca-box">
       <div class="pca-narrative">{narrative}</div>
@@ -369,7 +393,7 @@ def render_html(d: dict) -> str:
 
   <section>
     <h2>主成分分析(PCA)から分かること</h2>
-    {_render_pca_section(d['pc_scores'], d['residual_ratio'], d['pca_axes_meta']['stocks'], 60)}
+    {_render_pca_section(d['pc_scores'], d['residual_ratio'], d['pca_axes_meta']['stocks'], 60, d['pca_stock_axes'], ctx.universe_df)}
   </section>
 
   {"" if ctx.name != "us" else '''<section>
