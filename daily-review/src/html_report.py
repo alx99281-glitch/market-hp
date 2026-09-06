@@ -143,13 +143,59 @@ def _render_sources(news: dict | None) -> str:
     return f"<ul class='tp-sources'>{links}</ul>"
 
 
-def _render_talking_points(tp: pd.DataFrame) -> str:
+def _pca_metric_story(metric: str, value: float, stock_axes: dict | None, sector_axes: dict | None, universe: pd.DataFrame) -> str | None:
+    """PCA由来の論点（pca:.. / pca_sector:..）を、ローディングに基づく定性的な結論に変換する。
+
+    ニュースが見つからない場合でも「要因不明」で終わらせず、主成分分析という
+    定量分析の結果から言える範囲のことは言い切る（どのセクターの組み合わせが
+    動いたパターンかを、そのパターンのローディング自体から直接言語化する）。
+    """
+    if metric.startswith("pca:"):
+        prefix, label, axes, scope = "pca", metric[4:], stock_axes, "銘柄"
+    elif metric.startswith("pca_sector:"):
+        prefix, label, axes, scope = "pca_sector", metric[len("pca_sector:"):], sector_axes, "セクター"
+    else:
+        return None
+    if axes is None:
+        return None
+
+    if label == "residual_ratio":
+        if value >= 0.7:
+            return (
+                f"過去の主要な値動きパターン（{scope}ベース）では説明できない動きが目立ちました"
+                f"（説明できなかった比率: 約{value:.0%}）。個別{'銘柄' if prefix == 'pca' else 'セクター'}固有の"
+                f"材料が主導した可能性が高く、指数全体で語れる共通の要因は見当たりません。"
+            )
+        return (
+            f"過去の主要な値動きパターン（{scope}ベース）で比較的よく説明できる値動きでした"
+            f"（説明できた比率: 約{1 - value:.0%}）。特定の銘柄・材料というより、市場全体に"
+            f"共通する既知のパターンの延長で動いた一日と言えます。"
+        )
+
+    try:
+        pc_index = int(label.replace("PC", "")) - 1
+    except ValueError:
+        return None
+    from pca import item_loading_summary, sector_loading_summary
+
+    top, bottom = sector_loading_summary(axes, universe, pc_index) if prefix == "pca" else item_loading_summary(axes, pc_index)
+    if not top or not bottom:
+        return None
+    stronger, weaker = (top, bottom) if value > 0 else (bottom, top)
+    return (
+        f"市場の値動きパターン（{scope}ベース、第{pc_index + 1}主成分）が普段より大きく動きました。"
+        f"このパターンは通常「{'・'.join(top)}」が一方に、「{'・'.join(bottom)}」が逆方向に動く形で現れ、"
+        f"本日は「{'・'.join(stronger)}」が相対的に強く、「{'・'.join(weaker)}」が相対的に弱い値動きだったとみられます。"
+    )
+
+
+def _render_talking_points(tp: pd.DataFrame, stock_axes: dict | None = None, sector_axes: dict | None = None, universe: pd.DataFrame | None = None) -> str:
     """「何がマーケットを主導したか」を箇条書きで示す。
 
-    説明ボックスの中身は、ニュースが見つかった論点は要約文そのもの（既に
-    平易な日本語の説明になっている）、見つからなかった論点は技術指標名を
-    人間向けに言い換えた一文。出典リンクはボックスの外・下に分離する
-    （説明文と出典を視覚的に分けるため）。
+    説明ボックスの中身は優先順に: (1)ニュースが見つかった場合はその要約文、
+    (2)PCA由来の論点はローディングから導ける定性的な結論、(3)それ以外は
+    技術指標名を人間向けに言い換えた一文。出典リンクはボックスの外・下に
+    分離する（説明文と出典を視覚的に分けるため）。
     """
     if tp.empty:
         return "<p style='color:var(--muted)'>本日、しきい値を超える目立った論点はありませんでした。</p>"
@@ -157,11 +203,16 @@ def _render_talking_points(tp: pd.DataFrame) -> str:
     for _, row in tp.iterrows():
         news = row.get("news")
         cls = _cls(row["zscore"])
-        metric_label = html.escape(humanize_metric(str(row["metric"])))
+        metric_name = str(row["metric"])
+        metric_label = html.escape(humanize_metric(metric_name))
         if news:
             main_text = html.escape(news["summary"])
         else:
-            main_text = f"{metric_label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。"
+            pca_story = _pca_metric_story(metric_name, row["value"], stock_axes, sector_axes, universe)
+            if pca_story:
+                main_text = html.escape(pca_story)
+            else:
+                main_text = f"{metric_label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。"
 
         rows.append(f"""
         <div class="tp-item">
@@ -365,7 +416,7 @@ def render_html(d: dict) -> str:
 
   <section>
     <h2>本日の論点（|z| ≥ {d['zscore_threshold']}, ローリング{d['zscore_window']}日）</h2>
-    {_render_talking_points(d['talking_points'])}
+    {_render_talking_points(d['talking_points'], d['pca_stock_axes'], d['pca_sector_axes'], ctx.universe_df)}
   </section>
 
   <section>

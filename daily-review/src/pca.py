@@ -105,6 +105,19 @@ def sector_loading_summary(axes: dict, universe: pd.DataFrame, pc_index: int, n:
     return top, bottom
 
 
+def item_loading_summary(axes: dict, pc_index: int, n: int = 3) -> tuple[list[str], list[str]]:
+    """セクターETFレベルのPCAなど、axes['tickers']が既に集計単位そのものである場合の版。
+
+    sector_loading_summary()との違いは、銘柄->セクターの集計をしない点だけ
+    （セクターETFレベルの軸は最初からセクター名が"ticker"になっているため）。
+    """
+    loadings = np.array(axes["loadings"])[:, pc_index]
+    s = pd.Series(loadings, index=axes["tickers"]).sort_values(ascending=False)
+    if s.empty:
+        return [], []
+    return list(s.head(n).index), list(s.tail(n).index)
+
+
 def needs_reestimation(axes: dict | None) -> bool:
     if axes is None:
         return True

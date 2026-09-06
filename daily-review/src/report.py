@@ -60,6 +60,7 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
         "residual_ratio": l3.residual_ratio.tail(60),
         "pca_axes_meta": l3.axes_meta,
         "pca_stock_axes": load_axes(ctx, "stocks"),
+        "pca_sector_axes": load_axes(ctx, "sectors"),
         "generated_at": datetime.now(timezone.utc),
         "zscore_window": ZSCORE_WINDOW,
         "zscore_threshold": ZSCORE_THRESHOLD,
@@ -81,18 +82,23 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     if tp.empty:
         print("  目立った論点はありませんでした。")
     else:
-        from html_report import humanize_metric
+        from html_report import _pca_metric_story, humanize_metric
 
         for _, row in tp.iterrows():
             news = row.get("news")
-            label = humanize_metric(str(row["metric"]))
+            metric_name = str(row["metric"])
+            label = humanize_metric(metric_name)
             if news:
                 print(f"  - {news['summary']}")
                 print(f"      ({label} / z={row['zscore']:+.2f})")
                 for src in news["sources"]:
                     print(f"      出典: {src['title']} ({src['url']})")
             else:
-                print(f"  - {label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。")
+                pca_story = _pca_metric_story(metric_name, row["value"], d["pca_stock_axes"], d["pca_sector_axes"], ctx.universe_df)
+                if pca_story:
+                    print(f"  - {pca_story}")
+                else:
+                    print(f"  - {label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。")
                 print(f"      (z={row['zscore']:+.2f})")
 
     print("\n[補足: セクター寄与度ウォーターフォール（自前計算）]")
