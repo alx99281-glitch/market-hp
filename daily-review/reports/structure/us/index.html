@@ -47,20 +47,18 @@ h2 {
   padding-bottom: 6px;
   margin-bottom: 14px;
 }
-.tp-row { margin-bottom: 14px; }
-.tp-label { display: flex; justify-content: space-between; font-size: 0.92rem; margin-bottom: 4px; }
-.tp-name { color: var(--text); }
-.tp-z { font-variant-numeric: tabular-nums; color: var(--muted); }
-.bar-track { background: #21262c; border-radius: 3px; height: 8px; overflow: hidden; }
-.bar-fill { height: 100%; border-radius: 3px; }
 .pos { background: var(--pos); }
 .neg { background: var(--neg); }
-.news-placeholder { color: var(--muted); font-size: 0.85rem; margin-top: 4px; font-style: italic; }
-.news-box { margin-top: 8px; padding: 10px 12px; background: #1c2128; border-radius: 4px; border-left: 3px solid var(--accent); }
-.news-summary { font-size: 0.85rem; line-height: 1.6; }
-.news-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
-.news-sources a { color: var(--accent); }
-.news-sources li { margin-bottom: 2px; }
+.tp-item { margin-bottom: 14px; }
+.tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
+.tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
+.tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+.tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
+.tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
+.tp-sources a { color: var(--accent); }
+.tp-sources li { margin-bottom: 2px; }
+.pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
+.pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
 table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
 th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
 th { color: var(--muted); font-weight: 500; }
@@ -157,7 +155,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / PCA: 自前計算（numpy固有値分解）</div>
     <div>短期軸=60日ローリング, 長期軸=250日ローリング, zスコア窓=26週</div>
-    <div>レポート生成時刻(UTC): 2026-09-05T12:09:49+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-07T15:13:51+00:00</div>
   </footer>
 </body>
 </html>
