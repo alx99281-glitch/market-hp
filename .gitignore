@@ -1,5 +1,6 @@
-# 計算用データ・キャッシュはローカル保存のみ（リポジトリには含めない）
-daily-review/data/
+# daily-review/data/ はGitHub Actionsでの自動更新の「状態」を持たせるため
+# あえてリポジトリに含める（差分取得の基準データとして必要）。
+
 charts/data/*.json
 !charts/data/central_bank_events.json
 !charts/data/general_market_events.json

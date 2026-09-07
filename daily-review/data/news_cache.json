@@ -1,0 +1,48 @@
+{
+  "us:2026-09-04:sector_internal_dispersion:Consumer Discretionary": {
+    "summary": "メモリー半導体(Micron, SanDisk等)がAI需要によるDRAM/NAND逼迫と大幅値上げ観測、Dellの950億ドル規模のAIサーバー受注残などを材料に急伸する一方、雇用統計の上振れでFRB利上げ観測が一時50%を超えるなど金利敏感株には逆風となり、同じセクター内でも明暗が分かれた。",
+    "sources": [
+      {
+        "title": "Micron, SanDisk Lead Memory Chip Stocks Rally on Strong AI Demand",
+        "url": "https://finance.yahoo.com/technology/articles/micron-sandisk-lead-memory-chip-174447419.html"
+      },
+      {
+        "title": "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-sandisk-jump-4-even-151013489.html"
+      },
+      {
+        "title": "SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?",
+        "url": "https://247wallst.com/investing/2026/09/04/sandisk-soars-8-is-the-nand-pricing-cycle-still-accelerating/"
+      }
+    ],
+    "searched_at": "2026-09-05T10:48:53.278881+00:00"
+  },
+  "jp:2026-09-04:sector:電力・ガス": {
+    "summary": "前日までの商社・銀行・保険・電力・海運などバリュー株優位の資金の流れが一服し、前日の米国株高を受けたAI・半導体関連への物色シフトの中で電気・ガス業は東証33業種の値下がり上位となった。",
+    "sources": [
+      {
+        "title": "【9月4日(金)東京株式市場】日経平均は5日ぶり反発",
+        "url": "https://www.youtube.com/watch?v=4bDdkFoewtI"
+      },
+      {
+        "title": "2026年9月4日のマーケット情報",
+        "url": "https://stock.f-frontier.com/2026/09/04/234924/"
+      }
+    ],
+    "searched_at": "2026-09-05T10:48:53.291920+00:00"
+  },
+  "jp:2026-09-04:factor:Value": {
+    "summary": "前日(9/3)まで銀行・保険・商社・電力など「バリュー株」に資金が向かっていたが、9/4は前日の米国株高（AI・半導体主導）を受けてグロース色の強い値がさ・ハイテク株に資金が回帰し、バリュー株が相対的に売られる「値がさ株・グロース優位」の一日となった。",
+    "sources": [
+      {
+        "title": "2026年9月3日（木）今日の日本株｜日経平均4日続落、実は商社と内需が主役",
+        "url": "https://note.com/kabuzaru/n/n24594d4b27c7"
+      },
+      {
+        "title": "【漫画】2026年9月4日の日本株｜日経平均は806円高、TOPIXは小幅高",
+        "url": "https://sanhorie.hatenablog.com/entry/2026/09/04/213348"
+      }
+    ],
+    "searched_at": "2026-09-05T10:48:53.306648+00:00"
+  }
+}

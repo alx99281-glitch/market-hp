@@ -54,6 +54,10 @@ h2 {
 .tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
 .tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
 .tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
+.tp-movers-label { font-size: 0.72rem; color: var(--muted); margin-top: 8px; padding-left: 17px; }
+.tp-movers { margin: 3px 0 0; padding-left: 17px; list-style: none; display: flex; gap: 14px; flex-wrap: wrap; }
+.tp-movers li { font-size: 0.8rem; }
+.tp-movers .mover-ticker { color: var(--text); font-weight: 600; margin-right: 4px; }
 .tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
 .tp-sources a { color: var(--accent); }
 .tp-sources li { margin-bottom: 2px; }
@@ -94,7 +98,8 @@ footer div { margin-bottom: 2px; }
         <div class="tp-item">
           <div class="tp-box">
             <div class="tp-bullet"><span class="tp-dot neg"></span>情報通信・サービスその他セクターの値動きが普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。</div>
-            <div class="tp-meta">情報通信・サービスその他セクターの値動き ／ 変動の大きさ(zスコア) -1.57</div>
+            <div class="tp-meta">情報通信・サービスその他セクターの値動き: -0.20% ／ 変動の大きさ(zスコア) -1.57</div>
+            <div class='tp-movers-label'>関連銘柄の動き</div><ul class='tp-movers'><li><span class="mover-ticker">9984.T</span> <span class="pos">+11.22%</span></li><li><span class="mover-ticker">3697.T</span> <span class="neg">-5.91%</span></li><li><span class="mover-ticker">4307.T</span> <span class="neg">-5.61%</span></li></ul>
           </div>
           
         </div>
@@ -354,7 +359,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: 日経225構成銘柄数比率（cap-weightではない近似）</div>
     <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
-    <div>レポート生成時刻(UTC): 2026-09-07T15:12:07+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-07T15:28:18+00:00</div>
   </footer>
 </body>
 </html>

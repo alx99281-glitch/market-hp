@@ -68,6 +68,10 @@ h2 {
 .tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
 .tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
 .tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
+.tp-movers-label { font-size: 0.72rem; color: var(--muted); margin-top: 8px; padding-left: 17px; }
+.tp-movers { margin: 3px 0 0; padding-left: 17px; list-style: none; display: flex; gap: 14px; flex-wrap: wrap; }
+.tp-movers li { font-size: 0.8rem; }
+.tp-movers .mover-ticker { color: var(--text); font-weight: 600; margin-right: 4px; }
 .tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
 .tp-sources a { color: var(--accent); }
 .tp-sources li { margin-bottom: 2px; }
@@ -130,6 +134,26 @@ def _fmt_pct(v: float, digits: int = 2) -> str:
     if pd.isna(v):
         return "N/A"
     return f"{v:+.{digits}%}"
+
+
+def _fmt_metric_value(metric: str, value: float) -> str:
+    """メトリクスの生の値を、種類に応じて読みやすい形式にする。"""
+    if metric.startswith("pca:") or metric.startswith("pca_sector:"):
+        if metric.endswith("residual_ratio"):
+            return f"{value:.0%}"
+        return f"{value:+.3f}（主成分スコア）"
+    return f"{value:+.2%}"
+
+
+def _render_movers(movers: list) -> str:
+    if not movers:
+        return ""
+    items = "".join(
+        f'<li><span class="mover-ticker">{html.escape(m["ticker"])}</span> '
+        f'<span class="{_cls(m["return"])}">{m["return"]:+.2%}</span></li>'
+        for m in movers
+    )
+    return f"<div class='tp-movers-label'>関連銘柄の動き</div><ul class='tp-movers'>{items}</ul>"
 
 
 def _render_sources(news: dict | None) -> str:
@@ -214,11 +238,14 @@ def _render_talking_points(tp: pd.DataFrame, stock_axes: dict | None = None, sec
             else:
                 main_text = f"{metric_label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。"
 
+        value_str = _fmt_metric_value(metric_name, row["value"])
+        movers_html = _render_movers(row.get("movers", []))
         rows.append(f"""
         <div class="tp-item">
           <div class="tp-box">
             <div class="tp-bullet"><span class="tp-dot {cls}"></span>{main_text}</div>
-            <div class="tp-meta">{metric_label} ／ 変動の大きさ(zスコア) {row['zscore']:+.2f}</div>
+            <div class="tp-meta">{metric_label}: {value_str} ／ 変動の大きさ(zスコア) {row['zscore']:+.2f}</div>
+            {movers_html}
           </div>
           {_render_sources(news)}
         </div>""")

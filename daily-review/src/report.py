@@ -14,6 +14,36 @@ from pca import load_axes, run_layer3
 from zscore import run_layer2
 
 
+def _sector_name_from_metric(metric: str) -> str | None:
+    if metric.startswith("sector:"):
+        return metric.split(":", 1)[1]
+    if metric.startswith("sector_internal_dispersion:"):
+        return metric.split(":", 1)[1]
+    return None
+
+
+def related_movers(metric: str, returns: pd.DataFrame, date: pd.Timestamp, universe: pd.DataFrame, n: int = 3) -> list[dict]:
+    """論点の「肉付け」用: その論点に関係する銘柄の、当日の実際の値動きを添える。
+
+    現状はsector: / sector_internal_dispersion: 系の論点についてのみ、
+    該当セクター内で当日リターンの絶対値が大きい銘柄を返す（factor:系や
+    PCA系は、どの銘柄が「その日クインタイルに属していたか」が可変で
+    示しにくいため今回は対象外）。
+    """
+    sector = _sector_name_from_metric(metric)
+    if sector is None:
+        return []
+    sector_map = universe.set_index("symbol")["sector"]
+    members = [t for t in sector_map[sector_map == sector].index if t in returns.columns]
+    if not members:
+        return []
+    day_ret = returns.loc[date, members].dropna()
+    if day_ret.empty:
+        return []
+    top = day_ret.reindex(day_ret.abs().sort_values(ascending=False).index).head(n)
+    return [{"ticker": t, "return": float(r)} for t, r in top.items()]
+
+
 def build_headline(index_ret: float, top_factor_name: str, top_factor_val: float) -> str:
     direction = "上昇" if index_ret > 0 else "下落" if index_ret < 0 else "横ばい"
     magnitude = "大幅" if abs(index_ret) >= 0.01 else "小幅"
@@ -44,6 +74,9 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
     news_for_date = load_news_for_date(ctx.name, last_date)
     talking_points = talking_points.copy()
     talking_points["news"] = talking_points["metric"].apply(lambda m: news_for_date.get(m))
+    talking_points["movers"] = talking_points["metric"].apply(
+        lambda m: related_movers(m, l1.returns, last_date, ctx.universe_df)
+    )
 
     return {
         "ctx": ctx,
@@ -82,15 +115,16 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     if tp.empty:
         print("  目立った論点はありませんでした。")
     else:
-        from html_report import _pca_metric_story, humanize_metric
+        from html_report import _fmt_metric_value, _pca_metric_story, humanize_metric
 
         for _, row in tp.iterrows():
             news = row.get("news")
             metric_name = str(row["metric"])
             label = humanize_metric(metric_name)
+            value_str = _fmt_metric_value(metric_name, row["value"])
             if news:
                 print(f"  - {news['summary']}")
-                print(f"      ({label} / z={row['zscore']:+.2f})")
+                print(f"      ({label}: {value_str} / z={row['zscore']:+.2f})")
                 for src in news["sources"]:
                     print(f"      出典: {src['title']} ({src['url']})")
             else:
@@ -99,7 +133,11 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
                     print(f"  - {pca_story}")
                 else:
                     print(f"  - {label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。")
-                print(f"      (z={row['zscore']:+.2f})")
+                print(f"      ({label}: {value_str} / z={row['zscore']:+.2f})")
+            movers = row.get("movers") or []
+            if movers:
+                movers_str = ", ".join(f"{m['ticker']} {m['return']:+.2%}" for m in movers)
+                print(f"      関連銘柄: {movers_str}")
 
     print("\n[補足: セクター寄与度ウォーターフォール（自前計算）]")
     for name, val in d["sector_contrib"].items():
