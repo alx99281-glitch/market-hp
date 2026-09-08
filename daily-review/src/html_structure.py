@@ -24,6 +24,10 @@ from structure_monitor import (
 )
 
 
+def _explain(text: str) -> str:
+    return f'<p class="explain">{text}</p>'
+
+
 def _pc1_trend_headline(history: pd.DataFrame) -> str:
     if len(history) < 2:
         return "履歴が不足しているため判定できません。"
@@ -125,22 +129,45 @@ def render_structure_html(ctx: MarketContext, history: pd.DataFrame) -> str:
 
   <section>
     <h2>PC1説明力の推移（分散比率、直近{weeks_display}週）</h2>
+    {_explain(
+        "全銘柄の値動きのうち、最も大きな共通パターン(PC1)が説明できる割合。"
+        "<b style='color:var(--neg)'>上昇＝相場が「ひとかたまり」で動いている状態</b>"
+        "（金利・為替などマクロ要因が支配的）。"
+        "<b style='color:var(--accent)'>低下＝銘柄ごとにバラバラに動く「銘柄選択相場」</b>"
+        "（決算・個別材料が支配的）。"
+    )}
     {pc1_chart}
   </section>
 
   <section>
     <h2>短期軸(60日) vs 長期軸(250日) のPC1ローディング相関（直近{weeks_display}週）</h2>
-    <p style="color:var(--muted);font-size:0.85rem">相関が{CORR_FLAG_THRESHOLD}を下回ると「構造変化の疑い」フラグ</p>
+    {_explain(
+        f"直近60日の値動きの「組み合わせ方」が、直近250日(約1年)の組み合わせ方とどれだけ"
+        f"似ているか。<b style='color:var(--accent)'>相関が{CORR_FLAG_THRESHOLD}を下回ると"
+        f"「構造変化の疑い」フラグが立つ</b>＝これまで一緒に動いていた銘柄グループが"
+        f"入れ替わってきている、相場の「主役交代」のサイン。"
+    )}
     {corr_chart}
   </section>
 
   <section>
     <h2>残差比率の週次平均の推移（直近{weeks_display}週）</h2>
+    {_explain(
+        "その週の値動きのうち、主要な共通パターン(PC1〜PC5)では説明できなかった部分の平均比率。"
+        "<b style='color:var(--accent)'>上昇＝個別銘柄・個別材料主導の週</b>、"
+        "<b style='color:var(--neg)'>低下＝過去のパターンに沿った、説明しやすい週</b>。"
+    )}
     {resid_chart}
   </section>
 
   <section>
     <h2>セクター間平均相関60日の推移（直近{weeks_display}週）</h2>
+    {_explain(
+        "セクター同士の値動きが、平均してどれだけ連動しているか。"
+        "<b style='color:var(--neg)'>上昇＝ほぼ全セクターが同じ方向に動く「ひとかたまり」相場</b>、"
+        "<b style='color:var(--accent)'>低下＝セクターごとに明暗が分かれる相場</b>。"
+        "PC1説明力とほぼ同じ動きをする、より直感的な指標。"
+    )}
     {seccorr_chart}
   </section>
 

@@ -104,6 +104,8 @@ def run_layer2(ctx: MarketContext, layer1_result, layer3_result=None) -> Layer2R
     for col in sector_disp.columns:
         metrics[f"sector_internal_dispersion:{col}"] = sector_disp[col]
 
+    metrics["breadth:advance_pct"] = layer1_result.breadth["advance_pct"]
+
     if layer3_result is not None:
         for col in layer3_result.pc_scores.columns[:3]:  # PC1〜PC3
             metrics[f"pca:{col}"] = layer3_result.pc_scores[col]

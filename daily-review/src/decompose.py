@@ -213,14 +213,32 @@ def top_bottom_contributors(
     )
 
 
+def breadth_metrics(returns: pd.DataFrame, universe: pd.DataFrame) -> pd.DataFrame:
+    """相場の「厚み」＝指数が一部の銘柄だけで動いているか、幅広く動いているか。
+
+    値上がり銘柄比率(advance_pct)が低いのに指数が大きく上昇している日は
+    「一部の大型株だけが指数を押し上げている」相場、逆に比率が指数の動きと
+    一致していれば「幅広い相場」と読める。PCAより直感的に伝えられる指標として
+    層2の異常検知・日次レポートの両方で使う。
+    """
+    members = [t for t in universe["symbol"] if t in returns.columns]
+    sub = returns[members]
+    advancers = (sub > 0).sum(axis=1)
+    decliners = (sub < 0).sum(axis=1)
+    total = advancers + decliners
+    advance_pct = (advancers / total.replace(0, np.nan)).rename("advance_pct")
+    return pd.DataFrame({"advance_pct": advance_pct, "advancers": advancers, "decliners": decliners})
+
+
 class Layer1Result:
-    def __init__(self, returns, index_ret, sector_contrib, sector_etf_ret, factor_ret, factor_etf_ret):
+    def __init__(self, returns, index_ret, sector_contrib, sector_etf_ret, factor_ret, factor_etf_ret, breadth):
         self.returns = returns
         self.index_ret = index_ret
         self.sector_contrib = sector_contrib
         self.sector_etf_ret = sector_etf_ret
         self.factor_ret = factor_ret
         self.factor_etf_ret = factor_etf_ret
+        self.breadth = breadth
 
 
 def run_layer1(ctx: MarketContext) -> Layer1Result:
@@ -237,7 +255,9 @@ def run_layer1(ctx: MarketContext) -> Layer1Result:
     factor_df = pd.DataFrame(factors)
     factor_etf_df = factor_etf_returns(returns, ctx.factor_etfs)
 
-    return Layer1Result(returns, idx_ret, sec_contrib, sec_etf_ret, factor_df, factor_etf_df)
+    breadth = breadth_metrics(returns, ctx.universe_df)
+
+    return Layer1Result(returns, idx_ret, sec_contrib, sec_etf_ret, factor_df, factor_etf_df, breadth)
 
 
 if __name__ == "__main__":

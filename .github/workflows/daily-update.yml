@@ -1,13 +1,25 @@
 name: Daily market update
 
 # ローカルPC（スリープ中が多い）に依存せず、GitHub側のクラウド実行環境だけで
-# 完結させる。日本市場引け後・米国市場引け後の2回、価格データ取得→レポート
-# 生成→pushまでを自動で行う（daily-review/README.md の手動手順と同じ内容）。
+# 完結させる。3回に分けて実行する:
+#   1. JST 16:00頃: 日米とも「速報」として価格・レポートを反映（無料RSSの
+#      その時点の見出しでニュース照合も試す）
+#   2. JST 20:00頃: 日本のみ再実行。価格は差分なし（no-op）だが、夕方以降に
+#      出揃う解説・分析記事をニュース照合で拾い直す狙い
+#      （日本語メディアは引け直後より数時間後の方が「なぜ動いたか」の
+#      解説記事が充実する傾向があるため）
+#   3. NY引け後: 米国を再実行
 on:
   schedule:
-    - cron: "0 7 * * 1-5"   # JST 15:00引け -> 16:00頃(UTC 07:00)に実行
-    - cron: "30 21 * * 1-5" # NY 16:00引け付近(UTC 20:00-21:00)を跨いで安全側の30分後
-  workflow_dispatch: {}      # 手動実行用（Actionsタブから「Run workflow」で即時実行可）
+    - cron: "0 7 * * 1-5"    # JST 16:00頃（東証引けの約1時間後）: 日米まとめて速報
+    - cron: "0 11 * * 1-5"   # JST 20:00頃: 日本のみニュース照合を再実行
+    - cron: "30 21 * * 1-5"  # NY引け付近(UTC 20:00-21:00)を跨いで安全側の30分後: 米国
+  workflow_dispatch:
+    inputs:
+      market:
+        description: "実行対象（us / jp / all）"
+        required: false
+        default: "all"
 
 permissions:
   contents: write
@@ -25,16 +37,32 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r daily-review/requirements.txt
 
-      - name: Run daily pipeline (US + JP)
+      - name: Determine target market
+        id: market
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "market=${{ github.event.inputs.market }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 11 * * 1-5" ]; then
+            echo "market=jp" >> "$GITHUB_OUTPUT"
+          else
+            echo "market=all" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run daily pipeline
         working-directory: daily-review/src
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python run_daily.py --all
+        run: |
+          case "${{ steps.market.outputs.market }}" in
+            us) python run_daily.py ;;
+            jp) python run_daily.py --jp ;;
+            *) python run_daily.py --all ;;
+          esac
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet && echo "No changes" || git commit -m "Automated daily update ($(date -u +%Y-%m-%d))"
+          git diff --cached --quiet && echo "No changes" || git commit -m "Automated daily update ($(date -u +%Y-%m-%d), ${{ steps.market.outputs.market }})"
           git push

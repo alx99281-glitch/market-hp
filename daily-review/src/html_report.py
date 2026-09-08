@@ -52,6 +52,8 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
   margin-bottom: 28px;
 }
 section { margin-bottom: 32px; }
+.explain { color: var(--muted); font-size: 0.85rem; line-height: 1.7; margin: 0 0 12px; }
+.explain b { font-weight: 600; }
 h2 {
   font-size: 1rem;
   color: var(--muted);
@@ -122,6 +124,8 @@ def humanize_metric(name: str) -> str:
         return "指数構成銘柄全体の値動きのばらつき"
     if prefix == "correlation" and label == "sector_avg":
         return "セクター間の値動きの連動性"
+    if prefix == "breadth" and label == "advance_pct":
+        return "値上がり銘柄比率（市場の厚み）"
     if prefix in ("pca", "pca_sector"):
         scope = "銘柄" if prefix == "pca" else "セクター"
         if label == "residual_ratio":
@@ -142,6 +146,8 @@ def _fmt_metric_value(metric: str, value: float) -> str:
         if metric.endswith("residual_ratio"):
             return f"{value:.0%}"
         return f"{value:+.3f}（主成分スコア）"
+    if metric == "breadth:advance_pct":
+        return f"{value:.0%}"
     return f"{value:+.2%}"
 
 

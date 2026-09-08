@@ -55,16 +55,55 @@ def _company_name(universe: pd.DataFrame, ticker: str) -> str | None:
     return None
 
 
+FACTOR_KEYWORDS = {
+    "jp": {
+        "Value": ["バリュー株", "割安株"], "Growth": ["グロース株", "成長株"],
+        "Momentum": ["モメンタム"], "Quality": ["高配当", "優良株"],
+        "Size": ["小型株", "大型株"], "Beta": ["ハイベータ"],
+        "Volatility": ["低ボラティリティ"], "Liquidity": ["流動性"],
+    },
+    "us": {
+        "Value": ["value stocks"], "Growth": ["growth stocks"],
+        "Momentum": ["momentum stocks"], "Quality": ["quality stocks"],
+        "Size": ["small-cap", "large-cap"], "Beta": ["high beta"],
+        "Volatility": ["volatility"], "Liquidity": ["liquidity"],
+    },
+}
+
+# セクター/ファクター固有のキーワードで見つからなかった場合の最後の網。
+# 「セクター名では引っかからないマクロ要因（原油急騰・中東情勢等）」を拾うため。
+MACRO_KEYWORDS = {
+    "jp": ["日銀", "FRB", "利上げ", "利下げ", "円安", "円高", "原油", "中東", "関税", "米国株安", "米国株高"],
+    "us": ["Fed", "Federal Reserve", "interest rate", "inflation", "jobs report", "oil", "tariff", "yields"],
+}
+
+
+def _keywords_for_metric(metric: str, movers: list[dict], universe: pd.DataFrame, market: str) -> list[str]:
+    sector = _sector_name_from_metric(metric)
+    if sector is not None:
+        kws = [sector]
+        for mv in movers:
+            name = _company_name(universe, mv["ticker"])
+            if name:
+                kws.append(name)
+        return kws
+    if metric.startswith("factor:"):
+        return FACTOR_KEYWORDS[market].get(metric.split(":", 1)[1], [])
+    return []
+
+
 def free_rss_lookup(talking_points: pd.DataFrame, ctx: MarketContext, date: pd.Timestamp) -> pd.DataFrame:
-    """ニュースキャッシュに無いセクター関連の論点について、無料RSSの見出しと
-    キーワード一致で照合し、見つかれば結果をnews_storeにも保存する。
+    """ニュースキャッシュに無い論点について、無料RSSの見出しとキーワード一致で
+    照合し、見つかれば結果をnews_storeにも保存する。
 
     Anthropic APIキーが無い場合のフォールバック（free_news_lookup.py参照）。
     意味理解のない単純な文字列一致のため、要約文にはその旨を明記する。
+    PCA由来の論点（pca:/pca_sector:）はローディングに基づくより確度の高い
+    定性的説明が既にあるため対象外。まずセクター名/ファクター名/関連銘柄名で
+    絞り込み、見つからなければマクロキーワード（日銀・FRB・原油・中東等）で
+    もう一段広く探す（セクター名では拾えないマクロ要因主導の日を拾うため）。
     """
-    missing = talking_points["news"].isna() & talking_points["metric"].apply(
-        lambda m: _sector_name_from_metric(m) is not None
-    )
+    missing = talking_points["news"].isna() & ~talking_points["metric"].str.startswith(("pca:", "pca_sector:"))
     if not missing.any():
         return talking_points
 
@@ -74,18 +113,18 @@ def free_rss_lookup(talking_points: pd.DataFrame, ctx: MarketContext, date: pd.T
 
     for idx in talking_points[missing].index:
         row = talking_points.loc[idx]
-        sector = _sector_name_from_metric(row["metric"])
-        keywords = [sector] if sector else []
-        for mv in row["movers"]:
-            name = _company_name(ctx.universe_df, mv["ticker"])
-            if name:
-                keywords.append(name)
-
-        matched = match_keywords(feed_items, keywords)
+        specific_kws = _keywords_for_metric(row["metric"], row["movers"], ctx.universe_df, ctx.name)
+        matched = match_keywords(feed_items, specific_kws) if specific_kws else []
+        is_macro = False
+        if not matched:
+            matched = match_keywords(feed_items, MACRO_KEYWORDS[ctx.name])
+            is_macro = bool(matched)
         if not matched:
             continue
+
         titles = "」「".join(m["title"] for m in matched)
-        summary = f"（自動キーワード一致・要確認）関連する可能性のある見出し: 「{titles}」"
+        scope_note = "マクロ全般の材料として" if is_macro else ""
+        summary = f"（自動キーワード一致・要確認）{scope_note}関連する可能性のある見出し: 「{titles}」"
         sources = [{"title": f"{m['source']}: {m['title']}", "url": m["url"]} for m in matched]
         talking_points.at[idx, "news"] = {"summary": summary, "sources": sources}
         save_news(ctx.name, date, row["metric"], summary, sources)
@@ -93,12 +132,26 @@ def free_rss_lookup(talking_points: pd.DataFrame, ctx: MarketContext, date: pd.T
     return talking_points
 
 
-def build_headline(index_ret: float, top_factor_name: str, top_factor_val: float) -> str:
+def build_headline(
+    index_ret: float, top_factor_name: str, top_factor_val: float,
+    advancers: int | None = None, decliners: int | None = None,
+) -> str:
     direction = "上昇" if index_ret > 0 else "下落" if index_ret < 0 else "横ばい"
     magnitude = "大幅" if abs(index_ret) >= 0.01 else "小幅"
+    breadth_note = ""
+    if advancers is not None and decliners is not None:
+        total = advancers + decliners
+        if total > 0:
+            adv_pct = advancers / total
+            if index_ret > 0 and adv_pct < 0.4:
+                breadth_note = f"。値上がり{advancers}/値下がり{decliners}銘柄と、一部の銘柄が指数を押し上げた幅の狭い上昇"
+            elif index_ret < 0 and adv_pct > 0.6:
+                breadth_note = f"。値上がり{advancers}/値下がり{decliners}銘柄と、指数の下落ほど広範には売られていない"
+            else:
+                breadth_note = f"。値上がり{advancers}/値下がり{decliners}銘柄"
     return (
         f"指数は{magnitude}{direction}（{index_ret:+.2%}）。"
-        f"最も動いたのは{top_factor_name}ファクター（{top_factor_val:+.2%}）"
+        f"最も動いたのは{top_factor_name}ファクター（{top_factor_val:+.2%}）{breadth_note}"
     )
 
 
@@ -119,6 +172,9 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
     else:
         top_factor_name, top_factor_val = "N/A", 0.0
 
+    breadth_today = l1.breadth.loc[last_date]
+    advancers, decliners = int(breadth_today["advancers"]), int(breadth_today["decliners"])
+
     talking_points = l2.talking_points(last_date)
     news_for_date = load_news_for_date(ctx.name, last_date)
     talking_points = talking_points.copy()
@@ -132,8 +188,9 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
         "ctx": ctx,
         "date": last_date,
         "index_ret": index_ret,
-        "headline": build_headline(index_ret, top_factor_name, top_factor_val),
+        "headline": build_headline(index_ret, top_factor_name, top_factor_val, advancers, decliners),
         "talking_points": talking_points,
+        "breadth": {"advancers": advancers, "decliners": decliners, "advance_pct": advancers / max(advancers + decliners, 1)},
         "sector_contrib": l1.sector_contrib.loc[last_date].dropna().sort_values(ascending=False),
         "sector_etf_ret": l1.sector_etf_ret.loc[last_date].dropna().sort_values(ascending=False),
         "factor_ret": l1.factor_ret.loc[last_date],
