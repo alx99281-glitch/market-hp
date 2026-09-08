@@ -112,17 +112,25 @@ python html_structure.py       / python html_structure.py --jp
   フィード側の生データ異常だったため、`decompose.clean_bad_ticks()` で
   前後7日の中央値と比較して3倍以上乖離する短期スパイク（最大3日間）を
   検出し、前後の正常値から線形補間する処理をリターン計算前に追加した。
-- **ニュース照合（層5）**: 本番運用は `news_lookup_batch.py` が
-  Anthropic API（`web_search` ツール）を呼び出して自動検索する設計。
-  ただし、この開発環境には `ANTHROPIC_API_KEY` が無いため無人実行はここでは
-  検証していない（importと構文は確認済み）。検証のため、2026-09-04分の
-  実際の論点（米国: Consumer Discretionaryセクター内分散、日本: Valueファクター・
-  電力ガスセクター）についてはClaude Code自身のWeb検索で実際のニュースを調べ、
-  `news_store.py` のキャッシュに手動投入した上でレポートに正しく反映される
-  ことを確認済み（`data/news_cache.json`）。対応するニュースが見つからない
-  論点は「要因不明」と表示される。構造変化フラグが立った週は
-  `news_lookup_batch.run_weekly_structure_news_lookup()` で週次のニュース照合も
-  行う設計（同様に未実行）。
+- **ニュース照合（層5）**: 2つの実装がある。
+  1. `free_news_lookup.py`（**デフォルトで有効、APIキー不要**）: CNBC/WSJ/
+     Yahoo Finance（米国）、Yahoo!ニュース/NHK（日本）の無料RSSフィードから
+     見出しを取得し、論点のセクター名・関連銘柄の会社名とのキーワード一致で
+     照合する。`gather_report_data()` から自動的に呼ばれ、`news_store`に
+     見つからない論点だけを対象にする。意味理解のない単純な文字列一致のため
+     精度は限定的（例: 2026-09-08は原油急騰・中東情勢というマクロ要因で
+     日本株が下落したが、セクター名では引っかからず「要因不明」のままだった
+     ケースを確認済み）。マッチした場合は要約文に「（自動キーワード一致・
+     要確認）」と明記し、精度が低いことが分かるようにしている。
+  2. `news_lookup_batch.py`（**任意、要APIキー**）: Anthropic API
+     （`web_search`ツール）を呼び出す、より高精度な検索。
+     `ANTHROPIC_API_KEY`をGitHub Secretsに設定すればActions上で自動実行され、
+     free_news_lookup.pyより優先して使われる（news_storeに先に保存されるため）。
+  検証のため、2026-09-04分の実際の論点（米国: Consumer Discretionaryセクター内
+  分散、日本: Valueファクター・電力ガスセクター）についてはClaude Code自身の
+  Web検索で実際のニュースを調べ、`news_store.py`のキャッシュに手動投入した上で
+  レポートに正しく反映されることを確認済み（`data/news_cache.json`）。
+  対応するニュースが見つからない論点は「要因不明」と表示される。
 
 ## ディレクトリ構成
 
@@ -141,6 +149,8 @@ daily-review/
     zscore.py                   層2: 異常検知（層3のPC/残差比率も統合、米国・日本共通）
     structure_monitor.py         層4: 構造変化モニタ（週次スナップショット差分計算、月次サマリー）
     news_store.py                 層5: ニュース照合結果のローカルキャッシュ
+    free_news_lookup.py            層5: 無料RSSキーワード一致（APIキー不要、デフォルト）
+    run_daily.py                    日次更新の一括実行（価格取得→ニュース照合→レポート生成）
     news_lookup_batch.py           層5: ニュース照合の無人実行バッチ（Anthropic API、要APIキー）
     report.py                       日次コンソールレポート用データ取得（米国・日本共通）
     html_report.py                   静的HTMLレポート生成（米国・日本共通）

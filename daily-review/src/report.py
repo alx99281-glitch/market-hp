@@ -8,8 +8,9 @@ import pandas as pd
 
 from config import ZSCORE_THRESHOLD, ZSCORE_WINDOW
 from decompose import run_layer1, top_bottom_contributors
+from free_news_lookup import fetch_all, match_keywords
 from market_context import MarketContext
-from news_store import load_news_for_date
+from news_store import load_news_for_date, save_news
 from pca import load_axes, run_layer3
 from zscore import run_layer2
 
@@ -42,6 +43,54 @@ def related_movers(metric: str, returns: pd.DataFrame, date: pd.Timestamp, unive
         return []
     top = day_ret.reindex(day_ret.abs().sort_values(ascending=False).index).head(n)
     return [{"ticker": t, "return": float(r)} for t, r in top.items()]
+
+
+def _company_name(universe: pd.DataFrame, ticker: str) -> str | None:
+    row = universe[universe["symbol"] == ticker]
+    if row.empty:
+        return None
+    for col in ("security", "name"):
+        if col in row.columns:
+            return str(row.iloc[0][col])
+    return None
+
+
+def free_rss_lookup(talking_points: pd.DataFrame, ctx: MarketContext, date: pd.Timestamp) -> pd.DataFrame:
+    """ニュースキャッシュに無いセクター関連の論点について、無料RSSの見出しと
+    キーワード一致で照合し、見つかれば結果をnews_storeにも保存する。
+
+    Anthropic APIキーが無い場合のフォールバック（free_news_lookup.py参照）。
+    意味理解のない単純な文字列一致のため、要約文にはその旨を明記する。
+    """
+    missing = talking_points["news"].isna() & talking_points["metric"].apply(
+        lambda m: _sector_name_from_metric(m) is not None
+    )
+    if not missing.any():
+        return talking_points
+
+    feed_items = fetch_all(ctx.name)
+    if not feed_items:
+        return talking_points
+
+    for idx in talking_points[missing].index:
+        row = talking_points.loc[idx]
+        sector = _sector_name_from_metric(row["metric"])
+        keywords = [sector] if sector else []
+        for mv in row["movers"]:
+            name = _company_name(ctx.universe_df, mv["ticker"])
+            if name:
+                keywords.append(name)
+
+        matched = match_keywords(feed_items, keywords)
+        if not matched:
+            continue
+        titles = "」「".join(m["title"] for m in matched)
+        summary = f"（自動キーワード一致・要確認）関連する可能性のある見出し: 「{titles}」"
+        sources = [{"title": f"{m['source']}: {m['title']}", "url": m["url"]} for m in matched]
+        talking_points.at[idx, "news"] = {"summary": summary, "sources": sources}
+        save_news(ctx.name, date, row["metric"], summary, sources)
+
+    return talking_points
 
 
 def build_headline(index_ret: float, top_factor_name: str, top_factor_val: float) -> str:
@@ -77,6 +126,7 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
     talking_points["movers"] = talking_points["metric"].apply(
         lambda m: related_movers(m, l1.returns, last_date, ctx.universe_df)
     )
+    talking_points = free_rss_lookup(talking_points, ctx, last_date)
 
     return {
         "ctx": ctx,
