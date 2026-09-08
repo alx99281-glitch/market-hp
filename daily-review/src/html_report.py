@@ -67,6 +67,8 @@ h2 {
 .neg { background: var(--neg); }
 .tp-item { margin-bottom: 14px; }
 .tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
+.tp-box-dup { opacity: 0.7; padding: 8px 14px; }
+.tp-box-dup .tp-bullet { font-size: 0.85rem; font-style: italic; }
 .tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
 .tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
 .tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
@@ -230,13 +232,32 @@ def _render_talking_points(tp: pd.DataFrame, stock_axes: dict | None = None, sec
     if tp.empty:
         return "<p style='color:var(--muted)'>本日、しきい値を超える目立った論点はありませんでした。</p>"
     rows = []
+    seen_summaries: dict[str, str] = {}  # summary文 -> 最初に使ったmetric_label（重複表示を避けるため）
     for _, row in tp.iterrows():
         news = row.get("news")
         cls = _cls(row["zscore"])
         metric_name = str(row["metric"])
         metric_label = html.escape(humanize_metric(metric_name))
+        value_str = _fmt_metric_value(metric_name, row["value"])
+        movers_html = _render_movers(row.get("movers", []))
+
+        # 同じニュース要約文が既出の場合（複数の論点が同じマクロ要因に一致した場合など）は
+        # 全文を繰り返さず、最初の論点への参照だけを表示する。
+        if news and news["summary"] in seen_summaries:
+            first_label = seen_summaries[news["summary"]]
+            rows.append(f"""
+        <div class="tp-item">
+          <div class="tp-box tp-box-dup">
+            <div class="tp-bullet"><span class="tp-dot {cls}"></span>「{first_label}」と同じ背景とみられます（下記参照）</div>
+            <div class="tp-meta">{metric_label}: {value_str} ／ 変動の大きさ(zスコア) {row['zscore']:+.2f}</div>
+            {movers_html}
+          </div>
+        </div>""")
+            continue
+
         if news:
             main_text = html.escape(news["summary"])
+            seen_summaries[news["summary"]] = metric_label
         else:
             pca_story = _pca_metric_story(metric_name, row["value"], stock_axes, sector_axes, universe)
             if pca_story:
@@ -244,8 +265,6 @@ def _render_talking_points(tp: pd.DataFrame, stock_axes: dict | None = None, sec
             else:
                 main_text = f"{metric_label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。"
 
-        value_str = _fmt_metric_value(metric_name, row["value"])
-        movers_html = _render_movers(row.get("movers", []))
         rows.append(f"""
         <div class="tp-item">
           <div class="tp-box">
@@ -323,24 +342,44 @@ def _render_contributors_table(tb: pd.DataFrame) -> str:
     </div>"""
 
 
-def _sparkline_svg(series: pd.Series, color: str, w: int = 260, h: int = 60, fmt_last: str = "{:+.3f}") -> str:
+def _sparkline_svg(
+    series: pd.Series, color: str, w: int = 260, h: int = 60, fmt_last: str = "{:+.3f}",
+    show_dates: bool = False, date_fmt: str = "%Y-%m-%d",
+) -> str:
     vals = series.dropna()
     if len(vals) < 2:
         return "<p style='color:var(--muted);font-size:0.8rem'>データ不足</p>"
     lo, hi = vals.min(), vals.max()
     span = (hi - lo) or 1.0
     pad = 4
+    axis_h = 18 if show_dates else 0
+    plot_h = h - axis_h
     xs = np.linspace(pad, w - pad, len(vals))
-    ys = [pad + (1 - (v - lo) / span) * (h - 2 * pad) for v in vals.values]
+    ys = [pad + (1 - (v - lo) / span) * (plot_h - 2 * pad) for v in vals.values]
     points = " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
     last_val = vals.iloc[-1]
-    label_above = ys[-1] > h / 2  # 折れ線が下寄りなら上に、上寄りなら下にラベルを置いて重なりを避ける
+    label_above = ys[-1] > plot_h / 2  # 折れ線が下寄りなら上に、上寄りなら下にラベルを置いて重なりを避ける
     label_dy = -8 if label_above else 14
+
+    date_labels = ""
+    if show_dates:
+        dates = vals.index
+        n = len(dates)
+        # 開始・中間・終了の3点だけラベルを出す（詰め込みすぎて読めなくなるのを防ぐ）
+        idxs = sorted({0, n // 2, n - 1})
+        anchors = ["start", "middle", "end"][: len(idxs)] if len(idxs) == 3 else (["start", "end"] if len(idxs) == 2 else ["middle"])
+        for i, anchor in zip(idxs, anchors):
+            date_labels += (
+                f'<text x="{xs[i]:.1f}" y="{plot_h + 13}" font-size="10" fill="var(--muted)" '
+                f'text-anchor="{anchor}">{dates[i].strftime(date_fmt)}</text>'
+            )
+
     return f"""
     <svg viewBox="0 0 {w} {h}" width="{w}" height="{h}">
       <polyline points="{points}" fill="none" stroke="{color}" stroke-width="1.6" />
       <circle cx="{xs[-1]:.1f}" cy="{ys[-1]:.1f}" r="2.5" fill="{color}" />
       <text x="{xs[-1]:.1f}" y="{ys[-1]:.1f}" dy="{label_dy}" dx="-4" text-anchor="end" font-size="11" fill="{color}">{fmt_last.format(last_val)}</text>
+      {date_labels}
     </svg>"""
 
 

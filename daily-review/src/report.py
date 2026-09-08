@@ -224,16 +224,21 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     else:
         from html_report import _fmt_metric_value, _pca_metric_story, humanize_metric
 
+        seen_summaries: dict[str, str] = {}
         for _, row in tp.iterrows():
             news = row.get("news")
             metric_name = str(row["metric"])
             label = humanize_metric(metric_name)
             value_str = _fmt_metric_value(metric_name, row["value"])
-            if news:
+            if news and news["summary"] in seen_summaries:
+                print(f"  - 「{seen_summaries[news['summary']]}」と同じ背景とみられます（上記参照）")
+                print(f"      ({label}: {value_str} / z={row['zscore']:+.2f})")
+            elif news:
                 print(f"  - {news['summary']}")
                 print(f"      ({label}: {value_str} / z={row['zscore']:+.2f})")
                 for src in news["sources"]:
                     print(f"      出典: {src['title']} ({src['url']})")
+                seen_summaries[news["summary"]] = label
             else:
                 pca_story = _pca_metric_story(metric_name, row["value"], d["pca_stock_axes"], d["pca_sector_axes"], ctx.universe_df)
                 if pca_story:

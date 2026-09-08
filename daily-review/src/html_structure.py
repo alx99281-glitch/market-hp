@@ -89,10 +89,10 @@ def _monthly_table_html(monthly: pd.DataFrame) -> str:
 def render_structure_html(ctx: MarketContext, history: pd.DataFrame) -> str:
     h = history.set_index("week_ending")
     weeks_display = 52
-    pc1_chart = _sparkline_svg(h["pc1_explained"].tail(weeks_display), "#58a6ff", w=760, h=70, fmt_last="{:.1%}")
-    corr_chart = _sparkline_svg(h["pc1_short_long_corr"].tail(weeks_display), "#3fb950", w=760, h=70, fmt_last="{:.2f}")
-    resid_chart = _sparkline_svg(h["residual_ratio_week_avg"].tail(weeks_display), "#f85149", w=760, h=70, fmt_last="{:.1%}")
-    seccorr_chart = _sparkline_svg(h["sector_corr_60d"].tail(weeks_display), "#f0883e", w=760, h=70, fmt_last="{:.2f}")
+    pc1_chart = _sparkline_svg(h["pc1_explained"].tail(weeks_display), "#58a6ff", w=760, h=86, fmt_last="{:.1%}", show_dates=True)
+    corr_chart = _sparkline_svg(h["pc1_short_long_corr"].tail(weeks_display), "#3fb950", w=760, h=86, fmt_last="{:.2f}", show_dates=True)
+    resid_chart = _sparkline_svg(h["residual_ratio_week_avg"].tail(weeks_display), "#f85149", w=760, h=86, fmt_last="{:.1%}", show_dates=True)
+    seccorr_chart = _sparkline_svg(h["sector_corr_60d"].tail(weeks_display), "#f0883e", w=760, h=86, fmt_last="{:.2f}", show_dates=True)
 
     narrative = latest_week_over_week_narrative(history)
     narrative_html = (
