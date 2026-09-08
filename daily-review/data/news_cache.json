@@ -134,5 +134,33 @@
       }
     ],
     "searched_at": "2026-09-08T12:44:31.358823+00:00"
+  },
+  "us:2026-09-08:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says」「Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens」「'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
+        "url": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html"
+      },
+      {
+        "title": "CNBC Economy: Canada's retaliatory tariffs worth CA$27.6 billion take effect as trade rift with U.S. deepens",
+        "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
+      },
+      {
+        "title": "CNBC Economy: 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat",
+        "url": "https://www.cnbc.com/2026/09/08/pharma-tariffs-trump-generic-drugs-sandoz-cmd-stock.html"
+      }
+    ],
+    "searched_at": "2026-09-08T23:33:58.126489+00:00"
+  },
+  "us:2026-09-08:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「PNC Financial Services Stock: Is PNC Underperforming the Financials Sector?」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: PNC Financial Services Stock: Is PNC Underperforming the Financials Sector?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pnc-financial-services-stock-pnc-162934561.html"
+      }
+    ],
+    "searched_at": "2026-09-08T23:33:58.128397+00:00"
   }
 }
