@@ -53,15 +53,12 @@ h2 {
 .neg { background: var(--neg); }
 .tp-item { margin-bottom: 14px; }
 .tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
-.tp-box-dup { opacity: 0.7; padding: 8px 14px; }
-.tp-box-dup .tp-bullet { font-size: 0.85rem; font-style: italic; }
 .tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
 .tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
-.tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
-.tp-movers-label { font-size: 0.72rem; color: var(--muted); margin-top: 8px; padding-left: 17px; }
-.tp-movers { margin: 3px 0 0; padding-left: 17px; list-style: none; display: flex; gap: 14px; flex-wrap: wrap; }
-.tp-movers li { font-size: 0.8rem; }
-.tp-movers .mover-ticker { color: var(--text); font-weight: 600; margin-right: 4px; }
+.tp-group-note { font-size: 0.72rem; color: var(--muted); margin: 8px 0 4px; padding-left: 17px; }
+.tp-group-members { padding-left: 17px; display: flex; flex-direction: column; gap: 4px; }
+.tp-group-member { font-size: 0.78rem; color: var(--text); }
+.tp-group-member b { font-weight: 600; }
 .tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
 .tp-sources a { color: var(--accent); }
 .tp-sources li { margin-bottom: 2px; }
@@ -102,8 +99,7 @@ footer div { margin-bottom: 2px; }
         <div class="tp-item">
           <div class="tp-box">
             <div class="tp-bullet"><span class="tp-dot pos"></span>メモリー半導体(Micron, SanDisk等)がAI需要によるDRAM/NAND逼迫と大幅値上げ観測、Dellの950億ドル規模のAIサーバー受注残などを材料に急伸する一方、雇用統計の上振れでFRB利上げ観測が一時50%を超えるなど金利敏感株には逆風となり、同じセクター内でも明暗が分かれた。</div>
-            <div class="tp-meta">Consumer Discretionaryセクター内での銘柄ごとの値動きのばらつき: +3.00% ／ 変動の大きさ(zスコア) +2.00</div>
-            <div class='tp-movers-label'>関連銘柄の動き</div><ul class='tp-movers'><li><span class="mover-ticker">LULU</span> <span class="neg">-17.38%</span></li><li><span class="mover-ticker">TSLA</span> <span class="neg">-5.92%</span></li><li><span class="mover-ticker">DASH</span> <span class="neg">-4.63%</span></li></ul>
+            <div class='tp-group-member'><b>Consumer Discretionaryセクター内での銘柄ごとの値動きのばらつき</b>: +3.00% (zスコア +2.00) ／ 関連銘柄: LULU -17.38%、TSLA -5.92%、DASH -4.63%</div>
           </div>
           <ul class='tp-sources'><li><a href='https://finance.yahoo.com/technology/articles/micron-sandisk-lead-memory-chip-174447419.html' target='_blank' rel='noopener'>Micron, SanDisk Lead Memory Chip Stocks Rally on Strong AI Demand</a></li><li><a href='https://finance.yahoo.com/markets/stocks/articles/micron-sandisk-jump-4-even-151013489.html' target='_blank' rel='noopener'>Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%</a></li><li><a href='https://247wallst.com/investing/2026/09/04/sandisk-soars-8-is-the-nand-pricing-cycle-still-accelerating/' target='_blank' rel='noopener'>SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?</a></li></ul>
         </div>
@@ -310,7 +306,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: SPY保有構成ベース（cap-weight近似）</div>
     <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
-    <div>レポート生成時刻(UTC): 2026-09-08T13:32:56+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-08T13:41:12+00:00</div>
   </footer>
 </body>
 </html>

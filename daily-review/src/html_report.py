@@ -67,15 +67,12 @@ h2 {
 .neg { background: var(--neg); }
 .tp-item { margin-bottom: 14px; }
 .tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
-.tp-box-dup { opacity: 0.7; padding: 8px 14px; }
-.tp-box-dup .tp-bullet { font-size: 0.85rem; font-style: italic; }
 .tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
 .tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
-.tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
-.tp-movers-label { font-size: 0.72rem; color: var(--muted); margin-top: 8px; padding-left: 17px; }
-.tp-movers { margin: 3px 0 0; padding-left: 17px; list-style: none; display: flex; gap: 14px; flex-wrap: wrap; }
-.tp-movers li { font-size: 0.8rem; }
-.tp-movers .mover-ticker { color: var(--text); font-weight: 600; margin-right: 4px; }
+.tp-group-note { font-size: 0.72rem; color: var(--muted); margin: 8px 0 4px; padding-left: 17px; }
+.tp-group-members { padding-left: 17px; display: flex; flex-direction: column; gap: 4px; }
+.tp-group-member { font-size: 0.78rem; color: var(--text); }
+.tp-group-member b { font-weight: 600; }
 .tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
 .tp-sources a { color: var(--accent); }
 .tp-sources li { margin-bottom: 2px; }
@@ -153,17 +150,6 @@ def _fmt_metric_value(metric: str, value: float) -> str:
     return f"{value:+.2%}"
 
 
-def _render_movers(movers: list) -> str:
-    if not movers:
-        return ""
-    items = "".join(
-        f'<li><span class="mover-ticker">{html.escape(m["ticker"])}</span> '
-        f'<span class="{_cls(m["return"])}">{m["return"]:+.2%}</span></li>'
-        for m in movers
-    )
-    return f"<div class='tp-movers-label'>関連銘柄の動き</div><ul class='tp-movers'>{items}</ul>"
-
-
 def _render_sources(news: dict | None) -> str:
     """ニュースの出典リンクだけを、説明ボックスの外側に描画する。"""
     if not news or not news.get("sources"):
@@ -221,6 +207,18 @@ def _pca_metric_story(metric: str, value: float, stock_axes: dict | None, sector
     )
 
 
+def _render_member_row(row: pd.Series, metric_label: str) -> str:
+    metric_name = str(row["metric"])
+    value_str = _fmt_metric_value(metric_name, row["value"])
+    movers = row.get("movers") or []
+    movers_str = "、".join(f"{m['ticker']} {m['return']:+.2%}" for m in movers)
+    movers_part = f" ／ 関連銘柄: {html.escape(movers_str)}" if movers_str else ""
+    return (
+        f"<div class='tp-group-member'><b>{metric_label}</b>: {value_str} "
+        f"(zスコア {row['zscore']:+.2f}){movers_part}</div>"
+    )
+
+
 def _render_talking_points(tp: pd.DataFrame, stock_axes: dict | None = None, sector_axes: dict | None = None, universe: pd.DataFrame | None = None) -> str:
     """「何がマーケットを主導したか」を箇条書きで示す。
 
@@ -228,53 +226,67 @@ def _render_talking_points(tp: pd.DataFrame, stock_axes: dict | None = None, sec
     (2)PCA由来の論点はローディングから導ける定性的な結論、(3)それ以外は
     技術指標名を人間向けに言い換えた一文。出典リンクはボックスの外・下に
     分離する（説明文と出典を視覚的に分けるため）。
+
+    複数の論点が同一のニュース要約に一致した場合（例: 複数セクターが同じ
+    マクロ要因のキーワードにヒットした場合）は、同じ説明文を論点の数だけ
+    繰り返さず、1つの共通見出し＋対象論点の一覧としてまとめる
+    （「Xと同じ背景」という参照を連発すると何が起きているか却って分かりにくい
+    ため、共通の背景を1回だけ説明する形にしている）。
     """
     if tp.empty:
         return "<p style='color:var(--muted)'>本日、しきい値を超える目立った論点はありませんでした。</p>"
-    rows = []
-    seen_summaries: dict[str, str] = {}  # summary文 -> 最初に使ったmetric_label（重複表示を避けるため）
-    for _, row in tp.iterrows():
-        news = row.get("news")
-        cls = _cls(row["zscore"])
-        metric_name = str(row["metric"])
-        metric_label = html.escape(humanize_metric(metric_name))
-        value_str = _fmt_metric_value(metric_name, row["value"])
-        movers_html = _render_movers(row.get("movers", []))
 
-        # 同じニュース要約文が既出の場合（複数の論点が同じマクロ要因に一致した場合など）は
-        # 全文を繰り返さず、最初の論点への参照だけを表示する。
-        if news and news["summary"] in seen_summaries:
-            first_label = seen_summaries[news["summary"]]
-            rows.append(f"""
-        <div class="tp-item">
-          <div class="tp-box tp-box-dup">
-            <div class="tp-bullet"><span class="tp-dot {cls}"></span>「{first_label}」と同じ背景とみられます（下記参照）</div>
-            <div class="tp-meta">{metric_label}: {value_str} ／ 変動の大きさ(zスコア) {row['zscore']:+.2f}</div>
-            {movers_html}
-          </div>
-        </div>""")
-            continue
+    # summary文（Noneも含む＝要因不明/PCA由来はグループ化しない）でグルーピング
+    groups: dict[str, list[int]] = {}
+    for idx, row in tp.iterrows():
+        news = row.get("news")
+        key = news["summary"] if news else None
+        if key is None:
+            groups[f"__unique_{idx}"] = [idx]
+        else:
+            groups.setdefault(key, []).append(idx)
+
+    html_blocks = []
+    for key, idxs in groups.items():
+        first_row = tp.loc[idxs[0]]
+        news = first_row.get("news")
+        cls = _cls(first_row["zscore"])
+        metric_name = str(first_row["metric"])
+        metric_label = html.escape(humanize_metric(metric_name))
 
         if news:
             main_text = html.escape(news["summary"])
-            seen_summaries[news["summary"]] = metric_label
         else:
-            pca_story = _pca_metric_story(metric_name, row["value"], stock_axes, sector_axes, universe)
-            if pca_story:
-                main_text = html.escape(pca_story)
-            else:
-                main_text = f"{metric_label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。"
+            pca_story = _pca_metric_story(metric_name, first_row["value"], stock_axes, sector_axes, universe)
+            main_text = (
+                html.escape(pca_story) if pca_story else
+                f"{metric_label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。"
+            )
 
-        rows.append(f"""
+        if len(idxs) == 1:
+            html_blocks.append(f"""
         <div class="tp-item">
           <div class="tp-box">
             <div class="tp-bullet"><span class="tp-dot {cls}"></span>{main_text}</div>
-            <div class="tp-meta">{metric_label}: {value_str} ／ 変動の大きさ(zスコア) {row['zscore']:+.2f}</div>
-            {movers_html}
+            {_render_member_row(first_row, metric_label)}
           </div>
           {_render_sources(news)}
         </div>""")
-    return "".join(rows)
+        else:
+            member_rows = "".join(
+                _render_member_row(tp.loc[i], html.escape(humanize_metric(str(tp.loc[i]["metric"]))))
+                for i in idxs
+            )
+            html_blocks.append(f"""
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot {cls}"></span>{main_text}</div>
+            <div class="tp-group-note">以下{len(idxs)}件の論点が共通してこの背景に該当するとみられます:</div>
+            <div class="tp-group-members">{member_rows}</div>
+          </div>
+          {_render_sources(news)}
+        </div>""")
+    return "".join(html_blocks)
 
 
 def _render_waterfall(series: pd.Series, scale: float | None = None) -> str:

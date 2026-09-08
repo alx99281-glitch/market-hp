@@ -53,15 +53,12 @@ h2 {
 .neg { background: var(--neg); }
 .tp-item { margin-bottom: 14px; }
 .tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
-.tp-box-dup { opacity: 0.7; padding: 8px 14px; }
-.tp-box-dup .tp-bullet { font-size: 0.85rem; font-style: italic; }
 .tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
 .tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
-.tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
-.tp-movers-label { font-size: 0.72rem; color: var(--muted); margin-top: 8px; padding-left: 17px; }
-.tp-movers { margin: 3px 0 0; padding-left: 17px; list-style: none; display: flex; gap: 14px; flex-wrap: wrap; }
-.tp-movers li { font-size: 0.8rem; }
-.tp-movers .mover-ticker { color: var(--text); font-weight: 600; margin-right: 4px; }
+.tp-group-note { font-size: 0.72rem; color: var(--muted); margin: 8px 0 4px; padding-left: 17px; }
+.tp-group-members { padding-left: 17px; display: flex; flex-direction: column; gap: 4px; }
+.tp-group-member { font-size: 0.78rem; color: var(--text); }
+.tp-group-member b { font-weight: 600; }
 .tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
 .tp-sources a { color: var(--accent); }
 .tp-sources li { margin-bottom: 2px; }
@@ -102,38 +99,10 @@ footer div { margin-bottom: 2px; }
         <div class="tp-item">
           <div class="tp-box">
             <div class="tp-bullet"><span class="tp-dot neg"></span>（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「日銀 今月の会合で利上げへ」「景気拡大 円安と物価高で実感薄く」「なぜ突然の円高に 背景と見通し」</div>
-            <div class="tp-meta">自動車・輸送機セクターの値動き: -0.20% ／ 変動の大きさ(zスコア) -2.32</div>
-            <div class='tp-movers-label'>関連銘柄の動き</div><ul class='tp-movers'><li><span class="mover-ticker">7211.T</span> <span class="neg">-5.90%</span></li><li><span class="mover-ticker">7272.T</span> <span class="neg">-5.90%</span></li><li><span class="mover-ticker">7261.T</span> <span class="neg">-5.46%</span></li></ul>
+            <div class="tp-group-note">以下5件の論点が共通してこの背景に該当するとみられます:</div>
+            <div class="tp-group-members"><div class='tp-group-member'><b>自動車・輸送機セクターの値動き</b>: -0.20% (zスコア -2.32) ／ 関連銘柄: 7211.T -5.90%、7272.T -5.90%、7261.T -5.46%</div><div class='tp-group-member'><b>機械セクターの値動き</b>: -0.37% (zスコア -2.26) ／ 関連銘柄: 6473.T -8.68%、6103.T -7.99%、6472.T -7.18%</div><div class='tp-group-member'><b>Qualityファクターの値動き</b>: +1.95% (zスコア +2.09)</div><div class='tp-group-member'><b>素材・化学セクターの値動き</b>: -0.33% (zスコア -2.06) ／ 関連銘柄: 6988.T -5.92%、4004.T -5.46%、4188.T -5.34%</div><div class='tp-group-member'><b>電機・精密セクターの値動き</b>: -0.71% (zスコア -1.92) ／ 関連銘柄: 6770.T -8.29%、6976.T -7.92%、6981.T -7.83%</div></div>
           </div>
           <ul class='tp-sources'><li><a href='https://news.yahoo.co.jp/pickup/6594679?source=rss' target='_blank' rel='noopener'>Yahoo!ニュース 経済: 日銀 今月の会合で利上げへ</a></li><li><a href='https://news.yahoo.co.jp/pickup/6594628?source=rss' target='_blank' rel='noopener'>Yahoo!ニュース 経済: 景気拡大 円安と物価高で実感薄く</a></li><li><a href='https://news.yahoo.co.jp/pickup/6594665?source=rss' target='_blank' rel='noopener'>Yahoo!ニュース 経済: なぜ突然の円高に 背景と見通し</a></li></ul>
-        </div>
-        <div class="tp-item">
-          <div class="tp-box tp-box-dup">
-            <div class="tp-bullet"><span class="tp-dot neg"></span>「自動車・輸送機セクターの値動き」と同じ背景とみられます（下記参照）</div>
-            <div class="tp-meta">機械セクターの値動き: -0.37% ／ 変動の大きさ(zスコア) -2.26</div>
-            <div class='tp-movers-label'>関連銘柄の動き</div><ul class='tp-movers'><li><span class="mover-ticker">6473.T</span> <span class="neg">-8.68%</span></li><li><span class="mover-ticker">6103.T</span> <span class="neg">-7.99%</span></li><li><span class="mover-ticker">6472.T</span> <span class="neg">-7.18%</span></li></ul>
-          </div>
-        </div>
-        <div class="tp-item">
-          <div class="tp-box tp-box-dup">
-            <div class="tp-bullet"><span class="tp-dot pos"></span>「自動車・輸送機セクターの値動き」と同じ背景とみられます（下記参照）</div>
-            <div class="tp-meta">Qualityファクターの値動き: +1.95% ／ 変動の大きさ(zスコア) +2.09</div>
-            
-          </div>
-        </div>
-        <div class="tp-item">
-          <div class="tp-box tp-box-dup">
-            <div class="tp-bullet"><span class="tp-dot neg"></span>「自動車・輸送機セクターの値動き」と同じ背景とみられます（下記参照）</div>
-            <div class="tp-meta">素材・化学セクターの値動き: -0.33% ／ 変動の大きさ(zスコア) -2.06</div>
-            <div class='tp-movers-label'>関連銘柄の動き</div><ul class='tp-movers'><li><span class="mover-ticker">6988.T</span> <span class="neg">-5.92%</span></li><li><span class="mover-ticker">4004.T</span> <span class="neg">-5.46%</span></li><li><span class="mover-ticker">4188.T</span> <span class="neg">-5.34%</span></li></ul>
-          </div>
-        </div>
-        <div class="tp-item">
-          <div class="tp-box tp-box-dup">
-            <div class="tp-bullet"><span class="tp-dot neg"></span>「自動車・輸送機セクターの値動き」と同じ背景とみられます（下記参照）</div>
-            <div class="tp-meta">電機・精密セクターの値動き: -0.71% ／ 変動の大きさ(zスコア) -1.92</div>
-            <div class='tp-movers-label'>関連銘柄の動き</div><ul class='tp-movers'><li><span class="mover-ticker">6770.T</span> <span class="neg">-8.29%</span></li><li><span class="mover-ticker">6976.T</span> <span class="neg">-7.92%</span></li><li><span class="mover-ticker">6981.T</span> <span class="neg">-7.83%</span></li></ul>
-          </div>
         </div>
   </section>
 
@@ -395,7 +364,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: 日経225構成銘柄数比率（cap-weightではない近似）</div>
     <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
-    <div>レポート生成時刻(UTC): 2026-09-08T13:31:59+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-08T13:40:50+00:00</div>
   </footer>
 </body>
 </html>

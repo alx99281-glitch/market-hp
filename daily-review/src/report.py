@@ -224,32 +224,45 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     else:
         from html_report import _fmt_metric_value, _pca_metric_story, humanize_metric
 
-        seen_summaries: dict[str, str] = {}
-        for _, row in tp.iterrows():
-            news = row.get("news")
+        def _print_member(row, label):
             metric_name = str(row["metric"])
-            label = humanize_metric(metric_name)
             value_str = _fmt_metric_value(metric_name, row["value"])
-            if news and news["summary"] in seen_summaries:
-                print(f"  - 「{seen_summaries[news['summary']]}」と同じ背景とみられます（上記参照）")
-                print(f"      ({label}: {value_str} / z={row['zscore']:+.2f})")
-            elif news:
-                print(f"  - {news['summary']}")
-                print(f"      ({label}: {value_str} / z={row['zscore']:+.2f})")
-                for src in news["sources"]:
-                    print(f"      出典: {src['title']} ({src['url']})")
-                seen_summaries[news["summary"]] = label
-            else:
-                pca_story = _pca_metric_story(metric_name, row["value"], d["pca_stock_axes"], d["pca_sector_axes"], ctx.universe_df)
-                if pca_story:
-                    print(f"  - {pca_story}")
-                else:
-                    print(f"  - {label}が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。")
-                print(f"      ({label}: {value_str} / z={row['zscore']:+.2f})")
+            print(f"      {label}: {value_str} (z={row['zscore']:+.2f})")
             movers = row.get("movers") or []
             if movers:
                 movers_str = ", ".join(f"{m['ticker']} {m['return']:+.2%}" for m in movers)
-                print(f"      関連銘柄: {movers_str}")
+                print(f"        関連銘柄: {movers_str}")
+
+        # 同じニュース要約に一致した論点はグルーピングし、共通の背景を1回だけ表示する
+        groups: dict[str, list] = {}
+        order: list[str] = []
+        for idx, row in tp.iterrows():
+            news = row.get("news")
+            key = news["summary"] if news else f"__unique_{idx}"
+            if key not in groups:
+                groups[key] = []
+                order.append(key)
+            groups[key].append(idx)
+
+        for key in order:
+            idxs = groups[key]
+            first_row = tp.loc[idxs[0]]
+            news = first_row.get("news")
+            metric_name = str(first_row["metric"])
+            label = humanize_metric(metric_name)
+            if news:
+                print(f"  - {news['summary']}")
+                for src in news["sources"]:
+                    print(f"      出典: {src['title']} ({src['url']})")
+            else:
+                pca_story = _pca_metric_story(metric_name, first_row["value"], d["pca_stock_axes"], d["pca_sector_axes"], ctx.universe_df)
+                print(f"  - {pca_story if pca_story else label + 'が普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。'}")
+
+            if len(idxs) > 1:
+                print(f"      （以下{len(idxs)}件の論点が共通してこの背景に該当するとみられます）")
+            for i in idxs:
+                row = tp.loc[i]
+                _print_member(row, humanize_metric(str(row["metric"])))
 
     print("\n[補足: セクター寄与度ウォーターフォール（自前計算）]")
     for name, val in d["sector_contrib"].items():
