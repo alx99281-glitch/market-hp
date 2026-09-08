@@ -61,7 +61,20 @@ def run_for_market(ctx: MarketContext) -> None:
     print(f"構造ページ更新: {structure_path}")
 
 
+def update_macro_data() -> None:
+    """USDJPY・米金利・原油（PCAの解釈やマクロ相関に使う）を差分更新する。"""
+    from macro import daily_update_macro, fetch_macro_data, macro_store
+
+    if not macro_store().load().shape[0]:
+        fetch_macro_data()
+    else:
+        n = daily_update_macro()
+        print(f"マクロデータ差分取得: {len(n)}行を追加")
+
+
 if __name__ == "__main__":
+    update_macro_data()
+
     if "--all" in sys.argv:
         run_for_market(us_context())
         run_for_market(jp_context())

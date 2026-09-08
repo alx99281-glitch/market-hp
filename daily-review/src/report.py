@@ -42,7 +42,7 @@ def related_movers(metric: str, returns: pd.DataFrame, date: pd.Timestamp, unive
     if day_ret.empty:
         return []
     top = day_ret.reindex(day_ret.abs().sort_values(ascending=False).index).head(n)
-    return [{"ticker": t, "return": float(r)} for t, r in top.items()]
+    return [{"ticker": t, "return": float(r), "name": _company_name(universe, t)} for t, r in top.items()]
 
 
 def _company_name(universe: pd.DataFrame, ticker: str) -> str | None:
@@ -230,7 +230,10 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
             print(f"      {label}: {value_str} (z={row['zscore']:+.2f})")
             movers = row.get("movers") or []
             if movers:
-                movers_str = ", ".join(f"{m['ticker']} {m['return']:+.2%}" for m in movers)
+                movers_str = ", ".join(
+                    f"{m['name']}({m['ticker']}) {m['return']:+.2%}" if m.get("name") else f"{m['ticker']} {m['return']:+.2%}"
+                    for m in movers
+                )
                 print(f"        関連銘柄: {movers_str}")
 
         # 同じニュース要約に一致した論点はグルーピングし、共通の背景を1回だけ表示する

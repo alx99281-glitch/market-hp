@@ -53,15 +53,12 @@ h2 {
 .neg { background: var(--neg); }
 .tp-item { margin-bottom: 14px; }
 .tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
-.tp-box-dup { opacity: 0.7; padding: 8px 14px; }
-.tp-box-dup .tp-bullet { font-size: 0.85rem; font-style: italic; }
 .tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
 .tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
-.tp-meta { font-size: 0.75rem; color: var(--muted); margin-top: 6px; padding-left: 17px; }
-.tp-movers-label { font-size: 0.72rem; color: var(--muted); margin-top: 8px; padding-left: 17px; }
-.tp-movers { margin: 3px 0 0; padding-left: 17px; list-style: none; display: flex; gap: 14px; flex-wrap: wrap; }
-.tp-movers li { font-size: 0.8rem; }
-.tp-movers .mover-ticker { color: var(--text); font-weight: 600; margin-right: 4px; }
+.tp-group-note { font-size: 0.72rem; color: var(--muted); margin: 8px 0 4px; padding-left: 17px; }
+.tp-group-members { padding-left: 17px; display: flex; flex-direction: column; gap: 4px; }
+.tp-group-member { font-size: 0.78rem; color: var(--text); }
+.tp-group-member b { font-weight: 600; }
 .tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
 .tp-sources a { color: var(--accent); }
 .tp-sources li { margin-bottom: 2px; }
@@ -170,7 +167,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / PCA: 自前計算（numpy固有値分解）</div>
     <div>短期軸=60日ローリング, 長期軸=250日ローリング, zスコア窓=26週</div>
-    <div>レポート生成時刻(UTC): 2026-09-08T13:32:02+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-08T14:27:21+00:00</div>
   </footer>
 </body>
 </html>

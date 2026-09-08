@@ -211,7 +211,10 @@ def _render_member_row(row: pd.Series, metric_label: str) -> str:
     metric_name = str(row["metric"])
     value_str = _fmt_metric_value(metric_name, row["value"])
     movers = row.get("movers") or []
-    movers_str = "、".join(f"{m['ticker']} {m['return']:+.2%}" for m in movers)
+    movers_str = "、".join(
+        f"{m['name']}({m['ticker']}) {m['return']:+.2%}" if m.get("name") else f"{m['ticker']} {m['return']:+.2%}"
+        for m in movers
+    )
     movers_part = f" ／ 関連銘柄: {html.escape(movers_str)}" if movers_str else ""
     return (
         f"<div class='tp-group-member'><b>{metric_label}</b>: {value_str} "
@@ -449,9 +452,30 @@ def _pca_narrative(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dic
             f"残り約{today_resid:.0%}は個別要因によるものでした。"
         )
 
+    macro_sentence = ""
+    try:
+        from macro import CORR_WINDOW, correlation_with
+
+        macro_corr = correlation_with(pc_scores.iloc[:, dominant_i].dropna())
+        if macro_corr:
+            strong = {k: v for k, v in macro_corr.items() if abs(v) >= 0.4}
+            macro_names = {"USDJPY": "USDJPY", "US10Y": "米10年金利", "Oil": "原油"}
+            if strong:
+                parts = "、".join(f"{macro_names.get(k, k)}(相関{v:+.2f})" for k, v in strong.items())
+                macro_sentence = f" 直近{CORR_WINDOW}日では{parts}と相関が見られ、マクロ要因との連動が比較的明確です。"
+            else:
+                best_k, best_v = max(macro_corr.items(), key=lambda kv: abs(kv[1]))
+                macro_sentence = (
+                    f" 直近{CORR_WINDOW}日でUSDJPY・米金利・原油いずれとも相関は弱く"
+                    f"（最大でも{macro_names.get(best_k, best_k)}の{best_v:+.2f}）、この主成分を単一の"
+                    f"マクロ変数だけで説明するのは早計と言えます。"
+                )
+    except Exception:  # noqa: BLE001
+        pass
+
     return (
         f"直近で最も動いたのは第{dominant_pc_num}主成分（過去の値動き全体の分散のうち{dominant_exp:.0%}を説明する"
-        f"変動パターン）でした。{sector_sentence}{resid_sentence}"
+        f"変動パターン）でした。{sector_sentence}{resid_sentence}{macro_sentence}"
     )
 
 
