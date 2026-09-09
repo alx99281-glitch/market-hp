@@ -162,5 +162,41 @@
       }
     ],
     "searched_at": "2026-09-08T23:33:58.128397+00:00"
+  },
+  "jp:2026-09-09:sector:エネルギー資源": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「日銀 今月の会合で利上げへ」「なぜ突然の円高に 背景と見通し」「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」",
+    "sources": [
+      {
+        "title": "Yahoo!ニュース 経済: 日銀 今月の会合で利上げへ",
+        "url": "https://news.yahoo.co.jp/pickup/6594679?source=rss"
+      },
+      {
+        "title": "Yahoo!ニュース 経済: なぜ突然の円高に 背景と見通し",
+        "url": "https://news.yahoo.co.jp/pickup/6594665?source=rss"
+      },
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      }
+    ],
+    "searched_at": "2026-09-09T12:07:28.695630+00:00"
+  },
+  "jp:2026-09-09:sector_internal_dispersion:エネルギー資源": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「日銀 今月の会合で利上げへ」「なぜ突然の円高に 背景と見通し」「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」",
+    "sources": [
+      {
+        "title": "Yahoo!ニュース 経済: 日銀 今月の会合で利上げへ",
+        "url": "https://news.yahoo.co.jp/pickup/6594679?source=rss"
+      },
+      {
+        "title": "Yahoo!ニュース 経済: なぜ突然の円高に 背景と見通し",
+        "url": "https://news.yahoo.co.jp/pickup/6594665?source=rss"
+      },
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      }
+    ],
+    "searched_at": "2026-09-09T12:07:28.698278+00:00"
   }
 }
