@@ -198,5 +198,77 @@
       }
     ],
     "searched_at": "2026-09-09T12:07:28.698278+00:00"
+  },
+  "us:2026-09-09:breadth:advance_pct": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump says oil and gas prices won't fall until 'right after' midterm election」「Trump's oil investments have gained millions during Iran war as his accounts keep trading」「Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump says oil and gas prices won't fall until 'right after' midterm election",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-prices-midterm-elections.html"
+      },
+      {
+        "title": "CNBC Economy: Trump's oil investments have gained millions during Iran war as his accounts keep trading",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html"
+      },
+      {
+        "title": "CNBC Economy: Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say",
+        "url": "https://www.cnbc.com/2026/09/09/fed-interest-rates-consumers-benefit-rates-stay-higher.html"
+      }
+    ],
+    "searched_at": "2026-09-09T23:27:01.910223+00:00"
+  },
+  "us:2026-09-09:sector_internal_dispersion:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump says oil and gas prices won't fall until 'right after' midterm election」「Trump's oil investments have gained millions during Iran war as his accounts keep trading」「Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump says oil and gas prices won't fall until 'right after' midterm election",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-prices-midterm-elections.html"
+      },
+      {
+        "title": "CNBC Economy: Trump's oil investments have gained millions during Iran war as his accounts keep trading",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html"
+      },
+      {
+        "title": "CNBC Economy: Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say",
+        "url": "https://www.cnbc.com/2026/09/09/fed-interest-rates-consumers-benefit-rates-stay-higher.html"
+      }
+    ],
+    "searched_at": "2026-09-09T23:27:01.913610+00:00"
+  },
+  "us:2026-09-09:sector:Communication Services": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump says oil and gas prices won't fall until 'right after' midterm election」「Trump's oil investments have gained millions during Iran war as his accounts keep trading」「Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump says oil and gas prices won't fall until 'right after' midterm election",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-prices-midterm-elections.html"
+      },
+      {
+        "title": "CNBC Economy: Trump's oil investments have gained millions during Iran war as his accounts keep trading",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html"
+      },
+      {
+        "title": "CNBC Economy: Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say",
+        "url": "https://www.cnbc.com/2026/09/09/fed-interest-rates-consumers-benefit-rates-stay-higher.html"
+      }
+    ],
+    "searched_at": "2026-09-09T23:27:01.916359+00:00"
+  },
+  "us:2026-09-09:sector:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump says oil and gas prices won't fall until 'right after' midterm election」「Trump's oil investments have gained millions during Iran war as his accounts keep trading」「Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump says oil and gas prices won't fall until 'right after' midterm election",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-prices-midterm-elections.html"
+      },
+      {
+        "title": "CNBC Economy: Trump's oil investments have gained millions during Iran war as his accounts keep trading",
+        "url": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html"
+      },
+      {
+        "title": "CNBC Economy: Trump pushes Fed for lower rates, but consumers may be better off with a hike, experts say",
+        "url": "https://www.cnbc.com/2026/09/09/fed-interest-rates-consumers-benefit-rates-stay-higher.html"
+      }
+    ],
+    "searched_at": "2026-09-09T23:27:01.918862+00:00"
   }
 }
