@@ -270,5 +270,69 @@
       }
     ],
     "searched_at": "2026-09-09T23:27:01.918862+00:00"
+  },
+  "us:2026-09-14:sector_internal_dispersion:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record」「Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz」「Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record",
+        "url": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-diesel-prices-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/09/14/iran-war-saudi-arabia-east-west-pipeline-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+        "url": "https://www.cnbc.com/2026/09/13/iran-war-oil-prices-freight-tankers-shipping.html"
+      }
+    ],
+    "searched_at": "2026-09-14T13:34:02.564601+00:00"
+  },
+  "us:2026-09-14:factor:Beta": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record」「Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz」「Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record",
+        "url": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-diesel-prices-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/09/14/iran-war-saudi-arabia-east-west-pipeline-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+        "url": "https://www.cnbc.com/2026/09/13/iran-war-oil-prices-freight-tankers-shipping.html"
+      }
+    ],
+    "searched_at": "2026-09-14T13:34:02.565490+00:00"
+  },
+  "us:2026-09-14:factor:Value": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record」「Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz」「Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record",
+        "url": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-diesel-prices-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/09/14/iran-war-saudi-arabia-east-west-pipeline-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+        "url": "https://www.cnbc.com/2026/09/13/iran-war-oil-prices-freight-tankers-shipping.html"
+      }
+    ],
+    "searched_at": "2026-09-14T13:34:02.566235+00:00"
+  },
+  "jp:2026-09-14:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「ソフトバンクグループ 17％余の減益 4-6月期決算」",
+    "sources": [
+      {
+        "title": "NHK 経済: ソフトバンクグループ 17％余の減益 4-6月期決算",
+        "url": "http://www3.nhk.or.jp/news/html/20260806/k10015198231000.html"
+      }
+    ],
+    "searched_at": "2026-09-14T13:34:44.236562+00:00"
   }
 }
