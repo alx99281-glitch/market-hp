@@ -71,9 +71,14 @@ def clean_bad_ticks(close: pd.DataFrame, window: int = 7, ratio: float = BAD_TIC
     return cleaned
 
 
+def cleaned_close(store: MarketDataStore) -> pd.DataFrame:
+    """異常値補正後の終値（レジーム判定のトレンド軸など、リターンでなく価格
+    そのものが必要な箇所向け）。"""
+    return clean_bad_ticks(store.wide_close())
+
+
 def compute_returns(store: MarketDataStore) -> pd.DataFrame:
-    close = clean_bad_ticks(store.wide_close())
-    return close.pct_change()
+    return cleaned_close(store).pct_change()
 
 
 def index_return_series(returns: pd.DataFrame, index_ticker: str) -> pd.Series:

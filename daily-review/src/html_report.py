@@ -78,6 +78,10 @@ h2 {
 .tp-sources li { margin-bottom: 2px; }
 .pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
 .pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
+.regime-box { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 12px 18px; margin-bottom: 28px; }
+.regime-headline { font-size: 0.95rem; font-weight: 600; margin-bottom: 8px; }
+.regime-list { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--muted); line-height: 1.7; }
+.regime-list li { margin-bottom: 2px; }
 table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
 th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
 th { color: var(--muted); font-weight: 500; }
@@ -398,7 +402,14 @@ def _sparkline_svg(
     </svg>"""
 
 
-def _pca_narrative(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dict, axes: dict | None = None, universe: pd.DataFrame | None = None) -> str:
+def _pca_narrative(
+    pc_scores: pd.DataFrame,
+    residual_ratio: pd.Series,
+    meta: dict,
+    axes: dict | None = None,
+    universe: pd.DataFrame | None = None,
+    factor_ret_history: pd.DataFrame | None = None,
+) -> str:
     """主成分分析(PCA)の結果、本日は何が言えるかを平易な文章にまとめる。
 
     axes・universeが渡された場合は、最も動いた主成分がどのセクターの
@@ -473,13 +484,46 @@ def _pca_narrative(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dic
     except Exception:  # noqa: BLE001
         pass
 
+    factor_sentence = ""
+    if factor_ret_history is not None and not factor_ret_history.empty:
+        try:
+            from pca import FACTOR_CORR_WINDOW, correlate_with_factors
+
+            factor_corr = correlate_with_factors(pc_scores.iloc[:, dominant_i].dropna(), factor_ret_history)
+            if factor_corr:
+                strong = {k: v for k, v in factor_corr.items() if pd.notna(v) and abs(v) >= 0.4}
+                if strong:
+                    ranked = sorted(strong.items(), key=lambda kv: -abs(kv[1]))[:2]
+                    parts = "、".join(f"{k}(相関{v:+.2f})" for k, v in ranked)
+                    note = "ただし他のファクターとも幅広く相関しており、単一ファクターへの還元には注意が必要です。" if len(strong) > 2 else ""
+                    factor_sentence = (
+                        f" 自前計算の8ファクターの中では{parts}と相関が最も強く、この主成分は"
+                        f"{ranked[0][0]}ファクター的な値動きに近いと解釈できます。{note}"
+                    )
+                else:
+                    factor_sentence = (
+                        " 自前計算の8ファクター（Value/Growth/Momentum/Quality/Size/Beta/"
+                        "Volatility/Liquidity）のいずれとも相関は弱く、既存のファクターだけでは"
+                        "説明しきれない値動きパターンと言えます。"
+                    )
+        except Exception:  # noqa: BLE001
+            pass
+
     return (
         f"直近で最も動いたのは第{dominant_pc_num}主成分（過去の値動き全体の分散のうち{dominant_exp:.0%}を説明する"
-        f"変動パターン）でした。{sector_sentence}{resid_sentence}{macro_sentence}"
+        f"変動パターン）でした。{sector_sentence}{resid_sentence}{macro_sentence}{factor_sentence}"
     )
 
 
-def _render_pca_section(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta: dict, days: int, axes: dict | None = None, universe: pd.DataFrame | None = None) -> str:
+def _render_pca_section(
+    pc_scores: pd.DataFrame,
+    residual_ratio: pd.Series,
+    meta: dict,
+    days: int,
+    axes: dict | None = None,
+    universe: pd.DataFrame | None = None,
+    factor_ret_history: pd.DataFrame | None = None,
+) -> str:
     exp = meta["explained_variance_ratio"]
     exp_txt = " / ".join(f"PC{i+1} {v:.1%}" for i, v in enumerate(exp))
     colors = ["#58a6ff", "#3fb950", "#f0883e"]
@@ -491,7 +535,7 @@ def _render_pca_section(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta
         for i, col in enumerate(pc_scores.columns[:3])
     )
     resid_chart = _sparkline_svg(residual_ratio.tail(days), "#f85149", w=780, h=70, fmt_last="{:.0%}")
-    narrative = html.escape(_pca_narrative(pc_scores, residual_ratio, meta, axes, universe))
+    narrative = html.escape(_pca_narrative(pc_scores, residual_ratio, meta, axes, universe, factor_ret_history))
     return f"""
     <div class="pca-box">
       <div class="pca-narrative">{narrative}</div>
@@ -502,6 +546,15 @@ def _render_pca_section(pc_scores: pd.DataFrame, residual_ratio: pd.Series, meta
       <div style="display:flex; gap:24px; flex-wrap:wrap; margin:14px 0 16px">{pc_charts}</div>
       <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">説明できなかった動きの比率（直近{days}日の推移）</div>
       {resid_chart}
+    </div>"""
+
+
+def _render_regime_box(regime: dict) -> str:
+    items = "".join(f"<li>{html.escape(regime[k]['desc'])}</li>" for k in ("trend", "volatility", "correlation"))
+    return f"""
+    <div class="regime-box">
+      <div class="regime-headline">相場のレジーム（地合い）: {html.escape(regime['headline'])}</div>
+      <ul class="regime-list">{items}</ul>
     </div>"""
 
 
@@ -521,6 +574,7 @@ def render_html(d: dict) -> str:
   <p class="subtitle">{date_str} <span class="badge">{html.escape(ctx.index_display)}</span></p>
 
   <div class="headline">{html.escape(d['headline'])}</div>
+  {_render_regime_box(d['regime'])}
 
   <section>
     <h2>本日の論点（|z| ≥ {d['zscore_threshold']}, ローリング{d['zscore_window']}日）</h2>
@@ -552,7 +606,7 @@ def render_html(d: dict) -> str:
 
   <section>
     <h2>主成分分析(PCA)から分かること</h2>
-    {_render_pca_section(d['pc_scores'], d['residual_ratio'], d['pca_axes_meta']['stocks'], 60, d['pca_stock_axes'], ctx.universe_df)}
+    {_render_pca_section(d['pc_scores'], d['residual_ratio'], d['pca_axes_meta']['stocks'], 60, d['pca_stock_axes'], ctx.universe_df, d['factor_ret_history'])}
   </section>
 
   {"" if ctx.name != "us" else '''<section>

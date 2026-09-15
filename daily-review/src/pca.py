@@ -118,6 +118,26 @@ def item_loading_summary(axes: dict, pc_index: int, n: int = 3) -> tuple[list[st
     return list(s.head(n).index), list(s.tail(n).index)
 
 
+FACTOR_CORR_WINDOW = 60
+
+
+def correlate_with_factors(pc_series: pd.Series, factor_df: pd.DataFrame, window: int = FACTOR_CORR_WINDOW) -> dict[str, float]:
+    """PCスコアと、層1で自前計算した8ファクターそれぞれとの直近window日相関。
+
+    「主成分分析が見つけた変動パターンは、既存の8ファクター（Value/Growth/
+    Momentum/Quality/Size/Beta/Volatility/Liquidity）のどれかで説明できるのか」
+    を定量的に確認する（macro.correlation_with()のファクター版。層1のファクターと
+    層3のPCAを初めて突き合わせる）。
+    """
+    aligned = factor_df.reindex(pc_series.index)
+    result = {}
+    for col in aligned.columns:
+        pair = pd.concat([pc_series.tail(window), aligned[col].tail(window)], axis=1).dropna()
+        if len(pair) >= 20:
+            result[col] = float(pair.iloc[:, 0].corr(pair.iloc[:, 1]))
+    return result
+
+
 def needs_reestimation(axes: dict | None) -> bool:
     if axes is None:
         return True

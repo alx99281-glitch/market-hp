@@ -7,9 +7,10 @@ from datetime import datetime, timezone
 import pandas as pd
 
 from config import ZSCORE_THRESHOLD, ZSCORE_WINDOW
-from decompose import run_layer1, top_bottom_contributors
+from decompose import cleaned_close, run_layer1, sector_etf_returns, top_bottom_contributors
 from free_news_lookup import fetch_all, match_keywords
 from market_context import MarketContext
+from market_regime import classify_regime
 from news_store import load_news_for_date, save_news
 from pca import load_axes, run_layer3
 from zscore import run_layer2
@@ -184,16 +185,22 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
     )
     talking_points = free_rss_lookup(talking_points, ctx, last_date)
 
+    close = cleaned_close(ctx.price_store)
+    regime_sector_ret = sector_etf_returns(l1.returns, ctx.sector_etfs)
+    regime = classify_regime(close[ctx.index_ticker], l1.returns[ctx.index_ticker], regime_sector_ret)
+
     return {
         "ctx": ctx,
         "date": last_date,
         "index_ret": index_ret,
         "headline": build_headline(index_ret, top_factor_name, top_factor_val, advancers, decliners),
+        "regime": regime,
         "talking_points": talking_points,
         "breadth": {"advancers": advancers, "decliners": decliners, "advance_pct": advancers / max(advancers + decliners, 1)},
         "sector_contrib": l1.sector_contrib.loc[last_date].dropna().sort_values(ascending=False),
         "sector_etf_ret": l1.sector_etf_ret.loc[last_date].dropna().sort_values(ascending=False),
         "factor_ret": l1.factor_ret.loc[last_date],
+        "factor_ret_history": l1.factor_ret.tail(120),
         "factor_etf_ret": l1.factor_etf_ret.loc[last_date].dropna(),
         "top_bottom": top_bottom_contributors(l1.returns, last_date, ctx.universe_df, ctx.fundamentals_path),
         "pc_scores": l3.pc_scores.tail(60),
@@ -216,6 +223,10 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
 
     print("\n[結論]")
     print(" " + d["headline"])
+
+    print(f"\n[相場のレジーム（地合い）] 総合: {d['regime']['headline']}")
+    for key in ("trend", "volatility", "correlation"):
+        print("  - " + d["regime"][key]["desc"])
 
     print(f"\n[本日の論点: 何がマーケットを主導したか] |z| >= {d['zscore_threshold']}（ローリング{d['zscore_window']}日）")
     tp = d["talking_points"]
@@ -292,7 +303,7 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     from html_report import _pca_narrative
 
     meta = d["pca_axes_meta"]["stocks"]
-    print("  " + _pca_narrative(d["pc_scores"], d["residual_ratio"], meta, d["pca_stock_axes"], ctx.universe_df))
+    print("  " + _pca_narrative(d["pc_scores"], d["residual_ratio"], meta, d["pca_stock_axes"], ctx.universe_df, d["factor_ret_history"]))
     exp = ", ".join(f"PC{i+1}={v:.1%}" for i, v in enumerate(meta["explained_variance_ratio"]))
     print(f"  （軸推定日: {meta['estimated_at'][:10]}  銘柄数: {meta['n_tickers']}  各パターンの説明力: {exp}）")
     print(d["pc_scores"].tail(5).to_string())
