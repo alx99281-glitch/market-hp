@@ -402,5 +402,93 @@
       }
     ],
     "searched_at": "2026-09-15T14:41:05.777432+00:00"
+  },
+  "us:2026-09-15:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure」「No one and done: The Fed will hike at least two times over the next year, according to CNBC survey」「Treasury yields are hovering above a critical threshold. Here's what it means for stocks」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure",
+        "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html"
+      },
+      {
+        "title": "CNBC Economy: No one and done: The Fed will hike at least two times over the next year, according to CNBC survey",
+        "url": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields are hovering above a critical threshold. Here's what it means for stocks",
+        "url": "https://www.cnbc.com/2026/09/15/treasury-yields-stocks-investors.html"
+      }
+    ],
+    "searched_at": "2026-09-15T23:36:46.244642+00:00"
+  },
+  "us:2026-09-15:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure」「No one and done: The Fed will hike at least two times over the next year, according to CNBC survey」「Treasury yields are hovering above a critical threshold. Here's what it means for stocks」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure",
+        "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html"
+      },
+      {
+        "title": "CNBC Economy: No one and done: The Fed will hike at least two times over the next year, according to CNBC survey",
+        "url": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields are hovering above a critical threshold. Here's what it means for stocks",
+        "url": "https://www.cnbc.com/2026/09/15/treasury-yields-stocks-investors.html"
+      }
+    ],
+    "searched_at": "2026-09-15T23:36:46.247792+00:00"
+  },
+  "us:2026-09-15:sector:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure」「No one and done: The Fed will hike at least two times over the next year, according to CNBC survey」「Treasury yields are hovering above a critical threshold. Here's what it means for stocks」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure",
+        "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html"
+      },
+      {
+        "title": "CNBC Economy: No one and done: The Fed will hike at least two times over the next year, according to CNBC survey",
+        "url": "https://www.cnbc.com/2026/09/15/cnbc-fed-survey-two-rate-hikes-seen-ahead.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields are hovering above a critical threshold. Here's what it means for stocks",
+        "url": "https://www.cnbc.com/2026/09/15/treasury-yields-stocks-investors.html"
+      }
+    ],
+    "searched_at": "2026-09-15T23:36:46.250884+00:00"
+  },
+  "us:2026-09-15:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-2906f60d?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-15T23:36:46.663349+00:00"
+  },
+  "us:2026-09-15:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-a04562f0?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-15T23:36:46.670379+00:00"
+  },
+  "us:2026-09-15:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Saudi pipeline closure is a brief interruption that will last days, U.S. Energy secretary tells CNBC」「Energy Transfer’s Texas Listing Could Boost Visibility, but Risks Remain」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Saudi pipeline closure is a brief interruption that will last days, U.S. Energy secretary tells CNBC",
+        "url": "https://www.cnbc.com/2026/09/15/saud-arabia-east-west-pipeline-iran-war-chris-wright.html"
+      },
+      {
+        "title": "Yahoo Finance: Energy Transfer’s Texas Listing Could Boost Visibility, but Risks Remain",
+        "url": "https://finance.yahoo.com/energy/articles/energy-transfer-texas-listing-could-150231871.html"
+      }
+    ],
+    "searched_at": "2026-09-15T23:36:46.677370+00:00"
   }
 }
