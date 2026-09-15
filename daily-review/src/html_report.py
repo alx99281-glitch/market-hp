@@ -78,6 +78,16 @@ h2 {
 .tp-sources li { margin-bottom: 2px; }
 .pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
 .pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
+.sector-explain-card { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; }
+.sector-explain-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+.sector-explain-name { font-weight: 600; font-size: 0.9rem; }
+.sector-explain-val { margin-left: auto; font-variant-numeric: tabular-nums; font-size: 0.8rem; }
+.sc-pos { color: var(--pos); }
+.sc-neg { color: var(--neg); }
+.sc-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+.sector-explain-movers { font-size: 0.8rem; color: var(--text); margin-bottom: 4px; }
+.sector-explain-news { font-size: 0.82rem; color: var(--text); line-height: 1.6; }
+.sector-explain-news.muted { color: var(--muted); }
 .regime-box { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 12px 18px; margin-bottom: 28px; }
 .regime-headline { font-size: 0.95rem; font-weight: 600; margin-bottom: 8px; }
 .regime-list { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--muted); line-height: 1.7; }
@@ -315,6 +325,59 @@ def _render_waterfall(series: pd.Series, scale: float | None = None) -> str:
           <div class="waterfall-val">{val:+.3%}</div>
         </div>""")
     return "".join(rows)
+
+
+def _render_sector_explanations(items: list[dict]) -> str:
+    """上位/下位セクターそれぞれについて、関連銘柄（定量）とニュース（定性）を
+    セットで示すカード。セクター寄与度ウォーターフォールが数字だけで終わって
+    しまうのを補い、「なぜ動いたか」まで踏み込んで示す。"""
+    if not items:
+        return "<p style='color:var(--muted)'>データなし</p>"
+
+    def _card(item: dict) -> str:
+        sign_cls = "sc-pos" if item["contribution"] >= 0 else "sc-neg"
+        z_str = f" / zスコア {item['zscore']:+.2f}" if item["zscore"] is not None else ""
+        movers_html = ""
+        if item["movers"]:
+            movers_str = "、".join(
+                f"{m['name']}({m['ticker']}) {m['return']:+.2%}" if m.get("name") else f"{m['ticker']} {m['return']:+.2%}"
+                for m in item["movers"]
+            )
+            movers_html = f'<div class="sector-explain-movers">関連銘柄（定量的裏付け）: {html.escape(movers_str)}</div>'
+        news = item["news"]
+        if news:
+            sources_html = "<ul class='tp-sources'>" + "".join(
+                f'<li><a href="{html.escape(s["url"])}" target="_blank" rel="noopener">{html.escape(s["title"])}</a></li>'
+                for s in news["sources"]
+            ) + "</ul>"
+            news_html = f'<div class="sector-explain-news">{html.escape(news["summary"])}</div>{sources_html}'
+        else:
+            news_html = '<div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>'
+        return f"""
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot {sign_cls}"></span>
+            <span class="sector-explain-name">{html.escape(str(item['name']))}</span>
+            <span class="sector-explain-val {sign_cls}">{item['contribution']:+.3%}{z_str}</span>
+          </div>
+          {movers_html}
+          {news_html}
+        </div>"""
+
+    n = len(items) // 2
+    up_cards = "".join(_card(i) for i in items[:n])
+    down_cards = "".join(_card(i) for i in items[n:])
+    return f"""
+    <div class="two-col">
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">上昇寄与 上位{n}</div>
+        {up_cards}
+      </div>
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">下落寄与 上位{n}</div>
+        {down_cards}
+      </div>
+    </div>"""
 
 
 def _render_factor_table(factor_ret: pd.Series, factor_etf_ret: pd.Series, factor_etf_map: dict[str, str]) -> str:
@@ -584,6 +647,14 @@ def render_html(d: dict) -> str:
   <section>
     <h2>セクター寄与度（自前計算・{html.escape(ctx.sector_weight_method)}）</h2>
     {_render_waterfall(d['sector_contrib'])}
+  </section>
+
+  <section>
+    <h2>本日動いたセクターの背景（定量+定性）</h2>
+    <p class="explain">上のグラフで寄与度が大きかった上位/下位セクターについて、関連銘柄の値動き（定量）と
+    関連しそうなニュース見出し（定性・自動キーワード一致のため要確認）をセットで示す。zスコアはそのセクターの
+    過去の振れ幅に対して本日がどれだけ「普段と違う」動きかを表す（|z|が大きいほど異例）。</p>
+    {_render_sector_explanations(d['sector_explanations'])}
   </section>
 
   <section>

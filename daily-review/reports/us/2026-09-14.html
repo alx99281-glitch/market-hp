@@ -64,6 +64,16 @@ h2 {
 .tp-sources li { margin-bottom: 2px; }
 .pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
 .pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
+.sector-explain-card { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; }
+.sector-explain-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+.sector-explain-name { font-weight: 600; font-size: 0.9rem; }
+.sector-explain-val { margin-left: auto; font-variant-numeric: tabular-nums; font-size: 0.8rem; }
+.sc-pos { color: var(--pos); }
+.sc-neg { color: var(--neg); }
+.sc-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+.sector-explain-movers { font-size: 0.8rem; color: var(--text); margin-bottom: 4px; }
+.sector-explain-news { font-size: 0.82rem; color: var(--text); line-height: 1.6; }
+.sector-explain-news.muted { color: var(--muted); }
 .regime-box { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 12px 18px; margin-bottom: 28px; }
 .regime-headline { font-size: 0.95rem; font-weight: 600; margin-bottom: 8px; }
 .regime-list { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--muted); line-height: 1.7; }
@@ -187,6 +197,114 @@ footer div { margin-bottom: 2px; }
           <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:50.0%; margin-left:0.0%"></div><div style="width:50%"></div></div>
           <div class="waterfall-val">-0.781%</div>
         </div>
+  </section>
+
+  <section>
+    <h2>本日動いたセクターの背景（定量+定性）</h2>
+    <p class="explain">上のグラフで寄与度が大きかった上位/下位セクターについて、関連銘柄の値動き（定量）と
+    関連しそうなニュース見出し（定性・自動キーワード一致のため要確認）をセットで示す。zスコアはそのセクターの
+    過去の振れ幅に対して本日がどれだけ「普段と違う」動きかを表す（|z|が大きいほど異例）。</p>
+    
+    <div class="two-col">
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">上昇寄与 上位5</div>
+        
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Health Care</span>
+            <span class="sector-explain-val sc-pos">+0.134% / zスコア +1.12</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Stryker Corporation(SYK) +3.37%、Zimmer Biomet(ZBH) +3.14%、Lilly (Eli)(LLY) +2.81%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Communication Services</span>
+            <span class="sector-explain-val sc-pos">+0.123% / zスコア +1.10</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Paramount Skydance Corporation(PSKY) +3.30%、Fox Corporation (Class B)(FOX) +2.69%、Fox Corporation (Class A)(FOXA) +2.06%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Financials</span>
+            <span class="sector-explain-val sc-pos">+0.114% / zスコア +0.85</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: FactSet(FDS) +7.30%、Coinbase(COIN) +6.77%、Fidelity National Information Services(FIS) +3.85%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Consumer Staples</span>
+            <span class="sector-explain-val sc-pos">+0.073% / zスコア +1.58</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Brown–Forman(BF-B) +3.03%、General Mills(GIS) +2.80%、McCormick &amp; Company(MKC) +2.67%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Consumer Discretionary</span>
+            <span class="sector-explain-val sc-pos">+0.040% / zスコア +0.34</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Booking Holdings(BKNG) +4.31%、Expedia Group(EXPE) +4.31%、Yum! Brands(YUM) +2.62%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">下落寄与 上位5</div>
+        
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">Information Technology</span>
+            <span class="sector-explain-val sc-neg">-0.781% / zスコア -1.31</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Teradyne(TER) -9.33%、Hewlett Packard Enterprise(HPE) -9.31%、Corning Inc.(GLW) -8.90%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">Industrials</span>
+            <span class="sector-explain-val sc-neg">-0.102% / zスコア -1.22</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Vertiv(VRT) -10.76%、Eaton Corporation(ETN) -8.50%、Comfort Systems USA(FIX) -8.23%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">Materials</span>
+            <span class="sector-explain-val sc-neg">-0.008% / zスコア -0.48</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Freeport-McMoRan(FCX) -4.66%、Newmont(NEM) -3.32%、Mosaic Company (The)(MOS) -2.18%</div>
+          <div class="sector-explain-news">（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」</div><ul class='tp-sources'><li><a href="https://www.wsj.com/business/basic-materials-roundup-market-talk-a04562f0?mod=rss_markets_main" target="_blank" rel="noopener">WSJ Markets: Basic Materials Roundup: Market Talk</a></li></ul>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Utilities</span>
+            <span class="sector-explain-val sc-pos">+0.000% / zスコア +0.05</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: NRG Energy(NRG) -3.90%、Constellation Energy(CEG) -3.86%、Vistra Corp.(VST) -3.63%</div>
+          <div class="sector-explain-news">（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy &amp; Utilities Roundup: Market Talk」</div><ul class='tp-sources'><li><a href="https://www.wsj.com/business/energy-utilities-roundup-market-talk-471af7da?mod=rss_markets_main" target="_blank" rel="noopener">WSJ Markets: Energy &amp; Utilities Roundup: Market Talk</a></li></ul>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Real Estate</span>
+            <span class="sector-explain-val sc-pos">+0.008% / zスコア +0.40</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: CoStar Group(CSGP) +3.71%、Digital Realty(DLR) -2.80%、Iron Mountain(IRM) -2.58%</div>
+          <div class="sector-explain-news">（自動キーワード一致・要確認）関連する可能性のある見出し: 「Potential AI slowdown is not ‘end of the world’ for data center real estate, says Digital Realty CEO」</div><ul class='tp-sources'><li><a href="https://www.cnbc.com/2026/09/15/data-center-reit-ceo-ai-slowdown.html" target="_blank" rel="noopener">CNBC Economy: Potential AI slowdown is not ‘end of the world’ for data center real estate, says Digital Realty CEO</a></li></ul>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section>
@@ -330,7 +448,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: SPY保有構成ベース（cap-weight近似）</div>
     <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
-    <div>レポート生成時刻(UTC): 2026-09-15T14:28:08+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-15T14:40:49+00:00</div>
   </footer>
 </body>
 </html>

@@ -93,7 +93,59 @@ def _keywords_for_metric(metric: str, movers: list[dict], universe: pd.DataFrame
     return []
 
 
-def free_rss_lookup(talking_points: pd.DataFrame, ctx: MarketContext, date: pd.Timestamp) -> pd.DataFrame:
+def lookup_news_for_metric(
+    metric: str,
+    movers: list[dict],
+    ctx: MarketContext,
+    date: pd.Timestamp,
+    feed_items: list[dict] | None = None,
+    news_for_date: dict | None = None,
+    allow_macro_fallback: bool = True,
+) -> dict | None:
+    """1つの論点(metric)について、ニュースキャッシュまたは無料RSSキーワード一致で
+    関連ニュースを探す（見つかればnews_storeにも保存）。
+
+    free_rss_lookup()のループ内処理を独立させたもの。z-score異常検知を通った
+    論点だけでなく、セクター寄与度の上位/下位（explain_top_sectors）のように
+    閾値を超えていない対象にも同じロジックでニュースを探せるようにするため。
+
+    allow_macro_fallback=False にすると、セクター名・関連銘柄名で見つからない
+    場合に「要因不明」のままにする（マクロキーワードで見つけない）。1日1件だけ
+    表示する本日の論点(talking_points)ではマクロ全般の材料として妥当でも、
+    上位/下位セクター全件（方向がバラバラな複数セクター）に同じマクロ見出しを
+    機械的に貼り付けると、上昇セクターと下落セクター両方に同じ「原因」が
+    表示される矛盾した見え方になるため、セクター別の背景説明では使わない。
+    """
+    cache = news_for_date if news_for_date is not None else load_news_for_date(ctx.name, date)
+    cached = cache.get(metric)
+    if cached:
+        return cached
+
+    if feed_items is None:
+        feed_items = fetch_all(ctx.name)
+    if not feed_items:
+        return None
+
+    specific_kws = _keywords_for_metric(metric, movers, ctx.universe_df, ctx.name)
+    matched = match_keywords(feed_items, specific_kws) if specific_kws else []
+    is_macro = False
+    if not matched and allow_macro_fallback:
+        matched = match_keywords(feed_items, MACRO_KEYWORDS[ctx.name])
+        is_macro = bool(matched)
+    if not matched:
+        return None
+
+    titles = "」「".join(m["title"] for m in matched)
+    scope_note = "マクロ全般の材料として" if is_macro else ""
+    summary = f"（自動キーワード一致・要確認）{scope_note}関連する可能性のある見出し: 「{titles}」"
+    sources = [{"title": f"{m['source']}: {m['title']}", "url": m["url"]} for m in matched]
+    save_news(ctx.name, date, metric, summary, sources)
+    return {"summary": summary, "sources": sources}
+
+
+def free_rss_lookup(
+    talking_points: pd.DataFrame, ctx: MarketContext, date: pd.Timestamp, feed_items: list[dict] | None = None
+) -> pd.DataFrame:
     """ニュースキャッシュに無い論点について、無料RSSの見出しとキーワード一致で
     照合し、見つかれば結果をnews_storeにも保存する。
 
@@ -108,29 +160,55 @@ def free_rss_lookup(talking_points: pd.DataFrame, ctx: MarketContext, date: pd.T
     if not missing.any():
         return talking_points
 
-    feed_items = fetch_all(ctx.name)
+    if feed_items is None:
+        feed_items = fetch_all(ctx.name)
     if not feed_items:
         return talking_points
 
     for idx in talking_points[missing].index:
         row = talking_points.loc[idx]
-        specific_kws = _keywords_for_metric(row["metric"], row["movers"], ctx.universe_df, ctx.name)
-        matched = match_keywords(feed_items, specific_kws) if specific_kws else []
-        is_macro = False
-        if not matched:
-            matched = match_keywords(feed_items, MACRO_KEYWORDS[ctx.name])
-            is_macro = bool(matched)
-        if not matched:
-            continue
-
-        titles = "」「".join(m["title"] for m in matched)
-        scope_note = "マクロ全般の材料として" if is_macro else ""
-        summary = f"（自動キーワード一致・要確認）{scope_note}関連する可能性のある見出し: 「{titles}」"
-        sources = [{"title": f"{m['source']}: {m['title']}", "url": m["url"]} for m in matched]
-        talking_points.at[idx, "news"] = {"summary": summary, "sources": sources}
-        save_news(ctx.name, date, row["metric"], summary, sources)
+        news = lookup_news_for_metric(row["metric"], row["movers"], ctx, date, feed_items, news_for_date={})
+        if news:
+            talking_points.at[idx, "news"] = news
 
     return talking_points
+
+
+def explain_top_sectors(
+    sector_contrib: pd.Series,
+    zscored: pd.DataFrame,
+    returns: pd.DataFrame,
+    date: pd.Timestamp,
+    ctx: MarketContext,
+    news_for_date: dict,
+    feed_items: list[dict] | None = None,
+    n: int = 5,
+) -> list[dict]:
+    """本日のセクター寄与度、上位n・下位n件について「なぜ動いたか」を
+    定量（関連銘柄の値動き・z-score）と定性（ニュース）の両面で説明する。
+
+    z-score異常検知の「本日の論点」は、そのセクター自身の過去の振れ幅に対して
+    "普段より"動いたかどうかで抽出するため、今日いちばん大きく動いたセクターが
+    必ずしも論点として拾われるとは限らない（元々値動きの大きいセクターだと
+    z-scoreが低いまま大きく動くことがある）。そのため論点抽出とは別に、
+    単純に「本日の寄与度が大きい順」で網羅的に説明を付ける。
+    """
+    top = sector_contrib.head(n)
+    bottom = sector_contrib.tail(n).sort_values()
+    out = []
+    for name, val in pd.concat([top, bottom]).items():
+        metric = f"sector:{name}"
+        movers = related_movers(metric, returns, date, ctx.universe_df)
+        z = zscored.loc[date, metric] if date in zscored.index and metric in zscored.columns else float("nan")
+        news = lookup_news_for_metric(metric, movers, ctx, date, feed_items, news_for_date, allow_macro_fallback=False)
+        out.append({
+            "name": name,
+            "contribution": float(val),
+            "zscore": float(z) if pd.notna(z) else None,
+            "movers": movers,
+            "news": news,
+        })
+    return out
 
 
 def build_headline(
@@ -183,11 +261,17 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
     talking_points["movers"] = talking_points["metric"].apply(
         lambda m: related_movers(m, l1.returns, last_date, ctx.universe_df)
     )
-    talking_points = free_rss_lookup(talking_points, ctx, last_date)
+    feed_items = fetch_all(ctx.name)
+    talking_points = free_rss_lookup(talking_points, ctx, last_date, feed_items)
 
     close = cleaned_close(ctx.price_store)
     regime_sector_ret = sector_etf_returns(l1.returns, ctx.sector_etfs)
     regime = classify_regime(close[ctx.index_ticker], l1.returns[ctx.index_ticker], regime_sector_ret)
+
+    sector_contrib_today = l1.sector_contrib.loc[last_date].dropna().sort_values(ascending=False)
+    sector_explanations = explain_top_sectors(
+        sector_contrib_today, l2.zscored, l1.returns, last_date, ctx, news_for_date, feed_items
+    )
 
     return {
         "ctx": ctx,
@@ -197,7 +281,8 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
         "regime": regime,
         "talking_points": talking_points,
         "breadth": {"advancers": advancers, "decliners": decliners, "advance_pct": advancers / max(advancers + decliners, 1)},
-        "sector_contrib": l1.sector_contrib.loc[last_date].dropna().sort_values(ascending=False),
+        "sector_contrib": sector_contrib_today,
+        "sector_explanations": sector_explanations,
         "sector_etf_ret": l1.sector_etf_ret.loc[last_date].dropna().sort_values(ascending=False),
         "factor_ret": l1.factor_ret.loc[last_date],
         "factor_ret_history": l1.factor_ret.tail(120),
@@ -281,6 +366,23 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
     print("\n[補足: セクター寄与度ウォーターフォール（自前計算）]")
     for name, val in d["sector_contrib"].items():
         print(f"  {name:28s} {val:+.4%}")
+
+    print(f"\n[本日動いたセクターの背景: 上位/下位{len(d['sector_explanations']) // 2}]")
+    for item in d["sector_explanations"]:
+        z_str = f", z={item['zscore']:+.2f}" if item["zscore"] is not None else ""
+        print(f"  - {item['name']}: {item['contribution']:+.4%}{z_str}")
+        if item["movers"]:
+            movers_str = ", ".join(
+                f"{m['name']}({m['ticker']}) {m['return']:+.2%}" if m.get("name") else f"{m['ticker']} {m['return']:+.2%}"
+                for m in item["movers"]
+            )
+            print(f"      関連銘柄: {movers_str}")
+        if item["news"]:
+            print(f"      {item['news']['summary']}")
+            for src in item["news"]["sources"]:
+                print(f"        出典: {src['title']} ({src['url']})")
+        else:
+            print("      対応する材料は特定できませんでした（要因不明）。")
 
     print("\n[補足: セクターETFベース簡易版（整合性チェック）]")
     for name, val in d["sector_etf_ret"].items():

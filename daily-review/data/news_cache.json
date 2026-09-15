@@ -352,5 +352,55 @@
       }
     ],
     "searched_at": "2026-09-15T12:25:35.179717+00:00"
+  },
+  "us:2026-09-14:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-a04562f0?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-15T14:40:22.989497+00:00"
+  },
+  "us:2026-09-14:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-471af7da?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-15T14:40:23.011120+00:00"
+  },
+  "us:2026-09-14:sector:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Potential AI slowdown is not ‘end of the world’ for data center real estate, says Digital Realty CEO」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Potential AI slowdown is not ‘end of the world’ for data center real estate, says Digital Realty CEO",
+        "url": "https://www.cnbc.com/2026/09/15/data-center-reit-ceo-ai-slowdown.html"
+      }
+    ],
+    "searched_at": "2026-09-15T14:40:23.030540+00:00"
+  },
+  "jp:2026-09-15:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「ソフトバンクグループ 17％余の減益 4-6月期決算」",
+    "sources": [
+      {
+        "title": "NHK 経済: ソフトバンクグループ 17％余の減益 4-6月期決算",
+        "url": "http://www3.nhk.or.jp/news/html/20260806/k10015198231000.html"
+      }
+    ],
+    "searched_at": "2026-09-15T14:41:05.733299+00:00"
+  },
+  "jp:2026-09-15:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-09-15T14:41:05.777432+00:00"
   }
 }

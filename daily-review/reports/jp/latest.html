@@ -64,6 +64,16 @@ h2 {
 .tp-sources li { margin-bottom: 2px; }
 .pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
 .pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
+.sector-explain-card { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; }
+.sector-explain-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+.sector-explain-name { font-weight: 600; font-size: 0.9rem; }
+.sector-explain-val { margin-left: auto; font-variant-numeric: tabular-nums; font-size: 0.8rem; }
+.sc-pos { color: var(--pos); }
+.sc-neg { color: var(--neg); }
+.sc-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+.sector-explain-movers { font-size: 0.8rem; color: var(--text); margin-bottom: 4px; }
+.sector-explain-news { font-size: 0.82rem; color: var(--text); line-height: 1.6; }
+.sector-explain-news.muted { color: var(--muted); }
 .regime-box { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 12px 18px; margin-bottom: 28px; }
 .regime-headline { font-size: 0.95rem; font-weight: 600; margin-bottom: 8px; }
 .regime-list { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--muted); line-height: 1.7; }
@@ -202,6 +212,114 @@ footer div { margin-bottom: 2px; }
           <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:50.0%; margin-left:0.0%"></div><div style="width:50%"></div></div>
           <div class="waterfall-val">-0.089%</div>
         </div>
+  </section>
+
+  <section>
+    <h2>本日動いたセクターの背景（定量+定性）</h2>
+    <p class="explain">上のグラフで寄与度が大きかった上位/下位セクターについて、関連銘柄の値動き（定量）と
+    関連しそうなニュース見出し（定性・自動キーワード一致のため要確認）をセットで示す。zスコアはそのセクターの
+    過去の振れ幅に対して本日がどれだけ「普段と違う」動きかを表す（|z|が大きいほど異例）。</p>
+    
+    <div class="two-col">
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">上昇寄与 上位5</div>
+        
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">医薬品</span>
+            <span class="sector-explain-val sc-pos">+0.041% / zスコア +0.69</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 武田薬品工業(4502.T) +1.92%、塩野義製薬(4507.T) +1.75%、大塚ホールディングス(4578.T) +1.42%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">情報通信・サービスその他</span>
+            <span class="sector-explain-val sc-pos">+0.015% / zスコア -0.05</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: ソフトバンクグループ(9984.T) +7.54%、トレンドマイクロ(4704.T) +4.33%、リクルートホールディングス(6098.T) +2.18%</div>
+          <div class="sector-explain-news">（自動キーワード一致・要確認）関連する可能性のある見出し: 「ソフトバンクグループ 17％余の減益 4-6月期決算」</div><ul class='tp-sources'><li><a href="http://www3.nhk.or.jp/news/html/20260806/k10015198231000.html" target="_blank" rel="noopener">NHK 経済: ソフトバンクグループ 17％余の減益 4-6月期決算</a></li></ul>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">素材・化学</span>
+            <span class="sector-explain-val sc-pos">+0.014% / zスコア -0.01</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: レゾナック・ホールディングス(4004.T) +2.01%、日産化学(4021.T) +1.66%、バンダイナムコホールディングス(7832.T) -1.03%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">小売</span>
+            <span class="sector-explain-val sc-neg">-0.006% / zスコア -0.13</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: ニトリホールディングス(9843.T) -2.46%、J.フロント リテイリング(3086.T) +2.03%、三越伊勢丹ホールディングス(3099.T) +1.53%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">電機・精密</span>
+            <span class="sector-explain-val sc-neg">-0.007% / zスコア -0.14</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 太陽誘電(6976.T) +5.54%、村田製作所(6981.T) +3.24%、レーザーテック(6920.T) +3.22%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">下落寄与 上位5</div>
+        
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">銀行</span>
+            <span class="sector-explain-val sc-neg">-0.089% / zスコア -1.21</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: りそなホールディングス(8308.T) -3.24%、三井住友フィナンシャルグループ(8316.T) -2.67%、横浜フィナンシャルグループ(7186.T) -2.33%</div>
+          <div class="sector-explain-news">（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」</div><ul class='tp-sources'><li><a href="http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html" target="_blank" rel="noopener">NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す</a></li></ul>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">金融（除く銀行）</span>
+            <span class="sector-explain-val sc-neg">-0.065% / zスコア -1.10</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: SOMPOホールディングス(8630.T) -2.41%、大和証券グループ本社(8601.T) -1.95%、T&amp;Dホールディングス(8795.T) -1.92%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">商社・卸売</span>
+            <span class="sector-explain-val sc-neg">-0.058% / zスコア -1.12</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 丸紅(8002.T) -2.73%、豊田通商(8015.T) -2.37%、住友商事(8053.T) -2.24%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">建設・資材</span>
+            <span class="sector-explain-val sc-neg">-0.056% / zスコア -0.56</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 清水建設(1803.T) -2.54%、東海カーボン(5301.T) +1.75%、日本電気硝子(5214.T) -1.72%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">運輸・物流</span>
+            <span class="sector-explain-val sc-neg">-0.042% / zスコア -0.72</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 東日本旅客鉄道(9020.T) -1.70%、日本郵船(9101.T) -1.40%、川崎汽船(9107.T) -1.28%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section>
@@ -372,7 +490,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: 日経225構成銘柄数比率（cap-weightではない近似）</div>
     <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
-    <div>レポート生成時刻(UTC): 2026-09-15T14:28:22+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-15T14:41:05+00:00</div>
   </footer>
 </body>
 </html>
