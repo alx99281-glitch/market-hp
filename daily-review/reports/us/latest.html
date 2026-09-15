@@ -64,6 +64,10 @@ h2 {
 .tp-sources li { margin-bottom: 2px; }
 .pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
 .pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
+.regime-box { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 12px 18px; margin-bottom: 28px; }
+.regime-headline { font-size: 0.95rem; font-weight: 600; margin-bottom: 8px; }
+.regime-list { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--muted); line-height: 1.7; }
+.regime-list li { margin-bottom: 2px; }
 table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
 th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
 th { color: var(--muted); font-weight: 500; }
@@ -92,6 +96,11 @@ footer div { margin-bottom: 2px; }
   <p class="subtitle">2026-09-14 <span class="badge">S&amp;P500</span></p>
 
   <div class="headline">指数は小幅下落（-0.73%）。最も動いたのはBetaファクター（-4.66%）。値上がり325/値下がり178銘柄と、指数の下落ほど広範には売られていない</div>
+  
+    <div class="regime-box">
+      <div class="regime-headline">相場のレジーム（地合い）: もみ合い・低ボラ・低相関</div>
+      <ul class="regime-list"><li>終値・50日線・200日線の位置関係がねじれており、明確な方向感のないもみ合い局面です。</li><li>直近20日の実現ボラティリティは年率9.3%で、過去1年の分布の下位16%に位置する落ち着いた水準です。相場が静かで、方向感のある材料が出にくい局面です。</li><li>直近20日のセクター間平均相関は0.16と低く、銘柄・セクターごとの個別材料で明暗が分かれやすい相場です。</li></ul>
+    </div>
 
   <section>
     <h2>本日の論点（|z| ≥ 1.5, ローリング120日）</h2>
@@ -269,7 +278,7 @@ footer div { margin-bottom: 2px; }
     <h2>主成分分析(PCA)から分かること</h2>
     
     <div class="pca-box">
-      <div class="pca-narrative">直近で最も動いたのは第1主成分（過去の値動き全体の分散のうち17%を説明する変動パターン）でした。この変動パターンは普段、「Consumer Staples・Health Care・Communication Services」が一方に、「Materials・Industrials・Information Technology」が逆方向に動く形で現れます。本日はこのパターンが強く出ており、「Consumer Staples・Health Care・Communication Services」が相対的に強く、「Materials・Industrials・Information Technology」が相対的に弱い値動きだった可能性があります。本日の値動きの約81%は、過去の主要な値動きパターンで説明できました。これまでと似た構造で相場が動いた一日と言えます。 直近60日でUSDJPY・米金利・原油いずれとも相関は弱く（最大でもUSDJPYの+0.27）、この主成分を単一のマクロ変数だけで説明するのは早計と言えます。</div>
+      <div class="pca-narrative">直近で最も動いたのは第1主成分（過去の値動き全体の分散のうち17%を説明する変動パターン）でした。この変動パターンは普段、「Consumer Staples・Health Care・Communication Services」が一方に、「Materials・Industrials・Information Technology」が逆方向に動く形で現れます。本日はこのパターンが強く出ており、「Consumer Staples・Health Care・Communication Services」が相対的に強く、「Materials・Industrials・Information Technology」が相対的に弱い値動きだった可能性があります。本日の値動きの約81%は、過去の主要な値動きパターンで説明できました。これまでと似た構造で相場が動いた一日と言えます。 直近60日でUSDJPY・米金利・原油いずれとも相関は弱く（最大でもUSDJPYの+0.27）、この主成分を単一のマクロ変数だけで説明するのは早計と言えます。 自前計算の8ファクターの中ではMomentum(相関-0.93)、Beta(相関-0.91)と相関が最も強く、この主成分はMomentumファクター的な値動きに近いと解釈できます。ただし他のファクターとも幅広く相関しており、単一ファクターへの還元には注意が必要です。</div>
       <p style="color:var(--muted);font-size:0.78rem">
         （主成分分析(PCA)＝多数の銘柄の値動きを少数の共通パターンに要約する統計手法。
         軸推定日: 2026-09-14 / 対象銘柄数: 496 / 各パターンの説明力: PC1 16.9% / PC2 13.5% / PC3 9.2% / PC4 5.3% / PC5 2.6%）
@@ -321,7 +330,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: SPY保有構成ベース（cap-weight近似）</div>
     <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
-    <div>レポート生成時刻(UTC): 2026-09-15T12:25:05+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-09-15T14:28:08+00:00</div>
   </footer>
 </body>
 </html>
