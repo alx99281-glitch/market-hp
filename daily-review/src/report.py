@@ -234,6 +234,129 @@ def build_headline(
     )
 
 
+def macro_fact_lines(ctx: MarketContext, date: pd.Timestamp) -> list[str]:
+    """本日のマクロ変数（USDJPY・米10年金利・原油）の実際の動きのうち、
+    「主因」候補として言及に値するもの（一定以上動いた変数）だけを返す。
+    動きが小さい日にまで機械的に並べると、かえって何が主因か分かりにくくなるため。
+    """
+    from macro import today_macro_moves
+
+    moves = today_macro_moves(date)
+    lines = []
+    v = moves.get("USDJPY")
+    if v is not None and pd.notna(v) and abs(v) >= 0.004:
+        lines.append(f"USDJPY: {v:+.2%}")
+    v = moves.get("US10Y")
+    if v is not None and pd.notna(v) and abs(v) >= 0.03:
+        lines.append(f"米10年金利: {v * 100:+.0f}bp")
+    v = moves.get("Oil")
+    if v is not None and pd.notna(v) and abs(v) >= 0.012:
+        lines.append(f"原油(WTI): {v:+.2%}")
+    return lines
+
+
+def sector_fact_lines(sector_contrib: pd.Series, n: int = 2) -> tuple[list[str], list[str]]:
+    top = sector_contrib.head(n)
+    bottom = sector_contrib.tail(n).sort_values()
+    up = [f"{name} {val:+.3%}" for name, val in top.items()]
+    down = [f"{name} {val:+.3%}" for name, val in bottom.items()]
+    return up, down
+
+
+def stock_fact_lines(top_bottom: pd.DataFrame, n: int = 2) -> tuple[list[str], list[str]]:
+    up_rows = top_bottom[top_bottom["group"] == "top"].head(n)
+    down_rows = top_bottom[top_bottom["group"] == "bottom"].head(n)
+
+    def _fmt(row):
+        name = row.get("name")
+        label = f"{name}({row['ticker']})" if name else row["ticker"]
+        return f"{label} {row['return']:+.2%}"
+
+    up = [_fmt(r) for _, r in up_rows.iterrows()]
+    down = [_fmt(r) for _, r in down_rows.iterrows()]
+    return up, down
+
+
+def build_lead_narrative(d: dict, ctx: MarketContext) -> dict:
+    """結論→主因→セクター→個別銘柄→解釈(確度付き)、という一つのまとまった
+    見立てを既存の計算結果から組み立てる。
+
+    「主因」「セクター」「個別銘柄」は事実（自前の定量データ）のみで構成し、
+    ニュースの引用は無料RSSキーワード一致で見つかった場合にのみ本文中に含める
+    （精度が限定的なため、見つからない日の方が多い前提。README参照）。
+    「解釈」だけは複数の定量シグナル（PCAの残差比率・マクロ相関・ファクター相関・
+    ニュース裏付け件数）をどれだけ確認できたかに応じて確度(高/中/低)を付ける。
+    """
+    from html_report import _pca_facts
+
+    facts = _pca_facts(
+        d["pc_scores"], d["residual_ratio"], d["pca_axes_meta"]["stocks"],
+        d["pca_stock_axes"], ctx.universe_df, d["factor_ret_history"],
+    )
+
+    primary_factors = [f"{ctx.index_display}: {d['index_ret']:+.2%}"]
+    factor_today = d["factor_ret"].dropna()
+    if not factor_today.empty:
+        top_f = factor_today.abs().idxmax()
+        primary_factors.append(f"{top_f}ファクター: {factor_today[top_f]:+.2%}")
+    primary_factors.extend(macro_fact_lines(ctx, d["date"]))
+    if facts["stronger_sectors"] and facts["weaker_sectors"]:
+        primary_factors.append(
+            f"値動きの主パターン(PC{facts['dominant_pc_num']}, 説明力{facts['dominant_exp']:.0%}): "
+            f"「{'・'.join(facts['stronger_sectors'])}」高 / 「{'・'.join(facts['weaker_sectors'])}」安"
+        )
+
+    sector_up, sector_down = sector_fact_lines(d["sector_contrib"])
+    stock_up, stock_down = stock_fact_lines(d["top_bottom"])
+
+    signals = 0
+    resid = facts["today_resid"]
+    if resid is not None and resid <= 0.5:
+        signals += 1
+        resid_note = f"値動きの約{1 - resid:.0%}は過去の主要パターンで説明でき"
+    elif resid is not None:
+        resid_note = f"値動きの約{resid:.0%}は個別要因によるもので"
+    else:
+        resid_note = "PCAの説明力データが不足しており"
+
+    macro_strong = {k: v for k, v in facts["macro_corr"].items() if pd.notna(v) and abs(v) >= 0.4}
+    macro_names = {"USDJPY": "USDJPY", "US10Y": "米10年金利", "Oil": "原油"}
+    if macro_strong:
+        signals += 1
+        best_k = max(macro_strong, key=lambda k: abs(macro_strong[k]))
+        macro_note = f"、{macro_names.get(best_k, best_k)}との相関({macro_strong[best_k]:+.2f})も見られマクロ要因と整合的"
+    else:
+        macro_note = "、主要マクロ変数との相関は弱く"
+
+    factor_strong = {k: v for k, v in facts["factor_corr"].items() if pd.notna(v) and abs(v) >= 0.4}
+    factor_note = ""
+    if factor_strong:
+        signals += 1
+        best_k = max(factor_strong, key=lambda k: abs(factor_strong[k]))
+        factor_note = f"、{best_k}ファクター的な動き（相関{factor_strong[best_k]:+.2f}）"
+
+    news_hits = sum(1 for item in d["sector_explanations"] if item["news"])
+    if news_hits >= 2:
+        signals += 1
+
+    confidence = "高" if signals >= 3 else "中" if signals >= 1 else "低"
+    interpretation = (
+        f"{d['regime']['headline']}の相場の中、{resid_note}{macro_note}{factor_note}という一日でした。"
+        f"（PCA・マクロ相関・ファクター相関・ニュース裏付けのうち{signals}/4のシグナルが確認できています）"
+    )
+
+    return {
+        "conclusion": d["headline"],
+        "primary_factors": primary_factors,
+        "sector_up": sector_up,
+        "sector_down": sector_down,
+        "stock_up": stock_up,
+        "stock_down": stock_down,
+        "interpretation": interpretation,
+        "confidence": confidence,
+    }
+
+
 def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = None) -> dict:
     """層1・層2・層3を実行し、レポート出力に必要な値をまとめて返す。"""
     l1 = run_layer1(ctx)
@@ -273,7 +396,10 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
         sector_contrib_today, l2.zscored, l1.returns, last_date, ctx, news_for_date, feed_items
     )
 
-    return {
+    top_bottom = top_bottom_contributors(l1.returns, last_date, ctx.universe_df, ctx.fundamentals_path)
+    top_bottom["name"] = top_bottom["ticker"].apply(lambda t: _company_name(ctx.universe_df, t))
+
+    d = {
         "ctx": ctx,
         "date": last_date,
         "index_ret": index_ret,
@@ -287,7 +413,7 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
         "factor_ret": l1.factor_ret.loc[last_date],
         "factor_ret_history": l1.factor_ret.tail(120),
         "factor_etf_ret": l1.factor_etf_ret.loc[last_date].dropna(),
-        "top_bottom": top_bottom_contributors(l1.returns, last_date, ctx.universe_df, ctx.fundamentals_path),
+        "top_bottom": top_bottom,
         "pc_scores": l3.pc_scores.tail(60),
         "residual_ratio": l3.residual_ratio.tail(60),
         "pca_axes_meta": l3.axes_meta,
@@ -297,6 +423,8 @@ def gather_report_data(ctx: MarketContext, target_date: pd.Timestamp | None = No
         "zscore_window": ZSCORE_WINDOW,
         "zscore_threshold": ZSCORE_THRESHOLD,
     }
+    d["narrative"] = build_lead_narrative(d, ctx)
+    return d
 
 
 def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = None) -> None:
@@ -308,6 +436,19 @@ def print_daily_report(ctx: MarketContext, target_date: pd.Timestamp | None = No
 
     print("\n[結論]")
     print(" " + d["headline"])
+
+    n = d["narrative"]
+    print("\n[主因（定量的事実）]")
+    for f in n["primary_factors"]:
+        print(f"  - {f}")
+    print("\n[セクター（寄与度上位/下位）]")
+    print(f"  上昇: {', '.join(n['sector_up'])}")
+    print(f"  下落: {', '.join(n['sector_down'])}")
+    print("\n[個別銘柄（寄与上位/下位）]")
+    print(f"  上昇: {', '.join(n['stock_up'])}")
+    print(f"  下落: {', '.join(n['stock_down'])}")
+    print(f"\n[解釈（確度: {n['confidence']}）]")
+    print("  " + n["interpretation"])
 
     print(f"\n[相場のレジーム（地合い）] 総合: {d['regime']['headline']}")
     for key in ("trend", "volatility", "correlation"):

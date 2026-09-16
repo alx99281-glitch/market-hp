@@ -78,6 +78,24 @@ h2 {
 .tp-sources li { margin-bottom: 2px; }
 .pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
 .pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
+.narrative-box { background: var(--panel); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 6px; padding: 16px 20px; margin-bottom: 20px; }
+.narrative-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 14px 0 6px; }
+.narrative-title:first-child { margin-top: 0; }
+.narrative-list { margin: 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.7; }
+.narrative-sub { font-size: 0.85rem; line-height: 1.7; }
+.narrative-sub div { margin-bottom: 2px; }
+.narrative-interp { font-size: 0.9rem; line-height: 1.7; }
+.conf-badge { display: inline-block; font-size: 0.68rem; padding: 1px 8px; border-radius: 10px; border: 1px solid var(--border); margin-left: 4px; text-transform: none; letter-spacing: 0; }
+.conf-high { color: var(--pos); border-color: var(--pos); }
+.conf-mid { color: #d29922; border-color: #d29922; }
+.conf-low { color: var(--muted); }
+details.fold { margin-bottom: 24px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); }
+details.fold > summary { cursor: pointer; padding: 12px 16px; font-size: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; list-style: none; }
+details.fold > summary::-webkit-details-marker { display: none; }
+details.fold > summary::before { content: "▸ "; }
+details.fold[open] > summary::before { content: "▾ "; }
+details.fold > .fold-body { padding: 0 16px 16px; }
+details.fold > summary:hover { color: var(--text); }
 .sector-explain-card { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; }
 .sector-explain-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
 .sector-explain-name { font-weight: 600; font-size: 0.9rem; }
@@ -465,6 +483,66 @@ def _sparkline_svg(
     </svg>"""
 
 
+def _pca_facts(
+    pc_scores: pd.DataFrame,
+    residual_ratio: pd.Series,
+    meta: dict,
+    axes: dict | None = None,
+    universe: pd.DataFrame | None = None,
+    factor_ret_history: pd.DataFrame | None = None,
+) -> dict:
+    """PCAから本日言えることを、文章ではなく構造化データとして返す。
+
+    _pca_narrative()の文章生成とレポート冒頭の「結論・主因」ナラティブ
+    （report.build_lead_narrative）の両方が、同じ計算結果（どの主成分が
+    支配的か・マクロ/ファクターとの相関）を別の見せ方で使うための共通ロジック。
+    """
+    exp = meta["explained_variance_ratio"]
+    last_date = pc_scores.dropna(how="all").index[-1]
+    today_pc = pc_scores.loc[last_date]
+    today_resid = residual_ratio.loc[last_date] if last_date in residual_ratio.index else float("nan")
+
+    n_show = min(3, len(today_pc))
+    dominant_i = int(today_pc.iloc[:n_show].abs().values.argmax())
+    dominant_score = float(today_pc.iloc[dominant_i])
+
+    stronger_sectors, weaker_sectors = [], []
+    if axes is not None and universe is not None:
+        from pca import sector_loading_summary
+
+        top, bottom = sector_loading_summary(axes, universe, dominant_i)
+        if top and bottom:
+            stronger_sectors, weaker_sectors = (top, bottom) if dominant_score > 0 else (bottom, top)
+
+    macro_corr: dict[str, float] = {}
+    try:
+        from macro import correlation_with
+
+        macro_corr = correlation_with(pc_scores.iloc[:, dominant_i].dropna())
+    except Exception:  # noqa: BLE001
+        pass
+
+    factor_corr: dict[str, float] = {}
+    if factor_ret_history is not None and not factor_ret_history.empty:
+        try:
+            from pca import correlate_with_factors
+
+            factor_corr = correlate_with_factors(pc_scores.iloc[:, dominant_i].dropna(), factor_ret_history)
+        except Exception:  # noqa: BLE001
+            pass
+
+    return {
+        "dominant_pc_num": dominant_i + 1,
+        "dominant_exp": exp[dominant_i],
+        "dominant_score": dominant_score,
+        "today_resid": float(today_resid) if pd.notna(today_resid) else None,
+        "stronger_sectors": stronger_sectors,
+        "weaker_sectors": weaker_sectors,
+        "macro_corr": macro_corr,
+        "factor_corr": factor_corr,
+    }
+
+
 def _pca_narrative(
     pc_scores: pd.DataFrame,
     residual_ratio: pd.Series,
@@ -612,6 +690,35 @@ def _render_pca_section(
     </div>"""
 
 
+def _render_narrative_box(n: dict) -> str:
+    """結論・主因・セクター・個別銘柄・解釈(確度付き)を1つの読みやすいまとまりで示す
+    「見立て」ボックス。ページ冒頭に置き、事実(主因/セクター/個別銘柄)とその先の
+    解釈(確度つき)を明確に分けて、まず最初に読めば全体像が掴めるようにする。
+    詳細な内訳は下の折りたたみセクションに譲る。"""
+    factors_html = "".join(f"<li>{html.escape(f)}</li>" for f in n["primary_factors"])
+
+    def _updown(up: list[str], down: list[str]) -> str:
+        parts = []
+        if up:
+            parts.append(f"<div><b>上昇:</b> {html.escape('、'.join(up))}</div>")
+        if down:
+            parts.append(f"<div><b>下落:</b> {html.escape('、'.join(down))}</div>")
+        return "".join(parts) or "<div style='color:var(--muted)'>データなし</div>"
+
+    conf_cls = {"高": "conf-high", "中": "conf-mid", "低": "conf-low"}.get(n["confidence"], "")
+    return f"""
+    <div class="narrative-box">
+      <div class="narrative-title">主因（定量的事実）</div>
+      <ul class="narrative-list">{factors_html}</ul>
+      <div class="narrative-title">セクター（寄与度上位/下位）</div>
+      <div class="narrative-sub">{_updown(n['sector_up'], n['sector_down'])}</div>
+      <div class="narrative-title">個別銘柄（寄与上位/下位）</div>
+      <div class="narrative-sub">{_updown(n['stock_up'], n['stock_down'])}</div>
+      <div class="narrative-title">解釈 <span class="conf-badge {conf_cls}">確度: {html.escape(n['confidence'])}</span></div>
+      <div class="narrative-interp">{html.escape(n['interpretation'])}</div>
+    </div>"""
+
+
 def _render_regime_box(regime: dict) -> str:
     items = "".join(f"<li>{html.escape(regime[k]['desc'])}</li>" for k in ("trend", "volatility", "correlation"))
     return f"""
@@ -637,53 +744,59 @@ def render_html(d: dict) -> str:
   <p class="subtitle">{date_str} <span class="badge">{html.escape(ctx.index_display)}</span></p>
 
   <div class="headline">{html.escape(d['headline'])}</div>
+  {_render_narrative_box(d['narrative'])}
   {_render_regime_box(d['regime'])}
 
-  <section>
-    <h2>本日の論点（|z| ≥ {d['zscore_threshold']}, ローリング{d['zscore_window']}日）</h2>
-    {_render_talking_points(d['talking_points'], d['pca_stock_axes'], d['pca_sector_axes'], ctx.universe_df)}
-  </section>
+  <details class="fold">
+    <summary>本日動いたセクターの背景（定量+定性・詳細）</summary>
+    <div class="fold-body">
+      <p class="explain">寄与度が大きかった上位/下位セクターについて、関連銘柄の値動き（定量）と
+      関連しそうなニュース見出し（定性・自動キーワード一致のため要確認）をセットで示す。zスコアはそのセクターの
+      過去の振れ幅に対して本日がどれだけ「普段と違う」動きかを表す（|z|が大きいほど異例）。</p>
+      {_render_sector_explanations(d['sector_explanations'])}
+      <h3 style="font-size:0.85rem;color:var(--muted);margin:20px 0 10px">セクター寄与度 全セクター（自前計算・{html.escape(ctx.sector_weight_method)}）</h3>
+      {_render_waterfall(d['sector_contrib'])}
+    </div>
+  </details>
 
-  <section>
-    <h2>セクター寄与度（自前計算・{html.escape(ctx.sector_weight_method)}）</h2>
-    {_render_waterfall(d['sector_contrib'])}
-  </section>
+  <details class="fold">
+    <summary>本日の論点（zスコア異常検知、|z| ≥ {d['zscore_threshold']}, ローリング{d['zscore_window']}日）</summary>
+    <div class="fold-body">
+      {_render_talking_points(d['talking_points'], d['pca_stock_axes'], d['pca_sector_axes'], ctx.universe_df)}
+    </div>
+  </details>
 
-  <section>
-    <h2>本日動いたセクターの背景（定量+定性）</h2>
-    <p class="explain">上のグラフで寄与度が大きかった上位/下位セクターについて、関連銘柄の値動き（定量）と
-    関連しそうなニュース見出し（定性・自動キーワード一致のため要確認）をセットで示す。zスコアはそのセクターの
-    過去の振れ幅に対して本日がどれだけ「普段と違う」動きかを表す（|z|が大きいほど異例）。</p>
-    {_render_sector_explanations(d['sector_explanations'])}
-  </section>
+  <details class="fold">
+    <summary>個別銘柄寄与（全上位/下位10）</summary>
+    <div class="fold-body">{_render_contributors_table(d['top_bottom'])}</div>
+  </details>
 
-  <section>
-    <h2>セクターETFベース簡易版（整合性チェック）</h2>
-    {_render_waterfall(d['sector_etf_ret'])}
-  </section>
+  <details class="fold">
+    <summary>主成分分析(PCA)の詳細</summary>
+    <div class="fold-body">
+      {_render_pca_section(d['pc_scores'], d['residual_ratio'], d['pca_axes_meta']['stocks'], 60, d['pca_stock_axes'], ctx.universe_df, d['factor_ret_history'])}
+    </div>
+  </details>
 
-  <section>
-    <h2>ファクター日次リターン</h2>
-    <table>
-      <thead><tr><th>ファクター</th><th class='num'>自前計算</th><th class='num'>ETFベース簡易版</th></tr></thead>
-      <tbody>{_render_factor_table(d['factor_ret'], d['factor_etf_ret'], ctx.factor_etf_map)}</tbody>
-    </table>
-  </section>
+  <details class="fold">
+    <summary>ファクター日次リターン（自前計算 / ETFベース簡易版）</summary>
+    <div class="fold-body">
+      <table>
+        <thead><tr><th>ファクター</th><th class='num'>自前計算</th><th class='num'>ETFベース簡易版</th></tr></thead>
+        <tbody>{_render_factor_table(d['factor_ret'], d['factor_etf_ret'], ctx.factor_etf_map)}</tbody>
+      </table>
+    </div>
+  </details>
 
-  <section>
-    <h2>個別銘柄寄与</h2>
-    {_render_contributors_table(d['top_bottom'])}
-  </section>
+  <details class="fold">
+    <summary>セクターETFベース簡易版（整合性チェック）</summary>
+    <div class="fold-body">{_render_waterfall(d['sector_etf_ret'])}</div>
+  </details>
 
-  <section>
-    <h2>主成分分析(PCA)から分かること</h2>
-    {_render_pca_section(d['pc_scores'], d['residual_ratio'], d['pca_axes_meta']['stocks'], 60, d['pca_stock_axes'], ctx.universe_df, d['factor_ret_history'])}
-  </section>
-
-  {"" if ctx.name != "us" else '''<section>
-    <h2>日米連携指標</h2>
-    <p style="color:var(--muted)">フェーズ6未実装</p>
-  </section>'''}
+  {"" if ctx.name != "us" else '''<details class="fold">
+    <summary>日米連携指標</summary>
+    <div class="fold-body"><p style="color:var(--muted)">フェーズ6未実装</p></div>
+  </details>'''}
 
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: {html.escape(ctx.sector_weight_method)}</div>
