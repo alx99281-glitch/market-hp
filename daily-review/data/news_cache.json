@@ -490,5 +490,107 @@
       }
     ],
     "searched_at": "2026-09-15T23:36:46.677370+00:00"
+  },
+  "us:2026-09-15:sector:Consumer Discretionary": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Here Are Wednesday’s Top Wall Street Analyst Research Calls: Airbnb, Booking Holdings, Credicorp, Dutch Bros, Expedia, Hartford Financial Services, Group, Meritage Homes, Patchex, Yum! Brands, and More」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: Here Are Wednesday’s Top Wall Street Analyst Research Calls: Airbnb, Booking Holdings, Credicorp, Dutch Bros, Expedia, Hartford Financial Services, Group, Meritage Homes, Patchex, Yum! Brands, and More",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wednesday-top-wall-street-analyst-120735558.html"
+      }
+    ],
+    "searched_at": "2026-09-16T12:22:24.290350+00:00"
+  },
+  "jp:2026-09-16:sector:エネルギー資源": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-09-16T12:23:14.881473+00:00"
+  },
+  "jp:2026-09-16:sector_internal_dispersion:鉄鋼・非鉄": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-09-16T12:23:14.884798+00:00"
+  },
+  "jp:2026-09-16:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「メルカリ株大幅安 1カ月で3割下落」「KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続」",
+    "sources": [
+      {
+        "title": "Yahoo!ニュース 経済: メルカリ株大幅安 1カ月で3割下落",
+        "url": "https://news.yahoo.co.jp/pickup/6595521?source=rss"
+      },
+      {
+        "title": "NHK 経済: KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続",
+        "url": "http://www3.nhk.or.jp/news/html/20260808/k10015199811000.html"
+      }
+    ],
+    "searched_at": "2026-09-16T12:23:15.129835+00:00"
+  },
+  "jp:2026-09-16:sector:小売": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査」「イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ」「イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪」",
+    "sources": [
+      {
+        "title": "NHK 経済: イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197391000.html"
+      },
+      {
+        "title": "NHK 経済: イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197331000.html"
+      },
+      {
+        "title": "NHK 経済: イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪",
+        "url": "http://www3.nhk.or.jp/news/html/20260803/k10015194801000.html"
+      }
+    ],
+    "searched_at": "2026-09-16T12:23:15.141596+00:00"
+  },
+  "jp:2026-09-16:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-09-16T12:23:15.148105+00:00"
+  },
+  "jp:2026-09-16:sector:食品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「農林水産物 食品の輸出額 上半期2年連続で過去最高に」「【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ」",
+    "sources": [
+      {
+        "title": "NHK 経済: 農林水産物 食品の輸出額 上半期2年連続で過去最高に",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195821000.html"
+      },
+      {
+        "title": "NHK 経済: 【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195571000.html"
+      }
+    ],
+    "searched_at": "2026-09-16T12:23:15.154662+00:00"
   }
 }
