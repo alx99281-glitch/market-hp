@@ -592,5 +592,73 @@
       }
     ],
     "searched_at": "2026-09-16T12:23:15.154662+00:00"
+  },
+  "us:2026-09-16:sector_internal_dispersion:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      }
+    ],
+    "searched_at": "2026-09-16T23:45:37.814485+00:00"
+  },
+  "us:2026-09-16:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      }
+    ],
+    "searched_at": "2026-09-16T23:45:38.214472+00:00"
+  },
+  "us:2026-09-16:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates」「Jeff Gundlach says the Fed should have hiked rates by more to fight rising inflation」「10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates",
+        "url": "https://www.cnbc.com/2026/09/16/trump-fed-interest-rate-warsh.html"
+      },
+      {
+        "title": "CNBC Economy: Jeff Gundlach says the Fed should have hiked rates by more to fight rising inflation",
+        "url": "https://www.cnbc.com/2026/09/16/gundlach-bonds-fed-rate-hike.html"
+      },
+      {
+        "title": "CNBC Economy: 10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks",
+        "url": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html"
+      }
+    ],
+    "searched_at": "2026-09-16T23:45:37.820800+00:00"
+  },
+  "us:2026-09-16:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/health/healthcare/health-care-roundup-market-talk-13e9a88b?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-16T23:45:38.173170+00:00"
+  },
+  "us:2026-09-16:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-21981150?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-16T23:45:38.185162+00:00"
+  },
+  "us:2026-09-16:sector:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Why Kroger Co. (KR) Could Be a Consumer Staples Comeback Story」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: Why Kroger Co. (KR) Could Be a Consumer Staples Comeback Story",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-kroger-co-kr-could-160335573.html"
+      }
+    ],
+    "searched_at": "2026-09-16T23:45:38.197087+00:00"
   }
 }
