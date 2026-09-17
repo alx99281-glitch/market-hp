@@ -660,5 +660,107 @@
       }
     ],
     "searched_at": "2026-09-16T23:45:38.197087+00:00"
+  },
+  "us:2026-09-16:sector:Communication Services": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Verizon Stock: Connecting Investors To Value Along With 5.6% Yield」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: Verizon Stock: Connecting Investors To Value Along With 5.6% Yield",
+        "url": "https://www.investors.com/research/the-income-investor/verizon-vz-stock-income-investor-value-yield/?src=A00220&yptr=yahoo"
+      }
+    ],
+    "searched_at": "2026-09-17T12:22:48.505890+00:00"
+  },
+  "jp:2026-09-17:sector:医薬品": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米FRB 3年2カ月ぶり利上げ決定」「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」",
+    "sources": [
+      {
+        "title": "Yahoo!ニュース 経済: 米FRB 3年2カ月ぶり利上げ決定",
+        "url": "https://news.yahoo.co.jp/pickup/6595533?source=rss"
+      },
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      }
+    ],
+    "searched_at": "2026-09-17T12:23:35.513109+00:00"
+  },
+  "jp:2026-09-17:sector_internal_dispersion:小売": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査」「イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ」「イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪」",
+    "sources": [
+      {
+        "title": "NHK 経済: イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197391000.html"
+      },
+      {
+        "title": "NHK 経済: イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197331000.html"
+      },
+      {
+        "title": "NHK 経済: イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪",
+        "url": "http://www3.nhk.or.jp/news/html/20260803/k10015194801000.html"
+      }
+    ],
+    "searched_at": "2026-09-17T12:23:35.516009+00:00"
+  },
+  "jp:2026-09-17:sector:運輸・物流": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米FRB 3年2カ月ぶり利上げ決定」「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」",
+    "sources": [
+      {
+        "title": "Yahoo!ニュース 経済: 米FRB 3年2カ月ぶり利上げ決定",
+        "url": "https://news.yahoo.co.jp/pickup/6595533?source=rss"
+      },
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      }
+    ],
+    "searched_at": "2026-09-17T12:23:35.518650+00:00"
+  },
+  "jp:2026-09-17:breadth:advance_pct": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米FRB 3年2カ月ぶり利上げ決定」「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」",
+    "sources": [
+      {
+        "title": "Yahoo!ニュース 経済: 米FRB 3年2カ月ぶり利上げ決定",
+        "url": "https://news.yahoo.co.jp/pickup/6595533?source=rss"
+      },
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      }
+    ],
+    "searched_at": "2026-09-17T12:23:35.519901+00:00"
+  },
+  "jp:2026-09-17:sector:電力・ガス": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性」",
+    "sources": [
+      {
+        "title": "NHK 経済: 中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015196091000.html"
+      }
+    ],
+    "searched_at": "2026-09-17T12:23:35.731573+00:00"
+  },
+  "jp:2026-09-17:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-09-17T12:23:35.737465+00:00"
   }
 }
