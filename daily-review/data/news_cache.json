@@ -886,5 +886,67 @@
       }
     ],
     "searched_at": "2026-09-18T12:02:36.693106+00:00"
+  },
+  "us:2026-09-18:factor:Quality": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes」「Fed staff should have known Silicon Valley Bank was vulnerable, new report finds」「Bank of England defies Fed’s rate-hike lead, leaving rates unchanged」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+        "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html"
+      },
+      {
+        "title": "CNBC Economy: Fed staff should have known Silicon Valley Bank was vulnerable, new report finds",
+        "url": "https://www.cnbc.com/2026/09/18/fed-silicon-valley-bank.html"
+      },
+      {
+        "title": "CNBC Markets: Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
+        "url": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html"
+      }
+    ],
+    "searched_at": "2026-09-18T23:30:04.236502+00:00"
+  },
+  "us:2026-09-18:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-1ec7c0ee?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-234fc45c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-18T23:30:04.733959+00:00"
+  },
+  "us:2026-09-18:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Struggling Coinbase Stock Sets Itself Up For This Bearish Trade」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: Struggling Coinbase Stock Sets Itself Up For This Bearish Trade",
+        "url": "https://www.investors.com/research/options/coinbase-coin-stock-bear-put-spread-options/?src=A00220&yptr=yahoo"
+      }
+    ],
+    "searched_at": "2026-09-18T23:30:04.679315+00:00"
+  },
+  "us:2026-09-18:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      }
+    ],
+    "searched_at": "2026-09-18T23:30:04.693694+00:00"
+  },
+  "us:2026-09-18:sector:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Alexandria Real Estate Equities Stock: Is ARE Underperforming the Real Estate Sector?」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: Alexandria Real Estate Equities Stock: Is ARE Underperforming the Real Estate Sector?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alexandria-real-estate-equities-stock-154718451.html"
+      }
+    ],
+    "searched_at": "2026-09-18T23:30:04.701572+00:00"
   }
 }
