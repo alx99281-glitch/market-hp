@@ -948,5 +948,137 @@
       }
     ],
     "searched_at": "2026-09-18T23:30:04.701572+00:00"
+  },
+  "us:2026-09-21:sector_internal_dispersion:Consumer Discretionary": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「U.S. crude oil falls back below $100 per barrel after Trump says he's open to talking to Iran」「‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies」「Treasury yields ease as global borrowing costs tumble」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. crude oil falls back below $100 per barrel after Trump says he's open to talking to Iran",
+        "url": "https://www.cnbc.com/2026/09/21/iran-us-oil-prices-crude-saudi-arabia-.html"
+      },
+      {
+        "title": "CNBC Economy: ‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+        "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields ease as global borrowing costs tumble",
+        "url": "https://www.cnbc.com/2026/09/21/treasury-yields-government-bonds.html"
+      }
+    ],
+    "searched_at": "2026-09-21T13:33:19.555190+00:00"
+  },
+  "us:2026-09-21:sector_internal_dispersion:Industrials": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「U.S. crude oil falls back below $100 per barrel after Trump says he's open to talking to Iran」「‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies」「Treasury yields ease as global borrowing costs tumble」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. crude oil falls back below $100 per barrel after Trump says he's open to talking to Iran",
+        "url": "https://www.cnbc.com/2026/09/21/iran-us-oil-prices-crude-saudi-arabia-.html"
+      },
+      {
+        "title": "CNBC Economy: ‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+        "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields ease as global borrowing costs tumble",
+        "url": "https://www.cnbc.com/2026/09/21/treasury-yields-government-bonds.html"
+      }
+    ],
+    "searched_at": "2026-09-21T13:33:19.558146+00:00"
+  },
+  "us:2026-09-21:sector_internal_dispersion:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「U.S. crude oil falls back below $100 per barrel after Trump says he's open to talking to Iran」「‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies」「Treasury yields ease as global borrowing costs tumble」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. crude oil falls back below $100 per barrel after Trump says he's open to talking to Iran",
+        "url": "https://www.cnbc.com/2026/09/21/iran-us-oil-prices-crude-saudi-arabia-.html"
+      },
+      {
+        "title": "CNBC Economy: ‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+        "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields ease as global borrowing costs tumble",
+        "url": "https://www.cnbc.com/2026/09/21/treasury-yields-government-bonds.html"
+      }
+    ],
+    "searched_at": "2026-09-21T13:33:19.560788+00:00"
+  },
+  "us:2026-09-21:dispersion:cross_sectional": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「U.S. crude oil falls back below $100 per barrel after Trump says he's open to talking to Iran」「‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies」「Treasury yields ease as global borrowing costs tumble」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. crude oil falls back below $100 per barrel after Trump says he's open to talking to Iran",
+        "url": "https://www.cnbc.com/2026/09/21/iran-us-oil-prices-crude-saudi-arabia-.html"
+      },
+      {
+        "title": "CNBC Economy: ‘It's awful’: How tariffs, soaring fuel costs and higher interest rates are squeezing American companies",
+        "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields ease as global borrowing costs tumble",
+        "url": "https://www.cnbc.com/2026/09/21/treasury-yields-government-bonds.html"
+      }
+    ],
+    "searched_at": "2026-09-21T13:33:19.562018+00:00"
+  },
+  "us:2026-09-21:sector_internal_dispersion:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」「Refineries Are Now the Main Chokepoint for Global Energy Supplies」「4 Ultra-High-Yield Energy Stocks Are September Strong Buys (One Yields Over 10%)」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: Refineries Are Now the Main Chokepoint for Global Energy Supplies",
+        "url": "https://www.wsj.com/business/energy-oil/refineries-are-now-the-main-chokepoint-for-global-energy-supplies-f923e1ba?mod=rss_markets_main"
+      },
+      {
+        "title": "Yahoo Finance: 4 Ultra-High-Yield Energy Stocks Are September Strong Buys (One Yields Over 10%)",
+        "url": "https://finance.yahoo.com/energy/articles/4-ultra-high-yield-energy-125036855.html"
+      }
+    ],
+    "searched_at": "2026-09-21T13:33:19.564606+00:00"
+  },
+  "us:2026-09-21:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-f98efba2?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-1ec7c0ee?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-21T13:33:19.871493+00:00"
+  },
+  "us:2026-09-21:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」「Refineries Are Now the Main Chokepoint for Global Energy Supplies」「4 Ultra-High-Yield Energy Stocks Are September Strong Buys (One Yields Over 10%)」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: Refineries Are Now the Main Chokepoint for Global Energy Supplies",
+        "url": "https://www.wsj.com/business/energy-oil/refineries-are-now-the-main-chokepoint-for-global-energy-supplies-f923e1ba?mod=rss_markets_main"
+      },
+      {
+        "title": "Yahoo Finance: 4 Ultra-High-Yield Energy Stocks Are September Strong Buys (One Yields Over 10%)",
+        "url": "https://finance.yahoo.com/energy/articles/4-ultra-high-yield-energy-125036855.html"
+      }
+    ],
+    "searched_at": "2026-09-21T13:33:19.876896+00:00"
+  },
+  "us:2026-09-21:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-b994d3f6?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-21T13:33:19.886042+00:00"
   }
 }
