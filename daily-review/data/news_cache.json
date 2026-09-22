@@ -1080,5 +1080,15 @@
       }
     ],
     "searched_at": "2026-09-21T13:33:19.886042+00:00"
+  },
+  "us:2026-09-21:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Intel surges 12% as CPU stocks rally. Here's what's driving the move」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Intel surges 12% as CPU stocks rally. Here's what's driving the move",
+        "url": "https://www.cnbc.com/2026/09/21/intel-surges-12percent-as-cpu-stocks-rally-heres-whats-driving-the-move.html"
+      }
+    ],
+    "searched_at": "2026-09-22T00:14:45.140691+00:00"
   }
 }
