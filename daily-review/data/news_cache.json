@@ -1104,5 +1104,143 @@
       }
     ],
     "searched_at": "2026-09-22T12:17:17.288064+00:00"
+  },
+  "us:2026-09-22:sector_internal_dispersion:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war」「UK inflation jumps to 3.1% as energy costs soar」「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war",
+        "url": "https://www.cnbc.com/2026/09/22/trump-zelenskyy-ukraine-russia-putin-diesel-oil.html"
+      },
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-415ce2e2?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.443215+00:00"
+  },
+  "us:2026-09-22:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on」「Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch」「Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
+        "url": "https://www.cnbc.com/2026/09/22/sullivan-wall-street-admits-it-doesnt-know-where-oil-is-headed-theres-one-stock-they-do-agree-on.html"
+      },
+      {
+        "title": "CNBC Economy: Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
+        "url": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html"
+      },
+      {
+        "title": "CNBC Economy: Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war",
+        "url": "https://www.cnbc.com/2026/09/22/trump-zelenskyy-ukraine-russia-putin-diesel-oil.html"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.447368+00:00"
+  },
+  "us:2026-09-22:factor:Value": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on」「Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch」「Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
+        "url": "https://www.cnbc.com/2026/09/22/sullivan-wall-street-admits-it-doesnt-know-where-oil-is-headed-theres-one-stock-they-do-agree-on.html"
+      },
+      {
+        "title": "CNBC Economy: Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
+        "url": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html"
+      },
+      {
+        "title": "CNBC Economy: Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war",
+        "url": "https://www.cnbc.com/2026/09/22/trump-zelenskyy-ukraine-russia-putin-diesel-oil.html"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.449465+00:00"
+  },
+  "us:2026-09-22:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war」「UK inflation jumps to 3.1% as energy costs soar」「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war",
+        "url": "https://www.cnbc.com/2026/09/22/trump-zelenskyy-ukraine-russia-putin-diesel-oil.html"
+      },
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-415ce2e2?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.908861+00:00"
+  },
+  "us:2026-09-22:sector_internal_dispersion:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on」「Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch」「Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
+        "url": "https://www.cnbc.com/2026/09/22/sullivan-wall-street-admits-it-doesnt-know-where-oil-is-headed-theres-one-stock-they-do-agree-on.html"
+      },
+      {
+        "title": "CNBC Economy: Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
+        "url": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html"
+      },
+      {
+        "title": "CNBC Economy: Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war",
+        "url": "https://www.cnbc.com/2026/09/22/trump-zelenskyy-ukraine-russia-putin-diesel-oil.html"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.457514+00:00"
+  },
+  "us:2026-09-22:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-2f40e335?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.871405+00:00"
+  },
+  "us:2026-09-22:sector:Consumer Discretionary": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Lennar shares pop as Berkshire builds almost a 10% stake in beleaguered homebuilder」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Lennar shares pop as Berkshire builds almost a 10% stake in beleaguered homebuilder",
+        "url": "https://www.cnbc.com/2026/09/22/lennar-shares-pop-as-berkshire-builds-almost-a-10percent-stake-in-beleaguered-homebuilder.html"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.880081+00:00"
+  },
+  "us:2026-09-22:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-8962d0c7?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-f98efba2?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.894544+00:00"
+  },
+  "us:2026-09-22:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」「European Utilities to Gain From Higher Natural Gas Prices」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-415ce2e2?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: European Utilities to Gain From Higher Natural Gas Prices",
+        "url": "https://www.wsj.com/finance/stocks/nikkei-could-rally-on-modest-catalysts-as-shorts-pile-up-39640022?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-22T23:44:10.923257+00:00"
   }
 }
