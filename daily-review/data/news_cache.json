@@ -1090,5 +1090,19 @@
       }
     ],
     "searched_at": "2026-09-22T00:14:45.140691+00:00"
+  },
+  "us:2026-09-21:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」「European Utilities to Gain From Higher Natural Gas Prices」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-415ce2e2?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: European Utilities to Gain From Higher Natural Gas Prices",
+        "url": "https://www.wsj.com/finance/stocks/nikkei-could-rally-on-modest-catalysts-as-shorts-pile-up-39640022?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-22T12:17:17.288064+00:00"
   }
 }
