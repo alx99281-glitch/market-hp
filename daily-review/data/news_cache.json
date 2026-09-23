@@ -1252,5 +1252,85 @@
       }
     ],
     "searched_at": "2026-09-23T12:30:18.555378+00:00"
+  },
+  "us:2026-09-23:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Here's what happens to the economy when Treasury yields soar like they are now」「Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions」「Market sees next Fed hike in October, following Barr comments and hot inflation reading」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Here's what happens to the economy when Treasury yields soar like they are now",
+        "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
+      },
+      {
+        "title": "CNBC Economy: Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
+        "url": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html"
+      },
+      {
+        "title": "CNBC Economy: Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+        "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html"
+      }
+    ],
+    "searched_at": "2026-09-23T23:53:13.496800+00:00"
+  },
+  "us:2026-09-23:sector:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Here's what happens to the economy when Treasury yields soar like they are now」「Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions」「Market sees next Fed hike in October, following Barr comments and hot inflation reading」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Here's what happens to the economy when Treasury yields soar like they are now",
+        "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html"
+      },
+      {
+        "title": "CNBC Economy: Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
+        "url": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html"
+      },
+      {
+        "title": "CNBC Economy: Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+        "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html"
+      }
+    ],
+    "searched_at": "2026-09-23T23:53:13.501148+00:00"
+  },
+  "us:2026-09-23:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Activist Toms Capital urges Devon Energy in letter to explore alternatives, including a sale」「UK inflation jumps to 3.1% as energy costs soar」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Activist Toms Capital urges Devon Energy in letter to explore alternatives, including a sale",
+        "url": "https://www.cnbc.com/2026/09/23/activist-toms-capital-urges-devon-energy-in-letter-to-explore-alternatives-including-a-sale.html"
+      },
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      }
+    ],
+    "searched_at": "2026-09-23T23:53:13.891246+00:00"
+  },
+  "us:2026-09-23:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-0dd685b1?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-23T23:53:13.899024+00:00"
+  },
+  "us:2026-09-23:sector:Communication Services": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Trade Desk Falls 4% as Index-Removal Flows Keep Pressure On; Magnite Drops 3%, AppLovin Pulls Back」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: Trade Desk Falls 4% as Index-Removal Flows Keep Pressure On; Magnite Drops 3%, AppLovin Pulls Back",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trade-desk-falls-4-index-155927741.html"
+      }
+    ],
+    "searched_at": "2026-09-23T23:53:13.926082+00:00"
+  },
+  "us:2026-09-23:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-9355a83f?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-23T23:53:13.938547+00:00"
   }
 }
