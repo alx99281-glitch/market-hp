@@ -1242,5 +1242,15 @@
       }
     ],
     "searched_at": "2026-09-22T23:44:10.923257+00:00"
+  },
+  "us:2026-09-22:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Qualcomm releases Android chip built for AI as memory shortage weighs on smartphone market」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Qualcomm releases Android chip built for AI as memory shortage weighs on smartphone market",
+        "url": "https://www.cnbc.com/2026/09/22/qualcomm-releases-android-chip-built-for-ai-amid-memory-shortage.html"
+      }
+    ],
+    "searched_at": "2026-09-23T12:30:18.555378+00:00"
   }
 }
