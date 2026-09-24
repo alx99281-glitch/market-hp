@@ -1378,5 +1378,25 @@
       }
     ],
     "searched_at": "2026-09-24T12:30:06.730073+00:00"
+  },
+  "us:2026-09-24:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      }
+    ],
+    "searched_at": "2026-09-24T23:58:57.838595+00:00"
+  },
+  "us:2026-09-24:sector:Consumer Discretionary": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「MGM Resorts shares sink 11% after Barry Diller's People Inc. rescinds takeover offer」",
+    "sources": [
+      {
+        "title": "CNBC Economy: MGM Resorts shares sink 11% after Barry Diller's People Inc. rescinds takeover offer",
+        "url": "https://www.cnbc.com/2026/09/24/barry-diller-people-mgm-resorts.html"
+      }
+    ],
+    "searched_at": "2026-09-24T23:58:57.859138+00:00"
   }
 }
