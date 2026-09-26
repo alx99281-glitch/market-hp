@@ -1446,5 +1446,33 @@
       }
     ],
     "searched_at": "2026-09-25T12:31:23.081403+00:00"
+  },
+  "us:2026-09-25:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Coca-Cola hires Rob Gehring from Monster Energy to run its North American operations」「UK inflation jumps to 3.1% as energy costs soar」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Coca-Cola hires Rob Gehring from Monster Energy to run its North American operations",
+        "url": "https://www.cnbc.com/2026/09/25/monster-coca-cola-rob-gehring.html"
+      },
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      }
+    ],
+    "searched_at": "2026-09-26T00:01:38.255927+00:00"
+  },
+  "us:2026-09-25:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-e3a8f635?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-748c6e32?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-26T00:01:38.264860+00:00"
   }
 }
