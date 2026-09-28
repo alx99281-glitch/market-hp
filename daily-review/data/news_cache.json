@@ -1474,5 +1474,125 @@
       }
     ],
     "searched_at": "2026-09-26T00:01:38.264860+00:00"
+  },
+  "us:2026-09-28:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Oil prices rise as Trump rejects Iranian proposal to reopen Strait of Hormuz」「U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies」「Gold and silver prices fall sharply as higher bond yields weigh on metals」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Oil prices rise as Trump rejects Iranian proposal to reopen Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html"
+      },
+      {
+        "title": "CNBC Economy: U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
+        "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html"
+      },
+      {
+        "title": "CNBC Economy: Gold and silver prices fall sharply as higher bond yields weigh on metals",
+        "url": "https://www.cnbc.com/2026/09/28/gold-silver-prices-bond-yields.html"
+      }
+    ],
+    "searched_at": "2026-09-28T14:50:52.468791+00:00"
+  },
+  "us:2026-09-28:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」「U.S. Pressure Is Awakening an Energy Giant in Canada」「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: U.S. Pressure Is Awakening an Energy Giant in Canada",
+        "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-5f9e0aa3?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-28T14:50:52.836862+00:00"
+  },
+  "us:2026-09-28:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-854bfbb5?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-28T14:50:52.845112+00:00"
+  },
+  "jp:2026-09-28:dispersion:cross_sectional": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-09-28T14:51:39.536460+00:00"
+  },
+  "jp:2026-09-28:sector_internal_dispersion:鉄鋼・非鉄": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-09-28T14:51:39.541158+00:00"
+  },
+  "jp:2026-09-28:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-09-28T14:51:39.721037+00:00"
+  },
+  "jp:2026-09-28:sector:小売": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査」「イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ」「イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪」",
+    "sources": [
+      {
+        "title": "NHK 経済: イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197391000.html"
+      },
+      {
+        "title": "NHK 経済: イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197331000.html"
+      },
+      {
+        "title": "NHK 経済: イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪",
+        "url": "http://www3.nhk.or.jp/news/html/20260803/k10015194801000.html"
+      }
+    ],
+    "searched_at": "2026-09-28T14:51:39.763570+00:00"
+  },
+  "jp:2026-09-28:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続」",
+    "sources": [
+      {
+        "title": "NHK 経済: KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続",
+        "url": "http://www3.nhk.or.jp/news/html/20260808/k10015199811000.html"
+      }
+    ],
+    "searched_at": "2026-09-28T14:51:39.771563+00:00"
   }
 }
