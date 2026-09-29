@@ -1594,5 +1594,99 @@
       }
     ],
     "searched_at": "2026-09-28T14:51:39.771563+00:00"
+  },
+  "us:2026-09-28:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Boeing 737 Max 10 certification delayed by software issue, FAA says」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Boeing 737 Max 10 certification delayed by software issue, FAA says",
+        "url": "https://www.cnbc.com/2026/09/28/faa-boeing-737-max-10-certification-delay-software-issue.html"
+      }
+    ],
+    "searched_at": "2026-09-29T01:12:11.185537+00:00"
+  },
+  "jp:2026-09-29:sector_internal_dispersion:金融（除く銀行）": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-09-29T01:13:05.605774+00:00"
+  },
+  "jp:2026-09-29:sector_internal_dispersion:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-09-29T01:13:05.610575+00:00"
+  },
+  "jp:2026-09-29:sector_internal_dispersion:食品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「農林水産物 食品の輸出額 上半期2年連続で過去最高に」「【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ」",
+    "sources": [
+      {
+        "title": "NHK 経済: 農林水産物 食品の輸出額 上半期2年連続で過去最高に",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195821000.html"
+      },
+      {
+        "title": "NHK 経済: 【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195571000.html"
+      }
+    ],
+    "searched_at": "2026-09-29T01:13:05.615053+00:00"
+  },
+  "jp:2026-09-29:sector_internal_dispersion:小売": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-09-29T01:13:05.619609+00:00"
+  },
+  "jp:2026-09-29:sector:電力・ガス": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性」",
+    "sources": [
+      {
+        "title": "NHK 経済: 中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015196091000.html"
+      }
+    ],
+    "searched_at": "2026-09-29T01:13:05.842486+00:00"
+  },
+  "jp:2026-09-29:sector:食品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「農林水産物 食品の輸出額 上半期2年連続で過去最高に」「【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ」",
+    "sources": [
+      {
+        "title": "NHK 経済: 農林水産物 食品の輸出額 上半期2年連続で過去最高に",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195821000.html"
+      },
+      {
+        "title": "NHK 経済: 【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195571000.html"
+      }
+    ],
+    "searched_at": "2026-09-29T01:13:05.880312+00:00"
   }
 }
