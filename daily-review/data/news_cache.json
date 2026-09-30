@@ -1762,5 +1762,43 @@
       }
     ],
     "searched_at": "2026-09-29T13:39:44.059458+00:00"
+  },
+  "us:2026-09-29:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-4b9229c8?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-09-30T00:42:02.544487+00:00"
+  },
+  "jp:2026-09-30:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-09-30T00:42:39.323661+00:00"
+  },
+  "jp:2026-09-30:sector:食品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「ニチレイ サイバー攻撃影響などで売り上げ50億円減少の見通し」「農林水産物 食品の輸出額 上半期2年連続で過去最高に」「【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ」",
+    "sources": [
+      {
+        "title": "NHK 経済: ニチレイ サイバー攻撃影響などで売り上げ50億円減少の見通し",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199521000.html"
+      },
+      {
+        "title": "NHK 経済: 農林水産物 食品の輸出額 上半期2年連続で過去最高に",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195821000.html"
+      },
+      {
+        "title": "NHK 経済: 【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195571000.html"
+      }
+    ],
+    "searched_at": "2026-09-30T00:42:39.337749+00:00"
   }
 }
