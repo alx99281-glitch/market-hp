@@ -1868,5 +1868,99 @@
       }
     ],
     "searched_at": "2026-10-01T00:43:05.424569+00:00"
+  },
+  "us:2026-10-01:sector_internal_dispersion:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-9ddb41e2?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-01T14:06:39.316136+00:00"
+  },
+  "us:2026-10-01:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-9ddb41e2?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-01T14:06:39.740149+00:00"
+  },
+  "us:2026-10-01:factor:Quality": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'」「Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude near $100」「Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+        "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html"
+      },
+      {
+        "title": "CNBC Economy: Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude near $100",
+        "url": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html"
+      },
+      {
+        "title": "CNBC Economy: Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel",
+        "url": "https://www.cnbc.com/2026/10/01/dubai-israel-flight-pilot-crash-indian.html"
+      }
+    ],
+    "searched_at": "2026-10-01T14:06:39.325501+00:00"
+  },
+  "us:2026-10-01:dispersion:cross_sectional": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'」「Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude near $100」「Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+        "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html"
+      },
+      {
+        "title": "CNBC Economy: Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude near $100",
+        "url": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html"
+      },
+      {
+        "title": "CNBC Economy: Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel",
+        "url": "https://www.cnbc.com/2026/10/01/dubai-israel-flight-pilot-crash-indian.html"
+      }
+    ],
+    "searched_at": "2026-10-01T14:06:39.328726+00:00"
+  },
+  "us:2026-10-01:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Can Accenture (ACN) Profit From AI Safety While AI Pressures Its Own Business Model?」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: Can Accenture (ACN) Profit From AI Safety While AI Pressures Its Own Business Model?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/accenture-acn-profit-ai-safety-051220155.html"
+      }
+    ],
+    "searched_at": "2026-10-01T14:06:39.698008+00:00"
+  },
+  "us:2026-10-01:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Russia launches massive strikes on Ukraine’s energy grid, forcing power cuts ahead of winter」「UK inflation jumps to 3.1% as energy costs soar」「U.S. Pressure Is Awakening an Energy Giant in Canada」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Russia launches massive strikes on Ukraine’s energy grid, forcing power cuts ahead of winter",
+        "url": "https://www.cnbc.com/2026/10/01/russia-ukraine-war-energy-power-winter.html"
+      },
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: U.S. Pressure Is Awakening an Energy Giant in Canada",
+        "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-01T14:06:39.708013+00:00"
+  },
+  "us:2026-10-01:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-20084847?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-01T14:06:39.718149+00:00"
   }
 }
