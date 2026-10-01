@@ -1800,5 +1800,73 @@
       }
     ],
     "searched_at": "2026-09-30T00:42:39.337749+00:00"
+  },
+  "us:2026-09-30:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-32b13192?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-01T00:42:25.967168+00:00"
+  },
+  "us:2026-09-30:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」「U.S. Pressure Is Awakening an Energy Giant in Canada」「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: U.S. Pressure Is Awakening an Energy Giant in Canada",
+        "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-32b13192?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-01T00:42:26.035987+00:00"
+  },
+  "us:2026-09-30:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-d5ddf554?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-01T00:42:26.105917+00:00"
+  },
+  "us:2026-09-30:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-185e0866?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-01T00:42:26.232961+00:00"
+  },
+  "jp:2026-10-01:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「ソフトバンクグループ 17％余の減益 4-6月期決算」",
+    "sources": [
+      {
+        "title": "NHK 経済: ソフトバンクグループ 17％余の減益 4-6月期決算",
+        "url": "http://www3.nhk.or.jp/news/html/20260806/k10015198231000.html"
+      }
+    ],
+    "searched_at": "2026-10-01T00:43:05.410203+00:00"
+  },
+  "jp:2026-10-01:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-10-01T00:43:05.424569+00:00"
   }
 }
