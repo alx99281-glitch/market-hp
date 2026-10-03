@@ -2052,5 +2052,71 @@
       }
     ],
     "searched_at": "2026-10-02T01:04:24.785537+00:00"
+  },
+  "us:2026-10-02:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「DOJ says it will not reopen criminal probe into former Fed Chair Powell」「10-year Treasury yield ticks higher despite weaker-than-expected jobs report」「Traders now see little chance of a Fed rate hike in October after weak jobs report」",
+    "sources": [
+      {
+        "title": "CNBC Economy: DOJ says it will not reopen criminal probe into former Fed Chair Powell",
+        "url": "https://www.cnbc.com/2026/10/02/doj-says-it-will-not-reopen-criminal-probe-into-former-fed-chair-powell.html"
+      },
+      {
+        "title": "CNBC Economy: 10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
+        "url": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html"
+      },
+      {
+        "title": "CNBC Economy: Traders now see little chance of a Fed rate hike in October after weak jobs report",
+        "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html"
+      }
+    ],
+    "searched_at": "2026-10-03T00:38:05.435118+00:00"
+  },
+  "us:2026-10-02:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-15d3031c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-03T00:38:05.438603+00:00"
+  },
+  "us:2026-10-02:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-46073a61?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-03T00:38:05.689117+00:00"
+  },
+  "us:2026-10-02:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Can Accenture (ACN) Profit From AI Safety While AI Pressures Its Own Business Model?」",
+    "sources": [
+      {
+        "title": "Yahoo Finance: Can Accenture (ACN) Profit From AI Safety While AI Pressures Its Own Business Model?",
+        "url": "https://finance.yahoo.com/technology/ai/articles/accenture-acn-profit-ai-safety-051220155.html"
+      }
+    ],
+    "searched_at": "2026-10-03T00:38:05.658439+00:00"
+  },
+  "us:2026-10-02:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」「U.S. Pressure Is Awakening an Energy Giant in Canada」「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: U.S. Pressure Is Awakening an Energy Giant in Canada",
+        "url": "https://www.wsj.com/business/energy-oil/u-s-pressure-is-awakening-an-energy-giant-in-canada-162bd958?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-15d3031c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-03T00:38:05.672984+00:00"
   }
 }
