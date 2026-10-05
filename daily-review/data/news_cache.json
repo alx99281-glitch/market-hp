@@ -2118,5 +2118,113 @@
       }
     ],
     "searched_at": "2026-10-03T00:38:05.672984+00:00"
+  },
+  "us:2026-10-05:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Treasury yields rise to start the week; traders look ahead to Fed minutes」「Saudi Aramco chief says replenishing global oil stockpiles could take two years」「The September jobs report will be released Friday. Here's what to expect」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Treasury yields rise to start the week; traders look ahead to Fed minutes",
+        "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
+      },
+      {
+        "title": "CNBC Economy: Saudi Aramco chief says replenishing global oil stockpiles could take two years",
+        "url": "https://www.cnbc.com/2026/10/05/aramco-saudi-arabia-iran-hormuz-oil-energy.html"
+      },
+      {
+        "title": "CNBC Markets: The September jobs report will be released Friday. Here's what to expect",
+        "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html"
+      }
+    ],
+    "searched_at": "2026-10-05T15:28:51.982791+00:00"
+  },
+  "us:2026-10-05:sector_internal_dispersion:Financials": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Treasury yields rise to start the week; traders look ahead to Fed minutes」「Saudi Aramco chief says replenishing global oil stockpiles could take two years」「The September jobs report will be released Friday. Here's what to expect」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Treasury yields rise to start the week; traders look ahead to Fed minutes",
+        "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
+      },
+      {
+        "title": "CNBC Economy: Saudi Aramco chief says replenishing global oil stockpiles could take two years",
+        "url": "https://www.cnbc.com/2026/10/05/aramco-saudi-arabia-iran-hormuz-oil-energy.html"
+      },
+      {
+        "title": "CNBC Markets: The September jobs report will be released Friday. Here's what to expect",
+        "url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html"
+      }
+    ],
+    "searched_at": "2026-10-05T15:28:51.986628+00:00"
+  },
+  "us:2026-10-05:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-334153ef?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-05T15:28:52.207483+00:00"
+  },
+  "us:2026-10-05:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-711dc5e2?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-46073a61?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-05T15:28:52.229759+00:00"
+  },
+  "jp:2026-10-05:sector:食品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「農林水産物 食品の輸出額 上半期2年連続で過去最高に」「【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ」",
+    "sources": [
+      {
+        "title": "NHK 経済: 農林水産物 食品の輸出額 上半期2年連続で過去最高に",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195821000.html"
+      },
+      {
+        "title": "NHK 経済: 【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195571000.html"
+      }
+    ],
+    "searched_at": "2026-10-05T15:29:31.689162+00:00"
+  },
+  "jp:2026-10-05:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続」",
+    "sources": [
+      {
+        "title": "NHK 経済: KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続",
+        "url": "http://www3.nhk.or.jp/news/html/20260808/k10015199811000.html"
+      }
+    ],
+    "searched_at": "2026-10-05T15:29:31.695037+00:00"
+  },
+  "jp:2026-10-05:sector:医薬品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「塩野義 米バイオ医薬品企業買収へ」",
+    "sources": [
+      {
+        "title": "Yahoo!ニュース 経済: 塩野義 米バイオ医薬品企業買収へ",
+        "url": "https://news.yahoo.co.jp/pickup/6597685?source=rss"
+      }
+    ],
+    "searched_at": "2026-10-05T15:29:31.700633+00:00"
+  },
+  "jp:2026-10-05:sector:電力・ガス": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性」",
+    "sources": [
+      {
+        "title": "NHK 経済: 中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015196091000.html"
+      }
+    ],
+    "searched_at": "2026-10-05T15:29:31.711642+00:00"
   }
 }
