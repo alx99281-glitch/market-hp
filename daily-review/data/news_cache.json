@@ -2288,5 +2288,111 @@
       }
     ],
     "searched_at": "2026-10-06T01:53:47.132265+00:00"
+  },
+  "us:2026-10-06:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year」「Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks」「House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+        "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+      },
+      {
+        "title": "CNBC Economy: Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+        "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+      },
+      {
+        "title": "CNBC Economy: House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline",
+        "url": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html"
+      }
+    ],
+    "searched_at": "2026-10-06T13:51:13.790621+00:00"
+  },
+  "us:2026-10-06:sector_internal_dispersion:Utilities": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year」「Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks」「House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+        "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+      },
+      {
+        "title": "CNBC Economy: Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+        "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+      },
+      {
+        "title": "CNBC Economy: House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline",
+        "url": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html"
+      }
+    ],
+    "searched_at": "2026-10-06T13:51:13.796765+00:00"
+  },
+  "us:2026-10-06:sector_internal_dispersion:Financials": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year」「Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks」「House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+        "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+      },
+      {
+        "title": "CNBC Economy: Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+        "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+      },
+      {
+        "title": "CNBC Economy: House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline",
+        "url": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html"
+      }
+    ],
+    "searched_at": "2026-10-06T13:51:13.802427+00:00"
+  },
+  "us:2026-10-06:breadth:advance_pct": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year」「Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks」「House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+        "url": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html"
+      },
+      {
+        "title": "CNBC Economy: Rebounding oil exports through Strait of Hormuz are vulnerable to stepped-up Iranian tanker attacks",
+        "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+      },
+      {
+        "title": "CNBC Economy: House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline",
+        "url": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html"
+      }
+    ],
+    "searched_at": "2026-10-06T13:51:13.805992+00:00"
+  },
+  "us:2026-10-06:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-cea218bb?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-06T13:51:14.238427+00:00"
+  },
+  "us:2026-10-06:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」「Energy Transfer to Acquire Vaquero Midstream for $2.63 Billion」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      },
+      {
+        "title": "WSJ Markets: Energy Transfer to Acquire Vaquero Midstream for $2.63 Billion",
+        "url": "https://www.wsj.com/business/energy-oil/energy-transfer-to-acquire-vaquero-midstream-for-2-63-billion-79c90c47?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-06T13:51:14.267623+00:00"
+  },
+  "us:2026-10-06:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-ee3de59c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-06T13:51:14.283713+00:00"
   }
 }
