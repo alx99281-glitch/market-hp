@@ -2432,5 +2432,63 @@
       }
     ],
     "searched_at": "2026-10-07T00:56:03.474708+00:00"
+  },
+  "us:2026-10-07:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Oil edges higher as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery」「Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows」「'Get your house in order': IMF chief's stark warning for France over surging bond yields」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Oil edges higher as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery",
+        "url": "https://www.cnbc.com/2026/10/07/oil-prices-today-brent-wti-hormuz.html"
+      },
+      {
+        "title": "CNBC Economy: Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
+        "url": "https://www.cnbc.com/2026/10/07/home-heating-oil-costs-winter.html"
+      },
+      {
+        "title": "CNBC Economy: 'Get your house in order': IMF chief's stark warning for France over surging bond yields",
+        "url": "https://www.cnbc.com/2026/10/07/imf-france-debt-student-protests-yields.html"
+      }
+    ],
+    "searched_at": "2026-10-07T14:08:50.074739+00:00"
+  },
+  "us:2026-10-07:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「European Indexes Slide as Tech, Industrials Drop」",
+    "sources": [
+      {
+        "title": "WSJ Markets: European Indexes Slide as Tech, Industrials Drop",
+        "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-07T14:08:50.408758+00:00"
+  },
+  "us:2026-10-07:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「UK inflation jumps to 3.1% as energy costs soar」",
+    "sources": [
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.1% as energy costs soar",
+        "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html"
+      }
+    ],
+    "searched_at": "2026-10-07T14:08:50.377541+00:00"
+  },
+  "us:2026-10-07:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-ee3de59c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-07T14:08:50.397290+00:00"
+  },
+  "us:2026-10-07:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'」",
+    "sources": [
+      {
+        "title": "CNBC Markets: Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
+        "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
+      }
+    ],
+    "searched_at": "2026-10-07T14:08:50.415943+00:00"
   }
 }
