@@ -2590,5 +2590,81 @@
       }
     ],
     "searched_at": "2026-10-08T01:13:12.637220+00:00"
+  },
+  "us:2026-10-08:factor:Quality": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Inflation on many everyday items was entirely due to tariffs, NY Fed says」「Ray Dalio warns the stock market's cushion against rising bond yields is shrinking」「Why REITs aren't getting killed by rising interest rates this time around」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+        "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+      },
+      {
+        "title": "CNBC Economy: Ray Dalio warns the stock market's cushion against rising bond yields is shrinking",
+        "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html"
+      },
+      {
+        "title": "CNBC Economy: Why REITs aren't getting killed by rising interest rates this time around",
+        "url": "https://www.cnbc.com/2026/10/08/why-reits-arent-getting-killed-by-rising-interest-rates-this-time.html"
+      }
+    ],
+    "searched_at": "2026-10-08T14:19:35.688660+00:00"
+  },
+  "us:2026-10-08:sector_internal_dispersion:Financials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'」",
+    "sources": [
+      {
+        "title": "CNBC Markets: Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
+        "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
+      }
+    ],
+    "searched_at": "2026-10-08T14:19:35.695881+00:00"
+  },
+  "us:2026-10-08:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Inflation on many everyday items was entirely due to tariffs, NY Fed says」「Ray Dalio warns the stock market's cushion against rising bond yields is shrinking」「Why REITs aren't getting killed by rising interest rates this time around」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+        "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html"
+      },
+      {
+        "title": "CNBC Economy: Ray Dalio warns the stock market's cushion against rising bond yields is shrinking",
+        "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html"
+      },
+      {
+        "title": "CNBC Economy: Why REITs aren't getting killed by rising interest rates this time around",
+        "url": "https://www.cnbc.com/2026/10/08/why-reits-arent-getting-killed-by-rising-interest-rates-this-time.html"
+      }
+    ],
+    "searched_at": "2026-10-08T14:19:35.700322+00:00"
+  },
+  "us:2026-10-08:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Oil Is Back In, Climate Is Out at a Marquee Energy Conference」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Oil Is Back In, Climate Is Out at a Marquee Energy Conference",
+        "url": "https://www.wsj.com/business/energy-oil/oil-is-back-in-climate-is-out-at-a-marquee-energy-conference-a6bcad5a?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-08T14:19:36.139329+00:00"
+  },
+  "us:2026-10-08:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'」",
+    "sources": [
+      {
+        "title": "CNBC Markets: Consumer sentiment is in the dumps despite a solid economy. Goldman Sachs blames 'lower happiness'",
+        "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html"
+      }
+    ],
+    "searched_at": "2026-10-08T14:19:36.150542+00:00"
+  },
+  "us:2026-10-08:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「European Indexes Slide as Tech, Industrials Drop」",
+    "sources": [
+      {
+        "title": "WSJ Markets: European Indexes Slide as Tech, Industrials Drop",
+        "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-08T14:19:36.188034+00:00"
   }
 }
