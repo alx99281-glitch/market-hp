@@ -2792,5 +2792,117 @@
       }
     ],
     "searched_at": "2026-10-09T01:21:57.778670+00:00"
+  },
+  "us:2026-10-09:sector_internal_dispersion:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Wall Street is pitching data centers as a major real estate bet. The risks are piling up」「Qatar National Bank Targets Digital Infrastructure, Real Estate Financing as Profit Rises, CEO Says」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
+        "url": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html"
+      },
+      {
+        "title": "WSJ Markets: Qatar National Bank Targets Digital Infrastructure, Real Estate Financing as Profit Rises, CEO Says",
+        "url": "https://www.wsj.com/finance/banking/qatar-national-bank-targets-digital-infrastructure-real-estate-financing-as-profit-rises-ceo-says-8828a993?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-09T14:04:11.094756+00:00"
+  },
+  "us:2026-10-09:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries」「Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor」「Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
+        "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+        "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+        "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html"
+      }
+    ],
+    "searched_at": "2026-10-09T14:04:11.101349+00:00"
+  },
+  "us:2026-10-09:sector:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Wall Street is pitching data centers as a major real estate bet. The risks are piling up」「Qatar National Bank Targets Digital Infrastructure, Real Estate Financing as Profit Rises, CEO Says」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
+        "url": "https://www.cnbc.com/2026/10/09/ai-data-centers-investing.html"
+      },
+      {
+        "title": "WSJ Markets: Qatar National Bank Targets Digital Infrastructure, Real Estate Financing as Profit Rises, CEO Says",
+        "url": "https://www.wsj.com/finance/banking/qatar-national-bank-targets-digital-infrastructure-real-estate-financing-as-profit-rises-ceo-says-8828a993?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-09T14:04:11.107630+00:00"
+  },
+  "us:2026-10-09:breadth:advance_pct": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries」「Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor」「Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
+        "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+        "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+        "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html"
+      }
+    ],
+    "searched_at": "2026-10-09T14:04:11.112009+00:00"
+  },
+  "us:2026-10-09:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries」「Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor」「Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries",
+        "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+        "url": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html"
+      },
+      {
+        "title": "CNBC Economy: Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+        "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html"
+      }
+    ],
+    "searched_at": "2026-10-09T14:04:11.116148+00:00"
+  },
+  "us:2026-10-09:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「European Indexes Slide as Tech, Industrials Drop」",
+    "sources": [
+      {
+        "title": "WSJ Markets: European Indexes Slide as Tech, Industrials Drop",
+        "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-09T14:04:11.553474+00:00"
+  },
+  "us:2026-10-09:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「American Oil Refiners Are Printing Money as Wars Shrink Global Energy Supplies」",
+    "sources": [
+      {
+        "title": "WSJ Markets: American Oil Refiners Are Printing Money as Wars Shrink Global Energy Supplies",
+        "url": "https://www.wsj.com/business/energy-oil/american-oil-refiners-are-printing-money-as-wars-shrink-global-energy-supplies-c9240231?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-09T14:04:11.564053+00:00"
+  },
+  "us:2026-10-09:sector:Communication Services": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile」",
+    "sources": [
+      {
+        "title": "CNBC Economy: SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile",
+        "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+      }
+    ],
+    "searched_at": "2026-10-09T14:04:11.580826+00:00"
   }
 }
