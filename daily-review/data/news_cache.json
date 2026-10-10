@@ -2904,5 +2904,25 @@
       }
     ],
     "searched_at": "2026-10-09T14:04:11.580826+00:00"
+  },
+  "us:2026-10-09:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-d7e2726d?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-10T01:08:25.207294+00:00"
+  },
+  "us:2026-10-09:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-d3493e8c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-10T01:08:25.219050+00:00"
   }
 }
