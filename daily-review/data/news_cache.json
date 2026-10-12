@@ -2924,5 +2924,51 @@
       }
     ],
     "searched_at": "2026-10-10T01:08:25.219050+00:00"
+  },
+  "us:2026-10-12:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Rep. Ilhan Omar’s home raided in federal criminal investigation」「Inflation likely peaked for 2026 but will remain sticky, according to prediction markets」「India’s retail inflation jumps to 5.54% in September, above estimates」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Rep. Ilhan Omar’s home raided in federal criminal investigation",
+        "url": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html"
+      },
+      {
+        "title": "CNBC Economy: Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
+        "url": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html"
+      },
+      {
+        "title": "CNBC Economy: India’s retail inflation jumps to 5.54% in September, above estimates",
+        "url": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html"
+      }
+    ],
+    "searched_at": "2026-10-12T16:24:25.910875+00:00"
+  },
+  "us:2026-10-12:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「European Indexes Slide as Tech, Industrials Drop」",
+    "sources": [
+      {
+        "title": "WSJ Markets: European Indexes Slide as Tech, Industrials Drop",
+        "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-12T16:24:26.130100+00:00"
+  },
+  "us:2026-10-12:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Stock Market Today: Oil Gains on Fresh Energy Strikes in Ukraine」「U.S. Stocks Mixed, Oil Gains on Fresh Energy Strikes in Ukraine」「Oil Rebounds on Russia-Ukraine Energy Ceasefire Doubts, Houthi Attack on Saudi Airport」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Stock Market Today: Oil Gains on Fresh Energy Strikes in Ukraine",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-12-2026?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: U.S. Stocks Mixed, Oil Gains on Fresh Energy Strikes in Ukraine",
+        "url": "https://www.wsj.com/finance/investing/stocks-rise-as-oil-eases-after-russian-diesel-deal-despite-middle-east-tension-29ae28a5?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Oil Rebounds on Russia-Ukraine Energy Ceasefire Doubts, Houthi Attack on Saudi Airport",
+        "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-on-hopes-that-russian-diesel-can-ease-global-fuel-shortages-db1651af?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-12T16:24:26.153514+00:00"
   }
 }
