@@ -2998,5 +2998,57 @@
       }
     ],
     "searched_at": "2026-10-13T02:42:02.830147+00:00"
+  },
+  "us:2026-10-13:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'」「IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen」「'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Rep. Ilhan Omar blasts federal criminal raid on home: 'I will not be silenced'",
+        "url": "https://www.cnbc.com/2026/10/12/ilhan-omar-home-raided-dhs-immigration-investigation.html"
+      },
+      {
+        "title": "CNBC Economy: IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen",
+        "url": "https://www.cnbc.com/2026/10/13/treasury-yields-imf-debt-inflation-.html"
+      },
+      {
+        "title": "CNBC Economy: 'Boring is not bad': CEO of Southeast Asia's largest bank pitches Singapore as a haven amid global turmoil",
+        "url": "https://www.cnbc.com/2026/10/13/singapore-war-geopolitics-dbs-bank-ceo.html"
+      }
+    ],
+    "searched_at": "2026-10-13T14:45:01.876242+00:00"
+  },
+  "us:2026-10-13:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「U.S. Treasury yields fall as energy prices pull back」「Energy Stocks Rise as Global Conflicts Push Up Oil Prices」",
+    "sources": [
+      {
+        "title": "CNBC Economy: U.S. Treasury yields fall as energy prices pull back",
+        "url": "https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html"
+      },
+      {
+        "title": "WSJ Markets: Energy Stocks Rise as Global Conflicts Push Up Oil Prices",
+        "url": "https://www.wsj.com/finance/stocks/energy-stocks-rise-as-global-conflicts-push-up-oil-prices-8d605857?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-13T14:45:02.304832+00:00"
+  },
+  "us:2026-10-13:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「European Indexes Slide as Tech, Industrials Drop」",
+    "sources": [
+      {
+        "title": "WSJ Markets: European Indexes Slide as Tech, Industrials Drop",
+        "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-13T14:45:02.341519+00:00"
+  },
+  "us:2026-10-13:sector:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Qatar National Bank Targets Digital Infrastructure, Real Estate Financing as Profit Rises, CEO Says」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Qatar National Bank Targets Digital Infrastructure, Real Estate Financing as Profit Rises, CEO Says",
+        "url": "https://www.wsj.com/finance/banking/qatar-national-bank-targets-digital-infrastructure-real-estate-financing-as-profit-rises-ceo-says-8828a993?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-13T14:45:02.365183+00:00"
   }
 }
