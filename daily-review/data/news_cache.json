@@ -3124,5 +3124,25 @@
       }
     ],
     "searched_at": "2026-10-14T00:31:07.633061+00:00"
+  },
+  "us:2026-10-13:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-4f9f083f?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-14T12:37:15.996555+00:00"
+  },
+  "us:2026-10-13:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-1d895b75?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-14T12:37:16.020212+00:00"
   }
 }
