@@ -3144,5 +3144,23 @@
       }
     ],
     "searched_at": "2026-10-14T12:37:16.020212+00:00"
+  },
+  "us:2026-10-14:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「How high inflation became a 'fact of life' in the U.S.」「CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge」「Here's the inflation breakdown for September 2026 — in one chart」",
+    "sources": [
+      {
+        "title": "CNBC Economy: How high inflation became a 'fact of life' in the U.S.",
+        "url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html"
+      },
+      {
+        "title": "CNBC Economy: CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+        "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html"
+      },
+      {
+        "title": "CNBC Economy: Here's the inflation breakdown for September 2026 — in one chart",
+        "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html"
+      }
+    ],
+    "searched_at": "2026-10-15T00:01:52.755856+00:00"
   }
 }
