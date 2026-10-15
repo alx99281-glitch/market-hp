@@ -3258,5 +3258,23 @@
       }
     ],
     "searched_at": "2026-10-15T12:24:26.258441+00:00"
+  },
+  "us:2026-10-15:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Brian Sullivan: Why the 'real' price of oil is likely $30-$40 higher than where it is now」「Economists: Hot PPI shows Fed's work is not done」「Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Brian Sullivan: Why the 'real' price of oil is likely $30-$40 higher than where it is now",
+        "url": "https://www.cnbc.com/2026/10/15/brian-sullivan-why-the-real-price-of-oil-is-likely-30-40-higher-than-where-it-is-now.html"
+      },
+      {
+        "title": "CNBC Economy: Economists: Hot PPI shows Fed's work is not done",
+        "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html"
+      },
+      {
+        "title": "CNBC Markets: Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+        "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+      }
+    ],
+    "searched_at": "2026-10-15T23:46:22.042563+00:00"
   }
 }
