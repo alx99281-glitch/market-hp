@@ -3348,5 +3348,53 @@
       }
     ],
     "searched_at": "2026-10-16T12:04:32.699881+00:00"
+  },
+  "us:2026-10-16:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries」「Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge」「Fed's Warsh withholds rate signal, praises recent global tightening」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+        "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
+      },
+      {
+        "title": "CNBC Economy: Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+        "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+      },
+      {
+        "title": "CNBC Economy: Fed's Warsh withholds rate signal, praises recent global tightening",
+        "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+      }
+    ],
+    "searched_at": "2026-10-16T23:46:52.291793+00:00"
+  },
+  "us:2026-10-16:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-9842f9b7?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-16T23:46:52.712675+00:00"
+  },
+  "us:2026-10-16:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-9842f9b7?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-16T23:46:52.730268+00:00"
+  },
+  "us:2026-10-16:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「European Indexes Slide as Tech, Industrials Drop」",
+    "sources": [
+      {
+        "title": "WSJ Markets: European Indexes Slide as Tech, Industrials Drop",
+        "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-16T23:46:52.777986+00:00"
   }
 }
