@@ -3396,5 +3396,87 @@
       }
     ],
     "searched_at": "2026-10-16T23:46:52.777986+00:00"
+  },
+  "us:2026-10-19:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「OpenAI bugging suspect communicated with Saudi royal on WhatsApp days before arrest, feds say」「Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates」「Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all」",
+    "sources": [
+      {
+        "title": "CNBC Economy: OpenAI bugging suspect communicated with Saudi royal on WhatsApp days before arrest, feds say",
+        "url": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html"
+      },
+      {
+        "title": "CNBC Economy: Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+        "url": "https://www.cnbc.com/2026/10/19/takaichi-weak-yen-jgb-yields.html"
+      },
+      {
+        "title": "CNBC Markets: Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+        "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+      }
+    ],
+    "searched_at": "2026-10-19T14:15:47.487276+00:00"
+  },
+  "us:2026-10-19:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-a4c91f4c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-19T14:15:47.867455+00:00"
+  },
+  "us:2026-10-19:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-d32997f7?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-1850994c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-19T14:15:47.878479+00:00"
+  },
+  "us:2026-10-19:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-9842f9b7?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-19T14:15:47.888898+00:00"
+  },
+  "us:2026-10-19:sector:Communication Services": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Netflix Stock Might be a Sleeper Hit」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Netflix Stock Might be a Sleeper Hit",
+        "url": "https://www.wsj.com/finance/stocks/netflix-stock-might-be-a-sleeper-hit-fd4bd2b1?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-19T14:15:47.910060+00:00"
+  },
+  "us:2026-10-19:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-9842f9b7?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-19T14:15:47.931139+00:00"
+  },
+  "jp:2026-10-19:sector:電力・ガス": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性」",
+    "sources": [
+      {
+        "title": "NHK 経済: 中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015196091000.html"
+      }
+    ],
+    "searched_at": "2026-10-19T14:16:34.977072+00:00"
   }
 }
