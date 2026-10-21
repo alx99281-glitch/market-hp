@@ -3550,5 +3550,23 @@
       }
     ],
     "searched_at": "2026-10-20T00:32:24.346057+00:00"
+  },
+  "us:2026-10-20:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Housing is flashing warning signs just as the Fed weighs more interest rate hikes」「Trump sued over 50% tariffs on Canada in latest trade challenge」「Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+        "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+      },
+      {
+        "title": "CNBC Economy: Trump sued over 50% tariffs on Canada in latest trade challenge",
+        "url": "https://www.cnbc.com/2026/10/20/trump-tariffs-canada-section-338-lawsuit.html"
+      },
+      {
+        "title": "CNBC Economy: Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation",
+        "url": "https://www.cnbc.com/2026/10/20/marine-le-pen-france-2027-election-odds-kalshi.html"
+      }
+    ],
+    "searched_at": "2026-10-21T00:02:57.017573+00:00"
   }
 }
