@@ -3596,5 +3596,23 @@
       }
     ],
     "searched_at": "2026-10-21T12:39:41.139045+00:00"
+  },
+  "us:2026-10-21:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「CoreWeave’s market confidence erodes as bond yields spike and stock sinks」「Housing is flashing warning signs just as the Fed weighs more interest rate hikes」「UK inflation jumps to 3.5% — cementing rate hike expectations」",
+    "sources": [
+      {
+        "title": "CNBC Economy: CoreWeave’s market confidence erodes as bond yields spike and stock sinks",
+        "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html"
+      },
+      {
+        "title": "CNBC Economy: Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+        "url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html"
+      },
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.5% — cementing rate hike expectations",
+        "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+      }
+    ],
+    "searched_at": "2026-10-22T00:07:35.325625+00:00"
   }
 }
