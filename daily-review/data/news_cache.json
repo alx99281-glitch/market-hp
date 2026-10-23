@@ -3634,5 +3634,23 @@
       }
     ],
     "searched_at": "2026-10-22T12:44:30.305146+00:00"
+  },
+  "us:2026-10-22:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Japan core inflation in September surges to its highest this year at 2.1%」「Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease」「Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Japan core inflation in September surges to its highest this year at 2.1%",
+        "url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html"
+      },
+      {
+        "title": "CNBC Economy: Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+        "url": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html"
+      },
+      {
+        "title": "CNBC Economy: Under-the-radar stocks to play the next leg of the energy trade with oil prices jumping again",
+        "url": "https://www.cnbc.com/2026/10/22/under-the-radar-stocks-to-play-the-next-leg-of-the-energy-trade-with-oil-prices-jumping-again.html"
+      }
+    ],
+    "searched_at": "2026-10-23T00:05:59.120784+00:00"
   }
 }
