@@ -3750,5 +3750,23 @@
       }
     ],
     "searched_at": "2026-10-23T12:21:54.401671+00:00"
+  },
+  "us:2026-10-23:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump dropping some Canada tariffs but 'replacing' them with other products」「Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO」「Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump dropping some Canada tariffs but 'replacing' them with other products",
+        "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html"
+      },
+      {
+        "title": "CNBC Economy: Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
+        "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html"
+      },
+      {
+        "title": "CNBC Economy: Moody's holds steady on France's credit rating as country grapples with turmoil and higher yields",
+        "url": "https://www.cnbc.com/2026/10/23/moodys-holds-steady-on-frances-credit-rating-as-country-grapples-with-turmoil-and-higher-yields.html"
+      }
+    ],
+    "searched_at": "2026-10-23T23:55:39.902014+00:00"
   }
 }
