@@ -3768,5 +3768,141 @@
       }
     ],
     "searched_at": "2026-10-23T23:55:39.902014+00:00"
+  },
+  "us:2026-10-26:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs」「Oil prices fall as Saudi defense minister travels to Iran for talks to de-escalate conflict」「America by the numbers: How voters feel about the economy, inflation, AI and Trump」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
+        "url": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html"
+      },
+      {
+        "title": "CNBC Economy: Oil prices fall as Saudi defense minister travels to Iran for talks to de-escalate conflict",
+        "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html"
+      },
+      {
+        "title": "CNBC Economy: America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+        "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:00.470907+00:00"
+  },
+  "us:2026-10-26:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Moderna Investors Should Brace for More Whiplash」「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Moderna Investors Should Brace for More Whiplash",
+        "url": "https://www.wsj.com/health/pharma/moderna-investors-should-brace-for-more-whiplash-5c32f32d?mod=rss_markets_main"
+      },
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-780b3b87?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:00.919071+00:00"
+  },
+  "us:2026-10-26:sector:Communication Services": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「From Verizon to UnitedHealth, Corporate America Is Balking at ‘Tokenized’ Stocks」",
+    "sources": [
+      {
+        "title": "WSJ Markets: From Verizon to UnitedHealth, Corporate America Is Balking at ‘Tokenized’ Stocks",
+        "url": "https://www.wsj.com/finance/stocks/from-verizon-to-unitedhealth-corporate-america-is-balking-at-tokenized-stocks-6dbbeada?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:00.930867+00:00"
+  },
+  "us:2026-10-26:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「This German Energy Giant Is an Overlooked AI Bargain」",
+    "sources": [
+      {
+        "title": "WSJ Markets: This German Energy Giant Is an Overlooked AI Bargain",
+        "url": "https://www.wsj.com/finance/this-german-energy-giant-is-an-overlooked-ai-bargain-c190ee76?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:00.941727+00:00"
+  },
+  "us:2026-10-26:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-4d509d1c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:00.958304+00:00"
+  },
+  "jp:2026-10-26:sector:エネルギー資源": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:46.692244+00:00"
+  },
+  "jp:2026-10-26:sector:商社・卸売": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:46.699661+00:00"
+  },
+  "jp:2026-10-26:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:46.704831+00:00"
+  },
+  "jp:2026-10-26:sector:電力・ガス": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性」",
+    "sources": [
+      {
+        "title": "NHK 経済: 中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015196091000.html"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:46.913170+00:00"
+  },
+  "jp:2026-10-26:sector:機械": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「三菱重工業 次世代型原子炉「SMR」国内実用化に向け本格開発へ」",
+    "sources": [
+      {
+        "title": "NHK 経済: 三菱重工業 次世代型原子炉「SMR」国内実用化に向け本格開発へ",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015196481000.html"
+      }
+    ],
+    "searched_at": "2026-10-26T13:48:46.940456+00:00"
   }
 }
