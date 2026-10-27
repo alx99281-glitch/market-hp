@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日次市場サマリー（日本） 2026-10-27</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --panel: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --pos: #3fb950;
+  --neg: #f85149;
+  --accent: #58a6ff;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  line-height: 1.6;
+}
+h1 { font-size: 1.4rem; margin-bottom: 4px; }
+.subtitle { color: var(--muted); margin-top: 0; margin-bottom: 24px; font-size: 0.9rem; }
+.headline {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 16px 20px;
+  font-size: 1.15rem;
+  margin-bottom: 28px;
+}
+section { margin-bottom: 32px; }
+.explain { color: var(--muted); font-size: 0.85rem; line-height: 1.7; margin: 0 0 12px; }
+.explain b { font-weight: 600; }
+h2 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 14px;
+}
+.pos { background: var(--pos); }
+.neg { background: var(--neg); }
+.tp-item { margin-bottom: 14px; }
+.tp-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
+.tp-bullet { font-size: 0.95rem; line-height: 1.6; display: flex; gap: 8px; }
+.tp-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+.tp-group-note { font-size: 0.72rem; color: var(--muted); margin: 8px 0 4px; padding-left: 17px; }
+.tp-group-members { padding-left: 17px; display: flex; flex-direction: column; gap: 4px; }
+.tp-group-member { font-size: 0.78rem; color: var(--text); }
+.tp-group-member b { font-weight: 600; }
+.tp-sources { margin: 6px 0 0; padding-left: 18px; font-size: 0.78rem; }
+.tp-sources a { color: var(--accent); }
+.tp-sources li { margin-bottom: 2px; }
+.pca-box { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
+.pca-narrative { font-size: 0.92rem; line-height: 1.7; margin-bottom: 6px; }
+.narrative-box { background: var(--panel); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 6px; padding: 16px 20px; margin-bottom: 20px; }
+.narrative-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 14px 0 6px; }
+.narrative-title:first-child { margin-top: 0; }
+.narrative-list { margin: 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.7; }
+.narrative-sub { font-size: 0.85rem; line-height: 1.7; }
+.narrative-sub div { margin-bottom: 2px; }
+.narrative-interp { font-size: 0.9rem; line-height: 1.7; }
+.conf-badge { display: inline-block; font-size: 0.68rem; padding: 1px 8px; border-radius: 10px; border: 1px solid var(--border); margin-left: 4px; text-transform: none; letter-spacing: 0; }
+.conf-high { color: var(--pos); border-color: var(--pos); }
+.conf-mid { color: #d29922; border-color: #d29922; }
+.conf-low { color: var(--muted); }
+details.fold { margin-bottom: 24px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); }
+details.fold > summary { cursor: pointer; padding: 12px 16px; font-size: 1rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; list-style: none; }
+details.fold > summary::-webkit-details-marker { display: none; }
+details.fold > summary::before { content: "▸ "; }
+details.fold[open] > summary::before { content: "▾ "; }
+details.fold > .fold-body { padding: 0 16px 16px; }
+details.fold > summary:hover { color: var(--text); }
+.sector-explain-card { background: #1c2128; border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; }
+.sector-explain-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+.sector-explain-name { font-weight: 600; font-size: 0.9rem; }
+.sector-explain-val { margin-left: auto; font-variant-numeric: tabular-nums; font-size: 0.8rem; }
+.sc-pos { color: var(--pos); }
+.sc-neg { color: var(--neg); }
+.sc-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+.sector-explain-movers { font-size: 0.8rem; color: var(--text); margin-bottom: 4px; }
+.sector-explain-news { font-size: 0.82rem; color: var(--text); line-height: 1.6; }
+.sector-explain-news.muted { color: var(--muted); }
+.regime-box { background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 12px 18px; margin-bottom: 28px; }
+.regime-headline { font-size: 0.95rem; font-weight: 600; margin-bottom: 8px; }
+.regime-list { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--muted); line-height: 1.7; }
+.regime-list li { margin-bottom: 2px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-weight: 500; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+.waterfall-row { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; font-size: 0.85rem; }
+.waterfall-name { width: 180px; flex-shrink: 0; color: var(--muted); }
+.waterfall-bar-wrap { flex: 1; display: flex; align-items: center; }
+.waterfall-center { width: 1px; background: var(--border); align-self: stretch; }
+.waterfall-bar { height: 14px; border-radius: 2px; }
+.waterfall-val { width: 80px; text-align: right; font-variant-numeric: tabular-nums; flex-shrink: 0; }
+.badge {
+  display: inline-block; font-size: 0.72rem; padding: 1px 8px; border-radius: 10px;
+  border: 1px solid var(--border); color: var(--muted); margin-left: 8px;
+}
+footer {
+  margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border);
+  color: var(--muted); font-size: 0.78rem;
+}
+footer div { margin-bottom: 2px; }
+</style>
+</head>
+<body>
+  <h1>日次市場サマリー（日本）</h1>
+  <p class="subtitle">2026-10-27 <span class="badge">日経平均株価</span></p>
+
+  <div class="headline">指数は大幅上昇（+1.88%）。最も動いたのはBetaファクター（+4.25%）。値上がり109/値下がり114銘柄</div>
+  
+    <div class="narrative-box">
+      <div class="narrative-title">主因（定量的事実）</div>
+      <ul class="narrative-list"><li>日経平均株価: +1.88%</li><li>Betaファクター: +4.25%</li><li>値動きの主パターン(PC1, 説明力31%): 「鉄鋼・非鉄・電機・精密・機械」高 / 「運輸・物流・情報通信・サービスその他・医薬品」安</li></ul>
+      <div class="narrative-title">セクター（寄与度上位/下位）</div>
+      <div class="narrative-sub"><div><b>上昇:</b> 電機・精密 +0.406%、鉄鋼・非鉄 +0.115%</div><div><b>下落:</b> 不動産 -0.077%、運輸・物流 -0.064%</div></div>
+      <div class="narrative-title">個別銘柄（寄与上位/下位）</div>
+      <div class="narrative-sub"><div><b>上昇:</b> アドバンテスト(6857.T) +8.53%、ソフトバンクグループ(9984.T) +5.28%</div><div><b>下落:</b> ソニーグループ(6758.T) -1.57%、第一三共(4568.T) -6.78%</div></div>
+      <div class="narrative-title">解釈 <span class="conf-badge conf-high">確度: 高</span></div>
+      <div class="narrative-interp">もみ合い・平常ボラ・平常相関の相場の中、値動きの約75%は過去の主要パターンで説明でき、主要マクロ変数との相関は弱く、Volatilityファクター的な動き（相関+0.90）という一日でした。（PCA・マクロ相関・ファクター相関・ニュース裏付けのうち3/4のシグナルが確認できています）</div>
+    </div>
+  
+    <div class="regime-box">
+      <div class="regime-headline">相場のレジーム（地合い）: もみ合い・平常ボラ・平常相関</div>
+      <ul class="regime-list"><li>終値・50日線・200日線の位置関係がねじれており、明確な方向感のないもみ合い局面です。</li><li>直近20日の実現ボラティリティは年率29.1%で、過去1年の平常的な範囲内です。</li><li>直近20日のセクター間平均相関は0.30と平常的な水準です。</li></ul>
+    </div>
+
+  <details class="fold">
+    <summary>本日動いたセクターの背景（定量+定性・詳細）</summary>
+    <div class="fold-body">
+      <p class="explain">寄与度が大きかった上位/下位セクターについて、関連銘柄の値動き（定量）と
+      関連しそうなニュース見出し（定性・自動キーワード一致のため要確認）をセットで示す。zスコアはそのセクターの
+      過去の振れ幅に対して本日がどれだけ「普段と違う」動きかを表す（|z|が大きいほど異例）。</p>
+      
+    <div class="two-col">
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">上昇寄与 上位5</div>
+        
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">電機・精密</span>
+            <span class="sector-explain-val sc-pos">+0.406% / zスコア +1.02</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: イビデン(4062.T) +9.97%、アドバンテスト(6857.T) +8.53%、ソシオネクスト(6526.T) +6.56%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">鉄鋼・非鉄</span>
+            <span class="sector-explain-val sc-pos">+0.115% / zスコア +0.81</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: SUMCO(3436.T) +7.55%、フジクラ(5803.T) +5.63%、住友電気工業(5802.T) +4.10%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">素材・化学</span>
+            <span class="sector-explain-val sc-pos">+0.107% / zスコア +0.65</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: レゾナック・ホールディングス(4004.T) +5.65%、デンカ(4061.T) +3.04%、トクヤマ(4043.T) +1.88%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">機械</span>
+            <span class="sector-explain-val sc-pos">+0.068% / zスコア +0.50</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 荏原製作所(6361.T) +3.27%、日本製鋼所(5631.T) +2.13%、SMC(6273.T) +1.71%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">銀行</span>
+            <span class="sector-explain-val sc-pos">+0.028% / zスコア +0.30</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: しずおかフィナンシャルグループ(5831.T) +1.55%、りそなホールディングス(8308.T) +0.90%、千葉銀行(8331.T) +0.77%</div>
+          <div class="sector-explain-news">（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」</div><ul class='tp-sources'><li><a href="http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html" target="_blank" rel="noopener">NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す</a></li></ul>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">下落寄与 上位5</div>
+        
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">不動産</span>
+            <span class="sector-explain-val sc-neg">-0.077% / zスコア -2.01</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 三菱地所(8802.T) -5.03%、三井不動産(8801.T) -3.79%、住友不動産(8830.T) -3.56%</div>
+          <div class="sector-explain-news">（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」</div><ul class='tp-sources'><li><a href="http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html" target="_blank" rel="noopener">NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む</a></li><li><a href="http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html" target="_blank" rel="noopener">NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で</a></li><li><a href="http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html" target="_blank" rel="noopener">NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け</a></li></ul>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">運輸・物流</span>
+            <span class="sector-explain-val sc-neg">-0.064% / zスコア -1.07</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 東海旅客鉄道(9022.T) -2.94%、東日本旅客鉄道(9020.T) -2.62%、西日本旅客鉄道(9021.T) -2.49%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">小売</span>
+            <span class="sector-explain-val sc-neg">-0.054% / zスコア -0.86</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: パン・パシフィック・インターナショナルホールディングス(7532.T) -1.85%、イオン(8267.T) -1.71%、ニトリホールディングス(9843.T) -1.53%</div>
+          <div class="sector-explain-news">（自動キーワード一致・要確認）関連する可能性のある見出し: 「イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査」「イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ」「イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪」</div><ul class='tp-sources'><li><a href="http://www3.nhk.or.jp/news/html/20260805/k10015197391000.html" target="_blank" rel="noopener">NHK 経済: イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査</a></li><li><a href="http://www3.nhk.or.jp/news/html/20260805/k10015197331000.html" target="_blank" rel="noopener">NHK 経済: イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ</a></li><li><a href="http://www3.nhk.or.jp/news/html/20260803/k10015194801000.html" target="_blank" rel="noopener">NHK 経済: イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪</a></li></ul>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">医薬品</span>
+            <span class="sector-explain-val sc-neg">-0.050% / zスコア -0.92</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 第一三共(4568.T) -6.78%、住友ファーマ(4506.T) +2.48%、中外製薬(4519.T) -1.73%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">自動車・輸送機</span>
+            <span class="sector-explain-val sc-neg">-0.037% / zスコア -0.52</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: 日産自動車(7201.T) -1.38%、スズキ(7269.T) -0.96%、三菱自動車工業(7211.T) -0.86%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+      </div>
+    </div>
+      <h3 style="font-size:0.85rem;color:var(--muted);margin:20px 0 10px">セクター寄与度 全セクター（自前計算・日経225構成銘柄数比率（cap-weightではない近似））</h3>
+      
+        <div class="waterfall-row">
+          <div class="waterfall-name">電機・精密</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:50.0%"></div></div>
+          <div class="waterfall-val">+0.406%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">鉄鋼・非鉄</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:14.2%"></div></div>
+          <div class="waterfall-val">+0.115%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">素材・化学</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:13.1%"></div></div>
+          <div class="waterfall-val">+0.107%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">機械</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:8.4%"></div></div>
+          <div class="waterfall-val">+0.068%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">銀行</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:3.4%"></div></div>
+          <div class="waterfall-val">+0.028%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">建設・資材</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:0.6%"></div></div>
+          <div class="waterfall-val">+0.005%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">金融（除く銀行）</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:1.5%; margin-left:48.5%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.012%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">エネルギー資源</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:1.6%; margin-left:48.4%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.013%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">商社・卸売</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:3.0%; margin-left:47.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.025%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">電力・ガス</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:3.9%; margin-left:46.1%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.031%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">情報通信・サービスその他</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:4.1%; margin-left:45.9%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.033%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">食品</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:4.5%; margin-left:45.5%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.037%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">自動車・輸送機</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:4.5%; margin-left:45.5%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.037%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">医薬品</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:6.2%; margin-left:43.8%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.050%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">小売</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:6.6%; margin-left:43.4%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.054%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">運輸・物流</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:7.9%; margin-left:42.1%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.064%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">不動産</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:9.4%; margin-left:40.6%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.077%</div>
+        </div>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>本日の論点（zスコア異常検知、|z| ≥ 1.5, ローリング120日）</summary>
+    <div class="fold-body">
+      
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot neg"></span>過去の主要な値動きパターン（銘柄ベース）で比較的よく説明できる値動きでした（説明できた比率: 約75%）。特定の銘柄・材料というより、市場全体に共通する既知のパターンの延長で動いた一日と言えます。</div>
+            <div class='tp-group-member'><b>過去の値動きパターン（銘柄ベース）では説明できない動きの大きさ</b>: 25% (zスコア -1.74)</div>
+          </div>
+          
+        </div>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot neg"></span>（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」</div>
+            <div class="tp-group-note">以下2件の論点が共通してこの背景に該当するとみられます:</div>
+            <div class="tp-group-members"><div class='tp-group-member'><b>不動産セクターの値動き</b>: -0.08% (zスコア -2.01) ／ 関連銘柄: 三菱地所(8802.T) -5.03%、三井不動産(8801.T) -3.79%、住友不動産(8830.T) -3.56%</div><div class='tp-group-member'><b>セクター間の値動きの連動性</b>: +48.46% (zスコア +1.50)</div></div>
+          </div>
+          <ul class='tp-sources'><li><a href='http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html' target='_blank' rel='noopener'>NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む</a></li><li><a href='http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html' target='_blank' rel='noopener'>NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で</a></li><li><a href='http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html' target='_blank' rel='noopener'>NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け</a></li></ul>
+        </div>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot neg"></span>市場の値動きパターン（セクターベース、第2主成分）が普段より大きく動きました。このパターンは通常「不動産・医薬品・自動車・輸送機」が一方に、「機械・電機・精密・鉄鋼・非鉄」が逆方向に動く形で現れ、本日は「機械・電機・精密・鉄鋼・非鉄」が相対的に強く、「不動産・医薬品・自動車・輸送機」が相対的に弱い値動きだったとみられます。</div>
+            <div class='tp-group-member'><b>市場の値動きパターン（セクターベース、第2主成分）</b>: -0.056（主成分スコア） (zスコア -1.69)</div>
+          </div>
+          
+        </div>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>個別銘柄寄与（全上位/下位10）</summary>
+    <div class="fold-body">
+    <div class="two-col">
+      <div>
+        <h3 style="font-size:0.85rem;color:var(--pos);margin-bottom:6px;">寄与上位10</h3>
+        <table><thead><tr><th>銘柄</th><th class='num'>リターン</th><th class='num'>寄与度</th></tr></thead>
+        <tbody><tr><td>6857.T</td><td class='num'>+8.53%</td><td class='num'>+0.203%</td></tr><tr><td>9984.T</td><td class='num'>+5.28%</td><td class='num'>+0.167%</td></tr><tr><td>285A.T</td><td class='num'>+5.50%</td><td class='num'>+0.163%</td></tr><tr><td>8035.T</td><td class='num'>+3.96%</td><td class='num'>+0.096%</td></tr><tr><td>4062.T</td><td class='num'>+9.97%</td><td class='num'>+0.057%</td></tr><tr><td>6981.T</td><td class='num'>+4.06%</td><td class='num'>+0.053%</td></tr><tr><td>5803.T</td><td class='num'>+5.63%</td><td class='num'>+0.047%</td></tr><tr><td>6501.T</td><td class='num'>+1.48%</td><td class='num'>+0.036%</td></tr><tr><td>6861.T</td><td class='num'>+1.85%</td><td class='num'>+0.035%</td></tr><tr><td>6752.T</td><td class='num'>+3.27%</td><td class='num'>+0.032%</td></tr></tbody></table>
+      </div>
+      <div>
+        <h3 style="font-size:0.85rem;color:var(--neg);margin-bottom:6px;">寄与下位10</h3>
+        <table><thead><tr><th>銘柄</th><th class='num'>リターン</th><th class='num'>寄与度</th></tr></thead>
+        <tbody><tr><td>6758.T</td><td class='num'>-1.57%</td><td class='num'>-0.036%</td></tr><tr><td>4568.T</td><td class='num'>-6.78%</td><td class='num'>-0.034%</td></tr><tr><td>7203.T</td><td class='num'>-0.64%</td><td class='num'>-0.023%</td></tr><tr><td>8802.T</td><td class='num'>-5.03%</td><td class='num'>-0.022%</td></tr><tr><td>8766.T</td><td class='num'>-1.37%</td><td class='num'>-0.021%</td></tr><tr><td>4519.T</td><td class='num'>-1.73%</td><td class='num'>-0.019%</td></tr><tr><td>8001.T</td><td class='num'>-1.22%</td><td class='num'>-0.019%</td></tr><tr><td>8801.T</td><td class='num'>-3.79%</td><td class='num'>-0.015%</td></tr><tr><td>8058.T</td><td class='num'>-0.81%</td><td class='num'>-0.015%</td></tr><tr><td>9983.T</td><td class='num'>-0.69%</td><td class='num'>-0.015%</td></tr></tbody></table>
+      </div>
+    </div></div>
+  </details>
+
+  <details class="fold">
+    <summary>主成分分析(PCA)の詳細</summary>
+    <div class="fold-body">
+      
+    <div class="pca-box">
+      <div class="pca-narrative">直近で最も動いたのは第1主成分（過去の値動き全体の分散のうち31%を説明する変動パターン）でした。この変動パターンは普段、「鉄鋼・非鉄・電機・精密・機械」が一方に、「運輸・物流・情報通信・サービスその他・医薬品」が逆方向に動く形で現れます。本日はこのパターンが強く出ており、「鉄鋼・非鉄・電機・精密・機械」が相対的に強く、「運輸・物流・情報通信・サービスその他・医薬品」が相対的に弱い値動きだった可能性があります。本日の値動きの約75%は、過去の主要な値動きパターンで説明できました。これまでと似た構造で相場が動いた一日と言えます。 直近60日でUSDJPY・米金利・原油いずれとも相関は弱く（最大でも米10年金利の+0.23）、この主成分を単一のマクロ変数だけで説明するのは早計と言えます。 自前計算の8ファクターの中ではVolatility(相関+0.90)、Liquidity(相関+0.87)と相関が最も強く、この主成分はVolatilityファクター的な値動きに近いと解釈できます。ただし他のファクターとも幅広く相関しており、単一ファクターへの還元には注意が必要です。</div>
+      <p style="color:var(--muted);font-size:0.78rem">
+        （主成分分析(PCA)＝多数の銘柄の値動きを少数の共通パターンに要約する統計手法。
+        軸推定日: 2026-10-27 / 対象銘柄数: 224 / 各パターンの説明力: PC1 30.6% / PC2 16.9% / PC3 9.8% / PC4 3.1% / PC5 2.1%）
+      </p>
+      <div style="display:flex; gap:24px; flex-wrap:wrap; margin:14px 0 16px"><div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC1</div>
+          
+    <svg viewBox="0 0 260 60" width="260" height="60">
+      <polyline points="4.0,24.1 8.3,17.2 12.5,4.0 16.8,20.2 21.1,13.7 25.4,5.8 29.6,20.6 33.9,17.3 38.2,16.4 42.4,13.4 46.7,13.2 51.0,17.7 55.3,14.5 59.5,22.6 63.8,28.9 68.1,14.4 72.3,17.3 76.6,17.5 80.9,15.4 85.2,16.3 89.4,16.3 93.7,17.3 98.0,16.9 102.2,16.0 106.5,26.2 110.8,16.6 115.1,16.0 119.3,12.4 123.6,26.0 127.9,13.9 132.1,18.8 136.4,21.5 140.7,18.5 144.9,17.9 149.2,13.9 153.5,17.7 157.8,14.6 162.0,14.0 166.3,14.7 170.6,18.8 174.8,56.0 179.1,13.1 183.4,16.2 187.7,12.5 191.9,12.7 196.2,16.4 200.5,14.1 204.7,24.6 209.0,22.0 213.3,20.6 217.6,14.1 221.8,33.1 226.1,12.2 230.4,18.8 234.6,19.2 238.9,19.0 243.2,25.5 247.5,20.0 251.7,18.3 256.0,12.4" fill="none" stroke="#58a6ff" stroke-width="1.6" />
+      <circle cx="256.0" cy="12.4" r="2.5" fill="#58a6ff" />
+      <text x="256.0" y="12.4" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#58a6ff">+0.180</text>
+      
+    </svg>
+        </div><div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC2</div>
+          
+    <svg viewBox="0 0 260 60" width="260" height="60">
+      <polyline points="4.0,51.8 8.3,44.1 12.5,33.9 16.8,43.8 21.1,40.5 25.4,40.0 29.6,48.8 33.9,47.6 38.2,42.4 42.4,44.0 46.7,43.2 51.0,45.7 55.3,43.0 59.5,48.0 63.8,50.8 68.1,45.8 72.3,46.2 76.6,45.7 80.9,44.5 85.2,46.1 89.4,44.2 93.7,46.2 98.0,45.6 102.2,45.6 106.5,48.1 110.8,44.8 115.1,43.2 119.3,40.8 123.6,50.1 127.9,42.1 132.1,45.2 136.4,47.7 140.7,48.3 144.9,43.9 149.2,42.7 153.5,46.8 157.8,42.4 162.0,42.0 166.3,45.2 170.6,45.6 174.8,4.0 179.1,42.4 183.4,44.1 187.7,42.3 191.9,42.1 196.2,45.9 200.5,43.9 204.7,47.6 209.0,49.7 213.3,48.5 217.6,42.7 221.8,56.0 226.1,45.1 230.4,46.4 234.6,46.3 238.9,46.6 243.2,50.4 247.5,46.9 251.7,47.1 256.0,40.8" fill="none" stroke="#3fb950" stroke-width="1.6" />
+      <circle cx="256.0" cy="40.8" r="2.5" fill="#3fb950" />
+      <text x="256.0" y="40.8" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#3fb950">+0.154</text>
+      
+    </svg>
+        </div><div>
+          <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC3</div>
+          
+    <svg viewBox="0 0 260 60" width="260" height="60">
+      <polyline points="4.0,4.0 8.3,39.7 12.5,56.0 16.8,41.5 21.1,35.6 25.4,29.8 29.6,5.0 33.9,16.8 38.2,25.3 42.4,30.2 46.7,30.9 51.0,20.9 55.3,41.7 59.5,26.3 63.8,40.4 68.1,9.3 72.3,25.5 76.6,22.5 80.9,29.6 85.2,26.6 89.4,29.7 93.7,21.8 98.0,26.9 102.2,15.1 106.5,48.7 110.8,22.2 115.1,35.7 119.3,39.3 123.6,39.1 127.9,32.0 132.1,28.8 136.4,25.0 140.7,13.9 144.9,34.7 149.2,25.6 153.5,13.6 157.8,41.1 162.0,37.5 166.3,23.5 170.6,33.2 174.8,7.8 179.1,29.2 183.4,32.2 187.7,31.7 191.9,31.1 196.2,27.3 200.5,23.1 204.7,44.0 209.0,17.2 213.3,17.0 217.6,31.9 221.8,21.7 226.1,13.1 230.4,25.0 234.6,33.3 238.9,25.1 243.2,24.7 247.5,30.5 251.7,19.3 256.0,36.6" fill="none" stroke="#f0883e" stroke-width="1.6" />
+      <circle cx="256.0" cy="36.6" r="2.5" fill="#f0883e" />
+      <text x="256.0" y="36.6" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#f0883e">-0.109</text>
+      
+    </svg>
+        </div></div>
+      <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">説明できなかった動きの比率（直近60日の推移）</div>
+      
+    <svg viewBox="0 0 780 70" width="780" height="70">
+      <polyline points="4.0,46.4 17.1,14.3 30.2,53.6 43.3,10.4 56.3,27.6 69.4,35.9 82.5,33.9 95.6,15.2 108.7,11.2 121.8,15.3 134.8,24.5 147.9,12.5 161.0,37.5 174.1,41.2 187.2,45.4 200.3,22.9 213.4,21.9 226.4,13.4 239.5,12.2 252.6,10.3 265.7,14.6 278.8,21.7 291.9,9.2 304.9,28.5 318.0,30.7 331.1,15.0 344.2,34.7 357.3,45.3 370.4,37.0 383.5,39.2 396.5,29.5 409.6,28.8 422.7,41.4 435.8,22.6 448.9,28.4 462.0,30.6 475.1,42.6 488.1,25.6 501.2,11.1 514.3,4.0 527.4,66.0 540.5,35.8 553.6,20.1 566.6,38.3 579.7,33.2 592.8,10.0 605.9,17.2 619.0,41.6 632.1,43.2 645.2,43.2 658.2,25.4 671.3,56.2 684.4,32.6 697.5,20.0 710.6,14.9 723.7,20.1 736.7,49.9 749.8,14.4 762.9,28.4 776.0,50.8" fill="none" stroke="#f85149" stroke-width="1.6" />
+      <circle cx="776.0" cy="50.8" r="2.5" fill="#f85149" />
+      <text x="776.0" y="50.8" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#f85149">25%</text>
+      
+    </svg>
+    </div>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>ファクター日次リターン（自前計算 / ETFベース簡易版）</summary>
+    <div class="fold-body">
+      <table>
+        <thead><tr><th>ファクター</th><th class='num'>自前計算</th><th class='num'>ETFベース簡易版</th></tr></thead>
+        <tbody><tr><td>Momentum</td><td class='num'>+3.092%</td><td class='num'>—</td></tr><tr><td>Volatility</td><td class='num'>+3.416%</td><td class='num'>—</td></tr><tr><td>Beta</td><td class='num'>+4.254%</td><td class='num'>—</td></tr><tr><td>Liquidity</td><td class='num'>+2.102%</td><td class='num'>—</td></tr><tr><td>Value</td><td class='num'>-1.279%</td><td class='num'>-0.486%</td></tr><tr><td>Growth</td><td class='num'>+1.395%</td><td class='num'>+1.713%</td></tr><tr><td>Quality</td><td class='num'>+0.840%</td><td class='num'>—</td></tr><tr><td>Size</td><td class='num'>-0.333%</td><td class='num'>—</td></tr></tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>セクターETFベース簡易版（整合性チェック）</summary>
+    <div class="fold-body">
+        <div class="waterfall-row">
+          <div class="waterfall-name">鉄鋼・非鉄</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:41.9%"></div></div>
+          <div class="waterfall-val">+2.600%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">電機・精密</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:41.2%"></div></div>
+          <div class="waterfall-val">+2.557%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">機械</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:21.2%"></div></div>
+          <div class="waterfall-val">+1.317%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">銀行</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:11.7%"></div></div>
+          <div class="waterfall-val">+0.724%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">素材・化学</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:11.4%"></div></div>
+          <div class="waterfall-val">+0.709%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">情報通信・サービスその他</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:6.2%"></div></div>
+          <div class="waterfall-val">+0.387%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">建設・資材</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:5.2%"></div></div>
+          <div class="waterfall-val">+0.325%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">エネルギー資源</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:9.4%; margin-left:40.6%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.583%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">食品</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:10.2%; margin-left:39.8%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.633%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">金融（除く銀行）</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:11.8%; margin-left:38.2%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.729%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">商社・卸売</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:12.5%; margin-left:37.5%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.777%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">自動車・輸送機</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:12.8%; margin-left:37.2%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.791%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">運輸・物流</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:22.7%; margin-left:27.3%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-1.406%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">電力・ガス</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:27.2%; margin-left:22.8%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-1.684%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">医薬品</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:29.7%; margin-left:20.3%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-1.840%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">小売</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:44.0%; margin-left:6.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-2.726%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">不動産</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:50.0%; margin-left:0.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-3.100%</div>
+        </div></div>
+  </details>
+
+  
+
+  <footer>
+    <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: 日経225構成銘柄数比率（cap-weightではない近似）</div>
+    <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
+    <div>レポート生成時刻(UTC): 2026-10-27T00:42:38+00:00</div>
+  </footer>
+</body>
+</html>

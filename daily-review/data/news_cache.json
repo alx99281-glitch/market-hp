@@ -3904,5 +3904,79 @@
       }
     ],
     "searched_at": "2026-10-26T13:48:46.940456+00:00"
+  },
+  "us:2026-10-26:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/articles/energy-utilities-roundup-market-talk-8c5eb035?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-27T00:41:51.448462+00:00"
+  },
+  "jp:2026-10-27:sector:不動産": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-10-27T00:42:31.918984+00:00"
+  },
+  "jp:2026-10-27:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-10-27T00:42:31.922946+00:00"
+  },
+  "jp:2026-10-27:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-10-27T00:42:32.034567+00:00"
+  },
+  "jp:2026-10-27:sector:小売": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査」「イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ」「イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪」",
+    "sources": [
+      {
+        "title": "NHK 経済: イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197391000.html"
+      },
+      {
+        "title": "NHK 経済: イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197331000.html"
+      },
+      {
+        "title": "NHK 経済: イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪",
+        "url": "http://www3.nhk.or.jp/news/html/20260803/k10015194801000.html"
+      }
+    ],
+    "searched_at": "2026-10-27T00:42:32.046886+00:00"
   }
 }
