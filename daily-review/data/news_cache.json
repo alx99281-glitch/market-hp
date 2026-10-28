@@ -3978,5 +3978,57 @@
       }
     ],
     "searched_at": "2026-10-27T00:42:32.046886+00:00"
+  },
+  "us:2026-10-27:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Honda warns 50% Canada auto tariffs would be catastrophic for industry」「Fed rate hikes are coming, but not this week: CNBC survey」「UK inflation jumps to 3.5% — cementing rate hike expectations」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Honda warns 50% Canada auto tariffs would be catastrophic for industry",
+        "url": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html"
+      },
+      {
+        "title": "CNBC Markets: Fed rate hikes are coming, but not this week: CNBC survey",
+        "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html"
+      },
+      {
+        "title": "CNBC Markets: UK inflation jumps to 3.5% — cementing rate hike expectations",
+        "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+      }
+    ],
+    "searched_at": "2026-10-28T00:40:09.948719+00:00"
+  },
+  "jp:2026-10-28:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-10-28T00:40:50.224931+00:00"
+  },
+  "jp:2026-10-28:sector:食品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「農林水産物 食品の輸出額 上半期2年連続で過去最高に」「【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ」",
+    "sources": [
+      {
+        "title": "NHK 経済: 農林水産物 食品の輸出額 上半期2年連続で過去最高に",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195821000.html"
+      },
+      {
+        "title": "NHK 経済: 【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195571000.html"
+      }
+    ],
+    "searched_at": "2026-10-28T00:40:50.233976+00:00"
+  },
+  "jp:2026-10-28:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「ソフトバンクグループ 17％余の減益 4-6月期決算」",
+    "sources": [
+      {
+        "title": "NHK 経済: ソフトバンクグループ 17％余の減益 4-6月期決算",
+        "url": "http://www3.nhk.or.jp/news/html/20260806/k10015198231000.html"
+      }
+    ],
+    "searched_at": "2026-10-28T00:40:50.242211+00:00"
   }
 }
