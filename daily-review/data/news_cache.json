@@ -4122,5 +4122,47 @@
       }
     ],
     "searched_at": "2026-10-29T01:10:50.731244+00:00"
+  },
+  "us:2026-10-29:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates」「European Central Bank keeps key interest rate on hold at 2.5%」「Bessent says 'not necessarily' a mistake if the Fed hikes again」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+        "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+      },
+      {
+        "title": "CNBC Economy: European Central Bank keeps key interest rate on hold at 2.5%",
+        "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+      },
+      {
+        "title": "CNBC Economy: Bessent says 'not necessarily' a mistake if the Fed hikes again",
+        "url": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html"
+      }
+    ],
+    "searched_at": "2026-10-29T13:53:45.150615+00:00"
+  },
+  "us:2026-10-29:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Intercontinental Exchange Posts Higher Profit, Revenue」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Intercontinental Exchange Posts Higher Profit, Revenue",
+        "url": "https://www.wsj.com/business/earnings/intercontinental-exchange-posts-higher-profit-revenue-7fed5918?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-29T13:53:45.552928+00:00"
+  },
+  "us:2026-10-29:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget」「This German Energy Giant Is an Overlooked AI Bargain」",
+    "sources": [
+      {
+        "title": "CNBC Markets: The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+        "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+      },
+      {
+        "title": "WSJ Markets: This German Energy Giant Is an Overlooked AI Bargain",
+        "url": "https://www.wsj.com/finance/this-german-energy-giant-is-an-overlooked-ai-bargain-c190ee76?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-29T13:53:45.596737+00:00"
   }
 }
