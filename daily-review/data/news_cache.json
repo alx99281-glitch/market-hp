@@ -4282,5 +4282,71 @@
       }
     ],
     "searched_at": "2026-10-30T01:17:26.125532+00:00"
+  },
+  "us:2026-10-30:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013」「European Central Bank keeps key interest rate on hold at 2.5%」「Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates」",
+    "sources": [
+      {
+        "title": "CNBC Economy: BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
+        "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html"
+      },
+      {
+        "title": "CNBC Markets: European Central Bank keeps key interest rate on hold at 2.5%",
+        "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+      },
+      {
+        "title": "CNBC Markets: Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+        "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+      }
+    ],
+    "searched_at": "2026-10-30T13:46:09.841706+00:00"
+  },
+  "us:2026-10-30:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget」「This German Energy Giant Is an Overlooked AI Bargain」",
+    "sources": [
+      {
+        "title": "CNBC Markets: The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+        "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+      },
+      {
+        "title": "WSJ Markets: This German Energy Giant Is an Overlooked AI Bargain",
+        "url": "https://www.wsj.com/finance/this-german-energy-giant-is-an-overlooked-ai-bargain-c190ee76?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-30T13:46:10.176533+00:00"
+  },
+  "us:2026-10-30:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others did not」「Stock Market Today: Amazon, Intel Earnings Add Fuel to Tech Selloff」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others did not",
+        "url": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html"
+      },
+      {
+        "title": "WSJ Markets: Stock Market Today: Amazon, Intel Earnings Add Fuel to Tech Selloff",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2026?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-10-30T13:46:10.186003+00:00"
+  },
+  "us:2026-10-30:sector:Communication Services": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks",
+        "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html"
+      }
+    ],
+    "searched_at": "2026-10-30T13:46:10.194807+00:00"
+  },
+  "us:2026-10-30:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
+        "url": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html"
+      }
+    ],
+    "searched_at": "2026-10-30T13:46:10.203619+00:00"
   }
 }
