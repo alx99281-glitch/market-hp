@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分析の視点 2026-10-31</title><style>
+:root { --bg:#0d1117; --panel:#161b22; --panel2:#21262c; --border:#30363d; --text:#e6edf3;
+  --muted:#8b949e; --accent:#58a6ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --watch:#a371f7; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); line-height:1.65;
+  font-family:-apple-system,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif; }
+.wrap { max-width:1120px; margin:0 auto; padding:24px 20px 56px; }
+.top { display:flex; justify-content:space-between; gap:12px; align-items:center; color:var(--muted); font-size:.8rem; }
+select { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:5px; padding:4px 8px; }
+h1 { font-size:1.5rem; line-height:1.35; margin:10px 0 8px; }
+.lead { color:var(--muted); max-width:820px; margin:0 0 18px; }
+.snap { display:grid; grid-template-columns:repeat(auto-fit,minmax(135px,1fr)); gap:8px; margin-bottom:18px; }
+.snap div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.snap span { display:block; color:var(--muted); font-size:.72rem; }
+.snap b { font-size:1rem; font-variant-numeric:tabular-nums; }
+.filters { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; }
+.filters button { background:var(--panel2); border:1px solid var(--border); color:var(--text);
+  padding:5px 12px; border-radius:5px; cursor:pointer; font-size:.8rem; }
+.filters button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+.grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; align-items:start; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px 18px; min-width:0; }
+.meta { display:flex; justify-content:space-between; gap:8px; font-size:.75rem; color:var(--muted); }
+.badge { font-weight:600; }
+.ok { color:var(--ok); } .warn { color:var(--warn); } .bad { color:var(--bad); } .watch { color:var(--watch); }
+h2 { font-size:1.08rem; line-height:1.4; margin:6px 0 8px; }
+h3 { font-size:.74rem; color:var(--muted); margin:12px 0 2px; font-weight:600; }
+p { margin:0; font-size:.88rem; } ul { margin:0; padding-left:1.1em; font-size:.84rem; } li { margin:2px 0; }
+.post { background:var(--panel2); border-left:3px solid var(--accent); padding:7px 10px; border-radius:0 5px 5px 0; }
+.scroll { overflow-x:auto; margin-top:10px; }
+table { width:100%; border-collapse:collapse; font-size:.8rem; font-variant-numeric:tabular-nums; }
+caption { text-align:left; color:var(--muted); font-size:.74rem; padding-bottom:4px; }
+th,td { padding:4px 8px; border-bottom:1px solid var(--border); text-align:right; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; } th { color:var(--muted); font-weight:500; }
+.note { color:var(--muted); font-size:.74rem; margin-top:4px; }
+.src { margin-top:12px; font-size:.74rem; color:var(--muted); }
+a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.section { font-size:1.15rem; margin:30px 0 10px; }
+.x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+.x p + p { color:var(--muted); font-size:.82rem; }
+.method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+@media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
+</style></head>
+<body><div class="wrap">
+<div class="top"><span>分析の視点 ・ 2026-10-30 NY引けまで</span>
+<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-10-31.html" selected>2026-10-31</option></select></div>
+<h1>来週の主戦場は「AIの需要」ではなく「AIの資金繰り」</h1><p class="lead">10/30は米SOXが-7.2%、ナスダック100が-3.5%、S&amp;P500が-1.8%。一方で米10年金利は-6bpと低下しており、金利起点ではなくAI投資の採算を疑う売りでした。日本株は米国の金曜の下げを月曜に受けることになります。</p>
+<div class="snap"><div><span>SOX</span><b>-7.2%</b></div><div><span>NDX</span><b>-3.5%</b></div><div><span>S&amp;P500</span><b>-1.8%</b></div><div><span>米10年</span><b>4.93% (-6bp)</b></div><div><span>日経平均</span><b>63,290 (-2.1%)</b></div><div><span>日経 20日高値比</span><b>-10.5%</b></div></div>
+<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="日米波及">日米波及</button><button data-t="金利">金利</button><button data-t="ディスパージョン">ディスパージョン</button><button data-t="出来高">出来高</button><button data-t="時間帯">時間帯</button><button data-t="ハイパースケーラー">ハイパースケーラー</button><button data-t="メモリ">メモリ</button><button data-t="需給・日銀">需給・日銀</button></div>
+<div class="grid"><article class="card" data-t="日米波及">
+<div class="meta"><span>日米波及</span><span class="badge ok">検証: 支持</span></div>
+<h2>月曜の東京は、SOX -7.2%をどこまで織り込むか</h2>
+<p>金曜の東京は米国の下げの前に引けている。Intel・Amazonの時間外には反応したが、SOX -7.2%の本番は月曜に来る。</p>
+<h3>データ</h3><ul><li>過去3年でSOXが-5%以下の翌営業日: 22回、日経平均は平均-2.34%、上昇は18%のみ、最悪-12.4%</li><li>SOX -3%以下まで広げると74回で平均-1.47%、上昇22%</li><li>直近120日の回帰では、SOX感応度0.21、米10年10bp低下で+0.44%。これを当てはめると日経は約-1.3%（決定係数0.18で説明力は低い）</li></ul>
+
+<h3>日本株への含意</h3><p>下げの主役は引き続き値がさ半導体。感応度はイビデン0.86、キオクシア0.60、アドバンテスト0.55、東エレク0.50で、TOPIX ETFは0.10。NT倍率の低下が読みやすい場面です。</p>
+<h3>見方を変える条件</h3><p>CME日経先物が金曜の東京の終値を大きく割らずに週末を終えていれば、金曜の下げで先取り済みと判断します。</p>
+<h3>発信用の一言</h3><p class="post">SOX-5%超の翌日、日経が上がったのは過去22回で18%だけ。月曜は指数より、NTと半導体の値幅を見る日。</p>
+<div class="src">ネタ元: <a href="https://www.morningstar.com/markets/tech-stocks-sell-off-amazon-intel-earnings-spook-investors" target="_blank" rel="noopener noreferrer">Morningstar: Intel・Amazon決算でハイテク売り</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: 10/30の米国市場</a> / <a href="https://nikkei.com/article/DGXZQOFL29CHL0Z21C26A0000000" target="_blank" rel="noopener noreferrer">日経: 東証前引け、AI過剰投資の懸念で半導体売り</a></div>
+</article><article class="card" data-t="金利">
+<div class="meta"><span>金利</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>いま日本株を動かすのは米金利より半導体</h2>
+<p>「金利上昇で株安」は単純には成立していない。株と金利の関係が弱まっており、AI固有の材料のほうが効いている。</p>
+<h3>データ</h3><ul><li>S&amp;P500と米10年金利変化の相関: 直近60日-0.05、250日-0.25</li><li>10/30は金利低下と株安が同時に発生（-6bp、S&amp;P-1.8%）</li><li>米10年10bp上昇に対する翌日の感応度(120日): 日経-0.44%、ソフトバンクG-1.04%、トヨタ-0.77%、三菱UFJ+0.47%。ただし決定係数は0.05〜0.18</li></ul>
+
+<h3>日本株への含意</h3><p>金利の方向は指数より銀行対グロースの相対で使うのが素直です。三菱UFJとソフトバンクGで符号が逆になります。</p>
+<h3>見方を変える条件</h3><p>60日相関が-0.3より深く戻れば、金利主導の相場への回帰と判断します。</p>
+<h3>発信用の一言</h3><p class="post">金利が下がったのに株が売られた。今の下げは割引率ではなく、AI投資の回収を疑う売り。</p>
+<div class="src">ネタ元: <a href="https://www.businesstoday.com.my/2026/10/08/wall-street-ends-lower-with-30-year-treasury-yield-at-24-year-high/" target="_blank" rel="noopener noreferrer">Reuters経由: 米長期金利24年ぶり高水準（10月初）</a></div>
+</article><article class="card" data-t="ディスパージョン">
+<div class="meta"><span>ディスパージョン</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>セクター格差が大きいと相場は下がるのか</h2>
+<p>格差の拡大そのものは下落を予告しない。効くのは「指数が高値圏のまま格差だけ開いた」組み合わせで、平均リターンより下振れ確率に表れる。</p>
+<h3>データ</h3><ul><li>米9セクターETFの20日リターン格差は7.18%、過去5年の96パーセンタイル。XLE+11.5%、XLV+11.2%に対しXLK-10.2%</li><li>1999年以降の最上位5分位: 20日後平均+0.89%で全期間+0.77%と差なし。ただし-5%以上の下落に遭う確率は28%で全期間18%、最下位5分位9%</li><li>高値から3%以内かつ最上位5分位（現在該当、421日）: 20日後平均-0.08%、上昇53%（全期間64%）、-5%下落確率22%</li></ul>
+
+<h3>日本株への含意</h3><p>「そろそろ下がる」と言い切るには弱く、ヘッジを厚くする理由としては使えます。指数の方向より、プットやポジション縮小の議論向きです。</p>
+<h3>見方を変える条件</h3><p>ローテーション先のヘルスケア・生活必需品が下がり始め、指数が崩れないまま格差が縮めば警戒解除です。</p>
+<h3>発信用の一言</h3><p class="post">格差拡大は下落サインではなく、裾が厚くなるサイン。平均は変わらないが、-5%に遭う確率は1.5倍。</p>
+<div class="src">ネタ元: <a href="https://fxstreet.com/analysis/warning-signs-in-the-stock-market-is-this-the-top-or-just-a-very-short-fuse-202607281504" target="_blank" rel="noopener noreferrer">FXStreet: 相関と分散指数の分析（7月）</a> / <a href="https://www.nationwide.com/financial-professionals/blog/markets-economy/articles/market-dispersion-is-back-why-stock-selection-matters-more-now" target="_blank" rel="noopener noreferrer">Nationwide: 分散の拡大（4月）</a></div>
+</article><article class="card" data-t="出来高">
+<div class="meta"><span>出来高</span><span class="badge bad">検証: 反証</span></div>
+<h2>出来高から見て底は入ったのか</h2>
+<p>現時点で「投げ」は確認できない。また、出来高クライマックス単独の底打ちサインとしての有効性も弱い。</p>
+<h3>データ</h3><ul><li>定義: 20日高値比-5%以下、当日-1.5%以下、出来高が50日平均の1.5倍以上</li><li>10/30の出来高倍率は日経1.08倍、S&amp;P0.84倍で未達。日経は20日高値比-10.5%まで下げたのに出来高が伴っていない</li><li>2005年以降の日経26回: 20日後+1.17%（全期間+0.84%）、上昇50%（同59%）。翌5日は-0.31%</li><li>S&amp;Pは12回で20日後+1.00%（同+0.79%）。高値上抜けで確認した8回はむしろ-6.16%（回数が少なく参考程度）</li></ul>
+
+<h3>日本株への含意</h3><p>底打ちを語るなら、出来高単独ではなく信用買い残の減少とセットで見るべきです。キオクシアの信用倍率は10/19時点で25倍と報告されており、整理途上です。</p>
+<h3>見方を変える条件</h3><p>月曜に倍率1.5倍超の陰線が出れば定義上のシグナル点灯。それでも単独では買い根拠にしません。</p>
+<h3>発信用の一言</h3><p class="post">日経は20日高値から1割下げたが出来高は平常並み。まだ投げは出ていない。</p>
+<div class="src">ネタ元: <a href="https://x.com/irbank/status/2112768487458537551" target="_blank" rel="noopener noreferrer">IRBANK: キオクシア信用需給（X投稿）</a></div>
+</article><article class="card" data-t="時間帯">
+<div class="meta"><span>時間帯</span><span class="badge bad">検証: 反証</span></div>
+<h2>「日本株は午前のほうが強い」は本当か</h2>
+<p>直近データでは逆。前場は弱く、昼休みから後場にかけて戻している。3年で見ても、日本株の上昇はほぼ寄り付きのギャップで生まれている。</p>
+<h3>データ</h3><ul><li>寄り〜前引け(TOPIX ETF): 直近20日-25.7bp/日(t=-2.0)、60日-6.4bp、120日-3.9bp</li><li>昼休み＋後場(同): 直近20日+11.2bp/日、60日+10.8bp、120日+3.2bp</li><li>2023年11月以降の日経ETF: ギャップ+9.6bp/日に対し、前場+0.5bp、後場+0.7bp（有意差なし）</li><li>下方ギャップ(-0.5%以下)後の前場は上昇56%（日経ETF、176回）と全体より高いが、有意ではない(t=0.71)</li></ul>
+
+<h3>日本株への含意</h3><p>「午前が強い」と感じる場合は、ギャップ込みで見ている可能性があります。執行面では、足元は寄り付きで急がず後場まで待つ方が有利でしたが、20日のサンプルは短く、10月の下落局面の影響が大きい点に注意が必要です。</p>
+<h3>見方を変える条件</h3><p>60日平均で前場がプラス、後場がマイナスに反転すれば見直します。</p>
+<h3>発信用の一言</h3><p class="post">足元の日本株は前場に売られ、後場に戻す。上昇の大半は取引時間外に生まれている。</p>
+<div class="src">ネタ元: <a href="https://finance.yahoo.com/quote/1306.T/" target="_blank" rel="noopener noreferrer">Yahoo Finance 60分足（1306.T / 1321.T）から自前集計</a></div>
+</article><article class="card" data-t="ハイパースケーラー">
+<div class="meta"><span>ハイパースケーラー</span><span class="badge ok">検証: 支持</span></div>
+<h2>評価軸はクラウド成長からFCFへ移った</h2>
+<p>AWSが39%伸びてもAmazonは売られた。需要は疑われておらず、問われているのは投資を自己資金で賄えるかどうか。</p>
+<h3>データ</h3><ul><li>Amazon: 7-9月期capex 773億ドル（予想587億ドル）、TTM FCF -424億ドル、AWS +39%（報道）</li><li>Alphabet: 四半期FCF -91億ドル、2027年capexは大幅増の方針（報道）</li><li>Microsoft: 通期capex見通しを1,750→1,700億ドルに引き下げ。GPU供給遅延で2027年前半へずれ込む（CNBC）</li><li>Meta: 950億ドルの株式調達計画（報道）。買い手が外部資金に頼り始めている</li></ul>
+<div class="scroll"><table><caption>capex負担（直近4四半期、Yahoo Finance集計）</caption><thead><tr><th>銘柄</th><th>capex $bn</th><th>対売上</th><th>対営業CF</th><th>FCF $bn</th><th>予想PER</th></tr></thead><tbody><tr><td>ORCL</td><td>75.7</td><td>105%</td><td>161%</td><td>-28.7</td><td>11.8</td></tr><tr><td>GOOGL</td><td>159.8</td><td>34%</td><td>89%</td><td>19.7</td><td>18.5</td></tr><tr><td>META</td><td>104.4</td><td>43%</td><td>78%</td><td>28.6</td><td>17.3</td></tr><tr><td>MSFT</td><td>135.9</td><td>39%</td><td>69%</td><td>60.0</td><td>21.6</td></tr></tbody></table></div><div class="note">AMZNはYahooの財務データが2026年3月期で止まっているため除外し、上の報道値を参照。</div>
+<h3>日本株への含意</h3><p>ハイパースケーラーのcapexはアドバンテスト、イビデン、フジクラなどの売上です。「capex増額＝サプライヤー買い」の連想は、買い手のFCF悪化が材料視されるほど効きにくくなります。Microsoftの延期は需要減ではなく納期の問題で、区別が必要です。</p>
+<h3>見方を変える条件</h3><p>12月〜1月の決算で営業CFの伸びがcapexの伸びに追いつく、または2027年capex計画が社債市場に無難に消化されれば、懸念は後退します。</p>
+<h3>発信用の一言</h3><p class="post">AIの需要ではなく、資金繰りが売られている。AWS+39%でも株が下がる局面に入った。</p>
+<div class="src">ネタ元: <a href="https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html" target="_blank" rel="noopener noreferrer">CNBC: GoogleとMicrosoftがcapex上方修正を見送り</a> / <a href="https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html" target="_blank" rel="noopener noreferrer">CNBC: レガシー事業がAI投資を支える構図</a> / <a href="https://pomegra.io/news/amazon-q3-2026-capex-hits-773b-shares-slide-7" target="_blank" rel="noopener noreferrer">Pomegra: Amazon Q3 capex 773億ドル</a> / <a href="https://mlq.ai/news/microsofts-ai-capex-falls-below-target-as-alphabet-keeps-spending-plan-intact/" target="_blank" rel="noopener noreferrer">mlq.ai: Microsoft・Alphabetのcapex</a></div>
+</article><article class="card" data-t="メモリ">
+<div class="meta"><span>メモリ</span><span class="badge watch">検証: 要観察</span></div>
+<h2>PER4倍のメモリ株は安いのか</h2>
+<p>予想PER4倍台は割安というより、市場が「今の利益はピーク」と見ている数字。シクリカルの低PERは、むしろ天井圏で出やすい。</p>
+<h3>データ</h3><ul><li>予想PER: Micron 4.3倍、SanDisk 4.2倍。一方PBRは7.2倍、10.9倍</li><li>営業利益率: Micron 81%、SanDisk 78%、キオクシア72%。SK hynixは7-9月期に80%（過去最高）</li><li>高値比: Micron-27%、SanDisk-51%、キオクシア-63%（高値は6/22、分割調整後）。好決算でも下げている</li><li>新しい論点: IntelはPC需要の鈍化を指摘。メモリ高がPC需要を削る「需要破壊」が決算に表れ始めた可能性</li></ul>
+
+<h3>日本株への含意</h3><p>キオクシアと米メモリ株の翌日連動は相関0.35、ベータ0.37（直近120日）と意外に弱く、東京固有の信用需給が値動きを支配している可能性があります。評価はPERよりPBRと営業利益率の平準化を前提に行うべきです。</p>
+<h3>見方を変える条件</h3><p>SK hynixによると2027-28年の生産能力の5割超を長期契約で確保。これが価格の下支えとして機能し、契約価格の上昇が続くならピーク論は早計です。</p>
+<h3>発信用の一言</h3><p class="post">利益率80%のメモリ株のPER4倍は「安い」ではなく「ピーク認定」。見るべきは次の契約価格の上昇率。</p>
+<div class="src">ネタ元: <a href="https://www.stocktitan.net/news/SKHY/sk-hynix-announces-3q26-financial-fcr2bh8ikc0x.html" target="_blank" rel="noopener noreferrer">SK hynix 3Q26発表</a> / <a href="https://investinglive.com/stocks/sk-hynix-q3-operating-profit-beats-at-83tn-won-unveils-100tn-won-shareholder-payout-plan/" target="_blank" rel="noopener noreferrer">investingLive: SK hynix Q3</a> / <a href="https://www.morningstar.com/markets/tech-stocks-sell-off-amazon-intel-earnings-spook-investors" target="_blank" rel="noopener noreferrer">Morningstar: Intelの弱さとメモリ高</a></div>
+</article><article class="card" data-t="需給・日銀">
+<div class="meta"><span>需給・日銀</span><span class="badge watch">検証: 要観察</span></div>
+<h2>日銀のタカ派据え置きとETF売却増額をどう読むか</h2>
+<p>据え置きでも中身はタカ派。ただしETF売却の増額は、需給面ではヘッドラインほど大きくない。</p>
+<h3>データ</h3><ul><li>政策金利1.25%で据え置き（8対1）。基調インフレが2%に到達と評価し、12月利上げの見方が強まった（Reuters・Bloomberg）</li><li>ETF売却ペースを1月から年3,300億円→8,600億円に増額。約245営業日で割ると1日およそ35億円</li><li>海外投資家の現物は10月第1週+1兆4,318億円、第2週-3,654億円、第3週+244億円。第3週は日経-4.02%でも海外勢は売り越していない</li></ul>
+
+<h3>日本株への含意</h3><p>海外勢が売っていない週に指数が4%下げた点は、下げの主因が信用や先物など別の主体にある可能性を示します。次回公表の主体別動向で、海外勢が売りに転じたかが重要です。</p>
+<h3>見方を変える条件</h3><p>12月会合前に円高が急進し、銀行株まで売られるなら、利上げ期待が株全体の重荷に変わったサインです。</p>
+<h3>発信用の一言</h3><p class="post">ETF売却1日35億円は需給の主役ではない。主役は12月利上げと、海外勢が売りに回るかどうか。</p>
+<div class="src">ネタ元: <a href="https://finance.yahoo.com/economy/policy/articles/bank-japan-hold-rates-signal-210126915.html" target="_blank" rel="noopener noreferrer">Yahoo Finance(Reuters): 日銀、物価目標到達を宣言</a> / <a href="https://www.bloomberg.com/news/articles/2026-10-30/boj-holds-benchmark-rate-steady-as-expected-after-september-hike" target="_blank" rel="noopener noreferrer">Bloomberg: 日銀据え置き</a> / <a href="https://www.nikkei.com/article/DGXZQOFL293L9TZ21C26A0000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第3週</a> / <a href="https://www.nikkei.com/article/DGXZQOFL225UNTS6A021C2000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第2週</a> / <a href="https://www.nikkei.com/article/DGXZQOFL166I7TW6A011C2000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第1週</a></div>
+</article></div>
+<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/wallstengine/status/2092946562905424159" target="_blank" rel="noopener noreferrer">S&amp;Pがハイパースケーラーの営業FCFを2026〜27年とも赤字と見込むとの投稿</a>（原典未確認）</p><p>原文のS&amp;Pレポートを確認できれば、FCF論の強い材料になる。</p></div><div class="x"><p><a href="https://x.com/puckrin/status/2116096171387072740" target="_blank" rel="noopener noreferrer">Intel急落は「AIがメモリを吸い上げ、PC需要を壊した」結果という見方</a>（個人の見解）</p><p>AI勝ち組の裏の負け組を探す視点。スマホ・PC関連の日本部品株に応用できる。</p></div><div class="x"><p><a href="https://x.com/jimcramer/status/2116107768675610636" target="_blank" rel="noopener noreferrer">Cramer氏: 材料のないJNJやCOFが上がる値動きを、機械的な資金移動の表れと指摘</a>（個人の見解）</p><p>ディスパージョンの裏で何が買われたかを確認するきっかけになる。</p></div><div class="x"><p><a href="https://x.com/MarketWatch/status/2116215489814741129" target="_blank" rel="noopener noreferrer">MarketWatch: Intel急落でも押し目買いの理由はないとのアナリスト評</a>（報道）</p><p>「売られすぎ」の声が少ない銘柄は、まだ投げが出ていない可能性がある。</p></div><div class="x"><p><a href="https://x.com/MarioNawfal/status/2116251858289463300" target="_blank" rel="noopener noreferrer">PIMCOがAI関連債券を半減させたことが売りの引き金になったという主張</a>（裏付けなし）</p><p>事実なら重要だが、裏付けは見つかっていない。発信には使わず、クレジット市場の確認に留める。</p></div><div class="x"><p><a href="https://x.com/nicosokufx/status/2115716909996056612" target="_blank" rel="noopener noreferrer">TOPIXリバランスで推計需要と逆方向に動いたという投稿</a>（個人の見解）</p><p>イベント需給は先回りが混雑すると逆に動く。次回の指数イベントで検証できるテーマ。</p></div>
+<p class="method">定量値はYahoo Financeのデータから自前で算出（insights/src/compute_signals.py）。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
+</div><script>
+document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.querySelectorAll('.card').forEach(c => {
+    c.style.display = (b.dataset.t === 'all' || c.dataset.t === b.dataset.t) ? '' : 'none';
+  });
+});
+</script></body></html>

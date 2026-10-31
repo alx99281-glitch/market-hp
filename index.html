@@ -19,7 +19,7 @@
     padding: 14px 20px 0; border-bottom: 1px solid var(--border); flex-shrink: 0;
   }
   h1 { font-size: 1.2rem; margin: 0 0 12px; }
-  .tabs { display: flex; gap: 4px; }
+  .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
   .tab-btn {
     background: transparent; border: 1px solid var(--border); border-bottom: none;
     color: var(--muted); padding: 10px 20px; border-radius: 8px 8px 0 0; cursor: pointer;
@@ -47,6 +47,7 @@
       <button class="tab-btn active" id="tab-daily" onclick="switchTab('daily')">📰 日次市場サマリー</button>
       <button class="tab-btn" id="tab-chart" onclick="switchTab('chart')">📈 マーケットチャート</button>
       <button class="tab-btn" id="tab-board" onclick="switchTab('board')">🏛️ 審議委員まとめ</button>
+      <button class="tab-btn" id="tab-insights" onclick="switchTab('insights')">💡 分析の視点</button>
     </div>
   </header>
 
@@ -65,6 +66,7 @@
 const PAGES = {
   chart: 'charts/output/index.html',
   board: 'boards/output/index.html',
+  insights: 'insights/output/index.html',
   'us-daily': 'daily-review/reports/us/latest.html',
   'jp-daily': 'daily-review/reports/jp/latest.html',
   'us-structure': 'daily-review/reports/structure/us/index.html',
@@ -84,6 +86,8 @@ function switchTab(tab) {
     document.getElementById('content').src = PAGES.chart;
   } else if (tab === 'board') {
     document.getElementById('content').src = PAGES.board;
+  } else if (tab === 'insights') {
+    document.getElementById('content').src = PAGES.insights;
   } else if (tab === 'daily') {
     loadDaily('us-daily');
   }
