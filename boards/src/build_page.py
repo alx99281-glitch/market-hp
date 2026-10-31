@@ -15,6 +15,9 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "output"
+HISTORY_PATH = DATA_DIR / "score_history.json"
+
+BOARDS = {"frb": "FRB (FOMC投票メンバー)", "boj": "日本銀行 政策委員会"}
 
 AVATAR_COLORS = ["#1f6feb", "#8957e5", "#db6d28", "#2ea043", "#cf222e", "#0969da", "#bf3989"]
 
@@ -34,6 +37,59 @@ def score_color(score: int) -> str:
 
 def score_label(score: int) -> str:
     return "タカ派" if score > 1 else ("ハト派" if score < -1 else "中立")
+
+
+def position(score: int) -> str:
+    return f"{score_label(score)} ({score:+d})"
+
+
+def sync_history(data: dict) -> dict | None:
+    """今回のスコアを履歴に記録し、前回分（今回より前の直近の記録）を返す。"""
+    history = json.loads(HISTORY_PATH.read_text(encoding="utf-8")) if HISTORY_PATH.exists() else []
+    entry = {"date": data["updated_at"]}
+    for board in BOARDS:
+        entry[board] = {m["name_en"]: m["score"] for m in data[board]}
+    past = [h for h in history if h["date"] < entry["date"]]
+    later = [h for h in history if h["date"] > entry["date"]]
+    HISTORY_PATH.write_text(
+        json.dumps(past + [entry] + later, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return past[-1] if past else None
+
+
+def attach_previous(members: list[dict], prev: dict | None) -> None:
+    for m in members:
+        m["prev_score"] = prev.get(m["name_en"]) if prev else None
+
+
+def changes_panel(members: list[dict], prev: dict | None, prev_date: str | None) -> str:
+    """前回からスコアが動いた委員、新任、退任を表にする。"""
+    if prev is None:
+        return '<div class="changes"><p>前回比は次回の更新から表示します。</p></div>'
+    current = {m["name_en"] for m in members}
+    rows = []
+    for m in sorted(members, key=lambda m: -m["score"]):
+        before = m["prev_score"]
+        note = html.escape(m.get("change_note", ""))
+        if before is None:
+            rows.append(f'<tr><td>{html.escape(m["name_ja"])}</td><td>新任 → {position(m["score"])}</td><td>{note}</td></tr>')
+        elif before != m["score"]:
+            cls = "hawk" if m["score"] > before else "dove"
+            word = "タカ派寄り" if m["score"] > before else "ハト派寄り"
+            rows.append(
+                f'<tr><td>{html.escape(m["name_ja"])}</td>'
+                f'<td class="{cls}">{position(before)} → {position(m["score"])} ・ {word}</td><td>{note}</td></tr>'
+            )
+    for name, before in prev.items():
+        if name not in current:
+            rows.append(f"<tr><td>{html.escape(name)}</td><td>{position(before)} → 退任</td><td></td></tr>")
+    if not rows:
+        return f'<div class="changes"><p>前回({html.escape(prev_date)})からの変更はありません。</p></div>'
+    return (
+        f'<div class="changes"><p>前回({html.escape(prev_date)})からの変更</p><div class="scroll"><table>'
+        f'<thead><tr><th>氏名</th><th>立ち位置</th><th>理由</th></tr></thead><tbody>{"".join(rows)}</tbody>'
+        "</table></div></div>"
+    )
 
 
 def spectrum_svg(members: list[dict], width: int = 980) -> str:
@@ -72,6 +128,11 @@ def spectrum_svg(members: list[dict], width: int = 980) -> str:
         color = score_color(score)
         anchor = "start" if x < width / 2 else "end"
         dx = 9 if anchor == "start" else -9
+        before = m.get("prev_score")
+        if before is not None and before != score:
+            px = x_for(before)
+            parts.append(f'<line x1="{px:.1f}" y1="{y:.1f}" x2="{x:.1f}" y2="{y:.1f}" stroke="{color}" stroke-width="1.5" stroke-dasharray="3 3"/>')
+            parts.append(f'<circle cx="{px:.1f}" cy="{y:.1f}" r="4" fill="#0d1117" stroke="{color}" stroke-width="1.5"/>')
         parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4.5" fill="{color}" stroke="#0d1117" stroke-width="1"/>')
         parts.append(
             f'<text x="{x + dx:.1f}" y="{y + 4:.1f}" fill="#e6edf3" font-size="11.5" '
@@ -94,6 +155,10 @@ def member_card(m: dict) -> str:
         avatar_html = f'<div class="avatar" style="background:{color}">{ini}</div>'
 
     sc = m["score"]
+    before = m.get("prev_score")
+    shift = ""
+    if before is not None and before != sc:
+        shift = f'<div class="shift {"hawk" if sc > before else "dove"}">前回 {position(before)} → 今回 {position(sc)}</div>'
     return f"""
     <div class="card">
       {avatar_html}
@@ -102,6 +167,7 @@ def member_card(m: dict) -> str:
         <div class="name-en">{html.escape(m['name_en'])}</div>
         <div class="role">{html.escape(m['role'])} <span class="since">{html.escape(m['since'])}</span></div>
         <span class="score-badge" style="color:{score_color(sc)};border-color:{score_color(sc)}">{score_label(sc)} ({sc:+d})</span>
+        {shift}
         <div class="bio">{html.escape(m['bio'])}</div>
         <div class="rationale">{html.escape(m['rationale'])}</div>
         <a class="bio-link" href="{html.escape(m['bio_url'])}" target="_blank" rel="noopener">公式略歴 →</a>
@@ -109,12 +175,14 @@ def member_card(m: dict) -> str:
     </div>"""
 
 
-def section(title: str, members: list[dict]) -> str:
+def section(title: str, members: list[dict], prev: dict | None, prev_date: str | None) -> str:
+    attach_previous(members, prev)
     ordered = sorted(members, key=lambda m: -m["score"])
     cards = "".join(member_card(m) for m in ordered)
     return f"""
   <section>
     <h2>{html.escape(title)}</h2>
+    {changes_panel(members, prev, prev_date)}
     <div class="spectrum-wrap">{spectrum_svg(members)}</div>
     <div class="grid">{cards}</div>
   </section>"""
@@ -145,10 +213,24 @@ def build_html() -> str:
     .bio { font-size:0.72rem; color:var(--text); opacity:0.85; line-height:1.45; margin-bottom:4px; }
     .rationale { font-size:0.68rem; color:var(--muted); line-height:1.45; margin-bottom:5px; }
     .bio-link { font-size:0.7rem; color:var(--accent); text-decoration:none; }
+    .changes { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:12px; font-size:0.8rem; }
+    .changes p { margin:0; color:var(--muted); }
+    .scroll { overflow-x:auto; margin-top:6px; }
+    .changes table { width:100%; border-collapse:collapse; }
+    .changes th, .changes td { padding:4px 8px; border-bottom:1px solid var(--border); text-align:left; }
+    .changes th { color:var(--muted); font-weight:500; white-space:nowrap; }
+    .changes td:first-child, .changes td:nth-child(2) { white-space:nowrap; }
+    .hawk { color:#f85149; } .dove { color:#58a6ff; }
+    .shift { font-size:0.7rem; font-weight:600; margin-bottom:6px; }
     footer { margin-top:32px; padding-top:14px; border-top:1px solid var(--border); color:var(--muted); font-size:0.78rem; }
     """
 
-    body = section("FRB (FOMC投票メンバー)", data["frb"]) + section("日本銀行 政策委員会", data["boj"])
+    prev = sync_history(data)
+    prev_date = prev["date"] if prev else None
+    body = "".join(
+        section(title, data[board], prev[board] if prev else None, prev_date)
+        for board, title in BOARDS.items()
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="ja">

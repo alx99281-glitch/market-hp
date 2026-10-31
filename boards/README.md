@@ -10,6 +10,15 @@ cd src
 python build_page.py   # -> output/index.html
 ```
 
+## 前回比
+
+`build_page.py` は `updated_at` ごとのスコアを `data/score_history.json` に記録し、
+今回より前の直近の記録と比べて変更点を表示する。スコアを変えるときは
+`members.json` の `updated_at` を更新し、該当委員に `change_note`（理由）を入れる。
+前回分の `change_note` は次の更新で消す。
+
+毎月1日と15日の 09:00 SGT にクラウド定期実行で見直す。
+
 ## 実装メモ・制約
 
 - メンバー構成は2026年9月時点で確認済み（Web検索で裏付け）。

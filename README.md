@@ -1,4 +1,4 @@
-# マーケット分析ダッシュボード
+# Market Analysis Dashboard
 
 4タブ構成のHP。`index.html` がタブ切り替え式のトップページ（iframeで各サブサイトを表示）。
 
