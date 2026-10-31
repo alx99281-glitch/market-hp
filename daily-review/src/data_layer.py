@@ -1,7 +1,9 @@
 """データ層（SPEC_1.md フェーズ1）。
 
 - 価格データはローカルに parquet で永続化する（ロング形式: date, ticker, ...）。
-- 初回のみ過去N年分を一括取得。以降は毎日引け後に「当日分1行」を差分追記する。
+- 初回のみ過去N年分を一括取得。以降は毎回、直近数営業日を再取得して上書きする
+  （取引時間中の値が確定値として残らないようにするため）。
+- セッション未終了の当日バーは保存しない（cron遅延でザラ場中に走った場合の対策）。
 - yf.download はチャンク単位のバッチリクエスト（銘柄ごとにループしない）。
   チャンク間に数秒のスリープ、失敗時は指数バックオフでリトライする。
 - 第2ソースとして Stooq を用意し、yfinance が失敗した銘柄のみフォールバックする。
@@ -14,7 +16,8 @@ from __future__ import annotations
 
 import time
 import warnings
-from datetime import date, datetime, timedelta
+from dataclasses import dataclass
+from datetime import date, datetime, time as dt_time, timedelta
 
 import numpy as np
 import pandas as pd
@@ -25,6 +28,8 @@ from config import (
     DATA_DIR,
     INITIAL_HISTORY_YEARS,
     PRICE_STORE,
+    REFRESH_LOOKBACK_DAYS,
+    SESSION_SETTLE_MINUTES,
     YF_BACKOFF_BASE_SEC,
     YF_CHUNK_SIZE,
     YF_MAX_RETRIES,
@@ -34,6 +39,22 @@ from config import (
 warnings.filterwarnings("ignore")
 
 OHLCV_COLS = ["open", "high", "low", "close", "adj_close", "volume"]
+
+
+@dataclass(frozen=True)
+class MarketSession:
+    """取引所のローカル時間帯と大引け時刻。当日バーの確定判定に使う。"""
+
+    tz: str
+    close: dt_time
+
+    def unsettled_date(self) -> pd.Timestamp | None:
+        """現在セッション未終了で、バーを保存してはいけない日付（なければNone）。"""
+        now = pd.Timestamp.now(tz=self.tz)
+        settled_at = now.normalize() + pd.Timedelta(
+            hours=self.close.hour, minutes=self.close.minute + SESSION_SETTLE_MINUTES
+        )
+        return now.tz_localize(None).normalize() if now < settled_at else None
 
 
 def _chunk(lst: list[str], size: int) -> list[list[str]]:
@@ -135,8 +156,10 @@ def _stooq_fallback(ticker: str, start: date, end: date) -> pd.DataFrame:
 class MarketDataStore:
     """ロング形式parquetでの価格データ永続化ストア。"""
 
-    def __init__(self, path=PRICE_STORE):
+    def __init__(self, path=PRICE_STORE, session: MarketSession | None = None):
         self.path = path
+        # None は24時間取引に近いマクロ系列用（当日バーも保存し、再取得で上書きする）
+        self.session = session
         DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     def load(self) -> pd.DataFrame:
@@ -145,7 +168,8 @@ class MarketDataStore:
         return pd.DataFrame(columns=["date", "ticker"] + OHLCV_COLS)
 
     def save(self, df: pd.DataFrame) -> None:
-        df = df.sort_values(["ticker", "date"]).drop_duplicates(["ticker", "date"], keep="last")
+        # 再取得分が勝つよう、並べ替えの前に重複を除去する（sort_valuesは安定ソートではない）
+        df = df.drop_duplicates(["ticker", "date"], keep="last").sort_values(["ticker", "date"])
         df.to_parquet(self.path, index=False)
 
     def last_date_per_ticker(self) -> dict[str, pd.Timestamp]:
@@ -153,6 +177,15 @@ class MarketDataStore:
         if df.empty:
             return {}
         return df.groupby("ticker")["date"].max().to_dict()
+
+    def _drop_unsettled(self, df: pd.DataFrame) -> pd.DataFrame:
+        """終値のない行と、セッション未終了の当日バーを取り除く。"""
+        df = df.dropna(subset=["close"])
+        unsettled = self.session.unsettled_date() if self.session else None
+        if unsettled is not None and (df["date"] == unsettled).any():
+            print(f"  {unsettled.date()} はセッション未終了のため保存しません。")
+            df = df[df["date"] != unsettled]
+        return df
 
     def stored_tickers(self) -> set[str]:
         df = self.load()
@@ -195,6 +228,7 @@ class MarketDataStore:
             print("  [error] 一括取得に失敗しました（データなし）。")
             return
 
+        new_data = self._drop_unsettled(new_data)
         combined = pd.concat([self.load(), new_data], ignore_index=True)
         self.save(combined)
         got = set(new_data["ticker"].unique())
@@ -202,53 +236,59 @@ class MarketDataStore:
         print(f"初回一括取得完了: {len(got)}銘柄取得。未取得: {len(still_missing)}銘柄 {sorted(still_missing)[:20]}")
 
     def daily_update(self, tickers: list[str]) -> pd.DataFrame:
-        """当日分を差分取得して追記する（既存データの再ダウンロードはしない）。
+        """差分追記に加え、直近REFRESH_LOOKBACK_DAYS日分を再取得して上書きする。
 
-        戻り値: 今回新規に追加された行（当日サマリー計算にそのまま使える）。
+        戻り値: 今回新規に追加された行（上書きされた既存行は含まない）。
         """
         last_dates = self.last_date_per_ticker()
         today = date.today()
 
         # 銘柄ごとに開始日が異なりうるが、yfinanceバッチのため
-        # 「最も古い最終取得日」を基準にまとめて取得し、後で銘柄別に
-        # 既存日付との重複を除去する（差分追記の実質を保つ）。
+        # 「最も古い最終取得日」と再取得窓の早い方を基準にまとめて取得し、
+        # 後で銘柄別に保存対象の行だけを残す。
         never_fetched = [t for t in tickers if t not in last_dates]
         already_fetched = [t for t in tickers if t in last_dates]
 
-        new_rows_frames = []
+        fetched_frames = []
 
         if never_fetched:
             print(f"  {len(never_fetched)}銘柄は未取得のため初回一括取得を実行します。")
             self.initial_bulk_fetch(never_fetched)
 
         if already_fetched:
+            refresh_start = today - timedelta(days=REFRESH_LOOKBACK_DAYS)
             oldest_last_date = min(last_dates[t] for t in already_fetched)
-            start = (oldest_last_date + timedelta(days=1)).date()
+            start = min((oldest_last_date + timedelta(days=1)).date(), refresh_start)
             end = today + timedelta(days=1)
-            if start > today:
-                print("  差分取得: 全銘柄が最新です（追加取得なし）。")
-            else:
-                chunks = _chunk(already_fetched, YF_CHUNK_SIZE)
-                for i, chunk in enumerate(chunks, 1):
-                    long_df = _download_chunk_with_retry(chunk, start, end, max_retries=2)
-                    if not long_df.empty:
-                        # 銘柄ごとの既存最終日より後の行だけ残す
-                        long_df = long_df[
-                            long_df.apply(lambda r: r["date"] > last_dates[r["ticker"]], axis=1)
-                        ]
-                        new_rows_frames.append(long_df)
-                    if i < len(chunks):
-                        time.sleep(YF_SLEEP_SEC)
+            chunks = _chunk(already_fetched, YF_CHUNK_SIZE)
+            for i, chunk in enumerate(chunks, 1):
+                long_df = _download_chunk_with_retry(chunk, start, end, max_retries=2)
+                if not long_df.empty:
+                    # 再取得窓の行と、銘柄ごとの既存最終日より後の行だけ残す
+                    keep = (long_df["date"] >= pd.Timestamp(refresh_start)) | (
+                        long_df["date"] > long_df["ticker"].map(last_dates)
+                    )
+                    fetched_frames.append(long_df[keep])
+                if i < len(chunks):
+                    time.sleep(YF_SLEEP_SEC)
 
-        new_rows = (
-            pd.concat(new_rows_frames, ignore_index=True)
-            if new_rows_frames
-            else pd.DataFrame(columns=["date", "ticker"] + OHLCV_COLS)
-        )
-        if not new_rows.empty:
-            combined = pd.concat([self.load(), new_rows], ignore_index=True)
-            self.save(combined)
-            print(f"  差分追記: {len(new_rows)}行を追加しました。")
+        empty = pd.DataFrame(columns=["date", "ticker"] + OHLCV_COLS)
+        if not fetched_frames:
+            return empty
+        fetched = self._drop_unsettled(pd.concat(fetched_frames, ignore_index=True))
+        if fetched.empty:
+            return empty
+
+        existing = self.load()
+        key = ["ticker", "date"]
+        old_close = existing.set_index(key)["close"]
+        new_close = fetched.set_index(key)["close"]
+        common = new_close.index.intersection(old_close.index)
+        revised = int((new_close.loc[common] - old_close.loc[common]).abs().gt(1e-6).sum())
+
+        self.save(pd.concat([existing, fetched], ignore_index=True))
+        new_rows = fetched[fetched["date"] > fetched["ticker"].map(last_dates)]
+        print(f"  差分追記: {len(new_rows)}行を追加、既存{revised}行の終値を更新しました。")
         return new_rows
 
     def wide_close(self, tickers: list[str] | None = None) -> pd.DataFrame:

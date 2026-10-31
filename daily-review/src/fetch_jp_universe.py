@@ -3,6 +3,7 @@
 import console_utf8  # noqa: F401
 from config import PRICE_STORE_JP
 from data_layer import MarketDataStore
+from market_context import JP_SESSION
 from universe_jp import full_ticker_list_jp, refresh_universe_jp
 
 if __name__ == "__main__":
@@ -11,6 +12,6 @@ if __name__ == "__main__":
     tickers = full_ticker_list_jp()
     print(f"取得対象ティッカー数: {len(tickers)}")
 
-    store = MarketDataStore(path=PRICE_STORE_JP)
+    store = MarketDataStore(path=PRICE_STORE_JP, session=JP_SESSION)
     store.initial_bulk_fetch(tickers)
     print("完了。")

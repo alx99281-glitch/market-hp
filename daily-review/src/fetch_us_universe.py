@@ -2,6 +2,7 @@
 
 import console_utf8  # noqa: F401
 from data_layer import MarketDataStore
+from market_context import US_SESSION
 from universe import full_ticker_list, refresh_universe
 
 if __name__ == "__main__":
@@ -10,6 +11,6 @@ if __name__ == "__main__":
     tickers = full_ticker_list()
     print(f"取得対象ティッカー数: {len(tickers)}")
 
-    store = MarketDataStore()
+    store = MarketDataStore(session=US_SESSION)
     store.initial_bulk_fetch(tickers)
     print("完了。")

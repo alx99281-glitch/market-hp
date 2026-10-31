@@ -31,6 +31,8 @@ YF_CHUNK_SIZE = 100          # 1回のyf.downloadに含める銘柄数
 YF_SLEEP_SEC = 3             # チャンク間のスリープ
 YF_MAX_RETRIES = 4
 YF_BACKOFF_BASE_SEC = 5      # 指数バックオフの基準秒数（5, 10, 20, 40...）
+REFRESH_LOOKBACK_DAYS = 10   # 毎回再取得して上書きする暦日数（週末・祝日を跨いでも数営業日を確保）
+SESSION_SETTLE_MINUTES = 30  # 大引けから当日バーを確定扱いするまでの猶予（分）
 
 # 米国 ETF ユニバース
 US_SECTOR_ETFS = {

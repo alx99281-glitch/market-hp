@@ -123,22 +123,22 @@ footer div { margin-bottom: 2px; }
   <h1>日次市場サマリー（米国）</h1>
   <p class="subtitle">2026-10-27 <span class="badge">S&amp;P500</span></p>
 
-  <div class="headline">指数は小幅上昇（+0.88%）。最も動いたのはN/Aファクター（+0.00%）</div>
+  <div class="headline">指数は小幅上昇（+0.60%）。最も動いたのはBetaファクター（+4.06%）。値上がり242/値下がり258銘柄</div>
   
     <div class="narrative-box">
       <div class="narrative-title">主因（定量的事実）</div>
-      <ul class="narrative-list"><li>S&amp;P500: +0.88%</li><li>値動きの主パターン(PC1, 説明力17%): 「Health Care・Communication Services・Consumer Staples」高 / 「Information Technology・Industrials・Materials」安</li></ul>
+      <ul class="narrative-list"><li>S&amp;P500: +0.60%</li><li>Betaファクター: +4.06%</li><li>USDJPY: +0.45%</li><li>原油(WTI): -1.83%</li><li>値動きの主パターン(PC1, 説明力17%): 「Information Technology・Industrials・Materials」高 / 「Health Care・Communication Services・Consumer Staples」安</li></ul>
       <div class="narrative-title">セクター（寄与度上位/下位）</div>
-      <div class="narrative-sub"><div style='color:var(--muted)'>データなし</div></div>
+      <div class="narrative-sub"><div><b>上昇:</b> Information Technology +0.692%、Industrials +0.027%</div><div><b>下落:</b> Financials -0.064%、Consumer Staples -0.043%</div></div>
       <div class="narrative-title">個別銘柄（寄与上位/下位）</div>
-      <div class="narrative-sub"><div style='color:var(--muted)'>データなし</div></div>
+      <div class="narrative-sub"><div><b>上昇:</b> Broadcom(AVGO) +4.00%、Tesla, Inc.(TSLA) +4.04%</div><div><b>下落:</b> Meta Platforms(META) -1.64%、Boeing(BA) -10.69%</div></div>
       <div class="narrative-title">解釈 <span class="conf-badge conf-mid">確度: 中</span></div>
-      <div class="narrative-interp">上昇トレンド・平常ボラ・判定不可の相場の中、PCAの説明力データが不足しており、原油との相関(-0.45)も見られマクロ要因と整合的、Betaファクター的な動き（相関+0.91）という一日でした。（PCA・マクロ相関・ファクター相関・ニュース裏付けのうち2/4のシグナルが確認できています）</div>
+      <div class="narrative-interp">上昇トレンド・低ボラ・低相関の相場の中、値動きの約60%は個別要因によるもので、原油との相関(-0.44)も見られマクロ要因と整合的、Betaファクター的な動き（相関+0.92）という一日でした。（PCA・マクロ相関・ファクター相関・ニュース裏付けのうち2/4のシグナルが確認できています）</div>
     </div>
   
     <div class="regime-box">
-      <div class="regime-headline">相場のレジーム（地合い）: 上昇トレンド・平常ボラ・判定不可</div>
-      <ul class="regime-list"><li>終値が50日線・200日線をともに上回る形で並んでおり、上昇トレンドが続いています。</li><li>直近20日の実現ボラティリティは年率11.0%で、過去1年の平常的な範囲内です。</li><li>データ不足のためセクター間相関は判定できません。</li></ul>
+      <div class="regime-headline">相場のレジーム（地合い）: 上昇トレンド・低ボラ・低相関</div>
+      <ul class="regime-list"><li>終値が50日線・200日線をともに上回る形で並んでおり、上昇トレンドが続いています。</li><li>直近20日の実現ボラティリティは年率10.1%で、過去1年の分布の下位19%に位置する落ち着いた水準です。相場が静かで、方向感のある材料が出にくい局面です。</li><li>直近20日のセクター間平均相関は0.17と低く、銘柄・セクターごとの個別材料で明暗が分かれやすい相場です。</li></ul>
     </div>
 
   <details class="fold">
@@ -147,9 +147,164 @@ footer div { margin-bottom: 2px; }
       <p class="explain">寄与度が大きかった上位/下位セクターについて、関連銘柄の値動き（定量）と
       関連しそうなニュース見出し（定性・自動キーワード一致のため要確認）をセットで示す。zスコアはそのセクターの
       過去の振れ幅に対して本日がどれだけ「普段と違う」動きかを表す（|z|が大きいほど異例）。</p>
-      <p style='color:var(--muted)'>データなし</p>
+      
+    <div class="two-col">
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">上昇寄与 上位5</div>
+        
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Information Technology</span>
+            <span class="sector-explain-val sc-pos">+0.692% / zスコア +0.95</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Flex Ltd.(FLEX) +8.26%、Dell Technologies(DELL) +7.47%、Supermicro(SMCI) +7.34%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Industrials</span>
+            <span class="sector-explain-val sc-pos">+0.027% / zスコア +0.38</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Xylem Inc.(XYL) -14.21%、Pentair(PNR) +12.80%、Boeing(BA) -10.69%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Consumer Discretionary</span>
+            <span class="sector-explain-val sc-pos">+0.019% / zスコア +0.18</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: General Motors(GM) +5.54%、Royal Caribbean Group(RCL) +5.46%、Carvana(CVNA) +4.63%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Materials</span>
+            <span class="sector-explain-val sc-pos">+0.014% / zスコア +0.78</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Mosaic Company (The)(MOS) +6.10%、Albemarle Corporation(ALB) +5.93%、Nucor(NUE) +5.22%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-pos"></span>
+            <span class="sector-explain-name">Utilities</span>
+            <span class="sector-explain-val sc-pos">+0.013% / zスコア +0.71</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Vistra Corp.(VST) +3.48%、Constellation Energy(CEG) +2.57%、CenterPoint Energy(CNP) +1.87%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:0.78rem;color:var(--muted);margin-bottom:8px">下落寄与 上位5</div>
+        
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">Financials</span>
+            <span class="sector-explain-val sc-neg">-0.064% / zスコア -0.65</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Brown &amp; Brown(BRO) -4.97%、CME Group(CME) -4.73%、FactSet(FDS) -4.28%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">Consumer Staples</span>
+            <span class="sector-explain-val sc-neg">-0.043% / zスコア -0.93</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Constellation Brands(STZ) -3.68%、Kraft Heinz(KHC) -2.71%、Hershey Company (The)(HSY) -2.21%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">Energy</span>
+            <span class="sector-explain-val sc-neg">-0.042% / zスコア -0.94</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Valero Energy(VLO) -9.24%、Marathon Petroleum(MPC) -7.36%、Phillips 66(PSX) -7.03%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">Health Care</span>
+            <span class="sector-explain-val sc-neg">-0.038% / zスコア -0.56</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Moderna(MRNA) +4.59%、Universal Health Services(UHS) -4.52%、Zoetis(ZTS) -3.38%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+        <div class="sector-explain-card">
+          <div class="sector-explain-head">
+            <span class="sc-dot sc-neg"></span>
+            <span class="sector-explain-name">Communication Services</span>
+            <span class="sector-explain-val sc-neg">-0.029% / zスコア -0.17</span>
+          </div>
+          <div class="sector-explain-movers">関連銘柄（定量的裏付け）: Charter Communications(CHTR) +2.69%、Netflix(NFLX) -2.16%、News Corp (Class B)(NWS) -2.12%</div>
+          <div class="sector-explain-news muted">対応する材料は特定できませんでした（要因不明）。</div>
+        </div>
+      </div>
+    </div>
       <h3 style="font-size:0.85rem;color:var(--muted);margin:20px 0 10px">セクター寄与度 全セクター（自前計算・SPY保有構成ベース（cap-weight近似））</h3>
-      <p style='color:var(--muted)'>データなし</p>
+      
+        <div class="waterfall-row">
+          <div class="waterfall-name">Information Technology</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:50.0%"></div></div>
+          <div class="waterfall-val">+0.692%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Industrials</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:2.0%"></div></div>
+          <div class="waterfall-val">+0.027%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Consumer Discretionary</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:1.4%"></div></div>
+          <div class="waterfall-val">+0.019%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Materials</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:1.0%"></div></div>
+          <div class="waterfall-val">+0.014%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Utilities</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:1.0%"></div></div>
+          <div class="waterfall-val">+0.013%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Real Estate</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:1.0%; margin-left:49.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.014%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Communication Services</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:2.1%; margin-left:47.9%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.029%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Health Care</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:2.7%; margin-left:47.3%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.038%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Energy</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:3.0%; margin-left:47.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.042%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Consumer Staples</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:3.1%; margin-left:46.9%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.043%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Financials</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:4.7%; margin-left:45.3%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.064%</div>
+        </div>
     </div>
   </details>
 
@@ -159,10 +314,31 @@ footer div { margin-bottom: 2px; }
       
         <div class="tp-item">
           <div class="tp-box">
-            <div class="tp-bullet"><span class="tp-dot neg"></span>（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Honda warns 50% Canada auto tariffs would be catastrophic for industry」「Fed rate hikes are coming, but not this week: CNBC survey」「UK inflation jumps to 3.5% — cementing rate hike expectations」</div>
-            <div class='tp-group-member'><b>セクター間の値動きの連動性</b>: +0.00% (zスコア -2.88)</div>
+            <div class="tp-bullet"><span class="tp-dot pos"></span>Energyセクター内での銘柄ごとの値動きのばらつきが普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。</div>
+            <div class='tp-group-member'><b>Energyセクター内での銘柄ごとの値動きのばらつき</b>: +3.43% (zスコア +4.04) ／ 関連銘柄: Valero Energy(VLO) -9.24%、Marathon Petroleum(MPC) -7.36%、Phillips 66(PSX) -7.03%</div>
           </div>
-          <ul class='tp-sources'><li><a href='https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html' target='_blank' rel='noopener'>CNBC Economy: Honda warns 50% Canada auto tariffs would be catastrophic for industry</a></li><li><a href='https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html' target='_blank' rel='noopener'>CNBC Markets: Fed rate hikes are coming, but not this week: CNBC survey</a></li><li><a href='https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html' target='_blank' rel='noopener'>CNBC Markets: UK inflation jumps to 3.5% — cementing rate hike expectations</a></li></ul>
+          
+        </div>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot pos"></span>Industrialsセクター内での銘柄ごとの値動きのばらつきが普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。</div>
+            <div class='tp-group-member'><b>Industrialsセクター内での銘柄ごとの値動きのばらつき</b>: +3.32% (zスコア +2.03) ／ 関連銘柄: Xylem Inc.(XYL) -14.21%、Pentair(PNR) +12.80%、Boeing(BA) -10.69%</div>
+          </div>
+          
+        </div>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot pos"></span>Real Estateセクター内での銘柄ごとの値動きのばらつきが普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。</div>
+            <div class='tp-group-member'><b>Real Estateセクター内での銘柄ごとの値動きのばらつき</b>: +2.24% (zスコア +2.00) ／ 関連銘柄: Alexandria Real Estate Equities(ARE) -5.85%、Welltower(WELL) -5.77%、CoStar Group(CSGP) -5.01%</div>
+          </div>
+          
+        </div>
+        <div class="tp-item">
+          <div class="tp-box">
+            <div class="tp-bullet"><span class="tp-dot pos"></span>Betaファクターの値動きが普段より大きく動きましたが、対応する材料は特定できませんでした（要因不明）。</div>
+            <div class='tp-group-member'><b>Betaファクターの値動き</b>: +4.06% (zスコア +1.54)</div>
+          </div>
+          
         </div>
     </div>
   </details>
@@ -174,12 +350,12 @@ footer div { margin-bottom: 2px; }
       <div>
         <h3 style="font-size:0.85rem;color:var(--pos);margin-bottom:6px;">寄与上位10</h3>
         <table><thead><tr><th>銘柄</th><th class='num'>リターン</th><th class='num'>寄与度</th></tr></thead>
-        <tbody></tbody></table>
+        <tbody><tr><td>AVGO</td><td class='num'>+4.00%</td><td class='num'>+0.091%</td></tr><tr><td>TSLA</td><td class='num'>+4.04%</td><td class='num'>+0.076%</td></tr><tr><td>NVDA</td><td class='num'>+0.90%</td><td class='num'>+0.067%</td></tr><tr><td>GOOGL</td><td class='num'>+1.19%</td><td class='num'>+0.066%</td></tr><tr><td>AMZN</td><td class='num'>+1.61%</td><td class='num'>+0.060%</td></tr><tr><td>AAPL</td><td class='num'>+0.93%</td><td class='num'>+0.058%</td></tr><tr><td>AMD</td><td class='num'>+5.45%</td><td class='num'>+0.057%</td></tr><tr><td>GOOG</td><td class='num'>+0.84%</td><td class='num'>+0.046%</td></tr><tr><td>MU</td><td class='num'>+2.77%</td><td class='num'>+0.043%</td></tr><tr><td>DELL</td><td class='num'>+7.47%</td><td class='num'>+0.034%</td></tr></tbody></table>
       </div>
       <div>
         <h3 style="font-size:0.85rem;color:var(--neg);margin-bottom:6px;">寄与下位10</h3>
         <table><thead><tr><th>銘柄</th><th class='num'>リターン</th><th class='num'>寄与度</th></tr></thead>
-        <tbody></tbody></table>
+        <tbody><tr><td>META</td><td class='num'>-1.64%</td><td class='num'>-0.035%</td></tr><tr><td>BA</td><td class='num'>-10.69%</td><td class='num'>-0.024%</td></tr><tr><td>XOM</td><td class='num'>-2.51%</td><td class='num'>-0.022%</td></tr><tr><td>BRK-B</td><td class='num'>-1.02%</td><td class='num'>-0.015%</td></tr><tr><td>VLO</td><td class='num'>-9.24%</td><td class='num'>-0.013%</td></tr><tr><td>WELL</td><td class='num'>-5.77%</td><td class='num'>-0.013%</td></tr><tr><td>MSFT</td><td class='num'>-0.24%</td><td class='num'>-0.012%</td></tr><tr><td>MPC</td><td class='num'>-7.36%</td><td class='num'>-0.011%</td></tr><tr><td>PSX</td><td class='num'>-7.03%</td><td class='num'>-0.010%</td></tr><tr><td>NFLX</td><td class='num'>-2.16%</td><td class='num'>-0.009%</td></tr></tbody></table>
       </div>
     </div></div>
   </details>
@@ -189,7 +365,7 @@ footer div { margin-bottom: 2px; }
     <div class="fold-body">
       
     <div class="pca-box">
-      <div class="pca-narrative">直近で最も動いたのは第1主成分（過去の値動き全体の分散のうち17%を説明する変動パターン）でした。この変動パターンは普段、「Information Technology・Industrials・Materials」が一方に、「Health Care・Communication Services・Consumer Staples」が逆方向に動く形で現れます。本日はこのパターンが強く出ており、「Health Care・Communication Services・Consumer Staples」が相対的に強く、「Information Technology・Industrials・Materials」が相対的に弱い値動きだった可能性があります。残差比率のデータが不足しているため、説明力は評価できません。 直近60日では原油(相関-0.45)と相関が見られ、マクロ要因との連動が比較的明確です。 自前計算の8ファクターの中ではBeta(相関+0.91)、Momentum(相関+0.88)と相関が最も強く、この主成分はBetaファクター的な値動きに近いと解釈できます。ただし他のファクターとも幅広く相関しており、単一ファクターへの還元には注意が必要です。</div>
+      <div class="pca-narrative">直近で最も動いたのは第1主成分（過去の値動き全体の分散のうち17%を説明する変動パターン）でした。この変動パターンは普段、「Information Technology・Industrials・Materials」が一方に、「Health Care・Communication Services・Consumer Staples」が逆方向に動く形で現れます。本日はこのパターンが強く出ており、「Information Technology・Industrials・Materials」が相対的に強く、「Health Care・Communication Services・Consumer Staples」が相対的に弱い値動きだった可能性があります。本日の値動きの約40%は過去の主要な値動きパターンで説明できましたが、残り約60%は個別要因によるものでした。 直近60日では原油(相関-0.44)と相関が見られ、マクロ要因との連動が比較的明確です。 自前計算の8ファクターの中ではBeta(相関+0.92)、Momentum(相関+0.86)と相関が最も強く、この主成分はBetaファクター的な値動きに近いと解釈できます。ただし他のファクターとも幅広く相関しており、単一ファクターへの還元には注意が必要です。</div>
       <p style="color:var(--muted);font-size:0.78rem">
         （主成分分析(PCA)＝多数の銘柄の値動きを少数の共通パターンに要約する統計手法。
         軸推定日: 2026-10-27 / 対象銘柄数: 496 / 各パターンの説明力: PC1 16.5% / PC2 12.2% / PC3 8.3% / PC4 5.1% / PC5 3.2%）
@@ -198,36 +374,36 @@ footer div { margin-bottom: 2px; }
           <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC1</div>
           
     <svg viewBox="0 0 260 60" width="260" height="60">
-      <polyline points="4.0,9.2 8.3,31.1 12.5,34.1 16.8,22.2 21.1,37.2 25.4,23.3 29.6,14.3 33.9,33.5 38.2,23.6 42.4,18.2 46.7,51.7 51.0,49.9 55.3,29.2 59.5,28.3 63.8,40.0 68.1,20.2 72.3,21.0 76.6,26.6 80.9,43.1 85.2,27.3 89.4,37.2 93.7,25.2 98.0,25.9 102.2,11.6 106.5,13.9 110.8,27.8 115.1,37.8 119.3,18.5 123.6,56.0 127.9,27.1 132.1,23.6 136.4,17.3 140.7,18.5 144.9,22.9 149.2,13.0 153.5,30.5 157.8,28.9 162.0,21.0 166.3,37.3 170.6,16.6 174.8,31.7 179.1,35.3 183.4,4.0 187.7,29.8 191.9,25.1 196.2,36.7 200.5,30.4 204.7,36.8 209.0,34.2 213.3,38.5 217.6,27.9 221.8,27.9 226.1,43.5 230.4,20.0 234.6,27.9 238.9,27.9 243.2,28.0 247.5,27.9 251.7,21.5 256.0,27.9" fill="none" stroke="#58a6ff" stroke-width="1.6" />
-      <circle cx="256.0" cy="27.9" r="2.5" fill="#58a6ff" />
-      <text x="256.0" y="27.9" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#58a6ff">+0.000</text>
+      <polyline points="4.0,4.5 8.3,26.3 12.5,29.2 16.8,17.5 21.1,32.3 25.4,18.5 29.6,9.6 33.9,28.6 38.2,18.8 42.4,13.5 46.7,46.7 51.0,44.9 55.3,24.4 59.5,23.5 63.8,35.1 68.1,15.4 72.3,16.2 76.6,21.8 80.9,38.2 85.2,22.5 89.4,32.4 93.7,20.4 98.0,21.1 102.2,6.9 106.5,9.2 110.8,23.0 115.1,32.9 119.3,13.7 123.6,51.3 127.9,21.9 132.1,18.8 136.4,12.6 140.7,13.7 144.9,10.3 149.2,16.1 153.5,25.7 157.8,24.1 162.0,16.2 166.3,28.3 170.6,17.3 174.8,25.8 179.1,16.7 183.4,12.5 187.7,26.1 191.9,17.3 196.2,30.1 200.5,38.7 204.7,18.8 209.0,35.2 213.3,26.4 217.6,45.1 221.8,33.4 226.1,38.6 230.4,19.5 234.6,26.9 238.9,12.9 243.2,56.0 247.5,21.6 251.7,11.0 256.0,4.0" fill="none" stroke="#58a6ff" stroke-width="1.6" />
+      <circle cx="256.0" cy="4.0" r="2.5" fill="#58a6ff" />
+      <text x="256.0" y="4.0" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#58a6ff">+0.346</text>
       
     </svg>
         </div><div>
           <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC2</div>
           
     <svg viewBox="0 0 260 60" width="260" height="60">
-      <polyline points="4.0,36.9 8.3,45.6 12.5,51.4 16.8,38.5 21.1,46.8 25.4,44.9 29.6,47.0 33.9,40.7 38.2,48.4 42.4,53.1 46.7,48.2 51.0,4.0 55.3,55.2 59.5,39.3 63.8,46.0 68.1,43.2 72.3,48.3 76.6,48.0 80.9,47.7 85.2,50.2 89.4,51.0 93.7,43.7 98.0,41.7 102.2,50.0 106.5,56.0 110.8,53.1 115.1,49.5 119.3,40.7 123.6,44.1 127.9,49.3 132.1,49.8 136.4,42.5 140.7,49.9 144.9,42.0 149.2,41.7 153.5,51.0 157.8,48.1 162.0,43.0 166.3,50.6 170.6,46.0 174.8,51.7 179.1,48.8 183.4,44.2 187.7,44.5 191.9,40.2 196.2,52.6 200.5,45.7 204.7,39.5 209.0,44.3 213.3,48.0 217.6,46.2 221.8,46.2 226.1,51.3 230.4,46.8 234.6,46.2 238.9,46.2 243.2,46.2 247.5,46.2 251.7,46.7 256.0,46.2" fill="none" stroke="#3fb950" stroke-width="1.6" />
-      <circle cx="256.0" cy="46.2" r="2.5" fill="#3fb950" />
-      <text x="256.0" y="46.2" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#3fb950">+0.000</text>
+      <polyline points="4.0,36.9 8.3,45.6 12.5,51.4 16.8,38.5 21.1,46.8 25.4,44.9 29.6,47.0 33.9,40.7 38.2,48.4 42.4,53.1 46.7,48.2 51.0,4.0 55.3,55.2 59.5,39.3 63.8,46.0 68.1,43.2 72.3,48.3 76.6,48.0 80.9,47.7 85.2,50.2 89.4,51.0 93.7,43.7 98.0,41.7 102.2,50.0 106.5,56.0 110.8,53.1 115.1,49.5 119.3,40.7 123.6,42.4 127.9,50.9 132.1,49.8 136.4,42.5 140.7,49.9 144.9,39.9 149.2,43.9 153.5,51.0 157.8,48.1 162.0,43.0 166.3,50.3 170.6,47.1 174.8,50.8 179.1,45.8 183.4,46.1 187.7,41.9 191.9,45.0 196.2,49.2 200.5,42.6 204.7,41.7 209.0,46.6 213.3,46.0 217.6,48.5 221.8,33.7 226.1,51.3 230.4,46.9 234.6,38.1 238.9,45.0 243.2,41.6 247.5,52.1 251.7,46.9 256.0,45.0" fill="none" stroke="#3fb950" stroke-width="1.6" />
+      <circle cx="256.0" cy="45.0" r="2.5" fill="#3fb950" />
+      <text x="256.0" y="45.0" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#3fb950">+0.037</text>
       
     </svg>
         </div><div>
           <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">PC3</div>
           
     <svg viewBox="0 0 260 60" width="260" height="60">
-      <polyline points="4.0,56.0 8.3,50.8 12.5,47.9 16.8,50.3 21.1,49.6 25.4,50.2 29.6,47.3 33.9,55.1 38.2,48.7 42.4,42.4 46.7,51.3 51.0,4.0 55.3,51.7 59.5,51.6 63.8,53.7 68.1,45.0 72.3,51.9 76.6,49.9 80.9,51.9 85.2,45.2 89.4,42.5 93.7,53.2 98.0,54.9 102.2,46.9 106.5,43.1 110.8,45.5 115.1,48.3 119.3,52.5 123.6,53.3 127.9,47.0 132.1,45.3 136.4,48.6 140.7,47.3 144.9,50.9 149.2,44.7 153.5,46.6 157.8,45.3 162.0,52.0 166.3,48.4 170.6,46.8 174.8,48.7 179.1,46.0 183.4,54.8 187.7,50.0 191.9,54.0 196.2,48.2 200.5,49.5 204.7,51.8 209.0,52.8 213.3,50.1 217.6,50.2 221.8,50.2 226.1,51.1 230.4,47.8 234.6,50.2 238.9,50.2 243.2,50.2 247.5,50.2 251.7,52.2 256.0,50.2" fill="none" stroke="#f0883e" stroke-width="1.6" />
-      <circle cx="256.0" cy="50.2" r="2.5" fill="#f0883e" />
-      <text x="256.0" y="50.2" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#f0883e">+0.000</text>
+      <polyline points="4.0,49.1 8.3,44.7 12.5,42.1 16.8,44.2 21.1,43.6 25.4,44.1 29.6,41.6 33.9,48.4 38.2,42.8 42.4,37.3 46.7,45.1 51.0,4.0 55.3,45.4 59.5,45.3 63.8,47.2 68.1,39.6 72.3,45.6 76.6,43.8 80.9,45.6 85.2,39.7 89.4,37.4 93.7,46.7 98.0,48.2 102.2,41.3 106.5,38.0 110.8,40.1 115.1,42.5 119.3,46.1 123.6,46.9 127.9,41.2 132.1,39.9 136.4,42.7 140.7,41.6 144.9,42.5 149.2,41.6 153.5,41.0 157.8,39.9 162.0,45.7 166.3,41.8 170.6,42.0 174.8,42.9 179.1,45.8 183.4,44.3 187.7,44.6 191.9,47.9 196.2,39.8 200.5,48.3 204.7,41.6 209.0,46.8 213.3,43.9 217.6,41.9 221.8,51.0 226.1,44.9 230.4,41.6 234.6,47.9 238.9,44.1 243.2,56.0 247.5,39.9 251.7,43.9 256.0,42.2" fill="none" stroke="#f0883e" stroke-width="1.6" />
+      <circle cx="256.0" cy="42.2" r="2.5" fill="#f0883e" />
+      <text x="256.0" y="42.2" dy="-8" dx="-4" text-anchor="end" font-size="11" fill="#f0883e">+0.060</text>
       
     </svg>
         </div></div>
       <div style="font-size:0.78rem;color:var(--muted);margin-bottom:4px">説明できなかった動きの比率（直近60日の推移）</div>
       
     <svg viewBox="0 0 780 70" width="780" height="70">
-      <polyline points="4.0,22.6 18.3,7.1 32.6,12.0 46.9,13.5 61.2,21.3 75.5,8.4 89.8,21.8 104.1,21.3 118.4,16.1 132.7,33.3 147.0,46.0 161.3,66.0 175.6,21.3 189.9,18.6 204.1,33.9 218.4,23.5 232.7,17.6 247.0,33.5 261.3,28.5 275.6,14.6 289.9,30.7 304.2,9.0 318.5,15.6 332.8,32.8 347.1,35.7 361.4,12.1 375.7,12.7 390.0,17.8 404.3,55.8 418.6,5.3 432.9,9.4 447.2,20.6 461.5,19.2 475.8,23.3 490.1,23.9 504.4,12.3 518.7,6.3 533.0,19.0 547.3,29.3 561.6,23.4 575.9,13.9 590.1,60.9 604.4,30.9 618.7,6.8 633.0,13.5 647.3,19.6 661.6,8.0 675.9,15.9 690.2,14.0 704.5,24.0 718.8,44.1 733.1,31.8 747.4,4.0 761.7,4.0 776.0,14.3" fill="none" stroke="#f85149" stroke-width="1.6" />
-      <circle cx="776.0" cy="14.3" r="2.5" fill="#f85149" />
-      <text x="776.0" y="14.3" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#f85149">83%</text>
+      <polyline points="4.0,20.9 17.1,4.8 30.2,9.9 43.3,11.5 56.3,19.6 69.4,6.2 82.5,20.1 95.6,19.6 108.7,14.2 121.8,32.1 134.8,45.3 147.9,66.0 161.0,19.6 174.1,16.7 187.2,32.7 200.3,21.9 213.4,15.7 226.4,32.3 239.5,27.1 252.6,12.7 265.7,29.4 278.8,6.8 291.9,13.7 304.9,31.6 318.0,34.6 331.1,10.1 344.2,10.7 357.3,16.0 370.4,42.5 383.5,7.7 396.5,7.2 409.6,18.9 422.7,17.5 435.8,29.0 448.9,16.3 462.0,10.2 475.1,4.0 488.1,17.2 501.2,10.9 514.3,7.3 527.4,12.4 540.5,7.5 553.6,15.7 566.6,5.3 579.7,8.6 592.8,11.3 605.9,31.3 619.0,9.9 632.1,28.8 645.2,4.1 658.2,36.2 671.3,35.7 684.4,43.3 697.5,18.8 710.6,10.3 723.7,20.4 736.7,45.7 749.8,14.4 762.9,20.7 776.0,27.8" fill="none" stroke="#f85149" stroke-width="1.6" />
+      <circle cx="776.0" cy="27.8" r="2.5" fill="#f85149" />
+      <text x="776.0" y="27.8" dy="14" dx="-4" text-anchor="end" font-size="11" fill="#f85149">60%</text>
       
     </svg>
     </div>
@@ -239,14 +415,69 @@ footer div { margin-bottom: 2px; }
     <div class="fold-body">
       <table>
         <thead><tr><th>ファクター</th><th class='num'>自前計算</th><th class='num'>ETFベース簡易版</th></tr></thead>
-        <tbody><tr><td>Momentum</td><td class='num'>N/A</td><td class='num'>—</td></tr><tr><td>Volatility</td><td class='num'>N/A</td><td class='num'>—</td></tr><tr><td>Beta</td><td class='num'>N/A</td><td class='num'>—</td></tr><tr><td>Liquidity</td><td class='num'>N/A</td><td class='num'>—</td></tr><tr><td>Value</td><td class='num'>N/A</td><td class='num'>—</td></tr><tr><td>Growth</td><td class='num'>N/A</td><td class='num'>—</td></tr><tr><td>Quality</td><td class='num'>N/A</td><td class='num'>—</td></tr><tr><td>Size</td><td class='num'>N/A</td><td class='num'>—</td></tr></tbody>
+        <tbody><tr><td>Momentum</td><td class='num'>+2.155%</td><td class='num'>+1.687%</td></tr><tr><td>Volatility</td><td class='num'>+1.255%</td><td class='num'>-0.358%</td></tr><tr><td>Beta</td><td class='num'>+4.055%</td><td class='num'>—</td></tr><tr><td>Liquidity</td><td class='num'>+1.025%</td><td class='num'>—</td></tr><tr><td>Value</td><td class='num'>-1.099%</td><td class='num'>+1.038%</td></tr><tr><td>Growth</td><td class='num'>+1.206%</td><td class='num'>—</td></tr><tr><td>Quality</td><td class='num'>-0.199%</td><td class='num'>-0.166%</td></tr><tr><td>Size</td><td class='num'>-0.838%</td><td class='num'>+1.152%</td></tr></tbody>
       </table>
     </div>
   </details>
 
   <details class="fold">
     <summary>セクターETFベース簡易版（整合性チェック）</summary>
-    <div class="fold-body"><p style='color:var(--muted)'>データなし</p></div>
+    <div class="fold-body">
+        <div class="waterfall-row">
+          <div class="waterfall-name">Technology</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:41.4%"></div></div>
+          <div class="waterfall-val">+1.701%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Consumer Discretionary</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:25.4%"></div></div>
+          <div class="waterfall-val">+1.041%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Materials</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:19.0%"></div></div>
+          <div class="waterfall-val">+0.779%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Utilities</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:17.2%"></div></div>
+          <div class="waterfall-val">+0.705%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Industrials</div>
+          <div class="waterfall-bar-wrap"><div style="width:50%"></div><div class="waterfall-bar pos" style="width:14.0%"></div></div>
+          <div class="waterfall-val">+0.575%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Health Care</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:1.4%; margin-left:48.6%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.056%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Financials</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:6.1%; margin-left:43.9%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.250%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Communication Services</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:6.3%; margin-left:43.7%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.260%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Real Estate</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:20.5%; margin-left:29.5%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.841%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Consumer Staples</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:22.4%; margin-left:27.6%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-0.921%</div>
+        </div>
+        <div class="waterfall-row">
+          <div class="waterfall-name">Energy</div>
+          <div class="waterfall-bar-wrap"><div class="waterfall-bar neg" style="width:50.0%; margin-left:0.0%"></div><div style="width:50%"></div></div>
+          <div class="waterfall-val">-2.053%</div>
+        </div></div>
   </details>
 
   <details class="fold">
@@ -257,7 +488,7 @@ footer div { margin-bottom: 2px; }
   <footer>
     <div>データ出所: Yahoo Finance (yfinance) / セクターウェイト: SPY保有構成ベース（cap-weight近似）</div>
     <div>計算窓幅: zスコア=120日 / セクター間相関=20日 / Beta・Volatility・Liquidity=60日 / Momentum=252-21日</div>
-    <div>レポート生成時刻(UTC): 2026-10-28T00:40:16+00:00</div>
+    <div>レポート生成時刻(UTC): 2026-10-31T10:25:43+00:00</div>
   </footer>
 </body>
 </html>

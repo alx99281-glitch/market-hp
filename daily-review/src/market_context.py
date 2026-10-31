@@ -8,11 +8,15 @@ MarketContext を受け取って動作し、市場固有の定数（ティッカ
 from __future__ import annotations
 
 from dataclasses import dataclass
+from datetime import time
 from pathlib import Path
 
 import pandas as pd
 
-from data_layer import MarketDataStore
+from data_layer import MarketDataStore, MarketSession
+
+US_SESSION = MarketSession("America/New_York", time(16, 0))
+JP_SESSION = MarketSession("Asia/Tokyo", time(15, 30))
 
 
 @dataclass
@@ -48,7 +52,7 @@ def us_context() -> MarketContext:
     return MarketContext(
         name="us",
         label="米国",
-        price_store=MarketDataStore(path=PRICE_STORE),
+        price_store=MarketDataStore(path=PRICE_STORE, session=US_SESSION),
         fundamentals_path=FUNDAMENTALS_STORE,
         universe_df=uni,
         sector_weights=load_sector_weights(),
@@ -78,7 +82,7 @@ def jp_context() -> MarketContext:
     return MarketContext(
         name="jp",
         label="日本",
-        price_store=MarketDataStore(path=PRICE_STORE_JP),
+        price_store=MarketDataStore(path=PRICE_STORE_JP, session=JP_SESSION),
         fundamentals_path=FUNDAMENTALS_STORE_JP,
         universe_df=uni,
         sector_weights=load_sector_weights_jp(),

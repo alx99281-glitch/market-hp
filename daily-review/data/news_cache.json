@@ -4348,5 +4348,95 @@
       }
     ],
     "searched_at": "2026-10-30T13:46:10.203619+00:00"
+  },
+  "us:2026-10-30:sector_internal_dispersion:Communication Services": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump called out Big Oil profits. Here’s how much their refining earnings have surged since」「Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz」「Fed officials are already saying they’ll need to get back to hiking rates」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+        "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html"
+      },
+      {
+        "title": "CNBC Economy: Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Fed officials are already saying they’ll need to get back to hiking rates",
+        "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+      }
+    ],
+    "searched_at": "2026-10-31T10:26:28.814457+00:00"
+  },
+  "us:2026-10-30:sector_internal_dispersion:Financials": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump called out Big Oil profits. Here’s how much their refining earnings have surged since」「Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz」「Fed officials are already saying they’ll need to get back to hiking rates」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+        "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html"
+      },
+      {
+        "title": "CNBC Economy: Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Fed officials are already saying they’ll need to get back to hiking rates",
+        "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+      }
+    ],
+    "searched_at": "2026-10-31T10:26:28.840078+00:00"
+  },
+  "us:2026-10-30:factor:Beta": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump called out Big Oil profits. Here’s how much their refining earnings have surged since」「Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz」「Fed officials are already saying they’ll need to get back to hiking rates」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+        "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html"
+      },
+      {
+        "title": "CNBC Economy: Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Fed officials are already saying they’ll need to get back to hiking rates",
+        "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+      }
+    ],
+    "searched_at": "2026-10-31T10:26:28.852479+00:00"
+  },
+  "us:2026-10-30:factor:Growth": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Trump called out Big Oil profits. Here’s how much their refining earnings have surged since」「Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz」「Fed officials are already saying they’ll need to get back to hiking rates」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+        "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html"
+      },
+      {
+        "title": "CNBC Economy: Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html"
+      },
+      {
+        "title": "CNBC Economy: Fed officials are already saying they’ll need to get back to hiking rates",
+        "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html"
+      }
+    ],
+    "searched_at": "2026-10-31T10:26:28.867786+00:00"
+  },
+  "jp:2026-10-30:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-10-31T10:31:26.158830+00:00"
   }
 }
