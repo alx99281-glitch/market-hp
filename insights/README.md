@@ -10,8 +10,13 @@ python insights/src/compute_signals.py   # data/signals.json を更新
 python insights/src/build_page.py        # output/ を生成
 ```
 
-平日 06:30 SGT に Claude デスクトップアプリの定期タスク `market-insights-daily` が上記を実行し、main へ push する。
-アプリが閉じている間は動かず、次回起動時に実行される。GitHub Actions では動かない。
+平日の自動更新は次の2段階で動く。PCは使わない。
+
+1. GitHub Actions の `insights-data.yml` が NY 引け後に株価を取得し、`market-data` ブランチへ上書きする。
+2. 07:00 SGT のクラウド定期実行が、そのデータで分析して号を作り、main へ push する。
+
+クラウド環境から Yahoo Finance には接続できないので、`compute_signals.py` と `fetch_market_data.py` は Actions でだけ動かす。
+取得する銘柄は `data/universe.json` で管理する。S&P500 と日経225の採用銘柄は `daily-review/data` にある。
 
 各号は固定スナップショットで、過去号はページ右上から参照できる。
 X はタイムラインを直接取得せず、検索経由の投稿のみ扱う。投稿は要約し、未検証である旨を明記する。
