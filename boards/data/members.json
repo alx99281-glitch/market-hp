@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05",
+  "updated_at": "2026-11-01",
   "methodology": "スコアは公開されている発言・投票行動・経歴の傾向に基づく編集部の定性評価であり、AIによる自動テキスト分析や公式指標ではない。-5(最ハト派)〜+5(最タカ派)。就任間もない委員は実績が少なく、評価の確度が低い点に留意。",
   "frb": [
     {
@@ -41,10 +41,11 @@
       "role": "理事",
       "since": "2022年〜",
       "bio": "元財務次官。金融規制の専門家で、金融監督担当副議長を2025年まで務めた。",
-      "score": -1,
-      "rationale": "金融規制強化派として知られ、金融政策面では相対的にハト派的な発言が多い。",
+      "score": 1,
+      "rationale": "金融規制強化派として知られる。金融政策では従来ハト派寄りとされたが、2026年9月以降は追加利上げが必要との発言が目立つ。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/barr.htm",
-      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Barr_michael_8x10_July_25_22-444_rdax_130x162s.jpg"
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Barr_michael_8x10_July_25_22-444_rdax_130x162s.jpg",
+      "change_note": "2026年9月23日の講演で、インフレ目標の達成には追加利上げがおそらく必要になると述べた(ロイター報道)。インフレへの警戒が明確になったため引き上げた。"
     },
     {
       "name_ja": "リサ・クック",
@@ -52,10 +53,11 @@
       "role": "理事",
       "since": "2022年〜",
       "bio": "ミシガン州立大学教授出身の経済学者。トランプ政権による解任を巡り係争中も職務を継続。",
-      "score": -2,
-      "rationale": "雇用の最大化を重視する発言が目立ち、ハト派として知られる。",
+      "score": 0,
+      "rationale": "かつては雇用重視のハト派とされたが、2026年はAI投資や原油高によるインフレ圧力を警戒し、10月会合では利上げを主張して反対票を投じた。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/cook.htm",
-      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Cook_Lisa_8x10_June_29_22-316_pp_rdax_130x162s.jpg"
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Cook_Lisa_8x10_June_29_22-316_pp_rdax_130x162s.jpg",
+      "change_note": "2026年10月28日のFOMCで、据え置きに反対し0.25%の利上げを主張した(FRB声明、CNBC・CNN報道)。就任以来初の反対票で、雇用重視のハト派という評価を中立に改めた。"
     },
     {
       "name_ja": "ジェローム・パウエル",
@@ -96,10 +98,11 @@
       "role": "フィラデルフィア連銀総裁",
       "since": "2025年〜",
       "bio": "元シカゴ連銀調査局長。2025年にフィラデルフィア連銀総裁に就任。",
-      "score": 0,
-      "rationale": "就任間もなく金融政策に関する発言実績が少ないため、評価は暫定的。",
+      "score": 1,
+      "rationale": "2026年初めは利下げを見込んでいたが、9月にはインフレ高止まりを理由に追加の小幅な引き締めが適切になりうると述べた。就任からの期間が短く、評価の確度は高くない。",
       "bio_url": "https://www.philadelphiafed.org/our-people/anna-paulson",
-      "photo_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/People/Executive-Leadership/25-06_Anna-Paulson.jpg"
+      "photo_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/People/Executive-Leadership/25-06_Anna-Paulson.jpg",
+      "change_note": "2026年9月24日の講演で、インフレは根強く高止まりしており、見通しどおりならさらに小幅な引き締めが適切になりうると述べた(フィラデルフィア連銀講演、ロイター報道)。"
     },
     {
       "name_ja": "ベス・ハマック",
@@ -107,10 +110,11 @@
       "role": "クリーブランド連銀総裁",
       "since": "2024年〜",
       "bio": "元ゴールドマン・サックス幹部。2024年にクリーブランド連銀総裁に就任。",
-      "score": 2,
-      "rationale": "着任以来、インフレ再燃への警戒を強調する発言が目立つ。",
+      "score": 3,
+      "rationale": "着任以来インフレ再燃への警戒を強調し、2026年7月と10月のFOMCで利上げを主張して反対票を投じた、投票メンバーで最もタカ派的な一人。",
       "bio_url": "https://www.clevelandfed.org/people/profiles/h/hammack-beth-m",
-      "photo_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/people/profiles/h/hammack-beth-th.png"
+      "photo_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/people/profiles/h/hammack-beth-th.png",
+      "change_note": "2026年10月28日のFOMCで、据え置きに反対し0.25%の利上げを主張した(FRB声明、CNN・CNBC報道)。7月会合に続く利上げ主張の反対票で、タカ派の度合いを一段引き上げた。"
     },
     {
       "name_ja": "ローリー・ローガン",
@@ -118,10 +122,11 @@
       "role": "ダラス連銀総裁",
       "since": "2022年〜",
       "bio": "ニューヨーク連銀出身、資産購入・SOMA運営の専門家。",
-      "score": 2,
-      "rationale": "資産圧縮ペースやインフレの粘着性について慎重な発言が多く、タカ派とされる。",
+      "score": 3,
+      "rationale": "インフレの粘着性への警戒が強く、2026年7月のFOMCで利上げを主張して反対票を投じ、10月にはさらに0.5%以上の利上げが必要と述べたタカ派。",
       "bio_url": "https://www.dallasfed.org/fed/leadership/logan",
-      "photo_url": "https://www.dallasfed.org/~/media/Images/People/dallasfed/Logan_Lorie.jpg"
+      "photo_url": "https://www.dallasfed.org/~/media/Images/People/dallasfed/Logan_Lorie.jpg",
+      "change_note": "2026年10月1日の講演で、政策金利をさらに0.5%以上引き上げる必要があり、現在の政策は引き締め的ではないと述べた(ダラス連銀講演、Investinglive・Newsquawk報道)。"
     },
     {
       "name_ja": "ニール・カシュカリ",
@@ -129,10 +134,11 @@
       "role": "ミネアポリス連銀総裁",
       "since": "2016年〜",
       "bio": "元財務省高官(TARPの責任者)。",
-      "score": -1,
-      "rationale": "2017年の利上げに反対票を投じるなど歴史的にハト派として知られたが、2022年以降のインフレ高進を受けタカ派的発言も増え、現在は中立に近い。",
+      "score": 1,
+      "rationale": "歴史的にはハト派として知られたが、2026年は7月のFOMCで利上げを主張して反対票を投じ、10月にも追加利上げを見込むと述べるなど、引き締め寄りの姿勢に転じている。",
       "bio_url": "https://www.minneapolisfed.org/people/neel-kashkari",
-      "photo_url": "https://www.minneapolisfed.org/-/media/assets/people/neel-kashkari/neel-kashkari.jpg"
+      "photo_url": "https://www.minneapolisfed.org/-/media/assets/people/neel-kashkari/neel-kashkari.jpg",
+      "change_note": "2026年10月1日のロイターのインタビューで、インフレはなお高すぎるとし、年内にもう1回、2027年にも追加利上げを見込むと述べた(ロイター報道)。7月会合での利上げ主張の反対票と合わせ、基調が引き締め寄りに変わったと判断した。"
     }
   ],
   "boj": [
@@ -175,10 +181,11 @@
       "role": "審議委員",
       "since": "2022年7月〜",
       "bio": "元みずほ総合研究所チーフエコノミスト。",
-      "score": 2,
-      "rationale": "早くから金融政策の正常化の必要性を主張してきたタカ派として知られる。",
+      "score": 3,
+      "rationale": "早くから正常化の必要性を主張し、2026年は6月・7月・10月の決定会合で利上げを提案して反対票を投じた、政策委員で最もタカ派的な一人。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_takata.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/takata.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/takata.jpg",
+      "change_note": "2026年10月30日の金融政策決定会合で、据え置きに反対し政策金利を1.5%程度へ引き上げる議案を提出した(ロイター・外為どっとコム・OANDA報道)。6月・7月に続く利上げ提案で、タカ派の度合いを一段引き上げた。"
     },
     {
       "name_ja": "田村直樹",
@@ -197,10 +204,11 @@
       "role": "審議委員",
       "since": "2025年3月〜",
       "bio": "早稲田大学教授、金融政策理論が専門。",
-      "score": 0,
-      "rationale": "学術的・データに基づく発言が中心で、明確な方向性は示していない。",
+      "score": 1,
+      "rationale": "学術的・データに基づく発言が中心。基調的な物価は2%近くで定着しつつあるとし、2026年10月には利上げを適切なペースで続けるべきとの考えを示している。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_koeda.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/koeda.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/koeda.jpg",
+      "change_note": "2026年10月15日の熊本県金融経済懇談会での挨拶で、利上げに過度に慎重になるべきではなく、1.25%への引き上げ後もさらなる利上げが必要との考えを示した(日銀公表、時事通信・ロイター報道)。"
     },
     {
       "name_ja": "増一行",
