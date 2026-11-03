@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>分析の視点 2026-10-31</title><style>
+<title>分析の視点 2026-11-03</title><style>
 :root { --bg:#0d1117; --panel:#161b22; --panel2:#21262c; --border:#30363d; --text:#e6edf3;
   --muted:#8b949e; --accent:#58a6ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --watch:#a371f7; }
 * { box-sizing:border-box; }
@@ -44,94 +44,64 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
-<div class="top"><span>分析の視点 ・ 2026-10-30 NY引けまで</span>
-<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-10-31.html" selected>2026-10-31</option></select></div>
-<h1>来週の主戦場は「AIの需要」ではなく「AIの資金繰り」</h1><p class="lead">10/30は米SOXが-7.2%、ナスダック100が-3.5%、S&amp;P500が-1.8%。一方で米10年金利は-6bpと低下しており、金利起点ではなくAI投資の採算を疑う売りでした。日本株は米国の金曜の下げを月曜に受けることになります。</p>
-<div class="snap"><div><span>SOX</span><b>-7.2%</b></div><div><span>NDX</span><b>-3.5%</b></div><div><span>S&amp;P500</span><b>-1.8%</b></div><div><span>米10年</span><b>4.93% (-6bp)</b></div><div><span>日経平均</span><b>63,290 (-2.1%)</b></div><div><span>日経 20日高値比</span><b>-10.5%</b></div></div>
-<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="日米波及">日米波及</button><button data-t="金利">金利</button><button data-t="ディスパージョン">ディスパージョン</button><button data-t="出来高">出来高</button><button data-t="時間帯">時間帯</button><button data-t="ハイパースケーラー">ハイパースケーラー</button><button data-t="メモリ">メモリ</button><button data-t="需給・日銀">需給・日銀</button></div>
-<div class="grid"><article class="card" data-t="日米波及">
-<div class="meta"><span>日米波及</span><span class="badge ok">検証: 支持</span></div>
-<h2>月曜の東京は、SOX -7.2%をどこまで織り込むか</h2>
-<p>金曜の東京は米国の下げの前に引けている。Intel・Amazonの時間外には反応したが、SOX -7.2%の本番は月曜に来る。</p>
-<h3>データ</h3><ul><li>過去3年でSOXが-5%以下の翌営業日: 22回、日経平均は平均-2.34%、上昇は18%のみ、最悪-12.4%</li><li>SOX -3%以下まで広げると74回で平均-1.47%、上昇22%</li><li>直近120日の回帰では、SOX感応度0.21、米10年10bp低下で+0.44%。これを当てはめると日経は約-1.3%（決定係数0.18で説明力は低い）</li></ul>
+<div class="top"><span>分析の視点 ・ 2026-11-02 NY引けまで(東証は11/3休場)</span>
+<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-03.html" selected>2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
+<h1>選挙前夜に売られたのは「半導体全部」ではなく「NANDと指数の上位銘柄」</h1><p class="lead">11/2はSOXが-3.4%、ナスダック100が-1.4%、S&amp;P500が-0.5%と下げた一方、均等加重S&amp;P(RSP)は+0.8%でした。WTIは-7.5%と急落しています。東京ではキオクシアが-15.8%と急落しましたが、東エレクは+5.2%で、半導体が一括りに売られたわけではありません。11/3は米中間選挙の投票日で東証は休場のため、東京は11/4に米国2日分の材料をまとめて受けます。</p>
+<div class="snap"><div><span>SOX</span><b>-3.4%</b></div><div><span>NDX</span><b>-1.4%</b></div><div><span>S&amp;P500</span><b>-0.5%</b></div><div><span>均等加重−時価加重</span><b>+1.2pt</b></div><div><span>WTI</span><b>96.3 (-7.5%)</b></div><div><span>VIX</span><b>21.2 (+1.7)</b></div><div><span>日経平均(報道値)</span><b>63,082 (-0.3%)</b></div></div>
+<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="メモリ">メモリ</button><button data-t="原油">原油</button><button data-t="政策・季節性">政策・季節性</button><button data-t="ローテーション">ローテーション</button><button data-t="クレジット">クレジット</button></div>
+<div class="grid"><article class="card" data-t="メモリ">
+<div class="meta"><span>メモリ</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>キオクシア-16%は「AI半導体の天井」か、「NAND固有」の失望か</h2>
+<p>キオクシアの急落は10-12月期見通しが市場の期待に届かなかったことによる、NAND固有の材料。東京と韓国では装置やDRAMに波及しなかった。ただし米国ではサンディスクとSOXが下げており、「波及しない」と言い切れるのはアジア時間に限られる。</p>
+<h3>データ</h3><ul><li>11/2の値動き: キオクシア-15.8%、イビデン-3.8%、ソフトバンクG-1.6%に対し、東エレク+5.2%、アドバンテスト+2.6%、SKハイニックス+3.8%、サムスン電子+1.8%</li><li>東エレクがキオクシアを15pt以上上回った日は、上場以来453営業日で3回だけ(2025/11/14、2025/11/26、今回)。直近60日の両者の相関は0.66と高かった</li><li>同じ日付の米国サンディスクは-6.6%。回帰ではサンディスクの値動きはSOX(係数1.40)でほぼ説明され、キオクシアの係数は0.19(n=403)。キオクシアの-15.8%から推計される上乗せは約-3pt</li><li>キオクシアの-8%以下の日(28回)の後、5日後の平均は+6.1%、中央値は+2.5%で、上昇は61%(t=1.93)。ただし2026年7月に集中しており、独立したサンプルは少ない</li><li>6/22の高値から-68.7%(分割調整後の終値ベース)</li></ul>
 
-<h3>日本株への含意</h3><p>下げの主役は引き続き値がさ半導体。感応度はイビデン0.86、キオクシア0.60、アドバンテスト0.55、東エレク0.50で、TOPIX ETFは0.10。NT倍率の低下が読みやすい場面です。</p>
-<h3>見方を変える条件</h3><p>CME日経先物が金曜の東京の終値を大きく割らずに週末を終えていれば、金曜の下げで先取り済みと判断します。</p>
-<h3>発信用の一言</h3><p class="post">SOX-5%超の翌日、日経が上がったのは過去22回で18%だけ。月曜は指数より、NTと半導体の値幅を見る日。</p>
-<div class="src">ネタ元: <a href="https://www.morningstar.com/markets/tech-stocks-sell-off-amazon-intel-earnings-spook-investors" target="_blank" rel="noopener noreferrer">Morningstar: Intel・Amazon決算でハイテク売り</a> / <a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: 10/30の米国市場</a> / <a href="https://nikkei.com/article/DGXZQOFL29CHL0Z21C26A0000000" target="_blank" rel="noopener noreferrer">日経: 東証前引け、AI過剰投資の懸念で半導体売り</a></div>
-</article><article class="card" data-t="金利">
-<div class="meta"><span>金利</span><span class="badge warn">検証: 条件付き</span></div>
-<h2>いま日本株を動かすのは米金利より半導体</h2>
-<p>「金利上昇で株安」は単純には成立していない。株と金利の関係が弱まっており、AI固有の材料のほうが効いている。</p>
-<h3>データ</h3><ul><li>S&amp;P500と米10年金利変化の相関: 直近60日-0.05、250日-0.25</li><li>10/30は金利低下と株安が同時に発生（-6bp、S&amp;P-1.8%）</li><li>米10年10bp上昇に対する翌日の感応度(120日): 日経-0.44%、ソフトバンクG-1.04%、トヨタ-0.77%、三菱UFJ+0.47%。ただし決定係数は0.05〜0.18</li></ul>
+<h3>日本株への含意</h3><p>「メモリ」をまとめて扱わず、NAND(キオクシア)、DRAM/HBM(SKハイニックス)、装置(東エレク、アドバンテスト)に分けて話す局面です。11/4の東京は、サンディスク-6.6%とSOX-3.4%を受けて始まります。キオクシアがもう一段下げるかどうかより、東エレクとの値差が戻るかどうかで、波及の有無を判断できます。</p>
+<h3>見方を変える条件</h3><p>11/4に東エレク、アドバンテストがキオクシアと同じ方向に大きく下げれば、NAND固有ではなく半導体全体の売りと見直します。</p>
+<h3>発信用の一言</h3><p class="post">キオクシア-16%の日に東エレクは+5%。売られたのは「AI」ではなく「NAND価格の伸び」。</p>
+<div class="src">ネタ元: <a href="https://moneyworld.jp/news/detail?id=222233" target="_blank" rel="noopener noreferrer">QUICK Money World: キオクシア急落が重荷、日経平均は続落</a> / <a href="https://minkabu.jp/news/4649009" target="_blank" rel="noopener noreferrer">みんかぶ(株探): 日経平均大引け 11/2</a> / <a href="https://www.tradingkey.com/jp/analysis/stocks/more/262263277-japan-kioxia-price-jpy-sox-intc-sndk-amd-tradingkey" target="_blank" rel="noopener noreferrer">TradingKey: キオクシアが単日15%超急落</a></div>
+</article><article class="card" data-t="原油">
+<div class="meta"><span>原油</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>原油-7.5%は日本株の追い風になるか</h2>
+<p>長い目で見ると、原油の急落は日本株の翌日安につながりやすい。ただし直近1年は、原油高が日本株安を招く関係になっている。今回の下げは中東の外交進展を受けた供給リスクの後退(報道)で、追い風として効く条件はそろっている。</p>
+<h3>データ</h3><ul><li>WTIは11/2に-7.5%で96.3ドル。直前の20営業日では+14.3%上昇していた</li><li>2000年以降、WTIが-5%以下となった162回の翌営業日、日経平均は平均-0.49%、上昇は43%(t=-2.3)。全期間は平均+0.03%、上昇52%</li><li>日経平均と前日の米国原油の相関は、2000〜2025年が+0.08、直近250日が-0.16。直近250日では、原油が10%上がると日経は-0.83%</li><li>-5%以下の急落の後、原油の20日後リターンは平均+0.31%(2020年3〜5月を除くと+1.27%、中央値+2.76%)。急落がそのまま下落トレンドになる傾向は見られない</li><li>TOPIX-17業種ETFの原油感応度(直近1年、原油10%上昇あたり): 機械-1.04%、電機・精密-1.02%、自動車・輸送機-0.98%、エネルギー資源+0.52%。相関は-0.2前後と弱い</li></ul>
 
-<h3>日本株への含意</h3><p>金利の方向は指数より銀行対グロースの相対で使うのが素直です。三菱UFJとソフトバンクGで符号が逆になります。</p>
-<h3>見方を変える条件</h3><p>60日相関が-0.3より深く戻れば、金利主導の相場への回帰と判断します。</p>
-<h3>発信用の一言</h3><p class="post">金利が下がったのに株が売られた。今の下げは割引率ではなく、AI投資の回収を疑う売り。</p>
-<div class="src">ネタ元: <a href="https://www.businesstoday.com.my/2026/10/08/wall-street-ends-lower-with-30-year-treasury-yield-at-24-year-high/" target="_blank" rel="noopener noreferrer">Reuters経由: 米長期金利24年ぶり高水準（10月初）</a></div>
-</article><article class="card" data-t="ディスパージョン">
-<div class="meta"><span>ディスパージョン</span><span class="badge warn">検証: 条件付き</span></div>
-<h2>セクター格差が大きいと相場は下がるのか</h2>
-<p>格差の拡大そのものは下落を予告しない。効くのは「指数が高値圏のまま格差だけ開いた」組み合わせで、平均リターンより下振れ確率に表れる。</p>
-<h3>データ</h3><ul><li>米9セクターETFの20日リターン格差は7.18%、過去5年の96パーセンタイル。XLE+11.5%、XLV+11.2%に対しXLK-10.2%</li><li>1999年以降の最上位5分位: 20日後平均+0.89%で全期間+0.77%と差なし。ただし-5%以上の下落に遭う確率は28%で全期間18%、最下位5分位9%</li><li>高値から3%以内かつ最上位5分位（現在該当、421日）: 20日後平均-0.08%、上昇53%（全期間64%）、-5%下落確率22%</li></ul>
+<h3>日本株への含意</h3><p>今年は原油高がリスクオフとして働いているため、原油安は外需株、特に機械、電機、自動車の戻りの材料になります。ただし11/2の東京の引け時点で原油の下げがどこまで進んでいたかは、このデータでは確認できません。11/4にエネルギー資源と外需株の相対の動きを見れば、織り込みの程度が分かります。</p>
+<h3>見方を変える条件</h3><p>選挙後に中東の緊張が再燃して原油が急落前の水準に戻れば、今回の下げは一時的な外交期待だったと判断します(Xには選挙後の再燃を警戒する投稿があります、未検証)。</p>
+<h3>発信用の一言</h3><p class="post">過去26年は原油急落=日本株安。今年だけは原油安=日本株の追い風。違いは、下げの理由が需要か供給か。</p>
+<div class="src">ネタ元: <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: 11/2の米国市場(原油急落)</a> / <a href="https://www.fool.com/coverage/stock-market-today/2026/11/02/stock-market-midday-nov-2-stocks-rally-as-oil-prices-tumble-on-diplomatic-hopes/" target="_blank" rel="noopener noreferrer">Motley Fool: 外交期待で原油安</a> / <a href="https://x.com/OilandEnergy/status/2115127877364555854" target="_blank" rel="noopener noreferrer">OilPrice.com(X): 選挙後のイラン情勢再燃を警戒(未検証)</a></div>
+</article><article class="card" data-t="政策・季節性">
+<div class="meta"><span>政策・季節性</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>「中間選挙の後は株高」はどこまで当てになるか</h2>
+<p>1年後は6回とも上昇しており、平均も全期間を上回る。ただし直後の1〜3か月に限ると、選挙のない年の11月と大差はない。確実に見られるのはボラティリティの低下のほうだ。</p>
+<h3>データ</h3><ul><li>2000年以降の中間選挙6回(投票日前日の終値を起点): 250日後のS&amp;P500は6回とも上昇、平均+10.5%(全期間の250日平均は+7.85%)</li><li>20日後は平均+1.36%(上昇4/6)。選挙のない年の11月初めを起点とすると平均+0.63%(14回)。60日後は+2.64%対+2.33%でほぼ同じ</li><li>大統領選も含む12回の選挙で、VIXは投票後5日間に9回低下し、平均は-2.2pt。上昇したのは2008年などの危機局面</li><li>今回は11/2にS&amp;Pが-0.5%にとどまる一方、VIXは+1.7ptで21.2。選挙前のヘッジ需要とみられる</li><li>日経平均の中間選挙後20日: 6回中5回上昇</li></ul>
 
-<h3>日本株への含意</h3><p>「そろそろ下がる」と言い切るには弱く、ヘッジを厚くする理由としては使えます。指数の方向より、プットやポジション縮小の議論向きです。</p>
-<h3>見方を変える条件</h3><p>ローテーション先のヘルスケア・生活必需品が下がり始め、指数が崩れないまま格差が縮めば警戒解除です。</p>
-<h3>発信用の一言</h3><p class="post">格差拡大は下落サインではなく、裾が厚くなるサイン。平均は変わらないが、-5%に遭う確率は1.5倍。</p>
-<div class="src">ネタ元: <a href="https://fxstreet.com/analysis/warning-signs-in-the-stock-market-is-this-the-top-or-just-a-very-short-fuse-202607281504" target="_blank" rel="noopener noreferrer">FXStreet: 相関と分散指数の分析（7月）</a> / <a href="https://www.nationwide.com/financial-professionals/blog/markets-economy/articles/market-dispersion-is-back-why-stock-selection-matters-more-now" target="_blank" rel="noopener noreferrer">Nationwide: 分散の拡大（4月）</a></div>
-</article><article class="card" data-t="出来高">
-<div class="meta"><span>出来高</span><span class="badge bad">検証: 反証</span></div>
-<h2>出来高から見て底は入ったのか</h2>
-<p>現時点で「投げ」は確認できない。また、出来高クライマックス単独の底打ちサインとしての有効性も弱い。</p>
-<h3>データ</h3><ul><li>定義: 20日高値比-5%以下、当日-1.5%以下、出来高が50日平均の1.5倍以上</li><li>10/30の出来高倍率は日経1.08倍、S&amp;P0.84倍で未達。日経は20日高値比-10.5%まで下げたのに出来高が伴っていない</li><li>2005年以降の日経26回: 20日後+1.17%（全期間+0.84%）、上昇50%（同59%）。翌5日は-0.31%</li><li>S&amp;Pは12回で20日後+1.00%（同+0.79%）。高値上抜けで確認した8回はむしろ-6.16%（回数が少なく参考程度）</li></ul>
+<h3>日本株への含意</h3><p>東証は11/3が休場のため、選挙結果は11/4にまとめて織り込まれます。季節性を話すなら「選挙後に上がる」より「選挙後にボラティリティが下がりやすい」のほうが、データの裏付けがあります。n=6と少なく、Oppenheimerは今年はエネルギー価格のショックが選挙要因を上回っていると指摘しています(報道)。</p>
+<h3>見方を変える条件</h3><p>選挙結果が確定してもVIXが20を上回ったままなら、今のボラティリティの源は選挙ではなく、AIと中東の要因と判断します。</p>
+<h3>発信用の一言</h3><p class="post">中間選挙の後の1年は6戦6勝。ただ、すぐ効くのは株価よりVIXの低下。</p>
+<div class="src">ネタ元: <a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026" target="_blank" rel="noopener noreferrer">TheStreet: 中間選挙を前にS&amp;P500下落(11/2)</a> / <a href="https://www.oppenheimer.com/news-media/2026/insights/oam/why-this-season-feels-different" target="_blank" rel="noopener noreferrer">Oppenheimer: 今年の中間選挙が違う理由</a></div>
+</article><article class="card" data-t="ローテーション">
+<div class="meta"><span>ローテーション</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>指数は安いのに中身は強い。均等加重の独走は続くか</h2>
+<p>ダウ高・S&amp;P安が話題になった11/2、均等加重S&amp;P(RSP)は時価加重(SPY)を1.2pt上回った。直近10日の差は+4.9ptで、2004年以降の上位0.1%に入る。過去の同様の局面では、その後の指数はおおむね上がったが、均等加重の優位はいったん縮んでいた。</p>
+<h3>データ</h3><ul><li>RSP−SPY: 11/2は+1.24pt、2日間で+2.23pt、10日間で+4.92pt(2004年以降の99.9パーセンタイル)</li><li>条件「10日差+3pt以上かつSPYの10日リターンがマイナス」(30日以内の重複を除く): 該当9回、うち4回が2026年</li><li>結果が確定している8回: SPYの20日後は平均+0.27%(全期間+0.75%)、60日後は平均+6.15%で8回とも上昇</li><li>同じ8回で、RSPの対SPY超過リターンは20日後に平均-0.31pt、超過が続いたのは38%。乖離はいったん戻りやすい</li><li>サンプルは8回と少なく、2026年の局面が多くを占める</li></ul>
 
-<h3>日本株への含意</h3><p>底打ちを語るなら、出来高単独ではなく信用買い残の減少とセットで見るべきです。キオクシアの信用倍率は10/19時点で25倍と報告されており、整理途上です。</p>
-<h3>見方を変える条件</h3><p>月曜に倍率1.5倍超の陰線が出れば定義上のシグナル点灯。それでも単独では買い根拠にしません。</p>
-<h3>発信用の一言</h3><p class="post">日経は20日高値から1割下げたが出来高は平常並み。まだ投げは出ていない。</p>
-<div class="src">ネタ元: <a href="https://x.com/irbank/status/2112768487458537551" target="_blank" rel="noopener noreferrer">IRBANK: キオクシア信用需給（X投稿）</a></div>
-</article><article class="card" data-t="時間帯">
-<div class="meta"><span>時間帯</span><span class="badge bad">検証: 反証</span></div>
-<h2>「日本株は午前のほうが強い」は本当か</h2>
-<p>直近データでは逆。前場は弱く、昼休みから後場にかけて戻している。3年で見ても、日本株の上昇はほぼ寄り付きのギャップで生まれている。</p>
-<h3>データ</h3><ul><li>寄り〜前引け(TOPIX ETF): 直近20日-25.7bp/日(t=-2.0)、60日-6.4bp、120日-3.9bp</li><li>昼休み＋後場(同): 直近20日+11.2bp/日、60日+10.8bp、120日+3.2bp</li><li>2023年11月以降の日経ETF: ギャップ+9.6bp/日に対し、前場+0.5bp、後場+0.7bp（有意差なし）</li><li>下方ギャップ(-0.5%以下)後の前場は上昇56%（日経ETF、176回）と全体より高いが、有意ではない(t=0.71)</li></ul>
+<h3>日本株への含意</h3><p>日本はこの日、逆の形でした。TOPIX ETFが-0.82%だったのに対し、日経ETFは-0.11%で、値がさの東エレクとアドバンテストが日経平均を支えました。米国で「指数の上位銘柄だけが重い」状態が続くなら、日本でもTOPIX側(銀行を除く内需や小型株)への分散を話題にしやすくなります。</p>
+<h3>見方を変える条件</h3><p>SOXが反発する日にRSPがSPYを下回る形に戻れば、ローテーションではなくハイテク売りの裏返しにすぎなかったと判断します。</p>
+<h3>発信用の一言</h3><p class="post">S&amp;Pは下げたが、均等加重は上げた。10日で+5ptの差は2004年以降の上位0.1%。</p>
+<div class="src">ネタ元: <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: ハイテク売りの中でダウは上昇</a> / <a href="https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026" target="_blank" rel="noopener noreferrer">StockTitan: ハイテク株がナスダックを押し下げ</a></div>
+</article><article class="card" data-t="クレジット">
+<div class="meta"><span>クレジット</span><span class="badge watch">検証: 要観察</span></div>
+<h2>AIインフラ株の下げは社債に波及し始めたか</h2>
+<p>CoreWeaveとNebiusは2日で約-17%。ハイイールド債ETFは金利の影響を除いても弱く、AIインフラ株との連動も強まっている。ただし日次のETF価格はノイズが大きく、信用スプレッドそのものはこのデータでは確認できない。</p>
+<h3>データ</h3><ul><li>2日間騰落: CRWV-17.4%、NBIS-17.8%</li><li>HYG: 11/2は-0.70%、250日高値比-2.83%。金利部分を粗く控除した超過リターンは20日累計-1.4%</li><li>HYG超過リターンとCRWVの相関: 直近60日0.62、その前の250日0.28。SOXとの相関は0.59と0.54でほぼ変わらない</li><li>注意: 11/2は米10年金利が3.5bp低下したのにIEFも-0.28%。ETFの終値と金利の時刻のずれなどで、1日の値はぶれやすい。月初の分配落ちの影響を回帰で調べたが、系統的な効果は見られなかった(HYG +0.04pt)</li></ul>
 
-<h3>日本株への含意</h3><p>「午前が強い」と感じる場合は、ギャップ込みで見ている可能性があります。執行面では、足元は寄り付きで急がず後場まで待つ方が有利でしたが、20日のサンプルは短く、10月の下落局面の影響が大きい点に注意が必要です。</p>
-<h3>見方を変える条件</h3><p>60日平均で前場がプラス、後場がマイナスに反転すれば見直します。</p>
-<h3>発信用の一言</h3><p class="post">足元の日本株は前場に売られ、後場に戻す。上昇の大半は取引時間外に生まれている。</p>
-<div class="src">ネタ元: <a href="https://finance.yahoo.com/quote/1306.T/" target="_blank" rel="noopener noreferrer">Yahoo Finance 60分足（1306.T / 1321.T）から自前集計</a></div>
-</article><article class="card" data-t="ハイパースケーラー">
-<div class="meta"><span>ハイパースケーラー</span><span class="badge ok">検証: 支持</span></div>
-<h2>評価軸はクラウド成長からFCFへ移った</h2>
-<p>AWSが39%伸びてもAmazonは売られた。需要は疑われておらず、問われているのは投資を自己資金で賄えるかどうか。</p>
-<h3>データ</h3><ul><li>Amazon: 7-9月期capex 773億ドル（予想587億ドル）、TTM FCF -424億ドル、AWS +39%（報道）</li><li>Alphabet: 四半期FCF -91億ドル、2027年capexは大幅増の方針（報道）</li><li>Microsoft: 通期capex見通しを1,750→1,700億ドルに引き下げ。GPU供給遅延で2027年前半へずれ込む（CNBC）</li><li>Meta: 950億ドルの株式調達計画（報道）。買い手が外部資金に頼り始めている</li></ul>
-<div class="scroll"><table><caption>capex負担（直近4四半期、Yahoo Finance集計）</caption><thead><tr><th>銘柄</th><th>capex $bn</th><th>対売上</th><th>対営業CF</th><th>FCF $bn</th><th>予想PER</th></tr></thead><tbody><tr><td>ORCL</td><td>75.7</td><td>105%</td><td>161%</td><td>-28.7</td><td>11.8</td></tr><tr><td>GOOGL</td><td>159.8</td><td>34%</td><td>89%</td><td>19.7</td><td>18.5</td></tr><tr><td>META</td><td>104.4</td><td>43%</td><td>78%</td><td>28.6</td><td>17.3</td></tr><tr><td>MSFT</td><td>135.9</td><td>39%</td><td>69%</td><td>60.0</td><td>21.6</td></tr></tbody></table></div><div class="note">AMZNはYahooの財務データが2026年3月期で止まっているため除外し、上の報道値を参照。</div>
-<h3>日本株への含意</h3><p>ハイパースケーラーのcapexはアドバンテスト、イビデン、フジクラなどの売上です。「capex増額＝サプライヤー買い」の連想は、買い手のFCF悪化が材料視されるほど効きにくくなります。Microsoftの延期は需要減ではなく納期の問題で、区別が必要です。</p>
-<h3>見方を変える条件</h3><p>12月〜1月の決算で営業CFの伸びがcapexの伸びに追いつく、または2027年capex計画が社債市場に無難に消化されれば、懸念は後退します。</p>
-<h3>発信用の一言</h3><p class="post">AIの需要ではなく、資金繰りが売られている。AWS+39%でも株が下がる局面に入った。</p>
-<div class="src">ネタ元: <a href="https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html" target="_blank" rel="noopener noreferrer">CNBC: GoogleとMicrosoftがcapex上方修正を見送り</a> / <a href="https://www.cnbc.com/2026/10/30/tech-giants-alphabet-meta-microsoft-amazon-ai-buildouts.html" target="_blank" rel="noopener noreferrer">CNBC: レガシー事業がAI投資を支える構図</a> / <a href="https://pomegra.io/news/amazon-q3-2026-capex-hits-773b-shares-slide-7" target="_blank" rel="noopener noreferrer">Pomegra: Amazon Q3 capex 773億ドル</a> / <a href="https://mlq.ai/news/microsofts-ai-capex-falls-below-target-as-alphabet-keeps-spending-plan-intact/" target="_blank" rel="noopener noreferrer">mlq.ai: Microsoft・Alphabetのcapex</a></div>
-</article><article class="card" data-t="メモリ">
-<div class="meta"><span>メモリ</span><span class="badge watch">検証: 要観察</span></div>
-<h2>PER4倍のメモリ株は安いのか</h2>
-<p>予想PER4倍台は割安というより、市場が「今の利益はピーク」と見ている数字。シクリカルの低PERは、むしろ天井圏で出やすい。</p>
-<h3>データ</h3><ul><li>予想PER: Micron 4.3倍、SanDisk 4.2倍。一方PBRは7.2倍、10.9倍</li><li>営業利益率: Micron 81%、SanDisk 78%、キオクシア72%。SK hynixは7-9月期に80%（過去最高）</li><li>高値比: Micron-27%、SanDisk-51%、キオクシア-63%（高値は6/22、分割調整後）。好決算でも下げている</li><li>新しい論点: IntelはPC需要の鈍化を指摘。メモリ高がPC需要を削る「需要破壊」が決算に表れ始めた可能性</li></ul>
-
-<h3>日本株への含意</h3><p>キオクシアと米メモリ株の翌日連動は相関0.35、ベータ0.37（直近120日）と意外に弱く、東京固有の信用需給が値動きを支配している可能性があります。評価はPERよりPBRと営業利益率の平準化を前提に行うべきです。</p>
-<h3>見方を変える条件</h3><p>SK hynixによると2027-28年の生産能力の5割超を長期契約で確保。これが価格の下支えとして機能し、契約価格の上昇が続くならピーク論は早計です。</p>
-<h3>発信用の一言</h3><p class="post">利益率80%のメモリ株のPER4倍は「安い」ではなく「ピーク認定」。見るべきは次の契約価格の上昇率。</p>
-<div class="src">ネタ元: <a href="https://www.stocktitan.net/news/SKHY/sk-hynix-announces-3q26-financial-fcr2bh8ikc0x.html" target="_blank" rel="noopener noreferrer">SK hynix 3Q26発表</a> / <a href="https://investinglive.com/stocks/sk-hynix-q3-operating-profit-beats-at-83tn-won-unveils-100tn-won-shareholder-payout-plan/" target="_blank" rel="noopener noreferrer">investingLive: SK hynix Q3</a> / <a href="https://www.morningstar.com/markets/tech-stocks-sell-off-amazon-intel-earnings-spook-investors" target="_blank" rel="noopener noreferrer">Morningstar: Intelの弱さとメモリ高</a></div>
-</article><article class="card" data-t="需給・日銀">
-<div class="meta"><span>需給・日銀</span><span class="badge watch">検証: 要観察</span></div>
-<h2>日銀のタカ派据え置きとETF売却増額をどう読むか</h2>
-<p>据え置きでも中身はタカ派。ただしETF売却の増額は、需給面ではヘッドラインほど大きくない。</p>
-<h3>データ</h3><ul><li>政策金利1.25%で据え置き（8対1）。基調インフレが2%に到達と評価し、12月利上げの見方が強まった（Reuters・Bloomberg）</li><li>ETF売却ペースを1月から年3,300億円→8,600億円に増額。約245営業日で割ると1日およそ35億円</li><li>海外投資家の現物は10月第1週+1兆4,318億円、第2週-3,654億円、第3週+244億円。第3週は日経-4.02%でも海外勢は売り越していない</li></ul>
-
-<h3>日本株への含意</h3><p>海外勢が売っていない週に指数が4%下げた点は、下げの主因が信用や先物など別の主体にある可能性を示します。次回公表の主体別動向で、海外勢が売りに転じたかが重要です。</p>
-<h3>見方を変える条件</h3><p>12月会合前に円高が急進し、銀行株まで売られるなら、利上げ期待が株全体の重荷に変わったサインです。</p>
-<h3>発信用の一言</h3><p class="post">ETF売却1日35億円は需給の主役ではない。主役は12月利上げと、海外勢が売りに回るかどうか。</p>
-<div class="src">ネタ元: <a href="https://finance.yahoo.com/economy/policy/articles/bank-japan-hold-rates-signal-210126915.html" target="_blank" rel="noopener noreferrer">Yahoo Finance(Reuters): 日銀、物価目標到達を宣言</a> / <a href="https://www.bloomberg.com/news/articles/2026-10-30/boj-holds-benchmark-rate-steady-as-expected-after-september-hike" target="_blank" rel="noopener noreferrer">Bloomberg: 日銀据え置き</a> / <a href="https://www.nikkei.com/article/DGXZQOFL293L9TZ21C26A0000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第3週</a> / <a href="https://www.nikkei.com/article/DGXZQOFL225UNTS6A021C2000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第2週</a> / <a href="https://www.nikkei.com/article/DGXZQOFL166I7TW6A011C2000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第1週</a></div>
+<h3>日本株への含意</h3><p>ソフトバンクG(11/2 -1.6%)などAIの資金繰りに関わる銘柄は、株価より社債やCDSで先に変化が出る可能性があります。確かめ方として、ICE BofAのハイイールドOAS(FRED)と、AI関連発行体の社債利回りを週次で追うことを提案します。</p>
+<h3>見方を変える条件</h3><p>HY OASが横ばいのままCRWVなどが下げ続けるなら、株式固有の調整にとどまっていると判断します。</p>
+<h3>発信用の一言</h3><p class="post">AIインフラ株とハイイールド債の連動は、相関0.28から0.62へ。信用スプレッドを確かめる段階。</p>
+<div class="src">ネタ元: <a href="https://x.com/GlobalMktObserv/status/2114764684536467699" target="_blank" rel="noopener noreferrer">Global Markets Investor(X): CRWVが10/6以来-41%(未検証)</a> / <a href="https://x.com/DavidKWilliams/status/2081946402926551420" target="_blank" rel="noopener noreferrer">X投稿: AIの資金調達の循環構造への懸念(未検証)</a></div>
 </article></div>
-<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/wallstengine/status/2092946562905424159" target="_blank" rel="noopener noreferrer">S&amp;Pがハイパースケーラーの営業FCFを2026〜27年とも赤字と見込むとの投稿</a>（原典未確認）</p><p>原文のS&amp;Pレポートを確認できれば、FCF論の強い材料になる。</p></div><div class="x"><p><a href="https://x.com/puckrin/status/2116096171387072740" target="_blank" rel="noopener noreferrer">Intel急落は「AIがメモリを吸い上げ、PC需要を壊した」結果という見方</a>（個人の見解）</p><p>AI勝ち組の裏の負け組を探す視点。スマホ・PC関連の日本部品株に応用できる。</p></div><div class="x"><p><a href="https://x.com/jimcramer/status/2116107768675610636" target="_blank" rel="noopener noreferrer">Cramer氏: 材料のないJNJやCOFが上がる値動きを、機械的な資金移動の表れと指摘</a>（個人の見解）</p><p>ディスパージョンの裏で何が買われたかを確認するきっかけになる。</p></div><div class="x"><p><a href="https://x.com/MarketWatch/status/2116215489814741129" target="_blank" rel="noopener noreferrer">MarketWatch: Intel急落でも押し目買いの理由はないとのアナリスト評</a>（報道）</p><p>「売られすぎ」の声が少ない銘柄は、まだ投げが出ていない可能性がある。</p></div><div class="x"><p><a href="https://x.com/MarioNawfal/status/2116251858289463300" target="_blank" rel="noopener noreferrer">PIMCOがAI関連債券を半減させたことが売りの引き金になったという主張</a>（裏付けなし）</p><p>事実なら重要だが、裏付けは見つかっていない。発信には使わず、クレジット市場の確認に留める。</p></div><div class="x"><p><a href="https://x.com/nicosokufx/status/2115716909996056612" target="_blank" rel="noopener noreferrer">TOPIXリバランスで推計需要と逆方向に動いたという投稿</a>（個人の見解）</p><p>イベント需給は先回りが混雑すると逆に動く。次回の指数イベントで検証できるテーマ。</p></div>
-<p class="method">定量値はYahoo Financeのデータから自前で算出（insights/src/compute_signals.py）。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
+<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm" target="_blank" rel="noopener noreferrer">Marvell、Lumentumを全株式交換で買収と発表(企業価値1,150億ドル、SEC提出書類)</a>（一次情報(8-K)）</p><p>買い手が希薄化を嫌われる典型例。11/2の両社の株価反応は報道で食い違いがあり、検証用データ(S&amp;P採用銘柄)は10/30までのため未確認。</p></div><div class="x"><p><a href="https://x.com/StockSavvyShay/status/2081768408782438674" target="_blank" rel="noopener noreferrer">Morgan Stanleyがメモリの契約価格は2026年末にピークと見ている、との投稿</a>（原典未確認）</p><p>キオクシアの見通し鈍化と整合的。ただし価格のピークと利益のピークは別、という反論も同じ投稿に含まれている。</p></div><div class="x"><p><a href="https://x.com/OilandEnergy/status/2115127877364555854" target="_blank" rel="noopener noreferrer">原油市場は選挙後のイラン情勢再燃を織り込んでいる、とのOilPrice.comの投稿</a>（未検証）</p><p>11/2の原油急落が外交期待による一時的なものかどうかを、選挙後の値動きで判定できる。</p></div><div class="x"><p><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026" target="_blank" rel="noopener noreferrer">Apple決算(11/2引け後)で伸びが鈍化し株価下落との報道</a>（報道・詳細未確認）</p><p>メモリ価格の上昇がハード製品の利益率を圧迫する論点と結び付く可能性がある。詳細とAAPLの株価データは未確認。</p></div><div class="x"><p><a href="https://x.com/DavidKWilliams/status/2081946402926551420" target="_blank" rel="noopener noreferrer">中国CXMTの大型IPOでメモリ供給が増えるとの指摘</a>（個人の見解）</p><p>メモリ相場がピークを付けたかを議論する際の、供給側の材料。</p></div>
+<p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-03.py、結果は insights/data/analysis/2026-11-03.json)。日経平均の11/2終値は取得データに含まれないため報道値です。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>
 document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
   document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));

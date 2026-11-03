@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分析の視点 2026-11-03</title><style>
+:root { --bg:#0d1117; --panel:#161b22; --panel2:#21262c; --border:#30363d; --text:#e6edf3;
+  --muted:#8b949e; --accent:#58a6ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --watch:#a371f7; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); line-height:1.65;
+  font-family:-apple-system,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif; }
+.wrap { max-width:1120px; margin:0 auto; padding:24px 20px 56px; }
+.top { display:flex; justify-content:space-between; gap:12px; align-items:center; color:var(--muted); font-size:.8rem; }
+select { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:5px; padding:4px 8px; }
+h1 { font-size:1.5rem; line-height:1.35; margin:10px 0 8px; }
+.lead { color:var(--muted); max-width:820px; margin:0 0 18px; }
+.snap { display:grid; grid-template-columns:repeat(auto-fit,minmax(135px,1fr)); gap:8px; margin-bottom:18px; }
+.snap div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.snap span { display:block; color:var(--muted); font-size:.72rem; }
+.snap b { font-size:1rem; font-variant-numeric:tabular-nums; }
+.filters { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; }
+.filters button { background:var(--panel2); border:1px solid var(--border); color:var(--text);
+  padding:5px 12px; border-radius:5px; cursor:pointer; font-size:.8rem; }
+.filters button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+.grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; align-items:start; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px 18px; min-width:0; }
+.meta { display:flex; justify-content:space-between; gap:8px; font-size:.75rem; color:var(--muted); }
+.badge { font-weight:600; }
+.ok { color:var(--ok); } .warn { color:var(--warn); } .bad { color:var(--bad); } .watch { color:var(--watch); }
+h2 { font-size:1.08rem; line-height:1.4; margin:6px 0 8px; }
+h3 { font-size:.74rem; color:var(--muted); margin:12px 0 2px; font-weight:600; }
+p { margin:0; font-size:.88rem; } ul { margin:0; padding-left:1.1em; font-size:.84rem; } li { margin:2px 0; }
+.post { background:var(--panel2); border-left:3px solid var(--accent); padding:7px 10px; border-radius:0 5px 5px 0; }
+.scroll { overflow-x:auto; margin-top:10px; }
+table { width:100%; border-collapse:collapse; font-size:.8rem; font-variant-numeric:tabular-nums; }
+caption { text-align:left; color:var(--muted); font-size:.74rem; padding-bottom:4px; }
+th,td { padding:4px 8px; border-bottom:1px solid var(--border); text-align:right; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; } th { color:var(--muted); font-weight:500; }
+.note { color:var(--muted); font-size:.74rem; margin-top:4px; }
+.src { margin-top:12px; font-size:.74rem; color:var(--muted); }
+a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.section { font-size:1.15rem; margin:30px 0 10px; }
+.x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+.x p + p { color:var(--muted); font-size:.82rem; }
+.method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+@media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
+</style></head>
+<body><div class="wrap">
+<div class="top"><span>分析の視点 ・ 2026-11-02 NY引けまで(東証は11/3休場)</span>
+<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-03.html" selected>2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
+<h1>選挙前夜に売られたのは「半導体全部」ではなく「NANDと指数の上位銘柄」</h1><p class="lead">11/2はSOXが-3.4%、ナスダック100が-1.4%、S&amp;P500が-0.5%と下げた一方、均等加重S&amp;P(RSP)は+0.8%でした。WTIは-7.5%と急落しています。東京ではキオクシアが-15.8%と急落しましたが、東エレクは+5.2%で、半導体が一括りに売られたわけではありません。11/3は米中間選挙の投票日で東証は休場のため、東京は11/4に米国2日分の材料をまとめて受けます。</p>
+<div class="snap"><div><span>SOX</span><b>-3.4%</b></div><div><span>NDX</span><b>-1.4%</b></div><div><span>S&amp;P500</span><b>-0.5%</b></div><div><span>均等加重−時価加重</span><b>+1.2pt</b></div><div><span>WTI</span><b>96.3 (-7.5%)</b></div><div><span>VIX</span><b>21.2 (+1.7)</b></div><div><span>日経平均(報道値)</span><b>63,082 (-0.3%)</b></div></div>
+<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="メモリ">メモリ</button><button data-t="原油">原油</button><button data-t="政策・季節性">政策・季節性</button><button data-t="ローテーション">ローテーション</button><button data-t="クレジット">クレジット</button></div>
+<div class="grid"><article class="card" data-t="メモリ">
+<div class="meta"><span>メモリ</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>キオクシア-16%は「AI半導体の天井」か、「NAND固有」の失望か</h2>
+<p>キオクシアの急落は10-12月期見通しが市場の期待に届かなかったことによる、NAND固有の材料。東京と韓国では装置やDRAMに波及しなかった。ただし米国ではサンディスクとSOXが下げており、「波及しない」と言い切れるのはアジア時間に限られる。</p>
+<h3>データ</h3><ul><li>11/2の値動き: キオクシア-15.8%、イビデン-3.8%、ソフトバンクG-1.6%に対し、東エレク+5.2%、アドバンテスト+2.6%、SKハイニックス+3.8%、サムスン電子+1.8%</li><li>東エレクがキオクシアを15pt以上上回った日は、上場以来453営業日で3回だけ(2025/11/14、2025/11/26、今回)。直近60日の両者の相関は0.66と高かった</li><li>同じ日付の米国サンディスクは-6.6%。回帰ではサンディスクの値動きはSOX(係数1.40)でほぼ説明され、キオクシアの係数は0.19(n=403)。キオクシアの-15.8%から推計される上乗せは約-3pt</li><li>キオクシアの-8%以下の日(28回)の後、5日後の平均は+6.1%、中央値は+2.5%で、上昇は61%(t=1.93)。ただし2026年7月に集中しており、独立したサンプルは少ない</li><li>6/22の高値から-68.7%(分割調整後の終値ベース)</li></ul>
+
+<h3>日本株への含意</h3><p>「メモリ」をまとめて扱わず、NAND(キオクシア)、DRAM/HBM(SKハイニックス)、装置(東エレク、アドバンテスト)に分けて話す局面です。11/4の東京は、サンディスク-6.6%とSOX-3.4%を受けて始まります。キオクシアがもう一段下げるかどうかより、東エレクとの値差が戻るかどうかで、波及の有無を判断できます。</p>
+<h3>見方を変える条件</h3><p>11/4に東エレク、アドバンテストがキオクシアと同じ方向に大きく下げれば、NAND固有ではなく半導体全体の売りと見直します。</p>
+<h3>発信用の一言</h3><p class="post">キオクシア-16%の日に東エレクは+5%。売られたのは「AI」ではなく「NAND価格の伸び」。</p>
+<div class="src">ネタ元: <a href="https://moneyworld.jp/news/detail?id=222233" target="_blank" rel="noopener noreferrer">QUICK Money World: キオクシア急落が重荷、日経平均は続落</a> / <a href="https://minkabu.jp/news/4649009" target="_blank" rel="noopener noreferrer">みんかぶ(株探): 日経平均大引け 11/2</a> / <a href="https://www.tradingkey.com/jp/analysis/stocks/more/262263277-japan-kioxia-price-jpy-sox-intc-sndk-amd-tradingkey" target="_blank" rel="noopener noreferrer">TradingKey: キオクシアが単日15%超急落</a></div>
+</article><article class="card" data-t="原油">
+<div class="meta"><span>原油</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>原油-7.5%は日本株の追い風になるか</h2>
+<p>長い目で見ると、原油の急落は日本株の翌日安につながりやすい。ただし直近1年は、原油高が日本株安を招く関係になっている。今回の下げは中東の外交進展を受けた供給リスクの後退(報道)で、追い風として効く条件はそろっている。</p>
+<h3>データ</h3><ul><li>WTIは11/2に-7.5%で96.3ドル。直前の20営業日では+14.3%上昇していた</li><li>2000年以降、WTIが-5%以下となった162回の翌営業日、日経平均は平均-0.49%、上昇は43%(t=-2.3)。全期間は平均+0.03%、上昇52%</li><li>日経平均と前日の米国原油の相関は、2000〜2025年が+0.08、直近250日が-0.16。直近250日では、原油が10%上がると日経は-0.83%</li><li>-5%以下の急落の後、原油の20日後リターンは平均+0.31%(2020年3〜5月を除くと+1.27%、中央値+2.76%)。急落がそのまま下落トレンドになる傾向は見られない</li><li>TOPIX-17業種ETFの原油感応度(直近1年、原油10%上昇あたり): 機械-1.04%、電機・精密-1.02%、自動車・輸送機-0.98%、エネルギー資源+0.52%。相関は-0.2前後と弱い</li></ul>
+
+<h3>日本株への含意</h3><p>今年は原油高がリスクオフとして働いているため、原油安は外需株、特に機械、電機、自動車の戻りの材料になります。ただし11/2の東京の引け時点で原油の下げがどこまで進んでいたかは、このデータでは確認できません。11/4にエネルギー資源と外需株の相対の動きを見れば、織り込みの程度が分かります。</p>
+<h3>見方を変える条件</h3><p>選挙後に中東の緊張が再燃して原油が急落前の水準に戻れば、今回の下げは一時的な外交期待だったと判断します(Xには選挙後の再燃を警戒する投稿があります、未検証)。</p>
+<h3>発信用の一言</h3><p class="post">過去26年は原油急落=日本株安。今年だけは原油安=日本株の追い風。違いは、下げの理由が需要か供給か。</p>
+<div class="src">ネタ元: <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: 11/2の米国市場(原油急落)</a> / <a href="https://www.fool.com/coverage/stock-market-today/2026/11/02/stock-market-midday-nov-2-stocks-rally-as-oil-prices-tumble-on-diplomatic-hopes/" target="_blank" rel="noopener noreferrer">Motley Fool: 外交期待で原油安</a> / <a href="https://x.com/OilandEnergy/status/2115127877364555854" target="_blank" rel="noopener noreferrer">OilPrice.com(X): 選挙後のイラン情勢再燃を警戒(未検証)</a></div>
+</article><article class="card" data-t="政策・季節性">
+<div class="meta"><span>政策・季節性</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>「中間選挙の後は株高」はどこまで当てになるか</h2>
+<p>1年後は6回とも上昇しており、平均も全期間を上回る。ただし直後の1〜3か月に限ると、選挙のない年の11月と大差はない。確実に見られるのはボラティリティの低下のほうだ。</p>
+<h3>データ</h3><ul><li>2000年以降の中間選挙6回(投票日前日の終値を起点): 250日後のS&amp;P500は6回とも上昇、平均+10.5%(全期間の250日平均は+7.85%)</li><li>20日後は平均+1.36%(上昇4/6)。選挙のない年の11月初めを起点とすると平均+0.63%(14回)。60日後は+2.64%対+2.33%でほぼ同じ</li><li>大統領選も含む12回の選挙で、VIXは投票後5日間に9回低下し、平均は-2.2pt。上昇したのは2008年などの危機局面</li><li>今回は11/2にS&amp;Pが-0.5%にとどまる一方、VIXは+1.7ptで21.2。選挙前のヘッジ需要とみられる</li><li>日経平均の中間選挙後20日: 6回中5回上昇</li></ul>
+
+<h3>日本株への含意</h3><p>東証は11/3が休場のため、選挙結果は11/4にまとめて織り込まれます。季節性を話すなら「選挙後に上がる」より「選挙後にボラティリティが下がりやすい」のほうが、データの裏付けがあります。n=6と少なく、Oppenheimerは今年はエネルギー価格のショックが選挙要因を上回っていると指摘しています(報道)。</p>
+<h3>見方を変える条件</h3><p>選挙結果が確定してもVIXが20を上回ったままなら、今のボラティリティの源は選挙ではなく、AIと中東の要因と判断します。</p>
+<h3>発信用の一言</h3><p class="post">中間選挙の後の1年は6戦6勝。ただ、すぐ効くのは株価よりVIXの低下。</p>
+<div class="src">ネタ元: <a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026" target="_blank" rel="noopener noreferrer">TheStreet: 中間選挙を前にS&amp;P500下落(11/2)</a> / <a href="https://www.oppenheimer.com/news-media/2026/insights/oam/why-this-season-feels-different" target="_blank" rel="noopener noreferrer">Oppenheimer: 今年の中間選挙が違う理由</a></div>
+</article><article class="card" data-t="ローテーション">
+<div class="meta"><span>ローテーション</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>指数は安いのに中身は強い。均等加重の独走は続くか</h2>
+<p>ダウ高・S&amp;P安が話題になった11/2、均等加重S&amp;P(RSP)は時価加重(SPY)を1.2pt上回った。直近10日の差は+4.9ptで、2004年以降の上位0.1%に入る。過去の同様の局面では、その後の指数はおおむね上がったが、均等加重の優位はいったん縮んでいた。</p>
+<h3>データ</h3><ul><li>RSP−SPY: 11/2は+1.24pt、2日間で+2.23pt、10日間で+4.92pt(2004年以降の99.9パーセンタイル)</li><li>条件「10日差+3pt以上かつSPYの10日リターンがマイナス」(30日以内の重複を除く): 該当9回、うち4回が2026年</li><li>結果が確定している8回: SPYの20日後は平均+0.27%(全期間+0.75%)、60日後は平均+6.15%で8回とも上昇</li><li>同じ8回で、RSPの対SPY超過リターンは20日後に平均-0.31pt、超過が続いたのは38%。乖離はいったん戻りやすい</li><li>サンプルは8回と少なく、2026年の局面が多くを占める</li></ul>
+
+<h3>日本株への含意</h3><p>日本はこの日、逆の形でした。TOPIX ETFが-0.82%だったのに対し、日経ETFは-0.11%で、値がさの東エレクとアドバンテストが日経平均を支えました。米国で「指数の上位銘柄だけが重い」状態が続くなら、日本でもTOPIX側(銀行を除く内需や小型株)への分散を話題にしやすくなります。</p>
+<h3>見方を変える条件</h3><p>SOXが反発する日にRSPがSPYを下回る形に戻れば、ローテーションではなくハイテク売りの裏返しにすぎなかったと判断します。</p>
+<h3>発信用の一言</h3><p class="post">S&amp;Pは下げたが、均等加重は上げた。10日で+5ptの差は2004年以降の上位0.1%。</p>
+<div class="src">ネタ元: <a href="https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: ハイテク売りの中でダウは上昇</a> / <a href="https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026" target="_blank" rel="noopener noreferrer">StockTitan: ハイテク株がナスダックを押し下げ</a></div>
+</article><article class="card" data-t="クレジット">
+<div class="meta"><span>クレジット</span><span class="badge watch">検証: 要観察</span></div>
+<h2>AIインフラ株の下げは社債に波及し始めたか</h2>
+<p>CoreWeaveとNebiusは2日で約-17%。ハイイールド債ETFは金利の影響を除いても弱く、AIインフラ株との連動も強まっている。ただし日次のETF価格はノイズが大きく、信用スプレッドそのものはこのデータでは確認できない。</p>
+<h3>データ</h3><ul><li>2日間騰落: CRWV-17.4%、NBIS-17.8%</li><li>HYG: 11/2は-0.70%、250日高値比-2.83%。金利部分を粗く控除した超過リターンは20日累計-1.4%</li><li>HYG超過リターンとCRWVの相関: 直近60日0.62、その前の250日0.28。SOXとの相関は0.59と0.54でほぼ変わらない</li><li>注意: 11/2は米10年金利が3.5bp低下したのにIEFも-0.28%。ETFの終値と金利の時刻のずれなどで、1日の値はぶれやすい。月初の分配落ちの影響を回帰で調べたが、系統的な効果は見られなかった(HYG +0.04pt)</li></ul>
+
+<h3>日本株への含意</h3><p>ソフトバンクG(11/2 -1.6%)などAIの資金繰りに関わる銘柄は、株価より社債やCDSで先に変化が出る可能性があります。確かめ方として、ICE BofAのハイイールドOAS(FRED)と、AI関連発行体の社債利回りを週次で追うことを提案します。</p>
+<h3>見方を変える条件</h3><p>HY OASが横ばいのままCRWVなどが下げ続けるなら、株式固有の調整にとどまっていると判断します。</p>
+<h3>発信用の一言</h3><p class="post">AIインフラ株とハイイールド債の連動は、相関0.28から0.62へ。信用スプレッドを確かめる段階。</p>
+<div class="src">ネタ元: <a href="https://x.com/GlobalMktObserv/status/2114764684536467699" target="_blank" rel="noopener noreferrer">Global Markets Investor(X): CRWVが10/6以来-41%(未検証)</a> / <a href="https://x.com/DavidKWilliams/status/2081946402926551420" target="_blank" rel="noopener noreferrer">X投稿: AIの資金調達の循環構造への懸念(未検証)</a></div>
+</article></div>
+<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm" target="_blank" rel="noopener noreferrer">Marvell、Lumentumを全株式交換で買収と発表(企業価値1,150億ドル、SEC提出書類)</a>（一次情報(8-K)）</p><p>買い手が希薄化を嫌われる典型例。11/2の両社の株価反応は報道で食い違いがあり、検証用データ(S&amp;P採用銘柄)は10/30までのため未確認。</p></div><div class="x"><p><a href="https://x.com/StockSavvyShay/status/2081768408782438674" target="_blank" rel="noopener noreferrer">Morgan Stanleyがメモリの契約価格は2026年末にピークと見ている、との投稿</a>（原典未確認）</p><p>キオクシアの見通し鈍化と整合的。ただし価格のピークと利益のピークは別、という反論も同じ投稿に含まれている。</p></div><div class="x"><p><a href="https://x.com/OilandEnergy/status/2115127877364555854" target="_blank" rel="noopener noreferrer">原油市場は選挙後のイラン情勢再燃を織り込んでいる、とのOilPrice.comの投稿</a>（未検証）</p><p>11/2の原油急落が外交期待による一時的なものかどうかを、選挙後の値動きで判定できる。</p></div><div class="x"><p><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026" target="_blank" rel="noopener noreferrer">Apple決算(11/2引け後)で伸びが鈍化し株価下落との報道</a>（報道・詳細未確認）</p><p>メモリ価格の上昇がハード製品の利益率を圧迫する論点と結び付く可能性がある。詳細とAAPLの株価データは未確認。</p></div><div class="x"><p><a href="https://x.com/DavidKWilliams/status/2081946402926551420" target="_blank" rel="noopener noreferrer">中国CXMTの大型IPOでメモリ供給が増えるとの指摘</a>（個人の見解）</p><p>メモリ相場がピークを付けたかを議論する際の、供給側の材料。</p></div>
+<p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-03.py、結果は insights/data/analysis/2026-11-03.json)。日経平均の11/2終値は取得データに含まれないため報道値です。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
+</div><script>
+document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.querySelectorAll('.card').forEach(c => {
+    c.style.display = (b.dataset.t === 'all' || c.dataset.t === b.dataset.t) ? '' : 'none';
+  });
+});
+</script></body></html>
