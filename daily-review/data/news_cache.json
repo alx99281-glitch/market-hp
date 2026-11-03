@@ -4438,5 +4438,159 @@
       }
     ],
     "searched_at": "2026-10-31T10:31:26.158830+00:00"
+  },
+  "us:2026-11-02:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget」",
+    "sources": [
+      {
+        "title": "CNBC Markets: The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+        "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:00:56.350300+00:00"
+  },
+  "us:2026-11-02:sector:Consumer Discretionary": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms」「Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds」「Fed will vote on rates less often. What that could mean for borrowers」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+        "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+      },
+      {
+        "title": "CNBC Economy: Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
+        "url": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html"
+      },
+      {
+        "title": "CNBC Economy: Fed will vote on rates less often. What that could mean for borrowers",
+        "url": "https://www.cnbc.com/2026/11/02/fed-rate-votes-consumer-borrowing-costs.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:00:55.952249+00:00"
+  },
+  "us:2026-11-02:factor:Size": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms」「Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds」「Fed will vote on rates less often. What that could mean for borrowers」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+        "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+      },
+      {
+        "title": "CNBC Economy: Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
+        "url": "https://www.cnbc.com/2026/11/02/remote-work-in-office-mandate-new-york-fed.html"
+      },
+      {
+        "title": "CNBC Economy: Fed will vote on rates less often. What that could mean for borrowers",
+        "url": "https://www.cnbc.com/2026/11/02/fed-rate-votes-consumer-borrowing-costs.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:00:55.958378+00:00"
+  },
+  "us:2026-11-02:factor:Liquidity": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「India’s finance minister says market liquidity makes it easier for investors to exit」",
+    "sources": [
+      {
+        "title": "CNBC Markets: India’s finance minister says market liquidity makes it easier for investors to exit",
+        "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:00:55.964413+00:00"
+  },
+  "us:2026-11-02:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Lumentum CEO touts 'enormous' opportunity in massive AI connectivity deal with Marvell",
+        "url": "https://www.cnbc.com/2026/11/02/marvell-lumentum-ai-deal.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:00:56.338069+00:00"
+  },
+  "jp:2026-11-02:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:01:39.265847+00:00"
+  },
+  "jp:2026-11-02:factor:Size": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:01:39.273377+00:00"
+  },
+  "jp:2026-11-02:sector_internal_dispersion:電機・精密": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:01:39.282251+00:00"
+  },
+  "jp:2026-11-02:sector:食品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「農林水産物 食品の輸出額 上半期2年連続で過去最高に」「【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ」",
+    "sources": [
+      {
+        "title": "NHK 経済: 農林水産物 食品の輸出額 上半期2年連続で過去最高に",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195821000.html"
+      },
+      {
+        "title": "NHK 経済: 【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195571000.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:01:39.456812+00:00"
+  },
+  "jp:2026-11-02:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続」",
+    "sources": [
+      {
+        "title": "NHK 経済: KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続",
+        "url": "http://www3.nhk.or.jp/news/html/20260808/k10015199811000.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:01:39.489384+00:00"
+  },
+  "jp:2026-11-02:sector:銀行": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「SBI新生銀行 14地銀と協定締結 大型案件融資目指す」",
+    "sources": [
+      {
+        "title": "NHK 経済: SBI新生銀行 14地銀と協定締結 大型案件融資目指す",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197461000.html"
+      }
+    ],
+    "searched_at": "2026-11-03T03:01:39.502726+00:00"
   }
 }
