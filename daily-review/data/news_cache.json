@@ -4602,5 +4602,23 @@
       }
     ],
     "searched_at": "2026-11-03T14:48:26.003581+00:00"
+  },
+  "us:2026-11-03:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war」「Australia hikes rates to 18-year high to fight inflation」「European Central Bank keeps key interest rate on hold at 2.5%」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Crude oil prices fall for second day as market hopes for diplomatic resolution to Iran war",
+        "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+      },
+      {
+        "title": "CNBC Markets: Australia hikes rates to 18-year high to fight inflation",
+        "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
+      },
+      {
+        "title": "CNBC Markets: European Central Bank keeps key interest rate on hold at 2.5%",
+        "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+      }
+    ],
+    "searched_at": "2026-11-04T01:35:17.311440+00:00"
   }
 }
