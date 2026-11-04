@@ -7,6 +7,7 @@
     "^IRX", "^FVX", "^TNX", "^TYX", "DX-Y.NYB", "JPY=X", "EURUSD=X", "CNY=X", "KRW=X", "TWD=X",
     "CL=F", "BZ=F", "NG=F", "GC=F", "HG=F", "ZN=F", "ES=F", "NQ=F", "NKD=F", "BTC-USD", "ETH-USD",
     "TSM", "ASML", "ARM", "SNDK", "CRWV", "NBIS", "005930.KS", "000660.KS", "2330.TW",
+    "AMD", "AAPL", "MU", "NVDA",
     "285A.T", "6857.T", "8035.T", "4062.T", "9984.T", "1570.T", "1357.T", "2558.T"
   ],
   "intraday": ["1306.T", "1321.T", "SPY", "QQQ", "SMH"],

@@ -1,22 +1,22 @@
 {
- "generated_at": "2026-11-03T00:05+00:00",
+ "generated_at": "2026-11-04T00:25+00:00",
  "intraday_jp": {
   "日経225ETF": {
    "ticker": "1321.T",
-   "start": "2023-11-07",
+   "start": "2023-11-08",
    "end": "2026-11-02",
    "all": {
-    "n": 726,
+    "n": 725,
     "gap_mean_bp": 9.5,
-    "am_mean_bp": 0.5,
+    "am_mean_bp": 0.6,
     "lunch_mean_bp": 0.1,
-    "pm_mean_bp": 0.4,
-    "gap_cum_pct": 86.4,
-    "am_cum_pct": 1.7,
+    "pm_mean_bp": 0.5,
+    "gap_cum_pct": 87.1,
+    "am_cum_pct": 2.2,
     "lunch_cum_pct": 0.4,
-    "pm_cum_pct": 1.9,
-    "am_t": 0.19,
-    "pm_t": 0.21,
+    "pm_cum_pct": 2.4,
+    "am_t": 0.21,
+    "pm_t": 0.24,
     "am_win": 50.0,
     "pm_win": 50.0,
     "gap_am_corr": -0.05,
@@ -167,23 +167,23 @@
   },
   "TOPIX ETF": {
    "ticker": "1306.T",
-   "start": "2023-11-07",
+   "start": "2023-11-08",
    "end": "2026-11-02",
    "all": {
-    "n": 725,
+    "n": 724,
     "gap_mean_bp": 6.6,
     "am_mean_bp": 1.7,
     "lunch_mean_bp": -0.3,
-    "pm_mean_bp": 0.4,
-    "gap_cum_pct": 54.0,
-    "am_cum_pct": 11.1,
-    "lunch_cum_pct": -2.2,
-    "pm_cum_pct": 2.4,
-    "am_t": 0.69,
-    "pm_t": 0.26,
+    "pm_mean_bp": 0.5,
+    "gap_cum_pct": 54.3,
+    "am_cum_pct": 11.7,
+    "lunch_cum_pct": -2.1,
+    "pm_cum_pct": 2.9,
+    "am_t": 0.72,
+    "pm_t": 0.29,
     "am_win": 51.0,
     "pm_win": 50.0,
-    "gap_am_corr": -0.09,
+    "gap_am_corr": -0.1,
     "am_pm_corr": -0.08
    },
    "last20": {
@@ -332,7 +332,7 @@
  },
  "dispersion": {
   "start": "1999-02-02",
-  "end": "2026-11-02",
+  "end": "2026-11-03",
   "by_quintile": [
    {
     "quintile": 1,
@@ -361,7 +361,7 @@
    {
     "quintile": 4,
     "disp": 3.9,
-    "fwd20": 0.51,
+    "fwd20": 0.5,
     "hit20": 62.0,
     "maxdd20": -3.4,
     "p_dd5": 22.0
@@ -375,8 +375,8 @@
     "p_dd5": 28.0
    }
   ],
-  "current": 7.73,
-  "current_pct_5y": 98.0,
+  "current": 6.73,
+  "current_pct_5y": 94.0,
   "current_quintile": 5,
   "near_high_and_top_quintile": {
    "days": 420,
@@ -394,22 +394,22 @@
   },
   "leaders_20d": [
    {
-    "t": "XLP",
-    "r": 12.1
-   },
-   {
     "t": "XLV",
-    "r": 10.3
+    "r": 10.1
    },
    {
-    "t": "XLU",
-    "r": 9.3
+    "t": "XLP",
+    "r": 8.7
+   },
+   {
+    "t": "XLF",
+    "r": 5.9
    }
   ],
   "laggards_20d": [
    {
     "t": "XLK",
-    "r": -13.3
+    "r": -12.6
    },
    {
     "t": "XLI",
@@ -417,7 +417,7 @@
    },
    {
     "t": "XLE",
-    "r": 6.0
+    "r": 4.6
    }
   ]
  },
@@ -455,10 +455,10 @@
     "basehit60d": 72.0
    },
    "latest": {
-    "date": "2026-11-02",
-    "ret": -0.51,
-    "vol_ratio": 0.7,
-    "dd20": -3.55,
+    "date": "2026-11-03",
+    "ret": 0.36,
+    "vol_ratio": 0.61,
+    "dd20": -3.11,
     "signal_today": false,
     "last_signal": "2026-03-20"
    }
@@ -496,10 +496,10 @@
     "basehit60d": 60.0
    },
    "latest": {
-    "date": "2026-10-30",
-    "ret": -2.12,
-    "vol_ratio": 1.08,
-    "dd20": -10.46,
+    "date": "2026-11-02",
+    "ret": -0.33,
+    "vol_ratio": 1.0,
+    "dd20": -10.76,
     "signal_today": false,
     "last_signal": "2025-11-21"
    }
@@ -511,13 +511,13 @@
     "ticker": "^N225",
     "name": "日経平均",
     "d120": {
-     "sox_beta": 0.21,
-     "t10_per10bp": -0.44,
+     "sox_beta": 0.22,
+     "t10_per10bp": -0.5,
      "r2": 0.18
     },
     "d250": {
-     "sox_beta": 0.28,
-     "t10_per10bp": -0.44,
+     "sox_beta": 0.27,
+     "t10_per10bp": -0.48,
      "r2": 0.21
     }
    },
@@ -525,13 +525,13 @@
     "ticker": "285A.T",
     "name": "キオクシア",
     "d120": {
-     "sox_beta": 0.67,
-     "t10_per10bp": 1.09,
+     "sox_beta": 0.66,
+     "t10_per10bp": 0.99,
      "r2": 0.1
     },
     "d250": {
-     "sox_beta": 0.84,
-     "t10_per10bp": 1.0,
+     "sox_beta": 0.83,
+     "t10_per10bp": 0.95,
      "r2": 0.12
     }
    },
@@ -539,13 +539,13 @@
     "ticker": "6857.T",
     "name": "アドバンテスト",
     "d120": {
-     "sox_beta": 0.53,
-     "t10_per10bp": -0.86,
-     "r2": 0.16
+     "sox_beta": 0.55,
+     "t10_per10bp": -1.01,
+     "r2": 0.17
     },
     "d250": {
      "sox_beta": 0.69,
-     "t10_per10bp": -0.67,
+     "t10_per10bp": -0.73,
      "r2": 0.19
     }
    },
@@ -553,13 +553,13 @@
     "ticker": "8035.T",
     "name": "東京エレクトロン",
     "d120": {
-     "sox_beta": 0.47,
-     "t10_per10bp": -0.71,
-     "r2": 0.17
+     "sox_beta": 0.48,
+     "t10_per10bp": -0.78,
+     "r2": 0.18
     },
     "d250": {
      "sox_beta": 0.54,
-     "t10_per10bp": -0.68,
+     "t10_per10bp": -0.69,
      "r2": 0.2
     }
    },
@@ -567,13 +567,13 @@
     "ticker": "4062.T",
     "name": "イビデン",
     "d120": {
-     "sox_beta": 0.84,
-     "t10_per10bp": -0.07,
+     "sox_beta": 0.85,
+     "t10_per10bp": -0.16,
      "r2": 0.19
     },
     "d250": {
      "sox_beta": 0.99,
-     "t10_per10bp": -0.01,
+     "t10_per10bp": -0.02,
      "r2": 0.23
     }
    },
@@ -581,13 +581,13 @@
     "ticker": "9984.T",
     "name": "ソフトバンクG",
     "d120": {
-     "sox_beta": 0.46,
-     "t10_per10bp": -1.05,
-     "r2": 0.09
+     "sox_beta": 0.49,
+     "t10_per10bp": -1.24,
+     "r2": 0.1
     },
     "d250": {
-     "sox_beta": 0.68,
-     "t10_per10bp": -0.48,
+     "sox_beta": 0.67,
+     "t10_per10bp": -0.57,
      "r2": 0.14
     }
    },
@@ -596,12 +596,12 @@
     "name": "三菱UFJ",
     "d120": {
      "sox_beta": 0.11,
-     "t10_per10bp": 0.52,
+     "t10_per10bp": 0.53,
      "r2": 0.06
     },
     "d250": {
      "sox_beta": 0.16,
-     "t10_per10bp": 0.24,
+     "t10_per10bp": 0.23,
      "r2": 0.06
     }
    },
@@ -610,12 +610,12 @@
     "name": "トヨタ",
     "d120": {
      "sox_beta": -0.05,
-     "t10_per10bp": -0.7,
+     "t10_per10bp": -0.71,
      "r2": 0.04
     },
     "d250": {
      "sox_beta": -0.01,
-     "t10_per10bp": -0.84,
+     "t10_per10bp": -0.82,
      "r2": 0.03
     }
    },
@@ -629,33 +629,33 @@
     },
     "d250": {
      "sox_beta": 0.13,
-     "t10_per10bp": -0.33,
-     "r2": 0.1
+     "t10_per10bp": -0.35,
+     "r2": 0.11
     }
    }
   ],
   "after_sox_down3": {
-   "n": 74,
-   "nikkei_mean": -1.47,
-   "nikkei_win": 22.0
+   "n": 75,
+   "nikkei_mean": -1.45,
+   "nikkei_win": 21.0
   },
   "after_sox_down5": {
-   "n": 22,
-   "nikkei_mean": -2.34,
-   "nikkei_win": 18.0,
+   "n": 23,
+   "nikkei_mean": -2.25,
+   "nikkei_win": 17.0,
    "nikkei_worst": -12.4
   },
   "last_us": {
-   "date": "2026-11-02",
-   "sox": -3.37,
-   "ndx": -1.39,
-   "spx": -0.51,
-   "t10_bp": -3.5,
-   "usdjpy_pct": 0.15
+   "date": "2026-11-03",
+   "sox": 2.63,
+   "ndx": 0.68,
+   "spx": 0.36,
+   "t10_bp": 5.8,
+   "usdjpy_pct": 0.26
   },
-  "spx_vs_10y_corr60": -0.03,
+  "spx_vs_10y_corr60": -0.02,
   "spx_vs_10y_corr250": -0.25,
-  "tnx_level": 4.89
+  "tnx_level": 4.95
  },
  "hyperscaler_memory": {
   "hyperscalers": [
@@ -668,7 +668,7 @@
     "capex_ocf": 69.0,
     "fcf_ttm_bn": 60.0,
     "capex_yoy": 103.0,
-    "fwd_pe": 21.0
+    "fwd_pe": 21.5
    },
    {
     "t": "GOOGL",
@@ -679,18 +679,18 @@
     "capex_ocf": 89.0,
     "fcf_ttm_bn": 19.7,
     "capex_yoy": 114.0,
-    "fwd_pe": 18.4
+    "fwd_pe": 18.1
    },
    {
     "t": "AMZN",
-    "last_q": "2026-03-31",
-    "stale": true,
-    "capex_ttm_bn": 151.0,
-    "capex_sales": 20.3,
-    "capex_ocf": 102.0,
-    "fcf_ttm_bn": -2.5,
-    "capex_yoy": 77.0,
-    "fwd_pe": 22.5
+    "last_q": "2026-09-30",
+    "stale": false,
+    "capex_ttm_bn": 196.1,
+    "capex_sales": 25.2,
+    "capex_ocf": 124.0,
+    "fcf_ttm_bn": -37.6,
+    "capex_yoy": 140.0,
+    "fwd_pe": 23.0
    },
    {
     "t": "META",
@@ -701,7 +701,7 @@
     "capex_ocf": 78.0,
     "fcf_ttm_bn": 28.6,
     "capex_yoy": 80.0,
-    "fwd_pe": 17.0
+    "fwd_pe": 17.5
    },
    {
     "t": "ORCL",
@@ -712,59 +712,59 @@
     "capex_ocf": 161.0,
     "fcf_ttm_bn": -28.7,
     "capex_yoy": 235.0,
-    "fwd_pe": 10.8
+    "fwd_pe": 11.4
    }
   ],
   "memory": [
    {
     "t": "MU",
-    "trailing_pe": 11.2,
-    "fwd_pe": 4.0,
-    "pb": 6.8,
+    "trailing_pe": 11.5,
+    "fwd_pe": 4.1,
+    "pb": 7.0,
     "op_margin": 81.0,
-    "ret_1d": -5.8,
-    "ret_1m": -22.4,
-    "from_high": -31.3
+    "ret_1d": 2.6,
+    "ret_1m": -19.6,
+    "from_high": -29.5
    },
    {
     "t": "SNDK",
-    "trailing_pe": 8.6,
-    "fwd_pe": 3.7,
-    "pb": 8.5,
+    "trailing_pe": 9.0,
+    "fwd_pe": 3.9,
+    "pb": 8.9,
     "op_margin": 80.0,
-    "ret_1d": -6.6,
-    "ret_1m": -37.5,
-    "from_high": -54.0
+    "ret_1d": 4.8,
+    "ret_1m": -33.9,
+    "from_high": -51.8
    },
    {
     "t": "WDC",
-    "trailing_pe": 11.9,
-    "fwd_pe": 8.4,
-    "pb": 13.5,
+    "trailing_pe": 12.2,
+    "fwd_pe": 8.6,
+    "pb": 13.9,
     "op_margin": 48.0,
-    "ret_1d": -7.5,
-    "ret_1m": -18.5,
-    "from_high": -54.6
+    "ret_1d": 2.6,
+    "ret_1m": -21.3,
+    "from_high": -53.4
    },
    {
     "t": "STX",
-    "trailing_pe": 31.1,
-    "fwd_pe": 9.1,
-    "pb": 39.5,
+    "trailing_pe": 31.8,
+    "fwd_pe": 9.3,
+    "pb": 40.3,
     "op_margin": 49.0,
-    "ret_1d": -7.9,
-    "ret_1m": -30.1,
-    "from_high": -45.6
+    "ret_1d": 2.1,
+    "ret_1m": -31.6,
+    "from_high": -44.5
    },
    {
     "t": "285A.T",
-    "trailing_pe": 16.2,
+    "trailing_pe": 13.3,
     "fwd_pe": null,
-    "pb": 6.2,
+    "pb": 6.0,
     "op_margin": 80.0,
-    "ret_1d": -15.8,
-    "ret_1m": -40.6,
-    "from_high": -68.7
+    "ret_1d": -2.3,
+    "ret_1m": -42.6,
+    "from_high": -69.4
    }
   ],
   "kioxia_vs_us_memory": {

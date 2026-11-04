@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分析の視点 2026-11-04</title><style>
+:root { --bg:#0d1117; --panel:#161b22; --panel2:#21262c; --border:#30363d; --text:#e6edf3;
+  --muted:#8b949e; --accent:#58a6ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --watch:#a371f7; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); line-height:1.65;
+  font-family:-apple-system,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif; }
+.wrap { max-width:1120px; margin:0 auto; padding:24px 20px 56px; }
+.top { display:flex; justify-content:space-between; gap:12px; align-items:center; color:var(--muted); font-size:.8rem; }
+select { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:5px; padding:4px 8px; }
+h1 { font-size:1.5rem; line-height:1.35; margin:10px 0 8px; }
+.lead { color:var(--muted); max-width:820px; margin:0 0 18px; }
+.snap { display:grid; grid-template-columns:repeat(auto-fit,minmax(135px,1fr)); gap:8px; margin-bottom:18px; }
+.snap div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.snap span { display:block; color:var(--muted); font-size:.72rem; }
+.snap b { font-size:1rem; font-variant-numeric:tabular-nums; }
+.filters { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; }
+.filters button { background:var(--panel2); border:1px solid var(--border); color:var(--text);
+  padding:5px 12px; border-radius:5px; cursor:pointer; font-size:.8rem; }
+.filters button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+.grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; align-items:start; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px 18px; min-width:0; }
+.meta { display:flex; justify-content:space-between; gap:8px; font-size:.75rem; color:var(--muted); }
+.badge { font-weight:600; }
+.ok { color:var(--ok); } .warn { color:var(--warn); } .bad { color:var(--bad); } .watch { color:var(--watch); }
+h2 { font-size:1.08rem; line-height:1.4; margin:6px 0 8px; }
+h3 { font-size:.74rem; color:var(--muted); margin:12px 0 2px; font-weight:600; }
+p { margin:0; font-size:.88rem; } ul { margin:0; padding-left:1.1em; font-size:.84rem; } li { margin:2px 0; }
+.post { background:var(--panel2); border-left:3px solid var(--accent); padding:7px 10px; border-radius:0 5px 5px 0; }
+.scroll { overflow-x:auto; margin-top:10px; }
+table { width:100%; border-collapse:collapse; font-size:.8rem; font-variant-numeric:tabular-nums; }
+caption { text-align:left; color:var(--muted); font-size:.74rem; padding-bottom:4px; }
+th,td { padding:4px 8px; border-bottom:1px solid var(--border); text-align:right; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; } th { color:var(--muted); font-weight:500; }
+.note { color:var(--muted); font-size:.74rem; margin-top:4px; }
+.src { margin-top:12px; font-size:.74rem; color:var(--muted); }
+a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.section { font-size:1.15rem; margin:30px 0 10px; }
+.x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+.x p + p { color:var(--muted); font-size:.82rem; }
+.method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+@media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
+</style></head>
+<body><div class="wrap">
+<div class="top"><span>分析の視点 ・ 2026-11-03 NY引けまで(東京11/4は寄り付きの報道値のみ)</span>
+<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-04.html" selected>2026-11-04</option><option value="2026-11-03.html">2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
+<h1>AMDで戻した半導体。休場明けの東京が見るのは「2日分のネット」</h1><p class="lead">11/3はSOXが+2.6%、ナスダック100が+0.7%と4営業日ぶりに反発しましたが、均等加重S&amp;P(RSP)は-0.3%、生活必需品(XLP)は-2.1%で、上げは半導体に偏りました。引け後のAMD決算は予想を上回り、時間外で上昇したと報じられています。11/3休場の東京は、11/2の下げと11/3の戻りをまとめて受けます。米国2日分を合計するとS&amp;P500は-0.15%、SOXは-0.83%で、日経平均は108円安で寄り付いたと報じられています。</p>
+<div class="snap"><div><span>SOX</span><b>+2.6%</b></div><div><span>NDX</span><b>+0.7%</b></div><div><span>S&amp;P500</span><b>+0.4%</b></div><div><span>均等加重(RSP)</span><b>-0.3%</b></div><div><span>米10年金利</span><b>4.95% (+6bp)</b></div><div><span>ドル円</span><b>157.9</b></div><div><span>SOX 2日合計(11/2〜3)</span><b>-0.8%</b></div><div><span>日経平均寄り付き(報道値)</span><b>62,973 (-109円)</b></div></div>
+<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="半導体">半導体</button><button data-t="日本株">日本株</button><button data-t="メモリ">メモリ</button><button data-t="為替">為替</button><button data-t="金利">金利</button></div>
+<div class="grid"><article class="card" data-t="半導体">
+<div class="meta"><span>半導体</span><span class="badge bad">検証: 反証</span></div>
+<h2>AMDの好決算とSOX+2.6%は底打ちのサインか</h2>
+<p>AMD決算を受けて半導体の底入れを期待する声が出ています。ただ、深い調整局面での反発初日は、過去のデータで見る限り底打ちのサインになっていません。20日後の成績は、任意の日に買った場合よりむしろ劣ります。今回の上げも半導体とネオクラウドに偏っており、相場全体の買い戻しには広がっていません。</p>
+<h3>データ</h3><ul><li>11/3はSOXが+2.63%。前日11/2の時点でSOXは高値から-29.4%、ナスダック100は-10.4%下げていた(11/3引けでそれぞれ-27.6%、-9.75%)</li><li>2000年以降、SOXが高値から-20%以上下げた局面で+2.5%以上反発した日を、局面ごとの最初の1日に絞ると73回(前回から60営業日以内の重複は除外)。20日後のSOXは中央値+0.26%で、上昇は51%。全期間の任意の日の中央値+1.61%、上昇58%を下回る</li><li>上の73回のうち53%は、20営業日以内に反発前日の終値を割り込んだ。反発初日が安値になったのは半分に満たない</li><li>ただし2000〜02年と2008年を除くと、60日後は平均+4.69%(n=58、t=3.0)で、全期間の任意の日の平均+3.47%を上回る。短期では二番底を試しやすく、数カ月の視点では悪くない、という結果。重複期間を含むため参考値</li><li>11/3の騰落: S&amp;P500+0.36%、均等加重(RSP)-0.33%、生活必需品(XLP)-2.07%、素材(XLB)-2.01%、ラッセル2000+0.23%</li><li>CoreWeave+7.16%、Nebius+7.25%。直近120日のSOX感応度から推計される上昇は+2.4%、+3.7%で、上乗せ分は日々のぶれ(標準偏差4.9pt、6.2pt)の範囲内。10月は両社とも-37.0%、-34.7%下げていた</li><li>AMDの7-9月期は売上134億ドル、データセンター売上85.5億ドル(前年比+97%)、10-12月期の売上見通しは約170億ドル±3%(8-K)。時間外の上昇率は報道で+7.5%〜+8%とまちまち</li></ul>
+
+<h3>日本株への含意</h3><p>東エレクとアドバンテストの株価は、前日のSOXにそれぞれ0.56倍、0.72倍で連動してきました(直近1年)。AMDの時間外の上昇は11/4の東京の支えになります。ただし顧客には「底を打った」とは言わず、SOXが11/2の終値10,328を割らずに推移できるかを確認点として示すのがよいでしょう。</p>
+<h3>見方を変える条件</h3><p>SOXが20営業日以内に10,328を割らず、均等加重やディフェンシブも一緒に上がる日が続けば、底入れの見方を強めます。</p>
+<h3>発信用の一言</h3><p class="post">深い調整局面でのSOXの反発初日は、2000年以降の73回中53%が20日以内に安値を割り込んでいる。AMDの好決算は確認点を作っただけ。</p>
+<div class="src">ネタ元: <a href="https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm" target="_blank" rel="noopener noreferrer">AMD 8-K: 2026年7-9月期決算(一次情報)</a> / <a href="https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html" target="_blank" rel="noopener noreferrer">CNBC: AMD stock jumps 8% on earnings</a> / <a href="https://www.asiae.co.kr/en/article/2026110406293945303" target="_blank" rel="noopener noreferrer">Asia Business Daily: 中間選挙当日のNY市場、半導体が反発</a> / <a href="https://x.com/PatrickMoorhead/status/2117731878069256576" target="_blank" rel="noopener noreferrer">X: Patrick Moorhead「市場は170億ドルのガイダンスを評価」(未検証)</a></div>
+</article><article class="card" data-t="日本株">
+<div class="meta"><span>日本株</span><span class="badge ok">検証: 支持</span></div>
+<h2>休場明けの東京は、米国2日分をまとめて織り込むか</h2>
+<p>東京は休場中に入った米国の値動きを、最終日の分だけでなく全日分織り込む傾向があります。今回は11/2の下げと11/3の戻りがほぼ相殺し、指数への影響は小さい計算です。一方、韓国は11/3に11/2の米国安を先に大きく織り込んでおり、11/4は東京と韓国で受ける材料が違います。</p>
+<h3>データ</h3><ul><li>2010年以降、東京の休場明けで間に米国の引けが2回以上あった日(204日)では、日経平均のS&amp;P500累積騰落への感応度は0.73。手前の日の分が0.75、最終日の分が0.72で、ほぼ同じ重みで織り込んでいる</li><li>通常の営業日(n=3,772)は感応度0.56、相関0.45。休場明けは相関0.62で、米国株との連動が強い</li><li>今回の米国2日分(10/30終値→11/3終値): S&amp;P500 -0.15%、SOX -0.83%。上の感応度で計算すると、日経平均への影響は-0.1%程度</li><li>日経平均は11/4、108.70円安の62,973.16円で寄り付いたと報じられている(報道値)</li><li>韓国は11/3にSKハイニックス-5.03%、サムスン電子-4.15%(KOSPIは-3.59%、外国人の純売りは1.5兆ウォンと報道)。SKハイニックスの前日SOXへの感応度0.80(直近1年)から計算した-2.7%程度より大きく下げた</li></ul>
+
+<h3>日本株への含意</h3><p>東京の半導体株は、11/3のSOX+2.6%だけでなく、2日分のネット(-0.8%)で見るのが基本です。東エレクの感応度0.56を当てはめると-0.5%程度の計算になります。韓国メモリは11/4に11/3の戻りだけを受けるため、韓国メモリと東京の装置株で寄り付きの方向が分かれやすい日です。</p>
+<h3>見方を変える条件</h3><p>東京の半導体株が11/3の上げだけを追って大きく上がる、または11/2の下げだけを受けて大きく下げるなら、片方の日だけが材料にされたと見直します。</p>
+<h3>発信用の一言</h3><p class="post">休場明けの東京は、米国2日分をほぼ同じ重みで織り込む(2010年以降204日)。SOXは+2.6%でも、2日合計では-0.8%。</p>
+<div class="src">ネタ元: <a href="https://finance.yahoo.co.jp/news/detail/84a67fda12e617b763aa09bc73797f611dc05f45" target="_blank" rel="noopener noreferrer">Yahoo!ファイナンス(ウエルスアドバイザー): 4日寄り付きの日経平均</a> / <a href="https://en.sedaily.com/finance/2026/11/03/kospi-slides-36-percent-to-5648-as-foreigners-dump-15" target="_blank" rel="noopener noreferrer">Seoul Economic Daily: KOSPI 3.6%安、外国人1.5兆ウォン売り越し</a> / <a href="https://www.tradingkey.com/analysis/stocks/more/262265677-japan-korea-stocks-skhy-kospi-nikkei-samsung-mrvl-orcl-ai-tradingkey" target="_blank" rel="noopener noreferrer">TradingKey: 日本休場、韓国はSKハイニックスとサムスンが5%安</a></div>
+</article><article class="card" data-t="メモリ">
+<div class="meta"><span>メモリ</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>Appleの粗利を削るメモリ高。株価はすでに逆に動いているか</h2>
+<p>Appleはメモリ価格の上昇を理由に、10-12月期の粗利率見通しを市場予想より低く置きました(報道)。メモリの売り手が強く、買い手が弱いという構図は決算で確認されました。ただ株価で見ると、ここ3カ月はメモリ株が下げ、Appleが上げています。市場はすでに「メモリ価格のピーク」を議論しており、メモリ高をそのままメモリ株の追い風とは見ていません。</p>
+<h3>データ</h3><ul><li>Appleの10-12月期粗利率見通しは45〜46%で、市場予想の平均46.3%を下回った(報道)。7-9月期の粗利率は47.9%で、関税還付による約1ptの押し上げを含み、それを除いた前期比の低下は主にメモリコストによる(8-K、報道)</li><li>年初来(11/2まで、配当調整後): マイクロン+192%、サンディスク+353%、WDC+97%、シーゲイト+116%に対し、Apple+25%、HP+33%</li><li>直近3カ月: Apple+11.6%に対し、WDC-35.8%、シーゲイト-28.5%、サンディスク-16.5%、マイクロン+0.5%</li><li>Appleとメモリ4社平均の日次の60日相関は-0.26で、2024〜25年の中央値+0.30から逆転した。ただし週次で見た感応度は直近1年でほぼゼロ(-0.01、n=53)で、はっきりした逆相関とまでは言えない</li><li>AppleがSamsungの2027年1-3月期のメモリ価格を受け入れ、DRAM、NANDとも7-9月期比で3〜4割高い、という投稿がある(未検証、原典未確認)</li><li>AAPLの11/3の値動きは取得データに入っていない(報道では約2%安)。次回から取得するよう、AAPL、AMD、MU、NVDAを取得対象に加えた</li></ul>
+
+<h3>日本株への含意</h3><p>キオクシアの急落(前号)と合わせると、「メモリ価格はまだ上がるが、株価はピークを先に織り込む」という局面です。顧客には、メモリ高の負担がセットメーカーの粗利に出始めたことと、メモリ株の上値を抑える要因が「価格の天井」の議論であることを、分けて説明するのが有効です。</p>
+<h3>見方を変える条件</h3><p>Appleとメモリ株の相関がプラスに戻り、両方がそろって上がるなら、メモリ高を需要の強さとしてまとめて買う局面に戻ったと見ます。</p>
+<h3>発信用の一言</h3><p class="post">Appleは粗利の低下をメモリのせいにした。それでもここ3カ月、株価はAppleが+12%、WDCは-36%。値上げの勝者と株価の勝者は別。</p>
+<div class="src">ネタ元: <a href="https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000024/a8-kex991q4202609262026.htm" target="_blank" rel="noopener noreferrer">Apple 8-K: 2026年度第4四半期決算(一次情報)</a> / <a href="https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html" target="_blank" rel="noopener noreferrer">CNBC: Apple Q4 2026 earnings live updates</a> / <a href="https://www.macrumors.com/2026/11/02/apple-q4-2026-earnings-takeaways/" target="_blank" rel="noopener noreferrer">MacRumors: Apple Q4 2026 決算説明会の要点</a> / <a href="https://x.com/SemiconductorsX/status/2099696524771143964" target="_blank" rel="noopener noreferrer">X: Semiconductor Insider「AppleがSamsungの2027年1-3月期価格を受諾」(未検証)</a></div>
+</article><article class="card" data-t="為替">
+<div class="meta"><span>為替</span><span class="badge bad">検証: 反証</span></div>
+<h2>ドル円160円接近は米金利のせいか。介入は日本株安を招くか</h2>
+<p>米10年金利が上がると円安が進み、160円で介入が入って日本株が下がる、という連想がよく語られます。しかし直近1年、米金利とドル円の日々の動きはほぼ連動していません。2022年以降の介入らしきドル円急落の後も、日本株が下げるとは限りませんでした。</p>
+<h3>データ</h3><ul><li>ドル円は157.91円で、160円まで1.3%。2026年の高値は7/29の163.86円</li><li>米10年金利の日次変化とドル円の日次騰落の相関は、直近1年が-0.03(n=252)、直近3カ月が+0.01(n=66)。11/3の米10年金利+5.8bpも、円安の説明にはなりにくい</li><li>2022年以降、前日に150円を超えていたドル円が1日で-1.5%以上下げた日は11回。日経平均の翌営業日は平均+0.49%、上昇73%、5日後は平均+0.12%、上昇45%(t=0.1)。サンプルが少なく、2024/8/1の後の-5.81%のような例外もある</li><li>2026年の該当日は1/26(-2.10%)、5/1(-2.00%、前日160.18円)、7/31(-1.91%)、8/3(-1.62%)、9/4(-2.05%)。5/1前後の急落は、2024年7月以来の介入だった可能性が高いと野村證券が分析(報道)</li><li>日経平均と前日のドル円の相関は直近1年で0.03。円安が日本株を押し上げる関係も弱い</li><li>片山財務相は11/2、無秩序な値動きや過度な投機には対応すると発言したと報じられている</li></ul>
+
+<h3>日本株への含意</h3><p>今年は「円安なら輸出株高」も「介入なら日本株安」も、指数レベルでは効きにくい状況です。160円が近づいても、米金利と結び付けて話すより、日本側の財政・金融政策と介入警戒の問題として扱うほうがデータに合います。なお、業種別の影響はこの検証に含めていません。</p>
+<h3>見方を変える条件</h3><p>米金利が上がる日にドル円が上がる関係が戻る(直近3カ月の相関が0.3を超えるなど)なら、米金利と160円をセットで語る見方に戻します。</p>
+<h3>発信用の一言</h3><p class="post">直近1年、米10年金利とドル円の日次相関は-0.03。160円は米金利の問題ではなく、円の問題。</p>
+<div class="src">ネタ元: <a href="https://zaikei.co.jp/article/20261102/875790.html" target="_blank" rel="noopener noreferrer">財経新聞: 今日の為替市場ポイント(160円の意識)</a> / <a href="https://jp.bloomingbit.io/feed/news/123415" target="_blank" rel="noopener noreferrer">Bloomingbit: 片山財務相「円の投機的な動きに対応」</a> / <a href="https://www.nomura.co.jp/wealthstyle/article/0715/" target="_blank" rel="noopener noreferrer">野村證券: 米ドル円急落、追加的な為替介入の可能性</a></div>
+</article><article class="card" data-t="金利">
+<div class="meta"><span>金利</span><span class="badge watch">検証: 要観察</span></div>
+<h2>今夜のリファンディングと「金利高・株安」の関係</h2>
+<p>11/3は米10年金利の上昇と株高が同時に起きましたが、直近1年は「金利が上がる日は株が下がる」関係でした。11/4夜(日本時間22:30)には米財務省の四半期国債発行計画(リファンディング)が発表され、長期ゾーンの買入れの扱いも示される予定です。長期金利が動けば、半導体の戻りの持続性にも影響します。</p>
+<h3>データ</h3><ul><li>11/3の米金利: 10年4.952%(+5.8bp)、30年5.324%、3カ月4.025%。10年は直近20営業日で-31.7bp低下していた</li><li>S&amp;P500の日次騰落と米10年金利の変化の相関: 直近250日-0.27、直近60日-0.02、2010〜19年+0.44。金利上昇を景気の強さとして受け止めた2010年代とは逆の関係が続いている</li><li>財務省は10〜20年、20〜30年ゾーンの流動性供給の買入れを少なくとも倍増し、11/4まで1回40億ドル以上で実施。今後の規模は今回のリファンディングで示すとしている(報道)</li><li>ディーラーの多くは、利付債の入札額は据え置き、20年・30年債の減額は2027年以降と予想している(報道)</li><li>結果は未発表のため、今回は検証できない。発表後の30年金利と、株と金利の日次相関の推移で確かめる</li></ul>
+
+<h3>日本株への含意</h3><p>前号までで見たとおり、いまの日本株は米金利より半導体で動いています。ただ、直近1年は米国で金利高と株安が同時に起きやすく、長期金利が急に上がれば米ハイテク株を通じて東京の半導体にも波及しえます。11/5の東京では、発表後の米30年金利の動きを確認点として話せます。</p>
+<h3>見方を変える条件</h3><p>発表後に長期金利が上がっても米株が崩れなければ、株と金利の関係は直近60日のゼロ近辺にとどまっていると判断します。</p>
+<h3>発信用の一言</h3><p class="post">直近1年、S&amp;P500と米10年金利の日次相関は-0.27。金利高を景気の良さと受け止めた2010年代(+0.44)とは逆。今夜のリファンディングは株の材料でもある。</p>
+<div class="src">ネタ元: <a href="https://www.prnewswire.com/news-releases/treasury-polled-its-dealers-on-auction-sizes-and-bigger-long-end-buybacks-ahead-of-wednesdays-refunding-302926378.html" target="_blank" rel="noopener noreferrer">PR Newswire: 財務省がリファンディング前にディーラーに入札額と買入れ拡大を聴取</a> / <a href="https://www.newsquawk.com/headlines/quarterly-refunding-primer-eyes-on-guidance-and-buyback-commentary" target="_blank" rel="noopener noreferrer">Newsquawk: Quarterly Refunding Primer</a></div>
+</article></div>
+<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html" target="_blank" rel="noopener noreferrer">米中間選挙の開票が進行中。予測市場では民主党の上下両院制覇の確率が85.5%との報道(Polymarket)</a>（開票中・裏付けなし）</p><p>前号で扱った「選挙後は株高」の検証の続き。結果が確定していないため今回はカードにしていない。CNBCは、株式市場は民主党の両院制覇をまだ織り込んでいないと指摘。</p></div><div class="x"><p><a href="https://finance.yahoo.com/technology/ai/articles/openai-cuts-fundraising-valuation-target-143300967.html" target="_blank" rel="noopener noreferrer">OpenAIが資金調達の目標額を300億ドルから200億ドルに、評価額目標を1.4兆ドルから1.25兆ドルに引き下げたとの報道(FT報道の引用)</a>（報道・二次情報）</p><p>前々号の「AIの資金繰り」の続報。韓国では11/3、米大手テックのAI資金繰り懸念が外国人売りの理由に挙げられた。</p></div><div class="x"><p><a href="https://x.com/cryptopunk7213/status/2117454357306257866" target="_blank" rel="noopener noreferrer">「今週、市場で何かが壊れた」として、xAIのGrokの縮小やOpenAIの評価額引き下げを並べた投稿</a>（未検証）</p><p>AI投資の採算への疑念を象徴する投稿。個々の主張は未確認で、Grokの件は裏付けなし。</p></div><div class="x"><p><a href="https://x.com/BearBullTraders/status/2117655106065973406" target="_blank" rel="noopener noreferrer">AMD決算前、オプション市場は翌日±8.1%の値動きを織り込んでいたとの投稿</a>（未検証）</p><p>時間外の上昇率(報道で+7.5〜8%)は、ほぼ織り込み通りの値動き。サプライズの大きさを測る目安になる。</p></div>
+<p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-04.py、結果は insights/data/analysis/2026-11-04.json)。11/4のアジア市場は取引時間中の値のため使用せず、日経平均の寄り付きは報道値です。AAPLなどS&amp;P500採用銘柄のデータは11/2までです。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
+</div><script>
+document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.querySelectorAll('.card').forEach(c => {
+    c.style.display = (b.dataset.t === 'all' || c.dataset.t === b.dataset.t) ? '' : 'none';
+  });
+});
+</script></body></html>
