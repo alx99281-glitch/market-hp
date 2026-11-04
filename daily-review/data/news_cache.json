@@ -4620,5 +4620,81 @@
       }
     ],
     "searched_at": "2026-11-04T01:35:17.311440+00:00"
+  },
+  "us:2026-11-03:sector:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Euro zone inflation hits 4% for first time in three years as interest rate hike looms」「Australia hikes rates to 18-year high to fight inflation」「European Central Bank keeps key interest rate on hold at 2.5%」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+      },
+      {
+        "title": "CNBC Markets: Australia hikes rates to 18-year high to fight inflation",
+        "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
+      },
+      {
+        "title": "CNBC Markets: European Central Bank keeps key interest rate on hold at 2.5%",
+        "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+      }
+    ],
+    "searched_at": "2026-11-04T15:00:52.232390+00:00"
+  },
+  "us:2026-11-03:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-4d4bfa93?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-04T15:00:52.700995+00:00"
+  },
+  "us:2026-11-03:sector_internal_dispersion:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Euro zone inflation hits 4% for first time in three years as interest rate hike looms」「Australia hikes rates to 18-year high to fight inflation」「European Central Bank keeps key interest rate on hold at 2.5%」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+      },
+      {
+        "title": "CNBC Markets: Australia hikes rates to 18-year high to fight inflation",
+        "url": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
+      },
+      {
+        "title": "CNBC Markets: European Central Bank keeps key interest rate on hold at 2.5%",
+        "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+      }
+    ],
+    "searched_at": "2026-11-04T15:00:52.249096+00:00"
+  },
+  "us:2026-11-03:sector:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「The next wave of luxury real estate: marina developments with yacht parking」",
+    "sources": [
+      {
+        "title": "CNBC Economy: The next wave of luxury real estate: marina developments with yacht parking",
+        "url": "https://www.cnbc.com/2026/11/03/the-next-wave-of-luxury-real-estate-marinas-with-yacht-parking.html"
+      }
+    ],
+    "searched_at": "2026-11-04T15:00:52.671741+00:00"
+  },
+  "us:2026-11-03:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget」",
+    "sources": [
+      {
+        "title": "CNBC Markets: The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+        "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+      }
+    ],
+    "searched_at": "2026-11-04T15:00:52.712768+00:00"
+  },
+  "jp:2026-11-02:sector:小売": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「キャベツ小売価格 平年の約7割高」",
+    "sources": [
+      {
+        "title": "Yahoo!ニュース 経済: キャベツ小売価格 平年の約7割高",
+        "url": "https://news.yahoo.co.jp/pickup/6601359?source=rss"
+      }
+    ],
+    "searched_at": "2026-11-04T15:01:38.490038+00:00"
   }
 }
