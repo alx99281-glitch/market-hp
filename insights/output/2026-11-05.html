@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分析の視点 2026-11-05</title><style>
+:root { --bg:#0d1117; --panel:#161b22; --panel2:#21262c; --border:#30363d; --text:#e6edf3;
+  --muted:#8b949e; --accent:#58a6ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --watch:#a371f7; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); line-height:1.65;
+  font-family:-apple-system,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif; }
+.wrap { max-width:1120px; margin:0 auto; padding:24px 20px 56px; }
+.top { display:flex; justify-content:space-between; gap:12px; align-items:center; color:var(--muted); font-size:.8rem; }
+select { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:5px; padding:4px 8px; }
+h1 { font-size:1.5rem; line-height:1.35; margin:10px 0 8px; }
+.lead { color:var(--muted); max-width:820px; margin:0 0 18px; }
+.snap { display:grid; grid-template-columns:repeat(auto-fit,minmax(135px,1fr)); gap:8px; margin-bottom:18px; }
+.snap div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.snap span { display:block; color:var(--muted); font-size:.72rem; }
+.snap b { font-size:1rem; font-variant-numeric:tabular-nums; }
+.filters { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; }
+.filters button { background:var(--panel2); border:1px solid var(--border); color:var(--text);
+  padding:5px 12px; border-radius:5px; cursor:pointer; font-size:.8rem; }
+.filters button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+.grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; align-items:start; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px 18px; min-width:0; }
+.meta { display:flex; justify-content:space-between; gap:8px; font-size:.75rem; color:var(--muted); }
+.badge { font-weight:600; }
+.ok { color:var(--ok); } .warn { color:var(--warn); } .bad { color:var(--bad); } .watch { color:var(--watch); }
+h2 { font-size:1.08rem; line-height:1.4; margin:6px 0 8px; }
+h3 { font-size:.74rem; color:var(--muted); margin:12px 0 2px; font-weight:600; }
+p { margin:0; font-size:.88rem; } ul { margin:0; padding-left:1.1em; font-size:.84rem; } li { margin:2px 0; }
+.post { background:var(--panel2); border-left:3px solid var(--accent); padding:7px 10px; border-radius:0 5px 5px 0; }
+.scroll { overflow-x:auto; margin-top:10px; }
+table { width:100%; border-collapse:collapse; font-size:.8rem; font-variant-numeric:tabular-nums; }
+caption { text-align:left; color:var(--muted); font-size:.74rem; padding-bottom:4px; }
+th,td { padding:4px 8px; border-bottom:1px solid var(--border); text-align:right; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; } th { color:var(--muted); font-weight:500; }
+.note { color:var(--muted); font-size:.74rem; margin-top:4px; }
+.src { margin-top:12px; font-size:.74rem; color:var(--muted); }
+a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.section { font-size:1.15rem; margin:30px 0 10px; }
+.x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+.x p + p { color:var(--muted); font-size:.82rem; }
+.method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+@media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
+</style></head>
+<body><div class="wrap">
+<div class="top"><span>分析の視点 ・ 2026-11-04 NY引けまで(東京11/4の指数は報道値)</span>
+<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-05.html" selected>2026-11-05</option><option value="2026-11-04.html">2026-11-04</option><option value="2026-11-03.html">2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
+<h1>民主党の両院制覇で指数は急騰、半導体は急落。AIの「使い手」と「作り手」が分かれた日</h1><p class="lead">中間選挙で民主党が上下両院を制したと報じられた11/4、S&amp;P500は+1.58%、ダウは+3.03%、VIXは-20%と、事前の「民主党が両院を取れば株は重い」という見方とは逆の反応になりました。一方でSOXは-3.13%、マイクロン-7.0%、CoreWeave-9.9%と、AIインフラを作る側は大きく売られています。S&amp;Pが+1.5%以上上がった日にSOXが-2%以上下げたのは、2000年以降で3回目です。東京は11/4の取引時間中に、米国より先に半導体を売っています(日経平均-1.42%、報道値)。</p>
+<div class="snap"><div><span>S&amp;P500</span><b>7,688.62 (+1.58%)</b></div><div><span>ダウ</span><b>+3.03%</b></div><div><span>SOX</span><b>-3.13%</b></div><div><span>均等加重(RSP)</span><b>+1.86%</b></div><div><span>VIX</span><b>16.61 (-20.3%)</b></div><div><span>米10年金利</span><b>4.89% (-6bp)</b></div><div><span>WTI</span><b>88.04 (-8.4%)</b></div><div><span>日経平均11/4(報道値)</span><b>62,189 (-1.42%)</b></div></div>
+<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="AI・半導体">AI・半導体</button><button data-t="日本株">日本株</button><button data-t="ボラティリティ">ボラティリティ</button><button data-t="原油">原油</button></div>
+<div class="grid"><article class="card" data-t="AI・半導体">
+<div class="meta"><span>AI・半導体</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>選挙結果は「AIを使う側」に追い風、「作る側」に逆風なのか</h2>
+<p>民主党が両院を制したことで、データセンター建設への規制や監視が強まるという見方が、選挙前から出ていました(報道)。11/4の値動きはその見方どおりで、Apple、Amazon、Microsoftなど大型テックが上がる一方、半導体、メモリ、ネオクラウドが売られました。指数高・半導体安の組み合わせは珍しい日です。ただし、議会の構成だけで建設を止める法律が通るかについては、選挙前から否定的な分析が多く、過去の同様の日の後もSOXの出遅れが続いた傾向は確認できません。</p>
+<h3>データ</h3><ul><li>11/4: S&amp;P500 +1.58%、ナスダック100 +0.91%、SOX -3.13%。SOXとS&amp;Pの差(-4.71pt)は2000年以降の下位1.1%</li><li>S&amp;Pが+1.5%以上かつSOXが-2%以下の日は2000年以降3回のみ(2000年3月15日、2002年9月26日、2026年11月4日)</li><li>作る側: NVIDIA -3.17%、マイクロン -7.00%、サンディスク -7.91%、ARM -5.28%、ASML -3.60%、CoreWeave -9.90%、Nebius -6.67%。使う側: Apple +5.31%、通信サービス(XLC) +3.47%、一般消費財(XLY、Amazonを含む) +4.26%。XLKはNVIDIAとAppleが相殺し-0.01%</li><li>Apple−マイクロンの1日のリターン差は+12.3ptで、2000年以降の99.7パーセンタイル(n=6,750)</li><li>SOXがS&amp;Pを4pt以上下回り、かつS&amp;Pが上昇した日(20営業日以内の重複を除き15回、うち11回が2000〜02年): SOXの対S&amp;P相対リターンは5日後に平均+2.13pt(上昇60%)、20日後に平均-0.64pt(上昇47%)。全期間の20日平均+0.52ptと大差なく、方向は定まらない。n=15で大半がITバブル崩壊期</li><li>Reuters(Kitco転載、10/22)は、民主党が両院を取るシナリオがAIインフラにとって最大の政治リスクと報じる一方、建設を大きく妨げる法案が成立するかには懐疑的なアナリストが多いとした。BofAは選挙後に、州・地方レベルの民主党勝利でデータセンター規制が厳しくなる可能性を指摘したとされる(X投稿、未検証)</li><li>大型テックの上昇は、ねじれ議会で関税の拡大や大型の財政変更が抑えられるとの見方からと報じられている。選挙以外に、各社の直前の決算も影響している可能性がある</li></ul>
+<div class="scroll"><table><caption>11/4 米国: AIを使う側と作る側(%)</caption><thead><tr><th>区分</th><th>銘柄・ETF</th><th>騰落率</th></tr></thead><tbody><tr><td>使う側</td><td>Apple</td><td>+5.31</td></tr><tr><td>使う側</td><td>通信サービス(XLC)</td><td>+3.47</td></tr><tr><td>使う側</td><td>一般消費財(XLY)</td><td>+4.26</td></tr><tr><td>作る側</td><td>NVIDIA</td><td>-3.17</td></tr><tr><td>作る側</td><td>マイクロン</td><td>-7.00</td></tr><tr><td>作る側</td><td>サンディスク</td><td>-7.91</td></tr><tr><td>作る側</td><td>CoreWeave</td><td>-9.90</td></tr><tr><td>参考</td><td>均等加重S&amp;P(RSP)</td><td>+1.86</td></tr></tbody></table></div><div class="note">Yahoo Financeの終値から算出。Microsoft、Amazon、Alphabetの11/4終値は今回のデータになく、報道では5〜7%高。</div>
+<h3>日本株への含意</h3><p>日本株はAIの「作る側」の比重が高く、東エレク、アドバンテスト、キオクシア、ソフトバンクGが指数を動かします。米国で使う側と作る側が分かれる局面では、日経平均がTOPIXより弱くなりやすい構図です。顧客には、AI需要そのものの否定ではなく、建設のペースと資金繰りへの政治リスクとして説明するのが正確です。</p>
+<h3>見方を変える条件</h3><p>今後5営業日でSOXがS&amp;Pに対して戻し(過去15回の平均は+2.1pt)、マイクロンやCoreWeaveが11/4の下げを埋めるなら、政治要因による入れ替えは一日限りの反応だったと判断します。</p>
+<h3>発信用の一言</h3><p class="post">S&amp;P+1.5%でSOX-3%。この組み合わせは2000年以降3回目。民主党の両院制覇で、AIを使う側が買われ、作る側が売られた。</p>
+<div class="src">ネタ元: <a href="https://www.cnn.com/2026/11/04/investing/us-markets-midterm-elections" target="_blank" rel="noopener noreferrer">CNN: 中間選挙翌日のダウ、1982年以来最大の上昇(報道)</a> / <a href="https://247wallst.com/investing/2026/11/04/amazon-rallies-7-apple-and-microsoft-climb-5-as-big-tech-leads-post-election-rebound/" target="_blank" rel="noopener noreferrer">24/7 Wall St.: Amazon 7%高、AppleとMicrosoft 5%高</a> / <a href="https://www.kitco.com/news/off-the-wire/2026-10-22/investors-see-risk-us-midterms-ai-trade-data-center-backlash-builds" target="_blank" rel="noopener noreferrer">Reuters(Kitco転載): 中間選挙はデータセンター反対の高まりでAI相場のリスク</a> / <a href="https://x.com/marketsday/status/2117961918535393655" target="_blank" rel="noopener noreferrer">X: BofAの選挙後サマリー(未検証)</a></div>
+</article><article class="card" data-t="日本株">
+<div class="meta"><span>日本株</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>東京の半導体は、米国のSOX安を11/4に先回りして織り込んだか</h2>
+<p>東京は11/4の取引時間中に選挙結果を受け、半導体を中心に先に売りました(日経平均は一時3,000円超安と報道)。米国の半導体の下げのうち約半分は、東京が開いていた時間を含む夜間に進んでいます。過去1年の感応度を機械的に当てはめると、11/5は東エレクやキオクシアにさらに2%前後の下げが出る計算ですが、その一部はすでに11/4の東京の値段に入っている可能性があります。</p>
+<h3>データ</h3><ul><li>日経平均の11/4終値は62,188.63円(-893.23円、-1.42%)、TOPIXは-0.89%で3日続落。日中は一時3,000円超下げた後、後場に半導体が買い戻されたと報じられている(報道値)</li><li>11/4の東京: アドバンテスト -3.35%、東エレク -3.42%、キオクシア -5.38%、ソフトバンクG -3.20%</li><li>米国60分足: SMHは11/3の引けから11/4の寄り付きまでに-1.38%、寄り付きから引けまでに-1.30%(合計-2.67%)。SPYは夜間+1.14%、日中+0.49%</li><li>直近1年の、前日のSOXとナスダック100への2変数の感応度で、11/5の東京への計算値(SOX -3.13%、NDX +0.91%を代入): 東エレク -2.1%、アドバンテスト -1.7%、キオクシア -2.4%、ソフトバンクG +0.1%(NDXへの感応度1.10が大きい)</li><li>直近3年(ETFベース、n=745): 米国でSOXがS&amp;Pを3pt以上下回った翌日、日経ETF(1321)の対TOPIX ETF(1306)相対は平均-0.37pt、上昇40%(n=43、t=-2.8)。今回の差-4.71ptから計算される11/5の相対は-0.56pt</li><li>CME日経先物(NKD=F)の11/4終値は63,135で前日比+0.06%(Yahoo Financeの値)</li><li>1306.Tの11/4の値は報道のTOPIXと整合しないため使っていない。ETFデータには分割などによる異常値があり、1日±8%超の変動は除外した</li></ul>
+
+<h3>日本株への含意</h3><p>11/5の確認点は、半導体が11/4の安値圏を割るかどうかです。米国の下げの約半分は東京の11/4の取引時間に重なっているため、感応度どおりの下げが出なければ、東京が先に織り込んでいたと考えられます。ソフトバンクGは前日のナスダック100への感応度が高く、半導体株と動きが分かれる可能性があります。11/4は商社や空運に資金が向かったと報じられており、TOPIX側の内需・資源以外の業種にも目を向ける日です。</p>
+<h3>見方を変える条件</h3><p>11/5の東京で、東エレクやキオクシアが計算値(-2%前後)を大きく超えて下げ、日経平均がTOPIXを1pt以上下回るなら、先回りの織り込みは不十分だったと判断します。</p>
+<h3>発信用の一言</h3><p class="post">米国の半導体の下げの約半分は、東京が開いていた夜間に進んでいた。11/4に日経が一時3,000円超下げたのは先回り。11/5は感応度どおりに下がるかを確認。</p>
+<div class="src">ネタ元: <a href="https://kabutan.jp/news/marketnews/?b=n202611041275" target="_blank" rel="noopener noreferrer">かぶたん: 日経平均大引け、3日続落でAI・半導体中心に売り(11/4)</a> / <a href="https://www.nikkei.com/article/DGXZQOUB041HV0U6A101C2000000/" target="_blank" rel="noopener noreferrer">日本経済新聞: 日経平均、一時2000円超下げ 米中間選挙受け半導体関連下落</a> / <a href="https://www.media-ir.com/news/?p=187163" target="_blank" rel="noopener noreferrer">メディアIR: 一時3000円超安から1200円超反発、キオクシアなど大幅安</a> / <a href="https://tbladvisory.com/20261104nk/" target="_blank" rel="noopener noreferrer">TBLアドバイザリー: 商社と空運に資金(11/4概況)</a></div>
+</article><article class="card" data-t="ボラティリティ">
+<div class="meta"><span>ボラティリティ</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>VIX -20%の「イベント通過」は、その後の株高を示すか</h2>
+<p>選挙前は「民主党の両院制覇は株価の重しになる」との見方が多く報じられていましたが、結果は逆でした。VIXは1日で-20%と、選挙前のヘッジが一気に解消されています。過去のVIX急低下の後は、20日後と60日後の株価が全期間の平均を上回っていました。ただし直後の5日間は優位性がなく、VIXは平均して一度は16%ほど戻しています。</p>
+<h3>データ</h3><ul><li>11/4: VIXは20.83から16.61へ-20.3%。S&amp;P500 +1.58%</li><li>2000年以降の中間選挙翌日のS&amp;P500: 2002年+0.91%、2006年+0.21%、2010年+0.37%、2014年+0.57%、2018年+2.12%、2022年-2.08%、2026年+1.58%。7回中2番目の上げで、CNNの「1982年以来2番目」という報道と整合する</li><li>VIXが1日で-20%以下になった日は2000年以降20回(20営業日以内の重複を除き19回)。S&amp;Pの20日後は平均+1.45%、上昇84%(全期間+0.61%、63%)、60日後は平均+3.47%(全期間+1.81%)</li><li>ただし5日後は平均-0.66%、上昇53%で、全期間(+0.16%、59%)を下回る</li><li>同じ19回で、その後20日間のVIXの最高値は急低下日の水準を平均16%上回った。急低下前日の水準まで戻したのは26%</li><li>J.P. Morganは事前に、民主党の両院制覇でS&amp;Pは-0.25%〜+0.5%と見ていたとの投稿がある(X投稿、未検証)。CNBCは選挙前、株式市場は民主党の両院制覇を織り込んでいないと報じていた</li></ul>
+
+<h3>日本株への含意</h3><p>日本株にとっては、米国のボラティリティ低下が海外勢のリスク量の回復につながるかが焦点です。ただし今回は米国の上昇が半導体を含まないため、日経平均よりTOPIXのほうがこの追い風を受けやすい形です。前号で示した「選挙後はボラティリティが下がりやすい」は、今回も当てはまりました。</p>
+<h3>見方を変える条件</h3><p>今後1〜2週間でVIXが20を超えて戻るなら(過去の急低下日では26%が前日水準まで戻した)、イベント通過による安心感は続かないと判断します。</p>
+<h3>発信用の一言</h3><p class="post">VIX -20%の後、S&amp;Pの20日後は19回中84%で上昇。ただし直後の5日間は優位性なし。選挙の安心感は「すぐ」より「数週間」で効いてきた。</p>
+<div class="src">ネタ元: <a href="https://www.cnn.com/2026/11/04/investing/us-markets-midterm-elections" target="_blank" rel="noopener noreferrer">CNN: 中間選挙翌日の値動き(報道)</a> / <a href="https://x.com/CNBC/status/2117646509608984983" target="_blank" rel="noopener noreferrer">X: CNBC「株式市場は民主党の両院制覇を織り込んでいない」(選挙前)</a> / <a href="https://x.com/RealAllinCrypto/status/2117648067776192543" target="_blank" rel="noopener noreferrer">X: J.P. Morganの中間選挙シナリオ表とされる投稿(未検証)</a></div>
+</article><article class="card" data-t="原油">
+<div class="meta"><span>原油</span><span class="badge bad">検証: 反証</span></div>
+<h2>原油の2日で-15%は、それ自体が日本株の追い風になるか</h2>
+<p>WTIは11/2に続き11/4も-8.4%と急落し、2日で-15%になりました。選挙敗北の理由をイランとの戦争に求める発言が報じられ、戦争終結の思惑が出たためとみられます。「原油安は輸入国の日本に追い風」とよく言われますが、データで見ると、翌日の日経平均を動かしているのは米国株で、原油の変動自体の影響はほぼゼロです。前号(11/3号)の「原油急落の翌日は日経安」という結果も、原油安と米国株安が同じ日に起きていたことで説明できます。</p>
+<h3>データ</h3><ul><li>WTIは11/4に-8.38%で88.04ドル、10/30比-15.44%。ブレントは-8.66%。銅は+0.51%、S&amp;Pは+1.58%で、景気不安による原油安ではなく供給リスクの後退を示す組み合わせ</li><li>2000年以降、WTIが-5%以下でS&amp;Pが+0.5%以上の日(46回)の翌日、日経平均は平均+1.17%、上昇78%。WTIが-5%以下でS&amp;Pが-0.5%以下の日(77回)の翌日は平均-1.76%、上昇18%</li><li>ただし、原油の大幅安がない日でS&amp;Pが+0.5%以上の日(1,618回)の翌日も、日経平均は平均+0.80%、上昇74%。原油安+株高の日のS&amp;Pは平均+1.96%と上げ幅が大きく、日経の上げはそれで説明できる</li><li>翌日の日経平均を前日のS&amp;Pと原油で回帰すると、原油の係数は2000年以降が+0.004、直近1年が+0.005でほぼゼロ。S&amp;Pの係数は0.59、直近1年は1.02</li><li>WTIが2日で-12%以上下げた局面(16回、重複除外): 20日後のWTIは中央値+1.1%、日経平均は平均-0.06%。急落が続く傾向も、日経がその後上がる傾向も見られない</li><li>11/4の東京ではTOPIX-17のエネルギー資源ETF(1618)が-3.94%と、米国の11/4の原油安の前に下げていた</li></ul>
+
+<h3>日本株への含意</h3><p>原油安を日本株の材料として話すなら、指数全体より業種間の差として話すほうがデータに合います。エネルギー資源が下がり、空運などコストの軽くなる業種が買われるという相対の動きです。指数の方向は、原油よりも前日の米国株(直近1年の感応度は約1.0)で決まっています。</p>
+<h3>見方を変える条件</h3><p>原油安が続く中で、米国株が下げた日にも日経平均が底堅く推移するなら、原油安が独立した支えになっていると見直します。</p>
+<h3>発信用の一言</h3><p class="post">「原油安は日本株の追い風」は、データでは米国株高の言い換え。翌日の日経を米国株と原油で回帰すると、原油の係数はほぼゼロ(2000年以降)。</p>
+<div class="src">ネタ元: <a href="https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html" target="_blank" rel="noopener noreferrer">CNBC: ダウ1,500ドル高、原油安(ライブ、Vance副大統領の発言を含む)</a> / <a href="https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress" target="_blank" rel="noopener noreferrer">Benzinga: ダウ2.9%高、中間選挙後に原油7%安</a> / <a href="https://sg.finance.yahoo.com/news/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: ダウ1,500ドル高、民主党が議会を制する(ライブ)</a> / <a href="https://www.tradingview.com/news/te_news:598025:0-treasury-yields-fall-as-democrats-sweep-congress/" target="_blank" rel="noopener noreferrer">TradingView(Trading Economics): 民主党の議会制覇で米国債利回り低下</a></div>
+</article></div>
+<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/marketsday/status/2117961918535393655" target="_blank" rel="noopener noreferrer">BofA: 民主党が両院を制してもねじれ(拒否権)が基本シナリオ。州・地方のデータセンター規制に注意との要約投稿</a>（未検証）</p><p>「AIを使う側と作る側」カードのきっかけ。規制の経路は連邦法より州・地方という指摘。</p></div><div class="x"><p><a href="https://x.com/RealAllinCrypto/status/2117648067776192543" target="_blank" rel="noopener noreferrer">J.P. Morganの事前シナリオ表: 民主党の両院制覇ならS&amp;Pは-0.25%〜+0.5%とされる投稿</a>（未検証）</p><p>実際は+1.58%。事前の見方と逆に動いた例として「VIX急低下」カードに使用。</p></div><div class="x"><p><a href="https://x.com/BSCNews/status/2117894956128084100" target="_blank" rel="noopener noreferrer">トランプ政権の暗号資産の議題は最大の後ろ盾を失った、CLARITY法案に逆風との投稿</a>（未検証・価格は反対方向）</p><p>11/4のビットコインは+3.92%、イーサリアムは+6.60%で、価格は逆に動いた。政策より、ドル安(ドル指数-0.36%)や金(+3.34%)と同じ動きに見える。1日だけのためカードにしていない。</p></div><div class="x"><p><a href="https://x.com/ClayTravis/status/2118003202339610816" target="_blank" rel="noopener noreferrer">「政治家が何もしないのが一番」、ねじれ確定で株高という投稿</a>（意見・裏付けなし）</p><p>ねじれ議会と株高の通説。指数は上がったが、半導体やエネルギー、防衛を含む資本財(XLI -1.09%)は下げており、一様な株高ではない。</p></div><div class="x"><p><a href="https://www.fxstreet.com/analysis/us-dollar-breaks-below-10150-as-democrats-sweep-congress-202611041603" target="_blank" rel="noopener noreferrer">ドル指数が101.5を割り込み、民主党の議会制覇でドル安との分析</a>（報道・数値は時刻により不一致）</p><p>ユーロは+0.39%。ドル円は報道で157円台(+0.7%の円高)とされる一方、Yahoo Financeの日足終値は158.38円で、時刻の違いから整合しない。今回はカードにせず要観察。</p></div>
+<p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-05.py、結果は insights/data/analysis/2026-11-05.json)。日経平均(^N225)は11/3以降のデータが取得できていないため、11/4の日経平均とTOPIXは報道値です。11/4の1306.Tの値は報道と整合しないため使っていません。Microsoft、Amazon、Alphabetの11/4終値は今回のデータになく(次回から取得)、報道値で記載しています。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
+</div><script>
+document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.querySelectorAll('.card').forEach(c => {
+    c.style.display = (b.dataset.t === 'all' || c.dataset.t === b.dataset.t) ? '' : 'none';
+  });
+});
+</script></body></html>
