@@ -4696,5 +4696,23 @@
       }
     ],
     "searched_at": "2026-11-04T15:01:38.490038+00:00"
+  },
+  "us:2026-11-04:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「White House panel delays hearing on Fed's Lisa Cook to Dec. 14」「Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war」「Euro zone inflation hits 4% for first time in three years as interest rate hike looms」",
+    "sources": [
+      {
+        "title": "CNBC Economy: White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
+        "url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html"
+      },
+      {
+        "title": "CNBC Economy: Crude oil prices fall below $90 a barrel as Vance blames GOP election defeat on Iran war",
+        "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html"
+      },
+      {
+        "title": "CNBC Markets: Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+        "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+      }
+    ],
+    "searched_at": "2026-11-05T01:41:31.432712+00:00"
   }
 }
