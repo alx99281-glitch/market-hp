@@ -4934,5 +4934,23 @@
       }
     ],
     "searched_at": "2026-11-05T15:07:15.809914+00:00"
+  },
+  "us:2026-11-05:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「The October jobs report is out Friday. Here's everything to expect」「IRS announces new federal income tax brackets for 2027」「Barkin sees interest rate hikes ahead, but at a gradual pace」",
+    "sources": [
+      {
+        "title": "CNBC Economy: The October jobs report is out Friday. Here's everything to expect",
+        "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+      },
+      {
+        "title": "CNBC Economy: IRS announces new federal income tax brackets for 2027",
+        "url": "https://www.cnbc.com/2026/11/05/2027-federal-tax-brackets.html"
+      },
+      {
+        "title": "CNBC Economy: Barkin sees interest rate hikes ahead, but at a gradual pace",
+        "url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html"
+      }
+    ],
+    "searched_at": "2026-11-06T01:43:22.074819+00:00"
   }
 }
