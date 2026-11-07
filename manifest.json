@@ -1,0 +1,11 @@
+{
+ "generated_at": "2026-11-07T01:57+00:00",
+ "last_date": {
+  "^GSPC": "2026-11-06",
+  "^N225": "2026-11-06"
+ },
+ "daily_tickers": 91,
+ "missing_daily": [],
+ "intraday_tickers": 5,
+ "fundamentals_tickers": 23
+}
