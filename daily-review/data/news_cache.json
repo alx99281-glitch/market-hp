@@ -5114,5 +5114,23 @@
       }
     ],
     "searched_at": "2026-11-06T14:46:27.806014+00:00"
+  },
+  "us:2026-11-06:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote」「Democratic sweep gives markets a reason to rethink path of interest rates」「The October jobs report is out Friday. Here's everything to expect」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
+        "url": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html"
+      },
+      {
+        "title": "CNBC Economy: Democratic sweep gives markets a reason to rethink path of interest rates",
+        "url": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html"
+      },
+      {
+        "title": "CNBC Markets: The October jobs report is out Friday. Here's everything to expect",
+        "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+      }
+    ],
+    "searched_at": "2026-11-07T01:04:30.396020+00:00"
   }
 }
