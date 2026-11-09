@@ -5132,5 +5132,47 @@
       }
     ],
     "searched_at": "2026-11-07T01:04:30.396020+00:00"
+  },
+  "us:2026-11-06:sector_internal_dispersion:Utilities": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight」「How Democrats will try to end Trump's tariffs」「China wholesale inflation hits highest in more than four years as consumer measure slows」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+        "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html"
+      },
+      {
+        "title": "CNBC Economy: How Democrats will try to end Trump's tariffs",
+        "url": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html"
+      },
+      {
+        "title": "CNBC Markets: China wholesale inflation hits highest in more than four years as consumer measure slows",
+        "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
+      }
+    ],
+    "searched_at": "2026-11-09T17:02:56.153321+00:00"
+  },
+  "us:2026-11-06:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-2e0e19ff?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-09T17:02:56.578646+00:00"
+  },
+  "us:2026-11-06:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget」「They Led an Energy Department Overhaul. Now They Plan to Build Data Centers.」",
+    "sources": [
+      {
+        "title": "CNBC Markets: The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+        "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+      },
+      {
+        "title": "WSJ Markets: They Led an Energy Department Overhaul. Now They Plan to Build Data Centers.",
+        "url": "https://www.wsj.com/business/energy-oil/they-led-an-energy-department-overhaul-now-they-plan-to-build-data-centers-914f47c2?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-09T17:02:56.596890+00:00"
   }
 }
