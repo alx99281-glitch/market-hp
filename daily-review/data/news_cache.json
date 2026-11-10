@@ -5358,5 +5358,25 @@
       }
     ],
     "searched_at": "2026-11-10T03:44:43.592187+00:00"
+  },
+  "us:2026-11-09:sector:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Bridgepoint sees opportunity in 're-rated' real estate」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Bridgepoint sees opportunity in 're-rated' real estate",
+        "url": "https://www.cnbc.com/2026/11/10/bridgepoint-sees-opportunity-in-re-rated-real-estate.html"
+      }
+    ],
+    "searched_at": "2026-11-10T15:22:25.200856+00:00"
+  },
+  "us:2026-11-09:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-a3b73811?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-10T15:22:25.217861+00:00"
   }
 }
