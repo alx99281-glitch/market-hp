@@ -5378,5 +5378,23 @@
       }
     ],
     "searched_at": "2026-11-10T15:22:25.217861+00:00"
+  },
+  "us:2026-11-10:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「White House vows to press ahead with tariffs despite midterm backlash over rising prices」「Here's the inflation breakdown for October 2026 — in one chart」「10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations」",
+    "sources": [
+      {
+        "title": "CNBC Economy: White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+        "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html"
+      },
+      {
+        "title": "CNBC Economy: Here's the inflation breakdown for October 2026 — in one chart",
+        "url": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html"
+      },
+      {
+        "title": "CNBC Economy: 10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+        "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+      }
+    ],
+    "searched_at": "2026-11-11T01:23:34.264558+00:00"
   }
 }
