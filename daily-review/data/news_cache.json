@@ -5570,5 +5570,87 @@
       }
     ],
     "searched_at": "2026-11-12T02:24:23.463448+00:00"
+  },
+  "us:2026-11-11:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'」「Feds arrest top official of healthcare company, alleging illegal drug importation」「Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'",
+        "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+      },
+      {
+        "title": "CNBC Economy: Feds arrest top official of healthcare company, alleging illegal drug importation",
+        "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
+      },
+      {
+        "title": "CNBC Economy: Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+        "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html"
+      }
+    ],
+    "searched_at": "2026-11-12T15:43:23.070422+00:00"
+  },
+  "us:2026-11-11:factor:Growth": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'」「Feds arrest top official of healthcare company, alleging illegal drug importation」「Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'",
+        "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+      },
+      {
+        "title": "CNBC Economy: Feds arrest top official of healthcare company, alleging illegal drug importation",
+        "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
+      },
+      {
+        "title": "CNBC Economy: Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+        "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html"
+      }
+    ],
+    "searched_at": "2026-11-12T15:43:23.075615+00:00"
+  },
+  "us:2026-11-11:factor:Quality": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'」「Feds arrest top official of healthcare company, alleging illegal drug importation」「Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'",
+        "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+      },
+      {
+        "title": "CNBC Economy: Feds arrest top official of healthcare company, alleging illegal drug importation",
+        "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
+      },
+      {
+        "title": "CNBC Economy: Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+        "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html"
+      }
+    ],
+    "searched_at": "2026-11-12T15:43:23.079602+00:00"
+  },
+  "us:2026-11-11:factor:Liquidity": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'」「Feds arrest top official of healthcare company, alleging illegal drug importation」「Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Oil prices mixed after Trump says no Iran deal needed: 'We've got their Strait'",
+        "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+      },
+      {
+        "title": "CNBC Economy: Feds arrest top official of healthcare company, alleging illegal drug importation",
+        "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
+      },
+      {
+        "title": "CNBC Economy: Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+        "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html"
+      }
+    ],
+    "searched_at": "2026-11-12T15:43:23.083584+00:00"
+  },
+  "us:2026-11-11:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget」",
+    "sources": [
+      {
+        "title": "CNBC Markets: The UK cuts energy bills, taxes banks and boosts defense in high-stakes budget",
+        "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html"
+      }
+    ],
+    "searched_at": "2026-11-12T15:43:23.290109+00:00"
   }
 }
