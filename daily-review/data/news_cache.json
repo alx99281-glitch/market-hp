@@ -5552,5 +5552,23 @@
       }
     ],
     "searched_at": "2026-11-11T14:53:01.980561+00:00"
+  },
+  "us:2026-11-11:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Feds arrest top official of healthcare company, alleging illegal drug importation」「Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment」「White House vows to press ahead with tariffs despite midterm backlash over rising prices」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Feds arrest top official of healthcare company, alleging illegal drug importation",
+        "url": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html"
+      },
+      {
+        "title": "CNBC Economy: Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
+        "url": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html"
+      },
+      {
+        "title": "CNBC Economy: White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+        "url": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html"
+      }
+    ],
+    "searched_at": "2026-11-12T02:24:23.463448+00:00"
   }
 }
