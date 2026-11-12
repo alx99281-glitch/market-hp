@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分析の視点 2026-11-13</title><style>
+:root { --bg:#0d1117; --panel:#161b22; --panel2:#21262c; --border:#30363d; --text:#e6edf3;
+  --muted:#8b949e; --accent:#58a6ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --watch:#a371f7; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); line-height:1.65;
+  font-family:-apple-system,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif; }
+.wrap { max-width:1120px; margin:0 auto; padding:24px 20px 56px; }
+.top { display:flex; justify-content:space-between; gap:12px; align-items:center; color:var(--muted); font-size:.8rem; }
+select { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:5px; padding:4px 8px; }
+h1 { font-size:1.5rem; line-height:1.35; margin:10px 0 8px; }
+.lead { color:var(--muted); max-width:820px; margin:0 0 18px; }
+.snap { display:grid; grid-template-columns:repeat(auto-fit,minmax(135px,1fr)); gap:8px; margin-bottom:18px; }
+.snap div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.snap span { display:block; color:var(--muted); font-size:.72rem; }
+.snap b { font-size:1rem; font-variant-numeric:tabular-nums; }
+.filters { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; }
+.filters button { background:var(--panel2); border:1px solid var(--border); color:var(--text);
+  padding:5px 12px; border-radius:5px; cursor:pointer; font-size:.8rem; }
+.filters button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+.grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; align-items:start; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px 18px; min-width:0; }
+.meta { display:flex; justify-content:space-between; gap:8px; font-size:.75rem; color:var(--muted); }
+.badge { font-weight:600; }
+.ok { color:var(--ok); } .warn { color:var(--warn); } .bad { color:var(--bad); } .watch { color:var(--watch); }
+h2 { font-size:1.08rem; line-height:1.4; margin:6px 0 8px; }
+h3 { font-size:.74rem; color:var(--muted); margin:12px 0 2px; font-weight:600; }
+p { margin:0; font-size:.88rem; } ul { margin:0; padding-left:1.1em; font-size:.84rem; } li { margin:2px 0; }
+.post { background:var(--panel2); border-left:3px solid var(--accent); padding:7px 10px; border-radius:0 5px 5px 0; }
+.scroll { overflow-x:auto; margin-top:10px; }
+table { width:100%; border-collapse:collapse; font-size:.8rem; font-variant-numeric:tabular-nums; }
+caption { text-align:left; color:var(--muted); font-size:.74rem; padding-bottom:4px; }
+th,td { padding:4px 8px; border-bottom:1px solid var(--border); text-align:right; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; } th { color:var(--muted); font-weight:500; }
+.note { color:var(--muted); font-size:.74rem; margin-top:4px; }
+.src { margin-top:12px; font-size:.74rem; color:var(--muted); }
+a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.section { font-size:1.15rem; margin:30px 0 10px; }
+.x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+.x p + p { color:var(--muted); font-size:.82rem; }
+.method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+@media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
+</style></head>
+<body><div class="wrap">
+<div class="top"><span>分析の視点 ・ 2026-11-12 NY引けまで(東京11/12の日経平均は報道値。S&amp;P500採用銘柄の個別データは11/11まで)</span>
+<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-13.html" selected>2026-11-13</option><option value="2026-11-11.html">2026-11-11</option><option value="2026-11-08.html">2026-11-08</option><option value="2026-11-06.html">2026-11-06</option><option value="2026-11-05.html">2026-11-05</option><option value="2026-11-04.html">2026-11-04</option><option value="2026-11-03.html">2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
+<h1>ファンCEO辞任でエヌビディアは寄り付き-13%から-4%まで戻した。その裏で米10年金利は5.10%、金は3日で-5.6%</h1><p class="lead">エヌビディアはジェンスン・ファンCEOの辞任(8-Kで開示、CFOのコレット・クレス氏が暫定CEO)を受けて、前日比-13.1%で寄り付き、安値-14.4%から引けは-4.34%(166.19ドル)まで戻しました。一方でAMDは+5.86%と逆に上げ、11/6からの累計はエヌビディア-11.0%、AMD+30.3%と大きく分かれています。東京は11/12に、引け後の米国より先にこのニュースを織り込み、アドバンテストが-4.63%、東京エレクトロンは+0.35%と、こちらも分かれました。日経平均は60,819円(-0.70%、報道値)で、CME日経先物は61,415円と東京終値を0.98%上回っています。同じ日、米10年金利は+10.5bpの5.10%、ドル指数は2025年4月以来の高値、金先物は-2.95%、ビットコインは-3.52%でした。エヌビディアの決算は11/17(米国引け後)と報じられています。</p>
+<div class="snap"><div><span>S&amp;P500</span><b>7,592.40 (-0.35%)</b></div><div><span>ナスダック100</span><b>28,289.19 (-0.30%)</b></div><div><span>SOX</span><b>10,506.67 (-0.54%)</b></div><div><span>エヌビディア</span><b>166.19ドル (-4.34%、寄り付き-13.1%)</b></div><div><span>AMD</span><b>585.30ドル (+5.86%)</b></div><div><span>米10年金利</span><b>5.10% (+10.5bp)</b></div><div><span>米5年金利</span><b>4.95% (+11.8bp)</b></div><div><span>ドル円</span><b>159.84 (+0.71%)</b></div><div><span>日経平均11/12</span><b>60,819.36 (-0.70%、報道値)</b></div><div><span>CME日経先物(NKD)</span><b>61,415 (東京終値比+0.98%)</b></div><div><span>金先物</span><b>3,882.3 (-2.95%)</b></div><div><span>ビットコイン</span><b>71,358ドル (-3.52%)</b></div><div><span>VIX</span><b>18.70 (+6.9%)</b></div></div>
+<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="ポジショニング">ポジショニング</button><button data-t="半導体">半導体</button><button data-t="クロスアセット">クロスアセット</button><button data-t="金利">金利</button></div>
+<div class="grid"><article class="card" data-t="ポジショニング">
+<div class="meta"><span>ポジショニング</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>寄り付き-13%から-4%へ。CEO辞任は「一度きりの清算」になるか</h2>
+<p>Xでは、郭明錤氏が「悪材料は短期的には織り込まれ、一度きりの清算になり得る」と投稿し(未検証)、オッペンハイマーは人材流出を理由に格下げしたと伝えられています(投稿経由、未検証)。見方は割れています。過去3年のS&amp;P500採用銘柄で、安値が前日比-8%以下まで売られた日を調べると、引けまでに下げの半分以上を戻した銘柄は、その後20日の成績が良い傾向がありました。ただし今回に近い「安値-12%以下から半分以上戻した大型株」は8例しかなく、結果は大きくばらついています。</p>
+<h3>データ</h3><ul><li>11/12のエヌビディア: 寄り付き150.99ドル(前日比-13.09%)、安値148.80ドル(-14.35%)、終値166.19ドル(-4.34%)。安値からの戻りは下げ幅の70%。10/6の高値239.24ドルからは-30.5%</li><li>S&amp;P500採用銘柄(2023/9〜2026/11/11)で安値が前日比-8%以下の日(同一銘柄20営業日内の重複は除外、n=2,048): 20日後のSPY比超過リターンは中央値-0.10%</li><li>そのうち引けまでに下げの半分以上を戻した日(n=188): 20日後の超過は中央値+1.51%、プラス56%。戻りが4分の1未満の日(n=1,397)は中央値-0.56%、プラス48%</li><li>売買代金上位100銘柄に限ると、半分以上戻した日(n=54)は20日後の超過が中央値+6.92%、プラス72%。戻しきれなかった日(n=567)は中央値+1.88%、プラス57%</li><li>安値-12%以下から半分以上戻した大型株は8例のみ。20日後の超過は-17.4%(COIN 2024/8/5)から+78.6%(SNDK 2026/1/8)まで散らばり、プラスは8例中5例。今回の判断材料としては弱い</li><li>これらの多くは決算での急落で、経営トップの辞任とは性質が違う。調査期間はおおむね上昇相場だった</li><li>エヌビディアは11/17に決算を控え、オプションが織り込む決算日の値動きは報道により約6〜11%と幅がある(報道値)</li></ul>
+<div class="scroll"><table><caption>安値が前日比-8%以下の日の、その後のSPY比超過リターン(S&amp;P500採用銘柄、%)</caption><thead><tr><th>区分</th><th>n</th><th>5日後中央値</th><th>20日後中央値</th><th>20日後プラス比率</th></tr></thead><tbody><tr><td>全体</td><td>2048</td><td>-0.06</td><td>-0.10</td><td>50%</td></tr><tr><td>半分以上戻した</td><td>188</td><td>+0.16</td><td>+1.51</td><td>56%</td></tr><tr><td>戻り4分の1未満</td><td>1397</td><td>-0.11</td><td>-0.56</td><td>48%</td></tr><tr><td>大型株・半分以上戻した</td><td>54</td><td>+0.78</td><td>+6.92</td><td>72%</td></tr><tr><td>大型株・安値-12%以下・半分以上戻した</td><td>8</td><td>+8.19</td><td>+17.78</td><td>62%</td></tr><tr><td>NVDA 11/12</td><td>-</td><td></td><td></td><td>安値-14.35%、戻り70%</td></tr></tbody></table></div><div class="note">daily-review/data/prices.parquet(約3年)。大型株は直近90日の平均売買代金上位100。決算によるギャップが多く含まれ、重複期間あり。</div>
+<h3>日本株への含意</h3><p>東京は11/12の取引時間中にこの材料を織り込み、アドバンテストが-4.63%、ソフトバンクGが-3.04%でした。米国ではエヌビディアが寄り付きの下げの7割を戻しており、東京の関連株は米国の引け値よりも悪い水準(時間外の急落)を織り込んだ可能性があります(解釈)。CME日経先物が東京終値を0.98%上回っているのは、その戻りを反映していると考えます。</p>
+<h3>見方を変える条件</h3><p>エヌビディアが11/12の安値148.80ドルを終値で割り込めば、「一度きりの清算」という見方は外れです。決算(11/17)の後も166ドル前後を保てれば、清算説を支持する材料になります。</p>
+<h3>発信用の一言</h3><p class="post">ファンCEO辞任でエヌビディアは寄り付き-13%、引けは-4%。過去3年の大型株で、急落した日に下げの半分以上を戻した例は20日後の成績が良かった(n=54、超過中央値+6.9%)。ただ今回並みの-12%超から戻した例は8つしかなく、結果はばらばら。</p>
+<div class="src">ネタ元: <a href="https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm" target="_blank" rel="noopener noreferrer">SEC: エヌビディアの8-K(CEO交代の開示)</a> / <a href="https://www.axios.com/2026/11/12/nvidia-jensen-huang-out" target="_blank" rel="noopener noreferrer">Axios: ファン氏がCEOを辞任(報道)</a> / <a href="https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html" target="_blank" rel="noopener noreferrer">CNBC: エヌビディアは4%超安で引け(報道)</a> / <a href="https://x.com/mingchikuo/status/2120908056754327844" target="_blank" rel="noopener noreferrer">X: 郭明錤氏「短期的には一度きりの清算」(投稿の要約、未検証)</a> / <a href="https://x.com/stocktalkweekly/status/2120762632231666128" target="_blank" rel="noopener noreferrer">X: オッペンハイマーが人材流出を理由に格下げ(投稿の要約、未検証)</a> / <a href="https://www.investing.com/news/stock-market-news/nvidia-stock-may-move-67-on-nov-17-earnings-report-93CH-5016094" target="_blank" rel="noopener noreferrer">Investing.com: 決算日の想定変動6.7%(報道値)</a></div>
+</article><article class="card" data-t="半導体">
+<div class="meta"><span>半導体</span><span class="badge bad">検証: 反証</span></div>
+<h2>「アドバンテスト=エヌビディア連想」は、データ上どこまで正しいか</h2>
+<p>11/12の東京ではアドバンテストがエヌビディアの主要顧客として連想売りされ、日経平均を最も押し下げたと報じられました。アドバンテストとエヌビディアの株価の相関は0.93という記事もあります(株価水準の相関とみられる)。しかし日次の値動きで見ると、アドバンテストの東京の値動きは、前夜のエヌビディアよりもAMDやSOX指数とのほうが連動しています。エヌビディアとAMDが逆に動く今は、「エヌビディア安=アドバンテスト安」とは限りません。</p>
+<h3>データ</h3><ul><li>11/6から11/12の累計: エヌビディア-10.96%、AMD+30.34%、SOX+11.89%、マイクロン+15.72%。エヌビディアのAMDに対する相対は-31.7%</li><li>2000年以降、エヌビディアが-3%以下でAMDが+3%以上だった日は34日。そのうち2日が今週(11/9と11/12)</li><li>直近250営業日、東京のアドバンテスト(t日)と前夜の米国(t-1日)の相関: エヌビディア0.34、AMD0.41、SOX0.45。東京エレクトロンもエヌビディア0.24、SOX0.46</li><li>年ごとに見ても、アドバンテストの前夜エヌビディアとの相関は2022年0.53が最高で、2026年は0.32。SOXとの相関(2026年0.42)を下回る</li><li>11/12: アドバンテスト-4.63%、東京エレクトロン+0.35%、キオクシア-2.83%、ソフトバンクG-3.04%、信越化学-8.32%(信越化学の下げの理由は確認できていない)</li><li>アドバンテスト÷東京エレクトロンの株価比は3.22で、11/6の3.39から低下。それでも過去1年では上から18%の高い水準(最高は10/29の3.69)</li></ul>
+<div class="scroll"><table><caption>東京の各銘柄(t日)と前夜の米国(t-1日)の日次相関(直近250営業日)</caption><thead><tr><th>東京</th><th>NVDA</th><th>AMD</th><th>AVGO</th><th>SOX</th><th>11/12騰落</th></tr></thead><tbody><tr><td>アドバンテスト</td><td>0.34</td><td>0.41</td><td>0.35</td><td>0.45</td><td>-4.63%</td></tr><tr><td>東京エレクトロン</td><td>0.24</td><td>0.41</td><td>0.35</td><td>0.46</td><td>+0.35%</td></tr><tr><td>キオクシア</td><td>0.20</td><td>0.33</td><td>0.21</td><td>0.35</td><td>-2.83%</td></tr><tr><td>ソフトバンクG</td><td>0.24</td><td>0.38</td><td>0.31</td><td>0.39</td><td>-3.04%</td></tr></tbody></table></div><div class="note">東京の各営業日に、それより前の最後の米国営業日を対応させた。AVGOは11/11まで。キオクシアは上場後のデータのみ。</div>
+<h3>日本株への含意</h3><p>11/12の東京はアドバンテストを「エヌビディア銘柄」として売りましたが、日次の連動では前夜のSOXやAMDのほうが効いています。米国でSOXは-0.54%、AMDは+5.86%で引けており、アドバンテストの売りがエヌビディア個別の材料に偏っていたなら、戻りの余地を議論できる局面です(解釈、売買の推奨ではありません)。逆にエヌビディアの決算(11/17)で受注や出荷の見通しが崩れれば、テスター需要への連想は再び強まります。</p>
+<h3>見方を変える条件</h3><p>今後数営業日、アドバンテストが前夜のSOXやAMDではなくエヌビディアの値動きに沿って動き続ければ(特にエヌビディア安・SOX高の日に下げる)、「連想はデータ上弱い」という判定は外れです。</p>
+<h3>発信用の一言</h3><p class="post">11/12の東京はアドバンテストを「エヌビディア連想」で売った。ただ直近1年の日次の連動は、前夜のエヌビディア(相関0.34)よりSOX(0.45)やAMD(0.41)のほうが強い。今週はエヌビディア安・AMD高の日が2日あった。</p>
+<div class="src">ネタ元: <a href="https://www.nikkei.com/article/DGXZQOFL1209X0S6A111C2000000/" target="_blank" rel="noopener noreferrer">日経: 東証大引け、米エヌビディア報道が重荷(報道)</a> / <a href="https://media.monex.co.jp/articles/-/30498" target="_blank" rel="noopener noreferrer">マネックス: アドバンテストが指数を313円押し下げ(報道)</a> / <a href="https://mlq.ai/news/wall-street-closes-lower-as-nvidia-falls-4-after-huangs-exit-while-amd-and-broadcom-gain-more-than-5/" target="_blank" rel="noopener noreferrer">mlq.ai: エヌビディア-4%、AMDとブロードコムは+5%超(AP報道の要約)</a> / <a href="https://kr-asia.com/this-rising-japanese-chip-stock-has-a-close-correlation-with-nvidia" target="_blank" rel="noopener noreferrer">KrASIA: アドバンテストとエヌビディアの相関0.93(過去記事)</a> / <a href="https://www.zerohedge.com/markets/nasdaq-futures-slide-nvidia-board-hunts-huangs-replacement-rivals-feast" target="_blank" rel="noopener noreferrer">ZeroHedge: ライバルが恩恵との見方(報道)</a></div>
+</article><article class="card" data-t="クロスアセット">
+<div class="meta"><span>クロスアセット</span><span class="badge bad">検証: 反証</span></div>
+<h2>金3日で-5.6%、ビットコイン-5.1%。「米金利5%超えのせい」で説明できるか</h2>
+<p>米10年金利が5.10%に乗せ、金とビットコインの下落は金利高が原因との解説が目立ちます。しかし、直近1年の関係から見込まれる金の下げは、3日分の金利上昇(+23.9bp)で約-1.8%にすぎません。実際の-5.6%は金利だけでは説明できず、ドル高や持ち高の巻き戻しなど、金利以外の要因が大きいと考えられます。ビットコインはそもそも金利との連動がほとんどありません。</p>
+<h3>データ</h3><ul><li>11/9から11/12: 米10年金利+23.9bp(5.103%)、5年+28.6bp、3か月+9.3bp。10年金利の終値5.103%を上回ったのは2007年8月以降19営業日で、すべて2026年(最後は10/21、年内の最高は10/5の5.311%)</li><li>金先物は3日で-5.64%(3,882.3ドル)。3日騰落としては2000年以降の下位0.7%。1/29の高値5,318.4ドルからは-27.0%</li><li>直近250日、金の10年金利10bp上昇あたりの感応度は-0.77%(相関-0.19)。直近20日では-0.42%(相関-0.18)。この感応度で3日分の金利上昇を当てはめると約-1.8%</li><li>ビットコインは3日で-5.14%(71,358ドル)。10年金利との相関は250日で-0.07、60日で-0.01とほぼゼロ</li><li>ドル指数は103.17で、終値ベースで2025年4月7日以来の高値。ドル指数と10年金利の相関は直近20日で0.47と、250日(0.36)より強まっている</li><li>ドル円は159.84(+0.71%)だが、10年金利との相関は250日で-0.02とほぼゼロ。2026年は160円以上の日が43日あり、年内の高値は7/29の163.86</li></ul>
+<div class="scroll"><table><caption>米10年金利10bp上昇あたりの日次感応度(%)と相関</caption><thead><tr><th>資産</th><th>20日</th><th>60日</th><th>250日</th><th>11/9→11/12実績</th></tr></thead><tbody><tr><td>金先物</td><td>-0.42 (相関-0.18)</td><td>-0.69 (-0.27)</td><td>-0.77 (-0.19)</td><td>-5.64%</td></tr><tr><td>ビットコイン</td><td>+0.62 (0.19)</td><td>-0.06 (-0.01)</td><td>-0.43 (-0.07)</td><td>-5.14%</td></tr><tr><td>ドル指数</td><td>+0.24 (0.47)</td><td>+0.23 (0.39)</td><td>+0.28 (0.36)</td><td>+1.50%</td></tr><tr><td>ドル円</td><td>+0.03 (0.05)</td><td>-0.00 (-0.01)</td><td>-0.03 (-0.02)</td><td>+0.98%</td></tr><tr><td>TLT(米長期債)</td><td>-1.07 (-0.93)</td><td>-1.16 (-0.92)</td><td>-1.23 (-0.88)</td><td>-2.73%</td></tr></tbody></table></div><div class="note">^TNXの日次変化(bp)に対する各資産の日次騰落率の回帰係数×10。暗号資産は週末も取引されるため日付の対応は近似。</div>
+<h3>日本株への含意</h3><p>ドル円は米金利にほとんど反応しないまま160円に近づいています。金利差では説明しにくい円安であり、日本の通貨当局が警戒を示しているとの報道もあります(報道値、未確認)。円安が続けば輸出株には追い風ですが、介入があれば為替が急に戻る可能性があり、ヘッジなしの外国人投資家から見た日本株の成績(EWJ)は、ヘッジ付き(DXJ)よりも振れやすい局面と考えます(解釈)。</p>
+<h3>見方を変える条件</h3><p>今後、米金利が落ち着いた(低下した)日にも金やビットコインの下げが止まらなければ、「金利以外の要因が大きい」という見方を支持します。逆に金利の低下とともに金が素直に戻れば、金利要因が想定より大きかったことになり、判定を見直します。</p>
+<h3>発信用の一言</h3><p class="post">金は3日で-5.6%、2000年以降の下位0.7%の下げ。米10年金利は+24bpだが、直近1年の感応度から見込まれる金の下げは約-1.8%。金利だけでは説明できない。ビットコインは金利とほぼ無相関。</p>
+<div class="src">ネタ元: <a href="https://journalarta.com/en/2026/11/12/gold-price-today-spot-gold-drops-2-9-to-3871-6-as-silver-falls-3-47-and-copper-slides/" target="_blank" rel="noopener noreferrer">JournalArta: 金-2.9%、銀-3.47%(報道)</a> / <a href="https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-12" target="_blank" rel="noopener noreferrer">Babypips: 11/12の市場まとめ(報道)</a> / <a href="https://www.fxstreet.com/analysis/eur-usd-breaks-support-eyes-10950-gold-risks-3-500-usd-jpy-breaks-159-resist-bitcoin-to-65k-video-202611122026" target="_blank" rel="noopener noreferrer">FXStreet: ドル円159円を上抜け、ビットコイン(解説)</a> / <a href="https://www.cnn.com/2026/09/23/investing/us-bond-market-fed" target="_blank" rel="noopener noreferrer">CNN: 10年金利5.1%は19年ぶり(9月の報道)</a></div>
+</article><article class="card" data-t="金利">
+<div class="meta"><span>金利</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>10年金利4.5%超での金利上昇は、小型株・地銀・REITに効きやすくなるか</h2>
+<p>11/12はS&amp;P500が-0.35%だったのに対し、ラッセル2000(IWM)は-1.64%、均等加重(RSP)は-0.87%でした。2000年以降、10年金利が1日に+8bp以上上がった日を、前日の金利水準で分けると、4.5%以上の局面では小型株、地銀、REITがS&amp;P500に負けやすくなっています。ただし4.5%以上の局面のサンプルは少なく、確かな傾向とは言えません。</p>
+<h3>データ</h3><ul><li>11/12: IWMのSPY比-1.29%、RSP-0.51%、地銀ETF(KRE)-0.24%、公益(XLU)+0.33%。IWMのSPY比は11/9から-2.02%</li><li>10年金利+8bp以上の日、前日の金利が4.5%未満(n=414): IWMのSPY比は中央値+0.16%、負けたのは41%</li><li>同じく前日の金利が4.5%以上(n=74): IWMのSPY比は中央値-0.17%、負けたのは53%</li><li>地銀(KRE): 4.5%未満(n=341)では中央値+0.54%・負け35%だが、4.5%以上(n=26)では中央値-0.35%・負け69%。REIT(XLRE)は4.5%以上(n=17)で94%負け</li><li>IWMのSPY比の10年金利10bpあたり感応度: 直近250日-0.47%、60日-0.46%、2022年以降-0.17%。直近1年は金利への弱さが強まっている</li><li>IWMは年初来+13.88%、SPYは+11.89%で、小型株は年初来ではまだ上回っている</li></ul>
+<div class="scroll"><table><caption>10年金利+8bp以上の日のSPY比騰落(中央値%、負けた比率)</caption><thead><tr><th>ETF</th><th>金利4.5%未満</th><th>金利4.5%以上</th><th>11/12</th></tr></thead><tbody><tr><td>IWM(小型株)</td><td>+0.16 / 41% (n=414)</td><td>-0.17 / 53% (n=74)</td><td>-1.29</td></tr><tr><td>RSP(均等加重)</td><td>+0.06 / 44% (n=387)</td><td>-0.08 / 62% (n=32)</td><td>-0.51</td></tr><tr><td>KRE(地銀)</td><td>+0.54 / 35% (n=341)</td><td>-0.35 / 69% (n=26)</td><td>-0.24</td></tr><tr><td>XLRE(REIT)</td><td>-0.46 / 65% (n=156)</td><td>-0.66 / 94% (n=17)</td><td>-0.16</td></tr><tr><td>XLU(公益)</td><td>-0.56 / 69% (n=414)</td><td>-0.38 / 64% (n=87)</td><td>+0.33</td></tr></tbody></table></div><div class="note">^TNXの日次変化。金利水準は前日終値。ETFごとにデータの開始時期が違うためnが異なる。4.5%以上の日は2000年代前半と2023年以降に偏る。</div>
+<h3>日本株への含意</h3><p>ドル建ての日本株ETFでは、ヘッジなしのEWJのSPY比は10年金利10bpあたり-0.34%、ヘッジ付きのDXJは+0.11%(直近250日)でした。米金利が上がる日は、円安を通じてヘッジなしの日本株が米国株に負けやすく、11/12もEWJ-0.35%、DXJ+0.57%(SPY比)でした。海外勢の日本株の評価は、為替ヘッジの有無で見え方が変わる点を顧客に伝えやすいと考えます(解釈)。</p>
+<h3>見方を変える条件</h3><p>10年金利が5%台で高止まりするなか、金利上昇日に小型株や地銀がS&amp;P500を上回る日が続けば、「金利水準が高いと小型株に効きやすい」という見方は外れです。</p>
+<h3>発信用の一言</h3><p class="post">10年金利+10.5bpで5.10%。この日、小型株(IWM)はS&amp;P500に1.3%負けた。2000年以降、金利+8bp以上の日を水準で分けると、4.5%以上では小型株・地銀・REITが負けやすい。ただ4.5%以上の日は少なく(小型株でn=74)、確度は高くない。</p>
+<div class="src">ネタ元: <a href="https://finance.yahoo.com/markets/article/10-year-treasury-yield-hits-highest-level-since-2007-as-market-prices-in-another-fed-rate-hike-152744538.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: 10年金利が2007年以来の高水準、追加利上げを織り込み(9月の報道)</a> / <a href="https://www.webull.com/news/15599447670014976" target="_blank" rel="noopener noreferrer">Webull: ラッセル2000と金利ショック(解説)</a> / <a href="https://x.com/KobeissiLetter/status/2052387117938917736" target="_blank" rel="noopener noreferrer">X: 10年金利がS&amp;P500の益回りを上回る(投稿の要約、未検証)</a></div>
+</article></div>
+<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/garyblack00/status/2120888364710732278" target="_blank" rel="noopener noreferrer">ファン氏がCEOを辞任、クレスCFOが暫定CEO(投稿)</a>（報道あり）</p><p>8-Kで開示を確認。急落後に大きく戻した値動きの意味をカード1で検証</p></div><div class="x"><p><a href="https://x.com/mingchikuo/status/2120908056754327844" target="_blank" rel="noopener noreferrer">郭明錤氏「短期的には一度きりの清算」(投稿)</a>（未検証）</p><p>急落から戻した過去の例をカード1で検証。条件付き</p></div><div class="x"><p><a href="https://x.com/stocktalkweekly/status/2120762632231666128" target="_blank" rel="noopener noreferrer">オッペンハイマーが「人材流出」で格下げ(投稿)</a>（未検証）</p><p>格下げの事実は一次情報未確認。重荷が長引くかは決算(11/17)後の値動きで確かめる</p></div><div class="x"><p><a href="https://x.com/KobeissiLetter/status/2120652042167517274" target="_blank" rel="noopener noreferrer">予測市場でファン氏退任の確率が85%超に(投稿)</a>（未検証）</p><p>辞任は実現。確率の数値は検証していない</p></div><div class="x"><p><a href="https://x.com/vinodsrinivasan/status/2120672548425973986" target="_blank" rel="noopener noreferrer">時価総額が今週6,000億ドル以上減少(投稿)</a>（未検証）</p><p>時価総額は取得していない。株価は11/6比-11.0%</p></div><div class="x"><p><a href="https://x.com/DavidInglesTV/status/2120828167715967371" target="_blank" rel="noopener noreferrer">エヌビディアは利益成長ゼロでもPER17〜18倍(投稿)</a>（未検証）</p><p>前提の利益予想が確認できないため今号では扱わない</p></div><div class="x"><p><a href="https://x.com/GlobalMktObserv/status/2098432630727348684" target="_blank" rel="noopener noreferrer">10年金利がS&amp;P500の益回りを上回り、株式のリスクプレミアムはマイナス(投稿)</a>（未検証）</p><p>指数の益回りは取得していない。金利水準と小型株の関係をカード4で検証</p></div>
+<p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-13.py、結果は insights/data/analysis/2026-11-13.json)。エヌビディアのCEO交代は同社の8-Kで確認し、その他の経緯、決算日、オプションの想定変動、東京11/12の日経平均終値と個別銘柄の寄与度は報道値で、一次情報は未確認です。米国の取得データの最終日は11/12、S&amp;P500採用銘柄の個別データは11/11までのため、ブロードコムの11/12の値動きは報道値です。東京と米国の相関は、東京の各営業日に直前の米国営業日を対応させて計算しています。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
+</div><script>
+document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.querySelectorAll('.card').forEach(c => {
+    c.style.display = (b.dataset.t === 'all' || c.dataset.t === b.dataset.t) ? '' : 'none';
+  });
+});
+</script></body></html>
