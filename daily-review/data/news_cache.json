@@ -5652,5 +5652,23 @@
       }
     ],
     "searched_at": "2026-11-12T15:43:23.290109+00:00"
+  },
+  "us:2026-11-12:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates」「Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'」「Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight」",
+    "sources": [
+      {
+        "title": "CNBC Economy: In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+        "url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html"
+      },
+      {
+        "title": "CNBC Economy: Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+        "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+      },
+      {
+        "title": "CNBC Markets: Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+        "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+      }
+    ],
+    "searched_at": "2026-11-13T02:02:43.317016+00:00"
   }
 }
