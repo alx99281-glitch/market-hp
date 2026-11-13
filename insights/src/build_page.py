@@ -153,7 +153,7 @@ def sparkline(series: list, up: bool) -> str:
             f'<div class="axis"><span>{e(series[0][0])}</span><span>高 {num(hi)} / 安 {num(lo)}</span><span>{e(series[-1][0])}</span></div>')
 
 
-def big_moves(items: list) -> str:
+def big_moves(items: list, note: str = "") -> str:
     if not items:
         return ""
     cards = []
@@ -163,7 +163,8 @@ def big_moves(items: list) -> str:
         cards.append(f"""<div class="move"><div class="grp">{e(m['group'])}</div><h4>{e(m['label'])}</h4>
 <div class="big {'up' if up else 'down'}">{e(m['metric'])}</div><div class="since">{e(m.get('since', ''))}</div>
 {sparkline(m.get('series', []), up)}<p>{e(m['comment'])}</p>{src}</div>""")
-    return '<h2 class="section">大きく動いたもの</h2><div class="moves">' + "".join(cards) + "</div>"
+    intro = f'<p class="lead">{e(note)}</p>' if note else ""
+    return '<h2 class="section">大きく動いたもの</h2>' + intro + '<div class="moves">' + "".join(cards) + "</div>"
 
 
 def investors(inv: dict | None) -> str:
@@ -215,7 +216,7 @@ def page(ed: dict, dates: list[str]) -> str:
 <div class="snap">{snap}</div>
 <div class="filters">{filters}</div>
 <div class="grid">{cards}</div>
-{big_moves(ed.get('big_moves', []))}
+{big_moves(ed.get('big_moves', []), ed.get('big_moves_note', ''))}
 {investors(ed.get('investors'))}
 <h2 class="section">Xで拾った論点</h2>{xs}
 <p class="method">{e(ed['method'])} 情報提供を目的としたもので、投資勧誘ではありません。</p>
