@@ -41,6 +41,24 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 .x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
 .x p + p { color:var(--muted); font-size:.82rem; }
 .method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
@@ -100,6 +118,8 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 <h3>発信用の一言</h3><p class="post">選挙後3日間で古河電工-29%、フジクラ-24%と東エレク-17%を上回る下げ。米国でもVertiv-25%、Vistra-19%はNVIDIA-12%より大きい。規制の矢面は「建設と電力」か。</p>
 <div class="src">ネタ元: <a href="https://www.ksat.com/news/texas/2026/11/04/gina-hinojosa-won-the-governors-race-what-happens-to-texas-data-centers-now/" target="_blank" rel="noopener noreferrer">KSAT: ヒノホサ氏の勝利でテキサスのデータセンターはどうなるか(報道)</a> / <a href="https://energynewsbeat.co/?p=230660" target="_blank" rel="noopener noreferrer">Energy News Beat: 半導体とテキサスの電力株が下落、有権者はデータセンターを止めたのか(報道)</a> / <a href="https://www.eenews.net/articles/texas-data-center-approval-halt-scrambles-grid-plans/" target="_blank" rel="noopener noreferrer">E&amp;E News: テキサスのデータセンター承認停止が送電計画に影響(報道)</a></div>
 </article></div>
+
+
 <h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/i/trending/2118743013048631447" target="_blank" rel="noopener noreferrer">日経平均3,643円安で歴代3位の下落、AI規制懸念が全面安を招いたとのトレンド。セリクラかどうかで見方が割れる</a>（未検証）</p><p>「全部安」カードのきっかけ。225銘柄の下落比率と60分足の寄り付きギャップで検証。</p></div><div class="x"><p><a href="https://x.com/KobeissiLetter/status/2118687090435137597" target="_blank" rel="noopener noreferrer">寄り前に米半導体株が大きく上昇(サンディスク+12%、マーベル+10%、マイクロン+9%など)、押し目買いとの投稿</a>（未検証）</p><p>「SOX翌日反発」カードのきっかけ。寄り後の値動きと過去の翌日反発の成績を確認。</p></div><div class="x"><p><a href="https://x.com/MarketWave7/status/2118690542334730258" target="_blank" rel="noopener noreferrer">11/6朝、SOXX+5%、ラムリサーチ+9%など半導体が寄り前に急伸、雇用統計待ちとの投稿</a>（未検証）</p><p>「SOX翌日反発」カードの補足。SMHは寄り付き+6.05%から引け+4.00%に縮小。</p></div><div class="x"><p><a href="https://x.com/kyookine/status/2118893060197409211" target="_blank" rel="noopener noreferrer">ナスダックは18か月ぶりの最悪の日から1.09%反発、マイクロンとQualcommが5%超上昇との市況の日本語訳</a>（未検証）</p><p>「作る側・使う側」カードのきっかけ。11/6の逆回転の大きさを累計で確認。</p></div>
 <p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-08.py、結果は insights/data/analysis/2026-11-08.json)。TOPIXの指数値、雇用統計、テキサスの規制動向は報道値で、一次情報は未確認です。日経225採用銘柄の騰落は daily-review/data の銘柄一覧で計算しており、過去の銘柄入れ替えは反映していません。米国のS&amp;P500採用銘柄の個別株は11/5までのデータです。東証の業種別ETFは値動きが不自然な日があるため使っていません。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>

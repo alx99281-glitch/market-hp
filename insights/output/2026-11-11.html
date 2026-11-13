@@ -41,6 +41,24 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 .x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
 .x p + p { color:var(--muted); font-size:.82rem; }
 .method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
@@ -90,6 +108,8 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 <h3>発信用の一言</h3><p class="post">CoreWeaveは10/9から-41%。直近60日はハイイールド債との相関が0.04から0.44に上昇し、株が社債のように動いている。ソフトバンクGもエヌビディアよりCoreWeaveと連動。引け後の決算で、クレジットが戻るかに注目。</p>
 <div class="src">ネタ元: <a href="https://247wallst.com/investing/2026/11/10/live-can-coreweaves-q3-earnings-tonight-spark-a-recovery-after-42-selloff/" target="_blank" rel="noopener noreferrer">24/7 Wall St.: CoreWeave決算ライブ(報道)</a> / <a href="https://www.tipranks.com/news/coreweave-stock-crwv-jumps-as-revenue-surges" target="_blank" rel="noopener noreferrer">TipRanks: CoreWeave、売上と受注残の拡大で上昇(報道)</a> / <a href="https://www.benzinga.com/markets/tech/26/11/63101089/coreweave-heads-into-earnings-with-ai-demand-red-hot-and-debt-under-the-microscope" target="_blank" rel="noopener noreferrer">Benzinga: 決算前、債務に注目(報道)</a> / <a href="https://x.com/GlobalMktObserv/status/2114764684536467699" target="_blank" rel="noopener noreferrer">X: CoreWeaveの急落とAI売りの広がり(未検証)</a></div>
 </article></div>
+
+
 <h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/KarelMercx/status/2120169324711190810" target="_blank" rel="noopener noreferrer">CPI後、12月利上げ確率が100%超に(投稿)</a>（未検証）</p><p>確率の数値は報道でも85〜100%と食い違う。金利急騰でも株とVIXが落ち着いた点をカード1で検証</p></div><div class="x"><p><a href="https://x.com/KobeissiLetter/status/2120150401379086570" target="_blank" rel="noopener noreferrer">CPI後にナスダック100先物-1.5%(投稿)</a>（未検証）</p><p>引けではナスダック100は-0.60%。発表直後の反応から戻した</p></div><div class="x"><p><a href="https://x.com/nytimes/status/2119522888067801560" target="_blank" rel="noopener noreferrer">エヌビディア取締役会がCEOをめぐる調査を開始(NYTの速報)</a>（報道あり）</p><p>SOXとの連動が切れた点、日本の関連株への波及をカード2で検証</p></div><div class="x"><p><a href="https://x.com/_Investinq/status/2110741992732754262" target="_blank" rel="noopener noreferrer">SOXLに過去最大級の資金流入(投稿)</a>（未検証）</p><p>投稿の日付と対象期間が確認できないため、今号では扱わない</p></div><div class="x"><p><a href="https://x.com/GlobalMktObserv/status/2114764684536467699" target="_blank" rel="noopener noreferrer">CoreWeaveとIRENの急落でAI売りが広がる(投稿)</a>（未検証）</p><p>CRWVの下落率は取得データで確認(10/9比-40.6%)。クレジットとの連動をカード4で検証</p></div>
 <p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-11.py、結果は insights/data/analysis/2026-11-11.json)。CPI、FRBの政策金利と利上げ確率、東京11/10の日経平均終値、CoreWeaveの決算と時間外の値動き・社債利回りは報道値で、一次情報は未確認です。米2年金利は取得していないため5年金利(^FVX)で代用しました。東京と米国の相関は、東京の各営業日に直前の米国営業日を対応させて計算しています。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>

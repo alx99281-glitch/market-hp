@@ -41,6 +41,24 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 .x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
 .x p + p { color:var(--muted); font-size:.82rem; }
 .method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
@@ -100,6 +118,8 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 <h3>発信用の一言</h3><p class="post">日経平均1,110円安の日にTOPIXは+1.16%。ETFで見た両者の差は約3年で最大。下げたのは日本株ではなく半導体。</p>
 <div class="src">ネタ元: <a href="https://www.media-ir.com/news/?p=187329" target="_blank" rel="noopener noreferrer">media-ir: 日経平均1110円安でもTOPIXは1.16%高(報道)</a> / <a href="https://minkabu.jp/news/4651708" target="_blank" rel="noopener noreferrer">株探(みんかぶ転載): 日経平均4日続落、AI・半導体が売られる(報道)</a> / <a href="https://moneyworld.jp/news/detail?id=222449" target="_blank" rel="noopener noreferrer">QUICK Money World: 日経平均は5カ月半ぶり安値(報道)</a></div>
 </article></div>
+
+
 <h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/MgnStnlyDerivs/status/2118418288992493963" target="_blank" rel="noopener noreferrer">Morgan Stanley Derivatives: レバレッジETFのリバランスで約520億ドルの売り、うち半導体210億ドルとの試算</a>（未検証）</p><p>「引け前の半導体売り」カードのきっかけ。60分足で引け前30分の値動きを検証。</p></div><div class="x"><p><a href="https://x.com/KobeissiLetter/status/2118357540299735378" target="_blank" rel="noopener noreferrer">寄り付き30分でテック株の時価総額1.3兆ドルが消失、サンディスクやWDCが2桁安との投稿</a>（未検証）</p><p>「SOX -12%」カードのきっかけ。過去の-9%超の日の後の推移を確認。</p></div><div class="x"><p><a href="https://x.com/coinbureau/status/2118368855022297385" target="_blank" rel="noopener noreferrer">選挙後のS&amp;Pの上昇が約1時間で消えたとの投稿</a>（未検証）</p><p>前日のVIX急低下からの反転を「VIXの往復」カードで検証。</p></div><div class="x"><p><a href="https://x.com/Hedgeye/status/2118450485795701085" target="_blank" rel="noopener noreferrer">S&amp;P500は2025年4月3日以来の下落幅との投稿</a>（未検証）</p><p>データで確認(2025年4月4日以来の下落率)。株とクレジットの違いを見る「クレジット」カードのきっかけ。</p></div><div class="x"><p><a href="https://x.com/youlixiang4/status/2118375704274632997" target="_blank" rel="noopener noreferrer">民主党は本当にAIにブレーキをかけられるのか、という投稿</a>（未検証）</p><p>規制の実効性は今回のデータでは検証できず、要観察。前号の「使う側と作る側」カードの続き。</p></div>
 <p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-06.py、結果は insights/data/analysis/2026-11-06.json)。日経平均(^N225)の11/5終値は今回のデータになく、11/5の日経平均とTOPIXは報道値、日経とTOPIXの差はETF(1321、1306)の60分足から算出しています。SOXXは11/5に株式分割とみられる不連続があるため使っていません。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>

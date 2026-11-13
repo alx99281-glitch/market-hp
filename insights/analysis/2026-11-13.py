@@ -8,6 +8,23 @@ import pandas as pd
 
 D = pd.read_parquet('/tmp/market-data/daily.parquet')
 D['date'] = pd.to_datetime(D['date']).dt.tz_localize(None).dt.normalize()
+# 号の基準日。再取得したデータに含まれる翌日(東京の取引途中など)の値は使わない
+ASOF = pd.Timestamp('2026-11-12')
+D = D[D['date'] <= ASOF]
+# 再取得(11/13 03:29 UTC)では先物・為替の11/12終値が確定値に更新された一方、8035.Tが取得漏れになった。
+# 取得漏れの銘柄だけ、前回取得分(market-data のコミット 2e093e0 を /tmp/md_old に展開)で補う。
+import os
+if os.path.exists('/tmp/md_old/daily.parquet'):
+    O = pd.read_parquet('/tmp/md_old/daily.parquet')
+    O['date'] = pd.to_datetime(O['date']).dt.tz_localize(None).dt.normalize()
+    miss = set(O.ticker) - set(D.ticker)
+    # 基準日の行が欠けた銘柄(BTC-USDは11/12の行が11/13に置き換わっていた)も前回取得分で補う
+    have_asof = set(D.loc[D['date'] == ASOF, 'ticker'])
+    gap = set(O.loc[O['date'] == ASOF, 'ticker']) - have_asof - miss
+    D = pd.concat([D, O[O.ticker.isin(miss) & (O['date'] <= ASOF)],
+                   O[O.ticker.isin(gap) & (O['date'] == ASOF)]], ignore_index=True)
+    D = D.sort_values(['ticker', 'date']).drop_duplicates(['ticker', 'date'], keep='first')
+    print('補完:', sorted(miss), sorted(gap))
 SP = pd.read_parquet('daily-review/data/prices.parquet')
 SP['date'] = pd.to_datetime(SP['date']).dt.tz_localize(None).dt.normalize()
 out = {}

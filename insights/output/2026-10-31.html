@@ -41,6 +41,24 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 .x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
 .x p + p { color:var(--muted); font-size:.82rem; }
 .method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
@@ -130,6 +148,8 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 <h3>発信用の一言</h3><p class="post">ETF売却1日35億円は需給の主役ではない。主役は12月利上げと、海外勢が売りに回るかどうか。</p>
 <div class="src">ネタ元: <a href="https://finance.yahoo.com/economy/policy/articles/bank-japan-hold-rates-signal-210126915.html" target="_blank" rel="noopener noreferrer">Yahoo Finance(Reuters): 日銀、物価目標到達を宣言</a> / <a href="https://www.bloomberg.com/news/articles/2026-10-30/boj-holds-benchmark-rate-steady-as-expected-after-september-hike" target="_blank" rel="noopener noreferrer">Bloomberg: 日銀据え置き</a> / <a href="https://www.nikkei.com/article/DGXZQOFL293L9TZ21C26A0000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第3週</a> / <a href="https://www.nikkei.com/article/DGXZQOFL225UNTS6A021C2000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第2週</a> / <a href="https://www.nikkei.com/article/DGXZQOFL166I7TW6A011C2000000/" target="_blank" rel="noopener noreferrer">日経: 海外投資家 10月第1週</a></div>
 </article></div>
+
+
 <h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/wallstengine/status/2092946562905424159" target="_blank" rel="noopener noreferrer">S&amp;Pがハイパースケーラーの営業FCFを2026〜27年とも赤字と見込むとの投稿</a>（原典未確認）</p><p>原文のS&amp;Pレポートを確認できれば、FCF論の強い材料になる。</p></div><div class="x"><p><a href="https://x.com/puckrin/status/2116096171387072740" target="_blank" rel="noopener noreferrer">Intel急落は「AIがメモリを吸い上げ、PC需要を壊した」結果という見方</a>（個人の見解）</p><p>AI勝ち組の裏の負け組を探す視点。スマホ・PC関連の日本部品株に応用できる。</p></div><div class="x"><p><a href="https://x.com/jimcramer/status/2116107768675610636" target="_blank" rel="noopener noreferrer">Cramer氏: 材料のないJNJやCOFが上がる値動きを、機械的な資金移動の表れと指摘</a>（個人の見解）</p><p>ディスパージョンの裏で何が買われたかを確認するきっかけになる。</p></div><div class="x"><p><a href="https://x.com/MarketWatch/status/2116215489814741129" target="_blank" rel="noopener noreferrer">MarketWatch: Intel急落でも押し目買いの理由はないとのアナリスト評</a>（報道）</p><p>「売られすぎ」の声が少ない銘柄は、まだ投げが出ていない可能性がある。</p></div><div class="x"><p><a href="https://x.com/MarioNawfal/status/2116251858289463300" target="_blank" rel="noopener noreferrer">PIMCOがAI関連債券を半減させたことが売りの引き金になったという主張</a>（裏付けなし）</p><p>事実なら重要だが、裏付けは見つかっていない。発信には使わず、クレジット市場の確認に留める。</p></div><div class="x"><p><a href="https://x.com/nicosokufx/status/2115716909996056612" target="_blank" rel="noopener noreferrer">TOPIXリバランスで推計需要と逆方向に動いたという投稿</a>（個人の見解）</p><p>イベント需給は先回りが混雑すると逆に動く。次回の指数イベントで検証できるテーマ。</p></div>
 <p class="method">定量値はYahoo Financeのデータから自前で算出（insights/src/compute_signals.py）。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>

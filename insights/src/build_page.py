@@ -55,6 +55,24 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 .x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
 .x p + p { color:var(--muted); font-size:.82rem; }
 .method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 """
 
@@ -102,6 +120,76 @@ def card(c: dict) -> str:
 </article>"""
 
 
+STANCE = {"強気": "s-bull", "弱気": "s-bear", "中立": "s-neu", "慎重": "s-mix", "混在": "s-mix"}
+
+
+def num(v: float) -> str:
+    a = abs(v)
+    if a >= 1000:
+        return f"{v:,.0f}"
+    if a >= 100:
+        return f"{v:,.1f}"
+    if a >= 10:
+        return f"{v:.2f}"
+    return f"{v:.3g}" if a < 1 else f"{v:.2f}"
+
+
+def sparkline(series: list, up: bool) -> str:
+    """[[date, value], ...] からSVGの折れ線を作る。"""
+    if not series or len(series) < 2:
+        return ""
+    vals = [v for _, v in series]
+    lo, hi = min(vals), max(vals)
+    rng = (hi - lo) or 1.0
+    w, h = 240, 56
+    pts = " ".join(
+        f"{i * w / (len(vals) - 1):.1f},{h - 4 - (v - lo) / rng * (h - 8):.1f}" for i, v in enumerate(vals)
+    )
+    color = "var(--ok)" if up else "var(--bad)"
+    lx, ly = pts.split()[-1].split(",")
+    return (f'<svg viewBox="0 0 {w} {h}" preserveAspectRatio="none" role="img" aria-label="推移">'
+            f'<polyline points="{pts}" fill="none" stroke="{color}" stroke-width="1.6" vector-effect="non-scaling-stroke"/>'
+            f'<circle cx="{lx}" cy="{ly}" r="2.6" fill="{color}"/></svg>'
+            f'<div class="axis"><span>{e(series[0][0])}</span><span>高 {num(hi)} / 安 {num(lo)}</span><span>{e(series[-1][0])}</span></div>')
+
+
+def big_moves(items: list) -> str:
+    if not items:
+        return ""
+    cards = []
+    for m in items:
+        up = m.get("direction", "up") == "up"
+        src = f'<div class="src">{link(m["source"]["url"], m["source"]["label"])}</div>' if m.get("source") else ""
+        cards.append(f"""<div class="move"><div class="grp">{e(m['group'])}</div><h4>{e(m['label'])}</h4>
+<div class="big {'up' if up else 'down'}">{e(m['metric'])}</div><div class="since">{e(m.get('since', ''))}</div>
+{sparkline(m.get('series', []), up)}<p>{e(m['comment'])}</p>{src}</div>""")
+    return '<h2 class="section">大きく動いたもの</h2><div class="moves">' + "".join(cards) + "</div>"
+
+
+def investors(inv: dict | None) -> str:
+    if not inv:
+        return ""
+    trend = ""
+    if inv.get("trend"):
+        rows = "".join(
+            f"<tr><td>{e(t['theme'])}</td><td class='wrap'>{e(t['bull'])}</td><td class='wrap'>{e(t['bear'])}</td>"
+            f"<td class='wrap'>{e(t.get('neutral', ''))}</td></tr>" for t in inv["trend"]
+        )
+        trend = (f'<div class="scroll"><table class="left"><caption>テーマ別の立ち位置</caption><thead><tr><th>テーマ</th>'
+                 f'<th>強気・楽観</th><th>弱気・警戒</th><th>中立・その他</th></tr></thead><tbody>{rows}</tbody></table></div>')
+    rows = "".join(
+        f"<tr><td>{e(i['name'])}<div class='note'>{e(i['role'])}</div></td><td>{e(i['date'])}</td><td>{e(i['topic'])}</td>"
+        f"<td class='stance {STANCE.get(i['stance'], 's-neu')}'>{e(i['stance'])}</td><td class='wrap'>{e(i['view'])}"
+        f"<div class='note'>{link(i['source']['url'], i['source']['label'])}（{e(i['status'])}）</div></td></tr>"
+        for i in inv["items"]
+    )
+    table_html = (f'<div class="scroll"><table class="left"><caption>発言・持ち高の一覧(新しい順)</caption><thead><tr><th>人物</th><th>時期</th>'
+                  f'<th>テーマ</th><th>立ち位置</th><th>要旨</th></tr></thead><tbody>{rows}</tbody></table></div>')
+    note = f'<p class="note">{e(inv["note"])}</p>' if inv.get("note") else ""
+    return (f'<h2 class="section">大物投資家の相場観</h2><div class="inv-sum"><p>{e(inv["summary"])}</p>{trend}</div>'
+            f"{table_html}{note}")
+
+
 def page(ed: dict, dates: list[str]) -> str:
     options = "".join(
         f'<option value="{d}.html"{" selected" if d == ed["date"] else ""}>{d}</option>' for d in dates
@@ -127,6 +215,8 @@ def page(ed: dict, dates: list[str]) -> str:
 <div class="snap">{snap}</div>
 <div class="filters">{filters}</div>
 <div class="grid">{cards}</div>
+{big_moves(ed.get('big_moves', []))}
+{investors(ed.get('investors'))}
 <h2 class="section">Xで拾った論点</h2>{xs}
 <p class="method">{e(ed['method'])} 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>{JS}</script></body></html>

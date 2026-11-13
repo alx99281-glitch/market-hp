@@ -41,6 +41,24 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 .x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
 .x p + p { color:var(--muted); font-size:.82rem; }
 .method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
@@ -100,6 +118,8 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 <h3>発信用の一言</h3><p class="post">AIインフラ株とハイイールド債の連動は、相関0.28から0.62へ。信用スプレッドを確かめる段階。</p>
 <div class="src">ネタ元: <a href="https://x.com/GlobalMktObserv/status/2114764684536467699" target="_blank" rel="noopener noreferrer">Global Markets Investor(X): CRWVが10/6以来-41%(未検証)</a> / <a href="https://x.com/DavidKWilliams/status/2081946402926551420" target="_blank" rel="noopener noreferrer">X投稿: AIの資金調達の循環構造への懸念(未検証)</a></div>
 </article></div>
+
+
 <h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm" target="_blank" rel="noopener noreferrer">Marvell、Lumentumを全株式交換で買収と発表(企業価値1,150億ドル、SEC提出書類)</a>（一次情報(8-K)）</p><p>買い手が希薄化を嫌われる典型例。11/2の両社の株価反応は報道で食い違いがあり、検証用データ(S&amp;P採用銘柄)は10/30までのため未確認。</p></div><div class="x"><p><a href="https://x.com/StockSavvyShay/status/2081768408782438674" target="_blank" rel="noopener noreferrer">Morgan Stanleyがメモリの契約価格は2026年末にピークと見ている、との投稿</a>（原典未確認）</p><p>キオクシアの見通し鈍化と整合的。ただし価格のピークと利益のピークは別、という反論も同じ投稿に含まれている。</p></div><div class="x"><p><a href="https://x.com/OilandEnergy/status/2115127877364555854" target="_blank" rel="noopener noreferrer">原油市場は選挙後のイラン情勢再燃を織り込んでいる、とのOilPrice.comの投稿</a>（未検証）</p><p>11/2の原油急落が外交期待による一時的なものかどうかを、選挙後の値動きで判定できる。</p></div><div class="x"><p><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026" target="_blank" rel="noopener noreferrer">Apple決算(11/2引け後)で伸びが鈍化し株価下落との報道</a>（報道・詳細未確認）</p><p>メモリ価格の上昇がハード製品の利益率を圧迫する論点と結び付く可能性がある。詳細とAAPLの株価データは未確認。</p></div><div class="x"><p><a href="https://x.com/DavidKWilliams/status/2081946402926551420" target="_blank" rel="noopener noreferrer">中国CXMTの大型IPOでメモリ供給が増えるとの指摘</a>（個人の見解）</p><p>メモリ相場がピークを付けたかを議論する際の、供給側の材料。</p></div>
 <p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-03.py、結果は insights/data/analysis/2026-11-03.json)。日経平均の11/2終値は取得データに含まれないため報道値です。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>

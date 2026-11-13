@@ -41,6 +41,24 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 .x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
 .x p + p { color:var(--muted); font-size:.82rem; }
 .method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
@@ -100,6 +118,8 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 <h3>発信用の一言</h3><p class="post">直近1年、S&amp;P500と米10年金利の日次相関は-0.27。金利高を景気の良さと受け止めた2010年代(+0.44)とは逆。今夜のリファンディングは株の材料でもある。</p>
 <div class="src">ネタ元: <a href="https://www.prnewswire.com/news-releases/treasury-polled-its-dealers-on-auction-sizes-and-bigger-long-end-buybacks-ahead-of-wednesdays-refunding-302926378.html" target="_blank" rel="noopener noreferrer">PR Newswire: 財務省がリファンディング前にディーラーに入札額と買入れ拡大を聴取</a> / <a href="https://www.newsquawk.com/headlines/quarterly-refunding-primer-eyes-on-guidance-and-buyback-commentary" target="_blank" rel="noopener noreferrer">Newsquawk: Quarterly Refunding Primer</a></div>
 </article></div>
+
+
 <h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html" target="_blank" rel="noopener noreferrer">米中間選挙の開票が進行中。予測市場では民主党の上下両院制覇の確率が85.5%との報道(Polymarket)</a>（開票中・裏付けなし）</p><p>前号で扱った「選挙後は株高」の検証の続き。結果が確定していないため今回はカードにしていない。CNBCは、株式市場は民主党の両院制覇をまだ織り込んでいないと指摘。</p></div><div class="x"><p><a href="https://finance.yahoo.com/technology/ai/articles/openai-cuts-fundraising-valuation-target-143300967.html" target="_blank" rel="noopener noreferrer">OpenAIが資金調達の目標額を300億ドルから200億ドルに、評価額目標を1.4兆ドルから1.25兆ドルに引き下げたとの報道(FT報道の引用)</a>（報道・二次情報）</p><p>前々号の「AIの資金繰り」の続報。韓国では11/3、米大手テックのAI資金繰り懸念が外国人売りの理由に挙げられた。</p></div><div class="x"><p><a href="https://x.com/cryptopunk7213/status/2117454357306257866" target="_blank" rel="noopener noreferrer">「今週、市場で何かが壊れた」として、xAIのGrokの縮小やOpenAIの評価額引き下げを並べた投稿</a>（未検証）</p><p>AI投資の採算への疑念を象徴する投稿。個々の主張は未確認で、Grokの件は裏付けなし。</p></div><div class="x"><p><a href="https://x.com/BearBullTraders/status/2117655106065973406" target="_blank" rel="noopener noreferrer">AMD決算前、オプション市場は翌日±8.1%の値動きを織り込んでいたとの投稿</a>（未検証）</p><p>時間外の上昇率(報道で+7.5〜8%)は、ほぼ織り込み通りの値動き。サプライズの大きさを測る目安になる。</p></div>
 <p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-04.py、結果は insights/data/analysis/2026-11-04.json)。11/4のアジア市場は取引時間中の値のため使用せず、日経平均の寄り付きは報道値です。AAPLなどS&amp;P500採用銘柄のデータは11/2までです。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>

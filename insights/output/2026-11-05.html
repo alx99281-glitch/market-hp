@@ -41,6 +41,24 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 .x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
 .x p + p { color:var(--muted); font-size:.82rem; }
 .method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
@@ -90,6 +108,8 @@ a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:under
 <h3>発信用の一言</h3><p class="post">「原油安は日本株の追い風」は、データでは米国株高の言い換え。翌日の日経を米国株と原油で回帰すると、原油の係数はほぼゼロ(2000年以降)。</p>
 <div class="src">ネタ元: <a href="https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html" target="_blank" rel="noopener noreferrer">CNBC: ダウ1,500ドル高、原油安(ライブ、Vance副大統領の発言を含む)</a> / <a href="https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress" target="_blank" rel="noopener noreferrer">Benzinga: ダウ2.9%高、中間選挙後に原油7%安</a> / <a href="https://sg.finance.yahoo.com/news/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: ダウ1,500ドル高、民主党が議会を制する(ライブ)</a> / <a href="https://www.tradingview.com/news/te_news:598025:0-treasury-yields-fall-as-democrats-sweep-congress/" target="_blank" rel="noopener noreferrer">TradingView(Trading Economics): 民主党の議会制覇で米国債利回り低下</a></div>
 </article></div>
+
+
 <h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/marketsday/status/2117961918535393655" target="_blank" rel="noopener noreferrer">BofA: 民主党が両院を制してもねじれ(拒否権)が基本シナリオ。州・地方のデータセンター規制に注意との要約投稿</a>（未検証）</p><p>「AIを使う側と作る側」カードのきっかけ。規制の経路は連邦法より州・地方という指摘。</p></div><div class="x"><p><a href="https://x.com/RealAllinCrypto/status/2117648067776192543" target="_blank" rel="noopener noreferrer">J.P. Morganの事前シナリオ表: 民主党の両院制覇ならS&amp;Pは-0.25%〜+0.5%とされる投稿</a>（未検証）</p><p>実際は+1.58%。事前の見方と逆に動いた例として「VIX急低下」カードに使用。</p></div><div class="x"><p><a href="https://x.com/BSCNews/status/2117894956128084100" target="_blank" rel="noopener noreferrer">トランプ政権の暗号資産の議題は最大の後ろ盾を失った、CLARITY法案に逆風との投稿</a>（未検証・価格は反対方向）</p><p>11/4のビットコインは+3.92%、イーサリアムは+6.60%で、価格は逆に動いた。政策より、ドル安(ドル指数-0.36%)や金(+3.34%)と同じ動きに見える。1日だけのためカードにしていない。</p></div><div class="x"><p><a href="https://x.com/ClayTravis/status/2118003202339610816" target="_blank" rel="noopener noreferrer">「政治家が何もしないのが一番」、ねじれ確定で株高という投稿</a>（意見・裏付けなし）</p><p>ねじれ議会と株高の通説。指数は上がったが、半導体やエネルギー、防衛を含む資本財(XLI -1.09%)は下げており、一様な株高ではない。</p></div><div class="x"><p><a href="https://www.fxstreet.com/analysis/us-dollar-breaks-below-10150-as-democrats-sweep-congress-202611041603" target="_blank" rel="noopener noreferrer">ドル指数が101.5を割り込み、民主党の議会制覇でドル安との分析</a>（報道・数値は時刻により不一致）</p><p>ユーロは+0.39%。ドル円は報道で157円台(+0.7%の円高)とされる一方、Yahoo Financeの日足終値は158.38円で、時刻の違いから整合しない。今回はカードにせず要観察。</p></div>
 <p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-05.py、結果は insights/data/analysis/2026-11-05.json)。日経平均(^N225)は11/3以降のデータが取得できていないため、11/4の日経平均とTOPIXは報道値です。11/4の1306.Tの値は報道と整合しないため使っていません。Microsoft、Amazon、Alphabetの11/4終値は今回のデータになく(次回から取得)、報道値で記載しています。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>
