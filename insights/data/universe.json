@@ -14,5 +14,11 @@
   "fundamentals": [
     "MSFT", "GOOGL", "AMZN", "META", "ORCL", "NVDA", "AVGO", "AMD", "MU", "SNDK", "WDC", "STX", "TSM", "ASML", "ARM", "CRWV",
     "285A.T", "6857.T", "8035.T", "4062.T", "9984.T", "7203.T", "8306.T"
+  ],
+  "_note_fred": "経済指標はFREDのCSV(APIキー不要)からActionsで取得し、market-data の fred.parquet に置く。系列IDを足せば次回から取得される。",
+  "fred": [
+    "DGS2", "T10Y2Y", "T10Y3M", "DFII10", "T10YIE", "BAMLH0A0HYM2", "BAMLC0A0CM", "MORTGAGE30US",
+    "ICSA", "CCSA", "UNRATE", "PAYEMS", "CPIAUCSL", "CPILFESL", "PCEPILFE", "INDPRO", "RSAFS", "UMCSENT",
+    "JTSJOL", "WALCL", "RRPONTSYD", "WTREGEN", "IRLTLT01JPM156N", "STLFSI4"
   ]
 }

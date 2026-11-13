@@ -43,6 +43,26 @@ def download(tickers: list[str], **kwargs) -> pd.DataFrame:
     return to_long(raw, tickers)
 
 
+FRED_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={}"
+
+
+def fred(series: list[str]) -> pd.DataFrame:
+    """FREDの系列をCSVで取得する(APIキー不要)。失敗した系列は警告して飛ばす。"""
+    frames = []
+    for sid in series:
+        try:
+            d = pd.read_csv(FRED_URL.format(sid))
+            d.columns = ["date", "value"]
+            d["date"] = pd.to_datetime(d["date"])
+            d["value"] = pd.to_numeric(d["value"], errors="coerce")
+            d = d.dropna()
+            d.insert(1, "series", sid)
+            frames.append(d)
+        except Exception as e:
+            print(f"[warn] FRED {sid}: {e}", file=sys.stderr)
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=["date", "series", "value"])
+
+
 def fundamentals(tickers: list[str]) -> dict:
     out = {}
     for t in tickers:
@@ -69,6 +89,9 @@ def main():
     funds = fundamentals(universe["fundamentals"])
     (out_dir / "fundamentals.json").write_text(json.dumps(funds, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    fred_df = fred(universe.get("fred", []))
+    fred_df.to_parquet(out_dir / "fred.parquet", compression="zstd", index=False)
+
     last = daily.groupby("ticker")["date"].max().dt.strftime("%Y-%m-%d")
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="minutes"),
@@ -77,6 +100,8 @@ def main():
         "missing_daily": sorted(set(universe["daily"]) - set(last.index)),
         "intraday_tickers": int(intraday["ticker"].nunique()),
         "fundamentals_tickers": len(funds),
+        "fred_last_date": {k: v.strftime("%Y-%m-%d") for k, v in fred_df.groupby("series")["date"].max().items()},
+        "missing_fred": sorted(set(universe.get("fred", [])) - set(fred_df["series"].unique())),
     }
     (out_dir / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False, indent=1))
