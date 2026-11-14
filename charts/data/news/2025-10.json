@@ -44,5 +44,51 @@
     }
    ]
   }
+ },
+ "2025-10-20": {
+  "jp": {
+   "items": [
+    {
+     "title": "自民・維新の連立合意",
+     "detail": "自民党と日本維新の会が連立政権樹立で合意すると伝わり、政局の不透明感が後退。高市氏の首相就任を先取りする「高市トレード」が指摘され、日経平均は1603円35銭高の4万9185円50銭で最高値更新、初の4万9000円台。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1915020"
+     }
+    },
+    {
+     "title": "米地銀不安の和らぎと米中交渉への楽観",
+     "detail": "米地銀の信用不安が和らいだことや米中通商交渉への楽観的な見方も相場を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20251020nk-2/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "米中貿易摩擦と政府閉鎖への懸念が後退",
+     "detail": "主要3指数が上昇しS&P500は1.1%高の6735.13、ナスダックは1.4%高の22990.54、ダウは1.1%高の46706.58。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/20/dow-adds-515-points-as-fear-gauge-retreats"
+     }
+    },
+    {
+     "title": "アップルがダウを押し上げ",
+     "detail": "ダウは515ドル上昇し、アップルの大幅高が寄与した。決算週を控え、主要指数は10日の急落前の水準に戻った。",
+     "direction": "up",
+     "source": {
+      "label": "同",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/20/dow-adds-515-points-as-fear-gauge-retreats"
+     }
+    }
+   ]
+  }
  }
 }

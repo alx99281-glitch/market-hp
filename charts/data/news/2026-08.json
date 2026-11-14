@@ -1,0 +1,57 @@
+{
+ "2026-08-05": {
+  "jp": {
+   "items": [
+    {
+     "title": "中東収束期待で原油安・買い優勢",
+     "detail": "ベセント米財務長官がホルムズ海峡開放に向けた米イラン合意の可能性に言及し、原油先物が下落。日経平均は2342円91銭高の6万6300円44銭(+3.66%)。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2022210"
+     }
+    },
+    {
+     "title": "AI・半導体株が指数を押し上げ",
+     "detail": "前日の米株高を受けて朝から買いが先行し、AI・半導体関連株が指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "同(東証、一時2200円超高)",
+      "url": "https://kumanichi.com/articles/2022131"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ダウは最高値、S&P500とナスダックは小反落",
+     "detail": "ダウ平均は263.24ドル(0.49%)高の5万4349.12で最高値を更新。一方、S&P500は12.97ポイント安の7723.55、ナスダックは221.55ポイント安の2万6384.46。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/8/5/stocks-pause-after-recordsetting-rally"
+     }
+    },
+    {
+     "title": "SpaceXとAMDが下落",
+     "detail": "SpaceXはAI関連支出の増加で急落、AMDも下げハイテク株の重しに。一方ディズニーは決算が予想を上回り2〜3%上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(WTOP)",
+      "url": "https://wtop.com/news/2026/08/how-major-us-stock-indexes-fared-wednesday-8-5-2026/"
+     }
+    },
+    {
+     "title": "イランとの合意期待",
+     "detail": "イランとの合意への期待を背景に、株価は最高値圏で推移した。",
+     "direction": "up",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2026/08/05/wall-street-stocks-steady-record-highs-hormuz/"
+     }
+    }
+   ]
+  }
+ }
+}

@@ -109,5 +109,97 @@
     }
    ]
   }
+ },
+ "2024-08-13": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株高と円安",
+     "detail": "前日の米ハイテク株高と円安進行が追い風。日経平均は1207.51円高の3万6232.51円で3日続伸し、2週間ぶりに3万6000円を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202408131199/"
+     }
+    },
+    {
+     "title": "半導体関連が指数を押し上げ",
+     "detail": "東京エレクトロン(約156円)、アドバンテスト(約116円)、TDK(約71円)が指数への寄与上位。売買代金は8月入り後初めて5兆円に届かなかった。",
+     "direction": "up",
+     "source": {
+      "label": "gentosha-go",
+      "url": "https://gentosha-go.com/articles/-/62782"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "卸売物価の伸び鈍化",
+     "detail": "卸売物価の上昇が予想以上に鈍化したことで買いが強まり、S&P500は約1.7%高の5434.43。11業種中10業種が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-8132024-112813532"
+     }
+    },
+    {
+     "title": "ナスダックが大幅高",
+     "detail": "ナスダック総合は約2.4%高の17187.61、ダウは約1.04%高の39765.64。S&P500は8月1日以来初めて5400を上回った。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/8/13/closing-summary-"
+     }
+    }
+   ]
+  }
+ },
+ "2024-08-16": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と円安で5日続伸",
+     "detail": "日経平均は1336円03銭(3.64%)高の3万8062円67銭。前日の米株高と円安進行が追い風となり、暴落後初めて3万8000円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/?p=26809"
+     }
+    },
+    {
+     "title": "米景気ソフトランディング期待",
+     "detail": "米景気のソフトランディング期待が米株高につながり、東京市場の買いを支えた。上げ幅は今年2番目の大きさ。",
+     "direction": "up",
+     "source": {
+      "label": "同",
+      "url": "https://tbladvisory.com/?p=26809"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "週間で年内最大の上昇率",
+     "detail": "S&P500は0.2%上げて7日続伸。景気後退懸念の後退で、11月以来の好調な週を締めくくった。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(Washington Times)",
+      "url": "https://m.washingtontimes.com/news/2024/aug/16/wall-street-closes-its-best-week-of-year-with-some/"
+     }
+    },
+    {
+     "title": "主要3指数は小幅高",
+     "detail": "ダウは96.70ドル高の40659.76、ナスダックは37.22ポイント高の17631.71、S&Pは11.03ポイント高の5554.25。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/8/16/closing-summary-"
+     }
+    }
+   ]
+  }
  }
 }

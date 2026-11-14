@@ -1,4 +1,50 @@
 {
+ "2026-10-01": {
+  "jp": {
+   "items": [
+    {
+     "title": "米マイクロンの好決算",
+     "detail": "米マイクロンが日本時間1日朝に発表した6〜8月期決算で売上高・純利益が急拡大し、AI向け需要の拡大を確認。半導体関連が買われ、日経平均は2203円高の6万8956円72銭で続急伸した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ(大引け)",
+      "url": "https://minkabu.jp/news/4627848"
+     }
+    },
+    {
+     "title": "アドバンテストが寄与首位",
+     "detail": "値上がり寄与トップはアドバンテストで、1銘柄で日経平均を約722円押し上げた。プライムの売買代金は約8兆7228億円。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/623396/index"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "米長期金利の上昇が一服",
+     "detail": "10年債利回りが2002年以来の高水準から低下し、株式は反発。S&P500は0.2%高の7666.45で3日続落に歯止め、ダウは20.69ドル高の50926.74。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(La Nacion)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-1012026-nid01102026/"
+     }
+    },
+    {
+     "title": "小型株が牽引、マイクロンは小幅安",
+     "detail": "ラッセル2000は0.35%高。マイクロンは過去最高の決算でも約1%下落した。",
+     "direction": "flat",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/588904"
+     }
+    }
+   ]
+  }
+ },
  "2026-10-15": {
   "us": {
    "items": [

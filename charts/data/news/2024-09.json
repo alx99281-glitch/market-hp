@@ -45,6 +45,43 @@
    ]
   }
  },
+ "2024-09-12": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と円安で半導体株が上昇",
+     "detail": "米株高と円安を受け、半導体株などが買われた。日経平均は1213円50銭(3.41%)高の3万6833円27銭で、8営業日ぶりに上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202409121023/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "利下げ期待の中、ハイテク株が主導",
+     "detail": "S&P500は0.7%、ナスダックは1%、ダウは0.6%上昇。翌週の0.25ポイント利下げ期待が高い中、インフレ・雇用指標を見極めた。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9122024-113643611"
+     }
+    },
+    {
+     "title": "モデルナが急落",
+     "detail": "モデルナは売上見通しと研究開発予算の引き下げで約12%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks",
+      "url": "https://zacks.com/stock/news/2335128/stock-market-news-for-sep-12-2024"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-30": {
   "us": {
    "items": [

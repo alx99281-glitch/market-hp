@@ -1,4 +1,59 @@
 {
+ "2026-03-04": {
+  "jp": {
+   "items": [
+    {
+     "title": "イラン紛争長期化への懸念",
+     "detail": "米・イスラエルとイランの紛争長期化への警戒から売りが優勢。日経平均は2033円51銭安の5万4245円54銭で3日続落、2日連続で今年最大の下げ幅。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1963589"
+     }
+    },
+    {
+     "title": "原油・タンカー運賃の急騰",
+     "detail": "原油価格とタンカー運賃が急騰し、世界的なインフレ再燃懸念とリスクオフが強まった。東証33業種すべてが下落し、プライム銘柄の約9割が値下がり。",
+     "direction": "down",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20260304nk/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "原油の急騰が一服",
+     "detail": "2日間の荒い値動きの後、原油の上昇が止まったことなどから反発。S&P500は52.87ポイント(0.8%)高の6869.50。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(Washington Times)",
+      "url": "https://www.washingtontimes.com/news/2026/mar/4/markets-catch-breath-stocks-rebound-oil-pulls-back-war-driven-surge/"
+     }
+    },
+    {
+     "title": "ハイテク・一般消費財が上昇主導",
+     "detail": "アマゾンが3.9%高、エヌビディアが1.7%高。ナスダック総合は1.3%高の22807.48。",
+     "direction": "up",
+     "source": {
+      "label": "同",
+      "url": "https://www.washingtontimes.com/news/2026/mar/4/markets-catch-breath-stocks-rebound-oil-pulls-back-war-driven-surge/"
+     }
+    },
+    {
+     "title": "イランが対話に前向きとの報道",
+     "detail": "ロイターは、イランが協議に前向きとの姿勢を示したことも不安緩和に寄与したと伝えた。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq/Zacks",
+      "url": "https://www.nasdaq.com/articles/markets-close-higher-iran-fears-abate"
+     }
+    }
+   ]
+  }
+ },
  "2026-03-09": {
   "us": {
    "items": [
@@ -22,6 +77,98 @@
      "source": {
       "label": "TBL Advisory 2026年3月9日の日経概況",
       "url": "https://tbladvisory.com/20260309nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-19": {
+  "jp": {
+   "items": [
+    {
+     "title": "FOMC後の米株安を引き継ぎ全面安",
+     "detail": "FRBが2会合連続で金利を据え置き年内利下げは1回との見通しがタカ派と受け止められ、米株安を引き継いで売られた。日経平均は1866円87銭(3.38%)安の5万3372円53銭。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1970297"
+     }
+    },
+    {
+     "title": "原油高と連休前の調整",
+     "detail": "NY原油が97ドル台に上がり、インフレ懸念が強まった。連休前のポジション調整も売りを強めたとされる。TOPIXは2.91%安。",
+     "direction": "down",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20260319nk/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "原油の急騰が一服し下げ幅縮小",
+     "detail": "原油の急騰が後半に和らぎ、株価は下げ幅を縮めて終了。主要指数は2日続落した。FRBの金利据え置きも材料視された。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/03/19/stocks-pare-losses-oil-cools-on-strait-of-hormuz-talks"
+     }
+    },
+    {
+     "title": "マイクロンが下落",
+     "detail": "マイクロンは支出増の見通しで7%下落し、エヌビディアとブロードコムも2%超下げてAI関連株の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/534874"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-23": {
+  "jp": {
+   "items": [
+    {
+     "title": "ホルムズ海峡の期限提示でリスク回避",
+     "detail": "トランプ大統領がイランにホルムズ海峡開放の期限を示したことを背景にリスク回避の売りが強まった。日経平均は1857円04銭安の5万1515円49銭(-3.48%)。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1971705"
+     }
+    },
+    {
+     "title": "原油高によるインフレ懸念と金利上昇",
+     "detail": "原油高がインフレ懸念を強め金利が上昇し、株安につながった。構成225銘柄のうち値上がりは9、値下がりは216とほぼ全面安。TOPIXも約123ポイント安。",
+     "direction": "down",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20260323nk/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏がイランと「生産的な対話」",
+     "detail": "トランプ大統領がイランとの生産的な対話に言及し、紛争終結への期待から買いが先行。ダウは631ドル(1.38%)高の46208、S&P500は74.52ポイント(1.1%)高の約6581。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(WTOP)",
+      "url": "https://wtop.com/news/2026/03/how-major-us-stock-indexes-fared-monday-3-23-2026"
+     }
+    },
+    {
+     "title": "イラン側は協議を否定",
+     "detail": "イラン当局は協議の事実を否定し、午前中に比べると上げ幅は縮んだ。ロイターによればS&P500は開戦後の下げをすべて埋めた。",
+     "direction": "flat",
+     "source": {
+      "label": "同",
+      "url": "https://wtop.com/news/2026/03/how-major-us-stock-indexes-fared-monday-3-23-2026"
      }
     }
    ]

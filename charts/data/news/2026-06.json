@@ -1,4 +1,50 @@
 {
+ "2026-06-08": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安を受けAI・半導体株に売り",
+     "detail": "前週末の米ハイテク株安を受け、AI・半導体関連を中心に売りが膨らみ、日経平均は3日続落で終値6万4024円60銭(2563円52銭安)。下げ幅は今年2番目。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2000017"
+     }
+    },
+    {
+     "title": "米利上げ観測の再燃",
+     "detail": "米利上げ観測の再燃も重しになったと報じられた。前場は一時3181円安まで下げたが、終値は6万4000円を上回った。",
+     "direction": "down",
+     "source": {
+      "label": "同(東証急落、一時3100円超安)",
+      "url": "https://kumanichi.com/articles/2000042"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "チップ株が反発",
+     "detail": "前週末に2.6%下落したS&P500は、半導体を中心にハイテク株が反発し約0.3%上昇。ナスダック総合は約0.9%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-monday-6-8-2026/"
+     }
+    },
+    {
+     "title": "中東の緊張緩和と原油",
+     "detail": "イランがイスラエルへの攻撃第1波は終了したと発表し、トランプ大統領が緊張緩和を促したことで、原油は上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "Idaho Business Review",
+      "url": "https://idahobusinessreview.com/2026/06/08/wall-street-rises-chipmakers-rebound-middle-east-tensions/"
+     }
+    }
+   ]
+  }
+ },
  "2026-06-15": {
   "us": {
    "items": [
@@ -31,6 +77,52 @@
      "source": {
       "label": "みんかぶ 6月15日 日経平均",
       "url": "https://minkabu.jp/news/4570090?selected_platform=pc"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-23": {
+  "jp": {
+   "items": [
+    {
+     "title": "6日連続最高値後の過熱感警戒",
+     "detail": "前日に初の7万2000円に達し6日連続で最高値を更新していた反動で利益確定売りが拡大。日経平均は2565円58銭安の6万9788円38銭で、9営業日ぶりに反落し7万円を割り込んだ。下げ幅は歴代5位。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2005807"
+     }
+    },
+    {
+     "title": "ソフトバンクG・東エレ・キオクシアが下落",
+     "detail": "上昇を牽引してきたソフトバンクグループ、東京エレクトロン、キオクシアHDなどが売られた。8営業日で8100円超上昇していた。",
+     "direction": "down",
+     "source": {
+      "label": "同(東証、午前終値)",
+      "url": "https://kumanichi.com/articles/2005733"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株が大幅安",
+     "detail": "S&P500は107.33ポイント(1.4%)安の7365.46、ナスダックは2.2%安の2万5587.04。情報技術セクターは3.7%下落し、ダウは0.1%安にとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-tuesday-6-23-2026/"
+     }
+    },
+    {
+     "title": "AI投資の収益性への懐疑",
+     "detail": "ハイパースケーラーのAI投資が見合うリターンを生まないのではとの懸念が広がり、半導体が下落した。マイクロン決算を控えた動きとも報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/6/23/semiconductors-slide-ahead-of-microns-earnings-broader-market-shows-resilience"
      }
     }
    ]

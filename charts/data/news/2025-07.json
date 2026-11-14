@@ -1,0 +1,57 @@
+{
+ "2025-07-23": {
+  "jp": {
+   "items": [
+    {
+     "title": "日米関税交渉の合意",
+     "detail": "米国の相互関税が25%から15%に引き下げられることになり、不透明感が後退。日経平均は1396円40銭高の4万1171円32銭で3日ぶりに急反発、約1年ぶりの高値水準。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(秋田魁新報)",
+      "url": "https://www.sakigake.jp/news/article/20250723CO0101/"
+     }
+    },
+    {
+     "title": "自動車株が急伸",
+     "detail": "日本車への追加関税が半分の12.5%となる合意を受け、SUBARUが17%高、トヨタが14%高など自動車株が大幅高となった。",
+     "direction": "up",
+     "source": {
+      "label": "同",
+      "url": "https://www.sakigake.jp/news/article/20250723CO0101/"
+     }
+    },
+    {
+     "title": "石破首相の退陣観測",
+     "detail": "石破首相の退陣観測も伝わり、政策期待が株価を押し上げたとの見方があると報じられた(ロイター報道)。",
+     "direction": "up",
+     "source": {
+      "label": "北海道新聞",
+      "url": "https://www.hokkaido-np.co.jp/article/1190036/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "米日・米EU通商合意",
+     "detail": "米国とEU、日本との通商合意の発表を受け、S&P500は0.8%(49.29ポイント)高の6358.91で最高値を更新。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(WTOP)",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-wednesday-7-23-2025"
+     }
+    },
+    {
+     "title": "ダウ・ナスダックも上昇",
+     "detail": "ダウは507.85ドル(1.1%)高の45010.29、ナスダックは0.6%高の2万1020.02で最高値。ラッセル2000は1.5%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/7/23/trade-developments-and-earnings-propel-to-record-highs"
+     }
+    }
+   ]
+  }
+ }
+}
