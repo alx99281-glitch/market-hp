@@ -246,6 +246,10 @@ def margin(m: dict | None) -> str:
             ("個人売買に占める信用", f'{w["margin_share_pct"]}%', e(w["week"])),
             ("個人の信用 差引", oku(w["margin_net_oku"]), f'現金 {oku(w["cash_net_oku"])} ・ 海外投資家 {oku(w["foreign_net_oku"])}'),
         ]
+    ag = m.get("top_agg") or {}
+    if ag:
+        tiles.append((f"上位{ag['n']}銘柄の評価損益", oku(ag.get("pnl_oku")),
+                      f'{pct(ag.get("pnl_pct"))} ・ 個別株の買い残の{ag.get("share_of_stock_buy_pct", "-")}%'))
     for r in m.get("reported") or []:
         src = link(r["source"]["url"], r["source"]["label"]) if r.get("source") else ""
         tiles.append((e(r["label"]), e(r["value"]), src))
@@ -266,7 +270,7 @@ def margin(m: dict | None) -> str:
         parts.append(
             f'<div class="scroll"><table><caption>信用買い残(金額)の上位{len(top)}銘柄 ・ {e(m.get("stock_date", ""))}申込分</caption>'
             "<thead><tr><th>銘柄</th><th>買い残(億円)</th><th>前日比</th><th>5日比</th><th>信用倍率</th><th>終値</th>"
-            f"<th>推定取得単価</th><th>推定評価損益</th></tr></thead><tbody>{rows}</tbody></table></div>")
+            f"<th>平均取得単価</th><th>評価損益</th></tr></thead><tbody>{rows}</tbody></table></div>")
     if ind:
         rows = "".join(
             f"<tr><td>{e(w['week'])}</td><td>{w['margin_share_pct']}%</td><td>{oku(w['margin_net_oku'])}</td>"
@@ -277,7 +281,7 @@ def margin(m: dict | None) -> str:
                      f"<th>海外投資家の差引</th></tr></thead><tbody>{rows}</tbody></table></div>")
     if m.get("notes"):
         parts.append(f'<p class="note">出所: 日本取引所グループ(信用取引残高、投資部門別売買状況)、株価はYahoo Finance。'
-                     f'評価損益は推定: {e(m["notes"])}</p>')
+                     f'評価損益について: {e(m["notes"])}</p>')
     return "".join(parts)
 
 
