@@ -1,70 +1,323 @@
 {
-  "2026-11-02": {
-    "us": {"items": [
-      {"title": "中間選挙前夜、半導体と指数上位が売られる", "detail": "SOX -3.4%、ナスダック100 -1.4%、S&P500 -0.5%。一方で均等加重S&P(RSP)は+0.8%で、売りは時価総額上位とNAND関連に偏った。", "direction": "down", "source": {"label": "Insights 11/3号", "url": "../../insights/output/2026-11-03.html"}},
-      {"title": "WTI原油が-7.5%と急落", "detail": "原油の急落でエネルギー株が重荷に。", "direction": "down", "source": {"label": "Insights 11/3号", "url": "../../insights/output/2026-11-03.html"}}
-    ]},
-    "jp": {"items": [
-      {"title": "キオクシアが-15.8%、東エレクは+5.2%", "detail": "NAND関連が急落する一方で製造装置は上昇し、半導体が一括りに売られたわけではなかった。", "direction": "down", "source": {"label": "Insights 11/3号", "url": "../../insights/output/2026-11-03.html"}}
-    ]}
+ "2026-11-02": {
+  "us": {
+   "items": [
+    {
+     "title": "中間選挙前夜、半導体と指数上位が売られる",
+     "detail": "SOX -3.4%、ナスダック100 -1.4%、S&P500 -0.5%。一方で均等加重S&P(RSP)は+0.8%で、売りは時価総額上位とNAND関連に偏った。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/3号",
+      "url": "../../insights/output/2026-11-03.html"
+     }
+    },
+    {
+     "title": "WTI原油が-7.5%と急落",
+     "detail": "原油の急落でエネルギー株が重荷に。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/3号",
+      "url": "../../insights/output/2026-11-03.html"
+     }
+    }
+   ]
   },
-  "2026-11-03": {
-    "us": {"items": [
-      {"title": "半導体が4営業日ぶりに反発、上げは偏る", "detail": "SOX +2.6%、ナスダック100 +0.7%。均等加重S&Pは-0.3%、生活必需品(XLP)は-2.1%と、半導体以外は弱かった。", "direction": "up", "source": {"label": "Insights 11/4号", "url": "../../insights/output/2026-11-04.html"}},
-      {"title": "AMD決算が予想を上回り時間外で上昇", "detail": "引け後のAMD決算が好感され、翌日の半導体の支えに。", "direction": "up", "source": {"label": "Insights 11/4号", "url": "../../insights/output/2026-11-04.html"}},
-      {"title": "米中間選挙の投票日", "detail": "結果待ちで様子見ムード。東証は文化の日で休場。", "direction": "flat", "source": {"label": "Insights 11/4号", "url": "../../insights/output/2026-11-04.html"}}
-    ]}
-  },
-  "2026-11-04": {
-    "us": {"items": [
-      {"title": "民主党が上下両院を制したと報道、指数は急騰", "detail": "S&P500 +1.58%、ダウ +3.03%、VIXは-20%。「民主党の両院制覇は株に重い」という事前の見方と逆の反応。", "direction": "up", "source": {"label": "Insights 11/5号", "url": "../../insights/output/2026-11-05.html"}},
-      {"title": "AIインフラ株は急落", "detail": "SOX -3.13%、マイクロン -7.0%、CoreWeave -9.9%。S&Pが1.5%以上上げた日にSOXが2%以上下げたのは2000年以降で3回目。", "direction": "down", "source": {"label": "Insights 11/5号", "url": "../../insights/output/2026-11-05.html"}}
-    ]},
-    "jp": {"items": [
-      {"title": "休場明けの東京、米国より先に半導体を売る", "detail": "日経平均 -1.42%(報道値)。米国2日分(11/2の下げと11/3の戻り)をまとめて織り込み、取引時間中に半導体が売られた。", "direction": "down", "source": {"label": "Insights 11/5号", "url": "../../insights/output/2026-11-05.html"}}
-    ]}
-  },
-  "2026-11-05": {
-    "us": {"items": [
-      {"title": "AI株の急落でS&P500 -4.36%、2025年4月以来の大きな下げ", "detail": "ナスダック100 -6.36%、SOX -12.25%(2000年以降で2番目の下げ)。VIXは+69.7%の28.18。", "direction": "down", "source": {"label": "AP(FOX19)", "url": "https://www.fox19.com/2026/11/05/brutal-sell-off-ai-stocks-sends-wall-street-reeling-sp-500-sees-worst-day-since-2025-liberation-day-tariffs/"}},
-      {"title": "データセンター規制強化への懸念", "detail": "民主党の両院制覇で、データセンター向けの規制が強まるとの見方が広がったと報じられた。", "direction": "down", "source": {"label": "Insights 11/6号", "url": "../../insights/output/2026-11-06.html"}},
-      {"title": "Qualcommのスマホ向け売上が弱い", "detail": "決算でスマホ向けが弱く、半導体の売りに拍車。ただしハイイールド債ETFは-0.31%にとどまり、売りはAI・半導体に集中した。", "direction": "down", "source": {"label": "Insights 11/6号", "url": "../../insights/output/2026-11-06.html"}}
-    ]},
-    "jp": {"items": [
-      {"title": "日経平均1,110円安でもTOPIXは上昇", "detail": "半導体・AI関連に売りが集中し、その他の業種は買われた(報道値)。", "direction": "down", "source": {"label": "Insights 11/6号", "url": "../../insights/output/2026-11-06.html"}}
-    ]}
-  },
-  "2026-11-06": {
-    "jp": {"items": [
-      {"title": "米国の急落を受けて全面安、日経平均 -5.96%で6万円割れ", "detail": "終値57,434円、TOPIXも-5.90%。日経225採用銘柄の98.7%が下げ、前日と違って半導体以外も売られた。6月の高値から-20.6%。", "direction": "down", "source": {"label": "Insights 11/8号", "url": "../../insights/output/2026-11-08.html"}}
-    ]},
-    "us": {"items": [
-      {"title": "半導体が反発(SOX +4.21%)も寄り天", "detail": "ナスダック100 +1.35%。半導体ETFは寄り付きが高値圏で、引けにかけて上げ幅を縮めた。", "direction": "up", "source": {"label": "Insights 11/8号", "url": "../../insights/output/2026-11-08.html"}},
-      {"title": "10月雇用統計が強い", "detail": "非農業部門雇用者数+16.5万人(予想6.5万人、報道値)。米10年金利は+2bpの4.86%。", "direction": "flat", "source": {"label": "Insights 11/8号", "url": "../../insights/output/2026-11-08.html"}}
-    ]}
-  },
-  "2026-11-10": {
-    "us": {"items": [
-      {"title": "10月CPIが予想を上回り、米金利が急上昇", "detail": "CPI前月比+0.4%(予想+0.3%)、コア+0.3%(予想+0.2%)。12月利上げがほぼ確実との見方に。米5年金利+14.8bp、10年金利は4.98%。それでもS&P500は-0.38%にとどまった。", "direction": "down", "source": {"label": "Insights 11/11号", "url": "../../insights/output/2026-11-11.html"}},
-      {"title": "エヌビディアが2日で-9.5%、AMDは+14.7%", "detail": "CEOをめぐる取締役会の調査が報じられ、エヌビディアが下落。SOXは同じ2日で+6.5%と逆に上げた。", "direction": "down", "source": {"label": "Insights 11/11号", "url": "../../insights/output/2026-11-11.html"}},
-      {"title": "CoreWeaveの決算が好感され時間外で上昇", "detail": "引け後の決算でAIインフラへの不安がやや和らいだ。", "direction": "up", "source": {"label": "Insights 11/11号", "url": "../../insights/output/2026-11-11.html"}}
-    ]},
-    "jp": {"items": [
-      {"title": "日経平均 +2.87%で6万円台を回復", "detail": "終値60,459円(報道値)。前週の急落からの戻りが続いた。", "direction": "up", "source": {"label": "Insights 11/11号", "url": "../../insights/output/2026-11-11.html"}}
-    ]}
-  },
-  "2026-11-11": {
-    "us": {"items": [
-      {"title": "AI関連株が反発、S&P500 +1.3%", "detail": "S&P500は7,619で、前週の急落分をほぼ取り戻した。ナスダック +1.6%、ダウ +0.5%。", "direction": "up", "source": {"label": "AP(La Nación)", "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11112026-nid11112026/"}}
-    ]}
-  },
-  "2026-11-12": {
-    "us": {"items": [
-      {"title": "エヌビディアのファンCEOが辞任、寄り付き-13%から-4%まで戻す", "detail": "8-Kで開示、クレスCFOが暫定CEOに。安値-14.4%から引けは-4.34%。AMDは+5.86%と逆行し、11/6からの累計はエヌビディア-11.0%、AMD+30.3%。", "direction": "down", "source": {"label": "Insights 11/13号", "url": "../../insights/output/2026-11-13.html"}},
-      {"title": "米10年金利が5.10%に上昇、ドル指数は2025年4月以来の高値", "detail": "10年金利+10.5bp。金先物-2.04%(3日で-4.8%)、ビットコイン-3.52%と、金利高・ドル高が他の資産に波及した。", "direction": "down", "source": {"label": "Insights 11/13号", "url": "../../insights/output/2026-11-13.html"}}
-    ]},
-    "jp": {"items": [
-      {"title": "エヌビディアのCEO辞任を米国より先に織り込む", "detail": "アドバンテスト -4.63%、東京エレクトロンは+0.35%と分かれた。日経平均は60,819円(-0.70%、報道値)。", "direction": "down", "source": {"label": "Insights 11/13号", "url": "../../insights/output/2026-11-13.html"}}
-    ]}
+  "jp": {
+   "items": [
+    {
+     "title": "キオクシアが-15.8%、東エレクは+5.2%",
+     "detail": "NAND関連が急落する一方で製造装置は上昇し、半導体が一括りに売られたわけではなかった。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/3号",
+      "url": "../../insights/output/2026-11-03.html"
+     }
+    }
+   ]
   }
+ },
+ "2026-11-03": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体が4営業日ぶりに反発、上げは偏る",
+     "detail": "SOX +2.6%、ナスダック100 +0.7%。均等加重S&Pは-0.3%、生活必需品(XLP)は-2.1%と、半導体以外は弱かった。",
+     "direction": "up",
+     "source": {
+      "label": "Insights 11/4号",
+      "url": "../../insights/output/2026-11-04.html"
+     }
+    },
+    {
+     "title": "AMD決算が予想を上回り時間外で上昇",
+     "detail": "引け後のAMD決算が好感され、翌日の半導体の支えに。",
+     "direction": "up",
+     "source": {
+      "label": "Insights 11/4号",
+      "url": "../../insights/output/2026-11-04.html"
+     }
+    },
+    {
+     "title": "米中間選挙の投票日",
+     "detail": "結果待ちで様子見ムード。東証は文化の日で休場。",
+     "direction": "flat",
+     "source": {
+      "label": "Insights 11/4号",
+      "url": "../../insights/output/2026-11-04.html"
+     }
+    }
+   ]
+  }
+ },
+ "2026-11-04": {
+  "us": {
+   "items": [
+    {
+     "title": "民主党が上下両院を制したと報道、指数は急騰",
+     "detail": "S&P500 +1.58%、ダウ +3.03%、VIXは-20%。「民主党の両院制覇は株に重い」という事前の見方と逆の反応。",
+     "direction": "up",
+     "source": {
+      "label": "Insights 11/5号",
+      "url": "../../insights/output/2026-11-05.html"
+     }
+    },
+    {
+     "title": "AIインフラ株は急落",
+     "detail": "SOX -3.13%、マイクロン -7.0%、CoreWeave -9.9%。S&Pが1.5%以上上げた日にSOXが2%以上下げたのは2000年以降で3回目。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/5号",
+      "url": "../../insights/output/2026-11-05.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "休場明けの東京、米国より先に半導体を売る",
+     "detail": "日経平均 -1.42%(報道値)。米国2日分(11/2の下げと11/3の戻り)をまとめて織り込み、取引時間中に半導体が売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/5号",
+      "url": "../../insights/output/2026-11-05.html"
+     }
+    }
+   ]
+  }
+ },
+ "2026-11-05": {
+  "us": {
+   "items": [
+    {
+     "title": "AI株の急落でS&P500 -4.36%、2025年4月以来の大きな下げ",
+     "detail": "ナスダック100 -6.36%、SOX -12.25%(2000年以降で2番目の下げ)。VIXは+69.7%の28.18。",
+     "direction": "down",
+     "source": {
+      "label": "AP(FOX19)",
+      "url": "https://www.fox19.com/2026/11/05/brutal-sell-off-ai-stocks-sends-wall-street-reeling-sp-500-sees-worst-day-since-2025-liberation-day-tariffs/"
+     }
+    },
+    {
+     "title": "データセンター規制強化への懸念",
+     "detail": "民主党の両院制覇で、データセンター向けの規制が強まるとの見方が広がったと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/6号",
+      "url": "../../insights/output/2026-11-06.html"
+     }
+    },
+    {
+     "title": "Qualcommのスマホ向け売上が弱い",
+     "detail": "決算でスマホ向けが弱く、半導体の売りに拍車。ただしハイイールド債ETFは-0.31%にとどまり、売りはAI・半導体に集中した。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/6号",
+      "url": "../../insights/output/2026-11-06.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均1,110円安でもTOPIXは上昇",
+     "detail": "半導体・AI関連に売りが集中し、その他の業種は買われた(報道値)。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/6号",
+      "url": "../../insights/output/2026-11-06.html"
+     }
+    }
+   ]
+  }
+ },
+ "2026-11-06": {
+  "jp": {
+   "items": [
+    {
+     "title": "米国の急落を受けて全面安、日経平均 -5.96%で6万円割れ",
+     "detail": "終値57,434円、TOPIXも-5.90%。日経225採用銘柄の98.7%が下げ、前日と違って半導体以外も売られた。6月の高値から-20.6%。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/8号",
+      "url": "../../insights/output/2026-11-08.html"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "半導体が反発(SOX +4.21%)も寄り天",
+     "detail": "ナスダック100 +1.35%。半導体ETFは寄り付きが高値圏で、引けにかけて上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "Insights 11/8号",
+      "url": "../../insights/output/2026-11-08.html"
+     }
+    },
+    {
+     "title": "10月雇用統計が強い",
+     "detail": "非農業部門雇用者数+16.5万人(予想6.5万人、報道値)。米10年金利は+2bpの4.86%。",
+     "direction": "flat",
+     "source": {
+      "label": "Insights 11/8号",
+      "url": "../../insights/output/2026-11-08.html"
+     }
+    }
+   ]
+  }
+ },
+ "2026-11-10": {
+  "us": {
+   "items": [
+    {
+     "title": "10月CPIが予想を上回り、米金利が急上昇",
+     "detail": "CPI前月比+0.4%(予想+0.3%)、コア+0.3%(予想+0.2%)。12月利上げがほぼ確実との見方に。米5年金利+14.8bp、10年金利は4.98%。それでもS&P500は-0.38%にとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/11号",
+      "url": "../../insights/output/2026-11-11.html"
+     }
+    },
+    {
+     "title": "エヌビディアが2日で-9.5%、AMDは+14.7%",
+     "detail": "CEOをめぐる取締役会の調査が報じられ、エヌビディアが下落。SOXは同じ2日で+6.5%と逆に上げた。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/11号",
+      "url": "../../insights/output/2026-11-11.html"
+     }
+    },
+    {
+     "title": "CoreWeaveの決算が好感され時間外で上昇",
+     "detail": "引け後の決算でAIインフラへの不安がやや和らいだ。",
+     "direction": "up",
+     "source": {
+      "label": "Insights 11/11号",
+      "url": "../../insights/output/2026-11-11.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均 +2.87%で6万円台を回復",
+     "detail": "終値60,459円(報道値)。前週の急落からの戻りが続いた。",
+     "direction": "up",
+     "source": {
+      "label": "Insights 11/11号",
+      "url": "../../insights/output/2026-11-11.html"
+     }
+    }
+   ]
+  }
+ },
+ "2026-11-11": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連株が反発、S&P500 +1.3%",
+     "detail": "S&P500は7,619で、前週の急落分をほぼ取り戻した。ナスダック +1.6%、ダウ +0.5%。",
+     "direction": "up",
+     "source": {
+      "label": "AP(La Nación)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11112026-nid11112026/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-11-12": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアのファンCEOが辞任、寄り付き-13%から-4%まで戻す",
+     "detail": "8-Kで開示、クレスCFOが暫定CEOに。安値-14.4%から引けは-4.34%。AMDは+5.86%と逆行し、11/6からの累計はエヌビディア-11.0%、AMD+30.3%。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/13号",
+      "url": "../../insights/output/2026-11-13.html"
+     }
+    },
+    {
+     "title": "米10年金利が5.10%に上昇、ドル指数は2025年4月以来の高値",
+     "detail": "10年金利+10.5bp。金先物-2.04%(3日で-4.8%)、ビットコイン-3.52%と、金利高・ドル高が他の資産に波及した。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/13号",
+      "url": "../../insights/output/2026-11-13.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディアのCEO辞任を米国より先に織り込む",
+     "detail": "アドバンテスト -4.63%、東京エレクトロンは+0.35%と分かれた。日経平均は60,819円(-0.70%、報道値)。",
+     "direction": "down",
+     "source": {
+      "label": "Insights 11/13号",
+      "url": "../../insights/output/2026-11-13.html"
+     }
+    }
+   ]
+  }
+ },
+ "2026-11-13": {
+  "us": {
+   "items": [
+    {
+     "title": "10月PPIは前月比で予想を下回るも、米10年金利は5.15%に上昇",
+     "detail": "PPIは前月比+0.3%(予想+0.4%)、前年比+6.5%(報道値)。10年金利は+5.1bp。期待インフレ(ブレークイーブン2.24%)は動かず、上昇は実質金利。",
+     "direction": "down",
+     "source": {
+      "label": "Stock Titan: 10月PPI(報道)",
+      "url": "https://www.stocktitan.net/articles/october-2026-ppi-report"
+     }
+    },
+    {
+     "title": "AMDが約9%安、「エヌビディア売り・ライバル買い」が逆回転",
+     "detail": "ブロードコム約5%安、エヌビディア約2%安(報道値、媒体により異なる)。SOXは-3.43%だが週間では+8.05%。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo Finance: 11/13 米国市況(報道)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
+     }
+    },
+    {
+     "title": "ダウは小幅高、ナスダック100は-1.22%",
+     "detail": "S&P500は-0.40%。ダウ上昇・ナスダック100 -1.2%以下・SOX -3%以下の組み合わせは2026年で7日目。詳細はInsights 11/14号。",
+     "direction": "flat",
+     "source": {
+      "label": "Insights 11/14号",
+      "url": "../../insights/output/2026-11-14.html"
+     }
+    }
+   ]
+  }
+ }
 }
