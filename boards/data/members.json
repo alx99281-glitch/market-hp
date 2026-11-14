@@ -11,7 +11,9 @@
       "score": 3,
       "rationale": "FRB理事時代からインフレ抑制優先の姿勢で知られ、量的緩和にも批判的だったタカ派。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm",
-      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/chairman-warsh-130x168.png"
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/chairman-warsh-130x168.png",
+      "term": "議長 2030年5月まで / 理事 2040年1月31日まで",
+      "photo": "../img/warsh.png"
     },
     {
       "name_ja": "フィリップ・ジェファーソン",
@@ -22,7 +24,9 @@
       "score": 0,
       "rationale": "労働市場とインフレのバランスを重視する発言が多く、中立派とされる。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/jefferson.htm",
-      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/jefferson_phillip_rdax_130x162s.jpg"
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/jefferson_phillip_rdax_130x162s.jpg",
+      "term": "副議長 2027年9月7日まで / 理事 2036年1月31日まで",
+      "photo": "../img/jefferson.jpg"
     },
     {
       "name_ja": "ミシェル・ボウマン",
@@ -33,7 +37,9 @@
       "score": -1,
       "rationale": "かつては規制強化に慎重なタカ派とされたが、2025年以降は利下げを支持する発言が目立つ。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/bowman.htm",
-      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/bowman_michelle_rdax_130x163s.jpg"
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/bowman_michelle_rdax_130x163s.jpg",
+      "term": "監督担当副議長 2029年6月9日まで / 理事 2034年1月31日まで",
+      "photo": "../img/bowman.jpg"
     },
     {
       "name_ja": "マイケル・バー",
@@ -45,7 +51,9 @@
       "rationale": "金融規制強化派として知られる。金融政策では従来ハト派寄りとされたが、2026年9月以降は追加利上げが必要との発言が目立つ。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/barr.htm",
       "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Barr_michael_8x10_July_25_22-444_rdax_130x162s.jpg",
-      "change_note": "2026年9月23日の講演で、インフレ目標の達成には追加利上げがおそらく必要になると述べた(ロイター報道)。インフレへの警戒が明確になったため引き上げた。"
+      "change_note": "2026年9月23日の講演で、インフレ目標の達成には追加利上げがおそらく必要になると述べた(ロイター報道)。インフレへの警戒が明確になったため引き上げた。",
+      "term": "理事 2032年1月31日まで",
+      "photo": "../img/barr.jpg"
     },
     {
       "name_ja": "リサ・クック",
@@ -57,7 +65,9 @@
       "rationale": "かつては雇用重視のハト派とされたが、2026年はAI投資や原油高によるインフレ圧力を警戒し、10月会合では利上げを主張して反対票を投じた。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/cook.htm",
       "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Cook_Lisa_8x10_June_29_22-316_pp_rdax_130x162s.jpg",
-      "change_note": "2026年10月28日のFOMCで、据え置きに反対し0.25%の利上げを主張した(FRB声明、CNBC・CNN報道)。就任以来初の反対票で、雇用重視のハト派という評価を中立に改めた。"
+      "change_note": "2026年10月28日のFOMCで、据え置きに反対し0.25%の利上げを主張した(FRB声明、CNBC・CNN報道)。就任以来初の反対票で、雇用重視のハト派という評価を中立に改めた。",
+      "term": "理事 2038年1月31日まで",
+      "photo": "../img/cook.jpg"
     },
     {
       "name_ja": "ジェローム・パウエル",
@@ -68,7 +78,9 @@
       "score": 0,
       "rationale": "在任中は「データ次第」の姿勢を貫いた中立派で、極端な発言は少なかった。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/powell.htm",
-      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Powell_Jerome_Aug_16_22-674_8x10_rdax_130x162s.jpg"
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/Powell_Jerome_Aug_16_22-674_8x10_rdax_130x162s.jpg",
+      "term": "理事 2028年1月31日まで",
+      "photo": "../img/powell.jpg"
     },
     {
       "name_ja": "クリストファー・ウォラー",
@@ -79,7 +91,9 @@
       "score": 2,
       "rationale": "インフレ指標を重視した発言が多くタカ派とされるが、労働市場悪化時には利下げ支持に転じる柔軟さもある。",
       "bio_url": "https://www.federalreserve.gov/aboutthefed/bios/board/waller.htm",
-      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/waller_christopher_September_01_2025-1022_highres_rdax_130x163s.jpg"
+      "photo_url": "https://www.federalreserve.gov/aboutthefed/images/waller_christopher_September_01_2025-1022_highres_rdax_130x163s.jpg",
+      "term": "理事 2030年1月31日まで",
+      "photo": "../img/waller.jpg"
     },
     {
       "name_ja": "ジョン・ウィリアムズ",
@@ -90,7 +104,9 @@
       "score": 0,
       "rationale": "FOMC副議長格として、議長方針を支持する中立的な発言が中心。",
       "bio_url": "https://www.newyorkfed.org/aboutthefed/orgchart/williams",
-      "photo_url": "https://www.newyorkfed.org/medialibrary/media/images/v4/about_the_fed/featured_panel/johnwilliams-feature-panel.jpg"
+      "photo_url": "https://www.newyorkfed.org/medialibrary/media/images/v4/about_the_fed/featured_panel/johnwilliams-feature-panel.jpg",
+      "term": "総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年",
+      "photo": "../img/williams.jpg"
     },
     {
       "name_ja": "アナ・ポールソン",
@@ -102,7 +118,9 @@
       "rationale": "2026年初めは利下げを見込んでいたが、9月にはインフレ高止まりを理由に追加の小幅な引き締めが適切になりうると述べた。就任からの期間が短く、評価の確度は高くない。",
       "bio_url": "https://www.philadelphiafed.org/our-people/anna-paulson",
       "photo_url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/People/Executive-Leadership/25-06_Anna-Paulson.jpg",
-      "change_note": "2026年9月24日の講演で、インフレは根強く高止まりしており、見通しどおりならさらに小幅な引き締めが適切になりうると述べた(フィラデルフィア連銀講演、ロイター報道)。"
+      "change_note": "2026年9月24日の講演で、インフレは根強く高止まりしており、見通しどおりならさらに小幅な引き締めが適切になりうると述べた(フィラデルフィア連銀講演、ロイター報道)。",
+      "term": "総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年",
+      "photo": "../img/paulson.jpg"
     },
     {
       "name_ja": "ベス・ハマック",
@@ -114,7 +132,9 @@
       "rationale": "着任以来インフレ再燃への警戒を強調し、2026年7月と10月のFOMCで利上げを主張して反対票を投じた、投票メンバーで最もタカ派的な一人。",
       "bio_url": "https://www.clevelandfed.org/people/profiles/h/hammack-beth-m",
       "photo_url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/people/profiles/h/hammack-beth-th.png",
-      "change_note": "2026年10月28日のFOMCで、据え置きに反対し0.25%の利上げを主張した(FRB声明、CNN・CNBC報道)。7月会合に続く利上げ主張の反対票で、タカ派の度合いを一段引き上げた。"
+      "change_note": "2026年10月28日のFOMCで、据え置きに反対し0.25%の利上げを主張した(FRB声明、CNN・CNBC報道)。7月会合に続く利上げ主張の反対票で、タカ派の度合いを一段引き上げた。",
+      "term": "総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年",
+      "photo": "../img/hammack.jpg"
     },
     {
       "name_ja": "ローリー・ローガン",
@@ -126,7 +146,9 @@
       "rationale": "インフレの粘着性への警戒が強く、2026年7月のFOMCで利上げを主張して反対票を投じ、10月にはさらに0.5%以上の利上げが必要と述べたタカ派。",
       "bio_url": "https://www.dallasfed.org/fed/leadership/logan",
       "photo_url": "https://www.dallasfed.org/~/media/Images/People/dallasfed/Logan_Lorie.jpg",
-      "change_note": "2026年10月1日の講演で、政策金利をさらに0.5%以上引き上げる必要があり、現在の政策は引き締め的ではないと述べた(ダラス連銀講演、Investinglive・Newsquawk報道)。"
+      "change_note": "2026年10月1日の講演で、政策金利をさらに0.5%以上引き上げる必要があり、現在の政策は引き締め的ではないと述べた(ダラス連銀講演、Investinglive・Newsquawk報道)。",
+      "term": "総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年",
+      "photo": "../img/logan.jpg"
     },
     {
       "name_ja": "ニール・カシュカリ",
@@ -138,7 +160,9 @@
       "rationale": "歴史的にはハト派として知られたが、2026年は7月のFOMCで利上げを主張して反対票を投じ、10月にも追加利上げを見込むと述べるなど、引き締め寄りの姿勢に転じている。",
       "bio_url": "https://www.minneapolisfed.org/people/neel-kashkari",
       "photo_url": "https://www.minneapolisfed.org/-/media/assets/people/neel-kashkari/neel-kashkari.jpg",
-      "change_note": "2026年10月1日のロイターのインタビューで、インフレはなお高すぎるとし、年内にもう1回、2027年にも追加利上げを見込むと述べた(ロイター報道)。7月会合での利上げ主張の反対票と合わせ、基調が引き締め寄りに変わったと判断した。"
+      "change_note": "2026年10月1日のロイターのインタビューで、インフレはなお高すぎるとし、年内にもう1回、2027年にも追加利上げを見込むと述べた(ロイター報道)。7月会合での利上げ主張の反対票と合わせ、基調が引き締め寄りに変わったと判断した。",
+      "term": "総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年",
+      "photo": "../img/kashkari.jpg"
     }
   ],
   "boj": [
@@ -151,7 +175,8 @@
       "score": 1,
       "rationale": "急激な変更は避けつつも着実な正常化を進めており、穏健な正常化派と位置づけられる。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/gv_ueda.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/ueda.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/ueda.jpg",
+      "term": "2023年4月9日〜2028年4月8日"
     },
     {
       "name_ja": "内田眞一",
@@ -162,7 +187,8 @@
       "score": 0,
       "rationale": "植田総裁を支える実務派で、市場との対話を重視した中立的な発言が多い。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/dg_uchida.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/uchida.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/uchida.jpg",
+      "term": "2023年3月20日〜2028年3月19日"
     },
     {
       "name_ja": "氷見野良三",
@@ -173,7 +199,8 @@
       "score": 0,
       "rationale": "金融システムの安定を重視する発言が中心で、金利観については比較的中立。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/dg_himino.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/himino.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/himino.jpg",
+      "term": "2023年3月20日〜2028年3月19日"
     },
     {
       "name_ja": "高田創",
@@ -185,7 +212,8 @@
       "rationale": "早くから正常化の必要性を主張し、2026年は6月・7月・10月の決定会合で利上げを提案して反対票を投じた、政策委員で最もタカ派的な一人。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_takata.htm",
       "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/takata.jpg",
-      "change_note": "2026年10月30日の金融政策決定会合で、据え置きに反対し政策金利を1.5%程度へ引き上げる議案を提出した(ロイター・外為どっとコム・OANDA報道)。6月・7月に続く利上げ提案で、タカ派の度合いを一段引き上げた。"
+      "change_note": "2026年10月30日の金融政策決定会合で、据え置きに反対し政策金利を1.5%程度へ引き上げる議案を提出した(ロイター・外為どっとコム・OANDA報道)。6月・7月に続く利上げ提案で、タカ派の度合いを一段引き上げた。",
+      "term": "2022年7月24日〜2027年7月23日"
     },
     {
       "name_ja": "田村直樹",
@@ -196,7 +224,8 @@
       "score": 3,
       "rationale": "審議委員の中でも特に利上げの必要性を主張する発言が多く、最もタカ派的とされる。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_tamura.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/tamura.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/tamura.jpg",
+      "term": "2022年7月24日〜2027年7月23日"
     },
     {
       "name_ja": "小枝淳子",
@@ -208,7 +237,8 @@
       "rationale": "学術的・データに基づく発言が中心。基調的な物価は2%近くで定着しつつあるとし、2026年10月には利上げを適切なペースで続けるべきとの考えを示している。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_koeda.htm",
       "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/koeda.jpg",
-      "change_note": "2026年10月15日の熊本県金融経済懇談会での挨拶で、利上げに過度に慎重になるべきではなく、1.25%への引き上げ後もさらなる利上げが必要との考えを示した(日銀公表、時事通信・ロイター報道)。"
+      "change_note": "2026年10月15日の熊本県金融経済懇談会での挨拶で、利上げに過度に慎重になるべきではなく、1.25%への引き上げ後もさらなる利上げが必要との考えを示した(日銀公表、時事通信・ロイター報道)。",
+      "term": "2025年3月26日〜2030年3月25日"
     },
     {
       "name_ja": "増一行",
@@ -219,7 +249,8 @@
       "score": 1,
       "rationale": "就任後、利上げが「近づいている」と発言するなど、やや前向きな姿勢を見せている。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_masu.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/masu.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/masu.jpg",
+      "term": "2025年7月1日〜2030年6月30日"
     },
     {
       "name_ja": "浅田統一郎",
@@ -230,7 +261,8 @@
       "score": -4,
       "rationale": "長年、金融緩和の継続を主張してきた「リフレ派」の代表的論客。首相の緩和志向を反映した起用と報じられた。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_asada.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/asada.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/asada.jpg",
+      "term": "2026年4月1日〜2031年3月31日"
     },
     {
       "name_ja": "佐藤綾野",
@@ -241,7 +273,9 @@
       "score": -3,
       "rationale": "「リフレ派」の起用と報じられ、金融緩和的な政策運営を支持するとみられる。就任間もなく評価は暫定的。",
       "bio_url": "https://www.boj.or.jp/about/organization/policyboard/bm_asato.htm",
-      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/asato.jpg"
+      "photo_url": "https://www.boj.or.jp/about/organization/policyboard/img/asato.jpg",
+      "term": "2026年6月30日〜2031年6月29日"
     }
-  ]
+  ],
+  "term_note": "FRB理事の任期は14年、議長・副議長は4年。地区連銀総裁は5年(2026年3月1日に一斉に始まった期)。日銀の総裁・副総裁・審議委員は5年。前任者の残任期間を引き継ぐ場合がある。"
 }

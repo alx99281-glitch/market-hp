@@ -26,16 +26,6 @@
     font-size: 0.92rem; font-weight: 500;
   }
   .tab-btn.active { background: var(--panel); color: var(--text); border-color: var(--border); }
-  .subnav {
-    display: none; gap: 8px; padding: 8px 20px; background: var(--panel);
-    border-bottom: 1px solid var(--border); flex-shrink: 0; flex-wrap: wrap;
-  }
-  .subnav.visible { display: flex; }
-  .subnav button {
-    background: #21262c; border: 1px solid var(--border); color: var(--text);
-    padding: 5px 14px; border-radius: 5px; cursor: pointer; font-size: 0.8rem;
-  }
-  .subnav button.active { background: var(--accent); color: #04101f; border-color: var(--accent); font-weight: 600; }
   main { flex: 1; min-height: 0; }
   iframe { width: 100%; height: 100%; border: none; display: block; background: var(--bg); }
 </style>
@@ -44,58 +34,29 @@
   <header>
     <h1>Market Analysis Dashboard</h1>
     <div class="tabs">
-      <button class="tab-btn active" id="tab-daily" onclick="switchTab('daily')">📰 Daily Summary</button>
+      <button class="tab-btn active" id="tab-insights" onclick="switchTab('insights')">💡 Insights</button>
+      <button class="tab-btn" id="tab-asia" onclick="switchTab('asia')">🌏 Japan &amp; Asia</button>
       <button class="tab-btn" id="tab-chart" onclick="switchTab('chart')">📈 Market Charts</button>
       <button class="tab-btn" id="tab-board" onclick="switchTab('board')">🏛️ Central Bank Boards</button>
-      <button class="tab-btn" id="tab-insights" onclick="switchTab('insights')">💡 Insights</button>
     </div>
   </header>
 
-  <div class="subnav visible" id="daily-subnav">
-    <button id="sub-us-daily" class="active" onclick="loadDaily('us-daily')">US Daily</button>
-    <button id="sub-jp-daily" onclick="loadDaily('jp-daily')">Japan Daily</button>
-    <button id="sub-us-structure" onclick="loadDaily('us-structure')">US Structure</button>
-    <button id="sub-jp-structure" onclick="loadDaily('jp-structure')">Japan Structure</button>
-  </div>
 
   <main>
-    <iframe id="content" src="daily-review/reports/us/latest.html"></iframe>
+    <iframe id="content" src="insights/output/index.html"></iframe>
   </main>
 
 <script>
 const PAGES = {
+  insights: 'insights/output/index.html',
+  asia: 'insights/output/asia/index.html',
   chart: 'charts/output/index.html',
   board: 'boards/output/index.html',
-  insights: 'insights/output/index.html',
-  'us-daily': 'daily-review/reports/us/latest.html',
-  'jp-daily': 'daily-review/reports/jp/latest.html',
-  'us-structure': 'daily-review/reports/structure/us/index.html',
-  'jp-structure': 'daily-review/reports/structure/jp/index.html',
 };
 
-function setActive(id, cls) {
-  document.querySelectorAll('.' + cls).forEach(el => el.classList.remove('active'));
-  const el = document.getElementById(id);
-  if (el) el.classList.add('active');
-}
-
 function switchTab(tab) {
-  setActive('tab-' + tab, 'tab-btn');
-  document.getElementById('daily-subnav').classList.toggle('visible', tab === 'daily');
-  if (tab === 'chart') {
-    document.getElementById('content').src = PAGES.chart;
-  } else if (tab === 'board') {
-    document.getElementById('content').src = PAGES.board;
-  } else if (tab === 'insights') {
-    document.getElementById('content').src = PAGES.insights;
-  } else if (tab === 'daily') {
-    loadDaily('us-daily');
-  }
-}
-
-function loadDaily(key) {
-  setActive('sub-' + key, 'subnav button');
-  document.getElementById('content').src = PAGES[key];
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.toggle('active', el.id === 'tab-' + tab));
+  document.getElementById('content').src = PAGES[tab];
 }
 </script>
 </body>

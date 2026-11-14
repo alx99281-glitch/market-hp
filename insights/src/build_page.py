@@ -1,6 +1,7 @@
 """insights/data/editions/*.json から「分析の視点」タブのHTMLを生成する。
 
 最新号を output/index.html、各号を output/YYYY-MM-DD.html に書き出す。
+日本・アジア版(data/asia/*.json)は output/asia/ に同じ形で書き出す。
 """
 
 from __future__ import annotations
@@ -12,6 +13,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 EDITIONS = ROOT / "data" / "editions"
 OUTPUT = ROOT / "output"
+KINDS = {
+    "main": (EDITIONS, OUTPUT, "分析の視点"),
+    "asia": (ROOT / "data" / "asia", OUTPUT / "asia", "日本・アジア"),
+}
 
 VERDICTS = {"支持": "ok", "条件付き": "warn", "反証": "bad", "要観察": "watch"}
 
@@ -73,6 +78,19 @@ td.wrap { white-space:normal; text-align:left; min-width:220px; }
 table.left th, table.left td { text-align:left; vertical-align:top; }
 table.left td { white-space:normal; }
 .move .axis span:nth-child(2) { text-align:center; }
+.secnav { position:sticky; top:0; z-index:5; display:flex; flex-wrap:wrap; gap:6px; padding:8px 0; margin:0 0 14px;
+  background:var(--bg); border-bottom:1px solid var(--border); }
+.secnav a { background:var(--panel2); border:1px solid var(--border); color:var(--text); padding:5px 12px; border-radius:999px; font-size:.8rem; }
+.secnav a:hover { border-color:var(--accent); text-decoration:none; }
+.secnav a b { color:var(--muted); font-weight:500; margin-left:4px; }
+[id^="sec-"] { scroll-margin-top:56px; }
+.mtiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin-bottom:10px; }
+.mtiles div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.mtiles span { display:block; color:var(--muted); font-size:.72rem; } .mtiles b { font-size:1.05rem; font-variant-numeric:tabular-nums; }
+.mtiles i { display:block; font-style:normal; font-size:.72rem; color:var(--muted); }
+.mchart { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:10px; }
+.mchart svg { display:block; width:100%; height:90px; } .mchart .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.68rem; }
+.pos { color:var(--ok); } .neg { color:var(--bad); }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 """
 
@@ -164,7 +182,7 @@ def big_moves(items: list, note: str = "") -> str:
 <div class="big {'up' if up else 'down'}">{e(m['metric'])}</div><div class="since">{e(m.get('since', ''))}</div>
 {sparkline(m.get('series', []), up)}<p>{e(m['comment'])}</p>{src}</div>""")
     intro = f'<p class="lead">{e(note)}</p>' if note else ""
-    return '<h2 class="section">大きく動いたもの</h2>' + intro + '<div class="moves">' + "".join(cards) + "</div>"
+    return '<h2 class="section" id="sec-moves">大きく動いたもの</h2>' + intro + '<div class="moves">' + "".join(cards) + "</div>"
 
 
 def investors(inv: dict | None) -> str:
@@ -187,11 +205,83 @@ def investors(inv: dict | None) -> str:
     table_html = (f'<div class="scroll"><table class="left"><caption>発言・持ち高の一覧(新しい順)</caption><thead><tr><th>人物</th><th>時期</th>'
                   f'<th>テーマ</th><th>立ち位置</th><th>要旨</th></tr></thead><tbody>{rows}</tbody></table></div>')
     note = f'<p class="note">{e(inv["note"])}</p>' if inv.get("note") else ""
-    return (f'<h2 class="section">大物投資家の相場観</h2><div class="inv-sum"><p>{e(inv["summary"])}</p>{trend}</div>'
+    return (f'<h2 class="section" id="sec-investors">大物投資家の相場観</h2><div class="inv-sum"><p>{e(inv["summary"])}</p>{trend}</div>'
             f"{table_html}{note}")
 
 
-def page(ed: dict, dates: list[str]) -> str:
+def pct(v, digits=1) -> str:
+    if v is None:
+        return "-"
+    cls = "pos" if v > 0 else ("neg" if v < 0 else "")
+    return f'<span class="{cls}">{v:+.{digits}f}%</span>'
+
+
+def oku(v) -> str:
+    if v is None:
+        return "-"
+    return f"{v / 10000:,.2f}兆円" if abs(v) >= 10000 else f"{v:,.0f}億円"
+
+
+def margin(m: dict | None) -> str:
+    """信用取引の需給(margin_report.json を号にコピーしたもの + コメント)。"""
+    if not m:
+        return ""
+    parts = ['<h2 class="section" id="sec-margin">信用取引の需給</h2>']
+    if m.get("comment"):
+        parts.append(f'<div class="inv-sum"><p>{e(m["comment"])}</p></div>')
+    t = m.get("total") or {}
+    ind = (m.get("individuals") or {}).get("weeks") or []
+    tiles = []
+    if t:
+        tiles += [
+            ("信用買い残(二市場)", oku(t.get("buy_val_oku")), f'前週比 {pct(t.get("buy_chg_1w_pct"))} ・ 4週 {pct(t.get("buy_chg_4w_pct"))}'),
+            ("信用売り残", oku(t.get("sell_val_oku")), f'{e(t.get("date", ""))} 時点'),
+            ("信用倍率(金額)", f'{t.get("ratio", "-")}倍', "買い残 ÷ 売り残"),
+            ("買い残の水準", f'2002年以降の{t.get("buy_percentile_since_2002", "-")}%分位',
+             f'最大 {oku((t.get("buy_peak") or {}).get("buy_val_oku"))}({e((t.get("buy_peak") or {}).get("date", ""))})'),
+        ]
+    if ind:
+        w = ind[0]
+        tiles += [
+            ("個人売買に占める信用", f'{w["margin_share_pct"]}%', e(w["week"])),
+            ("個人の信用 差引", oku(w["margin_net_oku"]), f'現金 {oku(w["cash_net_oku"])} ・ 海外投資家 {oku(w["foreign_net_oku"])}'),
+        ]
+    for r in m.get("reported") or []:
+        src = link(r["source"]["url"], r["source"]["label"]) if r.get("source") else ""
+        tiles.append((e(r["label"]), e(r["value"]), src))
+    if tiles:
+        parts.append('<div class="mtiles">' + "".join(
+            f"<div><span>{a}</span><b>{b}</b><i>{c}</i></div>" for a, b, c in tiles) + "</div>")
+    if t.get("series_buy_oku"):
+        parts.append('<div class="mchart"><span class="note">信用買い残の推移(億円、週次・3年)</span>'
+                     + sparkline(t["series_buy_oku"], True) + "</div>")
+    top = m.get("top") or []
+    if top:
+        rows = "".join(
+            f"<tr><td>{e(r['name'])} <span class='note'>{e(r['code'])}・{e(r['sector'])}</span></td><td>{r['buy_val_oku']:,.0f}</td>"
+            f"<td>{pct(r.get('buy_chg_1d_pct'))}</td><td>{pct(r.get('buy_chg_5d_pct'))}</td><td>{r.get('ratio') or '-'}</td>"
+            f"<td>{r.get('close') or '-'}</td><td>{r.get('est_cost') or '-'}</td><td>{pct(r.get('est_pnl_pct'))}</td></tr>"
+            for r in top
+        )
+        parts.append(
+            f'<div class="scroll"><table><caption>信用買い残(金額)の上位{len(top)}銘柄 ・ {e(m.get("stock_date", ""))}申込分</caption>'
+            "<thead><tr><th>銘柄</th><th>買い残(億円)</th><th>前日比</th><th>5日比</th><th>信用倍率</th><th>終値</th>"
+            f"<th>推定取得単価</th><th>推定評価損益</th></tr></thead><tbody>{rows}</tbody></table></div>")
+    if ind:
+        rows = "".join(
+            f"<tr><td>{e(w['week'])}</td><td>{w['margin_share_pct']}%</td><td>{oku(w['margin_net_oku'])}</td>"
+            f"<td>{oku(w['cash_net_oku'])}</td><td>{oku(w['foreign_net_oku'])}</td></tr>" for w in ind[:8]
+        )
+        parts.append('<div class="scroll"><table><caption>個人の売買(投資部門別、二市場・週次)</caption>'
+                     "<thead><tr><th>週</th><th>個人売買に占める信用</th><th>個人 信用の差引</th><th>個人 現金の差引</th>"
+                     f"<th>海外投資家の差引</th></tr></thead><tbody>{rows}</tbody></table></div>")
+    if m.get("notes"):
+        parts.append(f'<p class="note">出所: 日本取引所グループ(信用取引残高、投資部門別売買状況)、株価はYahoo Finance。'
+                     f'評価損益は推定: {e(m["notes"])}</p>')
+    return "".join(parts)
+
+
+def page(ed: dict, dates: list[str], label: str = "分析の視点") -> str:
     options = "".join(
         f'<option value="{d}.html"{" selected" if d == ed["date"] else ""}>{d}</option>' for d in dates
     )
@@ -205,36 +295,51 @@ def page(ed: dict, dates: list[str]) -> str:
         f'<div class="x"><p>{link(x["url"], x["topic"])}（{e(x["status"])}）</p><p>{e(x["angle"])}</p></div>'
         for x in ed["x_topics"]
     )
+    nav = [("sec-cards", "分析の視点", len(ed["cards"]))]
+    if ed.get("big_moves"):
+        nav.append(("sec-moves", "大きく動いたもの", len(ed["big_moves"])))
+    if ed.get("investors"):
+        nav.append(("sec-investors", "大物投資家の相場観", len(ed["investors"].get("items", []))))
+    if ed.get("margin"):
+        nav.append(("sec-margin", "信用取引の需給", len((ed["margin"].get("top") or []))))
+    nav.append(("sec-x", "Xで拾った論点", len(ed["x_topics"])))
+    secnav = '<nav class="secnav" aria-label="セクション">' + "".join(
+        f'<a href="#{i}">{e(t)}<b>{n}</b></a>' for i, t, n in nav) + "</nav>"
     return f"""<!DOCTYPE html>
 <html lang="ja"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>分析の視点 {e(ed['date'])}</title><style>{CSS}</style></head>
+<title>{e(label)} {e(ed['date'])}</title><style>{CSS}</style></head>
 <body><div class="wrap">
-<div class="top"><span>分析の視点 ・ {e(ed['as_of'])}</span>
+<div class="top"><span>{e(label)} ・ {e(ed['as_of'])}</span>
 <select aria-label="号を選択" onchange="location.href=this.value">{options}</select></div>
 <h1>{e(ed['headline'])}</h1><p class="lead">{e(ed['lead'])}</p>
+{secnav}
 <div class="snap">{snap}</div>
-<div class="filters">{filters}</div>
+<div class="filters" id="sec-cards">{filters}</div>
 <div class="grid">{cards}</div>
 {big_moves(ed.get('big_moves', []), ed.get('big_moves_note', ''))}
 {investors(ed.get('investors'))}
-<h2 class="section">Xで拾った論点</h2>{xs}
+{margin(ed.get('margin'))}
+<h2 class="section" id="sec-x">Xで拾った論点</h2>{xs}
 <p class="method">{e(ed['method'])} 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>{JS}</script></body></html>
 """
 
 
 def main():
-    eds = sorted(
-        (json.loads(p.read_text(encoding="utf-8")) for p in EDITIONS.glob("*.json")),
-        key=lambda d: d["date"], reverse=True,
-    )
-    dates = [d["date"] for d in eds]
-    OUTPUT.mkdir(parents=True, exist_ok=True)
-    for ed in eds:
-        (OUTPUT / f"{ed['date']}.html").write_text(page(ed, dates), encoding="utf-8")
-    (OUTPUT / "index.html").write_text(page(eds[0], dates), encoding="utf-8")
-    print(f"built {len(eds)} edition(s), latest {dates[0]}")
+    for kind, (src, out, label) in KINDS.items():
+        eds = sorted(
+            (json.loads(p.read_text(encoding="utf-8")) for p in src.glob("*.json")),
+            key=lambda d: d["date"], reverse=True,
+        )
+        if not eds:
+            continue
+        dates = [d["date"] for d in eds]
+        out.mkdir(parents=True, exist_ok=True)
+        for ed in eds:
+            (out / f"{ed['date']}.html").write_text(page(ed, dates, label), encoding="utf-8")
+        (out / "index.html").write_text(page(eds[0], dates, label), encoding="utf-8")
+        print(f"{kind}: built {len(eds)} edition(s), latest {dates[0]}")
 
 
 if __name__ == "__main__":

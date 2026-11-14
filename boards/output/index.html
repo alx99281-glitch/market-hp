@@ -35,177 +35,224 @@
     .changes td:first-child, .changes td:nth-child(2) { white-space:nowrap; }
     .hawk { color:#f85149; } .dove { color:#58a6ff; }
     .shift { font-size:0.7rem; font-weight:600; margin-bottom:6px; }
+    .term { font-size:0.7rem; color:#d29922; margin-bottom:5px; }
+    .links { display:flex; gap:12px; flex-wrap:wrap; }
+    .jump { position:sticky; top:0; z-index:5; background:var(--bg); display:flex; gap:6px; flex-wrap:wrap; padding:8px 0; margin-bottom:12px; border-bottom:1px solid var(--border); }
+    .jump a { background:#21262c; border:1px solid var(--border); color:var(--text); padding:4px 12px; border-radius:999px; font-size:0.78rem; text-decoration:none; }
+    section, .talk { scroll-margin-top:52px; }
+    .talk { margin-top:22px; background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:12px 16px; }
+    .talk h3 { margin:0 0 8px; font-size:0.95rem; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; }
+    .chips button { background:#21262c; border:1px solid var(--border); color:var(--text); padding:3px 10px; border-radius:5px; cursor:pointer; font-size:0.74rem; }
+    .chips button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+    .tl { list-style:none; margin:0; padding:0; }
+    .tl li { display:grid; grid-template-columns:92px 1fr; gap:10px; padding:9px 0; border-top:1px solid var(--border); }
+    .t-date { color:var(--muted); font-size:0.78rem; font-variant-numeric:tabular-nums; }
+    .t-head { display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; font-size:0.84rem; }
+    .t-type { color:var(--muted); font-size:0.72rem; }
+    .t-stance { font-size:0.7rem; font-weight:600; border:1px solid; border-radius:10px; padding:0 7px; }
+    .t-stance.neu { color:var(--muted); }
+    .tl p { margin:3px 0 2px; font-size:0.8rem; line-height:1.55; }
+    .t-src { font-size:0.7rem; } .t-src a { color:var(--accent); text-decoration:none; }
+    .empty, .empty-pick { color:var(--muted); font-size:0.8rem; }
+    @media (max-width:600px) { .tl li { grid-template-columns:1fr; gap:2px; } }
     footer { margin-top:32px; padding-top:14px; border-top:1px solid var(--border); color:var(--muted); font-size:0.78rem; }
     </style>
 </head>
 <body>
   <h1>中央銀行審議委員まとめ</h1>
   <p class="subtitle">日銀・FRBの金融政策メンバー (更新: 2026-11-01)</p>
-  <div class="methodology">スコアは公開されている発言・投票行動・経歴の傾向に基づく編集部の定性評価であり、AIによる自動テキスト分析や公式指標ではない。-5(最ハト派)〜+5(最タカ派)。就任間もない委員は実績が少なく、評価の確度が低い点に留意。</div>
+  <nav class="jump"><a href="#sec-frb">FRB</a><a href="#talk-frb">FRBの発言</a><a href="#sec-boj">日銀</a><a href="#talk-boj">日銀の発言</a></nav>
+  <div class="methodology">スコアは公開されている発言・投票行動・経歴の傾向に基づく編集部の定性評価であり、AIによる自動テキスト分析や公式指標ではない。-5(最ハト派)〜+5(最タカ派)。就任間もない委員は実績が少なく、評価の確度が低い点に留意。<br>FRB理事の任期は14年、議長・副議長は4年。地区連銀総裁は5年(2026年3月1日に一斉に始まった期)。日銀の総裁・副総裁・審議委員は5年。前任者の残任期間を引き継ぐ場合がある。<br>発言の時系列: 更新 2026-11-14。要旨は報道・公式資料の要約で、立ち位置のラベルは編集部の判断。</div>
   
-  <section>
+  <section id="sec-frb">
     <h2>FRB (FOMC投票メンバー)</h2>
     <div class="changes"><p>前回(2026-09-05)からの変更</p><div class="scroll"><table><thead><tr><th>氏名</th><th>立ち位置</th><th>理由</th></tr></thead><tbody><tr><td>ベス・ハマック</td><td class="hawk">タカ派 (+2) → タカ派 (+3) ・ タカ派寄り</td><td>2026年10月28日のFOMCで、据え置きに反対し0.25%の利上げを主張した(FRB声明、CNN・CNBC報道)。7月会合に続く利上げ主張の反対票で、タカ派の度合いを一段引き上げた。</td></tr><tr><td>ローリー・ローガン</td><td class="hawk">タカ派 (+2) → タカ派 (+3) ・ タカ派寄り</td><td>2026年10月1日の講演で、政策金利をさらに0.5%以上引き上げる必要があり、現在の政策は引き締め的ではないと述べた(ダラス連銀講演、Investinglive・Newsquawk報道)。</td></tr><tr><td>マイケル・バー</td><td class="hawk">中立 (-1) → 中立 (+1) ・ タカ派寄り</td><td>2026年9月23日の講演で、インフレ目標の達成には追加利上げがおそらく必要になると述べた(ロイター報道)。インフレへの警戒が明確になったため引き上げた。</td></tr><tr><td>アナ・ポールソン</td><td class="hawk">中立 (+0) → 中立 (+1) ・ タカ派寄り</td><td>2026年9月24日の講演で、インフレは根強く高止まりしており、見通しどおりならさらに小幅な引き締めが適切になりうると述べた(フィラデルフィア連銀講演、ロイター報道)。</td></tr><tr><td>ニール・カシュカリ</td><td class="hawk">中立 (-1) → 中立 (+1) ・ タカ派寄り</td><td>2026年10月1日のロイターのインタビューで、インフレはなお高すぎるとし、年内にもう1回、2027年にも追加利上げを見込むと述べた(ロイター報道)。7月会合での利上げ主張の反対票と合わせ、基調が引き締め寄りに変わったと判断した。</td></tr><tr><td>リサ・クック</td><td class="hawk">ハト派 (-2) → 中立 (+0) ・ タカ派寄り</td><td>2026年10月28日のFOMCで、据え置きに反対し0.25%の利上げを主張した(FRB声明、CNBC・CNN報道)。就任以来初の反対票で、雇用重視のハト派という評価を中立に改めた。</td></tr></tbody></table></div></div>
     <div class="spectrum-wrap"><svg viewBox="0 0 980 272" width="100%" height="272" style="max-width:980px"><line x1="70" y1="16" x2="70" y2="276" stroke="#21262c" stroke-width="1"/><line x1="70.0" y1="10" x2="70.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="154.0" y1="10" x2="154.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="238.0" y1="10" x2="238.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="322.0" y1="10" x2="322.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="406.0" y1="10" x2="406.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="490.0" y1="10" x2="490.0" y2="270" stroke="#8b949e" stroke-width="0.5" opacity="0.35"/><line x1="574.0" y1="10" x2="574.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="658.0" y1="10" x2="658.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="742.0" y1="10" x2="742.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="826.0" y1="10" x2="826.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="910.0" y1="10" x2="910.0" y2="270" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><text x="70" y="268" fill="#58a6ff" font-size="11">← ハト派（緩和的）</text><text x="910" y="268" fill="#f85149" font-size="11" text-anchor="end">タカ派（引き締め的） →</text><circle cx="742.0" cy="22.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="733.0" y="26.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ケビン・ウォーシュ</text><line x1="658.0" y1="42.0" x2="742.0" y2="42.0" stroke="#f85149" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="658.0" cy="42.0" r="4" fill="#0d1117" stroke="#f85149" stroke-width="1.5"/><circle cx="742.0" cy="42.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="733.0" y="46.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ベス・ハマック</text><line x1="658.0" y1="62.0" x2="742.0" y2="62.0" stroke="#f85149" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="658.0" cy="62.0" r="4" fill="#0d1117" stroke="#f85149" stroke-width="1.5"/><circle cx="742.0" cy="62.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="733.0" y="66.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ローリー・ローガン</text><circle cx="658.0" cy="82.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="649.0" y="86.0" fill="#e6edf3" font-size="11.5" text-anchor="end">クリストファー・ウォラー</text><line x1="490.0" y1="102.0" x2="574.0" y2="102.0" stroke="#f85149" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="490.0" cy="102.0" r="4" fill="#0d1117" stroke="#f85149" stroke-width="1.5"/><circle cx="574.0" cy="102.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="565.0" y="106.0" fill="#e6edf3" font-size="11.5" text-anchor="end">アナ・ポールソン</text><line x1="406.0" y1="122.0" x2="574.0" y2="122.0" stroke="#f85149" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="406.0" cy="122.0" r="4" fill="#0d1117" stroke="#f85149" stroke-width="1.5"/><circle cx="574.0" cy="122.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="565.0" y="126.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ニール・カシュカリ</text><line x1="406.0" y1="142.0" x2="574.0" y2="142.0" stroke="#f85149" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="406.0" cy="142.0" r="4" fill="#0d1117" stroke="#f85149" stroke-width="1.5"/><circle cx="574.0" cy="142.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="565.0" y="146.0" fill="#e6edf3" font-size="11.5" text-anchor="end">マイケル・バー</text><circle cx="490.0" cy="162.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="166.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ジェローム・パウエル</text><circle cx="490.0" cy="182.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="186.0" fill="#e6edf3" font-size="11.5" text-anchor="end">ジョン・ウィリアムズ</text><circle cx="490.0" cy="202.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="206.0" fill="#e6edf3" font-size="11.5" text-anchor="end">フィリップ・ジェファーソン</text><line x1="322.0" y1="222.0" x2="490.0" y2="222.0" stroke="#8b949e" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="322.0" cy="222.0" r="4" fill="#0d1117" stroke="#8b949e" stroke-width="1.5"/><circle cx="490.0" cy="222.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="226.0" fill="#e6edf3" font-size="11.5" text-anchor="end">リサ・クック</text><circle cx="406.0" cy="242.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="415.0" y="246.0" fill="#e6edf3" font-size="11.5" text-anchor="start">ミシェル・ボウマン</text></svg></div>
     <div class="grid">
     <div class="card">
-      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/chairman-warsh-130x168.png" alt="ケビン・ウォーシュ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>KW</div>'">
+      <img class="avatar-img" src="../img/warsh.png" alt="ケビン・ウォーシュ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>KW</div>'">
       <div class="card-body">
         <div class="name">ケビン・ウォーシュ</div>
         <div class="name-en">Kevin Warsh</div>
         <div class="role">議長 <span class="since">2026年5月</span></div>
+        <div class="term">任期: 議長 2030年5月まで / 理事 2040年1月31日まで</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+3)</span>
         
         <div class="bio">元FRB理事(2006-2011年)。スタンフォード大学フーバー研究所出身。2026年5月にパウエル氏の後任として議長就任。</div>
         <div class="rationale">FRB理事時代からインフレ抑制優先の姿勢で知られ、量的緩和にも批判的だったタカ派。</div>
-        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Kevin Warsh" onclick="pick(this)">発言 2件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/people/profiles/h/hammack-beth-th.png" alt="ベス・ハマック" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>BM</div>'">
+      <img class="avatar-img" src="../img/hammack.jpg" alt="ベス・ハマック" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>BM</div>'">
       <div class="card-body">
         <div class="name">ベス・ハマック</div>
         <div class="name-en">Beth M. Hammack</div>
         <div class="role">クリーブランド連銀総裁 <span class="since">2024年〜</span></div>
+        <div class="term">任期: 総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+3)</span>
         <div class="shift hawk">前回 タカ派 (+2) → 今回 タカ派 (+3)</div>
         <div class="bio">元ゴールドマン・サックス幹部。2024年にクリーブランド連銀総裁に就任。</div>
         <div class="rationale">着任以来インフレ再燃への警戒を強調し、2026年7月と10月のFOMCで利上げを主張して反対票を投じた、投票メンバーで最もタカ派的な一人。</div>
-        <a class="bio-link" href="https://www.clevelandfed.org/people/profiles/h/hammack-beth-m" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.clevelandfed.org/people/profiles/h/hammack-beth-m" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Beth M. Hammack" onclick="pick(this)">発言 2件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.dallasfed.org/~/media/Images/People/dallasfed/Logan_Lorie.jpg" alt="ローリー・ローガン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#bf3989&quot;>LK</div>'">
+      <img class="avatar-img" src="../img/logan.jpg" alt="ローリー・ローガン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#bf3989&quot;>LK</div>'">
       <div class="card-body">
         <div class="name">ローリー・ローガン</div>
         <div class="name-en">Lorie K. Logan</div>
         <div class="role">ダラス連銀総裁 <span class="since">2022年〜</span></div>
+        <div class="term">任期: 総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+3)</span>
         <div class="shift hawk">前回 タカ派 (+2) → 今回 タカ派 (+3)</div>
         <div class="bio">ニューヨーク連銀出身、資産購入・SOMA運営の専門家。</div>
         <div class="rationale">インフレの粘着性への警戒が強く、2026年7月のFOMCで利上げを主張して反対票を投じ、10月にはさらに0.5%以上の利上げが必要と述べたタカ派。</div>
-        <a class="bio-link" href="https://www.dallasfed.org/fed/leadership/logan" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.dallasfed.org/fed/leadership/logan" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Lorie K. Logan" onclick="pick(this)">発言 2件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/waller_christopher_September_01_2025-1022_highres_rdax_130x163s.jpg" alt="クリストファー・ウォラー" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>CW</div>'">
+      <img class="avatar-img" src="../img/waller.jpg" alt="クリストファー・ウォラー" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>CW</div>'">
       <div class="card-body">
         <div class="name">クリストファー・ウォラー</div>
         <div class="name-en">Christopher Waller</div>
         <div class="role">理事 <span class="since">2020年〜</span></div>
+        <div class="term">任期: 理事 2030年1月31日まで</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+2)</span>
         
         <div class="bio">セントルイス連銀出身のエコノミスト。</div>
         <div class="rationale">インフレ指標を重視した発言が多くタカ派とされるが、労働市場悪化時には利下げ支持に転じる柔軟さもある。</div>
-        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/waller.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/waller.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Christopher Waller" onclick="pick(this)">発言 1件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/Barr_michael_8x10_July_25_22-444_rdax_130x162s.jpg" alt="マイケル・バー" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>MB</div>'">
+      <img class="avatar-img" src="../img/barr.jpg" alt="マイケル・バー" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>MB</div>'">
       <div class="card-body">
         <div class="name">マイケル・バー</div>
         <div class="name-en">Michael Barr</div>
         <div class="role">理事 <span class="since">2022年〜</span></div>
+        <div class="term">任期: 理事 2032年1月31日まで</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">中立 (+1)</span>
         <div class="shift hawk">前回 中立 (-1) → 今回 中立 (+1)</div>
         <div class="bio">元財務次官。金融規制の専門家で、金融監督担当副議長を2025年まで務めた。</div>
         <div class="rationale">金融規制強化派として知られる。金融政策では従来ハト派寄りとされたが、2026年9月以降は追加利上げが必要との発言が目立つ。</div>
-        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/barr.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/barr.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Michael Barr" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.philadelphiafed.org/-/media/FRBP/Assets/Images/People/Executive-Leadership/25-06_Anna-Paulson.jpg" alt="アナ・ポールソン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>AP</div>'">
+      <img class="avatar-img" src="../img/paulson.jpg" alt="アナ・ポールソン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#cf222e&quot;>AP</div>'">
       <div class="card-body">
         <div class="name">アナ・ポールソン</div>
         <div class="name-en">Anna Paulson</div>
         <div class="role">フィラデルフィア連銀総裁 <span class="since">2025年〜</span></div>
+        <div class="term">任期: 総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">中立 (+1)</span>
         <div class="shift hawk">前回 中立 (+0) → 今回 中立 (+1)</div>
         <div class="bio">元シカゴ連銀調査局長。2025年にフィラデルフィア連銀総裁に就任。</div>
         <div class="rationale">2026年初めは利下げを見込んでいたが、9月にはインフレ高止まりを理由に追加の小幅な引き締めが適切になりうると述べた。就任からの期間が短く、評価の確度は高くない。</div>
-        <a class="bio-link" href="https://www.philadelphiafed.org/our-people/anna-paulson" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.philadelphiafed.org/our-people/anna-paulson" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Anna Paulson" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.minneapolisfed.org/-/media/assets/people/neel-kashkari/neel-kashkari.jpg" alt="ニール・カシュカリ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>NK</div>'">
+      <img class="avatar-img" src="../img/kashkari.jpg" alt="ニール・カシュカリ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>NK</div>'">
       <div class="card-body">
         <div class="name">ニール・カシュカリ</div>
         <div class="name-en">Neel Kashkari</div>
         <div class="role">ミネアポリス連銀総裁 <span class="since">2016年〜</span></div>
+        <div class="term">任期: 総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">中立 (+1)</span>
         <div class="shift hawk">前回 中立 (-1) → 今回 中立 (+1)</div>
         <div class="bio">元財務省高官(TARPの責任者)。</div>
         <div class="rationale">歴史的にはハト派として知られたが、2026年は7月のFOMCで利上げを主張して反対票を投じ、10月にも追加利上げを見込むと述べるなど、引き締め寄りの姿勢に転じている。</div>
-        <a class="bio-link" href="https://www.minneapolisfed.org/people/neel-kashkari" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.minneapolisfed.org/people/neel-kashkari" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Neel Kashkari" onclick="pick(this)">発言 2件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/jefferson_phillip_rdax_130x162s.jpg" alt="フィリップ・ジェファーソン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>PJ</div>'">
+      <img class="avatar-img" src="../img/jefferson.jpg" alt="フィリップ・ジェファーソン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#8957e5&quot;>PJ</div>'">
       <div class="card-body">
         <div class="name">フィリップ・ジェファーソン</div>
         <div class="name-en">Philip Jefferson</div>
         <div class="role">副議長 <span class="since">2023年9月(理事は2022年〜)</span></div>
+        <div class="term">任期: 副議長 2027年9月7日まで / 理事 2036年1月31日まで</div>
         <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
         
         <div class="bio">デービッドソン大学教授出身の経済学者。2022年にFRB理事就任。</div>
         <div class="rationale">労働市場とインフレのバランスを重視する発言が多く、中立派とされる。</div>
-        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/jefferson.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/jefferson.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Philip Jefferson" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/Cook_Lisa_8x10_June_29_22-316_pp_rdax_130x162s.jpg" alt="リサ・クック" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>LC</div>'">
+      <img class="avatar-img" src="../img/cook.jpg" alt="リサ・クック" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>LC</div>'">
       <div class="card-body">
         <div class="name">リサ・クック</div>
         <div class="name-en">Lisa Cook</div>
         <div class="role">理事 <span class="since">2022年〜</span></div>
+        <div class="term">任期: 理事 2038年1月31日まで</div>
         <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
         <div class="shift hawk">前回 ハト派 (-2) → 今回 中立 (+0)</div>
         <div class="bio">ミシガン州立大学教授出身の経済学者。トランプ政権による解任を巡り係争中も職務を継続。</div>
         <div class="rationale">かつては雇用重視のハト派とされたが、2026年はAI投資や原油高によるインフレ圧力を警戒し、10月会合では利上げを主張して反対票を投じた。</div>
-        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/cook.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/cook.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Lisa Cook" onclick="pick(this)">発言 1件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/Powell_Jerome_Aug_16_22-674_8x10_rdax_130x162s.jpg" alt="ジェローム・パウエル" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>JP</div>'">
+      <img class="avatar-img" src="../img/powell.jpg" alt="ジェローム・パウエル" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#db6d28&quot;>JP</div>'">
       <div class="card-body">
         <div class="name">ジェローム・パウエル</div>
         <div class="name-en">Jerome Powell</div>
         <div class="role">理事(前議長) <span class="since">2012年〜(議長は2018-2026年)</span></div>
+        <div class="term">任期: 理事 2028年1月31日まで</div>
         <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
         
         <div class="bio">弁護士・投資銀行家出身。2018年から2026年5月まで議長を務め、退任後も理事として残留。</div>
         <div class="rationale">在任中は「データ次第」の姿勢を貫いた中立派で、極端な発言は少なかった。</div>
-        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/powell.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/powell.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Jerome Powell" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.newyorkfed.org/medialibrary/media/images/v4/about_the_fed/featured_panel/johnwilliams-feature-panel.jpg" alt="ジョン・ウィリアムズ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#2ea043&quot;>JC</div>'">
+      <img class="avatar-img" src="../img/williams.jpg" alt="ジョン・ウィリアムズ" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#2ea043&quot;>JC</div>'">
       <div class="card-body">
         <div class="name">ジョン・ウィリアムズ</div>
         <div class="name-en">John C. Williams</div>
         <div class="role">ニューヨーク連銀総裁(常任投票権) <span class="since">2018年〜</span></div>
+        <div class="term">任期: 総裁 2031年2月28日まで(5年任期) / FOMC投票は2026年</div>
         <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
         
         <div class="bio">元サンフランシスコ連銀総裁。金融市場調節(公開市場操作)の実務責任者。</div>
         <div class="rationale">FOMC副議長格として、議長方針を支持する中立的な発言が中心。</div>
-        <a class="bio-link" href="https://www.newyorkfed.org/aboutthefed/orgchart/williams" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.newyorkfed.org/aboutthefed/orgchart/williams" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="John C. Williams" onclick="pick(this)">発言 1件 →</a></div>
       </div>
     </div>
     <div class="card">
-      <img class="avatar-img" src="https://www.federalreserve.gov/aboutthefed/images/bowman_michelle_rdax_130x163s.jpg" alt="ミシェル・ボウマン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#0969da&quot;>MB</div>'">
+      <img class="avatar-img" src="../img/bowman.jpg" alt="ミシェル・ボウマン" onerror="this.outerHTML='<div class=&quot;avatar&quot; style=&quot;background:#0969da&quot;>MB</div>'">
       <div class="card-body">
         <div class="name">ミシェル・ボウマン</div>
         <div class="name-en">Michelle Bowman</div>
         <div class="role">金融監督担当副議長 <span class="since">2025年〜(理事は2018年〜)</span></div>
+        <div class="term">任期: 監督担当副議長 2029年6月9日まで / 理事 2034年1月31日まで</div>
         <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">中立 (-1)</span>
         
         <div class="bio">元カンザス州銀行監督官。2018年にFRB理事就任、2025年に金融監督担当副議長に就任。</div>
         <div class="rationale">かつては規制強化に慎重なタカ派とされたが、2025年以降は利下げを支持する発言が目立つ。</div>
-        <a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/bowman.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.federalreserve.gov/aboutthefed/bios/board/bowman.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-frb" data-bank="frb" data-member="Michelle Bowman" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div></div>
+    <div class="talk" id="talk-frb"><h3>発言の時系列(新しい順)</h3><div class="chips" data-bank="frb"><button class="active" data-member="all">すべて (11)</button><button data-member="Kevin Warsh">ケビン・ウォーシュ (2)</button><button data-member="Philip Jefferson">フィリップ・ジェファーソン (0)</button><button data-member="Michelle Bowman">ミシェル・ボウマン (0)</button><button data-member="Michael Barr">マイケル・バー (0)</button><button data-member="Lisa Cook">リサ・クック (1)</button><button data-member="Jerome Powell">ジェローム・パウエル (0)</button><button data-member="Christopher Waller">クリストファー・ウォラー (1)</button><button data-member="John C. Williams">ジョン・ウィリアムズ (1)</button><button data-member="Anna Paulson">アナ・ポールソン (0)</button><button data-member="Beth M. Hammack">ベス・ハマック (2)</button><button data-member="Lorie K. Logan">ローリー・ローガン (2)</button><button data-member="Neel Kashkari">ニール・カシュカリ (2)</button></div><ul class="tl" id="tl-frb"><li data-member="Christopher Waller"><div class="t-date">2026-11-10</div><div class="t-body"><div class="t-head"><b>クリストファー・ウォラー</b><span class="t-type">講演</span><span class="t-stance neu">政策言及なし</span></div><p>BOEウォッチャーズ会議(ロンドン)で「経済見通しと労働市場のダイナミズム」を講演。要旨は未確認(次回の更新で補う)。</p><div class="t-src"><a href="https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm" target="_blank" rel="noopener">FRB 講演原稿</a></div></div></li><li data-member="Lorie K. Logan"><div class="t-date">2026-10-30</div><div class="t-body"><div class="t-head"><b>ローリー・ローガン</b><span class="t-type">講演・発言</span><span class="t-stance hawk">タカ派的</span></div><p>少なくともあと2回、各0.25%の利上げを支持する考えを示したと報じられた。</p><div class="t-src"><a href="https://stocktwits.com/news-articles/markets/equity/higher-rates-ahead-three-fed-officials-have-called-for-a-gradual-uptick-in-interest-rates-this-week/cZULd1yR9c4" target="_blank" rel="noopener">Stocktwits(報道まとめ)</a></div></div></li><li data-member="Lisa Cook"><div class="t-date">2026-10-28</div><div class="t-body"><div class="t-head"><b>リサ・クック</b><span class="t-type">FOMC反対票</span><span class="t-stance hawk">タカ派的</span></div><p>FOMCは3.75〜4.00%で据え置き(10対2)。クック理事は0.25%の利上げを主張して反対票を投じた(報道ベース。票数は報道で9対3とするものもある)。</p><div class="t-src"><a href="https://investinglive.com/central-banks/recap-fed-holds-at-3-75-4-in-10-2-vote-as-cook-dissents-for-a-hike-december-move-in-focus/" target="_blank" rel="noopener">investingLive</a></div></div></li><li data-member="Beth M. Hammack"><div class="t-date">2026-10-28</div><div class="t-body"><div class="t-head"><b>ベス・ハマック</b><span class="t-type">FOMC反対票</span><span class="t-stance hawk">タカ派的</span></div><p>10月FOMCで0.25%の利上げを主張して反対票。7月に続き2会合連続の利上げ主張。</p><div class="t-src"><a href="https://investinglive.com/central-banks/recap-fed-holds-at-3-75-4-in-10-2-vote-as-cook-dissents-for-a-hike-december-move-in-focus/" target="_blank" rel="noopener">investingLive</a></div></div></li><li data-member="Kevin Warsh"><div class="t-date">2026-10-28</div><div class="t-body"><div class="t-head"><b>ケビン・ウォーシュ</b><span class="t-type">記者会見</span><span class="t-stance neu">中立</span></div><p>据え置きを説明。反対票が出たことは健全な議論とし、中間選挙を問われて「政治は決定に関係していない」と述べた。</p><div class="t-src"><a href="https://www.americanbanker.com/live-blog/federal-open-market-committee-press-conference-october-2026-live-coverage" target="_blank" rel="noopener">American Banker(会見ライブ)</a></div></div></li><li data-member="John C. Williams"><div class="t-date">2026-10-02</div><div class="t-body"><div class="t-head"><b>ジョン・ウィリアムズ</b><span class="t-type">講演・発言</span><span class="t-stance neu">中立</span></div><p>利上げが答えだとはまだ考えていないとの趣旨で、10月FOMCでの利上げ観測を後退させた。</p><div class="t-src"><a href="https://www.americanbanker.com/news/feds-williams-not-swayed-that-a-rate-hike-is-the-answer-yet" target="_blank" rel="noopener">American Banker</a></div></div></li><li data-member="Neel Kashkari"><div class="t-date">2026-10-02</div><div class="t-body"><div class="t-head"><b>ニール・カシュカリ</b><span class="t-type">講演・発言</span><span class="t-stance neu">中立</span></div><p>月末のFOMCでの利上げについて「強い意見はない」と述べたと報じられた(7月は利上げを主張して反対票)。</p><div class="t-src"><a href="https://www.nst.com.my/amp/business/economy/2026/10/1545927/fed-policymakers-lean-against-october-rate-hike" target="_blank" rel="noopener">NST(ロイター配信)</a></div></div></li><li data-member="Kevin Warsh"><div class="t-date">2026-08-28</div><div class="t-body"><div class="t-head"><b>ケビン・ウォーシュ</b><span class="t-type">講演</span><span class="t-stance hawk">タカ派的</span></div><p>ジャクソンホール講演。インフレは2%を上回っており、当面の焦点は物価と表明。金利がまだ十分に高くない可能性に触れ、利上げに含みを残した。時期の予告(フォワードガイダンス)はしない方針。</p><div class="t-src"><a href="https://www.opb.org/article/2026/08/28/fed-chair-warsh-signals-rate-hikes-may-be-needed-with-inflation-still-elevated/" target="_blank" rel="noopener">OPB(AP配信)</a></div></div></li><li data-member="Lorie K. Logan"><div class="t-date">2026-07-29</div><div class="t-body"><div class="t-head"><b>ローリー・ローガン</b><span class="t-type">FOMC反対票</span><span class="t-stance hawk">タカ派的</span></div><p>FOMCは3.50〜3.75%で据え置き(9対3)。0.25%の利上げを主張して反対票。</p><div class="t-src"><a href="https://axios.com/2026/07/31/fed-rates-dissenters-policy" target="_blank" rel="noopener">Axios</a></div></div></li><li data-member="Beth M. Hammack"><div class="t-date">2026-07-29</div><div class="t-body"><div class="t-head"><b>ベス・ハマック</b><span class="t-type">FOMC反対票</span><span class="t-stance hawk">タカ派的</span></div><p>7月FOMCで0.25%の利上げを主張して反対票。</p><div class="t-src"><a href="https://axios.com/2026/07/31/fed-rates-dissenters-policy" target="_blank" rel="noopener">Axios</a></div></div></li><li data-member="Neel Kashkari"><div class="t-date">2026-07-29</div><div class="t-body"><div class="t-head"><b>ニール・カシュカリ</b><span class="t-type">FOMC反対票</span><span class="t-stance hawk">タカ派的</span></div><p>7月FOMCで0.25%の利上げを主張して反対票。</p><div class="t-src"><a href="https://axios.com/2026/07/31/fed-rates-dissenters-policy" target="_blank" rel="noopener">Axios</a></div></div></li></ul><p class="empty-pick" hidden>この委員の発言はまだ収集していません。</p></div>
   </section>
-  <section>
+  <section id="sec-boj">
     <h2>日本銀行 政策委員会</h2>
     <div class="changes"><p>前回(2026-09-05)からの変更</p><div class="scroll"><table><thead><tr><th>氏名</th><th>立ち位置</th><th>理由</th></tr></thead><tbody><tr><td>高田創</td><td class="hawk">タカ派 (+2) → タカ派 (+3) ・ タカ派寄り</td><td>2026年10月30日の金融政策決定会合で、据え置きに反対し政策金利を1.5%程度へ引き上げる議案を提出した(ロイター・外為どっとコム・OANDA報道)。6月・7月に続く利上げ提案で、タカ派の度合いを一段引き上げた。</td></tr><tr><td>小枝淳子</td><td class="hawk">中立 (+0) → 中立 (+1) ・ タカ派寄り</td><td>2026年10月15日の熊本県金融経済懇談会での挨拶で、利上げに過度に慎重になるべきではなく、1.25%への引き上げ後もさらなる利上げが必要との考えを示した(日銀公表、時事通信・ロイター報道)。</td></tr></tbody></table></div></div>
     <div class="spectrum-wrap"><svg viewBox="0 0 980 212" width="100%" height="212" style="max-width:980px"><line x1="70" y1="16" x2="70" y2="216" stroke="#21262c" stroke-width="1"/><line x1="70.0" y1="10" x2="70.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="154.0" y1="10" x2="154.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="238.0" y1="10" x2="238.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="322.0" y1="10" x2="322.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="406.0" y1="10" x2="406.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="490.0" y1="10" x2="490.0" y2="210" stroke="#8b949e" stroke-width="0.5" opacity="0.35"/><line x1="574.0" y1="10" x2="574.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="658.0" y1="10" x2="658.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="742.0" y1="10" x2="742.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="826.0" y1="10" x2="826.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><line x1="910.0" y1="10" x2="910.0" y2="210" stroke="#484f58" stroke-width="0.5" opacity="0.35"/><text x="70" y="208" fill="#58a6ff" font-size="11">← ハト派（緩和的）</text><text x="910" y="208" fill="#f85149" font-size="11" text-anchor="end">タカ派（引き締め的） →</text><circle cx="742.0" cy="22.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="733.0" y="26.0" fill="#e6edf3" font-size="11.5" text-anchor="end">田村直樹</text><line x1="658.0" y1="42.0" x2="742.0" y2="42.0" stroke="#f85149" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="658.0" cy="42.0" r="4" fill="#0d1117" stroke="#f85149" stroke-width="1.5"/><circle cx="742.0" cy="42.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="733.0" y="46.0" fill="#e6edf3" font-size="11.5" text-anchor="end">高田創</text><circle cx="574.0" cy="62.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="565.0" y="66.0" fill="#e6edf3" font-size="11.5" text-anchor="end">増一行</text><line x1="490.0" y1="82.0" x2="574.0" y2="82.0" stroke="#f85149" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="490.0" cy="82.0" r="4" fill="#0d1117" stroke="#f85149" stroke-width="1.5"/><circle cx="574.0" cy="82.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="565.0" y="86.0" fill="#e6edf3" font-size="11.5" text-anchor="end">小枝淳子</text><circle cx="574.0" cy="102.0" r="4.5" fill="#f85149" stroke="#0d1117" stroke-width="1"/><text x="565.0" y="106.0" fill="#e6edf3" font-size="11.5" text-anchor="end">植田和男</text><circle cx="490.0" cy="122.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="126.0" fill="#e6edf3" font-size="11.5" text-anchor="end">内田眞一</text><circle cx="490.0" cy="142.0" r="4.5" fill="#8b949e" stroke="#0d1117" stroke-width="1"/><text x="481.0" y="146.0" fill="#e6edf3" font-size="11.5" text-anchor="end">氷見野良三</text><circle cx="238.0" cy="162.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="247.0" y="166.0" fill="#e6edf3" font-size="11.5" text-anchor="start">佐藤綾野</text><circle cx="154.0" cy="182.0" r="4.5" fill="#58a6ff" stroke="#0d1117" stroke-width="1"/><text x="163.0" y="186.0" fill="#e6edf3" font-size="11.5" text-anchor="start">浅田統一郎</text></svg></div>
@@ -216,11 +263,13 @@
         <div class="name">高田創</div>
         <div class="name-en">Hajime Takata</div>
         <div class="role">審議委員 <span class="since">2022年7月〜</span></div>
+        <div class="term">任期: 2022年7月24日〜2027年7月23日</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+3)</span>
         <div class="shift hawk">前回 タカ派 (+2) → 今回 タカ派 (+3)</div>
         <div class="bio">元みずほ総合研究所チーフエコノミスト。</div>
         <div class="rationale">早くから正常化の必要性を主張し、2026年は6月・7月・10月の決定会合で利上げを提案して反対票を投じた、政策委員で最もタカ派的な一人。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_takata.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_takata.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Hajime Takata" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div>
     <div class="card">
@@ -229,11 +278,13 @@
         <div class="name">田村直樹</div>
         <div class="name-en">Naoki Tamura</div>
         <div class="role">審議委員 <span class="since">2022年7月〜</span></div>
+        <div class="term">任期: 2022年7月24日〜2027年7月23日</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">タカ派 (+3)</span>
         
         <div class="bio">元三井住友銀行出身。</div>
         <div class="rationale">審議委員の中でも特に利上げの必要性を主張する発言が多く、最もタカ派的とされる。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_tamura.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_tamura.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Naoki Tamura" onclick="pick(this)">発言 1件 →</a></div>
       </div>
     </div>
     <div class="card">
@@ -242,11 +293,13 @@
         <div class="name">植田和男</div>
         <div class="name-en">Kazuo Ueda</div>
         <div class="role">総裁 <span class="since">2023年4月〜</span></div>
+        <div class="term">任期: 2023年4月9日〜2028年4月8日</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">中立 (+1)</span>
         
         <div class="bio">経済学者(東京大学名誉教授)。マイナス金利政策の解除・YCC撤廃を主導。</div>
         <div class="rationale">急激な変更は避けつつも着実な正常化を進めており、穏健な正常化派と位置づけられる。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/gv_ueda.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/gv_ueda.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Kazuo Ueda" onclick="pick(this)">発言 3件 →</a></div>
       </div>
     </div>
     <div class="card">
@@ -255,11 +308,13 @@
         <div class="name">小枝淳子</div>
         <div class="name-en">Junko Koeda</div>
         <div class="role">審議委員 <span class="since">2025年3月〜</span></div>
+        <div class="term">任期: 2025年3月26日〜2030年3月25日</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">中立 (+1)</span>
         <div class="shift hawk">前回 中立 (+0) → 今回 中立 (+1)</div>
         <div class="bio">早稲田大学教授、金融政策理論が専門。</div>
         <div class="rationale">学術的・データに基づく発言が中心。基調的な物価は2%近くで定着しつつあるとし、2026年10月には利上げを適切なペースで続けるべきとの考えを示している。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_koeda.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_koeda.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Junko Koeda" onclick="pick(this)">発言 1件 →</a></div>
       </div>
     </div>
     <div class="card">
@@ -268,11 +323,13 @@
         <div class="name">増一行</div>
         <div class="name-en">Kazuyuki Masu</div>
         <div class="role">審議委員 <span class="since">2025年7月〜</span></div>
+        <div class="term">任期: 2025年7月1日〜2030年6月30日</div>
         <span class="score-badge" style="color:#f85149;border-color:#f85149">中立 (+1)</span>
         
         <div class="bio">元三菱商事代表取締役常務(CFO)。</div>
         <div class="rationale">就任後、利上げが「近づいている」と発言するなど、やや前向きな姿勢を見せている。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_masu.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_masu.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Kazuyuki Masu" onclick="pick(this)">発言 1件 →</a></div>
       </div>
     </div>
     <div class="card">
@@ -281,11 +338,13 @@
         <div class="name">内田眞一</div>
         <div class="name-en">Shinichi Uchida</div>
         <div class="role">副総裁 <span class="since">2023年3月〜</span></div>
+        <div class="term">任期: 2023年3月20日〜2028年3月19日</div>
         <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
         
         <div class="bio">日銀プロパー、金融市場局長等を歴任。YCC解除の実務を主導した。</div>
         <div class="rationale">植田総裁を支える実務派で、市場との対話を重視した中立的な発言が多い。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/dg_uchida.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/dg_uchida.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Shinichi Uchida" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div>
     <div class="card">
@@ -294,11 +353,13 @@
         <div class="name">氷見野良三</div>
         <div class="name-en">Ryozo Himino</div>
         <div class="role">副総裁 <span class="since">2023年3月〜</span></div>
+        <div class="term">任期: 2023年3月20日〜2028年3月19日</div>
         <span class="score-badge" style="color:#8b949e;border-color:#8b949e">中立 (+0)</span>
         
         <div class="bio">元金融庁長官。</div>
         <div class="rationale">金融システムの安定を重視する発言が中心で、金利観については比較的中立。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/dg_himino.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/dg_himino.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Ryozo Himino" onclick="pick(this)">発言 1件 →</a></div>
       </div>
     </div>
     <div class="card">
@@ -307,11 +368,13 @@
         <div class="name">佐藤綾野</div>
         <div class="name-en">Ayano Sato</div>
         <div class="role">審議委員 <span class="since">2026年6月〜</span></div>
+        <div class="term">任期: 2026年6月30日〜2031年6月29日</div>
         <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">ハト派 (-3)</span>
         
         <div class="bio">青山学院大学教授、国際金融が専門。</div>
         <div class="rationale">「リフレ派」の起用と報じられ、金融緩和的な政策運営を支持するとみられる。就任間もなく評価は暫定的。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_asato.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_asato.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Ayano Sato" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div>
     <div class="card">
@@ -320,17 +383,38 @@
         <div class="name">浅田統一郎</div>
         <div class="name-en">Toichiro Asada</div>
         <div class="role">審議委員 <span class="since">2026年4月〜</span></div>
+        <div class="term">任期: 2026年4月1日〜2031年3月31日</div>
         <span class="score-badge" style="color:#58a6ff;border-color:#58a6ff">ハト派 (-4)</span>
         
         <div class="bio">中央大学名誉教授。「リフレ派」の代表的論客として知られる。</div>
         <div class="rationale">長年、金融緩和の継続を主張してきた「リフレ派」の代表的論客。首相の緩和志向を反映した起用と報じられた。</div>
-        <a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_asada.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="https://www.boj.or.jp/about/organization/policyboard/bm_asada.htm" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-boj" data-bank="boj" data-member="Toichiro Asada" onclick="pick(this)">発言 0件 →</a></div>
       </div>
     </div></div>
+    <div class="talk" id="talk-boj"><h3>発言の時系列(新しい順)</h3><div class="chips" data-bank="boj"><button class="active" data-member="all">すべて (7)</button><button data-member="Kazuo Ueda">植田和男 (3)</button><button data-member="Shinichi Uchida">内田眞一 (0)</button><button data-member="Ryozo Himino">氷見野良三 (1)</button><button data-member="Hajime Takata">高田創 (0)</button><button data-member="Naoki Tamura">田村直樹 (1)</button><button data-member="Junko Koeda">小枝淳子 (1)</button><button data-member="Kazuyuki Masu">増一行 (1)</button><button data-member="Toichiro Asada">浅田統一郎 (0)</button><button data-member="Ayano Sato">佐藤綾野 (0)</button></div><ul class="tl" id="tl-boj"><li data-member="Kazuo Ueda"><div class="t-date">2026-10-20</div><div class="t-body"><div class="t-head"><b>植田和男</b><span class="t-type">記者会見</span><span class="t-stance neu">中立</span></div><p>9月会合後のデータは概ね日銀の見通しどおりに動いているとの認識を示した。</p><div class="t-src"><a href="https://www.boj.or.jp/about/press/kaiken_2026/kk261020a.pdf" target="_blank" rel="noopener">日本銀行 会見要旨(PDF)</a></div></div></li><li data-member="Junko Koeda"><div class="t-date">2026-10-15</div><div class="t-body"><div class="t-head"><b>小枝淳子</b><span class="t-type">講演</span><span class="t-stance hawk">タカ派的</span></div><p>熊本市で講演。利上げに過度に慎重になることはないと述べ、利上げを続ける姿勢。時期は「適時に調整していくべき」にとどめた。</p><div class="t-src"><a href="https://kumanichi.com/articles/2046762" target="_blank" rel="noopener">熊本日日新聞(共同)</a></div></div></li><li data-member="Kazuo Ueda"><div class="t-date">2026-09-18</div><div class="t-body"><div class="t-head"><b>植田和男</b><span class="t-type">記者会見</span><span class="t-stance hawk">タカ派的</span></div><p>政策金利を1.0%から1.25%へ引き上げ(31年ぶりの水準)。物価が2%を上振れするリスクを挙げて「局面が変化した」と説明し、利上げを続ける方針を示した。</p><div class="t-src"><a href="https://www.kanaloco.jp/news/social/article-1301376.html" target="_blank" rel="noopener">神奈川新聞(共同)</a></div></div></li><li data-member="Kazuyuki Masu"><div class="t-date">2026-09-10</div><div class="t-body"><div class="t-head"><b>増一行</b><span class="t-type">講演</span><span class="t-stance hawk">タカ派的</span></div><p>福井市で講演。引き続き政策金利を引き上げ、緩和の度合いを調整していくと述べた。</p><div class="t-src"><a href="https://kumanichi.com/articles/2034420" target="_blank" rel="noopener">熊本日日新聞(共同)</a></div></div></li><li data-member="Kazuo Ueda"><div class="t-date">2026-09-01</div><div class="t-body"><div class="t-head"><b>植田和男</b><span class="t-type">講演・会見</span><span class="t-stance hawk">タカ派的</span></div><p>基調的な物価上昇率は「かなり2%に近いところになってきている」との認識を示した。</p><div class="t-src"><a href="https://www.kanaloco.jp/news/social/article-1305496.html" target="_blank" rel="noopener">神奈川新聞(共同)</a></div></div></li><li data-member="Ryozo Himino"><div class="t-date">2026-08-27</div><div class="t-body"><div class="t-head"><b>氷見野良三</b><span class="t-type">講演</span><span class="t-stance neu">中立</span></div><p>講演で、利上げを事前に予告する必要はないとの考えをにじませたと分析された(二次情報)。</p><div class="t-src"><a href="https://www.dlri.co.jp/files/macro/654608.pdf" target="_blank" rel="noopener">第一生命経済研究所(分析)</a></div></div></li><li data-member="Naoki Tamura"><div class="t-date">2026-06-25</div><div class="t-body"><div class="t-head"><b>田村直樹</b><span class="t-type">講演</span><span class="t-stance hawk">タカ派的</span></div><p>神戸市で講演。中立金利は「2%前後の領域にあるのではないか」と述べ、利上げ余地を示唆。</p><div class="t-src"><a href="https://www.kumanichi.com/articles/2006564" target="_blank" rel="noopener">熊本日日新聞(共同)</a></div></div></li></ul><p class="empty-pick" hidden>この委員の発言はまだ収集していません。</p></div>
   </section>
   <footer>
     出所: 各氏の公式略歴ページ（Federal Reserve Board / Bank of Japan / 各地区連銀）、報道各社の報道内容を基に編集部が作成<br>
-    写真は各氏の公式略歴ページから直接埋め込み。読み込めない場合はイニシャルのアバターで代替表示される
+    写真はFRB・各地区連銀・日本銀行の公式略歴ページの肖像。読み込めない場合はイニシャルのアバターで代替表示される
   </footer>
+<script>
+function filterTalk(bank, member) {
+  const box = document.querySelector('.chips[data-bank="' + bank + '"]');
+  box.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.dataset.member === member));
+  let shown = 0;
+  document.querySelectorAll('#tl-' + bank + ' li[data-member]').forEach(li => {
+    const on = member === 'all' || li.dataset.member === member;
+    li.style.display = on ? '' : 'none';
+    if (on) shown++;
+  });
+  box.parentElement.querySelector('.empty-pick').hidden = shown > 0 || member === 'all';
+}
+function pick(a) { filterTalk(a.dataset.bank, a.dataset.member); }
+document.querySelectorAll('.chips').forEach(box => box.addEventListener('click', ev => {
+  const b = ev.target.closest('button');
+  if (b) filterTalk(box.dataset.bank, b.dataset.member);
+}));
+</script>
 </body>
 </html>

@@ -59,14 +59,28 @@ td.wrap { white-space:normal; text-align:left; min-width:220px; }
 table.left th, table.left td { text-align:left; vertical-align:top; }
 table.left td { white-space:normal; }
 .move .axis span:nth-child(2) { text-align:center; }
+.secnav { position:sticky; top:0; z-index:5; display:flex; flex-wrap:wrap; gap:6px; padding:8px 0; margin:0 0 14px;
+  background:var(--bg); border-bottom:1px solid var(--border); }
+.secnav a { background:var(--panel2); border:1px solid var(--border); color:var(--text); padding:5px 12px; border-radius:999px; font-size:.8rem; }
+.secnav a:hover { border-color:var(--accent); text-decoration:none; }
+.secnav a b { color:var(--muted); font-weight:500; margin-left:4px; }
+[id^="sec-"] { scroll-margin-top:56px; }
+.mtiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin-bottom:10px; }
+.mtiles div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.mtiles span { display:block; color:var(--muted); font-size:.72rem; } .mtiles b { font-size:1.05rem; font-variant-numeric:tabular-nums; }
+.mtiles i { display:block; font-style:normal; font-size:.72rem; color:var(--muted); }
+.mchart { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:10px; }
+.mchart svg { display:block; width:100%; height:90px; } .mchart .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.68rem; }
+.pos { color:var(--ok); } .neg { color:var(--bad); }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
 <div class="top"><span>分析の視点 ・ 2026-10-30 NY引けまで</span>
 <select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-13.html">2026-11-13</option><option value="2026-11-11.html">2026-11-11</option><option value="2026-11-08.html">2026-11-08</option><option value="2026-11-06.html">2026-11-06</option><option value="2026-11-05.html">2026-11-05</option><option value="2026-11-04.html">2026-11-04</option><option value="2026-11-03.html">2026-11-03</option><option value="2026-10-31.html" selected>2026-10-31</option></select></div>
 <h1>来週の主戦場は「AIの需要」ではなく「AIの資金繰り」</h1><p class="lead">10/30は米SOXが-7.2%、ナスダック100が-3.5%、S&amp;P500が-1.8%。一方で米10年金利は-6bpと低下しており、金利起点ではなくAI投資の採算を疑う売りでした。日本株は米国の金曜の下げを月曜に受けることになります。</p>
+<nav class="secnav" aria-label="セクション"><a href="#sec-cards">分析の視点<b>8</b></a><a href="#sec-x">Xで拾った論点<b>6</b></a></nav>
 <div class="snap"><div><span>SOX</span><b>-7.2%</b></div><div><span>NDX</span><b>-3.5%</b></div><div><span>S&amp;P500</span><b>-1.8%</b></div><div><span>米10年</span><b>4.93% (-6bp)</b></div><div><span>日経平均</span><b>63,290 (-2.1%)</b></div><div><span>日経 20日高値比</span><b>-10.5%</b></div></div>
-<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="日米波及">日米波及</button><button data-t="金利">金利</button><button data-t="ディスパージョン">ディスパージョン</button><button data-t="出来高">出来高</button><button data-t="時間帯">時間帯</button><button data-t="ハイパースケーラー">ハイパースケーラー</button><button data-t="メモリ">メモリ</button><button data-t="需給・日銀">需給・日銀</button></div>
+<div class="filters" id="sec-cards"><button class="active" data-t="all">すべて</button><button data-t="日米波及">日米波及</button><button data-t="金利">金利</button><button data-t="ディスパージョン">ディスパージョン</button><button data-t="出来高">出来高</button><button data-t="時間帯">時間帯</button><button data-t="ハイパースケーラー">ハイパースケーラー</button><button data-t="メモリ">メモリ</button><button data-t="需給・日銀">需給・日銀</button></div>
 <div class="grid"><article class="card" data-t="日米波及">
 <div class="meta"><span>日米波及</span><span class="badge ok">検証: 支持</span></div>
 <h2>月曜の東京は、SOX -7.2%をどこまで織り込むか</h2>
@@ -150,7 +164,8 @@ table.left td { white-space:normal; }
 </article></div>
 
 
-<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/wallstengine/status/2092946562905424159" target="_blank" rel="noopener noreferrer">S&amp;Pがハイパースケーラーの営業FCFを2026〜27年とも赤字と見込むとの投稿</a>（原典未確認）</p><p>原文のS&amp;Pレポートを確認できれば、FCF論の強い材料になる。</p></div><div class="x"><p><a href="https://x.com/puckrin/status/2116096171387072740" target="_blank" rel="noopener noreferrer">Intel急落は「AIがメモリを吸い上げ、PC需要を壊した」結果という見方</a>（個人の見解）</p><p>AI勝ち組の裏の負け組を探す視点。スマホ・PC関連の日本部品株に応用できる。</p></div><div class="x"><p><a href="https://x.com/jimcramer/status/2116107768675610636" target="_blank" rel="noopener noreferrer">Cramer氏: 材料のないJNJやCOFが上がる値動きを、機械的な資金移動の表れと指摘</a>（個人の見解）</p><p>ディスパージョンの裏で何が買われたかを確認するきっかけになる。</p></div><div class="x"><p><a href="https://x.com/MarketWatch/status/2116215489814741129" target="_blank" rel="noopener noreferrer">MarketWatch: Intel急落でも押し目買いの理由はないとのアナリスト評</a>（報道）</p><p>「売られすぎ」の声が少ない銘柄は、まだ投げが出ていない可能性がある。</p></div><div class="x"><p><a href="https://x.com/MarioNawfal/status/2116251858289463300" target="_blank" rel="noopener noreferrer">PIMCOがAI関連債券を半減させたことが売りの引き金になったという主張</a>（裏付けなし）</p><p>事実なら重要だが、裏付けは見つかっていない。発信には使わず、クレジット市場の確認に留める。</p></div><div class="x"><p><a href="https://x.com/nicosokufx/status/2115716909996056612" target="_blank" rel="noopener noreferrer">TOPIXリバランスで推計需要と逆方向に動いたという投稿</a>（個人の見解）</p><p>イベント需給は先回りが混雑すると逆に動く。次回の指数イベントで検証できるテーマ。</p></div>
+
+<h2 class="section" id="sec-x">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/wallstengine/status/2092946562905424159" target="_blank" rel="noopener noreferrer">S&amp;Pがハイパースケーラーの営業FCFを2026〜27年とも赤字と見込むとの投稿</a>（原典未確認）</p><p>原文のS&amp;Pレポートを確認できれば、FCF論の強い材料になる。</p></div><div class="x"><p><a href="https://x.com/puckrin/status/2116096171387072740" target="_blank" rel="noopener noreferrer">Intel急落は「AIがメモリを吸い上げ、PC需要を壊した」結果という見方</a>（個人の見解）</p><p>AI勝ち組の裏の負け組を探す視点。スマホ・PC関連の日本部品株に応用できる。</p></div><div class="x"><p><a href="https://x.com/jimcramer/status/2116107768675610636" target="_blank" rel="noopener noreferrer">Cramer氏: 材料のないJNJやCOFが上がる値動きを、機械的な資金移動の表れと指摘</a>（個人の見解）</p><p>ディスパージョンの裏で何が買われたかを確認するきっかけになる。</p></div><div class="x"><p><a href="https://x.com/MarketWatch/status/2116215489814741129" target="_blank" rel="noopener noreferrer">MarketWatch: Intel急落でも押し目買いの理由はないとのアナリスト評</a>（報道）</p><p>「売られすぎ」の声が少ない銘柄は、まだ投げが出ていない可能性がある。</p></div><div class="x"><p><a href="https://x.com/MarioNawfal/status/2116251858289463300" target="_blank" rel="noopener noreferrer">PIMCOがAI関連債券を半減させたことが売りの引き金になったという主張</a>（裏付けなし）</p><p>事実なら重要だが、裏付けは見つかっていない。発信には使わず、クレジット市場の確認に留める。</p></div><div class="x"><p><a href="https://x.com/nicosokufx/status/2115716909996056612" target="_blank" rel="noopener noreferrer">TOPIXリバランスで推計需要と逆方向に動いたという投稿</a>（個人の見解）</p><p>イベント需給は先回りが混雑すると逆に動く。次回の指数イベントで検証できるテーマ。</p></div>
 <p class="method">定量値はYahoo Financeのデータから自前で算出（insights/src/compute_signals.py）。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>
 document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {

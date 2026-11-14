@@ -59,14 +59,28 @@ td.wrap { white-space:normal; text-align:left; min-width:220px; }
 table.left th, table.left td { text-align:left; vertical-align:top; }
 table.left td { white-space:normal; }
 .move .axis span:nth-child(2) { text-align:center; }
+.secnav { position:sticky; top:0; z-index:5; display:flex; flex-wrap:wrap; gap:6px; padding:8px 0; margin:0 0 14px;
+  background:var(--bg); border-bottom:1px solid var(--border); }
+.secnav a { background:var(--panel2); border:1px solid var(--border); color:var(--text); padding:5px 12px; border-radius:999px; font-size:.8rem; }
+.secnav a:hover { border-color:var(--accent); text-decoration:none; }
+.secnav a b { color:var(--muted); font-weight:500; margin-left:4px; }
+[id^="sec-"] { scroll-margin-top:56px; }
+.mtiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin-bottom:10px; }
+.mtiles div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.mtiles span { display:block; color:var(--muted); font-size:.72rem; } .mtiles b { font-size:1.05rem; font-variant-numeric:tabular-nums; }
+.mtiles i { display:block; font-style:normal; font-size:.72rem; color:var(--muted); }
+.mchart { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:10px; }
+.mchart svg { display:block; width:100%; height:90px; } .mchart .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.68rem; }
+.pos { color:var(--ok); } .neg { color:var(--bad); }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
 <div class="top"><span>分析の視点 ・ 2026-11-03 NY引けまで(東京11/4は寄り付きの報道値のみ)</span>
 <select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-13.html">2026-11-13</option><option value="2026-11-11.html">2026-11-11</option><option value="2026-11-08.html">2026-11-08</option><option value="2026-11-06.html">2026-11-06</option><option value="2026-11-05.html">2026-11-05</option><option value="2026-11-04.html" selected>2026-11-04</option><option value="2026-11-03.html">2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
 <h1>AMDで戻した半導体。休場明けの東京が見るのは「2日分のネット」</h1><p class="lead">11/3はSOXが+2.6%、ナスダック100が+0.7%と4営業日ぶりに反発しましたが、均等加重S&amp;P(RSP)は-0.3%、生活必需品(XLP)は-2.1%で、上げは半導体に偏りました。引け後のAMD決算は予想を上回り、時間外で上昇したと報じられています。11/3休場の東京は、11/2の下げと11/3の戻りをまとめて受けます。米国2日分を合計するとS&amp;P500は-0.15%、SOXは-0.83%で、日経平均は108円安で寄り付いたと報じられています。</p>
+<nav class="secnav" aria-label="セクション"><a href="#sec-cards">分析の視点<b>5</b></a><a href="#sec-x">Xで拾った論点<b>4</b></a></nav>
 <div class="snap"><div><span>SOX</span><b>+2.6%</b></div><div><span>NDX</span><b>+0.7%</b></div><div><span>S&amp;P500</span><b>+0.4%</b></div><div><span>均等加重(RSP)</span><b>-0.3%</b></div><div><span>米10年金利</span><b>4.95% (+6bp)</b></div><div><span>ドル円</span><b>157.9</b></div><div><span>SOX 2日合計(11/2〜3)</span><b>-0.8%</b></div><div><span>日経平均寄り付き(報道値)</span><b>62,973 (-109円)</b></div></div>
-<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="半導体">半導体</button><button data-t="日本株">日本株</button><button data-t="メモリ">メモリ</button><button data-t="為替">為替</button><button data-t="金利">金利</button></div>
+<div class="filters" id="sec-cards"><button class="active" data-t="all">すべて</button><button data-t="半導体">半導体</button><button data-t="日本株">日本株</button><button data-t="メモリ">メモリ</button><button data-t="為替">為替</button><button data-t="金利">金利</button></div>
 <div class="grid"><article class="card" data-t="半導体">
 <div class="meta"><span>半導体</span><span class="badge bad">検証: 反証</span></div>
 <h2>AMDの好決算とSOX+2.6%は底打ちのサインか</h2>
@@ -120,7 +134,8 @@ table.left td { white-space:normal; }
 </article></div>
 
 
-<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html" target="_blank" rel="noopener noreferrer">米中間選挙の開票が進行中。予測市場では民主党の上下両院制覇の確率が85.5%との報道(Polymarket)</a>（開票中・裏付けなし）</p><p>前号で扱った「選挙後は株高」の検証の続き。結果が確定していないため今回はカードにしていない。CNBCは、株式市場は民主党の両院制覇をまだ織り込んでいないと指摘。</p></div><div class="x"><p><a href="https://finance.yahoo.com/technology/ai/articles/openai-cuts-fundraising-valuation-target-143300967.html" target="_blank" rel="noopener noreferrer">OpenAIが資金調達の目標額を300億ドルから200億ドルに、評価額目標を1.4兆ドルから1.25兆ドルに引き下げたとの報道(FT報道の引用)</a>（報道・二次情報）</p><p>前々号の「AIの資金繰り」の続報。韓国では11/3、米大手テックのAI資金繰り懸念が外国人売りの理由に挙げられた。</p></div><div class="x"><p><a href="https://x.com/cryptopunk7213/status/2117454357306257866" target="_blank" rel="noopener noreferrer">「今週、市場で何かが壊れた」として、xAIのGrokの縮小やOpenAIの評価額引き下げを並べた投稿</a>（未検証）</p><p>AI投資の採算への疑念を象徴する投稿。個々の主張は未確認で、Grokの件は裏付けなし。</p></div><div class="x"><p><a href="https://x.com/BearBullTraders/status/2117655106065973406" target="_blank" rel="noopener noreferrer">AMD決算前、オプション市場は翌日±8.1%の値動きを織り込んでいたとの投稿</a>（未検証）</p><p>時間外の上昇率(報道で+7.5〜8%)は、ほぼ織り込み通りの値動き。サプライズの大きさを測る目安になる。</p></div>
+
+<h2 class="section" id="sec-x">Xで拾った論点</h2><div class="x"><p><a href="https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html" target="_blank" rel="noopener noreferrer">米中間選挙の開票が進行中。予測市場では民主党の上下両院制覇の確率が85.5%との報道(Polymarket)</a>（開票中・裏付けなし）</p><p>前号で扱った「選挙後は株高」の検証の続き。結果が確定していないため今回はカードにしていない。CNBCは、株式市場は民主党の両院制覇をまだ織り込んでいないと指摘。</p></div><div class="x"><p><a href="https://finance.yahoo.com/technology/ai/articles/openai-cuts-fundraising-valuation-target-143300967.html" target="_blank" rel="noopener noreferrer">OpenAIが資金調達の目標額を300億ドルから200億ドルに、評価額目標を1.4兆ドルから1.25兆ドルに引き下げたとの報道(FT報道の引用)</a>（報道・二次情報）</p><p>前々号の「AIの資金繰り」の続報。韓国では11/3、米大手テックのAI資金繰り懸念が外国人売りの理由に挙げられた。</p></div><div class="x"><p><a href="https://x.com/cryptopunk7213/status/2117454357306257866" target="_blank" rel="noopener noreferrer">「今週、市場で何かが壊れた」として、xAIのGrokの縮小やOpenAIの評価額引き下げを並べた投稿</a>（未検証）</p><p>AI投資の採算への疑念を象徴する投稿。個々の主張は未確認で、Grokの件は裏付けなし。</p></div><div class="x"><p><a href="https://x.com/BearBullTraders/status/2117655106065973406" target="_blank" rel="noopener noreferrer">AMD決算前、オプション市場は翌日±8.1%の値動きを織り込んでいたとの投稿</a>（未検証）</p><p>時間外の上昇率(報道で+7.5〜8%)は、ほぼ織り込み通りの値動き。サプライズの大きさを測る目安になる。</p></div>
 <p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-04.py、結果は insights/data/analysis/2026-11-04.json)。11/4のアジア市場は取引時間中の値のため使用せず、日経平均の寄り付きは報道値です。AAPLなどS&amp;P500採用銘柄のデータは11/2までです。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>
 document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {

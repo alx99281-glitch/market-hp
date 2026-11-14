@@ -59,14 +59,28 @@ td.wrap { white-space:normal; text-align:left; min-width:220px; }
 table.left th, table.left td { text-align:left; vertical-align:top; }
 table.left td { white-space:normal; }
 .move .axis span:nth-child(2) { text-align:center; }
+.secnav { position:sticky; top:0; z-index:5; display:flex; flex-wrap:wrap; gap:6px; padding:8px 0; margin:0 0 14px;
+  background:var(--bg); border-bottom:1px solid var(--border); }
+.secnav a { background:var(--panel2); border:1px solid var(--border); color:var(--text); padding:5px 12px; border-radius:999px; font-size:.8rem; }
+.secnav a:hover { border-color:var(--accent); text-decoration:none; }
+.secnav a b { color:var(--muted); font-weight:500; margin-left:4px; }
+[id^="sec-"] { scroll-margin-top:56px; }
+.mtiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin-bottom:10px; }
+.mtiles div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.mtiles span { display:block; color:var(--muted); font-size:.72rem; } .mtiles b { font-size:1.05rem; font-variant-numeric:tabular-nums; }
+.mtiles i { display:block; font-style:normal; font-size:.72rem; color:var(--muted); }
+.mchart { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:10px; }
+.mchart svg { display:block; width:100%; height:90px; } .mchart .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.68rem; }
+.pos { color:var(--ok); } .neg { color:var(--bad); }
 @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
 </style></head>
 <body><div class="wrap">
 <div class="top"><span>分析の視点 ・ 2026-11-10 NY引けまで(東京11/10の日経平均は報道値。S&amp;P500・日経225の個別株データは11/9まで)</span>
 <select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-13.html">2026-11-13</option><option value="2026-11-11.html" selected>2026-11-11</option><option value="2026-11-08.html">2026-11-08</option><option value="2026-11-06.html">2026-11-06</option><option value="2026-11-05.html">2026-11-05</option><option value="2026-11-04.html">2026-11-04</option><option value="2026-11-03.html">2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
 <h1>CPIで米5年金利+15bp、それでも株は-0.4%。売られたのは「金利」より「エヌビディア」</h1><p class="lead">10月の米CPIは前月比+0.4%(予想+0.3%)、コア+0.3%(予想+0.2%)と強く(報道値)、12月の利上げはほぼ確実との見方に傾きました。米5年金利は+14.8bp、10年金利は+11.9bpの4.98%と大きく上げましたが、S&amp;P500は-0.38%、VIXは-2.3%にとどまりました。目立ったのはエヌビディアで、CEOをめぐる取締役会の調査を受けて2日で9.51%下げ、同じ2日でSOXは+6.48%、AMDは+14.74%と逆に動きました。東京は11/10に日経平均+2.87%(60,459円、報道値)で6万円台を回復しましたが、CME日経先物は60,200円で東京の終値を0.43%下回っています。引け後にはCoreWeaveが決算を発表し、時間外で上昇したと報じられています。</p>
+<nav class="secnav" aria-label="セクション"><a href="#sec-cards">分析の視点<b>4</b></a><a href="#sec-x">Xで拾った論点<b>5</b></a></nav>
 <div class="snap"><div><span>S&amp;P500</span><b>7,520.93 (-0.38%)</b></div><div><span>ナスダック100</span><b>27,740.80 (-0.60%)</b></div><div><span>SOX</span><b>9,998.33 (-0.35%)</b></div><div><span>エヌビディア</span><b>168.89ドル (-5.47%)</b></div><div><span>米5年金利</span><b>4.81% (+14.8bp)</b></div><div><span>米10年金利</span><b>4.98% (+11.9bp)</b></div><div><span>ドル円</span><b>158.70 (+0.25%)</b></div><div><span>日経平均11/10</span><b>60,459.58 (+2.87%、報道値)</b></div><div><span>CME日経先物(NKD)</span><b>60,200 (東京終値比-0.43%)</b></div><div><span>金先物</span><b>4,043.0 (-1.74%)</b></div><div><span>VIX</span><b>19.46 (-2.3%)</b></div></div>
-<div class="filters"><button class="active" data-t="all">すべて</button><button data-t="金利">金利</button><button data-t="半導体">半導体</button><button data-t="日本株">日本株</button><button data-t="クレジット">クレジット</button></div>
+<div class="filters" id="sec-cards"><button class="active" data-t="all">すべて</button><button data-t="金利">金利</button><button data-t="半導体">半導体</button><button data-t="日本株">日本株</button><button data-t="クレジット">クレジット</button></div>
 <div class="grid"><article class="card" data-t="金利">
 <div class="meta"><span>金利</span><span class="badge warn">検証: 条件付き</span></div>
 <h2>5年金利+15bpの「利上げショック」。株が崩れなかったのは安心材料か</h2>
@@ -110,7 +124,8 @@ table.left td { white-space:normal; }
 </article></div>
 
 
-<h2 class="section">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/KarelMercx/status/2120169324711190810" target="_blank" rel="noopener noreferrer">CPI後、12月利上げ確率が100%超に(投稿)</a>（未検証）</p><p>確率の数値は報道でも85〜100%と食い違う。金利急騰でも株とVIXが落ち着いた点をカード1で検証</p></div><div class="x"><p><a href="https://x.com/KobeissiLetter/status/2120150401379086570" target="_blank" rel="noopener noreferrer">CPI後にナスダック100先物-1.5%(投稿)</a>（未検証）</p><p>引けではナスダック100は-0.60%。発表直後の反応から戻した</p></div><div class="x"><p><a href="https://x.com/nytimes/status/2119522888067801560" target="_blank" rel="noopener noreferrer">エヌビディア取締役会がCEOをめぐる調査を開始(NYTの速報)</a>（報道あり）</p><p>SOXとの連動が切れた点、日本の関連株への波及をカード2で検証</p></div><div class="x"><p><a href="https://x.com/_Investinq/status/2110741992732754262" target="_blank" rel="noopener noreferrer">SOXLに過去最大級の資金流入(投稿)</a>（未検証）</p><p>投稿の日付と対象期間が確認できないため、今号では扱わない</p></div><div class="x"><p><a href="https://x.com/GlobalMktObserv/status/2114764684536467699" target="_blank" rel="noopener noreferrer">CoreWeaveとIRENの急落でAI売りが広がる(投稿)</a>（未検証）</p><p>CRWVの下落率は取得データで確認(10/9比-40.6%)。クレジットとの連動をカード4で検証</p></div>
+
+<h2 class="section" id="sec-x">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/KarelMercx/status/2120169324711190810" target="_blank" rel="noopener noreferrer">CPI後、12月利上げ確率が100%超に(投稿)</a>（未検証）</p><p>確率の数値は報道でも85〜100%と食い違う。金利急騰でも株とVIXが落ち着いた点をカード1で検証</p></div><div class="x"><p><a href="https://x.com/KobeissiLetter/status/2120150401379086570" target="_blank" rel="noopener noreferrer">CPI後にナスダック100先物-1.5%(投稿)</a>（未検証）</p><p>引けではナスダック100は-0.60%。発表直後の反応から戻した</p></div><div class="x"><p><a href="https://x.com/nytimes/status/2119522888067801560" target="_blank" rel="noopener noreferrer">エヌビディア取締役会がCEOをめぐる調査を開始(NYTの速報)</a>（報道あり）</p><p>SOXとの連動が切れた点、日本の関連株への波及をカード2で検証</p></div><div class="x"><p><a href="https://x.com/_Investinq/status/2110741992732754262" target="_blank" rel="noopener noreferrer">SOXLに過去最大級の資金流入(投稿)</a>（未検証）</p><p>投稿の日付と対象期間が確認できないため、今号では扱わない</p></div><div class="x"><p><a href="https://x.com/GlobalMktObserv/status/2114764684536467699" target="_blank" rel="noopener noreferrer">CoreWeaveとIRENの急落でAI売りが広がる(投稿)</a>（未検証）</p><p>CRWVの下落率は取得データで確認(10/9比-40.6%)。クレジットとの連動をカード4で検証</p></div>
 <p class="method">定量値はYahoo Financeのデータ(GitHub Actionsで取得)から自前で算出(insights/analysis/2026-11-11.py、結果は insights/data/analysis/2026-11-11.json)。CPI、FRBの政策金利と利上げ確率、東京11/10の日経平均終値、CoreWeaveの決算と時間外の値動き・社債利回りは報道値で、一次情報は未確認です。米2年金利は取得していないため5年金利(^FVX)で代用しました。東京と米国の相関は、東京の各営業日に直前の米国営業日を対応させて計算しています。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。 情報提供を目的としたもので、投資勧誘ではありません。</p>
 </div><script>
 document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {

@@ -16,6 +16,8 @@ from pathlib import Path
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "output"
 HISTORY_PATH = DATA_DIR / "score_history.json"
+STATEMENTS_PATH = DATA_DIR / "statements.json"
+STANCE = {"hawk": ("タカ派的", "hawk"), "dove": ("ハト派的", "dove"), "neutral": ("中立", "neu"), "none": ("政策言及なし", "neu")}
 
 BOARDS = {"frb": "FRB (FOMC投票メンバー)", "boj": "日本銀行 政策委員会"}
 
@@ -142,10 +144,10 @@ def spectrum_svg(members: list[dict], width: int = 980) -> str:
     return f'<svg viewBox="0 0 {width} {height}" width="100%" height="{height}" style="max-width:{width}px">{"".join(parts)}</svg>'
 
 
-def member_card(m: dict) -> str:
+def member_card(m: dict, n_statements: int = 0, board: str = "") -> str:
     color = avatar_color(m["name_en"])
     ini = initials(m["name_en"])
-    photo = m.get("photo_url")
+    photo = m.get("photo") or m.get("photo_url")
     if photo:
         avatar_html = (
             f'<img class="avatar-img" src="{html.escape(photo)}" alt="{html.escape(m["name_ja"])}" '
@@ -166,26 +168,77 @@ def member_card(m: dict) -> str:
         <div class="name">{html.escape(m['name_ja'])}</div>
         <div class="name-en">{html.escape(m['name_en'])}</div>
         <div class="role">{html.escape(m['role'])} <span class="since">{html.escape(m['since'])}</span></div>
+        <div class="term">任期: {html.escape(m.get('term', '未確認'))}</div>
         <span class="score-badge" style="color:{score_color(sc)};border-color:{score_color(sc)}">{score_label(sc)} ({sc:+d})</span>
         {shift}
         <div class="bio">{html.escape(m['bio'])}</div>
         <div class="rationale">{html.escape(m['rationale'])}</div>
-        <a class="bio-link" href="{html.escape(m['bio_url'])}" target="_blank" rel="noopener">公式略歴 →</a>
+        <div class="links"><a class="bio-link" href="{html.escape(m['bio_url'])}" target="_blank" rel="noopener">公式略歴 →</a>
+        <a class="bio-link" href="#talk-{board}" data-bank="{board}" data-member="{html.escape(m['name_en'])}" onclick="pick(this)">発言 {n_statements}件 →</a></div>
       </div>
     </div>"""
 
 
-def section(title: str, members: list[dict], prev: dict | None, prev_date: str | None) -> str:
+def timeline(board: str, members: list[dict], items: list[dict]) -> str:
+    """その中銀の発言を新しい順に並べ、委員ごとに絞り込めるようにする。"""
+    by_name = {m["name_en"]: m for m in members}
+    rows = []
+    for it in sorted(items, key=lambda x: x["date"], reverse=True):
+        m = by_name.get(it["member"])
+        name = m["name_ja"] if m else it["member"]
+        label, cls = STANCE.get(it.get("stance", "none"), STANCE["none"])
+        src = it.get("source") or {}
+        link = (f'<a href="{html.escape(src["url"])}" target="_blank" rel="noopener">{html.escape(src.get("label", "出所"))}</a>'
+                if src.get("url") else "")
+        rows.append(
+            f'<li data-member="{html.escape(it["member"])}"><div class="t-date">{html.escape(it["date"])}</div>'
+            f'<div class="t-body"><div class="t-head"><b>{html.escape(name)}</b><span class="t-type">{html.escape(it.get("type", ""))}</span>'
+            f'<span class="t-stance {cls}">{label}</span></div><p>{html.escape(it["summary"])}</p><div class="t-src">{link}</div></div></li>'
+        )
+    counts = {m["name_en"]: sum(1 for it in items if it["member"] == m["name_en"]) for m in members}
+    chips = f'<button class="active" data-member="all">すべて ({len(items)})</button>' + "".join(
+        f'<button data-member="{html.escape(m["name_en"])}">{html.escape(m["name_ja"])} ({counts[m["name_en"]]})</button>'
+        for m in members
+    )
+    body = "".join(rows) or '<li class="empty">まだ発言を収集していません。</li>'
+    return (f'<div class="talk" id="talk-{board}"><h3>発言の時系列(新しい順)</h3><div class="chips" data-bank="{board}">{chips}</div>'
+            f'<ul class="tl" id="tl-{board}">{body}</ul><p class="empty-pick" hidden>この委員の発言はまだ収集していません。</p></div>')
+
+
+def section(board: str, title: str, members: list[dict], prev: dict | None, prev_date: str | None, items: list[dict]) -> str:
     attach_previous(members, prev)
     ordered = sorted(members, key=lambda m: -m["score"])
-    cards = "".join(member_card(m) for m in ordered)
+    cards = "".join(
+        member_card(m, sum(1 for it in items if it["member"] == m["name_en"]), board) for m in ordered
+    )
     return f"""
-  <section>
+  <section id="sec-{board}">
     <h2>{html.escape(title)}</h2>
     {changes_panel(members, prev, prev_date)}
     <div class="spectrum-wrap">{spectrum_svg(members)}</div>
     <div class="grid">{cards}</div>
+    {timeline(board, members, items)}
   </section>"""
+
+
+TALK_JS = """
+function filterTalk(bank, member) {
+  const box = document.querySelector('.chips[data-bank="' + bank + '"]');
+  box.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.dataset.member === member));
+  let shown = 0;
+  document.querySelectorAll('#tl-' + bank + ' li[data-member]').forEach(li => {
+    const on = member === 'all' || li.dataset.member === member;
+    li.style.display = on ? '' : 'none';
+    if (on) shown++;
+  });
+  box.parentElement.querySelector('.empty-pick').hidden = shown > 0 || member === 'all';
+}
+function pick(a) { filterTalk(a.dataset.bank, a.dataset.member); }
+document.querySelectorAll('.chips').forEach(box => box.addEventListener('click', ev => {
+  const b = ev.target.closest('button');
+  if (b) filterTalk(box.dataset.bank, b.dataset.member);
+}));
+"""
 
 
 def build_html() -> str:
@@ -222,15 +275,39 @@ def build_html() -> str:
     .changes td:first-child, .changes td:nth-child(2) { white-space:nowrap; }
     .hawk { color:#f85149; } .dove { color:#58a6ff; }
     .shift { font-size:0.7rem; font-weight:600; margin-bottom:6px; }
+    .term { font-size:0.7rem; color:#d29922; margin-bottom:5px; }
+    .links { display:flex; gap:12px; flex-wrap:wrap; }
+    .jump { position:sticky; top:0; z-index:5; background:var(--bg); display:flex; gap:6px; flex-wrap:wrap; padding:8px 0; margin-bottom:12px; border-bottom:1px solid var(--border); }
+    .jump a { background:#21262c; border:1px solid var(--border); color:var(--text); padding:4px 12px; border-radius:999px; font-size:0.78rem; text-decoration:none; }
+    section, .talk { scroll-margin-top:52px; }
+    .talk { margin-top:22px; background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:12px 16px; }
+    .talk h3 { margin:0 0 8px; font-size:0.95rem; }
+    .chips { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; }
+    .chips button { background:#21262c; border:1px solid var(--border); color:var(--text); padding:3px 10px; border-radius:5px; cursor:pointer; font-size:0.74rem; }
+    .chips button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+    .tl { list-style:none; margin:0; padding:0; }
+    .tl li { display:grid; grid-template-columns:92px 1fr; gap:10px; padding:9px 0; border-top:1px solid var(--border); }
+    .t-date { color:var(--muted); font-size:0.78rem; font-variant-numeric:tabular-nums; }
+    .t-head { display:flex; gap:8px; align-items:baseline; flex-wrap:wrap; font-size:0.84rem; }
+    .t-type { color:var(--muted); font-size:0.72rem; }
+    .t-stance { font-size:0.7rem; font-weight:600; border:1px solid; border-radius:10px; padding:0 7px; }
+    .t-stance.neu { color:var(--muted); }
+    .tl p { margin:3px 0 2px; font-size:0.8rem; line-height:1.55; }
+    .t-src { font-size:0.7rem; } .t-src a { color:var(--accent); text-decoration:none; }
+    .empty, .empty-pick { color:var(--muted); font-size:0.8rem; }
+    @media (max-width:600px) { .tl li { grid-template-columns:1fr; gap:2px; } }
     footer { margin-top:32px; padding-top:14px; border-top:1px solid var(--border); color:var(--muted); font-size:0.78rem; }
     """
 
     prev = sync_history(data)
     prev_date = prev["date"] if prev else None
+    st = json.loads(STATEMENTS_PATH.read_text(encoding="utf-8")) if STATEMENTS_PATH.exists() else {"items": []}
     body = "".join(
-        section(title, data[board], prev[board] if prev else None, prev_date)
+        section(board, title, data[board], prev[board] if prev else None, prev_date,
+                [it for it in st["items"] if it["bank"] == board])
         for board, title in BOARDS.items()
     )
+    st_date = html.escape(st.get("updated_at", "-"))
 
     return f"""<!DOCTYPE html>
 <html lang="ja">
@@ -243,12 +320,14 @@ def build_html() -> str:
 <body>
   <h1>中央銀行審議委員まとめ</h1>
   <p class="subtitle">日銀・FRBの金融政策メンバー (更新: {html.escape(data['updated_at'])})</p>
-  <div class="methodology">{html.escape(data['methodology'])}</div>
+  <nav class="jump"><a href="#sec-frb">FRB</a><a href="#talk-frb">FRBの発言</a><a href="#sec-boj">日銀</a><a href="#talk-boj">日銀の発言</a></nav>
+  <div class="methodology">{html.escape(data['methodology'])}<br>{html.escape(data.get('term_note', ''))}<br>発言の時系列: 更新 {st_date}。要旨は報道・公式資料の要約で、立ち位置のラベルは編集部の判断。</div>
   {body}
   <footer>
     出所: 各氏の公式略歴ページ（Federal Reserve Board / Bank of Japan / 各地区連銀）、報道各社の報道内容を基に編集部が作成<br>
-    写真は各氏の公式略歴ページから直接埋め込み。読み込めない場合はイニシャルのアバターで代替表示される
+    写真はFRB・各地区連銀・日本銀行の公式略歴ページの肖像。読み込めない場合はイニシャルのアバターで代替表示される
   </footer>
+<script>{TALK_JS}</script>
 </body>
 </html>
 """

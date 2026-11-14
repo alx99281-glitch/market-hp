@@ -24,6 +24,8 @@ def fetch_and_save(name: str, ticker: str, period: str = "10y") -> None:
     if isinstance(df.columns, __import__("pandas").MultiIndex):
         df.columns = df.columns.get_level_values(0)
 
+    # 終値が欠けた行(取得タイミングによる未確定の足など)は、JSONにNaNが入るので除く
+    df = df.dropna(subset=["Open", "High", "Low", "Close"])
     records = []
     for date, row in df.iterrows():
         records.append(
@@ -38,7 +40,7 @@ def fetch_and_save(name: str, ticker: str, period: str = "10y") -> None:
         )
 
     out_path = DATA_DIR / f"{name}_ohlc.json"
-    out_path.write_text(json.dumps(records), encoding="utf-8")
+    out_path.write_text(json.dumps(records, allow_nan=False), encoding="utf-8")
     print(f"{name} ({ticker}): {len(records)}日分を保存しました -> {out_path}")
 
 

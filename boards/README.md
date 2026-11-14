@@ -17,7 +17,19 @@ python build_page.py   # -> output/index.html
 `members.json` の `updated_at` を更新し、該当委員に `change_note`（理由）を入れる。
 前回分の `change_note` は次の更新で消す。
 
-毎月1日と15日の 09:00 SGT にクラウド定期実行で見直す。
+毎週日曜 09:00 SGT にクラウド定期実行が動く。発言の時系列は毎回更新し、スコアは前回の `updated_at` から14日以上たった回だけ見直す。
+
+## 任期・写真
+
+`members.json` の `term` に任期(FRB理事は14年、議長・副議長は4年、地区連銀総裁は5年、日銀は5年)を入れる。
+写真は FRB と地区連銀の分を `img/` に置き(地区連銀は他サイトからの埋め込みを禁止しているため)、`photo` で参照する。
+日銀は公式サイトの画像(`photo_url`)を直接使う。
+
+## 発言の時系列(`data/statements.json`)
+
+委員ごとの講演、会見、インタビュー、FOMCでの反対票などを1件ずつ入れ、ページでは中銀ごとに新しい順に並べ、委員で絞り込める。
+`{"date", "bank": "frb|boj", "member": members.json の name_en, "type", "stance": "hawk|dove|neutral|none", "summary", "source": {label, url}}`。
+要旨は1〜2文で、長く引用しない。確認できない発言は載せない。古いものも消さない。
 
 ## 実装メモ・制約
 
@@ -34,10 +46,5 @@ python build_page.py   # -> output/index.html
   明記している。本格的な運用では、過去の議事録・記者会見録・講演テキストを
   収集し、Claude API等で定量的なスコアリングを行う仕組みへの拡張が必要
   （tab2の `news_lookup_batch.py` と同様、テキスト収集にはAPIキーが必要）。
-- **写真**: 著作権上の懸念を避けるため、実際の顔写真は掲載せず、
-  氏名イニシャルのアバターで代替している。各カードの「公式略歴 →」リンクは
-  Federal Reserve Board / Bank of Japan 公式サイトの本人ページに直接リンク
-  しており、そこで本物の写真を確認できる。ユーザー自身が権利関係を確認の上、
-  `build_page.py` の `member_card()` を画像タグに差し替えることも可能。
 - データは `data/members.json` に集約。人事異動があれば同ファイルを編集し
   `build_page.py` を再実行するだけで反映される。
