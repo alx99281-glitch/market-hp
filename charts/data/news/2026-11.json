@@ -189,6 +189,61 @@
    ]
   }
  },
+ "2026-11-09": {
+  "us": {
+   "items": [
+    {
+     "title": "原油安でインフレ懸念が後退",
+     "detail": "ブレント原油が5%超下落。トランプ大統領がイランへの新たな攻撃は考えにくいと述べたことが背景で、翌日の10月CPIを控えインフレ懸念が和らぎ、S&P500は2.35%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(Kitco配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-09/wall-st-jumps-back-oil-slide-eases-inflation-worries-nvidia-slumps"
+     }
+    },
+    {
+     "title": "AI・半導体株の買い戻し",
+     "detail": "前週の急落の反動でハイテクが反発。S&P500の11セクターすべてが上昇し、ブロードコムは約9%高、AMDは約13%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(Kitco配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-09/wall-st-jumps-back-oil-slide-eases-inflation-worries-nvidia-slumps"
+     }
+    },
+    {
+     "title": "エヌビディアが下落",
+     "detail": "取締役会による社内調査の報道などで下落(報道により4.2%安または6.2%安)。4月以来の安値となり、S&P500構成銘柄で唯一の下落だった。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Kitco配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-09/wall-st-jumps-back-oil-slide-eases-inflation-worries-nvidia-slumps"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株高を受けた買い戻し",
+     "detail": "前週末の米国でハイテク株が反発したことを受け、AI・半導体関連を中心に買いが優勢。日経平均は6営業日ぶりに急反発し、58,775.50円(+2.33%)で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 大引け(松井証券配信)",
+      "url": "https://finance.matsui.co.jp/news/636528/index"
+     }
+    },
+    {
+     "title": "前週の急落の反動",
+     "detail": "前週6日は3,600円超の記録的な下げで、5営業日で7,200円超下落していたため反動買いが出やすかった。一時2,000円超上昇したが、後場は戻り売りで上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 大引け",
+      "url": "https://minkabu.jp/news/4655069"
+     }
+    }
+   ]
+  }
+ },
  "2026-11-10": {
   "us": {
    "items": [
@@ -245,6 +300,28 @@
      "source": {
       "label": "AP(La Nación)",
       "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-11112026-nid11112026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体関連のリバウンドが続く",
+     "detail": "日経平均は3連騰し61,248.59円(+1.31%)。前週のリスクオフの巻き戻しが続き、上昇は半導体関連の値がさ株に偏った(東証プライムの値上がりは約54%)。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 大引け",
+      "url": "https://minkabu.jp/news/4658775"
+     }
+    },
+    {
+     "title": "長期金利が上昇",
+     "detail": "10年物国債利回りが2.790%へ上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 大引け",
+      "url": "https://minkabu.jp/news/4658775"
      }
     }
    ]
@@ -318,6 +395,10 @@
      }
     }
    ]
+  },
+  "jp": {
+   "items": [],
+   "note": "報道を確認できず"
   }
  }
 }

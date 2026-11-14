@@ -1,0 +1,85 @@
+{
+ "2024-08-05": {
+  "us": {
+   "items": [
+    {
+     "title": "米景気後退懸念で世界的な株安",
+     "detail": "7月の雇用統計が弱く、製造業の景況感も悪化。景気後退懸念からS&P500とナスダックはそれぞれ約3%下落し、3日間の下落率は2022年6月以来の大きさとなった。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Lincoln Daily News転載)",
+      "url": "https://archives.lincolndailynews.com/2024/Aug/06/NEWS/business_e.shtml"
+     }
+    },
+    {
+     "title": "日本株急落で世界に波及",
+     "detail": "日経平均が12.4%安と記録的に下落するなど海外市場も急落。ただ米ISM非製造業指数が予想を上回り、終盤には最悪期から下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/27832931/stocks-finish-sharply-lower-on-economic-jitters"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米景気不安で日経平均が史上最大の下げ",
+     "detail": "日経平均は4,451.28円安の31,458.42円で、下げ幅は過去最大(下落率12.4%)。米7月雇用統計が市場予想を下回り景気悪化懸念が広がった。構成225銘柄は全面安。",
+     "direction": "down",
+     "source": {
+      "label": "moomoo(日経平均寄与度)",
+      "url": "https://moomoo.com/news/post/41778917/nikkei-average-contribution-ranking-closing-nikkei-average-fell-significantly-pushed"
+     }
+    },
+    {
+     "title": "円高が重しに",
+     "detail": "為替が一時1ドル=142円台まで円高ドル安に進み、輸出株などの重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "moomoo(日経平均寄与度)",
+      "url": "https://moomoo.com/news/post/41778917/nikkei-average-contribution-ranking-closing-nikkei-average-fell-significantly-pushed"
+     }
+    }
+   ]
+  }
+ },
+ "2024-08-06": {
+  "us": {
+   "items": [
+    {
+     "title": "急落の反動と好決算で反発",
+     "detail": "S&P500は約1%高の5,240.03で3日続落に歯止め。ウーバーなどの好決算も支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-862024-112621811"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "記録的な急落の反動で過去最大の上げ幅",
+     "detail": "日経平均は3,217.04円高の34,675.46円(+10.23%)で、上げ幅は過去最大。前日の急落の自律反発狙いの買いが海外短期筋中心に入った。",
+     "direction": "up",
+     "source": {
+      "label": "ペイペイ証券 市況",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj240806_1"
+     }
+    },
+    {
+     "title": "円安への振れと米景気不安の後退",
+     "detail": "為替が一時146円台へ円安方向に振れ、米景気への懸念も和らいだ。財務省・金融庁・日銀が臨時会合を開いたとも報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "ペイペイ証券 市況",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj240806_1"
+     }
+    }
+   ]
+  }
+ }
+}
