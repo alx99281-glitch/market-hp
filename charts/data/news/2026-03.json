@@ -1,4 +1,41 @@
 {
+ "2026-03-03": {
+  "us": {
+   "items": [
+    {
+     "title": "イラン攻撃と原油急騰で下落、午後に下げ幅縮小",
+     "detail": "米国とイスラエルによるイラン攻撃で原油が約7%急騰し、S&P500は0.94%安の6817。トランプ氏が海軍によるタンカー護衛に言及し下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "NBC Palm Springs(AP配信)",
+      "url": "https://www.nbcpalmsprings.com/2026/03/03/stocks-slide-on-wall-street-as-dow-drops-more-than-400-points"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均3.06%安、年初来最大の下げ",
+     "detail": "米・イスラエルのイラン攻撃を受けリスク回避の売りが広がり、終値は5万6279円。値下がり銘柄は9割超の全面安。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202603031155/"
+     }
+    },
+    {
+     "title": "ホルムズ海峡封鎖で原油高、業績悪化を警戒",
+     "detail": "ホルムズ海峡の封鎖で原油が高騰し、企業業績への打撃を警戒した売りが重なった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202603031155/"
+     }
+    }
+   ]
+  }
+ },
  "2026-03-04": {
   "jp": {
    "items": [
@@ -169,6 +206,43 @@
      "source": {
       "label": "同",
       "url": "https://wtop.com/news/2026/03/how-major-us-stock-indexes-fared-monday-3-23-2026"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-31": {
+  "us": {
+   "items": [
+    {
+     "title": "イラン戦争の終結期待で急騰、四半期末に今年最高の一日",
+     "detail": "停戦期待で売られていた株が買い戻され、S&P500は約2.9%高、ダウは約1100ドル高、ナスダックは約3.8%高。APは昨春以来の大幅高と伝えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Telemundo Nebraska)",
+      "url": "https://este.telemundonebraska.com/story/223599652/how-major-us-stock-indexes-fared-tuesday-3312026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均1.58%安、4日続落",
+     "detail": "中東情勢による原油高への警戒が続き、寄り付き直後は年初来安値を更新。終値は5万1064円。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202603311225/"
+     }
+    },
+    {
+     "title": "年度末のポジション調整売り",
+     "detail": "年度末のポジション調整が大引けにかけて売りを膨らませた。3月は月間で13.23%安と主要指数で最大の下げ。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202603311225/"
      }
     }
    ]

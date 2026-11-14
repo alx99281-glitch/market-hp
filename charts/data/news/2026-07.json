@@ -45,6 +45,52 @@
    ]
   }
  },
+ "2026-07-21": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が反発し3指数そろって上昇",
+     "detail": "SOX指数が大きく反発し、S&P500は約0.9%高の7509。AIブームの恩恵銘柄の上昇が相場を押し上げ、3日続落を止めた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-tuesday-7-21-2026/"
+     }
+    },
+    {
+     "title": "3M・GMが好決算",
+     "detail": "3MとGMが売上高・利益とも市場予想を上回り、決算への関心が高まった。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/07/21/indexes-snap-3-day-losing-streak-as-earnings-roll-in"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均3.26%高、2091円の急反発",
+     "detail": "前週末までの2営業日で4600円超下げた反動の買い戻し。終値は6万6232円、TOPIXは4015。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4573474"
+     }
+    },
+    {
+     "title": "半導体関連に買い戻し",
+     "detail": "米SOX指数の下げ止まりを受け半導体株が買われ、キオクシアは17%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4573474"
+     }
+    }
+   ]
+  }
+ },
  "2026-07-28": {
   "us": {
    "items": [

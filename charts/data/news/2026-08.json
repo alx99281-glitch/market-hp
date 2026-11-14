@@ -53,5 +53,51 @@
     }
    ]
   }
+ },
+ "2026-08-19": {
+  "us": {
+   "items": [
+    {
+     "title": "財務省の措置で債券市場の圧力が緩和",
+     "detail": "米財務省が債券市場の圧力を和らげる措置を発表し、長期金利が低下。S&P500は0.2%高の7708で3日続落を止めた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-8192026-135786651"
+     }
+    },
+    {
+     "title": "ヘルスケア株が最高値",
+     "detail": "S&P500のヘルスケア業種が急伸して最高値を付け、11業種のなかで指数への寄与が最大だった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-8192026-135786651"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均3.16%安、2134円の続急落",
+     "detail": "米半導体株指数の急落を受けAI・半導体関連に売りが集中し、終値は6万5326円。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4601270"
+     }
+    },
+    {
+     "title": "中東情勢と長期金利上昇も重荷",
+     "detail": "中東情勢の不透明感と長期金利の上昇が重なった。キオクシアは12%超下落した。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4601270"
+     }
+    }
+   ]
+  }
  }
 }

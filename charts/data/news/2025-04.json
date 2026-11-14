@@ -211,5 +211,42 @@
     }
    ]
   }
+ },
+ "2025-04-11": {
+  "us": {
+   "items": [
+    {
+     "title": "FRB発言と米中協議への期待で3指数上昇",
+     "detail": "S&P500は1.8%高、ダウは619ドル高。波乱の1週間の最終日にFRB高官の発言などが買い安心感を与え、週間ではS&P500が5.7%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(KOB)",
+      "url": "https://kob.com/news/business-money/sp-500-jumps-1-8-as-wall-street-closes-a-chaotic-and-historic-week"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均2.96%安、米中摩擦の激化を警戒",
+     "detail": "前日に米相互関税の90日停止で急伸した反動に加え、米中貿易摩擦の激化への警戒で終値は3万3586円。一時は2000円近く下げた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202504110915/"
+     }
+    },
+    {
+     "title": "円高も重荷",
+     "detail": "為替は一時1ドル142円80銭台まで円高が進み、値下がり銘柄が203と売りが優勢だった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202504110915/"
+     }
+    }
+   ]
+  }
  }
 }

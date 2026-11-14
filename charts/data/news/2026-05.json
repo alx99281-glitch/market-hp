@@ -44,5 +44,51 @@
     }
    ]
   }
+ },
+ "2026-05-21": {
+  "us": {
+   "items": [
+    {
+     "title": "原油安とイラン合意期待で反発",
+     "detail": "イランとの合意期待で原油が3日続落し、序盤の下げから切り返してダウは終値で最高値。S&P500は約0.2%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-thursday-5-21-2026/"
+     }
+    },
+    {
+     "title": "エヌビディアは決算後に軟調、ウォルマートは下落",
+     "detail": "エヌビディアは決算後に小幅安。ウォルマートは燃料コストに関する警告で下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Ahram(AP配信)",
+      "url": "https://english.ahram.org.eg/News/569433.aspx"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均3.14%高、6日ぶり急反発",
+     "detail": "米国株高と原油安に加え、トランプ米大統領がイラン交渉は最終段階と述べ戦闘終結期待が広がり、終値は6万1684円。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/578802/index"
+     }
+    },
+    {
+     "title": "ソフトバンクGが急騰",
+     "detail": "オープンAIのIPO申請準備の報道でソフトバンクGが急騰し、1銘柄で800円超指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202605211212/"
+     }
+    }
+   ]
+  }
  }
 }

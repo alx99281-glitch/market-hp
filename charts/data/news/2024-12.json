@@ -1,0 +1,39 @@
+{
+ "2024-12-18": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが2025年の利下げ回数を減らし急落",
+     "detail": "FOMCは利下げしたが、2025年の利下げ見通しを4回から2回に縮小。S&P500は約3%安、ダウは約1123ドル安、長期金利も上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-12182024-116923657"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は4日続落、FOMC・日銀会合前の調整",
+     "detail": "終値は3万9082円(0.72%安)。FOMCと日銀会合を前にポジション調整の売りが優勢だった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412180899/"
+     }
+    },
+    {
+     "title": "日産・ホンダの統合協議報道で自動車株に物色",
+     "detail": "日産自動車とホンダの経営統合協議の報道を受け、自動車株に物色の動きがみられた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412180899/"
+     }
+    }
+   ]
+  }
+ }
+}

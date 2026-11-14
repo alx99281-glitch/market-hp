@@ -1,0 +1,76 @@
+{
+ "2026-01-05": {
+  "us": {
+   "items": [
+    {
+     "title": "エネルギー・金融株が主導し上昇",
+     "detail": "S&P500は0.6%高、ダウは1.2%高。ベネズエラ情勢でシェブロンやハリバートンなどエネルギー株が大きく上げ、銀行株も買われた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-monday-1-5-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "大発会は1493円高、過去最大の上げ幅",
+     "detail": "日経平均は2.97%高の5万1833円。年明けの米市場でサンディスクやマイクロンが急騰し、半導体株に強い買いが入った。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_992874_202601051941/"
+     }
+    },
+    {
+     "title": "防衛関連株が上昇",
+     "detail": "米国によるベネズエラ攻撃などを材料に防衛関連株が買われ、TOPIXは史上最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_992874_202601051941/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-13": {
+  "us": {
+   "items": [
+    {
+     "title": "決算発表の開始で高値圏から小幅安",
+     "detail": "S&P500は0.2%安、ダウは約400ドル(0.8%)安。JPモルガンなど大手の決算が始まり、最高値圏からやや後退した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(AM590)",
+      "url": "https://am590theanswer.com/news/business/how-major-us-stock-indexes-fared-tuesday-1132026/6367710f4f8f3a6ccb8b79b6028dbc37"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均3.10%高、史上最高値を更新",
+     "detail": "高市首相が衆院解散を検討との報道で積極財政への期待が高まり、終値は5万3549円、TOPIXも最高値。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202601131088/"
+     }
+    },
+    {
+     "title": "半導体など主力株に買い、円安も追い風",
+     "detail": "半導体など主力株に買いが集中し、ドル円が158円台前半の円安で輸出株も上昇。売買代金は約7.8兆円と約2カ月ぶりの高水準。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202601131088/"
+     }
+    }
+   ]
+  }
+ }
+}

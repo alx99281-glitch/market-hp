@@ -1,0 +1,48 @@
+{
+ "2024-07-25": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株が反落、アルファベット決算も重荷",
+     "detail": "S&P500は約0.5%安、ナスダックは約1%安。前日の急落後の反発が続かず、アルファベットが決算後に大きく下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7252024-112284350"
+     }
+    },
+    {
+     "title": "小型株は上昇、フォードは18%安",
+     "detail": "大型ハイテクから小型株などへの資金移動でダウは約0.2〜0.3%高。一方フォードは利益が予想を下回り18%下げた。",
+     "direction": "flat",
+     "source": {
+      "label": "Newser(AP配信)",
+      "url": "https://amp.newser.com/story/353485/tech-rebound-fizzles-on-wall-street.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は3.28%安、今年最大の下げ",
+     "detail": "前日の米ハイテク株安を受けリスク回避の売りが広がり、終値は3万7869円。値下がり銘柄は約8割、7日続落で3万8000円割れは約3カ月ぶり。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202407251072/"
+     }
+    },
+    {
+     "title": "急速な円高も重荷",
+     "detail": "為替は一時1ドル152円台前半まで円高が進み、半導体関連など指数寄与度の高い銘柄に売りが集中した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202407251072/"
+     }
+    }
+   ]
+  }
+ }
+}

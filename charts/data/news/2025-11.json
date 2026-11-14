@@ -1,0 +1,48 @@
+{
+ "2025-11-18": {
+  "us": {
+   "items": [
+    {
+     "title": "割高感とFRB利下げ観測の後退で下落",
+     "detail": "S&P500は0.8%安の6617、ダウは1.1%安。株価の割高懸念と利下げ継続への不透明感が世界的な株安につながった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-tuesday-11-18-2025"
+     }
+    },
+    {
+     "title": "エヌビディアが下落",
+     "detail": "エヌビディアは2.8%安で、月初からの下落は10%超の調整局面に入った。決算発表を控え売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-tuesday-11-18-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は1620円安の急落",
+     "detail": "前日の米株安に加え、ビットコインが約7カ月ぶり安値まで急落してリスク回避が強まり、終値は4万8703円。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ(19日の大引け記事で18日の急落に言及)",
+      "url": "https://minkabu.jp/news/4385050?selected_platform=pc"
+     }
+    },
+    {
+     "title": "日中関係の緊張も懸念",
+     "detail": "利下げ観測の後退に加え、日中関係の緊張への懸念も売りの背景として報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ(19日の大引け記事)",
+      "url": "https://minkabu.jp/news/4385050?selected_platform=pc"
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "2025-05-12": {
+  "us": {
+   "items": [
+    {
+     "title": "米中が関税の90日停止で合意",
+     "detail": "米中が貿易戦争の90日間休戦を発表し、S&P500は約3.3%高、ダウは1100ドル超上昇、ナスダックは約4.3%高と急伸した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WNYT)",
+      "url": "https://wnyt.com/business-news/how-major-us-stock-indexes-fared-monday-5-12-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は小幅続伸、米中協議への期待",
+     "detail": "スイスでの米中関税協議の結果公表を前に、進展期待から先物主導で買われ0.38%高の3万7644円。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202505120980/"
+     }
+    },
+    {
+     "title": "米薬価引き下げ方針で医薬品株安",
+     "detail": "米国の薬価引き下げ方針を受け医薬品株が軒並み下落した一方、半導体関連は買われた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202505120980/"
+     }
+    }
+   ]
+  }
+ }
+}
