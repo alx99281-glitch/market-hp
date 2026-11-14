@@ -1,0 +1,30 @@
+{
+ "2026-10-15": {
+  "us": {
+   "items": [
+    {
+     "title": "AI銘柄から医薬・消費株へ資金シフト",
+     "detail": "S&P500は朝方0.64%安から切り返し0.33%高の7744.06。AI関連株への懸念から資金がイーライリリーやユナイテッドヘルスなどへ移り、ヘルスケアが1.84%高、ダウは1.08%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters via Virginia Business",
+      "url": "https://virginiabusiness.com/sp-500-rises-investors-shift-ai-healthcare-stocks/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI需要懸念で歴代3位の下げ",
+     "detail": "前日の米国でAIデータセンター事業者の社債が急落したことなどからAI需要懸念が広がり、半導体関連株が売られて日経平均は3318円34銭安の6万4425円95銭と歴代3位の下げ幅。原油先物の高止まりも重荷。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信 東証、1カ月ぶり6万5千円割れ",
+      "url": "https://kumanichi.com/articles/2046867"
+     }
+    }
+   ]
+  }
+ }
+}

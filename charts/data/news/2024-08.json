@@ -1,4 +1,32 @@
 {
+ "2024-08-02": {
+  "us": {
+   "items": [
+    {
+     "title": "弱い景気指標で世界株安",
+     "detail": "米7月の雇用増が11万4000人にとどまるなど景気減速懸念が強まり、S&P500は約1.8%安、ナスダックは2.4%安で直近高値から10%下落した。ダウは1.51%安の3万9737.26ドル。",
+     "direction": "down",
+     "source": {
+      "label": "How major US stock indexes fared Friday, 8/2/2024",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-822024-112524474"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "2216円安、歴代2位の下げ幅",
+     "detail": "日経平均は2216円63銭(5.81%)安の3万5909円70銭。米7月ISM製造業景況指数の予想割れで景気後退懸念が強まり、前日の米株安も売りを誘った。",
+     "direction": "down",
+     "source": {
+      "label": "カブキソウ 日経平均2000円超下落",
+      "url": "https://kabukiso.com/column/news/20240802_nikkei2000down.html"
+     }
+    }
+   ]
+  }
+ },
  "2024-08-05": {
   "us": {
    "items": [

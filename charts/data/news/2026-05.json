@@ -1,0 +1,48 @@
+{
+ "2026-05-07": {
+  "us": {
+   "items": [
+    {
+     "title": "原油の乱高下とイラン回答待ち",
+     "detail": "イランが米国の和平案にどう回答するか見極めたい思いから、S&P500は0.38%安の7337.11と最高値圏から反落した。素材とエネルギーの下げが大きく、半導体株も上げ幅を失った。",
+     "direction": "down",
+     "source": {
+      "label": "AP How major US stock indexes fared Thursday 5/7/2026",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-thursday-5-7-2026/"
+     }
+    },
+    {
+     "title": "決算で個別株は物色",
+     "detail": "データドッグが増益見通しの引き上げで約31%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP How major US stock indexes fared Thursday 5/7/2026",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-thursday-5-7-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体株高で終値ベース最大の上げ幅",
+     "detail": "連休中の米国でAI・半導体株が上昇したことが波及し、日経平均は3320円72銭(5.58%)高の6万2833円84銭と最高値を更新した。上げ幅は終値ベースで過去最大。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券 日経平均 大引け(5月7日)",
+      "url": "https://finance.matsui.co.jp/news/571280/index"
+     }
+    },
+    {
+     "title": "米イラン終結期待と原油安",
+     "detail": "米国とイランの紛争終結への期待から原油価格が下落し、買い安心感につながった。",
+     "direction": "up",
+     "source": {
+      "label": "fptrendy 日経平均最高値(5/7)",
+      "url": "https://fptrendy.com/2026/05/08/nikkei-record-ai-iran-20260507/"
+     }
+    }
+   ]
+  }
+ }
+}

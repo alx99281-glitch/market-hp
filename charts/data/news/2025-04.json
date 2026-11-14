@@ -1,0 +1,160 @@
+{
+ "2025-04-04": {
+  "us": {
+   "items": [
+    {
+     "title": "中国の報復関税と貿易戦争の拡大",
+     "detail": "中国が米国製品への報復関税を発表し、貿易戦争の激化懸念からS&P500は約6%下落、ダウは5.5%安の3万8314ドルとなった。週間ではS&P500が9.1%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "How major US stock indexes fared Friday, 4/4/2025",
+      "url": "https://itiger.com/hans/news/2525738758"
+     }
+    },
+    {
+     "title": "強い雇用統計も下げを止められず",
+     "detail": "市場予想を上回る雇用統計も売りを止められず、パウエルFRB議長が関税でインフレ上昇と成長鈍化の可能性に言及したことも重荷となった。",
+     "direction": "down",
+     "source": {
+      "label": "How major US stock indexes fared Friday, 4/4/2025",
+      "url": "https://itiger.com/hans/news/2525738758"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "相互関税発表で8カ月ぶり安値",
+     "detail": "日本24%・中国34%などとした米国の相互関税が想定以上に高く、日経平均は955円安の3万3780円58銭と2024年8月以来の安値になった。プライム市場の9割超が下落した。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均株価が大幅続落",
+      "url": "https://minkabu.jp/news/4191413?selected_platform=pc"
+     }
+    },
+    {
+     "title": "前日の米株安と円高",
+     "detail": "4日の米国でダウが2000ドル超下げたことや円高・ドル安の進行も売りを後押しした。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均株価が大幅続落",
+      "url": "https://minkabu.jp/news/4191413?selected_platform=pc"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-07": {
+  "us": {
+   "items": [
+    {
+     "title": "関税巡る乱高下でまちまち",
+     "detail": "ダウは一時1700ドル超下げた後に2595ドル幅で切り返す荒い値動き。関税一時停止の噂をホワイトハウスが否定し、トランプ氏が対中追加関税を警告して、S&P500は0.23%安、ナスダックは小幅高で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "NBC Boston / The Star 報道",
+      "url": "https://www.thestar.com.my/news/world/2025/04/08/roundup-us-stocks-close-mixed-in-choppy-trade"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中国の報復関税で歴代3位の下げ",
+     "detail": "米相互関税への中国の報復で貿易戦争の激化懸念が広がり、日経平均は2644円安(7.83%)の3万1136円58銭と歴代3位の下げ幅になった。寄り前に先物のサーキットブレーカーが発動し、値上がりは6銘柄にとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 2025年4月7日の日経概況",
+      "url": "https://tbladvisory.com/20250407nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-08": {
+  "us": {
+   "items": [
+    {
+     "title": "早い上昇が反転し続落",
+     "detail": "S&P500は一時4.1%高まで買われたが引けにかけて反転し1.57%安の4982.77で終えた。ダウは0.84%安で、S&P500の全11業種が下落した。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat How major US stock indexes fared Tuesday",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-482025-2025-04-08"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "急落の反動で全面高",
+     "detail": "前日の急落の反動で買い戻しが入り、日経平均は1876円高の3万3012円58銭と急反発した。TOPIXは6.26%高。関税協議の進展期待や円高一服も買い材料になった。",
+     "direction": "up",
+     "source": {
+      "label": "ゲームビズ 4/8概況",
+      "url": "https://gamebiz.jp/news/403765"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-09": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏が相互関税を90日停止",
+     "detail": "トランプ大統領が大半の国への上乗せ関税を90日間停止すると発表し、ダウは数秒で2000ドル超急伸。S&P500は9.52%高の5456.90と2008年以来最大の上げ幅になった。",
+     "direction": "up",
+     "source": {
+      "label": "Zacks Stock Market News",
+      "url": "https://www.zacks.com/stock/news/2443294/stock-market-news-for-apr-10-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "相互関税発動で大幅反落",
+     "detail": "米国の相互関税発動で下げが強まり、日経平均は1298円安の3万1714円03銭、TOPIXは3.4%安となった。米中の報復関税への警戒も売りを誘った。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit 2025/04/09 東京株式",
+      "url": "https://www.sbbit.jp/article/refers/161959"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-10": {
+  "us": {
+   "items": [
+    {
+     "title": "前日の歴史的上昇の反動売り",
+     "detail": "関税停止で急騰した前日の反動で売りが出て、S&P500は3.46%安の5268.05、ナスダックは4.31%安、ダウは2.50%安となった。エヌビディアは5.91%安、テスラは7.27%安など大型テックが下げた。",
+     "direction": "down",
+     "source": {
+      "label": "US stocks close sharply lower, wiping away some of historic rally",
+      "url": "https://abc7ny.com/post/global-stock-markets-climb-thursday-trump-pauses-most-tariffs-90-days/16151620/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "関税上乗せ停止で歴代2位の上げ幅",
+     "detail": "トランプ氏の相互関税上乗せ分90日停止を受けた買い戻しで、日経平均は2894円97銭(9.13%)高の3万4609円と全面高になった。上げ幅は歴代2位。不透明感は残るとの指摘もある。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 2025年4月10日の日経概況",
+      "url": "https://tbladvisory.com/?p=36456"
+     }
+    }
+   ]
+  }
+ }
+}

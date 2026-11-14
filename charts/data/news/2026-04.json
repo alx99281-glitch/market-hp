@@ -1,0 +1,67 @@
+{
+ "2026-04-01": {
+  "us": {
+   "items": [
+    {
+     "title": "停戦期待で3指数とも上昇",
+     "detail": "イラン紛争の早期終結期待を背景に、ナスダックは1.16%高、S&P500は0.72%高の6575.32、ダウは0.48%高で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "NBC Palm Springs (CNN Newsource)",
+      "url": "https://www.nbcpalmsprings.com/2026/04/01/stocks-close-higher-wednesday-as-dow-sp-500-and-nasdaq-post-gains"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "イラン紛争の早期終結期待で急反発",
+     "detail": "日経平均は2675円96銭(5.24%)高の5万3739円68銭と4日続落に歯止め。トランプ氏がホルムズ海峡閉鎖のままでも対イラン作戦を終える可能性に触れ、原油先物が下落した。値上がりは約97%の1535銘柄。",
+     "direction": "up",
+     "source": {
+      "label": "Nikkei Retakes 53,000 on Hopes for Early End to Iran Conflict",
+      "url": "https://english.adnkronos.com/2026/04/01/nikkei-retakes-53000-on-hopes-for-early-end-to-iran-conflict/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-08": {
+  "us": {
+   "items": [
+    {
+     "title": "米イラン2週間停戦で急騰",
+     "detail": "2週間の米イラン停戦の発表を受け、S&P500は165.96ポイント(約2.5%)高の6782.81、ダウは1325.46ドル高、ナスダックは617.15ポイント高となった。ホルムズ海峡の再開期待が材料。",
+     "direction": "up",
+     "source": {
+      "label": "Oil plunges below $95 as the Dow surges 1,300 (AP)",
+      "url": "https://www.wcax.com/2026/04/08/oil-plunges-toward-90-dow-surges-1300-worldwide-rally-following-ceasefire-with-iran/"
+     }
+    },
+    {
+     "title": "原油が急落",
+     "detail": "米原油先物は16.4%安の94.41ドルで終え、インフレ懸念の後退につながった。ただ海峡再閉鎖の報道もあり上げ幅は縮んだ。",
+     "direction": "up",
+     "source": {
+      "label": "Oil plunges below $95 as the Dow surges 1,300 (AP)",
+      "url": "https://www.wcax.com/2026/04/08/oil-plunges-toward-90-dow-surges-1300-worldwide-rally-following-ceasefire-with-iran/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン停戦で歴代3位の上げ幅",
+     "detail": "日経平均は2878円86銭(5.39%)高の5万6308円42銭。米イランの即時停戦合意で投資家心理が改善し、原油が下落、空売りの買い戻しや先物買いも指数を押し上げた。値上がり198銘柄に対し値下がり27銘柄。",
+     "direction": "up",
+     "source": {
+      "label": "Japanese Stocks Jump on U.S.-Iran Ceasefire (Jiji)",
+      "url": "https://english.adnkronos.com/2026/04/08/japanese-stocks-jump-on-u-s-iran-ceasefire/"
+     }
+    }
+   ]
+  }
+ }
+}

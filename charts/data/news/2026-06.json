@@ -1,0 +1,39 @@
+{
+ "2026-06-15": {
+  "us": {
+   "items": [
+    {
+     "title": "米イラン暫定合意で上昇",
+     "detail": "米イランが戦争終結とホルムズ海峡再開を目指す暫定合意を発表し原油が下落。ナスダックは3.07%高、S&P500は1.65%高の7554.29、ダウは0.92%高の5万1671.03で最高値引けとなった。",
+     "direction": "up",
+     "source": {
+      "label": "How major US stock indexes fared Monday 6/15/2026 (AP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-monday-6-15-2026/"
+     }
+    },
+    {
+     "title": "スペースXの上場初日",
+     "detail": "スペースXのナスダック上場初日の好調も市場心理を支えたと報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-hits-record-high-nasdaq-and-s-and-p-500-jump-on-us-iran-deal-and-space-x-optimism-spcx-nvda-roku-crm-amzn-in-focus/cZKfwt9R73v"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イランの戦闘終結合意で初の6万9000円台",
+     "detail": "トランプ氏がイランとの戦闘終結に向けた合意を発表したと報じられ、日経平均は3297円46銭高の6万9317円50銭と初めて6万9000円台で終えた。一時は上げ幅3600円超。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 6月15日 日経平均",
+      "url": "https://minkabu.jp/news/4570090?selected_platform=pc"
+     }
+    }
+   ]
+  }
+ }
+}

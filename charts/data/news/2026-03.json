@@ -1,0 +1,30 @@
+{
+ "2026-03-09": {
+  "us": {
+   "items": [
+    {
+     "title": "原油急騰から反転しプラス引け",
+     "detail": "S&P500は一時1.5%下げたが引けは55.97ポイント(0.8%)高の6795.99。原油は一時120ドル近くまで急騰した後90ドル近辺へ急落し、トランプ氏がイラン戦争は想定より早く終わる可能性に触れたことが反転の契機となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP How major US stock indexes fared Monday 3/9/2026",
+      "url": "https://860amtheanswer.com/news/national/how-major-us-stock-indexes-fared-monday-392026/accbadbca8a9f5db2d8e75e4dee22c6d"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "原油高とスタグフレーション警戒で歴代3位の下げ",
+     "detail": "イラン情勢長期化への警戒で原油が急騰し、世界的なスタグフレーション懸念から日経平均は2892円12銭(5.20%)安の5万2728円72銭と歴代3位の下げ幅。新たな最高指導者選出の報道も原油高の材料とされた。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 2026年3月9日の日経概況",
+      "url": "https://tbladvisory.com/20260309nk/"
+     }
+    }
+   ]
+  }
+ }
+}
