@@ -1,4 +1,59 @@
 {
+ "2025-04-03": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ関税の発表で米株が急落",
+     "detail": "トランプ大統領の相互関税発表を受け、S&P500は約4.8%安、ダウは1,679ドル安、ナスダック総合は約6%安と、関税売りの中で最悪の一日となった。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-432025-2025-04-03"
+     }
+    },
+    {
+     "title": "ナイキ・アップル・エヌビディアが大幅安",
+     "detail": "関税の影響を受けやすい銘柄が売られ、ナイキが14%安、アップルが9%安、エヌビディアが7%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-432025-2025-04-03"
+     }
+    },
+    {
+     "title": "小型株は弱気相場入り",
+     "detail": "ラッセル2000は6%超下落し、小型株は弱気相場入りした。",
+     "direction": "down",
+     "source": {
+      "label": "NBC",
+      "url": "https://www.nbcnewyork.com/news/business/money-report/u-s-stocks-drop-after-hours-as-trump-imposes-sweeping-tariffs-sp-500-etf-falls-2-live-updates/6210156/?amp=1"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米相互関税で日本は24%、想定以上に重い",
+     "detail": "トランプ大統領が日本時間3日に相互関税を発表し、日本向けは24%となった。想定より厳しいとの受け止めから日経平均は一時1,600円超下げ、終値は989.94円安の3万4735円93銭。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj250403_3"
+     }
+    },
+    {
+     "title": "自動車株が下落",
+     "detail": "トヨタ自動車が5%超下落、任天堂も3%超下げた。プライム市場は値下がり1,448銘柄に対し値上がり169銘柄。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/1976524"
+     }
+    }
+   ]
+  }
+ },
  "2025-04-04": {
   "us": {
    "items": [

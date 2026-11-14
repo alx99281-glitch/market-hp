@@ -1,0 +1,94 @@
+{
+ "2024-09-04": {
+  "us": {
+   "items": [
+    {
+     "title": "求人件数の減少とエネルギー・ハイテク安",
+     "detail": "7月の求人件数が予想外に減少し、雇用減速への懸念が浮上。エネルギーとハイテクが下げを主導し、S&P500は0.2%安の5,520.07(前日は2.1%安)。ダウは0.1%高。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-942024-2024-09-04"
+     }
+    },
+    {
+     "title": "USスチールが17.5%急落",
+     "detail": "バイデン政権が日本製鉄による買収を正式に阻止する可能性を示し、USスチール株が17.5%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-942024-2024-09-04"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米製造業景況感の悪化で半導体株が急落",
+     "detail": "前日の米ISM製造業景況感が50を下回りハイテク株が売られ、ナスダックは-3.26%、フィラデルフィア半導体指数は-7.75%。東京エレクトロンやアドバンテストなどが下落し、日経平均は1,638.70円安(-4.24%)の3万7047円61銭。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj240904_1"
+     }
+    },
+    {
+     "title": "円高も重荷",
+     "detail": "円高の進行も重荷となった。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj240904_1"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-30": {
+  "us": {
+   "items": [
+    {
+     "title": "米株は小幅高、S&P500とダウは最高値",
+     "detail": "S&P500は0.4%高、ナスダックは0.3%高、ダウはほぼ横ばい。9月と四半期の締めくくりで、S&P500とダウが記録的な水準で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Newser(AP)",
+      "url": "https://amp.newser.com/story/357096/wall-street-closes-winning-month-with-more-records.html"
+     }
+    },
+    {
+     "title": "利下げ観測とAI人気が下支え",
+     "detail": "月間ではS&P500が約2%上昇。FRBの利下げ開始への期待とAIブームが相場を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "Kalkine Media",
+      "url": "https://kalkinemedia.com/us/stocks/financial/stocks-stay-steady-as-wall-street-ends-strong-month-and-quarter"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "石破氏の自民党総裁就任で『高市トレード』が逆流",
+     "detail": "総裁選で高市早苗氏の勝利を見込んだ株高・円安が、石破茂氏の就任で巻き戻された。日経平均は1,910.01円安(-4.80%)の3万7919円55銭で、下げ幅は過去5番目。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://s.kabutan.jp/news/n202409300995/"
+     }
+    },
+    {
+     "title": "円高が急進",
+     "detail": "円相場が1ドル=141円台まで円高に振れ、輸出関連を中心に幅広い銘柄が売られた。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj240930_1"
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "2026-07-17": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株の急落でナスダック1.4%安",
+     "detail": "エヌビディアが最大の下押し要因となり、チップ株が下落。S&P500は1.01%安の7,457.69、ナスダック総合は1.40%安の25,520.24。週間でも下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Metrobank Wealth Insights(ロイター)",
+      "url": "https://wealthinsights.metrobank.com.ph/news/us-stocks-wall-street-ends-lower-as-chip-weakness-offsets-solid-earnings-economic-data"
+     }
+    },
+    {
+     "title": "原油高とイラン情勢",
+     "detail": "ブレント原油が4.6%上昇して88.10ドルとなり、イラン情勢を巡る供給懸念が強まった。VIXは12%超上昇。",
+     "direction": "down",
+     "source": {
+      "label": "Metrobank Wealth Insights(ロイター)",
+      "url": "https://wealthinsights.metrobank.com.ph/news/us-stocks-wall-street-ends-lower-as-chip-weakness-offsets-solid-earnings-economic-data"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米半導体株安でAI・半導体が急落",
+     "detail": "前日の米国で半導体株指数が4%超下落し、国内でもAI・半導体関連が売られた。日経平均は2,694円42銭安(-4.03%)の6万4141円12銭で、歴代5位の下げ幅。一時は4,100円超下げた。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/2014775"
+     }
+    },
+    {
+     "title": "キオクシアがストップ安",
+     "detail": "キオクシアがストップ安となり、東京エレクトロンやアドバンテストも急落。一方で海運、医薬、食品などの内需・ディフェンシブは堅調だった。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4572107"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-28": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体売りが続くなかダウは537ドル高",
+     "detail": "チップ株が再び売られナスダックは0.2%安(5日続落)。一方、コカ・コーラやボーイングの決算が好感され、ダウは537.24ドル高(約1%)で7月2日以来の上げ。S&P500は約0.2%高。",
+     "direction": "flat",
+     "source": {
+      "label": "HDFC Sky",
+      "url": "https://hdfcsky.com/news/dow-jones-surges-537-points-oil-plunges-nasdaq-slips-fed-decision"
+     }
+    },
+    {
+     "title": "イラン外交の進展で原油が急落",
+     "detail": "原油がイラン情勢を巡る外交の進展を背景に大きく下落し、株式市場の支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/570498"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安とKOSPI急落でリスク回避",
+     "detail": "前日の米国で半導体関連が売られたうえ、場中に韓国KOSPIが10%超急落したことも投資家心理を冷やした。日経平均は2,566円27銭安(-3.95%)の6万2364円92銭で、約2カ月ぶりに6万3000円を割った。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/2018578"
+     }
+    },
+    {
+     "title": "キオクシアがストップ安売り気配",
+     "detail": "キオクシアがストップ安売り気配となり、6月25日の最高値から1万円超の下落となった。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4577927"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-31": {
+  "us": {
+   "items": [
+    {
+     "title": "アマゾンの決算とマイクロン等のチップ高で上昇",
+     "detail": "アマゾンが13.7%上昇し、S&P500は約0.7%高、ナスダック総合は約1.1%高。前日にはマイクロソフトが15%超急伸していた。月間ではナスダックが3.2%下落、ダウは4カ月連続高。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/571851"
+     }
+    },
+    {
+     "title": "エクソンモービルは3%安",
+     "detail": "原油安の中でエクソンモービルは3%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/571851"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米マイクロソフト急伸、半導体指数8%高を好感",
+     "detail": "前日の米国でマイクロソフトが急伸し半導体株指数が8%高となったことを受け、日経平均は2,494円59銭高(+4.03%)の6万4362円02銭と大幅続伸。一時6万5000円台に乗せたが、上げ幅は朝方の3,400円超から縮小した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/2020310"
+     }
+    },
+    {
+     "title": "キオクシアはストップ高水準",
+     "detail": "キオクシアが買われストップ高水準となった。一方、ソニーG、任天堂、トヨタは安かった。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/602863/index"
+     }
+    }
+   ]
+  }
+ }
+}

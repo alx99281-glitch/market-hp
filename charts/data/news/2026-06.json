@@ -35,5 +35,79 @@
     }
    ]
   }
+ },
+ "2026-06-25": {
+  "us": {
+   "items": [
+    {
+     "title": "マイクロン急騰で半導体が買われるも、アップルが重し",
+     "detail": "マイクロン・テクノロジーが15.7%上昇して相場を牽引した一方、アップルは多くの製品の値上げが嫌気され6.1%安でS&P500の最大の押し下げ要因となった。S&P500は0.73ポイント安の7,357.49でほぼ横ばい、ダウは小幅高、ナスダックは約0.5%安。",
+     "direction": "flat",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-6252026-134220440"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "マイクロンの好決算で半導体関連が買い戻される",
+     "detail": "米マイクロンの好決算を受けて半導体関連株が買われ、日経平均は3,191円37銭高(+4.61%)の7万2366円34銭と終値の最高値を更新した。前の2営業日の3,100円超の下げをほぼ1日で取り戻した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/2006682"
+     }
+    },
+    {
+     "title": "原油安も支え",
+     "detail": "原油安も相場の支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/590737/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-26": {
+  "us": {
+   "items": [
+    {
+     "title": "AI・半導体株が重く、ほぼ横ばい",
+     "detail": "チップ株の下落が重しとなり、S&P500は3.47ポイント安の7,354.02、ダウは44.51ドル安、ナスダックは0.2%安で5日続落。一方で、原油がイラン戦争前の水準まで下がったことから幅広い銘柄は上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/6/26/flattish-end-to-choppy-week-as-broader-market-offsets-semiconductor-weakness"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安でAI・半導体関連が急落",
+     "detail": "前日の米国でアップルなど大型ハイテクが下落したことを嫌気し、AI・半導体関連が売られた。日経平均は3,005円46銭安(-4.15%)の6万9360円88銭で、下げ幅は史上3番目。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/2007146"
+     }
+    },
+    {
+     "title": "OpenAI上場延期報道でソフトバンクGが急落",
+     "detail": "出資先のOpenAIが上場を2027年に延期する検討との報道で、ソフトバンクグループが急落した。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/591188/index"
+     }
+    }
+   ]
+  }
  }
 }

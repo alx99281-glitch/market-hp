@@ -1,0 +1,48 @@
+{
+ "2025-10-06": {
+  "us": {
+   "items": [
+    {
+     "title": "AMDとOpenAIの提携でAI株高、S&P500は最高値",
+     "detail": "AMDがOpenAIの半導体供給で提携を発表して買われ、S&P500は0.4%高の6,740.28で最高値更新、ナスダック総合は0.7%高。ダウは0.1%安。",
+     "direction": "up",
+     "source": {
+      "label": "ABC30(AP)",
+      "url": "https://abc30.com/amp/post/us-stocks-tick-records-amd-deal-openai-support-artificial-intelligence-infrastructure-leads/17951277/"
+     }
+    },
+    {
+     "title": "コメリカ買収で13.7%高",
+     "detail": "フィフス・サード・バンコープがコメリカを全株式交換で買収すると発表し、コメリカ株は13.7%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "ABC30(AP)",
+      "url": "https://abc30.com/amp/post/us-stocks-tick-records-amd-deal-openai-support-artificial-intelligence-infrastructure-leads/17951277/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "高市氏の自民党総裁就任で『高市トレード』が本格化",
+     "detail": "高市関連とされる防衛・エネルギー関連が大きく上昇。日経平均は2,175円26銭高(+4.75%)の4万7944円76銭と終値の最高値を更新し、取引時間中に初めて4万8000円台に乗せた。",
+     "direction": "up",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj251006_3"
+     }
+    },
+    {
+     "title": "円安も追い風",
+     "detail": "ドル円が150円台となった円安も輸出株などの支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj251006_3"
+     }
+    }
+   ]
+  }
+ }
+}

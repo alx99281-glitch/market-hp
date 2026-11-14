@@ -1,0 +1,76 @@
+{
+ "2026-02-03": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株安でS&P500は0.8%下落",
+     "detail": "エヌビディア、マイクロソフト、メタ、セールスフォースが軟調。ペイパルの決算も重しとなり、S&P500は0.8%安の6,917.81、ナスダックは約1.4%安。ラッセル2000だけが上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast(HL)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-retreat-as-tech-drags-after-mondays-gains"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "リスク選好と円安で最高値更新",
+     "detail": "前日の米株高、ドル円が155円台半ばまで進んだ円安、衆院選への政策期待から買いが集中。日経平均は2,065円48銭高(+3.92%)の5万4720円66銭と史上最高値を更新。値上がりは225銘柄中208銘柄。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4431110"
+     }
+    },
+    {
+     "title": "海外短期筋の先物買いが主導",
+     "detail": "上昇は海外短期筋の先物買いが主導したとの指摘があり、値動きの荒い展開が続くとの見方も出ている。",
+     "direction": "up",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj260203_1"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-09": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが最高値、ナスダックも大幅高",
+     "detail": "ダウ平均が最高値で終え、ナスダック総合も3桁の上昇となった。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/02/09/dow-marks-another-record-close-nasdaq-enjoys-triple-digit-pop"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "衆院選で自民党が大勝",
+     "detail": "衆院選で自民党が大勝したことが材料視された。日経平均は2,110円26銭高(+3.89%)の5万6363円94銭で、上げ幅は歴代5位。前場は一時3,000円超上げた。",
+     "direction": "up",
+     "source": {
+      "label": "Gentosha GO",
+      "url": "https://gentosha-go.com/articles/-/75732"
+     }
+    },
+    {
+     "title": "米ハイテク株の買い直し",
+     "detail": "米国市場でハイテク株に買い直しが入ったことも後押しした。",
+     "direction": "up",
+     "source": {
+      "label": "マネックス証券",
+      "url": "https://media.monex.co.jp/articles/-/28760"
+     }
+    }
+   ]
+  }
+ }
+}

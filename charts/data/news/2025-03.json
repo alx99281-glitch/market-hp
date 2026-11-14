@@ -1,0 +1,39 @@
+{
+ "2025-03-31": {
+  "us": {
+   "items": [
+    {
+     "title": "関税への警戒の中で小幅高、四半期は大幅安",
+     "detail": "相互関税の発表を控えて方向感に欠け、S&P500は約0.6%高、ナスダックは小幅安。1〜3月期のS&P500は約4.6%下落し、2022年以来最悪の四半期となった。",
+     "direction": "flat",
+     "source": {
+      "label": "Fidelity(ロイター)",
+      "url": "https://fidelity.com/news/article/us-markets/202503311653RTRSNEWSCOMBINED_L2N3QE0YS_1"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米PCE指標とトランプ関税懸念で全面安",
+     "detail": "前週末の米2月PCEでコア指数が予想を上回りスタグフレーション懸念が強まった。日経平均は1,502.77円安(-4.05%)の3万5617円56銭で、約7カ月半ぶりの安値水準。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj250331_2"
+     }
+    },
+    {
+     "title": "『トランプ・プット』への期待が後退",
+     "detail": "株価下支え策への期待(トランプ・プット、パウエル・プット)が揺らいだとの見方が広がり、円高ドル安も重なった。",
+     "direction": "down",
+     "source": {
+      "label": "野村證券",
+      "url": "https://www.nomura.co.jp/wealthstyle/article/0308/?sc_pid=elb_a0310_01"
+     }
+    }
+   ]
+  }
+ }
+}
