@@ -82,6 +82,52 @@
    ]
   }
  },
+ "2024-09-26": {
+  "jp": {
+   "items": [
+    {
+     "title": "円安進行と米ハイテク高で急騰",
+     "detail": "日経平均は1,055.37円高の38,925.63円(+2.79%)で高値引け。前日の米ハイテク・半導体株高と円安が輸出関連などを押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409261051/"
+     }
+    },
+    {
+     "title": "9月権利取り最終日の配当狙いの買い",
+     "detail": "9月の配当権利取り最終日で、配当取りの買いも追い風になった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409261051/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "GDPと失業保険申請が堅調、S&P500が最高値",
+     "detail": "強い経済指標を受けS&P500は0.4%高の5,745.37で史上最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/dow-nasdaq-add-triple-digits-sp-500-nabs-another-record"
+     }
+    },
+    {
+     "title": "マイクロンの強い見通しがハイテクを押し上げ",
+     "detail": "マイクロンの強い成長見通しがハイテク株を支えた一方、スーパー・マイクロは米司法省の調査報道で急落した。",
+     "direction": "flat",
+     "source": {
+      "label": "Sharecast/Nasdaq報道",
+      "url": "https://www.nasdaq.com/articles/dow-nasdaq-add-triple-digits-sp-500-nabs-another-record"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-30": {
   "us": {
    "items": [

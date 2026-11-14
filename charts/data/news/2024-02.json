@@ -1,0 +1,39 @@
+{
+ "2024-02-13": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連株が買われ大幅続伸",
+     "detail": "日経平均は前日比1,066.55円高の37,963.97円(+2.89%)。半導体関連株への買いが相場を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402131055/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "1月CPIが予想より強く利下げ期待が後退",
+     "detail": "1月の消費者物価が市場予想を上回り、3月の利下げ観測が後退。S&P500は1.4%下落し4,953.17となった。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-2132024-2024-02-13"
+     }
+    },
+    {
+     "title": "長期金利の急上昇で小型株が急落",
+     "detail": "米国債利回りが急上昇し、小型株のラッセル2000は4%下落と大きく売られた。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-2132024-2024-02-13"
+     }
+    }
+   ]
+  }
+ }
+}

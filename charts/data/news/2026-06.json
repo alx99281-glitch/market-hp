@@ -45,6 +45,52 @@
    ]
   }
  },
+ "2026-06-12": {
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン最終合意への期待で原油安・大幅続伸",
+     "detail": "日経平均は1,802.77円高の66,020.04円(+2.81%)。トランプ大統領が和平合意に早期に署名できる可能性に触れ原油が大きく下落、買いを呼んだ。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券(みんかぶ)",
+      "url": "https://finance.matsui.co.jp/news/586387/index"
+     }
+    },
+    {
+     "title": "AI・半導体株が上昇を牽引",
+     "detail": "東京エレクトロン、ディスコ、アドバンテストなどが上昇を牽引し、キオクシアは急伸した。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券(みんかぶ)",
+      "url": "https://finance.matsui.co.jp/news/586387/index"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "原油安と米イラン合意期待",
+     "detail": "ブレント原油が3.4%下落し、S&P500は0.5%高の7,431.46。米イラン合意への期待が続いた。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-friday-6-12-2026/"
+     }
+    },
+    {
+     "title": "スペースXが上場初日を迎える",
+     "detail": "スペースXがナスダックに上場し、初日は160.95ドルで終えたと報じられた。",
+     "direction": "flat",
+     "source": {
+      "label": "Tapeboard",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-06-12"
+     }
+    }
+   ]
+  }
+ },
  "2026-06-15": {
   "us": {
    "items": [

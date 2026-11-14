@@ -1,0 +1,39 @@
+{
+ "2025-02-28": {
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア急落など米株安で半導体株売り",
+     "detail": "日経平均は1,100.67円安の37,155.50円(-2.88%)。前日の米市場でエヌビディアが急落し、東京でも関連銘柄に売りが広がった。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj250228_2"
+     }
+    },
+    {
+     "title": "トランプ関税への不透明感",
+     "detail": "米国の関税政策への不透明感も重荷となり、日経平均は一時1,400円超下落した。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj250228_2"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "2月の下げを取り戻す午後の急反発",
+     "detail": "S&P500は1.6%高の5,954.50、ダウは601ドル高。値動きの荒い展開から午後に上げ幅を広げ、2月の月間下落(S&P500は1.4%安)を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/p-500-gains-losses-today-220408345.html"
+     }
+    }
+   ]
+  }
+ }
+}

@@ -119,6 +119,80 @@
    ]
   }
  },
+ "2026-03-10": {
+  "jp": {
+   "items": [
+    {
+     "title": "米のイラン戦争早期終結発言で急反発",
+     "detail": "日経平均は1,519.67円高の54,248.39円(+2.88%)。前日の2,892円安の反動に加え、トランプ米大統領がイランとの戦争は間もなく終わると発言したと報じられ、買いが入った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202603101121/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "早期終結期待が後退し、S&P500は小幅安",
+     "detail": "序盤の上げを消してS&P500は0.2%安の6,781.48。米・イスラエルとイランの戦争の早期終結への期待が薄れた。",
+     "direction": "down",
+     "source": {
+      "label": "Newschannel Nebraska(AP)",
+      "url": "https://este.telemundonebraska.com/story/203987840/how-major-us-stock-indexes-fared-tuesday-3102026"
+     }
+    },
+    {
+     "title": "原油下落でエネルギー株が下落、ハイテクのみ上昇",
+     "detail": "S&P500の11業種でハイテクのみ上昇し、原油安でエネルギー株の下落率が最大だった。",
+     "direction": "flat",
+     "source": {
+      "label": "Newschannel Nebraska(AP)",
+      "url": "https://este.telemundonebraska.com/story/203987840/how-major-us-stock-indexes-fared-tuesday-3102026"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-18": {
+  "jp": {
+   "items": [
+    {
+     "title": "中東情勢への懸念後退で幅広く反発",
+     "detail": "日経平均は1,539.01円高の55,239.40円(+2.87%)。TOPIXも90.34ポイント上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1969673"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "FOMCが据え置き、インフレ警戒が強まる",
+     "detail": "FOMCは金利を据え置き、インフレ上振れリスクへの懸念をにじませた。ダウは約770ドル下げ2026年の安値を付け、S&P500は1.36%安。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/534468"
+     }
+    },
+    {
+     "title": "卸売物価が想定より強くインフレ懸念",
+     "detail": "卸売インフレの指標が強く、イラン戦争による原油高の前からインフレが悪化しそうだとの見方が広がった。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/534468"
+     }
+    }
+   ]
+  }
+ },
  "2026-03-19": {
   "jp": {
    "items": [
@@ -206,6 +280,98 @@
      "source": {
       "label": "同",
       "url": "https://wtop.com/news/2026/03/how-major-us-stock-indexes-fared-monday-3-23-2026"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-25": {
+  "jp": {
+   "items": [
+    {
+     "title": "イラン停戦期待で原油安、日経平均反発",
+     "detail": "日経平均は1,497.34円高の53,749.62円。米国がイランに停戦案を提示したとの報道などで中東への過度な懸念が後退、原油が下落し買いが広がった。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1972778"
+     }
+    },
+    {
+     "title": "半導体株が相場を支える",
+     "detail": "半導体株も相場を支え、前場は一時5万4000円を回復したが、その後は材料に乏しくもみ合った。",
+     "direction": "up",
+     "source": {
+      "label": "Tokyo Stocks Jump amid Hopes for Iran Ceasefire(時事)",
+      "url": "https://english.adnkronos.com/2026/03/25/tokyo-stocks-jump-amid-hopes-for-iran-ceasefire/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "米イラン和平案への期待と原油の下落",
+     "detail": "米イラン和平案が報じられ、S&P500は0.5%高の6,591.90。原油が下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4568536"
+     }
+    },
+    {
+     "title": "主要指数は200日線を下回ったまま",
+     "detail": "高値圏でも主要指数は200日移動平均線を上回れなかった。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/3/25/stocks-rise-as-oil-retreats-200day-moving-averages-hold"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-30": {
+  "jp": {
+   "items": [
+    {
+     "title": "中東情勢への警戒で3日続落",
+     "detail": "日経平均は1,487.22円安の51,885.85円(-2.79%)。米軍・イスラエル軍のイラン攻撃から1カ月が過ぎても不透明感が強く、地上戦への思惑も売りを強めた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4477238"
+     }
+    },
+    {
+     "title": "原油103ドル台と前週末の米株安",
+     "detail": "原油が103ドル台に上昇し、前週末のNYダウ793ドル安の流れも引き継いだ。東証プライムの9割超が値下がりした。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4477238"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "イラン戦争拡大で原油高、主要指数は概ね下落",
+     "detail": "米原油は3.3%高の102.88ドルで終え、S&P500は小幅安。戦争の拡大が重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "StreetInsider(ロイター)",
+      "url": "https://www.streetinsider.com/Market+Check/Wall+Street+indexes+mostly+fall+as+Iran+war+widens/26236078.html"
+     }
+    },
+    {
+     "title": "半導体・AIインフラ株が下落",
+     "detail": "マイクロン、ラムリサーチ、ウエスタンデジタルなどが7%近く下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Invezz",
+      "url": "https://invezz.com/in/news/2026/03/30/dow-jones-gain-50-points-sandampp-nasdaq-decline-as-oil-surges-on-trumps-warning/"
      }
     }
    ]

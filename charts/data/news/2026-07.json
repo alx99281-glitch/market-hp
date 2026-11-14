@@ -1,4 +1,50 @@
 {
+ "2026-07-16": {
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安を受け3日ぶり急反落",
+     "detail": "日経平均は1,915.97円安の66,835.54円。前日の米半導体株安を引き継ぎ、アドバンテストと東京エレクトロンの2銘柄で約788円分指数を押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(みんかぶ)",
+      "url": "https://finance.matsui.co.jp/news/597781/index"
+     }
+    },
+    {
+     "title": "TSMC決算は好調も買い戻しは限定的",
+     "detail": "TSMCの4〜6月期は純利益が過去最高となったが、買い戻しは限られた。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4571191"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "チップ・AI株の売りでナスダックが下落",
+     "detail": "チップ株やAI関連の下落が重しとなり、S&P500は0.5%安、ナスダックは1.5%安。",
+     "direction": "down",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-thursday-7-16-2026/"
+     }
+    },
+    {
+     "title": "インフレ指標の落ち着きが下支え",
+     "detail": "インフレの鈍化を示すデータが出て、市場全体の下げを和らげた。",
+     "direction": "up",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/3304757/broader-market-settles-higher-as-positive-inflation-news-outweighs-chip-rout"
+     }
+    }
+   ]
+  }
+ },
  "2026-07-17": {
   "us": {
    "items": [
@@ -86,6 +132,52 @@
      "source": {
       "label": "みんかぶ",
       "url": "https://minkabu.jp/news/4573474"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-24": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株安・AI半導体株売りで6万5000円割れ",
+     "detail": "日経平均は1,811.45円安の64,611.15円(-2.73%)。前日の米ハイテク安やアルファベットの下落を受け、キオクシア、ディスコ、アドバンテストなどが売られた。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(みんかぶ)",
+      "url": "https://finance.matsui.co.jp/news/600115/index"
+     }
+    },
+    {
+     "title": "原油高・金利上昇とKOSPI安",
+     "detail": "原油高と金利上昇、韓国株安、週末前の持ち高調整も売りを強めた。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/2017255"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "半導体安がナスダックを押し下げ、まちまち",
+     "detail": "S&P500は0.05%高、ダウは0.46%高、ナスダックは0.64%安。AI支出への懸念から半導体が弱かった。",
+     "direction": "flat",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-friday-7-24-2026/"
+     }
+    },
+    {
+     "title": "原油が4%近く下落",
+     "detail": "ブレント原油が約4%安の96.78ドルとなり、前日の急騰から下げた。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-friday-7-24-2026/"
      }
     }
    ]
