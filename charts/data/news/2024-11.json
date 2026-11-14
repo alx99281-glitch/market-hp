@@ -1,0 +1,94 @@
+{
+ "2024-11-01": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク安と3連休前の手じまい",
+     "detail": "日経平均は1027円安の38,053円67銭(-2.63%)。前日の米ハイテク株安を受け半導体株中心に売られ、3連休前の手じまいも出た。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/64761"
+     }
+    },
+    {
+     "title": "米雇用統計・大統領選前の警戒",
+     "detail": "米10月雇用統計やISM景況指数、11月5日の米大統領選など重要イベントを控え、慎重姿勢が強まった。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/64761"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "アマゾン好決算で上昇",
+     "detail": "アマゾンが決算を受け上昇し、S&P500は0.41%高の5,728.88、ナスダックは0.80%高、ダウは0.69%高。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat",
+      "url": "https://www.marketbeat.com/articles/stock-market-today-japan-leads-losses-in-asia-after-sharp-decline-on-wall-st-driven-by-big-tech-2024-11-01"
+     }
+    },
+    {
+     "title": "10月雇用は1.2万人増と弱い",
+     "detail": "10月の雇用者数増は1.2万人で予想(10.6万人)を大幅に下回り、翌週の利下げ観測が強まった。アップルは中国販売の弱さで下落。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/futures-rise-on-amazon-results-boost-ahead-of-jobs-data-3696594"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-06": {
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ氏当選確実でトランプトレード",
+     "detail": "日経平均は1005円高の39,480円67銭(+2.61%)。トランプ氏の当選が確実になるにつれ大きなトランプトレードが起きた。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/06nkgaikyou/"
+     }
+    },
+    {
+     "title": "米金利上昇で円安進行",
+     "detail": "米長期金利の上昇でドル高・円安が進み、日経平均は一時1100円超高となった。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/06nkgaikyou/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏勝利で主要3指数が最高値",
+     "detail": "トランプ氏の大統領選勝利を受け、ダウは1,508ドル(3.6%)高の43,729.93、S&P500は2.5%高の5,929.04と、いずれも最高値で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/11/6/closing-stock-market-summary"
+     }
+    },
+    {
+     "title": "小型株が急伸",
+     "detail": "ラッセル2000は5.8%高と主要指数で最大の上昇率。ナスダック総合は3%高だった。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(AP)",
+      "url": "https://www.thestar.com.my/news/world/2024/11/07/us-stocks-close-higher"
+     }
+    }
+   ]
+  }
+ }
+}

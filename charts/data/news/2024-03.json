@@ -1,0 +1,48 @@
+{
+ "2024-03-18": {
+  "jp": {
+   "items": [
+    {
+     "title": "日銀のマイナス金利解除観測",
+     "detail": "週末に日銀が3月会合でマイナス金利を解除するとの観測報道が相次ぎ、先行き不透明感が後退。日経平均は1032円高の39,740円44銭(+2.67%)。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券(みんなの株式)",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_889878_202403181932/"
+     }
+    },
+    {
+     "title": "円安と半導体株高",
+     "detail": "円安の進行と半導体関連株の上昇が指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券(みんなの株式)",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_889878_202403181932/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "FOMC前に主要指数が上昇",
+     "detail": "Fed会合を前にS&P500は0.63%高の5,149.42、ナスダックは0.8%高、ダウは0.2%高で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-reclaim-some-of-fridays-losses--16452381.html"
+     }
+    },
+    {
+     "title": "エヌビディア会議とスーパーマイクロ",
+     "detail": "エヌビディアが開発者会議GTCを開催。スーパー・マイクロ・コンピュータはS&P500採用後の初取引日で上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-reclaim-some-of-fridays-losses--16452381.html"
+     }
+    }
+   ]
+  }
+ }
+}

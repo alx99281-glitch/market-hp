@@ -45,6 +45,107 @@
    ]
   }
  },
+ "2025-10-10": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏が対中関税引き上げを示唆",
+     "detail": "トランプ大統領が中国への関税引き上げを示唆し、静かだった米株が急落。S&P500は2.7%安で4月以来の下落率となった。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-10102025-2025-10-10"
+     }
+    },
+    {
+     "title": "ナスダックが3.6%安で下げ最大",
+     "detail": "ハイテク株の比重が高いナスダック総合は3.6%安、小型株のラッセル2000は3.3%安と、主要指数で下げが大きかった。",
+     "direction": "down",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/10/how-major-us-stock-indexes-fared-friday-10-10-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "3連休前の売りと過熱感への警戒",
+     "detail": "短期的な過熱感への警戒や3連休前の売りで日経平均は491円安の48,088円80銭。TOPIXも下落した。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1911711"
+     }
+    },
+    {
+     "title": "自公連立をめぐる不透明感",
+     "detail": "党首会談後に公明党が連立離脱の方針を示したと伝わり、政局不安が相場の重しになった(ロイター報道)。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1911711"
+     }
+    },
+    {
+     "title": "ファストリが6%超上昇",
+     "detail": "前日決算を受けファーストリテイリングが6%超上昇し、日経平均を約314円押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1911711"
+     }
+    }
+   ]
+  }
+ },
+ "2025-10-14": {
+  "jp": {
+   "items": [
+    {
+     "title": "公明党の連立離脱表明と米中対立",
+     "detail": "日経平均は1241円安の46,847円32銭(-2.58%)で5日続落。公明党の連立政権離脱表明と米中対立への警戒で、後場に一時1544円安まで下げた。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj251014_1"
+     }
+    },
+    {
+     "title": "半導体関連の売り",
+     "detail": "半導体関連の一角が売られ、値下がり194銘柄に対し値上がりは31銘柄だった。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/627276/index"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "米中貿易摩擦への警戒",
+     "detail": "米中の貿易対立への懸念が再燃し、S&P500は0.2%安。エヌビディアやブロードコムなどハイテク株の下落が重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-10142025-2025-10-14"
+     }
+    },
+    {
+     "title": "大手銀行決算はまちまち",
+     "detail": "大手銀行の決算が相次ぎ、強い内容もあって主要指数はまちまちで終わった(Sharecast)。",
+     "direction": "flat",
+     "source": {
+      "label": "Sharecast(HL)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-finish-mixed-despite-strong-bank-earnings"
+     }
+    }
+   ]
+  }
+ },
  "2025-10-20": {
   "jp": {
    "items": [

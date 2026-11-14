@@ -72,5 +72,42 @@
     }
    ]
   }
+ },
+ "2026-10-22": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連が売られ6万3000円割れ",
+     "detail": "日経平均は1713円安の62,907円84銭(-2.65%)で約3か月ぶりの安値水準。半導体関連株が軒並み売られた。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/630154/index"
+     }
+    },
+    {
+     "title": "ラム・リサーチの時間外安",
+     "detail": "ラム・リサーチの時間外での下落も重しになったと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4640750"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク主導で下落",
+     "detail": "S&P500は1.21%安の7,663.43、ナスダックは2.60%安。ダウはほぼ横ばい。テクノロジーと通信サービスが下げを主導した。",
+     "direction": "down",
+     "source": {
+      "label": "Tapeboard",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-10-22"
+     }
+    }
+   ]
+  }
  }
 }

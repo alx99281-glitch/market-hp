@@ -1,0 +1,48 @@
+{
+ "2024-04-19": {
+  "jp": {
+   "items": [
+    {
+     "title": "中東情勢の緊迫",
+     "detail": "イラン領内で爆発があったと報じられ警戒が拡大。日経平均は1011円安の37,068円35銭(-2.66%)で今年最大の下げ。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404191061/"
+     }
+    },
+    {
+     "title": "TSMCの見通し引き下げと半導体株安",
+     "detail": "TSMCが半導体市場の成長見通しを引き下げ、東京エレクトロンなど半導体株が軒並み安。石油・海運株は逆行高。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404191061/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "中東緊迫とハイテク株の下落",
+     "detail": "S&P500は0.9%安で3週連続の下落。ナスダック総合は約2%安、ダウは0.6%高と指数で明暗が分かれた。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/25451897/stocks-end-sharply-lower-on-war-jitters-in-the-middle-east"
+     }
+    },
+    {
+     "title": "Fed高官がインフレ停滞に言及",
+     "detail": "グールズビー・シカゴ連銀総裁が、インフレ改善は止まっており利下げ前に見極めが妥当との認識を示した。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/25451897/stocks-end-sharply-lower-on-war-jitters-in-the-middle-east"
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,4 +1,41 @@
 {
+ "2025-03-10": {
+  "us": {
+   "items": [
+    {
+     "title": "景気後退懸念と関税不安で大幅安",
+     "detail": "トランプ氏が週末の取材で景気後退入りの可能性を排除せず、関税への不安が拡大。S&P500は2.7%安、ダウは890ドル安。",
+     "direction": "down",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2025/03/10/stock-market-implodes-trump-tariffs-recession-nightmares-spook-investors"
+     }
+    },
+    {
+     "title": "ナスダックは4%安、2022年以来の下げ",
+     "detail": "ナスダック総合は約4%安で2022年9月以来の大幅安。テスラは15%安、エヌビディアは5%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "CPA Practice Advisor",
+      "url": "https://www.cpapracticeadvisor.com/2025/03/10/nasdaq-suffers-worst-day-since-2022/157150/"
+     }
+    },
+    {
+     "title": "長期金利は低下",
+     "detail": "景気減速懸念から米10年債利回りは4.32%から4.22%へ低下した。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター系)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-03-10/wall-street-sinks-recession-fears-loom"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [],
+   "note": "報道を確認できず"
+  }
+ },
  "2025-03-31": {
   "us": {
    "items": [

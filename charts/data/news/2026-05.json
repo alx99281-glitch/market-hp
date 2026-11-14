@@ -91,6 +91,52 @@
    ]
   }
  },
+ "2026-05-22": {
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が最高値更新",
+     "detail": "日経平均は1654円高の63,339円07銭(+2.68%)と、13日の終値ベース最高値を上回り史上最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202605221198/"
+     }
+    },
+    {
+     "title": "米イラン戦闘終結への期待とAI・半導体買い",
+     "detail": "米国とイランの戦闘終結への期待が広がり、AI・半導体関連が買われた。ソフトバンクGは1銘柄で約570円押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/579307/index"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "中東和平期待でダウは最高値",
+     "detail": "中東紛争終結に向けた協議への期待と好調な決算を背景に3指数とも上昇。ダウは50,579.70ドルで最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-friday-5-22-2026/"
+     }
+    },
+    {
+     "title": "S&P500は8週連続高",
+     "detail": "S&P500は0.37%高の7,473.47で8週連続の上昇。2023年12月に終わった9週連続以来の長さ。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-friday-5-22-2026/"
+     }
+    }
+   ]
+  }
+ },
  "2026-05-25": {
   "jp": {
    "items": [

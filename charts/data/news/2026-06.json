@@ -1,4 +1,50 @@
 {
+ "2026-06-05": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連に利益確定売り",
+     "detail": "日経平均は882円安の66,588円12銭(-1.31%)で続落。場中は1600円超下げたが、東証プライムの7割強は上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202606051358/"
+     }
+    },
+    {
+     "title": "前日の米ハイテク株安と雇用統計待ち",
+     "detail": "前日の米国でブロードコム急落を受けナスダックが下落。夜の米5月雇用統計を控え様子見姿勢も強まった。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/583852/index"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク主導の急落",
+     "detail": "S&P500は約2.6%安で9週連続高が止まり、ナスダックは約4.2%安。エヌビディアやブロードコムが大きく下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/6/5/s-and-p-500-winning-streak-ends-at-nine-weeks"
+     }
+    },
+    {
+     "title": "強い雇用統計で利上げ観測",
+     "detail": "5月の雇用統計が強く、Fedの利上げ観測が強まったとの見方が示された。",
+     "direction": "down",
+     "source": {
+      "label": "Tapeboard",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-06-05"
+     }
+    }
+   ]
+  }
+ },
  "2026-06-08": {
   "jp": {
    "items": [

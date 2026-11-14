@@ -1,4 +1,41 @@
 {
+ "2025-02-03": {
+  "jp": {
+   "items": [
+    {
+     "title": "対カナダ・メキシコ・中国の追加関税",
+     "detail": "トランプ大統領が2月1日にメキシコ・カナダに25%、中国に10%の追加関税の大統領令に署名。日経平均は1052円安の38,520円09銭(-2.66%)で、一時1100円超下げた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202502031039/"
+     }
+    },
+    {
+     "title": "半導体・自動車株が下落",
+     "detail": "半導体や自動車株の下落が全体を押し下げ、値下がり銘柄は約9割に達した。",
+     "direction": "down",
+     "source": {
+      "label": "PayPay証券",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj250203_1"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "関税不安で全面安",
+     "detail": "S&P500は0.8%安の5,994.57、ナスダックは1.2%安、ダウは0.3%安。ダウは一時665ポイント下げたが、一部戻した。",
+     "direction": "down",
+     "source": {
+      "label": "Lincoln Daily News(AP)",
+      "url": "https://archives.lincolndailynews.com/2025/Feb/04/NEWS/business_a.shtml"
+     }
+    }
+   ]
+  }
+ },
  "2025-02-28": {
   "jp": {
    "items": [

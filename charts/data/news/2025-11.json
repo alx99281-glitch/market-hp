@@ -44,5 +44,51 @@
     }
    ]
   }
+ },
+ "2025-11-20": {
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア好決算でAI・半導体買い",
+     "detail": "日経平均は1286円高の49,823円94銭(+2.65%)で5営業日ぶりに反発。一時2000円超高となったが5万円は回復できなかった。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4385801"
+     }
+    },
+    {
+     "title": "国内金利上昇と財政懸念",
+     "detail": "国内金利の急上昇や高市政権の経済対策をめぐる財政懸念が上値を抑えた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4385801"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算後に急反転",
+     "detail": "好決算で朝は大きく上昇したが午後に売りへ転じ、S&P500は1.6%安の6,538.76、ナスダックは2.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-thursday-11-20-2025"
+     }
+    },
+    {
+     "title": "AI関連の割高感への警戒",
+     "detail": "午後にかけてAI・ハイテクのバリュエーション警戒が再燃し、全業種高の場面から下落に転じた(Briefing.com)。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/11/20/intraday-reversal-underscores-fading-ai-momentum-despite-strong-nvidia-beat"
+     }
+    }
+   ]
+  }
  }
 }
