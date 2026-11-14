@@ -4,6 +4,8 @@
 charts/data/*.json
 !charts/data/central_bank_events.json
 !charts/data/general_market_events.json
+!charts/data/spx_ohlc.json
+!charts/data/n225_ohlc.json
 
 # ログ・一時ファイル
 *.log
