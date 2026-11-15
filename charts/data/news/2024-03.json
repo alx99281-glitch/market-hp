@@ -1,4 +1,32 @@
 {
+ "2024-03-11": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株安でS&P500・ナスダックは小幅安",
+     "detail": "Zacksによると、チップ株が重しとなり、週内のインフレ指標を控えて慎重な取引だった。S&P500とナスダックは下落、ダウは小幅高と3指数まちまちだった。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks Stock Market News for Mar 12, 2024",
+      "url": "https://zacks.com/stock/news/2239174/stock-market-news-for-mar-12-2024"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が年内最大の下げ幅で大幅反落",
+     "detail": "終値は38,820円49銭で前日比868円45銭安。先週末の米半導体株安と急速な円高が嫌気され、下げ幅は一時1,000円超に達した。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit(市況)",
+      "url": "https://www.sbbit.jp/article/refers/135561"
+     }
+    }
+   ]
+  }
+ },
  "2024-03-18": {
   "jp": {
    "items": [

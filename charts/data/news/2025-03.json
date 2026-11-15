@@ -1,4 +1,32 @@
 {
+ "2025-03-07": {
+  "us": {
+   "items": [
+    {
+     "title": "急落後の戻りで3指数とも上昇、週間では下落",
+     "detail": "ダウ0.5%高、S&P500は0.6%高、ナスダック0.7%高。2月の雇用統計を受けて買い戻され、S&P500とナスダックは日中に5か月ぶり安値を付けた後に反発した。週間ではS&P500が3.1%下落。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Value the Markets)",
+      "url": "https://www.valuethemarkets.com/news/how-major-us-stock-indexes-fared-friday-372025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安と円高で日経平均が大幅反落",
+     "detail": "終値は36,887円17銭で前日比817円76銭安。前日の米株安と1ドル147円台半ばの円高に加え、半導体など値がさ株が下げた。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit(ロイター配信)",
+      "url": "https://www.sbbit.jp/article/refers/159656"
+     }
+    }
+   ]
+  }
+ },
  "2025-03-10": {
   "us": {
    "items": [
@@ -34,6 +62,34 @@
   "jp": {
    "items": [],
    "note": "報道を確認できず"
+  }
+ },
+ "2025-03-14": {
+  "us": {
+   "items": [
+    {
+     "title": "政府閉鎖回避への期待と押し目買いで急反発",
+     "detail": "S&P500は2.13%高の5,638.94、ナスダックは2.61%高で、大統領選後で最大の1日上昇となった。議会が政府資金措置を通し閉鎖を回避できるとの見方が買いを誘った。週間ではS&P500は2.27%下落。",
+     "direction": "up",
+     "source": {
+      "label": "Fidelity(Reuters)",
+      "url": "https://fidelity.com/news/article/us-markets/202503141600RTRSNEWSCOMBINED_L1N3PX0X1_1"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安を好感し日経平均は小幅反発",
+     "detail": "終値は37,053円10銭で前日比263円07銭高。朝方は米株安を受けて売り優勢だったが、円安が好感されて戻り、週末で後半は小動きとなった。",
+     "direction": "up",
+     "source": {
+      "label": "sbbit(ロイター配信)",
+      "url": "https://www.sbbit.jp/article/refers/160191"
+     }
+    }
+   ]
   }
  },
  "2025-03-31": {

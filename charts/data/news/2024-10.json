@@ -1,0 +1,39 @@
+{
+ "2024-10-02": {
+  "us": {
+   "items": [
+    {
+     "title": "中東情勢を警戒しつつ小幅に持ち直し",
+     "detail": "S&P500は0.01%高の5,709.54とほぼ横ばい。前日に最高値圏から下げた後、中東での戦闘拡大への懸念が続く中で方向感に欠けた。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(How major US stock indexes fared)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-10022024-114443470"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "イランのミサイル発射で日経平均が反落",
+     "detail": "終値は37,808円76銭で前日比843円21銭安。中東情勢の緊迫と米東海岸の港湾ストへの懸念が重しとなり、後場の円高で下げが拡大した。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit(ロイター配信)",
+      "url": "https://www.sbbit.jp/article/refers/149714"
+     }
+    },
+    {
+     "title": "半導体・ハイテク株が下落、エネルギー株は堅調",
+     "detail": "原油高を受けてエネルギー株は堅調だったが、半導体やハイテク株が売られ指数を押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit(ロイター配信)",
+      "url": "https://www.sbbit.jp/article/refers/149714"
+     }
+    }
+   ]
+  }
+ }
+}

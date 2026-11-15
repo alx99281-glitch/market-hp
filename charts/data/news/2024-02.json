@@ -35,5 +35,42 @@
     }
    ]
   }
+ },
+ "2024-02-22": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア急伸でS&P500・ダウが最高値",
+     "detail": "好決算を受けエヌビディアが16%超上昇しAI関連株が買われ、S&P500は2.1%高の5,087.03、ダウは1.2%高で初めて39,000ドル台で引け、ともに最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-2222024-2024-02-22/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均がバブル後の最高値を34年ぶりに更新",
+     "detail": "終値は39,098円68銭で前日比836円52銭高。1989年12月の終値ベース最高値(38,915円87銭)を上回った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402221390/"
+     }
+    },
+    {
+     "title": "米エヌビディア好決算で半導体株が上昇",
+     "detail": "前日発表の好決算で半導体関連が買われ、円安・ドル高で自動車・機械など輸出株も買われた。",
+     "direction": "up",
+     "source": {
+      "label": "LIMO",
+      "url": "https://limo.media/articles/-/54212"
+     }
+    }
+   ]
+  }
  }
 }

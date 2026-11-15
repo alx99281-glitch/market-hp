@@ -164,5 +164,33 @@
     }
    ]
   }
+ },
+ "2024-07-29": {
+  "us": {
+   "items": [
+    {
+     "title": "日米の決算・FOMC前でほぼ横ばい",
+     "detail": "S&P500は0.1%高の5,463.54、ダウは0.1%安、ナスダックは0.1%高。ビッグテック決算とFRB会合を控えて様子見で、ラッセル2000は1.1%下落した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-7292024-112381901"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "8営業日続落の反動で日経平均が大幅反発",
+     "detail": "終値は38,468円63銭で前日比801円22銭高。前週末の米ハイテク株高と、約3,600円下落した後の自律反発狙いの買いが入った。日米の金融政策会合を前に後場は伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "sbbit(ロイター配信)",
+      "url": "https://www.sbbit.jp/article/refers/145401"
+     }
+    }
+   ]
+  }
  }
 }

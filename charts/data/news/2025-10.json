@@ -237,5 +237,42 @@
     }
    ]
   }
+ },
+ "2025-10-29": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが0.25%利下げ、12月利下げは確約せず",
+     "detail": "FOMCは政策金利を3.75〜4%に引き下げたが、パウエル議長が12月の追加利下げは既定路線でないと発言し、ダウとS&P500は日中高値から上げを失った。S&P500は0.30ポイント安でほぼ横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "Nasdaq.com(Zacks)",
+      "url": "https://www.nasdaq.com/articles/markets-fall-back-fed-cut-big-earnings-after-close"
+     }
+    },
+    {
+     "title": "エヌビディアが時価総額5兆ドルを突破",
+     "detail": "同社株は3%上昇して最高値で引け、ナスダックは0.5%高の23,958.47となった。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq.com(Zacks)",
+      "url": "https://www.nasdaq.com/articles/markets-fall-back-fed-cut-big-earnings-after-close"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が最高値を更新",
+     "detail": "終値は51,307円65銭で前日比1,088円47銭高(+2.17%)。米国株の続伸や米中貿易摩擦への懸念後退が背景とされた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20251029nk/"
+     }
+    }
+   ]
+  }
  }
 }

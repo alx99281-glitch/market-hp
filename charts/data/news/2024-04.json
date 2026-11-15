@@ -81,5 +81,33 @@
     }
    ]
   }
+ },
+ "2024-04-25": {
+  "us": {
+   "items": [
+    {
+     "title": "メタの見通し失望でテック株安",
+     "detail": "S&P500は0.5%安の5,048.42、ナスダックは0.6%安。メタが4〜6月期売上高見通しを市場予想より弱く示し10%超下落した。粘着質なインフレが利下げ期待を後退させた。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/25748591/stocks-retreat-as-persistent-inflation-dents-fed-rate-cut-hopes"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の大幅高の反動で日経平均が大幅反落",
+     "detail": "終値は37,628円48銭で前日比831円60銭安(-2.16%)。翌日の日銀会合や米FOMC、主要企業決算を控えた持ち高調整の売りが出て、33業種すべてが下落した。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit(市況)",
+      "url": "https://www.sbbit.jp/article/refers/138976"
+     }
+    }
+   ]
+  }
  }
 }

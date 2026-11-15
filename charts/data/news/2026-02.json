@@ -109,5 +109,51 @@
     }
    ]
   }
+ },
+ "2026-02-25": {
+  "us": {
+   "items": [
+    {
+     "title": "テック主導で3指数そろって上昇",
+     "detail": "AI懸念の後退でチップ・AI関連株が買われ、S&P500は0.8%高の6,946.13と上昇した。ナスダックが最も強かった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(How major US stock indexes fared)",
+      "url": "https://am920theanswer.com/news/national/how-major-us-stock-indexes-fared-wednesday-2252026/32563a7811d6ba300e520123a59f3e14"
+     }
+    },
+    {
+     "title": "引け後のエヌビディア決算に注目",
+     "detail": "同社の決算発表を控え、市場の関心が集まった。ロイターは前日までのテック主導の上昇が2週間ぶり高値圏に達したと伝えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(NST転載)",
+      "url": "https://www.nst.com.my/amp/business/corporate/2026/02/1385424/wall-street-extends-tech-powered-rally-ai-worries-abate-nvidia"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が史上最高値を更新",
+     "detail": "終値は58,583円12銭で前日比1,262円高(+2.20%)。前日の米株高による円安・株高の流れを受けた。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 25日終値(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1960893"
+     }
+    },
+    {
+     "title": "エヌビディア決算前に上げ幅縮小",
+     "detail": "日銀審議委員の人事案が好感された一方、決算発表を前に様子見が広がり、一時1,500円超あった上げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "Business Standard",
+      "url": "https://www.business-standard.com/amp/markets/capital-market-news/japanese-markets-hit-record-high-126022500714_1.html"
+     }
+    }
+   ]
+  }
  }
 }

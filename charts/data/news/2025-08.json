@@ -1,0 +1,39 @@
+{
+ "2025-08-12": {
+  "us": {
+   "items": [
+    {
+     "title": "7月CPIを受けS&P500・ナスダックが最高値",
+     "detail": "7月の消費者物価は前年比2.7%上昇と予想(2.8%)をやや下回り、9月の利下げ観測が強まった。S&P500は1.13%高の6,445.76、ラッセル2000は約3%高。コア指数は3.1%上昇と予想を上回った。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-08-12/sp-500-nasdaq-end-record-closing-highs-moderate-inflation-lifts-rate"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米中関税停止の延長で日経平均が最高値を更新",
+     "detail": "終値は42,718円17銭で前日比897円69銭高、5日続伸。トランプ大統領が対中関税引き上げを90日延期したことが材料となり、約1年ぶりに史上最高値を付けた。",
+     "direction": "up",
+     "source": {
+      "label": "PayPay証券(株価が動いた理由)",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj250812_2"
+     }
+    },
+    {
+     "title": "半導体・ハイテク株がけん引",
+     "detail": "レーザーテック、ソフトバンクグループ、アドバンテストなどが上昇し、相互関税が15%に落ち着いたことで最悪の事態は免れたとの見方が広がった。",
+     "direction": "up",
+     "source": {
+      "label": "PayPay証券(株価が動いた理由)",
+      "url": "https://media.paypay-sec.co.jp/cat2/mj250812_2"
+     }
+    }
+   ]
+  }
+ }
+}

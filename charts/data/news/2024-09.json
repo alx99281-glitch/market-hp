@@ -82,6 +82,34 @@
    ]
   }
  },
+ "2024-09-19": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBの0.5%利下げを受け3指数が最高値",
+     "detail": "FOMCが4年半ぶりの利下げを決めた翌日、S&P500は1.7%高の5,713.64、ダウは約1.3%高、ナスダックは約2.5%高といずれも最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9192024-113854053"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "FOMC通過後の円安で日経平均が続伸",
+     "detail": "終値は37,155円33銭で前日比775円16銭高(+2.13%)。FRBの0.5%利下げ後に一時円高となったが、パウエル議長が緩和を急がない姿勢を示すと円安が進み、買いが広がった。一時1,000円超高の場面も。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20nikkei/"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-26": {
   "jp": {
    "items": [
