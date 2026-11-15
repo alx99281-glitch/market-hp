@@ -350,5 +350,42 @@
     }
    ]
   }
+ },
+ "2025-04-24": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク・半導体株が主導し3日続伸",
+     "detail": "S&P500は5,484.77(+約2%)で3日続伸。ハイテク・半導体株の堅調が相場を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://schaeffersresearch.com/content/ezines/2025/04/24/dow-nasdaq-add-over-450-points-as-tech-stocks-rally"
+     }
+    },
+    {
+     "title": "中国が米国との貿易協議を否定",
+     "detail": "中国が現在米国との貿易協議は行われていないと主張したが、相場の上昇を止めるには至らなかった。",
+     "direction": "flat",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://schaeffersresearch.com/content/ezines/2025/04/24/dow-nasdaq-add-over-450-points-as-tech-stocks-rally"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米中関税懸念の後退と円安で続伸、3万5000円回復",
+     "detail": "日経平均は170円52銭高の3万5039円15銭。米中の関税をめぐる懸念の後退や円安が支えとなり、3万5000円を終値で上回ったのは約3週間ぶり。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters系報道(サイト検索で確認)",
+      "url": "https://www.sbbit.jp/article/refers/163094"
+     }
+    }
+   ]
+  }
  }
 }

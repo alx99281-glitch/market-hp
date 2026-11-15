@@ -91,6 +91,34 @@
    ]
   }
  },
+ "2026-10-14": {
+  "us": {
+   "items": [
+    {
+     "title": "9月CPIが加速、半導体株も軟調",
+     "detail": "9月の米消費者物価は前月比0.6%上昇(8月は0.4%)。S&P500は1.1%安、ナスダックは約1.9%安。半導体株の弱さや銀行決算も重荷となった。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast(Hargreaves Lansdown掲載)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-slide-as-hotter-cpi,-chipsector-weakness-weigh-on-sentiment"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ASML決算で材料出尽くし、終盤に値を消し5日続落",
+     "detail": "日経平均は33円23銭安の6万7744円。前場は400円超上昇したが、ASMLの決算が想定内で材料出尽くしの売りが出て午後に軟化。翌日のTSMC決算待ちで買いも手控えられた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4635617"
+     }
+    }
+   ]
+  }
+ },
  "2026-10-15": {
   "us": {
    "items": [
@@ -114,6 +142,118 @@
      "source": {
       "label": "共同通信 東証、1カ月ぶり6万5千円割れ",
       "url": "https://kumanichi.com/articles/2046867"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-16": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連の不安と原油高でハイテク株が急落",
+     "detail": "S&P500は1.1%安、ナスダックは2.1%安。AIトレードへの懸念と高い原油価格が背景で、S&P500とナスダックは6月以来の週間下落率となった。",
+     "direction": "down",
+     "source": {
+      "label": "La Nacion(AP)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10162026-nid16102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "値頃感からAI・半導体株に買い戻し、7日ぶり反発",
+     "detail": "日経平均は898円34銭高の6万5324円(+1.39%)。6日間で6,000円強下落していたため値頃感の買いが入り、AI・半導体関連が買い戻された。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4637763"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-19": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク・AI関連株が反発",
+     "detail": "S&P500は約0.4%高、ナスダックは約1.1%高。前週の売りのあと、半導体・AI関連株に買いが戻った。値上がり銘柄数は少なく、上昇はハイテクに集中した。",
+     "direction": "up",
+     "source": {
+      "label": "La Nacion(AP)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-10192026-nid19102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前週末の米SOX指数急落で半導体株が軟調",
+     "detail": "日経平均は407円59銭安の6万4916円(-0.62%)。前週末の米SOX指数急落を受けAI・半導体関連が売られ、朝方は一時1,500円近く下げたが、先物主導で下げ渋った。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4638629"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-20": {
+  "us": {
+   "items": [
+    {
+     "title": "好決算と原油安がS&P500を支え、AI投資懸念がハイテクの重荷",
+     "detail": "S&P500は約0.28%高、ダウは約1.0%高、ナスダックは小幅安。7〜9月期決算の好調と原油安が支えた一方、AI投資への懸念がハイテク株を圧迫した。",
+     "direction": "up",
+     "source": {
+      "label": "Anadolu Agency",
+      "url": "https://aa.com.tr/en/economy/us-stocks-close-mixed-as-upbeat-earnings-offset-ai-concerns/4095139"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AIインフラ関連売りと韓国株安で続落",
+     "detail": "日経平均は841円28銭安の6万4075円(-1.30%)。AIインフラ関連株への売りが目立ち、韓国KOSPIの大幅安も重荷。値下がり銘柄は全体の76%。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(みんかぶ配信)",
+      "url": "https://finance.matsui.co.jp/news/629152/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-21": {
+  "us": {
+   "items": [
+    {
+     "title": "好調な7〜9月期決算でハイテク主導の上昇",
+     "detail": "S&P500は0.6%高の7,757.17、ナスダックは1.1%高。第3四半期決算の好調が支えとなり、ナスダックが上昇をけん引した。",
+     "direction": "up",
+     "source": {
+      "label": "La Nacion(AP)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-wednesday-10212026-nid21102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体株に買い戻し、3日ぶり反発",
+     "detail": "日経平均は545円82銭高の6万4621円(+0.85%)。AI・半導体関連株への買い戻しで先物主導で一時6万5000円台を回復したが、後半は戻り売りで上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4640044"
      }
     }
    ]
@@ -151,6 +291,146 @@
      "source": {
       "label": "Tapeboard",
       "url": "https://tapeboard.com/blog/market-pulse-2026-10-22"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-23": {
+  "us": {
+   "items": [
+    {
+     "title": "原油高とAI関連売りで下落",
+     "detail": "S&P500は0.5%安の7,623.68。前日のAI主導の急落に続き、原油価格の上昇が下落要因とされた。",
+     "direction": "down",
+     "source": {
+      "label": "Honolulu Star-Advertiser(AP)",
+      "url": "https://www.staradvertiser.com/2026/10/23/breaking-news/wall-street-closes-lower-to-end-rocky-week/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米ハイテク株安で続落、終盤は下げ渋る",
+     "detail": "日経平均は214円68銭安の6万2693円(-0.34%)。一時1,400円超下げたが、後場にAI・半導体株に買いが入り下げ渋った。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://s.minkabu.jp/news/4641520"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-26": {
+  "us": {
+   "items": [
+    {
+     "title": "原油安とAI楽観で上昇",
+     "detail": "S&P500は0.7%高の7,676.77、ナスダックは0.82%高。原油価格の落ち着きとAIへの楽観が投資家心理を支えたとされる。",
+     "direction": "up",
+     "source": {
+      "label": "La Nacion(AP)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-10262026-nid26102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体株が売られ3日続落",
+     "detail": "日経平均は503円51銭安の6万2189円(-0.80%)。前週末の米国株安を受けAI・半導体株中心に売られ、原油高によるインフレ懸念も重荷。アドバンテストと東京エレクトロンで約449円を押し下げた。TOPIXは反発。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://s.minkabu.jp/news/4642477"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-27": {
+  "us": {
+   "items": [
+    {
+     "title": "AI・半導体株が上昇し相場を主導",
+     "detail": "S&P500は約0.6%高、ナスダックは約1.2%高と3指数で最も強かった。AI・半導体株が上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "La Nacion(AP)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-10272026-nid27102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "アンソロピックのIPO申請を好感し4日ぶり反発",
+     "detail": "日経平均は1,078円72銭高の6万3268円(+1.73%)。米アンソロピックの目論見書開示でリスクオフに歯止めがかかり、AI株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4643314"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-28": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMCが金利据え置き、決算に注目",
+     "detail": "FOMCは金利を据え置き、S&P500は0.28%高。引け後にアルファベットが予想を下回る収益を発表し株価が時間外で下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Honolulu Star-Advertiser",
+      "url": "https://www.staradvertiser.com/2026/10/28/breaking-news/wall-street-rises-as-fed-holds-rates-steady-earnings-in-focus/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "SKハイニックスの好決算で半導体株に買い",
+     "detail": "日経平均は685円82銭高の6万3954円と続伸。韓国SKハイニックスの好決算が半導体株への買いを呼んだ。TOPIXは反落し、上昇は一部の値がさ株に偏った。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4644399"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-29": {
+  "us": {
+   "items": [
+    {
+     "title": "アルファベットが決算後に急落、ナスダック下落",
+     "detail": "アルファベットは収益の市場予想未達とAI投資への懸念から約12%安と過去最大の下げ。ナスダックは約1.4%安、S&P500は0.3%安となった。一方、過半数の銘柄は上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "La Nacion(AP)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-10292026-nid29102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株高とアドバンテスト上方修正で3日続伸",
+     "detail": "日経平均は705円高の6万4659円。前日の米半導体株高を映し、アドバンテストの上方修正が好感され同社だけで453円押し上げた。一時は韓国KOSPI安でマイナス圏に沈んだが後場に切り返した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4645636"
      }
     }
    ]

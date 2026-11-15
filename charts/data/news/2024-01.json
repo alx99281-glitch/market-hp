@@ -1,0 +1,30 @@
+{
+ "2024-01-10": {
+  "us": {
+   "items": [
+    {
+     "title": "メガキャップ主導で上昇",
+     "detail": "S&P500は0.6%高の4,783.45。マイクロソフト、メタ、エヌビディアが指数の押し上げに最も寄与した(ロイター報道)。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/article/2024-01-10/stocks-rise-megacaps-lead-inflation-data-earnings-eyed"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が3日続伸、約33年10カ月ぶりの高値水準",
+     "detail": "日経平均は678円54銭高の3万4441円72銭と大幅に3日続伸。取引時間中の高値は1990年3月以来の高水準だった。",
+     "direction": "up",
+     "source": {
+      "label": "SBブレイン(ロイター配信)",
+      "url": "https://www.sbbit.jp/article/refers/130999"
+     }
+    }
+   ]
+  }
+ }
+}
