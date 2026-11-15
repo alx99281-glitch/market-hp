@@ -69,6 +69,483 @@
    ]
   }
  },
+ "2026-09-08": {
+  "jp": {
+   "items": [
+    {
+     "title": "中東のエネルギー施設攻撃で原油高、円高も重し",
+     "detail": "前日の米国が休場で手掛かりに乏しい中、原油先物上昇と円高(一時1ドル=152円台)で売りが強まり、日経平均は-1.70%の65,269.33円と安値引けでした。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4613319"
+     }
+    },
+    {
+     "title": "東エレクとアドバンテストで約349円押し下げ",
+     "detail": "値下がり165銘柄に対し値上がり59銘柄でした。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/616913/index"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "中東の敵対行為で原油上昇、ダウは-1.2%",
+     "detail": "ブレントは一時99.46ドルまで上昇し、10年債利回りは2023年10月以来の高さに。アムジェンが10.15%下落しダウを押し下げました。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Virginia Business)",
+      "url": "https://virginiabusiness.com/sp-500-falls-ai-worries-software-makers-middle-east/"
+     }
+    },
+    {
+     "title": "AI懸念でソフトウェア株が下落",
+     "detail": "S&P500は-0.6%、ナスダックは-0.3%でした。",
+     "direction": "down",
+     "source": {
+      "label": "247WallSt",
+      "url": "https://247wallst.com/cards/the-dow-shed-627-points-while-the-nasdaq-finished-within-a-r-gspc-market-bell-01m219x3rgtwd54k697hs1gjtq"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-09": {
+  "jp": {
+   "items": [
+    {
+     "title": "中東情勢の緊迫で米原油先物が上昇",
+     "detail": "中東情勢による原油高が重しとなり、日経平均は-0.19%の65,142.78円と続落。前場は一時500円超上昇しました。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/2034128"
+     }
+    },
+    {
+     "title": "前日の米半導体株高が下支え",
+     "detail": "AI・半導体関連が相場を支え、下げは限定的でした。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4614094"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "原油が100ドル超で推移、米10年債利回りは2023年11月以来の高さ",
+     "detail": "原油高と長期金利上昇が重しとなりダウは-0.8%、S&P500は-0.48%、ナスダックは-0.64%でした。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/582503"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-10": {
+  "jp": {
+   "items": [
+    {
+     "title": "TSMCの8月売上が好調で買い加速、高値引け",
+     "detail": "TSMCの8月月次売上高が前年同月比53.3%増と伝わり午後に買いが強まり、日経平均は+0.20%の65,270.95円と高値引けで3日ぶりに反発しました。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4614933"
+     }
+    },
+    {
+     "title": "中東情勢悪化の原油高と米金利上昇が朝方の重し",
+     "detail": "朝方は950円超下げる場面がありました。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/617744/index"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "原油が5月の水準まで急騰、利上げ観測が高まる",
+     "detail": "原油高でCMEのFedWatchが示す9月利上げ確率が70%超に。S&P500は-0.6%で4日続落、ナスダックは-0.7%でした。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9102026-136347719"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-11": {
+  "jp": {
+   "items": [
+    {
+     "title": "原油高と利上げ懸念で大幅反落",
+     "detail": "前日の米株安と中東情勢の緊迫で原油先物が100ドル台に乗り、日米の金融政策会合を前に利上げ観測も強まりました。日経平均は-1.93%の64,011.34円で約1カ月ぶりの安値水準。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/2034949"
+     }
+    },
+    {
+     "title": "後場は下げ幅縮小",
+     "detail": "午前は一時2,062円安まで下げましたが、後場に下げ幅を縮めました。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4616109"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "原油と金利の上昇が一服、4日続落に歯止め",
+     "detail": "ブレントは一時109.97ドルと4カ月ぶり高値をつけた後に反落し、終値は104ドル超。S&P500は+0.86%、ダウは+0.98%でした。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/583293"
+     }
+    },
+    {
+     "title": "8月CPIは3.4%で予想並み",
+     "detail": "インフレ指標が予想に近く、過度な警戒が和らぎました。",
+     "direction": "up",
+     "source": {
+      "label": "CDA Press(AP)",
+      "url": "https://cdapress.com/news/2026/sep/11/us-stocks-jump-after-oil-prices-ease-and-an-inflation-update-comes-in-near-expectations/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-14": {
+  "jp": {
+   "items": [
+    {
+     "title": "AI投資減速への懸念でAI・半導体株が売られる",
+     "detail": "アンソロピックCEOのAI開発減速の呼びかけなどを受けAI・半導体関連が下落。日経平均は-0.81%の63,492.99円、午前に一時1,285円安となりました。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4617395"
+     }
+    },
+    {
+     "title": "OpenAIの年内上場なし報道でソフトバンクG下落",
+     "detail": "同社が出資するOpenAIのCEOが2026年中の上場はないと述べたと報じられ、ソフトバンクグループが大きく下げて指数を押し下げました。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202609140899/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "AI開発減速の呼びかけで半導体が急落",
+     "detail": "アンソロピックCEOの発言を受けチップ株が下落し、フィラデルフィア半導体指数は一時6%近く下げたと報じられています。S&P500は-0.48%。",
+     "direction": "down",
+     "source": {
+      "label": "The Star/HL",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-slip-as-ai-uncertainty-builds,-energy-prices-climb"
+     }
+    },
+    {
+     "title": "米10年債利回りが一時5%台に",
+     "detail": "10年債利回りが2023年以来初めて一時5.0%に達し、利上げ警戒が強まりました。",
+     "direction": "down",
+     "source": {
+      "label": "247WallSt",
+      "url": "https://247wallst.com/cards/the-s-p-500-gave-up-35-points-to-close-at-7-621-54-twice-th-gspc-market-bell-01m2gr98zp1m5f1z5dydnx4wzv"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-15": {
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安で朝安、買い戻しで小幅安",
+     "detail": "前日の米国で半導体関連が売られ寄り付きは300円超安。その後ソフトバンクGやキオクシアが買い戻され、日経平均は-0.01%の63,484円と小幅な3日続落でした。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん/みんかぶ",
+      "url": "https://finance.matsui.co.jp/news/619236/index"
+     }
+    },
+    {
+     "title": "長期金利が30年ぶり高水準、FOMC・日銀会合前の様子見",
+     "detail": "10年債利回りが3.030%台と約30年ぶりの高さに上昇。17日未明のFOMCと18日の日銀会合を前に様子見ムードでした。",
+     "direction": "down",
+     "source": {
+      "label": "ゲントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/81808"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "原油が4%超急騰、米10年債利回りは2007年以来の水準",
+     "detail": "中東での敵対行為で原油が急騰し、10年債利回りは一時5.041%と2007年以来の高さに。S&P500は-0.4%、ナスダックは-0.8%でした。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/583972"
+     }
+    },
+    {
+     "title": "FOMC前に利上げを織り込む",
+     "detail": "市場が利上げを織り込む中、テクノロジーなどが売られ、ヘルスケアやエネルギーは上昇しました。",
+     "direction": "down",
+     "source": {
+      "label": "StockTwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-investors-price-in-rate-hike-ahead-of-fed-meeting-amzn-meta-mu-tsla-pltr-in-focus/cZtn8vQRBcx"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-16": {
+  "jp": {
+   "items": [
+    {
+     "title": "原油高とFOMC・日銀会合への警戒で朝安も後半切り返す",
+     "detail": "朝方は原油高とサウジの供給不安によるインフレ懸念、日米の利上げ加速観測で売られましたが、後半に買い戻され+0.69%の63,923円と高値引け、4日ぶりに反発しました。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4619067"
+     }
+    },
+    {
+     "title": "アドバンテスト・東エレクなど半導体が押し上げ",
+     "detail": "アドバンテスト、東京エレクトロン、ファストリなどが約320円分押し上げ。ソフトバンクグループやキオクシアは重しとなりました。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/619660/index"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "FRBが3年ぶりに利上げ、ダウ急落",
+     "detail": "FRBが約3年ぶりに政策金利を引き上げ、長期金利が上昇。ダウは-1.2%、S&P500は-0.5%、ナスダックはほぼ横ばいでした。",
+     "direction": "down",
+     "source": {
+      "label": "HL(Hargreaves Lansdown)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-lower-as-fed-delivers-first-rate-hike-in-three-years,-warsh-flags-stubborn-inflation"
+     }
+    },
+    {
+     "title": "米10年債利回りが5%を突破",
+     "detail": "午後に10年債利回りが5%を超え、株式の重しとなりました。",
+     "direction": "down",
+     "source": {
+      "label": "Nightly Market Digest",
+      "url": "https://stockmarketwatch.com/digest/2026-09-16"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-17": {
+  "jp": {
+   "items": [
+    {
+     "title": "FOMCの利上げは織り込み済みで通過、日銀会合前で上値重い",
+     "detail": "FOMCの利上げが予想どおりで安心感が出て寄り付きは700円超高。ただ翌日の日銀会合を控え手控えムードとなり、日経平均は+0.33%の64,136.25円でした。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4619813"
+     }
+    },
+    {
+     "title": "半導体が失速、バリュー株は堅調",
+     "detail": "AI・半導体株が伸び悩む一方、原油安で海運・空運などバリュー株が買われました。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4619813"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "原油が下落、テック主導で大幅反発",
+     "detail": "ブレント原油が1%下落し、10年債利回りは4.93%に低下。ハイテク株がけん引しS&P500は約+1.1%、ナスダックは約+1.7%上昇しました。",
+     "direction": "up",
+     "source": {
+      "label": "AP(InsuranceNewsNet)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-thursday-9-17-2026"
+     }
+    },
+    {
+     "title": "FRBの3年ぶり利上げを織り込み通過",
+     "detail": "投資家は前日の利上げを織り込み、買いが優勢でした。",
+     "direction": "up",
+     "source": {
+      "label": "Nightly Market Digest",
+      "url": "https://stockmarketwatch.com/digest/2026-09-17"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-18": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高を受けAI・半導体関連が上昇",
+     "detail": "前日の米国株高を受け、AI・半導体関連株が買われて日経平均は3日続伸、+1.38%の65,018.95円で終えました。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4620776"
+     }
+    },
+    {
+     "title": "日銀が0.25%利上げも、反対2票でハト派と受け止め",
+     "detail": "日銀が政策金利を0.25%引き上げましたが、反対票が2票出たことでハト派的と受け止められ、株価を支えたと報じられています。",
+     "direction": "up",
+     "source": {
+      "label": "ゲントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/81908"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "利回り反発と中東の原油供給不安で一進一退",
+     "detail": "米10年債利回りが反発し、中東の原油供給不透明感で燃料価格が上昇。S&P500は+0.17%、ダウは-0.18%と小動きでした。",
+     "direction": "flat",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/585107"
+     }
+    },
+    {
+     "title": "ナスダックは週間で2.6%高",
+     "detail": "ダウは週間で733ドル下落した一方、ナスダックは2.6%上昇し、ハイテクとその他で明暗が分かれました。",
+     "direction": "flat",
+     "source": {
+      "label": "Nightly Market Digest",
+      "url": "https://stockmarketwatch.com/digest/2026-09-18"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-21": {
+  "us": {
+   "items": [
+    {
+     "title": "メタのAIエージェントが好感、半導体需要期待が拡大",
+     "detail": "メタが11.4%上昇し、AI・半導体株に買いが波及。ナスダックは+2.26%で6月2日以来の最高値を更新しました。",
+     "direction": "up",
+     "source": {
+      "label": "Nightly Market Digest",
+      "url": "https://stockmarketwatch.com/digest/2026-09-21"
+     }
+    },
+    {
+     "title": "米10年債利回りが5%割れ、原油も100ドル割れ",
+     "detail": "10年債利回りが5%を下回り、ブレント原油が1バレル100ドルを割り込んだことが株高を後押ししました。S&P500は+1.49%。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/585401"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-22": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連株が続伸、ナスダックは最高値更新",
+     "detail": "マイクロン・テクノロジーなどAI関連株が買われ、ナスダックは約0.5%高で史上最高値を更新しました。",
+     "direction": "up",
+     "source": {
+      "label": "Nightly Market Digest",
+      "url": "https://stockmarketwatch.com/digest/2026-09-22"
+     }
+    },
+    {
+     "title": "銀行株が下落しダウは下落",
+     "detail": "JPモルガンが3.4%下落するなど銀行株が売られ、ダウは約185ドル(約0.36%)安。S&P500はほぼ横ばいでした。",
+     "direction": "down",
+     "source": {
+      "label": "Nightly Market Digest",
+      "url": "https://stockmarketwatch.com/digest/2026-09-22"
+     }
+    },
+    {
+     "title": "米長期金利が反発、原油はWTI90ドル近辺",
+     "detail": "金利反発がAI株上昇を相殺し、指数は小動きとなりました。",
+     "direction": "flat",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/585762"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-23": {
+  "us": {
+   "items": [
+    {
+     "title": "米PMIが5年超ぶり高水準、利上げ観測で長期金利上昇",
+     "detail": "米企業活動指数が9月に5年超ぶりの高水準となり、国債利回りが上昇。10月の利上げ観測が強まりました。S&P500は-0.76%、ナスダックは-1.21%。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters系報道(247WallSt)",
+      "url": "https://247wallst.com/cards/growth-stocks-took-the-brunt-of-it-the-nasdaq-s-1-21-drop-gspc-market-bell-01m37xwcmxyd31j71hjw2q2cg3"
+     }
+    },
+    {
+     "title": "イラン大統領が米国の圧力を拒否、原油の下落が止まる",
+     "detail": "中東情勢をめぐる不透明感で原油の下げが止まり、アルファベットやアマゾンが指数の重しになりました。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-9232026-136697299"
+     }
+    }
+   ]
+  }
+ },
  "2026-09-24": {
   "us": {
    "items": [
