@@ -274,5 +274,51 @@
     }
    ]
   }
+ },
+ "2025-10-31": {
+  "us": {
+   "items": [
+    {
+     "title": "アマゾン決算で9.6%高、S&P500を押し上げ",
+     "detail": "アマゾンが9.6%上昇して相場を主導し、S&P500は17.86ポイント高の6,840.20。10月はナスダックが4.9%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/amazon-stock-rally-boosts-sp500-wall-street/"
+     }
+    },
+    {
+     "title": "マイクロソフトとメタは下落",
+     "detail": "マイクロソフトは1.5%、メタは2.7%下げ、指数の重しになった。ダウは0.1%高の47,562.87、ナスダックは23,724.96。",
+     "direction": "down",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/amazon-stock-rally-boosts-sp500-wall-street/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "アップル・アマゾンの好決算を好感",
+     "detail": "米株市場終了後に明らかになったアップルとアマゾンの好決算を受けて上昇して始まり、後場はほぼ一方向に上げた。日経平均は1085円73銭高の5万2411円34銭と高値引け。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_983258_202510311757/"
+     }
+    },
+    {
+     "title": "日銀総裁会見後の円安",
+     "detail": "前日の日銀総裁会見後に円安が進んだことも支援材料となり、3日続伸。週内3度目の1000円超の上昇となった。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_983258_202510311757/"
+     }
+    }
+   ]
+  }
  }
 }

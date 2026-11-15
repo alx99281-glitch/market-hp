@@ -72,5 +72,51 @@
     }
    ]
   }
+ },
+ "2026-01-20": {
+  "us": {
+   "items": [
+    {
+     "title": "グリーンランドを巡る欧州への関税警告",
+     "detail": "トランプ大統領がグリーンランド取得を巡り欧州8カ国への追加関税を警告し、リスク回避が拡大。S&P500は2.1%安の6,796.86、ナスダックは2.39%安、ダウは1.76%安。S&P500の下げは10月以来の大きさ。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-sinks-as-trumps-greenland-tariff-threats-rattle-markets"
+     }
+    },
+    {
+     "title": "米長期金利の上昇",
+     "detail": "米国債利回りが上昇したことも株式の重荷になった。",
+     "direction": "down",
+     "source": {
+      "label": "Finviz",
+      "url": "https://finviz.com/news/281388/stocks-tumble-treasury-yields-jump-to-5-month-highs-whats-moving-markets-tuesday"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "欧州8カ国への追加関税表明でリスク回避",
+     "detail": "トランプ米大統領がデンマーク、ドイツ、英国など欧州8カ国に2月1日から10%の追加関税を課すと表明し、リスクオフに。日経平均は592円47銭(1.11%)安の5万2991円10銭と4日続落。",
+     "direction": "down",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260120nk/"
+     }
+    },
+    {
+     "title": "10年債利回りの上昇",
+     "detail": "長期金利の上昇で株の割高感が意識され、寄り付きでは下げ幅が一時700円を超えた。",
+     "direction": "down",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260120nk/"
+     }
+    }
+   ]
+  }
  }
 }

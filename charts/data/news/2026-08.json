@@ -54,6 +54,52 @@
    ]
   }
  },
+ "2026-08-10": {
+  "us": {
+   "items": [
+    {
+     "title": "原油が5%急騰、ホルムズ合意期待が後退",
+     "detail": "ブレント原油が5%上昇し、イラン情勢を巡る合意期待が後退。インフレ懸念から株は小幅安で、S&P500は0.06%安の7,753.11、ダウは0.11%安。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/574197"
+     }
+    },
+    {
+     "title": "インテルが株式売却を示唆し下落",
+     "detail": "インテルは最大150億ドルの株式売却の可能性に言及して下落し、ナスダックは0.32%安と3指数で最も弱かった。市場は2日後のCPIも見極めていた。",
+     "direction": "down",
+     "source": {
+      "label": "Tapeboard",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-08-10"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計が弱く利上げ観測が後退",
+     "detail": "前週末の米雇用統計が想定を下回り、FRBの早期利上げ観測が後退。米ハイテク株高も追い風となり、日経平均は3日ぶりに急反発し1363円51銭(2.08%)高の6万6970円。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/607412/index"
+     }
+    },
+    {
+     "title": "AI・半導体関連が上昇を主導",
+     "detail": "フジクラ、古河電工、アドバンテスト、イビデン、東京エレクトロンなどが大きく上昇。後場は上値が重く、値上がり銘柄は全体の6割弱にとどまった。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/607412/index"
+     }
+    }
+   ]
+  }
+ },
  "2026-08-18": {
   "us": {
    "items": [

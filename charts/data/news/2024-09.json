@@ -1,4 +1,41 @@
 {
+ "2024-09-03": {
+  "us": {
+   "items": [
+    {
+     "title": "製造業統計が弱く、景気減速懸念で大幅安",
+     "detail": "製造業の統計が弱く景気への不安が強まり、S&P500は2.12%安の5,528.93、ナスダックは3.26%安、ダウは1.5%安。8月初めの急落以来の悪い日となった。",
+     "direction": "down",
+     "source": {
+      "label": "Kiplinger",
+      "url": "https://www.kiplinger.com/investing/stocks/stock-market-today-stocks-kick-off-september-with-a-steep-selloff"
+     }
+    },
+    {
+     "title": "エヌビディアが約9.5%急落",
+     "detail": "半導体株が下げを主導し、エヌビディアは約9.5%下落して時価総額で約2790億ドルを失った。",
+     "direction": "down",
+     "source": {
+      "label": "Kiplinger",
+      "url": "https://www.kiplinger.com/investing/stocks/stock-market-today-stocks-kick-off-september-with-a-steep-selloff"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米国休場で材料乏しく、半導体株が売られ小幅安",
+     "detail": "前日の米国市場がレーバーデーで休場のため材料が乏しく、半導体関連株が売られた。朝高後に韓国株の軟化でも押され、日経平均は14円56銭安の3万8686円31銭と4日続落。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/615430/index"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-04": {
   "us": {
    "items": [

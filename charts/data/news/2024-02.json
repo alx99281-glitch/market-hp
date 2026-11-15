@@ -1,4 +1,41 @@
 {
+ "2024-02-08": {
+  "us": {
+   "items": [
+    {
+     "title": "決算とアーム急騰、S&P500は5000に接近",
+     "detail": "アーム・ホールディングスが決算を受け48%急騰、ディズニーも決算が予想を上回り上昇。S&P500は0.06%高と小幅高で、5000の節目に迫った。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-02-08/sp-500-nears-5000-mark-earnings-jobs-data-focus"
+     }
+    },
+    {
+     "title": "失業保険申請が減少",
+     "detail": "週次の新規失業保険申請件数は9000件減の21万8000件。政策担当者の利下げ関連の発言にも注目が集まった。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-02-08/sp-500-nears-5000-mark-earnings-jobs-data-focus"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の内田副総裁の発言を受け急反発",
+     "detail": "内田副総裁の発言が上昇を後押しし、ソフトバンクグループやファーストリテイリングなど指数寄与度の高い銘柄がけん引。日経平均は743円36銭(2.06%)高の3万6863円28銭と3日ぶりに急反発し、約34年ぶりの高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶFX(ロイター配信)",
+      "url": "https://fx.minkabu.jp/news/290569"
+     }
+    }
+   ]
+  }
+ },
  "2024-02-13": {
   "jp": {
    "items": [

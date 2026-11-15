@@ -155,5 +155,69 @@
     }
    ]
   }
+ },
+ "2026-10-30": {
+  "us": {
+   "items": [
+    {
+     "title": "アマゾンの決算未達と設備投資、AI支出懸念が再燃",
+     "detail": "アマゾンは第3四半期の売上高・利益が市場予想に届かず、2026年の設備投資見通し約2200億ドルを維持。AIへの巨額投資への懸念が強まり、ナスダックは2.9%安の25,437.00。",
+     "direction": "down",
+     "source": {
+      "label": "Stock Analysis",
+      "url": "https://stockanalysis.com/news/nasdaq-100-falls-ai-spending/"
+     }
+    },
+    {
+     "title": "インテルが約29%急落、1974年以来の下げ",
+     "detail": "インテルは決算は予想を上回ったが見通しが弱く、株価は28.6%下落して1974年以来最大の下げ。エヌビディアは4.2%安、AMDは10.9%安、フィラデルフィア半導体指数は7.2%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "The National",
+      "url": "https://www.thenationalnews.com/business/markets/2026/10/30/intel-amzn-nasdaq-ai/"
+     }
+    },
+    {
+     "title": "S&P500は1.8%安、ナスダックは10月高値から7.8%下",
+     "detail": "S&P500は1.8%安の7,580.07。ナスダックは10月6日の最高値から7.8%下げ、約3カ月ぶりの安値圏に沈んだ。",
+     "direction": "down",
+     "source": {
+      "label": "Business Standard(ロイター)",
+      "url": "https://business-standard.com/world-news/nasdaq-hits-near-three-month-low-as-amazon-intel-rattle-ai-trade-126103001910_1.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安とアマゾン・インテルの時間外急落",
+     "detail": "前日の米ハイテク株安に加え、アマゾンとインテルの決算後の時間外急落でAI・半導体株に売りが広がった。日経平均は1369円36銭(2.12%)安の6万3290円11銭と4日ぶりに反落。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ(大引け)",
+      "url": "https://minkabu.jp/news/4647595"
+     }
+    },
+    {
+     "title": "日銀は利上げ見送り、ETF売却加速が一部でサプライズ",
+     "detail": "日銀会合は昼休みに結果が出て、大方の予想通り利上げは見送り。保有ETFの売却ペース加速は一部でサプライズとされたが、市場の反応は限定的だった。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ(大引け)",
+      "url": "https://minkabu.jp/news/4647595"
+     }
+    },
+    {
+     "title": "富士通とイビデンがストップ安",
+     "detail": "AI・半導体関連の下げが個別に及び、富士通とイビデンがストップ安となった。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ(大引け)",
+      "url": "https://minkabu.jp/news/4647595"
+     }
+    }
+   ]
+  }
  }
 }

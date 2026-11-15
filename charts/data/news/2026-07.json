@@ -45,6 +45,107 @@
    ]
   }
  },
+ "2026-07-07": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が売られナスダック1.2%安",
+     "detail": "AI関連株が下げ、S&P500は0.4%安の7,503.85、ナスダックは1.2%安、ダウは0.2%安。値下がりはチップ株が主導し、S&P500の構成銘柄は多くが上昇したが指数は押し下げられた。",
+     "direction": "down",
+     "source": {
+      "label": "The Star(AP配信)",
+      "url": "https://www.thestar.com.my/news/world/2026/07/08/us-stocks-close-lower"
+     }
+    },
+    {
+     "title": "ホルムズ海峡でタンカー被弾、原油と金利が上昇",
+     "detail": "英軍はホルムズ海峡で3隻のタンカーが被弾したと発表。ブレント原油は約3%高の74.16ドル、米10年債利回りは4.48%から4.54%へ上昇し、株式の重荷になった。",
+     "direction": "down",
+     "source": {
+      "label": "Ringside",
+      "url": "https://buttondown.com/Ringside/archive/ringside-post-bell-jul-07/"
+     }
+    },
+    {
+     "title": "ダウは前日の最高値から反落",
+     "detail": "前日に初めて5万3000ドルを超えて最高値をつけたダウは、半導体株の急落で最高値圏から押し戻された。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/07/07/dow-pulls-back-from-record-as-chip-stocks-tumble"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "サムスン株急落が波及、半導体株安",
+     "detail": "サムスン電子は第2四半期の営業利益が大幅増と発表したものの株価は約7%下落。韓国株安が東京に波及し、キオクシアや東京エレクトロンなど半導体関連が売られた。日経平均は1480円安の6万8256円96銭。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ(大引け)",
+      "url": "https://minkabu.jp/news/4563878"
+     }
+    },
+    {
+     "title": "米株高でも続急落、25日線を割り込む",
+     "detail": "前日の米国ではダウが最高値を更新したが、東京は韓国株の動きに左右されて下げ幅が一時1700円超に拡大。日経平均は25日移動平均線を下回った。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/594439/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-08": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏が停戦に疑義、原油高でダウ1.1%安",
+     "detail": "トランプ大統領がイランとの一時停戦に疑問を示し、原油が上昇。ダウは576.76ドル(1.1%)安の52,348.39、S&P500は0.3%安の7,482.71。S&P500の11セクターのうち9つが下落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-782026-134596966"
+     }
+    },
+    {
+     "title": "半導体株の反発がナスダックを支える",
+     "detail": "フィラデルフィア半導体指数は2.2%上昇し、ナスダックは0.2%高と小幅プラスで引けた。S&P500は一時1.1%安まで下げたが、下げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-782026-134596966"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安・原油高・韓国株安で3日続落",
+     "detail": "前日の米半導体株安に加え、中東情勢を警戒した原油高と韓国株の軟調が重しに。日経平均は1437円91銭安の6万6819円05銭で、終値で約1カ月ぶりに6万7000円を割り込んだ。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/594857/index"
+     }
+    },
+    {
+     "title": "韓国KOSPIに振り回され安値引け",
+     "detail": "寄り付き後は韓国株の動きで乱高下し、最後は1400円超下げて安値引け。TOPIXも55.83ポイント安の4,006.43と幅広く売られた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4564634"
+     }
+    }
+   ]
+  }
+ },
  "2026-07-16": {
   "jp": {
    "items": [
