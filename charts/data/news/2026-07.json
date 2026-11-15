@@ -1,4 +1,41 @@
 {
+ "2026-07-01": {
+  "us": {
+   "items": [
+    {
+     "title": "AI・半導体株の下落でハイテク売り",
+     "detail": "マイクロンなど半導体株が下がり、S&P500は0.2%安の7483、ナスダックは0.66%安。",
+     "direction": "down",
+     "source": {
+      "label": "Las Vegas Sun(AP)",
+      "url": "https://lasvegassun.com/news/2026/jul/01/more-drops-for-chip-stocks-and-other-ai-winners-ov/"
+     }
+    },
+    {
+     "title": "FRBの先行き不透明感",
+     "detail": "FRBの先行きへの不透明感が重しとなり、ダウは最高値から後退した。",
+     "direction": "down",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-fed-uncertainty-weighs-on-stocks,-dow-retreats-from-record"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米ハイテク高でAI・半導体株が上昇",
+     "detail": "一時1900円上げたが引けにかけ縮小、412円高の7万474円で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2008781"
+     }
+    }
+   ]
+  }
+ },
  "2026-07-02": {
   "us": {
    "items": [
@@ -40,6 +77,85 @@
      "source": {
       "label": "松井証券",
       "url": "https://finance.matsui.co.jp/news/592917/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-03": {
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計が弱く利上げ観測が後退",
+     "detail": "6月の米雇用者数が予想を下回り、日経平均は1010円高の6万9744円で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Gentosha GO",
+      "url": "https://gentosha-go.com/articles/-/79884"
+     }
+    },
+    {
+     "title": "午前の大幅安から午後に切り返し",
+     "detail": "午前中は一時1100円超下げたが、午後は押し目買いで切り返した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2009659"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-06": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が急伸、ダウは初の5万3000超",
+     "detail": "フィラデルフィア半導体指数が3%超上昇し、テスラも6%超高。ダウは5万3055の最高値。",
+     "direction": "up",
+     "source": {
+      "label": "Las Vegas Sun(AP)",
+      "url": "https://lasvegassun.com/news/2026/jul/06/how-major-us-stock-indexes-fared-monday-762026/"
+     }
+    },
+    {
+     "title": "原油は開戦前の水準を維持",
+     "detail": "原油が戦争前の水準で推移し、投資家心理を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "GV Wire",
+      "url": "https://gvwire.com/2026/07/06/stocks-surge-on-chip-news-oil-holds-at-pre-war-levels/"
+     }
+    },
+    {
+     "title": "マイクロソフトが4800人削減",
+     "detail": "同社が4800人の人員削減を発表し株価は軟調だった。",
+     "direction": "down",
+     "source": {
+      "label": "Las Vegas Sun(AP)",
+      "url": "https://lasvegassun.com/news/2026/jul/06/how-major-us-stock-indexes-fared-monday-762026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体株に利益確定売り",
+     "detail": "朝方は800円超下げたが、午後に下げ幅を縮め、6円安の6万9737円で終えた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2010552"
+     }
+    },
+    {
+     "title": "TOPIXは上昇",
+     "detail": "TOPIXは37.36ポイント高の4101と、日経平均とは逆に上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2010405"
      }
     }
    ]
@@ -146,6 +262,254 @@
    ]
   }
  },
+ "2026-07-09": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が急伸、S&P500とナスダックは最高値",
+     "detail": "チップ株主導でS&P500は0.8%高の7543、ナスダックは1.3%高。",
+     "direction": "up",
+     "source": {
+      "label": "NBC Palm Springs",
+      "url": "https://www.nbcpalmsprings.com/2026/07/09/wall-street-closes-higher-as-major-indexes-gain-thursday"
+     }
+    },
+    {
+     "title": "原油下落で市場心理が改善",
+     "detail": "原油価格が下がり、米イランの敵対が続く中でも投資家はリスクを取った。",
+     "direction": "up",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-chip-stocks-lead-gains-as-falling-oil-prices-lift-mood"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株高でAI・半導体が4営業日ぶり反発",
+     "detail": "一時1600円超上げ、終値は924円高の6万7743円。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2011862"
+     }
+    },
+    {
+     "title": "後場は伸び悩み",
+     "detail": "上げ幅が一時1600円を超えたが、後場に利益確定売りで縮小した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://us.kabutan.jp/news/n202607091085"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-10": {
+  "us": {
+   "items": [
+    {
+     "title": "SKハイニックスのナスダック上場でAI関連が回復",
+     "detail": "同社ADRが13.1%上昇し、AI・半導体株の買いが復活。S&P500は約0.4%高で最高値圏。",
+     "direction": "up",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-erase-earlier-losses-as-sk-hynix-debut-lifts-sentiment"
+     }
+    },
+    {
+     "title": "原油は下落",
+     "detail": "原油が小幅に下げ、買いを後押しした。10年債利回りは4.56%へ小幅上昇。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/7/10/stocks-close-out-volatile-week-on-a-steady-note"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米ハイテク株高でAI・半導体が上昇",
+     "detail": "日経平均は一時1600円超上げ、終値は813円高の6万8557円。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2012143"
+     }
+    },
+    {
+     "title": "ETF分配金捻出の換金売りが上値を抑制",
+     "detail": "後場は利益確定売りと、ETF分配金に絡む換金売りの観測で伸び悩んだ。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2012222"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-13": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏のホルムズ封鎖発言で原油急騰",
+     "detail": "米イランの停戦への不安から原油が急伸し、S&P500は0.8%安の7515。",
+     "direction": "down",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-lower-as-oil-spikes-on-trumps-hormuz-blockade-claim"
+     }
+    },
+    {
+     "title": "SKハイニックス急落で半導体株に売り",
+     "detail": "韓国のSKハイニックスが過去最大の下落となり、マイクロン・エヌビディアが下げを主導。ナスダックは1.6%安。",
+     "direction": "down",
+     "source": {
+      "label": "Las Vegas Sun(AP)",
+      "url": "https://lasvegassun.com/news/2026/jul/13/how-major-us-stock-indexes-fared-monday-7132026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "韓国半導体株の急落でAI・半導体に売り",
+     "detail": "韓国株式市場の急落と半導体大手の大幅安をきっかけに日本のAI関連株にも売りが広がった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2013088"
+     }
+    },
+    {
+     "title": "中東不透明感と原油高",
+     "detail": "米イラン協議の見通しが不透明で米原油先物も上昇し、日経平均は1315円安の6万7242円となった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2012962"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-14": {
+  "us": {
+   "items": [
+    {
+     "title": "CPIが落ち着き、利上げ観測が後退",
+     "detail": "インフレ指標が落ち着き、今月の利上げの可能性がほぼ消えたと報じられ、S&P500は0.4%高の7543。",
+     "direction": "up",
+     "source": {
+      "label": "Ahram(AP)",
+      "url": "https://english.ahram.org.eg/News/572873.aspx"
+     }
+    },
+    {
+     "title": "大手銀行の好決算",
+     "detail": "銀行決算が堅調で、ナスダックは0.9%高の2万6107となった。",
+     "direction": "up",
+     "source": {
+      "label": "Las Vegas Sun(AP)",
+      "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-tuesday-7-14-2026/"
+     }
+    },
+    {
+     "title": "IBMが24.5%急落しダウの重荷に",
+     "detail": "IBMが急落してダウを押し下げ、ダウの上昇は9.63ポイントにとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "Ahram(AP)",
+      "url": "https://english.ahram.org.eg/News/572873.aspx"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "朝は半導体売りで急落も買い戻しで反発",
+     "detail": "米ハイテク売りの流れで一時千円近く下落したが、割安感から買い戻され、500円高の6万7743円で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2013492"
+     }
+    },
+    {
+     "title": "アドバンテスト・キオクシアが相場を牽引",
+     "detail": "AI・半導体関連のアドバンテストやキオクシアが引けにかけ上げ幅を広げた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2013342"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-15": {
+  "us": {
+   "items": [
+    {
+     "title": "PPIが予想より軟調、インフレ懸念が後退",
+     "detail": "6月の卸売物価(PPI)が前月比0.3%低下し、利上げ観測が和らいだ。S&P500は0.4%高の7572。",
+     "direction": "up",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-finish-higher-as-cooling-inflation-offsets-iran-tensions"
+     }
+    },
+    {
+     "title": "大手銀行の好決算",
+     "detail": "銀行決算が堅調で買いを支えた。ナスダックは0.6%高の2万6269。",
+     "direction": "up",
+     "source": {
+      "label": "Mezha",
+      "url": "https://mezha.net/eng/news/9d61660d_us_stocks_rise/"
+     }
+    },
+    {
+     "title": "メモリー関連は軟調",
+     "detail": "マイクロンやサンディスク、SKハイニックスなど半導体メモリー関連が下落率上位となった。",
+     "direction": "down",
+     "source": {
+      "label": "Las Vegas Sun(AP)",
+      "url": "https://lasvegassun.com/news/2026/jul/15/how-major-us-stock-indexes-fared-wednesday-7152026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ハイテク・半導体株中心に続伸",
+     "detail": "前日の米半導体株高や韓国株高、ASMLの好決算で半導体関連に買いが広がり、日経平均は1008円高の6万8751円で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2013926"
+     }
+    },
+    {
+     "title": "高値圏で引け",
+     "detail": "始値6万7989円、高値6万8798円とほぼ高値圏で取引を終えた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://us.kabutan.jp/news/n202607151097"
+     }
+    }
+   ]
+  }
+ },
  "2026-07-16": {
   "jp": {
    "items": [
@@ -238,6 +602,30 @@
    ]
   }
  },
+ "2026-07-20": {
+  "us": {
+   "items": [
+    {
+     "title": "原油急伸と中東の緊張でダウが300ポイント超安",
+     "detail": "中東情勢の悪化懸念で原油が急伸し、S&P500の11業種のうち10業種が下落。ダウは0.59%安の5万1839。",
+     "direction": "down",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-slip-amid-crude-surge,-geopolitical-jitters"
+     }
+    },
+    {
+     "title": "半導体株は反発してナスダックを下支え",
+     "detail": "半導体株指数が0.6%上昇し、ナスダックは0.05%安にとどまった。",
+     "direction": "up",
+     "source": {
+      "label": "Las Vegas Sun(AP)",
+      "url": "https://lasvegassun.com/news/2026/jul/20/how-major-us-stock-indexes-fared-monday-7202026/"
+     }
+    }
+   ]
+  }
+ },
  "2026-07-21": {
   "us": {
    "items": [
@@ -284,6 +672,98 @@
    ]
   }
  },
+ "2026-07-22": {
+  "us": {
+   "items": [
+    {
+     "title": "原油が3%上昇、中東緊張が重荷",
+     "detail": "原油価格がさらに3%ほど上がり、中東情勢への懸念から主要3指数はいずれも小幅に下落した。",
+     "direction": "down",
+     "source": {
+      "label": "NBC Palm Springs",
+      "url": "https://www.nbcpalmsprings.com/2026/07/22/stock-market-today-dow-sp-500-and-nasdaq-close-lower-wednesday"
+     }
+    },
+    {
+     "title": "アルファベット・テスラ決算を前に様子見",
+     "detail": "大手ハイテクの決算発表を控えて売買が手控えられ、S&P500は0.14%安、ナスダックは0.57%安だった。",
+     "direction": "flat",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-lower-as-iran-tensions,-q2-earnings-remain-in-focus"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "朝高後に利益確定売りで小幅反落",
+     "detail": "半導体株中心に買いが先行して一時1300円超上げたが、大引け直前にマイナス圏へ沈み、116円安の6万6115円で終えた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2016388"
+     }
+    },
+    {
+     "title": "米ハイテク決算と中東情勢で様子見",
+     "detail": "米大手ハイテクの決算発表を控えた様子見姿勢と中東情勢への懸念が重荷になった。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2016247"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-23": {
+  "us": {
+   "items": [
+    {
+     "title": "アルファベットとテスラの下落でハイテク売り",
+     "detail": "大手ハイテク決算を受けAI投資負担への懸念が広がり、テスラは14%超安。ナスダックは2.2%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-tank-as-oil-prices-surge,-treasury-yields-jump"
+     }
+    },
+    {
+     "title": "原油が5月以来の高値、長期金利も上昇",
+     "detail": "中東での戦闘を受けブレント原油が5月以来の高値となり、米長期金利も上昇。S&P500は1.2%安の7408。",
+     "direction": "down",
+     "source": {
+      "label": "Stock Market Today(Tapeboard)",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-07-23"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米半導体株高を好感して続伸",
+     "detail": "前日の米国で半導体株が上昇した流れを受けて買われ、日経平均は307円高の6万6422円で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2016873"
+     }
+    },
+    {
+     "title": "原油高と国内長期金利上昇が上値を抑制",
+     "detail": "中東情勢の緊迫による原油高や日銀の早期利上げ観測を背景とした金利上昇が重荷となり、後場に上げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2016873"
+     }
+    }
+   ]
+  }
+ },
  "2026-07-24": {
   "jp": {
    "items": [
@@ -325,6 +805,61 @@
      "source": {
       "label": "WTOP(AP)",
       "url": "https://wtop.com/news/2026/07/how-major-us-stock-indexes-fared-friday-7-24-2026/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-27": {
+  "us": {
+   "items": [
+    {
+     "title": "原油安で中東緊張の緩和を好感",
+     "detail": "米イラン間の対立が一服して原油価格が下落し、ダウは262ポイント(0.51%)高の5万2210で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "NBC Palm Springs",
+      "url": "https://www.nbcpalmsprings.com/2026/07/27/dow-jones-rises-more-than-260-points-as-sp-500-edges-higher-nasdaq-slips"
+     }
+    },
+    {
+     "title": "半導体株の売りでナスダックは下落",
+     "detail": "チップ株が再び売られ、ナスダック総合は0.18%安。S&P500は7413と0.02%高にとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "Investrade",
+      "url": "https://investrade.com/market-review-july-27-2026/"
+     }
+    },
+    {
+     "title": "ハイテク決算とFOMCを控え様子見",
+     "detail": "大手ハイテクの決算発表と米連邦準備制度理事会(FRB)の会合を前に買いが続かず、まちまちで終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "HL Market Report",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mixed-as-investors-eye-tech-earnings,-fed-meeting"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中東警戒が和らぎ反発",
+     "detail": "中東情勢への警戒感が和らいで買いが優勢となり、日経平均は320円高の6万4931円で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2018195"
+     }
+    },
+    {
+     "title": "前週末の米株重荷で午前は一進一退",
+     "detail": "午前終値は6万4764円で、米株安が重荷となり一時600円超上げた後は伸び悩んだ。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2018133"
      }
     }
    ]
