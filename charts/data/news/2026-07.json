@@ -376,6 +376,98 @@
    ]
   }
  },
+ "2026-07-29": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC後に売り、チップ株安が続く",
+     "detail": "連邦準備制度理事会(FRB)の政策決定とチップ株の売りで、ダウは-2.2%(1,153ドル安)、S&P500は-1.5%。VIXは20.66に上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/570857"
+     }
+    },
+    {
+     "title": "債券利回りの上昇",
+     "detail": "金利上昇と原油高が嫌気され、industrialsとテックが広く売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Tapeboard",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-07-29"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "世界的な半導体株安と韓国株安で大幅続落",
+     "detail": "AI関連市場の先行き警戒から世界的に半導体株が下落し、終値は-1.49%の6万1434円19銭で約2カ月ぶりの安値圏。TOPIXは+0.26%と逆行した。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(みんかぶ)",
+      "url": "https://finance.matsui.co.jp/news/601572/index"
+     }
+    },
+    {
+     "title": "熊本県の地震",
+     "detail": "熊本県の地震による経済活動への懸念も重荷とされた。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(みんかぶ)",
+      "url": "https://finance.matsui.co.jp/news/601572/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-07-30": {
+  "us": {
+   "items": [
+    {
+     "title": "マイクロソフトが15.5%高、決算が好感",
+     "detail": "クラウド売上が43%増と伝わりマイクロソフトが急騰。S&P500は+1.7%、ナスダックは+2.8%。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/571851"
+     }
+    },
+    {
+     "title": "原油が下落",
+     "detail": "原油が下がり、米長期金利は前日の急上昇後に横ばいだった。",
+     "direction": "up",
+     "source": {
+      "label": "US Close(Hargreaves Lansdown)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-big-tech-earnings-take-centre-stage"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "アドバンテストの上方修正が相場を支える",
+     "detail": "アドバンテストの業績上方修正で急伸。日経平均は一時約1500円高まで上昇し、終値は+0.71%の6万1867円43銭。TOPIXは-0.54%と逆行した。",
+     "direction": "up",
+     "source": {
+      "label": "日経平均の概況【7月30日】(TBL Advisory)",
+      "url": "https://tbladvisory.com/20260730nk/"
+     }
+    },
+    {
+     "title": "前日の米株安と原油高が重し",
+     "detail": "中東情勢の緊迫による原油高でインフレ警戒が強まり、前日の米株は大幅安だった。",
+     "direction": "down",
+     "source": {
+      "label": "日経平均の概況【7月30日】(TBL Advisory)",
+      "url": "https://tbladvisory.com/20260730nk/"
+     }
+    }
+   ]
+  }
+ },
  "2026-07-31": {
   "us": {
    "items": [
