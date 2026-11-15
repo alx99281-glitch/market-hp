@@ -45,6 +45,320 @@
    ]
   }
  },
+ "2026-05-11": {
+  "us": {
+   "items": [
+    {
+     "title": "AI期待がイラン停滞を上回る",
+     "detail": "トランプ氏がイランの和平案を拒否したが、ハイテク主導でS&P500は0.2%高の7,413.55となった。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(HL)",
+      "url": "https://www.lse.co.uk/news/us-close-stocks-advance-despite-trumps-dismissal-of-iran-peace-offer-absh6kvpbymja6z.html"
+     }
+    },
+    {
+     "title": "原油が上昇",
+     "detail": "WTI原油が2%上昇し98ドル超となった。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters(HL)",
+      "url": "https://www.lse.co.uk/news/us-close-stocks-advance-despite-trumps-dismissal-of-iran-peace-offer-absh6kvpbymja6z.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株の利益確定と原油再上昇",
+     "detail": "日経平均は295円77銭安の6万2417円88銭。朝方は先物主導で600円超上げたが、半導体関連の利益確定売りと原油再上昇で下落に転じた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1989656"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-12": {
+  "us": {
+   "items": [
+    {
+     "title": "想定以上のCPIで金利・原油上昇",
+     "detail": "4月CPIが予想を上回り、原油も上昇。ハイテク株が下げてS&P500は0.2%安、ナスダックは0.7%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/05/12/s-p-500-nasdaq-retreat-after-surprise-cpi-reading"
+     }
+    },
+    {
+     "title": "ダウは小幅高",
+     "detail": "ダウは0.1%高の4万9760.56と底堅かった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/asia/2026/05/how-major-us-stock-indexes-fared-tuesday-5-12-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は3営業日ぶり反発",
+     "detail": "日経平均は324円69銭高の6万2742円57銭。TOPIXも31.97ポイント上昇した(共同通信)。個別要因の詳細は確認できず。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1990023"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-13": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアなどハイテク株が上昇",
+     "detail": "エヌビディアが2.6%上昇しS&P500とナスダックは最高値。ただS&P500構成銘柄の約3分の2は下落した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-5132026-132934553"
+     }
+    },
+    {
+     "title": "卸売物価の急上昇",
+     "detail": "4月の生産者物価が前月比1.4%上昇と2022年3月以来の大幅な伸びとなり、金利上昇が公益・不動産株を押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Anadolu",
+      "url": "https://aa.com.tr/en/economy/us-stocks-end-mostly-higher-as-tech-rally-pushes-nasdaq-sp-500-to-record-highs/3936711"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "決算を好感した個別株買い",
+     "detail": "日経平均は529円54銭高の6万3272円11銭と4営業日ぶりに終値の最高値を更新。前日の米ハイテク株安で売り先行後、決算発表を受けた個別株への買いでプラスに転じた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1990449"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-14": {
+  "us": {
+   "items": [
+    {
+     "title": "シスコ決算が好調",
+     "detail": "シスコシステムズが決算で予想を上回り通期予想を引き上げ、株価は13%超上昇。ダウは5万ドルを回復した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-thursday-5-14-2026/"
+     }
+    },
+    {
+     "title": "北京での米中首脳会談",
+     "detail": "北京で行われた米中首脳会談の動向が好感され、S&P500とナスダックが最高値を更新した(ロイター)。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(Virginia Business)",
+      "url": "https://virginiabusiness.com/wall-street-rises-tech-rally-trump-xi-beijing-talks/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "フジクラ急落、AI関連に売り波及",
+     "detail": "14時に27年3月期の最終減益見通しを発表したフジクラが急落し、1銘柄で日経平均を約302円押し下げた。日経平均は618円06銭安の6万2654円5銭。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1990831"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-15": {
+  "us": {
+   "items": [
+    {
+     "title": "長期金利上昇",
+     "detail": "10年債利回りが4.59%と2025年2月以来の高水準となり、S&P500は1.24%安の7,408.50となった。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart/各社報道",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-friday-5-15-2026/"
+     }
+    },
+    {
+     "title": "原油高と消費者心理の悪化",
+     "detail": "WTI原油が3.55%上昇し104.77ドルとなり、ミシガン大消費者信頼感指数が過去最低の48.2に下がった。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/551214"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体株に利益確定売り",
+     "detail": "日経平均は1,244円76銭安の6万1409円29銭と続落。AI・半導体関連に売りが膨らみ、下げ幅は一時1,700円を超えた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1991270"
+     }
+    },
+    {
+     "title": "国内長期金利の上昇",
+     "detail": "10年債利回りが一時2.7%と29年ぶりの高水準となり、重荷になった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1991270"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-18": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株に利益確定売り",
+     "detail": "エヌビディアが指数の最大の押し下げ要因となり、S&P500は0.1%安、ナスダックは0.5%安。ダウは0.3%高と小幅に上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-monday-5-18-2026/"
+     }
+    },
+    {
+     "title": "イランへの攻撃見送り",
+     "detail": "トランプ氏が予定していたイラン攻撃を見合わせると述べ、引けにかけて原油が下落し相場が持ち直した。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(HL)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/archive/us-close-stocks-mixed,-but-peace-deal-hopes-drive-late-rally"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前週末の米株安を受け下落",
+     "detail": "日経平均は593円34銭安の6万815円95銭。前週末の米株安を引き継ぎ、一時1,000円超下げたが下げ幅を縮めた。値下がり銘柄が値上がりを大きく上回った。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1992169"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-19": {
+  "us": {
+   "items": [
+    {
+     "title": "長期金利上昇で3日続落",
+     "detail": "イラン戦争による物価高止まり懸念で米国債利回りが上昇し、S&P500は0.7%安の7,353.61と3日続落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-tuesday-5-19-2026/"
+     }
+    },
+    {
+     "title": "大型ハイテクに売り",
+     "detail": "エヌビディアが0.8%安となるなど大型株が重しとなり、ナスダックは0.8%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-tuesday-5-19-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体株の売りが続く",
+     "detail": "日経平均は265円36銭安の6万550円59銭と4日続落した。AI・半導体関連株の売りが続いた(ロイター)。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1992574"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-20": {
+  "us": {
+   "items": [
+    {
+     "title": "原油・長期金利が低下",
+     "detail": "トランプ氏がイランとの交渉は最終段階と述べ、原油が約6%下落。金利低下も追い風になり、ダウは645ドル高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-wednesday-5-20-2026/"
+     }
+    },
+    {
+     "title": "エヌビディア決算前にチップ株上昇",
+     "detail": "決算発表を控えた半導体株が買われ、ナスダックは1.5%高、S&P500は1.1%高となった。3日続落から反発した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-wednesday-5-20-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "世界的な金利上昇",
+     "detail": "日経平均は746円18銭安の5万9804円41銭。世界的な金利上昇で不動産株などが売られた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1992988"
+     }
+    },
+    {
+     "title": "AI・半導体株に売り、エヌビディア決算待ち",
+     "detail": "相場を押し上げてきたAI・半導体関連に売りが出た。同日夜のエヌビディア決算を前に慎重姿勢が強まった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1992988"
+     }
+    }
+   ]
+  }
+ },
  "2026-05-21": {
   "us": {
    "items": [
@@ -147,6 +461,135 @@
      "source": {
       "label": "熊本日日新聞(共同)",
       "url": "https://kumanichi.com/articles/1994815"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-26": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が急伸、S&P500・ナスダック最高値",
+     "detail": "メモリー半導体株の上昇が主導し、S&P500は0.6%高、ナスダックは1.2%高で最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(HL)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-surging-chip-stocks-push-sp-500-nasdaq-to-new-highs"
+     }
+    },
+    {
+     "title": "ダウは小幅安",
+     "detail": "医療保険株やエネルギー株の弱さでダウは0.2%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart(Invezz)",
+      "url": "https://invezz.com/ca/news/2026/05/26/dow-slips-as-sandampp-500-nasdaq-hit-records-on-ai-stock-rally/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株に利益確定売り",
+     "detail": "日経平均は162円10銭安の6万4996円9銭。過熱感への警戒から、これまで相場を引っ張った半導体株に利益確定売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1995180"
+     }
+    },
+    {
+     "title": "ソフトバンクGが指数を支える",
+     "detail": "ソフトバンクグループ1社で日経平均を約620円押し上げ、下げ幅を限定した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1995180"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-27": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが最高値、ナスダックは連騰止まる",
+     "detail": "ダウは0.36%高の5万644.28で最高値。チップ株安でナスダックの4日続伸は止まり、S&P500は0.02%高にとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(Stockopedia)",
+      "url": "https://www.stockopedia.com/share-prices/goldman-sachs-NYQ:GS/news/us-stocks-wall-street-indexes-post-closing-record-highs-ai-rally-pauses-019e6b2c-dcc9-7097-a760-f20a3d90a437/"
+     }
+    },
+    {
+     "title": "原油が下落",
+     "detail": "米イランの和平合意への期待から原油が下げ、消費関連株などを支えた。",
+     "direction": "up",
+     "source": {
+      "label": "Invezz",
+      "url": "https://invezz.com/ie/news/2026/05/27/dow-hits-record-high-as-ai-rally-pauses-oil-prices-retreat/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "一時1,400円超高から失速",
+     "detail": "日経平均は寄り付き後に6万6,400円台まで上昇したが、ソフトバンクグループの急落で指数が約450円押し下げられ、終値は3円32銭高の6万4999円41銭とほぼ横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202605271040/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-28": {
+  "us": {
+   "items": [
+    {
+     "title": "イラン停戦延長の観測",
+     "detail": "米イランが停戦を60日延長する暫定合意に至ったとの報道で、リスク選好が強まり原油も下落した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(inkl)",
+      "url": "https://www.inkl.com/news/how-major-us-stock-indexes-fared-thursday-5-28-2026"
+     }
+    },
+    {
+     "title": "好決算が相場を支援",
+     "detail": "S&P500は0.6%高の7,563.63。個別の好決算が上昇を後押しした一方、半導体株は反落しナスダックの上げを抑えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(inkl)",
+      "url": "https://www.inkl.com/news/how-major-us-stock-indexes-fared-thursday-5-28-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安で値がさ株が売られる",
+     "detail": "日経平均は306円29銭安の6万4693円12銭。米半導体株安で半導体関連が売られ、下げ幅は一時1,100円超となったが押し目買いで縮小した。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1996018"
+     }
+    },
+    {
+     "title": "中東情勢への警戒",
+     "detail": "イランとの和平交渉への期待がある一方、米国によるイラン攻撃で地政学リスクが意識され、反落の一因となった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1996018"
      }
     }
    ]
