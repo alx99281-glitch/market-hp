@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分析の視点 2026-11-16</title><style>
+:root { --bg:#0d1117; --panel:#161b22; --panel2:#21262c; --border:#30363d; --text:#e6edf3;
+  --muted:#8b949e; --accent:#58a6ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --watch:#a371f7; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); line-height:1.65;
+  font-family:-apple-system,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif; }
+.wrap { max-width:1120px; margin:0 auto; padding:24px 20px 56px; }
+.top { display:flex; justify-content:space-between; gap:12px; align-items:center; color:var(--muted); font-size:.8rem; }
+select { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:5px; padding:4px 8px; }
+h1 { font-size:1.5rem; line-height:1.35; margin:10px 0 8px; }
+.lead { color:var(--muted); max-width:820px; margin:0 0 18px; }
+.snap { display:grid; grid-template-columns:repeat(auto-fit,minmax(135px,1fr)); gap:8px; margin-bottom:18px; }
+.snap div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.snap span { display:block; color:var(--muted); font-size:.72rem; }
+.snap b { font-size:1rem; font-variant-numeric:tabular-nums; }
+.filters { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; }
+.filters button { background:var(--panel2); border:1px solid var(--border); color:var(--text);
+  padding:5px 12px; border-radius:5px; cursor:pointer; font-size:.8rem; }
+.filters button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+.grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; align-items:start; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px 18px; min-width:0; }
+.meta { display:flex; justify-content:space-between; gap:8px; font-size:.75rem; color:var(--muted); }
+.badge { font-weight:600; }
+.ok { color:var(--ok); } .warn { color:var(--warn); } .bad { color:var(--bad); } .watch { color:var(--watch); }
+h2 { font-size:1.08rem; line-height:1.4; margin:6px 0 8px; }
+h3 { font-size:.74rem; color:var(--muted); margin:12px 0 2px; font-weight:600; }
+p { margin:0; font-size:.88rem; } ul { margin:0; padding-left:1.1em; font-size:.84rem; } li { margin:2px 0; }
+.post { background:var(--panel2); border-left:3px solid var(--accent); padding:7px 10px; border-radius:0 5px 5px 0; }
+.scroll { overflow-x:auto; margin-top:10px; }
+table { width:100%; border-collapse:collapse; font-size:.8rem; font-variant-numeric:tabular-nums; }
+caption { text-align:left; color:var(--muted); font-size:.74rem; padding-bottom:4px; }
+th,td { padding:4px 8px; border-bottom:1px solid var(--border); text-align:right; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; } th { color:var(--muted); font-weight:500; }
+.note { color:var(--muted); font-size:.74rem; margin-top:4px; }
+.src { margin-top:12px; font-size:.74rem; color:var(--muted); }
+a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.section { font-size:1.15rem; margin:30px 0 10px; }
+.x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+.x p + p { color:var(--muted); font-size:.82rem; }
+.method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
+.secnav { position:sticky; top:0; z-index:5; display:flex; flex-wrap:wrap; gap:6px; padding:8px 0; margin:0 0 14px;
+  background:var(--bg); border-bottom:1px solid var(--border); }
+.secnav a { background:var(--panel2); border:1px solid var(--border); color:var(--text); padding:5px 12px; border-radius:999px; font-size:.8rem; }
+.secnav a:hover { border-color:var(--accent); text-decoration:none; }
+.secnav a b { color:var(--muted); font-weight:500; margin-left:4px; }
+[id^="sec-"] { scroll-margin-top:56px; }
+.mtiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin-bottom:10px; }
+.mtiles div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.mtiles span { display:block; color:var(--muted); font-size:.72rem; } .mtiles b { font-size:1.05rem; font-variant-numeric:tabular-nums; }
+.mtiles i { display:block; font-style:normal; font-size:.72rem; color:var(--muted); }
+.mchart { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:10px; }
+.mchart svg { display:block; width:100%; height:90px; } .mchart .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.68rem; }
+.pos { color:var(--ok); } .neg { color:var(--bad); }
+@media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
+</style></head>
+<body><div class="wrap">
+<div class="top"><span>分析の視点 ・ 週末版。株価・金利・為替は2026-11-13(金)NY引けまで。ビットコインはデータ上11/14 01:44 UTC取得時点まで、日曜の値は報道値</span>
+<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-16.html" selected>2026-11-16</option><option value="2026-11-14.html">2026-11-14</option><option value="2026-11-13.html">2026-11-13</option><option value="2026-11-11.html">2026-11-11</option><option value="2026-11-08.html">2026-11-08</option><option value="2026-11-06.html">2026-11-06</option><option value="2026-11-05.html">2026-11-05</option><option value="2026-11-04.html">2026-11-04</option><option value="2026-11-03.html">2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
+<h1>週末版: エヌビディアは6週連続安で決算へ。指数は高値から-3%でもS&amp;P500の7割は上昇、ビットコインは週末に6万2千ドル台</h1><p class="lead">月曜の朝は新しい米国の取引日がないため、週末の話題から3つの視点を検証しました。エヌビディアは週間-12.7%で6週連続の下落となり、データ上は2012年10月以来の長さです(2000年以降の最長は2008年の7週)。決算は11/17(米国引け後)で、オプションは±9.1%の変動を織り込んでいると報じられています。一方、エヌビディアが高値をつけた10/6以降、S&amp;P500は-3.3%ですが、採用銘柄の72%は上昇し、生活必需品と医薬品のETFは+13%前後です。「売りではなく入れ替え」という見方はここまでのデータに合います。ビットコインは日曜に一時6万2千ドル台まで下げたと報じられています。週末の暗号資産安が月曜の株安を示すかは、長い期間では関係が弱い一方、2021年以降に限ると下げ方向に傾いています。日本では11/16 8:50に7〜9月期GDP速報が出る予定です。</p>
+<nav class="secnav" aria-label="セクション"><a href="#sec-cards">分析の視点<b>3</b></a><a href="#sec-x">Xで拾った論点<b>5</b></a></nav>
+<div class="snap"><div><span>S&amp;P500(11/13)</span><b>7,561.67 (-0.40%、高値10/6から-3.3%)</b></div><div><span>エヌビディア(11/13)</span><b>162.85ドル (週-12.7%、6週連続安)</b></div><div><span>SOX(11/13)</span><b>10,146.32 (-3.43%)</b></div><div><span>米10年 / 30年金利</span><b>5.154% / 5.481%</b></div><div><span>VIX</span><b>19.30</b></div><div><span>CME日経先物(NKD)</span><b>61,040 (日経平均終値61,142.35比-0.17%)</b></div><div><span>ビットコイン</span><b>71,343ドル(11/12)→68,325ドル(11/14取得時)→約64,800ドル(11/15、報道値)</b></div></div>
+<div class="filters" id="sec-cards"><button class="active" data-t="all">すべて</button><button data-t="半導体">半導体</button><button data-t="資金フロー">資金フロー</button><button data-t="クロスアセット">クロスアセット</button></div>
+<div class="grid"><article class="card" data-t="半導体">
+<div class="meta"><span>半導体</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>エヌビディア6週連続安で決算へ。想定変動±9.1%は普段の3.7σ、過去の6週連続安の後は戻りが鈍い</h2>
+<p>エヌビディアは11/13までの週に-12.7%となり、6週連続で下げたと報じられています。決算は11/17の米国引け後で、フアン氏の退任後初めての決算です。オプションは決算後に±9.1%の変動を織り込んでいると報じられています。「6週も下げたので悪材料は出尽くし」という見方と、「ガイダンス次第でもう一段安」という見方が割れています。データでは、6週連続安は2000年以降で5回目(今回を含む)で、過去4回の後の13週は3回が下落でした。ただしn=4で、うち2回は2002年と2008年の弱気相場です。</p>
+<h3>データ</h3><ul><li>週次(金曜終値)の騰落: -2.0%、-6.6%、-1.5%、-3.0%、-8.8%、-12.7%。6週の合計-30.4%、10/6の年初来高値から-31.9%</li><li>6週連続安は2012年10月以来(報道の「2012年10月以来最長」とデータが一致)。2000年以降の最長は2008年7月の7週</li><li>過去に6週連続安に達した時点からの13週後: 2002年6月-50.2%、2008年7月-41.6%、2012年3月-10.7%、2012年10月+3.7%(n=4)</li><li>直近250日の日次の標準偏差は2.44%。±9.1%はその3.7倍。過去3年(753営業日)で1日に9.1%以上動いた日は8日</li><li>市場予想はEPS2.47ドル、売上高1,092億ドル前後と報じられ(報道値)、会社の前回ガイダンスは1,080億ドル±2%</li><li>強気側: ウェドブッシュは会社予想超えと第4四半期の上方ガイダンスを予想(報道)。弱気側: 中間選挙後にAI投資が減り2027年の見通しを下げるとの論考(Seeking Alpha、意見)</li></ul>
+<div class="scroll"><table><caption>エヌビディアの6週連続安とその後(%)</caption><thead><tr><th>6週目の週</th><th>6週の下落</th><th>4週後</th><th>13週後</th></tr></thead><tbody><tr><td>2002-06-28</td><td>-56.1</td><td>-14.4</td><td>-50.2</td></tr><tr><td>2008-07-11</td><td>-52.8</td><td>-5.7</td><td>-41.6</td></tr><tr><td>2012-03-23</td><td>-8.5</td><td>-8.0</td><td>-10.7</td></tr><tr><td>2012-10-26</td><td>-12.9</td><td>-0.6</td><td>+3.7</td></tr><tr><td>2026-11-13</td><td>-30.4</td><td></td><td></td></tr></tbody></table></div><div class="note">週次はYahoo Financeの日足の金曜終値(休日は直前の終値)。2008年は7週まで続いた。サンプルが少なく、将来を示すものではない。</div>
+<h3>日本株への含意</h3><p>11/13号で見たとおり、アドバンテストなど東京の関連株は「エヌビディアと同じ日に同じだけ動く」関係が強くありません。決算は東京時間の11/18早朝に出るため、東京で反応するのは11/18です。指数で見ると、決算前の11/16〜17は様子見になりやすく、決算後はエヌビディア個別の材料(ガイダンス、中国、経営体制)と、半導体全体の需要の話を分けて考える必要があります。</p>
+<h3>見方を変える条件</h3><p>決算後に株価が想定変動を超えて上昇し、そのまま週足で連続安が止まれば「出尽くし」側が正しかったことになります。逆にガイダンスが前回並みにとどまり、同業(AMD、ブロードコム、TSMC)にも売りが広がれば、個別の問題ではなくAI投資全体の再評価と考えます。</p>
+<h3>発信用の一言</h3><p class="post">エヌビディアは6週連続安で決算へ(2012年10月以来、データで確認)。過去の6週連続安は4回だけで、13週後に上がっていたのは1回。ただしうち2回は2002年と2008年。オプションの想定変動±9.1%は普段の日次の3.7倍。</p>
+<div class="src">ネタ元: <a href="https://www.benzinga.com/markets/earnings/26/11/63277064/nvidia-earnings-without-jensen-huang-implied-move-bending-spoons" target="_blank" rel="noopener noreferrer">Benzinga: フアン氏退任後初の決算、オプションは9.1%の変動を織り込む(報道)</a> / <a href="https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-along-baggage-top-053700154.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: エヌビディア決算が来週の焦点(報道)</a> / <a href="https://finance.yahoo.com/technology/article/nothing-has-changed-why-some-nvidia-stock-bulls-arent-wavering-after-jensen-huang-ouster-204522204.html" target="_blank" rel="noopener noreferrer">Yahoo Finance: フアン氏退任後も強気派は「何も変わっていない」(報道)</a> / <a href="https://seekingalpha.com/article/4967764-nvidia-earnings-report-could-wreck-the-market" target="_blank" rel="noopener noreferrer">Seeking Alpha: エヌビディア決算が市場を崩しうる(意見)</a> / <a href="https://x.com/cfigroup_en/status/2119790551469789515" target="_blank" rel="noopener noreferrer">X: CFI Group 決算の市場予想(投稿の要約、未検証)</a></div>
+</article><article class="card" data-t="資金フロー">
+<div class="meta"><span>資金フロー</span><span class="badge ok">検証: 支持</span></div>
+<h2>「売りではなく入れ替え」。エヌビディア高値以降、指数は-3.3%でもS&amp;P500の7割は上昇</h2>
+<p>今週はエヌビディアの決算とウォルマートの決算(11/19)が重なり、「AIが揺れても消費や防御的な銘柄に資金が移るだけで、相場全体の売りではない」という見方がXで出ています。エヌビディアとS&amp;P500が高値をつけた10/6以降を見ると、時価総額加重のS&amp;P500は-3.3%ですが、等加重(RSP)は+4.2%、採用銘柄の72%が上昇しています。入れ替えという見方はデータに合います。ただし、半導体が3%以上下げて生活必需品が1%以上上げた日の後は、S&amp;P500の20日後が弱めだった点は注意が必要です。</p>
+<h3>データ</h3><ul><li>10/6→11/13: SPY-3.2%、QQQ-10.5%、SMH-23.0%、XLK-15.7%に対し、XLV+13.0%、XLP+12.9%、XLF+8.7%、XLRE+7.9%(11/12まで)、XLY+7.4%、XLU+7.0%、RSP+4.2%</li><li>S&amp;P500採用銘柄(データ上520銘柄、入れ替えを含む)の10/6→11/13: 上昇72.1%、中央値+7.2%</li><li>11/13: S&amp;P500-0.40%、SMH-2.99%でも、値上がり銘柄は65.2%(取得できた445銘柄)。XLP+1.42%、XLF+0.81%</li><li>2000年以降、SMHが-3%以下でXLPが+1%以上の日(46日、30日内の重複を除きn=27)の後20日のS&amp;P500: 中央値-0.98%、上昇37%</li><li>VIXは19.30で、指数の下げに比べて恐怖は大きくない</li></ul>
+<div class="scroll"><table><caption>10/6(エヌビディア・S&amp;P500の高値)以降の騰落(%)</caption><thead><tr><th>ETF</th><th>10/6→11/13</th><th>今週</th><th>11/13</th></tr></thead><tbody><tr><td>SMH(半導体)</td><td>-23.0</td><td>+4.9</td><td>-2.99</td></tr><tr><td>XLK(情報技術)</td><td>-15.7</td><td>+3.4</td><td>-2.01</td></tr><tr><td>QQQ</td><td>-10.5</td><td>+3.6</td><td>-1.20</td></tr><tr><td>SPY</td><td>-3.2</td><td>+2.6</td><td>-0.36</td></tr><tr><td>RSP(等加重)</td><td>+4.2</td><td>+2.4</td><td>+0.20</td></tr><tr><td>XLF(金融)</td><td>+8.7</td><td>+2.7</td><td>+0.81</td></tr><tr><td>XLP(生活必需品)</td><td>+12.9</td><td>+2.5</td><td>+1.42</td></tr><tr><td>XLV(ヘルスケア)</td><td>+13.0</td><td>+2.2</td><td>+0.54</td></tr></tbody></table></div><div class="note">Yahoo Financeの日足。今週は11/6終値→11/13終値。</div>
+<h3>日本株への含意</h3><p>米国で起きているのは「AI・半導体から、それ以外の大型株への入れ替え」で、相場全体からの資金流出ではありません。日本株でも、指数が半導体の値がさ株に左右される日経平均より、TOPIXや内需・金融のほうが下げにくい構図が続くかが論点です(解釈)。日経平均とTOPIXの差は夕方の日本・アジア版で確認してください。</p>
+<h3>見方を変える条件</h3><p>エヌビディアの決算後に半導体がさらに売られ、同時に等加重のRSPや生活必需品も下げ始めれば、入れ替えではなく相場全体の売りに変わったと考えます。逆に半導体が戻り、生活必需品が売られれば、入れ替えの逆回転です。</p>
+<h3>発信用の一言</h3><p class="post">エヌビディアとS&amp;P500の高値(10/6)から、S&amp;P500は-3.3%、等加重は+4.2%。採用銘柄の7割は上がっている。半導体-23%、生活必需品+13%。指数の下げは「売り」より「入れ替え」。ただ、半導体安・必需品高の日の後20日は、S&amp;P500が弱めだった(n=27)。</p>
+<div class="src">ネタ元: <a href="https://x.com/eWhispers/status/2121701948789559393" target="_blank" rel="noopener noreferrer">X: Earnings Whispers「エヌビディアの試練、小売の決算」(投稿の要約、未検証)</a> / <a href="https://x.com/eToroUS/status/2120939172282192373" target="_blank" rel="noopener noreferrer">X: eToro US「一社の経営不安をAIの終わりと混同すべきでない」(投稿の要約、未検証)</a> / <a href="https://x.com/CHARTISKING/status/2121955766362107931" target="_blank" rel="noopener noreferrer">X: 今週の予定(ウォーシュ議長講演、小売売上高、FOMC議事要旨。投稿の要約、未検証)</a></div>
+</article><article class="card" data-t="クロスアセット">
+<div class="meta"><span>クロスアセット</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>ビットコインが週末に一時6万2千ドル台。週末の暗号資産安は月曜の株安を示すか</h2>
+<p>ビットコインは11/15(日)に一時6万2千ドル台まで下げ、その後6万4千ドル台に戻したと報じられています(報道値)。11/4の高値からは約2割の下げです。週末に株式市場は開いていないため、「暗号資産の週末の下げは月曜の株の先行指標」という見方がよく出ます。2014年以降の全期間では関係はほとんどありませんが、2021年以降に限ると、週末に5%以上下げた後の月曜は株安に傾いていました(n=12と小さい)。</p>
+<h3>データ</h3><ul><li>報道の日曜値約64,821ドル(CoinDesk、11/15 12:33 EST)は、データ上の11/12(71,343ドル)比-9.1%、11/4(80,405ドル)比-19.4%</li><li>2014年以降、金曜→日曜のビットコインの騰落と月曜の騰落の相関: ナスダック100 0.06、日経平均0.11、CME日経先物0.03(n=約520〜550週)</li><li>週末に-7%以下だった週(n=18)の月曜: ナスダック100中央値+0.11%(上昇59%)、日経平均+0.01%(上昇54%)。全期間では先行指標として働いていない</li><li>2021年以降に限ると、週末-5%以下(n=12)の月曜: ナスダック100中央値-0.78%(上昇42%)、日経平均-0.92%(上昇36%、n=11)、CME日経先物-1.24%(上昇33%)。相関も0.12〜0.21に上がる</li><li>ビットコインとナスダック100の日次相関は直近60日0.44、250日0.45で、平日は同じ方向に動きやすい</li></ul>
+<div class="scroll"><table><caption>ビットコインの週末(金→日)の下げと月曜の騰落(中央値、%)</caption><thead><tr><th>条件</th><th>n</th><th>ナスダック100</th><th>日経平均</th><th>CME日経先物</th></tr></thead><tbody><tr><td>全週末</td><td>約550</td><td>+0.20</td><td>+0.14</td><td>+0.13</td></tr><tr><td>週末-7%以下(2014年以降)</td><td>18</td><td>+0.11</td><td>+0.01</td><td>-0.02</td></tr><tr><td>週末-5%以下(2014年以降)</td><td>38</td><td>+0.06</td><td>+0.05</td><td>+0.01</td></tr><tr><td>週末-5%以下(2021年以降)</td><td>12</td><td>-0.78</td><td>-0.92</td><td>-1.24</td></tr></tbody></table></div><div class="note">ビットコインはYahoo FinanceのBTC-USD(UTCの日付)。月曜の騰落は金曜終値比。日経平均は東京の祝日を除くためnが少ない。2021年以降は少数サンプル。</div>
+<h3>日本株への含意</h3><p>週末の暗号資産安は、それだけで月曜の東京の下げを示すとは言えません。ただ、2021年以降はビットコインと株式の連動が強まっており、週末の下げが大きい週の月曜は日経平均も弱めでした。月曜の東京は、ビットコイン関連の保有銘柄(メタプラネットなど)に直接の影響が出やすく、指数への影響は朝のCME日経先物(金曜は61,040円、日経平均終値比-0.17%)で確かめるのが現実的です。</p>
+<h3>見方を変える条件</h3><p>月曜の東京とナスダック先物がビットコイン安に反応せずに上がれば、今回も「週末の暗号資産安は株の先行指標ではない」という全期間の結果どおりです。逆に月曜に株が下げ、ビットコインと同時に戻らなければ、2021年以降の連動が続いていると考えます。</p>
+<h3>発信用の一言</h3><p class="post">ビットコインは日曜に一時6万2千ドル台(報道)。週末の暗号資産安は月曜の株安のサインか。2014年以降ではほぼ無関係(週末-7%以下の後のナスダックは中央値+0.1%)。ただ2021年以降に絞ると、週末-5%以下の後の月曜は日経平均の中央値-0.9%(n=11)。</p>
+<div class="src">ネタ元: <a href="https://www.coindesk.com/price/bitcoin" target="_blank" rel="noopener noreferrer">CoinDesk: ビットコイン価格(11/15 12:33 EST時点の表示、報道値)</a> / <a href="https://kucoin.com/news/flash/bitcoin-drops-to-62-006-usd-triggers-major-liquidation-events" target="_blank" rel="noopener noreferrer">KuCoin News: ビットコインが62,006ドルまで下落(報道)</a> / <a href="https://crypto.news/why-bitcoin-price-fell-62000/" target="_blank" rel="noopener noreferrer">crypto.news: 8万1千ドルから6万2千ドルへの下落の理由(報道)</a> / <a href="https://cryptoticker.io/en/bitcoin-price-62000-crash-fed-hike-60000-level-november-15-2026/" target="_blank" rel="noopener noreferrer">CryptoTicker: 6万2千ドルへの下落と6万ドルの節目(報道)</a></div>
+</article></div>
+
+
+
+<h2 class="section" id="sec-x">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/cfigroup_en/status/2119790551469789515" target="_blank" rel="noopener noreferrer">エヌビディア決算の市場予想は売上高約1,088億ドル、EPS2.47ドル(投稿)</a>（未検証）</p><p>報道の予想とおおむね一致。株価の連続安と想定変動をカード1で検証</p></div><div class="x"><p><a href="https://x.com/robot2trade1/status/2121730176413286617" target="_blank" rel="noopener noreferrer">フアン氏の退任とエヌビディア・AI業界への影響を整理したスレッド(投稿)</a>（未検証）</p><p>退任の事実は報道で確認済み。業界への影響は決算後に確かめる</p></div><div class="x"><p><a href="https://x.com/eToroUS/status/2120939172282192373" target="_blank" rel="noopener noreferrer">「一社の経営不安をAIの終わりと混同すべきでない」(eToro US、投稿)</a>（未検証）</p><p>指数と等加重の差をカード2で検証し、支持</p></div><div class="x"><p><a href="https://x.com/eWhispers/status/2121701948789559393" target="_blank" rel="noopener noreferrer">今週はエヌビディア、小売大手、中国テックの決算(Earnings Whispers、投稿)</a>（未検証）</p><p>ウォルマートは11/19寄り前。消費側の確認材料として注目</p></div><div class="x"><p><a href="https://x.com/CHARTISKING/status/2121955766362107931" target="_blank" rel="noopener noreferrer">今週の予定: 月曜ウォーシュ議長講演、火曜小売売上高とエヌビディア決算、水曜FOMC議事要旨(投稿)</a>（未検証）</p><p>一次情報(FRB・国勢調査局の予定表)は未確認</p></div>
+<p class="method">週末版です。定量値はYahoo Financeのデータ(GitHub Actionsで取得、11/13のNY引けまで)から自前で算出しました(insights/analysis/2026-11-16.py、結果は insights/data/analysis/2026-11-16.json)。ビットコインのデータは11/14 01:44 UTC取得時点までで、11/13の日足は欠損しています。日曜の値は報道値です。エヌビディアの決算予想、オプションの想定変動、決算日は報道値で、一次情報は未確認です。週次の連続安は金曜終値で数えています。S&amp;P500採用銘柄の騰落は daily-review/data の銘柄一覧(入れ替えを含む520銘柄)で計算しました。XLCとXLREは11/12までのデータです。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しているため、話題量やランキングは反映していません。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルかつ重複期間を含み、将来の結果を保証しません。13F(9月末時点の持ち高)の提出期限は11/16と報じられており、大物投資家の欄は次号以降で更新します。 情報提供を目的としたもので、投資勧誘ではありません。</p>
+</div><script>
+document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.querySelectorAll('.card').forEach(c => {
+    c.style.display = (b.dataset.t === 'all' || c.dataset.t === b.dataset.t) ? '' : 'none';
+  });
+});
+</script></body></html>
