@@ -784,5 +784,143 @@
     }
    ]
   }
+ },
+ "2026-09-04": {
+  "us": {
+   "items": [
+    {
+     "title": "8月雇用統計が予想を大幅に上回る",
+     "detail": "非農業部門雇用者数は16.2万人増で、市場予想の約5.3万人を大きく上回った。FRBの9月利上げ観測が約60%に高まり、S&P500は0.38%安。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-09-04/yields-rise-stocks-mostly-ease-after-solid-us-jobs-report"
+     }
+    },
+    {
+     "title": "米長期金利が上昇",
+     "detail": "10年債利回りは4.774%まで上昇し、2年債利回りは2025年1月以来の高水準。金利に敏感な業種が売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-09-04/yields-rise-stocks-mostly-ease-after-solid-us-jobs-report"
+     }
+    },
+    {
+     "title": "半導体株は底堅く、ナスダック100は小幅高",
+     "detail": "金融・エネルギーが下げる一方で半導体が下支えし、ナスダック100連動ETFは小幅に上昇した。指数間で方向が割れた。",
+     "direction": "flat",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/09/04/stocks-slip-as-hot-jobs-report-boost-treasury-yields"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株高を受けて5日ぶり反発",
+     "detail": "FRBの早期利上げ観測が後退して前日の米株が上昇し、日経平均は806円高の6万5020円94銭と6万5000円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4611702"
+     }
+    },
+    {
+     "title": "AI・半導体株に押し目買い",
+     "detail": "4日続落していた反動で、ソフトバンクG、アドバンテスト、キオクシアHDなどが買われ指数を押し上げた。トヨタ、任天堂、商社株は下げた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4611702"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-03": {
+  "us": {
+   "items": [
+    {
+     "title": "ウォーラーFRB理事が利上げ見送りに前向きな発言",
+     "detail": "ロイターに対し、ディスインフレが続けば金利据え置きを支持し得ると述べた。9月利上げの織り込みは63%から約50%に低下し、ダウは624ドル高。",
+     "direction": "up",
+     "source": {
+      "label": "Sentisense",
+      "url": "https://app.sentisense.ai/stories/dow-surges-over-600-points-as-feds-waller-signals-no-rate-hike-09032026"
+     }
+    },
+    {
+     "title": "金利落ち着き、金融・通信が上昇",
+     "detail": "金融が+2.38%、通信サービスが+2.25%と上昇をけん引。S&P500は+1.06%、ナスダックは+1.40%で、ダウは8月4日以来の上げ幅。",
+     "direction": "up",
+     "source": {
+      "label": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-best-day-in-a-month/cZsufnBRJvu"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "韓国株の急落でAI・半導体株が売られる",
+     "detail": "後場にKOSPIなどアジア株が下げ、アドバンテスト、イビデン、フジクラなどが下落。一時6万4000円を割り、終値は111円安の6万4214円48銭で4日続落。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4610886"
+     }
+    },
+    {
+     "title": "米イラン対立の再燃による原油高への警戒",
+     "detail": "中東情勢を背景とした原油高への懸念が相場の重しとなった。TOPIXは20ポイント高と日経平均と逆行した。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4610886"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-01": {
+  "us": {
+   "items": [
+    {
+     "title": "米軍のイラン攻撃で原油が急騰",
+     "detail": "週末の米軍の攻撃に続き中東情勢が悪化。米原油は5.2%高の1バレル90.22ドルとなり、インフレ懸念から3日続落。ダウは419ドル安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ny1.com掲載)",
+      "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/09/01/bond-sell-off-heats-up-as-oil-prices-continue-to-rise"
+     }
+    },
+    {
+     "title": "債券売りが加速",
+     "detail": "国債が売られ利回りが上昇し、株式の重荷となった。ナスダックは1.03%安、S&P500は0.71%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ny1.com掲載)",
+      "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/09/01/bond-sell-off-heats-up-as-oil-prices-continue-to-rise"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "長期金利上昇と中東発の原油高が重荷",
+     "detail": "寄り後に一時735円安まで売られたが下げ幅を縮め、終値は96円59銭安の6万6215円34銭。TOPIXは25ポイント高。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2031174"
+     }
+    }
+   ]
+  }
  }
 }

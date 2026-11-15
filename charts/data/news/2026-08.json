@@ -191,5 +191,419 @@
     }
    ]
   }
+ },
+ "2026-08-31": {
+  "us": {
+   "items": [
+    {
+     "title": "米イランの攻撃応酬で原油が上昇",
+     "detail": "週末の米軍のイラン攻撃で原油が上昇し、ブレント原油は2.7%高で1バレル90ドル超。インフレ懸念から3指数がそろって下落(S&P500は-0.33%)。",
+     "direction": "down",
+     "source": {
+      "label": "Honolulu Star-Advertiser(AP)",
+      "url": "https://www.staradvertiser.com/2026/08/31/breaking-news/wall-street-closes-lower-as-oil-prices-jump-indexes-notch-monthly-gains/"
+     }
+    },
+    {
+     "title": "FRB利上げ観測が強まる",
+     "detail": "原油高でインフレ警戒が高まり、利上げ観測を裏付ける形となった。ダウは374ドル安。月間では3指数とも上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/579661"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安とウォーシュ議長発言で寄り付き急落",
+     "detail": "前週末の米半導体株安と、ウォーシュFRB議長の発言で米利上げ観測が強まり、一時1500円超下げたが、その後戻して終値は93円63銭安の6万6311円93銭。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4608167"
+     }
+    },
+    {
+     "title": "TOPIXは8日続伸",
+     "detail": "日経平均は小幅安だったが、TOPIXは9.58ポイント高の4156.29。電力・ガスが業種首位となった。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260831nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-08-28": {
+  "us": {
+   "items": [
+    {
+     "title": "ウォーシュFRB議長がインフレ対応を重視",
+     "detail": "インフレ抑制を優先する姿勢を改めて示し、9月利上げ観測が強まった。上昇していた株価が下げに転じ、S&P500は-0.25%。",
+     "direction": "down",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/sp-500-nasdaq-fall-fed-chair-warsh-inflation-fight/"
+     }
+    },
+    {
+     "title": "ハイテクが重く、小型株が大幅安",
+     "detail": "ナスダックは0.52%安、ラッセル2000は1.4%安。ダウはほぼ横ばい。主要3指数は週間では上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/579251"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア好決算でAI・半導体株が上昇",
+     "detail": "前日の米株高を受けアドバンテスト、東京エレクトロンが買われ、一時700円超上昇。日経平均は273円58銭高の6万6405円56銭。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4607043"
+     }
+    },
+    {
+     "title": "ジャクソンホールを前に上値は重く",
+     "detail": "買い一巡後は様子見が強まって伸び悩んだ。キオクシアHD、フジクラは下落した。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4607043"
+     }
+    }
+   ]
+  }
+ },
+ "2026-08-27": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアの好決算・見通しで半導体が上昇",
+     "detail": "S&P500の11業種中、情報技術だけが上昇。ナスダックは1.57%高、S&P500は0.72%高。",
+     "direction": "up",
+     "source": {
+      "label": "HL(米国市況)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-climb-as-nvidia-and-salesforce-spark-broad-tech-rally"
+     }
+    },
+    {
+     "title": "セールスフォースも予想を上回る決算で急伸",
+     "detail": "決算が市場予想を上回りハイテク株の上昇を後押しした。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/stock-indices-settle-higher-nvidia-earnings-spur-tech-stock-rally"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算で朝高も買い続かず",
+     "detail": "朝方は6万7000円に迫ったが急速に伸び悩み、終値は130円18銭安の6万6131円98銭と3日ぶり反落。押し下げ最大はアドバンテスト。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4606208"
+     }
+    },
+    {
+     "title": "TOPIXは小幅高で日経平均と逆行",
+     "detail": "TOPIXは6.20ポイント高の4117.22。キオクシアなどが指数を支えた。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4606208"
+     }
+    }
+   ]
+  }
+ },
+ "2026-08-26": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算とPCE統計を前に様子見",
+     "detail": "S&P500は0.02%安、ダウは0.21%安、ナスダックは0.08%安とほぼ横ばい。決算は引け後の発表だった。",
+     "direction": "flat",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/578366"
+     }
+    },
+    {
+     "title": "予想を上回る物価指標で金利先高観",
+     "detail": "7月の物価統計が市場予想を上回り、利上げ観測を支えて株価の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/wall-street-slips-after-us-inflation-nvidia-earnings/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中東警戒の後退で原油が下落、金融株が上昇",
+     "detail": "銀行・保険・証券がそろって買われ、日経平均は405円73銭高の6万6262円16銭と続伸し6万6000円台を回復。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/612964/index"
+     }
+    },
+    {
+     "title": "アドバンテスト、ソフトバンクGが指数を押し上げ",
+     "detail": "2銘柄で約362円分を押し上げた。売買代金は約4カ月ぶりの低水準で、エヌビディア決算待ちの空気が強かった。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/612964/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-08-25": {
+  "us": {
+   "items": [
+    {
+     "title": "原油急落で金利低下",
+     "detail": "WTI原油は4.93%安の1バレル80.82ドル。債券利回りが下がり株式の支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "HL(米国市況)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-gain-as-inflation-fears-ease"
+     }
+    },
+    {
+     "title": "エヌビディア決算前に半導体が買い戻し",
+     "detail": "ハイテクが全11業種で最大の上昇。ナスダックは0.66%高、S&P500は0.3%高。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/578034"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米半導体株安で朝は900円超下げるも切り返し",
+     "detail": "朝は売りが先行したが、韓国・台湾株が上昇に転じて買い戻され、328円34銭高の6万5856円43銭と3日ぶりに反発。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4604624"
+     }
+    },
+    {
+     "title": "売買代金は4カ月ぶりの低水準",
+     "detail": "東証プライムの売買代金は約7兆円。非鉄や電線株に資金が向かった。",
+     "direction": "flat",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260825nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-08-24": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が下落",
+     "detail": "S&P500は0.28%安、ナスダックは0.76%安。エヌビディアなどが弱く、決算を前にポジション調整が出た。ダウは0.26%高と逆行。",
+     "direction": "down",
+     "source": {
+      "label": "HL(米国市況)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mixed-as-chip-stocks-drag-despite-easing-treasury-yields"
+     }
+    },
+    {
+     "title": "原油下落で長期金利は低下",
+     "detail": "金利低下がダウなど幅広い銘柄の支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "HL(米国市況)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mixed-as-chip-stocks-drag-despite-easing-treasury-yields"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "金利上昇を受け半導体株などが売られる",
+     "detail": "日米の長期金利上昇と半導体・AI関連株安で、日経平均は488円27銭安の6万5528円09銭と続落。アドバンテスト、ソフトバンクGで約563円押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/612149/index"
+     }
+    },
+    {
+     "title": "売買代金は3カ月半ぶりに8兆円割れ",
+     "detail": "エヌビディア決算を前に積極買いは限られた。TOPIXは3日続伸の4073.29。",
+     "direction": "flat",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260824nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-08-21": {
+  "us": {
+   "items": [
+    {
+     "title": "米景況感が約4年ぶりの強さ",
+     "detail": "米企業活動が4年超ぶりの速さで拡大したとの統計が株価を押し上げ、ダウは1%高、S&P500は0.4%高。",
+     "direction": "up",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/wall-street-rises-on-the-day-but-falls-for-the-week-bond-yields-and-iran-in-focus/"
+     }
+    },
+    {
+     "title": "週間では下落、金利とイランが焦点",
+     "detail": "S&P500は週間で1.4%下落しナスダックは2.1%下落。債券利回りと中東情勢が引き続き重荷だった。",
+     "direction": "down",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/wall-street-rises-on-the-day-but-falls-for-the-week-bond-yields-and-iran-in-focus/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安と原油高で消費関連株が売られる",
+     "detail": "前日のダウ下落とウォルマート決算後の急落、中東悪化懸念で、ファーストリテイリングなど消費関連株が下げ、終値は200円43銭安の6万6016円36銭。",
+     "direction": "down",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/611661/index"
+     }
+    },
+    {
+     "title": "半導体の一部と海運株は上昇",
+     "detail": "午前は一時900円超下げたが、売り一巡後は下げ渋った。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/611661/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-08-20": {
+  "us": {
+   "items": [
+    {
+     "title": "ウォルマートの決算が失望、株価急落",
+     "detail": "4〜6月期の売上が予想に届かず、報道によれば約9.1%安と4年ぶりの下落率。ダウを最も押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/wall-street-sinks-as-bond-yields-rise-walmart-results-disappoint/"
+     }
+    },
+    {
+     "title": "長期金利と原油が上昇",
+     "detail": "トランプ氏のイランへの新たな威嚇でブレント原油が2.4%上昇し、債券利回りも上がった。ダウは703ドル安、S&P500は0.87%安。",
+     "direction": "down",
+     "source": {
+      "label": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-indices-end-lower-as-trump-s-economic-warfare-threats-push-yields-oil-higher/cZYeR5dRJZA"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米国債買い入れ消却の増額で金利が急低下",
+     "detail": "前日に米財務省が国債の買い入れ消却増額を発表し米長期金利が低下。日経平均は890円37銭高の6万6216円79銭と3日ぶりに大幅反発。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4602042"
+     }
+    },
+    {
+     "title": "出遅れ株に買い、東エレク・イビデンは逆行安",
+     "detail": "自動車・電力・医薬品などに買いが入り、ソフトバンクG、ファーストリテイリングが指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260820nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-08-17": {
+  "us": {
+   "items": [
+    {
+     "title": "原油高とインフレ懸念",
+     "detail": "中東戦争終結への期待が後退し原油が上昇。S&P500は0.52%安、ダウは272ドル安。",
+     "direction": "down",
+     "source": {
+      "label": "HL(米国市況)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-rising-oil-prices,-bond-yields-push-stocks-lower"
+     }
+    },
+    {
+     "title": "米30年債利回りが2007年以来の高水準",
+     "detail": "債券利回りの上昇も株価の重荷となった。週内の小売決算を控える中、全指数が下落。",
+     "direction": "down",
+     "source": {
+      "label": "Honolulu Star-Advertiser(AP)",
+      "url": "https://www.staradvertiser.com/2026/08/17/breaking-news/wall-street-indexes-slip-as-oil-prices-rise-and-retail-results-loom/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体関連が後場に上昇、5連騰で6万9000円台",
+     "detail": "アドバンテスト、キオクシアなど4銘柄で約625円分を押し上げ、終値は506円45銭高の6万9220円25銭。6万9000円台での終値は7月6日以来。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券(大引け)",
+      "url": "https://finance.matsui.co.jp/news/609953/index"
+     }
+    },
+    {
+     "title": "値下がり銘柄が多くTOPIXは反落",
+     "detail": "TOPIXは13.09ポイント安の4184.11で、33業種中25業種が下落した。キオクシアは15%高。",
+     "direction": "flat",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260817nk/"
+     }
+    }
+   ]
+  }
  }
 }
