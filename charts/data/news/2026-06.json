@@ -1,4 +1,32 @@
 {
+ "2026-06-02": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連が支えS&P500とナスダックが最高値",
+     "detail": "S&P500は0.13%高の7609.78で最高値。HPEが決算で約19.5%急騰した一方、アルファベットは800億ドルの調達計画を発表して約3.9%下げた。米イランのホルムズ海峡再開協議で上げは限られた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-tuesday-6-2-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン和平協議の停滞で利益確定売り",
+     "detail": "日経平均は200円09銭安の6万6734円24銭。寄り後に一時1383円下げた。年初来安値を更新する銘柄が多かった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1997846"
+     }
+    }
+   ]
+  }
+ },
  "2026-06-03": {
   "us": {
    "items": [
@@ -40,6 +68,34 @@
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202606031139/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-04": {
+  "us": {
+   "items": [
+    {
+     "title": "原油安でダウが最高値、ブロードコム決算でナスダックは小幅安",
+     "detail": "ダウは1.7%高で最高値、S&P500は0.4%高、ナスダックは0.1%安。原油が約3%下落し長期金利も低下して、金融株や中小型株が買われた。ブロードコムの決算が予想に届かず、半導体株が重しとなった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-thursday-6-4-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ブロードコム急落でAI関連に売り、ソフトバンクGが11%安",
+     "detail": "日経平均は931円44銭安(1.36%安)の6万7470円69銭。前日に初の6万8000円台に乗せた反動に加え、ブロードコムの時間外急落でAI・半導体株が売られた。ソフトバンクグループは11.28%安で、1銘柄で指数を約755円押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1998737"
      }
     }
    ]
@@ -165,6 +221,62 @@
    ]
   }
  },
+ "2026-06-10": {
+  "us": {
+   "items": [
+    {
+     "title": "AI・半導体株の売りとイラン情勢で大幅安",
+     "detail": "S&P500は1.6%安の7266.99、ダウは1.9%安、ナスダックは2%安。S&P500のIT部門は6月2日の最高値から11%下落し調整局面入り。物価指標は無難だったが、ハイテクが反転し、原油高も重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-wednesday-6-10-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が1237円安、米株安を受け売り先行",
+     "detail": "日経平均は1237円36銭安の6万4179円27銭、TOPIXは48.51ポイント安。前日の米国市場の大幅下落が東京にも波及した。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/2000852"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-11": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏がイラン攻撃を中止、取引合意に言及",
+     "detail": "ダウは929ドル(1.9%)高、S&P500は1.8%高の7394.30、ナスダックは2.5%高。トランプ大統領がイランへの攻撃を取りやめ、近く合意に署名すると述べた。原油が下落し、半導体株が主導した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-thursday-6-11-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "寄り後1800円超安から急反発、小幅高",
+     "detail": "日経平均は38円高の6万4217円27銭。寄り後に1800円超下げたが、急速にリバウンドしてプラス圏で終えた。前日の米株安が売りを誘った。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/2001298"
+     }
+    }
+   ]
+  }
+ },
  "2026-06-12": {
   "jp": {
    "items": [
@@ -248,6 +360,160 @@
    ]
   }
  },
+ "2026-06-16": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が売られナスダック下落、ダウは最高値",
+     "detail": "S&P500は0.6%安、ナスダックは1.2%安。ブロードコム、マイクロン、AMD、インテルが最大6%下げた。ダウはJPモルガンなど金融株高で0.6%上昇し、2日連続で最高値を更新した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-tuesday-6-16-2026/"
+     }
+    },
+    {
+     "title": "米イラン合意観測で原油6%安",
+     "detail": "原油は約6.1%下落して75.82ドルとなった。ホルムズ海峡再開への期待からエネルギー株が最も下げた。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-tuesday-6-16-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀が利上げ、日経平均は一時7万円台も終値は6万9000円台",
+     "detail": "日経平均は87円高の6万9404円50銭と最高値を更新した。日銀が政策金利を0.75%から1%へ引き上げた。場中は初めて7万円台をつけたが、値下がり銘柄は7割を占めた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/2002961"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-17": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが年内利上げの可能性を示唆、全面安",
+     "detail": "S&P500は1.2%安の7420.10、ダウは1.0%安、ナスダックは1.3%安。FRB当局者のほぼ半数が年内の利上げを見込み、S&P500の11業種すべてが下落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-wednesday-6-17-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "5日続伸、終値と TOPIX が最高値",
+     "detail": "日経平均は497円75銭高の6万9902円25銭で5日続伸し、終値で最高値を更新した。TOPIXも4013.23と最高値だった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/2003430"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-18": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が最高値、アップルとインテルの発表が材料",
+     "detail": "S&P500は1.1%高の7500.58、ナスダックは1.9%高。アップルとインテルの半導体製造に関する発表で半導体株が最高値をつけ、前日のFRB発言による下げを取り戻した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-thursday-6-18-2026/"
+     }
+    },
+    {
+     "title": "米イラン暫定和平合意で原油安",
+     "detail": "米イランの暫定和平合意の署名で原油が下落し、VIXは18.44から16.40に低下した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-thursday-6-18-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン戦闘終結の署名を好感、初の7万円台",
+     "detail": "日経平均は1151円高の7万1053円49銭(+1.65%)と、終値で初めて7万円台に乗せた。米国とイランが戦闘終結の覚書に署名したことで投資家心理が改善し、AI関連などハイテク株が相場を引っ張った。",
+     "direction": "up",
+     "source": {
+      "label": "nippon.com",
+      "url": "https://www.nippon.com/ja/japan-data/h02819/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-19": {
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株高で7日続伸、連日の最高値",
+     "detail": "日経平均は196円高の7万1250円06銭で7日続伸し、連日の最高値更新。前日の米国で半導体株指数が最高値をつけたことが支えた。後場は一時マイナス圏に沈んだが、大引けにかけて買い戻された。TOPIXは23ポイント安。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/588860/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-22": {
+  "us": {
+   "items": [
+    {
+     "title": "スペースX株急落とメガキャップ安でナスダック下落",
+     "detail": "ナスダックは1.3%安、S&P500は0.4%安。スペースX(SPCX)が16%下落し、アルファベットも主要AI研究者の流出報道で5.2%安となった。ダウは原油安に支えられ0.3%高。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-monday-6-22-2026/"
+     }
+    },
+    {
+     "title": "米イラン和平交渉の進展期待",
+     "detail": "和平交渉の進展期待が原油安につながり、ダウを支えた。ただ、ハイテク売りを打ち消すには至らなかった。",
+     "direction": "up",
+     "source": {
+      "label": "ストックツイッツ",
+      "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-drop-as-space-x-broader-tech-weakness-outweighs-us-iran-hopes-spcx-googl-nflx-coin-mu-in-focus/cZKMJLHR79B"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ハイテク主導で日経平均が初の7万2000円台",
+     "detail": "日経平均は1103円高の7万2353円96銭と最高値を更新し、終値で初めて7万2000円台に乗せた。ハイテク銘柄がけん引した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/2005336"
+     }
+    }
+   ]
+  }
+ },
  "2026-06-23": {
   "jp": {
    "items": [
@@ -289,6 +555,43 @@
      "source": {
       "label": "Briefing.com",
       "url": "https://briefing.com/stock-market-update/archive/2026/6/23/semiconductors-slide-ahead-of-microns-earnings-broader-market-shows-resilience"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-24": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株安でS&P500は小幅安、ダウは上昇",
+     "detail": "S&P500は0.1%安の7358.22、ナスダックは0.4%安、ダウは0.4%高。マイクロソフトが約2.3%下落し最大の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-wednesday-6-24-2026/"
+     }
+    },
+    {
+     "title": "原油下落でインフレ懸念が後退",
+     "detail": "ブレント原油が3.8%下落し、イラン戦争前の水準に近づいた。インフレ懸念が和らぎ、ダウは小幅に上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC)",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-6242026-134182362"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安を受け半導体に売り、3日続落",
+     "detail": "日経平均は613円安の6万9174円。前日の米ハイテク株安を受け主力の半導体関連が売られ、後場は先物主導で下げ幅を広げ一時6万8000円台半ばまで下げた。値下がり銘柄数は826、値上がりは678。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/2006064"
      }
     }
    ]
@@ -363,6 +666,71 @@
      "source": {
       "label": "松井証券",
       "url": "https://finance.matsui.co.jp/news/591188/index"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-29": {
+  "us": {
+   "items": [
+    {
+     "title": "米イラン緊張の緩和とハイテク買い戻しで大幅高",
+     "detail": "ダウは初めて5万2000ドル台で引け、ナスダックは2.1%上昇した。米イランの緊張緩和に加え、メガキャップのハイテク株への押し目買いが入った。アルファベットはダウ採用を受け約4%高。",
+     "direction": "up",
+     "source": {
+      "label": "タペボード",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-06-29"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "下げ幅1300円超から急速に切り返しプラス転換",
+     "detail": "日経平均は107円高の6万9468円。前週末の米半導体株安で一時1300円超下げたが、米イランの攻撃停止合意による中東和平期待や韓国政府の投資計画が材料となり、大引けにかけてプラスに転じた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/2007957"
+     }
+    }
+   ]
+  }
+ },
+ "2026-06-30": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク・半導体株がけん引、四半期末に上昇",
+     "detail": "S&P500は0.8%高の7499.36、ダウは終値で過去最高の5万2319ドル。AMDやインテルなど半導体株が買われ、S&P500は4〜6月期で2020年以来の上昇率となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(スマイリー)",
+      "url": "https://www.smdailyjournal.com/business/how-major-us-stock-indexes-fared-tuesday-6-30-2026/article_a244e682-74aa-555e-85f4-f6d4eb4e6e62.html"
+     }
+    },
+    {
+     "title": "米イラン攻撃の沈静化で安心感",
+     "detail": "米国とイランの攻撃が和らいだことが相場を支え、主要3指数がそろって上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "ネイション(NST)",
+      "url": "https://www.nst.com.my/amp/business/corporate/2026/06/1476441/wall-street-ends-higher-as-us-iran-attacks-ease"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と半導体買いで日経平均が続伸",
+     "detail": "日経平均は594円高の7万0062円。米国とイランの攻撃停止合意で中東警戒が和らいだ前日の米株高を受け、東京エレクトロンやアドバンテストなどAI・半導体関連に買いが広がった。朝方は高値警戒でマイナスに転じる場面もあった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/2008448"
      }
     }
    ]
