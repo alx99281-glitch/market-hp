@@ -1,4 +1,50 @@
 {
+ "2026-06-03": {
+  "us": {
+   "items": [
+    {
+     "title": "米イラン停戦の不安で原油高、S&P500の連騰止まる",
+     "detail": "停戦への脅威を背景に原油と国債利回りが上昇し、S&P500は0.7%安で9日連続上昇が止まった。ダウは1.2%安、ナスダックは0.9%安。エネルギーのみが堅調だった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/06/how-major-us-stock-indexes-fared-wednesday-6-3-2026/"
+     }
+    },
+    {
+     "title": "ADP雇用が予想を上回りハイテク株に重し",
+     "detail": "民間雇用統計(ADP)が予想より強く、ハイテク株の上昇に水を差した。ソフトウエア株の下げが最も大きかった。",
+     "direction": "down",
+     "source": {
+      "label": "Tapeboard",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-06-03"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株高を受け日経平均が初の6万8000円台",
+     "detail": "日経平均は前日比1667円89銭(2.50%)高の6万8402円13銭と急反発し、終値で初めて6万8000円台に乗せた。米国の半導体株の急騰を受け、国内の半導体関連株に買いが集まった。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/582852/index"
+     }
+    },
+    {
+     "title": "TOPIXは4000に迫る",
+     "detail": "TOPIXは3996.20で引け、初の4000台に迫った。東証プライムの売買代金は概算で12兆2712億円だった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202606031139/"
+     }
+    }
+   ]
+  }
+ },
  "2026-06-05": {
   "jp": {
    "items": [

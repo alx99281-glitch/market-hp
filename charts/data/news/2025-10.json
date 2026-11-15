@@ -191,5 +191,51 @@
     }
    ]
   }
+ },
+ "2025-10-27": {
+  "us": {
+   "items": [
+    {
+     "title": "米中貿易合意への期待で主要3指数が最高値",
+     "detail": "トランプ・習近平会談を週内に控え、貿易合意への期待が高まった。S&P500は初めて6800を上回り、ナスダックは1.86%高の2万3637.46。ダウは0.71%高。",
+     "direction": "up",
+     "source": {
+      "label": "新華社(The Star)",
+      "url": "https://www.thestar.com.my/news/world/2025/10/28/major-us-stock-indexes-hit-new-highs"
+     }
+    },
+    {
+     "title": "クアルコムがAIデータセンター向け半導体で急伸",
+     "detail": "クアルコムはAI向けデータセンター用製品の発表を受けて約11%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/27/major-indexes-extend-record-rally-on-trade-optimism"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が終値で初の5万円突破",
+     "detail": "日経平均は前週末比1212円67銭高の5万512円32銭。米中貿易摩擦の激化懸念が後退し、前週末の米国株高も支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(秋田魁新報)",
+      "url": "https://www.sakigake.jp/news/article/20251027CO0064/"
+     }
+    },
+    {
+     "title": "高市政権への期待(高市トレード)",
+     "detail": "高市政権の経済政策への期待が株高を演出した。TOPIXも3325.05と最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(秋田魁新報)",
+      "url": "https://www.sakigake.jp/news/article/20251027CO0064/"
+     }
+    }
+   ]
+  }
  }
 }

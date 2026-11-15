@@ -54,6 +54,52 @@
    ]
   }
  },
+ "2026-08-18": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株が下落、ナスダック1.3%安",
+     "detail": "中東情勢の不透明感で債券利回りが複数年ぶりの高水準となり、半導体株中心にハイテク株が売られた。S&P500は0.7%安で、ナスダックは約1.33%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(La Nacion配信)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-8182026-nid18082026/"
+     }
+    },
+    {
+     "title": "原油高でエネルギー株が堅調",
+     "detail": "原油価格の上昇を支えにエネルギーがS&P500で最も強いセクターとなった。S&P500とナスダックは3日続落で、主要3指数とも2週間ぶりの安値で引けた。",
+     "direction": "flat",
+     "source": {
+      "label": "Finviz",
+      "url": "https://finviz.com/news/383459/bond-yields-send-stocks-to-3rd-straight-day-of-losses"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン和平交渉の停滞観測で反落",
+     "detail": "日経平均は前日比1759円52銭安の6万7460円73銭。米国とイランの和平交渉が停滞しているとの見方が売りを誘った。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2026359"
+     }
+    },
+    {
+     "title": "原油先物と長期金利の上昇が重荷",
+     "detail": "原油先物価格と長期金利がともに上昇し、相場の重荷となった。午前には下げ幅が一時1100円を超え、6万9000円を割った。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/2026359"
+     }
+    }
+   ]
+  }
+ },
  "2026-08-19": {
   "us": {
    "items": [

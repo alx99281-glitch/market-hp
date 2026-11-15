@@ -1,4 +1,50 @@
 {
+ "2025-11-05": {
+  "us": {
+   "items": [
+    {
+     "title": "前日の急落から反発、ダウは最高値",
+     "detail": "AI関連株の割高感への警戒が前日の急落後に和らぎ、S&P500は0.4%高の6796.29、ダウは0.5%高、ナスダックは0.6%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-wednesday-11-5-2025"
+     }
+    },
+    {
+     "title": "堅調な指標と決算が支え",
+     "detail": "ロイターはダウが最高値で引けた一方、アマゾンがナスダックの重しになったと伝えた。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(StreetInsider)",
+      "url": "https://www.streetinsider.com/Reuters/Dow+notches+record-high+close+while+Amazon+weighs+on+Nasdaq/25591590.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米ハイテク株安を受け一時2400円超安",
+     "detail": "日経平均は前日比1284円93銭(2.50%)安の5万212円27銭。前日の米ハイテク株安を引き継ぎ、下げ幅は一時2400円を超えて5万円を割り込んだが、押し目買いで下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202511051317/"
+     }
+    },
+    {
+     "title": "AI・半導体関連株に売り",
+     "detail": "AI・半導体関連が引き続き売られ、日経平均は4日続落となった。売買代金は9兆582億円(東証プライム概算)。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1921253"
+     }
+    }
+   ]
+  }
+ },
  "2025-11-18": {
   "us": {
    "items": [

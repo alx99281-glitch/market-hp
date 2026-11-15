@@ -1,0 +1,48 @@
+{
+ "2023-11-15": {
+  "us": {
+   "items": [
+    {
+     "title": "ターゲットが好決算で急伸",
+     "detail": "ターゲットは利益が市場予想を大きく上回り株価が上昇。一方TJXは年末商戦の見通しが予想に届かず下落した。S&P500は0.2%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Quartz配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-wednesday-11-15-2023-1851025879"
+     }
+    },
+    {
+     "title": "混在する経済指標で利回り上昇",
+     "detail": "卸売物価の伸びの鈍化と小売売上高の堅調という強弱まちまちの指標を受けて国債利回りは上昇した。前日に年初来最大の上げ幅となった後で、相場は様子見ムードだった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(Quartz配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-wednesday-11-15-2023-1851025879"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI下振れで利上げ懸念が後退",
+     "detail": "日経平均は前日比823円77銭(2.52%)高の3万3519円70銭と3日続伸。前日発表の10月米消費者物価指数(CPI)が予想を下回り、追加利上げ観測が後退して米国株が大幅高となった流れを引き継いだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311151392/"
+     }
+    },
+    {
+     "title": "半導体株が上昇、上げ幅は年初来最大",
+     "detail": "半導体関連株などが買われ、この日の上げ幅は今年最大となった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311151392/"
+     }
+    }
+   ]
+  }
+ }
+}

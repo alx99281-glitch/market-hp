@@ -151,5 +151,51 @@
     }
    ]
   }
+ },
+ "2026-05-29": {
+  "us": {
+   "items": [
+    {
+     "title": "米イラン停戦観測で主要指数が最高値更新",
+     "detail": "S&P500は0.2%高で7連騰、週間では9週連続の上昇となった。主要指数は前日に続き最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(inkl)",
+      "url": "https://www.inkl.com/news/how-major-us-stock-indexes-fared-friday-5-29-2026"
+     }
+    },
+    {
+     "title": "デルが好決算で急騰",
+     "detail": "デル・テクノロジーズは利益が市場予想を大きく上回り、32.8%上昇してハイテク株の上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(inkl)",
+      "url": "https://www.inkl.com/news/how-major-us-stock-indexes-fared-friday-5-29-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が終値で初の6万6000円台",
+     "detail": "日経平均は前日比1636円38銭高の6万6329円50銭と4日ぶりに最高値を更新。米国とイランが停戦延長で合意に近づいているとの報道が支えとなり、海外短期筋の買い戻しも入った。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー(共同通信の終値速報を引用)",
+      "url": "https://tbladvisory.com/20260529nk/"
+     }
+    },
+    {
+     "title": "AI・半導体関連が上昇",
+     "detail": "AI・半導体関連やMLCC関連銘柄が買われ、指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260529nk/"
+     }
+    }
+   ]
+  }
  }
 }

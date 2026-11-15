@@ -63,5 +63,51 @@
     }
    ]
   }
+ },
+ "2026-04-14": {
+  "us": {
+   "items": [
+    {
+     "title": "米イラン協議への期待で上昇",
+     "detail": "S&P500は1.18%高の6967.38、ナスダックは1.96%高、ダウは0.66%高。中東紛争の解決に向けた外交の動きへの期待が買いを誘った。",
+     "direction": "up",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/1305540/stocks-rally-on-a-push-for-diplomacy-to-end-us-iran-war"
+     }
+    },
+    {
+     "title": "銀行決算が相場を支え",
+     "detail": "1〜3月期の大手銀行決算が相次ぎ、株式相場の上昇を後押しした。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-q1-bank-earnings-roll-in"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン紛争の終結協議への期待で大幅反発",
+     "detail": "日経平均は前日比1374円62銭(約2.43%)高の5万7877円39銭。米国とイランの紛争の終結に向けた協議が進むとの見方から、中東情勢の緊張緩和期待で買われた。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/?p=54191"
+     }
+    },
+    {
+     "title": "AI・半導体関連に買い戻し",
+     "detail": "AI・半導体関連を中心に買いが戻った。TOPIXは3755.27で32.26ポイント高。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/?p=54191"
+     }
+    }
+   ]
+  }
  }
 }

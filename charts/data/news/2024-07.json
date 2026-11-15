@@ -1,4 +1,50 @@
 {
+ "2024-07-12": {
+  "us": {
+   "items": [
+    {
+     "title": "利下げ観測で主要指数が上昇",
+     "detail": "S&P500は0.6%高の5615.35、ダウは0.6%高で4万円台に乗せた。小型株のラッセル2000は1.1%高だった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Yahoo)",
+      "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-201423968.html"
+     }
+    },
+    {
+     "title": "卸売物価は予想より強く、消費者心理は悪化",
+     "detail": "卸売物価は予想より強く、消費者センチメントは8カ月ぶりの低水準となり、9月の利下げ観測を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Yahoo)",
+      "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-201423968.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI後のハイテク株安を嫌気し今年最大の下げ",
+     "detail": "日経平均は前営業日比1033円34銭安の4万1190円68銭と4営業日ぶりに反落し、下げ幅は2021年2月以来の大きさだった。前日の米6月CPI発表後のハイテク株安の流れを受けた。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/144367"
+     }
+    },
+    {
+     "title": "半導体関連など主力株が下げを主導",
+     "detail": "半導体関連株などの主力株が下げを主導した。TOPIXは2894.56で34.61ポイント安。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/144367"
+     }
+    }
+   ]
+  }
+ },
  "2024-07-25": {
   "us": {
    "items": [

@@ -1,4 +1,50 @@
 {
+ "2024-08-01": {
+  "us": {
+   "items": [
+    {
+     "title": "景気減速懸念で主要指数が下落",
+     "detail": "製造業の活動が縮小を続け、新規失業保険申請が1年近くぶりの高水準となり、FRBが利下げの好機を逃したとの不安が広がった。S&P500は1.4%安の5446.68、ナスダックは2.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-812024-112493568"
+     }
+    },
+    {
+     "title": "メタの好決算が下げを緩和",
+     "detail": "ロイターによると小型株が売りの中心となった。メタ・プラットフォームズの好決算が下げをやや和らげた。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-08-01/wall-street-retreats-slowdown-fears-dow-small-caps-slide"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高進行で輸出関連株が売られる",
+     "detail": "日経平均は前日比975円49銭(2.49%)安の3万8126円33銭。円高が進み、一時1ドル=148円台に入ったことで輸出関連株に売りが集まった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202408011337/"
+     }
+    },
+    {
+     "title": "日銀の利上げ決定後の円高",
+     "detail": "7月31日の日銀会合で利上げが決まった後の為替の円高が相場を押し下げた。日中の下げ幅は一時1300円を超えた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202408011337/"
+     }
+    }
+   ]
+  }
+ },
  "2024-08-02": {
   "us": {
    "items": [

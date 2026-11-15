@@ -44,5 +44,42 @@
     }
    ]
   }
+ },
+ "2024-04-24": {
+  "us": {
+   "items": [
+    {
+     "title": "まちまちで引ける、利回りは上昇",
+     "detail": "S&P500はほぼ横ばい(+0.02%)、ダウは0.11%安、ナスダックは0.10%高。予想より強い経済指標を受けて国債利回りが上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(MarketBeat)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-4242024-2024-04-24/"
+     }
+    },
+    {
+     "title": "テスラの決算後の動き",
+     "detail": "メガキャップではテスラが決算後に上昇を主導し、ナスダックが相対的に堅調だった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(MarketBeat)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-4242024-2024-04-24/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株高を受け半導体株に買い戻し",
+     "detail": "日経平均は前営業日比907円92銭高の3万8460円08銭と3日続伸。前日の米ハイテク株高を好感し、寄与度の大きい半導体株などに買い戻しが入った。TOPIXは2710.73。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4407163"
+     }
+    }
+   ]
+  }
  }
 }
