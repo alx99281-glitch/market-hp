@@ -68,5 +68,244 @@
     }
    ]
   }
+ },
+ "2026-09-24": {
+  "us": {
+   "items": [
+    {
+     "title": "債券売りと原油高で主要指数は横ばい",
+     "detail": "10年債利回りは5.15%超まで上昇した後に反落し、S&P500は0.02%安の7,704.13、ナスダックはほぼ変わらず。",
+     "direction": "flat",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.com/amp/Business/wireStory/major-us-stock-indexes-fared-thursday-9242026-136734081"
+     }
+    },
+    {
+     "title": "ダウは0.3%安",
+     "detail": "ダウは161.61ドル安の51,349.98。均等加重のS&P500は0.5%安で6月以来の安値水準だった。",
+     "direction": "down",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.com/amp/Business/wireStory/major-us-stock-indexes-fared-thursday-9242026-136734081"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "連休明けにAI・半導体へ資金流入",
+     "detail": "日経平均は495円高の65,513円と4日続伸。一時1,200円超上昇したが上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4622159"
+     }
+    },
+    {
+     "title": "国内長期金利が約30年ぶり高水準",
+     "detail": "新発10年債利回りが一時3.075%と約30年ぶりの高さとなり、買いが伸び悩んだ。TOPIXは下落。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4622159"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-25": {
+  "us": {
+   "items": [
+    {
+     "title": "原油下落で利回り上昇に一服",
+     "detail": "原油価格の一服が国債利回りの急上昇を止め、S&P500は0.5%高の7,743.41。週間でも1.2%上昇。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-9252026-nid25092026/"
+     }
+    },
+    {
+     "title": "ダウは479ドル高",
+     "detail": "ダウは約0.9%高の51,828.62。主要3指数がそろって週間で上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Newser(AP)",
+      "url": "https://www.newser.com/story/397091/indexes-close-a-winning-week.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体・銀行株が買われ5日続伸",
+     "detail": "日経平均は850円高の66,364円。東京エレクトロンやアドバンテストなど半導体関連と銀行株が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4623090"
+     }
+    },
+    {
+     "title": "中間配当の権利取りが相場を支える",
+     "detail": "3月期決算企業の中間配当の権利取りの動きが相場を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4623090"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-28": {
+  "us": {
+   "items": [
+    {
+     "title": "債券売りが加速、10年債利回り5.23%",
+     "detail": "10年債利回りは5.23%と2007年以来の高水準をつけ、S&P500は0.77%安の7,683.69、ナスダックは0.92%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-9282026-nid28092026/"
+     }
+    },
+    {
+     "title": "米イラン緊張で原油が変動",
+     "detail": "米国とイランの緊張が再燃し原油が不安定に。ダウは347ドル安で、9月は2023年以来最悪の月になる見通し。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-9282026-nid28092026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "6日ぶり反落、安値引け",
+     "detail": "日経平均は486円安の65,877円。朝高も、長期金利上昇への警戒と5日続伸後の利益確定売りで安値引けとなった。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4624215"
+     }
+    },
+    {
+     "title": "韓国株安と権利付き最終日",
+     "detail": "韓国KOSPIの下落も心理を冷やした。この日は中間配当・株主優待の権利付き最終売買日で、上昇は保険・銀行など4業種のみ。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4624215"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-29": {
+  "us": {
+   "items": [
+    {
+     "title": "長期金利が2002年以来の高水準",
+     "detail": "30年債利回りは5.62%と2002年以来の高さに達し、株価の重しになった。S&P500は約0.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-9292026-nid29092026/"
+     }
+    },
+    {
+     "title": "消費者信頼感が予想を下回る",
+     "detail": "9月の消費者信頼感指数は81.9で、前月の88.6や予想の89.2を下回った。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-9292026-nid29092026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安・金利上昇で売り優勢",
+     "detail": "前日の米国株安と金利上昇を受け、日経平均は396円安の65,481円と続落。一時1,100円超急落した。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4625249"
+     }
+    },
+    {
+     "title": "配当落ちの影響と半導体の下支え",
+     "detail": "配当権利落ちの影響は日経平均で約380円と試算され、実質は小幅安。半導体関連が下値を支えた。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4625249"
+     }
+    }
+   ]
+  }
+ },
+ "2026-09-30": {
+  "us": {
+   "items": [
+    {
+     "title": "PCE鈍化も株価は上がらず",
+     "detail": "インフレ指標が予想より穏やかでも買いは広がらず、原油の反発と長期金利の高止まりが重しに。S&P500は0.3%安の7,651.54。",
+     "direction": "down",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.com/amp/Business/wireStory/major-us-stock-indexes-fared-wednesday-9302026-136901112"
+     }
+    },
+    {
+     "title": "ダウは0.9%下落",
+     "detail": "ダウは443.87ドル安の50,906.05。30年債利回りは2002年以来の高水準と報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.com/amp/Business/wireStory/major-us-stock-indexes-fared-wednesday-9302026-136901112"
+     }
+    },
+    {
+     "title": "半導体高でナスダックは小幅高",
+     "detail": "半導体株の上昇でナスダックは0.2%高の26,861.06。",
+     "direction": "up",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.com/amp/Business/wireStory/major-us-stock-indexes-fared-wednesday-9302026-136901112"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連中心に3日ぶり急反発",
+     "detail": "日経平均は半導体関連株を中心に買われ、一時1,400円超上昇。プライム市場の73%が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4626600"
+     }
+    },
+    {
+     "title": "海外勢の先物買いを観測",
+     "detail": "海外投資家の先物買いが観測され、プライム市場の売買代金は4日ぶりに9兆円台に乗せた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4626600"
+     }
+    }
+   ]
+  }
  }
 }

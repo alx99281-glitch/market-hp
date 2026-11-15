@@ -45,6 +45,61 @@
    ]
   }
  },
+ "2026-10-02": {
+  "us": {
+   "items": [
+    {
+     "title": "弱い雇用統計で利上げ観測が後退",
+     "detail": "9月の雇用者数は2.9万人増にとどまり失業率は4.2%に上昇。利上げ懸念が和らぎS&P500は約0.7%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1022026-nid02102026/"
+     }
+    },
+    {
+     "title": "ナスダックは1.2%高",
+     "detail": "ナスダックは27,190.86と約1.2%上昇。ダウは約0.5%高で、週間では1.3%安だった。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1022026-nid02102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "高値警戒から利益確定売り",
+     "detail": "9月30日と10月1日の2日間で3,400円強上昇していたため利益確定売りが優勢に。647円安の68,309円と3日ぶりに反落し、一時800円超下げた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4628765"
+     }
+    },
+    {
+     "title": "原油高・金利上昇への警戒",
+     "detail": "原油価格や金利の上昇への警戒に加え、米9月雇用統計の発表前でポジション調整も強まった。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4628765"
+     }
+    },
+    {
+     "title": "電線株は堅調",
+     "detail": "フジクラや古河電気工業など電線株は堅調だった。ソフトバンクGと東京エレクトロンは下落。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4628765"
+     }
+    }
+   ]
+  }
+ },
  "2026-10-05": {
   "us": {
    "items": [
@@ -86,6 +141,269 @@
      "source": {
       "label": "みんかぶ(大引け)",
       "url": "https://minkabu.jp/news/4629848"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-06": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500とナスダックが最高値",
+     "detail": "S&P500は0.6%高の7,818.93で過去最高値を更新、ナスダックも2日連続で最高値。AIと決算への期待が背景。",
+     "direction": "up",
+     "source": {
+      "label": "Khaleej Times(ロイター)",
+      "url": "https://www.khaleejtimes.com/sp-500-nasdaq-hit-record-highs-as-treasury-yields-stall-oil-slips"
+     }
+    },
+    {
+     "title": "利回りの上昇一服と原油安",
+     "detail": "米国債利回りが頭打ちとなり、原油が下落したことが株価を支えた。小型株のラッセル2000は0.6%安。",
+     "direction": "up",
+     "source": {
+      "label": "Khaleej Times(ロイター)",
+      "url": "https://www.khaleejtimes.com/sp-500-nasdaq-hit-record-highs-as-treasury-yields-stall-oil-slips"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株高で7万円台を回復",
+     "detail": "日経平均は737円高の70,683円と続伸し、終値で7万円台を回復。前日の米ハイテク株高が追い風になった。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4630618"
+     }
+    },
+    {
+     "title": "アドバンテストが指数を牽引",
+     "detail": "半導体関連が買われ、アドバンテストなどが指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4630618"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-07": {
+  "us": {
+   "items": [
+    {
+     "title": "長期金利上昇で最高値圏から反落",
+     "detail": "債券利回りの上昇が嫌気され、S&P500は0.22%安の7,801.75。30年債利回りは24年ぶりの高水準をつけたと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "GVWire(AP)",
+      "url": "https://gvwire.com/2026/10/07/wall-street-ends-lower-off-record-highs-as-treasury-yields-climb/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連中心に利益確定売り",
+     "detail": "日経平均は648円安の70,035円と3日ぶりに反落。AI・半導体関連株に利益確定売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4631358"
+     }
+    },
+    {
+     "title": "週末のオプションSQ控えでリスク回避",
+     "detail": "週末のオプションSQ算出を控え、リスクを避ける動きも売りを誘った。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4631358"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-08": {
+  "us": {
+   "items": [
+    {
+     "title": "原油高でAI関連が売られる",
+     "detail": "原油価格の上昇がAI関連のリスク選好を冷やし、ナスダックは約1.25%安、S&P500は0.47%安の7,765.36。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-1082026-nid08102026/"
+     }
+    },
+    {
+     "title": "ダウは小幅高",
+     "detail": "ディフェンシブ株が支えとなり、ダウは約0.1%高の51,231.64で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-1082026-nid08102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "欧米株安と金利高懸念を引き継ぎ安値引け",
+     "detail": "日経平均は993円安の69,042円と続落し、7万円を割り込んだ。前日の欧米株安を引き継いだ。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4632267"
+     }
+    },
+    {
+     "title": "TSMC月次売上後に半導体関連が売られる",
+     "detail": "TSMCの月次売上発表後に半導体関連株に売りが広がり、指数の下げを大きくした。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4632267"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-09": {
+  "us": {
+   "items": [
+    {
+     "title": "原油高で乱高下も、週間では上昇",
+     "detail": "原油高(北海ブレントは104ドル超)を受け何度も方向が変わったが、S&P500は0.6%高で終え週間でも上昇。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/"
+     }
+    },
+    {
+     "title": "通信株が急落",
+     "detail": "新たな有力競合の参入懸念で無線通信株が売られ、Tモバイルが13.3%安、AT&Tが9.8%安、ベライゾンが8.7%安。",
+     "direction": "down",
+     "source": {
+      "label": "Newser(AP)",
+      "url": "https://www.newser.com/article/5d0f953dbf96febb0690c1aef23fa8a9/wall-street-finishes-its-record-setting-week-with-gains.html"
+     }
+    },
+    {
+     "title": "長期金利は5.24%に上昇",
+     "detail": "10年債利回りは日中の上下動を経て5.24%に上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安で朝方は900円近い下落",
+     "detail": "前日の米ナスダック安を受けて売りで始まったが、後場に下げ渋り終値は11円安の69,030円と小幅安にとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4633216"
+     }
+    },
+    {
+     "title": "アドバンテスト・東エレクが指数を支える",
+     "detail": "アドバンテストや東京エレクトロンが買われ指数を下支え。ファーストリテイリングとソフトバンクGは売られた。",
+     "direction": "up",
+     "source": {
+      "label": "TBL MARKET NOTE",
+      "url": "https://tbladvisory.com/20261009nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-12": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が下落しナスダック軟調",
+     "detail": "マイクロン、AMD、マーベルが各3%前後下落。メモリー・光半導体の下げでナスダックは約0.4%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-10122026-nid12102026/"
+     }
+    },
+    {
+     "title": "メタが急伸、ダウは上昇",
+     "detail": "メタは新AIモデル公開を受け3.4%高。エネルギーや生活必需品が上昇し、ダウは196ドル高。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-10122026-nid12102026/"
+     }
+    },
+    {
+     "title": "祝日で出来高は細る",
+     "detail": "S&P500は7,807.24と0.06%安。出来高は3カ月平均を55%下回る薄商いだった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-10122026-nid12102026/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-10-13": {
+  "us": {
+   "items": [
+    {
+     "title": "日中は乱高下、終値は小幅安",
+     "detail": "ダウは前日終値を242ドル上回って寄り付いた後、始値を423ドル下回って終了。S&P500は7,805.45でほぼ横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-10132026-nid13102026/"
+     }
+    },
+    {
+     "title": "ヘルスケア・金融株が重しに",
+     "detail": "アナリストはヘルスケアと金融株が指数の重しになったと指摘。ダウは約0.3%安、ナスダックは約0.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP通信(La Nacion転載)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-tuesday-10132026-nid13102026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安を引き継ぎ急落",
+     "detail": "日経平均は4日続落し1,253円安の67,777円。前日の米国で半導体株が売られた流れを受け、一時2,000円近く下げた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4634512"
+     }
+    },
+    {
+     "title": "韓国株急落・原油高も重荷",
+     "detail": "韓国KOSPIの急落や中東情勢をめぐる原油高がAI・半導体関連株の重荷に。一方、プライム市場の73%は上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均 大引け",
+      "url": "https://minkabu.jp/news/4634512"
      }
     }
    ]
