@@ -45,6 +45,52 @@
    ]
   }
  },
+ "2026-10-05": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株高でナスダックが最高値",
+     "detail": "エヌビディアなど大型ハイテクが牽引し、ナスダックは最高値を更新。S&P500は約0.7%高だった。",
+     "direction": "up",
+     "source": {
+      "label": "Yahoo!ファイナンス",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-october-5-dow-sp-500-nasdaq-081220790.html"
+     }
+    },
+    {
+     "title": "長期金利は高止まり",
+     "detail": "長期債利回りは高い水準にあったが、ハイテク株の上昇を止めるには至らなかった。M&A報道も材料視された。小型株は相対的に出遅れた。",
+     "direction": "flat",
+     "source": {
+      "label": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-05-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計の下振れで半導体株が急反発",
+     "detail": "前週末の米国株は半導体中心に上昇し、9月の米雇用統計が予想を大きく下回ってFRBの早期利上げ観測が後退。AI・半導体関連が買われ、日経平均は1637円高の6万9946円86銭と一時7万円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "株探(大引け)",
+      "url": "https://us.kabutan.jp/news/n202610050958"
+     }
+    },
+    {
+     "title": "後場は利益確定売りで伸び悩み",
+     "detail": "7万円台では利益確定売りが出て上げ幅を縮めた。TOPIXは1.33%高。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ(大引け)",
+      "url": "https://minkabu.jp/news/4629848"
+     }
+    }
+   ]
+  }
+ },
  "2026-10-15": {
   "us": {
    "items": [

@@ -1,0 +1,39 @@
+{
+ "2025-12-04": {
+  "us": {
+   "items": [
+    {
+     "title": "利下げ期待と雇用指標でほぼ横ばい",
+     "detail": "雇用関連の指標を見極めつつ翌週のFOMCでの利下げ期待が支えとなり、S&P500は約0.1%高の6857.12と最高値の0.5%下で小動き。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-thursday-12-4-2025"
+     }
+    },
+    {
+     "title": "アマゾンが下落",
+     "detail": "アマゾンが1.4%安となり、S&P500の重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-thursday-12-4-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体と機械株が上昇",
+     "detail": "AI・半導体関連の一角や機械株が指数を押し上げ、日経平均は1163円74銭高の5万1028円42銭(2.33%高)と3日続伸、高値引け。",
+     "direction": "up",
+     "source": {
+      "label": "株探(大引け)",
+      "url": "https://s.kabutan.jp/news/n202512041006/"
+     }
+    }
+   ]
+  }
+ }
+}

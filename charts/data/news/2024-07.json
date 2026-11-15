@@ -45,6 +45,80 @@
    ]
   }
  },
+ "2024-07-18": {
+  "us": {
+   "items": [
+    {
+     "title": "大型ハイテク株が下落",
+     "detail": "前日のナスダック急落に続き大型ハイテクが売られ、アップル約2%安、アマゾン約2.2%安。S&P500は0.78%安の5544.59、ダウは1.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7182024-112076651"
+     }
+    },
+    {
+     "title": "ドミノ・ピザが急落",
+     "detail": "同一店舗売上高が予想に届かず13.6%安。小型株のラッセル2000は1.8%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7182024-112076651"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株売りと円高",
+     "detail": "半導体関連株の売りと円高が重なり、日経平均は971円34銭安の4万126円35銭(2.36%安)と下げ幅が1000円に迫った。売買代金は約4.67兆円。",
+     "direction": "down",
+     "source": {
+      "label": "株探(大引け)",
+      "url": "https://s.kabutan.jp/news/n202407181042/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-07-24": {
+  "us": {
+   "items": [
+    {
+     "title": "テスラとアルファベットの決算が失望",
+     "detail": "テスラは利益率が5年超ぶりの低水準で予想を下回り、アルファベットはYouTube広告収入が予想未達。大型ハイテクが売られ、S&P500は2.3%安、ナスダックは3.6%安(ともに2022年以来最大の下げ)。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-7242024-112246868"
+     }
+    },
+    {
+     "title": "製造業PMIと新築住宅販売が弱め",
+     "detail": "7月の製造業PMIと6月の新築住宅販売が冴えず、売りに拍車をかけた。ダウは1.24%安の3万9858.88。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-07-24/sp-and-nasdaq-end-multi-week-lows-tesla-alphabet-weighing"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高と米株先物安で6日続落",
+     "detail": "円高と米株先物の下落で引けにかけて下げ幅を拡大し、日経平均は439円54銭安の3万9154円85銭(1.11%安)。6日続落は2021年以来の長さ。",
+     "direction": "down",
+     "source": {
+      "label": "ビジネス+IT(市況 2024/07/24)",
+      "url": "https://www.sbbit.jp/article/refers/145063"
+     }
+    }
+   ]
+  }
+ },
  "2024-07-25": {
   "us": {
    "items": [

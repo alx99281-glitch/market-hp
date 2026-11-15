@@ -249,6 +249,71 @@
    ]
   }
  },
+ "2025-04-16": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア・AMDに対中輸出規制の影響",
+     "detail": "中国向け輸出規制の影響を企業が開示し半導体株が下落。S&P500は2.2%安、ナスダックは3.1%安、ダウは1.7%安。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo!ファイナンス",
+      "url": "https://finance.yahoo.com/news/p-500-gains-losses-today-204557662.html"
+     }
+    },
+    {
+     "title": "パウエル議長が関税の影響に言及",
+     "detail": "FRB議長が関税のインフレ・景気への影響に言及した。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo!ファイナンス",
+      "url": "https://finance.yahoo.com/news/p-500-gains-losses-today-204557662.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディアの輸出規制報道とASML決算",
+     "detail": "エヌビディアの対中AI半導体の輸出規制報道で時間外株価が急落し、ASMLの新規受注減速も重なり半導体株が売られた。日経平均は347円14銭安の3万3920円40銭(1.01%安)。値下がり142銘柄。",
+     "direction": "down",
+     "source": {
+      "label": "株探(大引け)",
+      "url": "https://s.kabutan.jp/news/n202504161066/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-21": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏のパウエル議長批判と関税不安",
+     "detail": "FRB議長への攻撃の再燃と関税をめぐる不透明感で寄り付きから急落。ダウは971.82ドル安の38170.41、S&P500は約2.4%安の5158.22、ナスダックは約2.5%安。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/4/21/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高で輸出株に売り",
+     "detail": "1ドル140円台への円高進行と米国のトリプル安への警戒で輸出株中心に売られ、日経平均は450円36銭安の3万4279円92銭(1.30%安)。売買代金は約3.09兆円と年初来最低を更新した。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ(大引け)",
+      "url": "https://minkabu.jp/news/4203276"
+     }
+    }
+   ]
+  }
+ },
  "2025-04-22": {
   "us": {
    "items": [

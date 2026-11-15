@@ -27,6 +27,43 @@
    ]
   }
  },
+ "2026-04-02": {
+  "us": {
+   "items": [
+    {
+     "title": "売り先行から切り返し小幅高",
+     "detail": "序盤の下げを取り戻しS&P500は0.1%高の6582.69で終えた。週間では3.4%上昇し、イラン戦争開始後で初の週間上昇となった。翌日は聖金曜日で休場。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(News Channel Nebraska)",
+      "url": "https://central.newschannelnebraska.com/story/226101587/how-major-us-stock-indexes-fared-thursday-422026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ米大統領の演説後に急落",
+     "detail": "寄り付きは米株高で上げたが、演説後にイラン情勢の早期停戦期待が後退し原油先物が急伸、売りが広がった。日経平均は1276円安の5万2463円27銭(2.38%安)。値下がり180銘柄。",
+     "direction": "down",
+     "source": {
+      "label": "時事通信(Adnkronos)",
+      "url": "https://english.adnkronos.com/2026/04/02/tokyo-stocks-plummet-on-trump-address/"
+     }
+    },
+    {
+     "title": "値がさ株が指数を押し下げ",
+     "detail": "アドバンテスト、ソフトバンクG、東京エレクトロンなどが下押し要因となった。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/77356"
+     }
+    }
+   ]
+  }
+ },
  "2026-04-08": {
   "us": {
    "items": [
@@ -105,6 +142,52 @@
      "source": {
       "label": "TBLアドバイザリー",
       "url": "https://tbladvisory.com/?p=54191"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-16": {
+  "us": {
+   "items": [
+    {
+     "title": "TSMCの好決算でAI関連が上昇",
+     "detail": "台湾TSMCのAI半導体事業が好調な決算を発表し、ハイテクが買われた。S&P500は0.26%高の7041.28で最高値。ナスダックは12営業日続伸(2009年以来の長さ)。",
+     "direction": "up",
+     "source": {
+      "label": "Tapeboard",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-04-16"
+     }
+    },
+    {
+     "title": "原油先物が3.7%上昇",
+     "detail": "WTI原油が3.7%上昇しエネルギー株を支えた。イラン情勢の緊張緩和期待も背景として挙げられた。",
+     "direction": "up",
+     "source": {
+      "label": "Tapeboard",
+      "url": "https://tapeboard.com/blog/market-pulse-2026-04-16"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン停戦延長報道と米ハイテク高",
+     "detail": "停戦延長をめぐる報道や前日の米ハイテク株高、TSMCの好決算でAI・半導体関連が買われ、日経平均は1384円高の5万9518円34銭と史上最高値で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "株探(大引け)",
+      "url": "https://s.kabutan.jp/news/n202604161044/"
+     }
+    },
+    {
+     "title": "寄与度上位はアドバンテスト・東エレク",
+     "detail": "寄与度の上位はアドバンテスト、東京エレクトロン、ソフトバンクG、TDK、ダイキン工業。売買代金は約8兆6660億円。",
+     "direction": "up",
+     "source": {
+      "label": "株探(大引け)",
+      "url": "https://s.kabutan.jp/news/n202604161044/"
      }
     }
    ]

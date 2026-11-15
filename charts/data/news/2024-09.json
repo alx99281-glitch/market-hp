@@ -128,6 +128,43 @@
    ]
   }
  },
+ "2024-09-27": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウは最高値、ハイテク安でS&P500は小反落",
+     "detail": "ダウは137.89ドル高の4万2313.00で最高値。ハイテク株安でS&P500は0.1%安の5738.17、ナスダックは70.70ポイント安。S&P500は週間で3週連続の上昇。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-9272024-114299865"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "自民党総裁選で高市氏勝利を見込んだ買い",
+     "detail": "総裁選の投開票日で、金利低下・円安を見込む「高市トレード」が入り、日経平均は903円93銭高の3万9829円56銭(2.32%高)と高値引け。",
+     "direction": "up",
+     "source": {
+      "label": "SBI証券",
+      "url": "https://go.sbisec.co.jp/media/report/op225/op225_241001.html"
+     }
+    },
+    {
+     "title": "大引け後に石破氏が当選",
+     "detail": "決選投票で石破氏が選ばれ、先物の急落と円高が進行。翌30日の日経平均は1910円安の3万7919円55銭となった。",
+     "direction": "flat",
+     "source": {
+      "label": "SBI証券",
+      "url": "https://go.sbisec.co.jp/media/report/op225/op225_241001.html"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-30": {
   "us": {
    "items": [

@@ -156,6 +156,34 @@
    ]
   }
  },
+ "2024-08-08": {
+  "us": {
+   "items": [
+    {
+     "title": "全面高でS&P500は2022年11月以来の上昇率",
+     "detail": "S&P500は2.3%高、ダウは約683ドル(1.8%)高、ナスダックは2.9%高、ラッセル2000は2.4%高。S&P500の全11業種とダウ構成30銘柄中29銘柄が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-176-3562955"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の「主な意見」で利上げ観測",
+     "detail": "朝方公表された日銀会合の主な意見で段階的な利上げ必要論が示され、一時800円超下げたが、その後プラス圏まで戻る荒い値動き。日経平均は258円47銭安の3万4831円15銭(0.74%安)。",
+     "direction": "down",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/2024%E5%B9%B48%E6%9C%888%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E6%A6%82%E6%B3%81%E5%8F%8A%E3%81%B3%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%B1%95%E6%9C%9B/"
+     }
+    }
+   ]
+  }
+ },
  "2024-08-13": {
   "jp": {
    "items": [

@@ -72,5 +72,42 @@
     }
    ]
   }
+ },
+ "2026-02-10": {
+  "us": {
+   "items": [
+    {
+     "title": "12月小売売上高が期待外れ",
+     "detail": "小売売上高が市場の期待に届かず、S&P500は0.3%安の6941.81、ナスダックは0.6%安。チップ・メモリー関連が軟調だった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Star Tribune)",
+      "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-tuesday-2102026/601580026"
+     }
+    },
+    {
+     "title": "ダウは3日連続の最高値",
+     "detail": "ダウは52.27ドル高の5万188.14で3営業日連続の最高値。年内の利下げ期待も意識された。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Star Tribune)",
+      "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-tuesday-2102026/601580026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "衆院選での自民党大勝と政策期待",
+     "detail": "自民党の大勝を受けた政策期待で買われ、ソフトバンクGも急伸。日経平均は1286円60銭高の5万7650円54銭と最高値を更新した。TOPIXは3855.28。",
+     "direction": "up",
+     "source": {
+      "label": "時事通信(Adnkronos)",
+      "url": "https://english.adnkronos.com/2026/02/10/nikkei-rewrites-closing-high-for-2nd-straight-day/"
+     }
+    }
+   ]
+  }
  }
 }
