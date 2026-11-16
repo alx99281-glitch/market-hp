@@ -101,6 +101,34 @@
    ]
   }
  },
+ "2026-04-13": {
+  "us": {
+   "items": [
+    {
+     "title": "米イラン合意期待とソフトウェア株の反発で上昇",
+     "detail": "ダウは0.63%高の4万8218.25、S&P500は69.35ポイント(約1%)高の6886.24、ナスダックは1.23%高の2万3183.74。米イラン合意への期待と、ソフトウェア・テック株の買い戻しが支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "NBC Palm Springs (CNN Newsource)",
+      "url": "https://www.nbcpalmsprings.com/2026/04/13/stocks-rally-again-monday-as-dow-sp-500-and-nasdaq-post-strong-gains"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン協議決裂とホルムズ封鎖表明で原油急騰、終日軟調",
+     "detail": "日経平均は421円34銭安の5万6502円77銭。米イランの和平協議決裂とホルムズ海峡の封鎖表明を受けWTI原油先物が急騰し、寄り付きから終日マイナス圏で推移。値上がり63銘柄に対し値下がり158銘柄。TOPIXは3723.01。",
+     "direction": "down",
+     "source": {
+      "label": "東京株式 13日終値(熊本日日新聞/共同)",
+      "url": "https://kumanichi.com/articles/1979911"
+     }
+    }
+   ]
+  }
+ },
  "2026-04-14": {
   "us": {
    "items": [
@@ -147,6 +175,34 @@
    ]
   }
  },
+ "2026-04-15": {
+  "us": {
+   "items": [
+    {
+     "title": "銀行決算とイラン警戒緩和でS&P500とナスダックが最高値",
+     "detail": "S&P500は55.57ポイント(0.80%)高の7022.95、ナスダックは約1.6%高で、ともに終値の最高値。ダウは0.15%安。銀行決算の好調と、イラン戦争が最悪の事態に至らないとの期待が背景。ServiceNowが7.3%高、Oracleが4.2%高。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown (US close)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-s-and-p-500,-nasdaq-hit-new-records-despite-iran-uncertainty"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "朝高後、ASML決算で半導体株が売られ上げ幅縮小",
+     "detail": "日経平均は256円85銭(0.44%)高の5万8134円24銭。朝方は700円超高の5万8500円台まで上昇したが、午後はオランダASMLの決算を受けた半導体株売りで伸び悩んだ。TOPIXは3770.33。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 15日終値(熊本日日新聞/共同)",
+      "url": "https://kumanichi.com/articles/1980672"
+     }
+    }
+   ]
+  }
+ },
  "2026-04-16": {
   "us": {
    "items": [
@@ -188,6 +244,99 @@
      "source": {
       "label": "株探(大引け)",
       "url": "https://s.kabutan.jp/news/n202604161044/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-17": {
+  "us": {
+   "items": [
+    {
+     "title": "中東緊張の緩和と原油安で3指数が上昇",
+     "detail": "ダウは約1.8%(約850ドル)高の4万9447ドル前後。S&P500は約1.2%高、ナスダックは約1.5%高(報道により数字に差)。中東情勢の緩和と原油価格の急落が支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "Proactive Investors",
+      "url": "https://www.proactiveinvestors.com/companies/news/1090745/dow-jones-to-lead-wall-street-higher-as-peace-hopes-and-earnings-drive-sentiment-1090745.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の急伸の反動で利益確定売り",
+     "detail": "日経平均は1042円44銭安の5万8475円90銭と4日ぶりに反落。前日の最高値更新の反動に加え、週末のイラン情勢を見極めたいとの見方が重しとなった(ロイター)。TOPIXは53.65安の3760.81。",
+     "direction": "down",
+     "source": {
+      "label": "東京株式 17日終値(熊本日日新聞/共同)",
+      "url": "https://kumanichi.com/articles/1981574"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-20": {
+  "us": {
+   "items": [
+    {
+     "title": "イラン情勢再燃でナスダックの連騰が13日で止まる",
+     "detail": "イランが新たな協議への参加を見送り、米国がイランの貨物船を拿捕、ホルムズ海峡が再び閉鎖と報じられ原油が急伸。ナスダックは0.3%安の2万4404.39、S&P500は0.2%安の7109.14、ダウはほぼ横ばい。",
+     "direction": "down",
+     "source": {
+      "label": "Free Malaysia Today (Reuters)",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/04/21/oil-surges-stocks-end-lower-on-worries-about-tenuous-us-iran-ceasefire"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "寄り後に上げ幅拡大も、停戦期限控え伸び悩む",
+     "detail": "日経平均は348円99銭高の5万8824円89銭。後場序盤に693円高の5万9169円13銭まで上げたが、米イラン停戦期限が迫るなか慎重姿勢が強まり上げ幅を縮めた。TOPIXは3777.02。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 20日終値(熊本日日新聞/共同)",
+      "url": "https://kumanichi.com/articles/1982538"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-21": {
+  "us": {
+   "items": [
+    {
+     "title": "中東懸念で序盤の上げが消え下落",
+     "detail": "ロイターによると、収益改善への期待で始まったが中東情勢への懸念が上回り、主要3指数は約0.6%安で引けた。ダウは293ドル(0.59%)安の4万9149.38ドル。",
+     "direction": "down",
+     "source": {
+      "label": "Invezz",
+      "url": "https://invezz.com/en-ae/news/2026/04/21/dow-jones-sinks-293-pts-as-iran-fears-fed-tensions-hit-stocks/"
+     }
+    },
+    {
+     "title": "ユナイテッドヘルスが急伸",
+     "detail": "通期利益見通しの引き上げと第1四半期の好決算で、ユナイテッドヘルスは約7%上昇(報道により8〜9%)。一方、3Mは決算が予想を上回ったものの2%下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Invezz",
+      "url": "https://invezz.com/en-ae/news/2026/04/21/dow-jones-sinks-293-pts-as-iran-fears-fed-tensions-hit-stocks/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米イラン協議進展期待でAI・半導体株が主導し上昇",
+     "detail": "日経平均は524円28銭高の5万9349円17銭。前週の最高値を一時上回ったが伸び悩み、TOPIXは0.18%安の3770.38。日銀の早期利上げ観測が後退したことも支えとされた。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 21日終値(熊本日日新聞/共同)",
+      "url": "https://kumanichi.com/articles/1982955"
      }
     }
    ]
