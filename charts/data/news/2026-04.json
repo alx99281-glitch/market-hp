@@ -64,6 +64,86 @@
    ]
   }
  },
+ "2026-04-03": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高とホルムズ海峡再開論議で反発",
+     "detail": "前日の米ハイテク株高で半導体・AI関連に買いが入り、ホルムズ海峡の通航再開をめぐる議論で警戒が後退。前日の約1,200円安の反動も重なり、日経平均は660円高の53,123円49銭。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/1976524"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-06": {
+  "us": {
+   "items": [
+    {
+     "title": "主要3指数が上昇",
+     "detail": "主要3指数がそろって上昇して引けた(S&P500は約+0.4%)。",
+     "direction": "up",
+     "source": {
+      "label": "NBC Palm Springs",
+      "url": "https://www.nbcpalmsprings.com/2026/04/06/stocks-close-higher-monday-as-dow-sp-500-and-nasdaq-post-gains"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "停戦思惑で一時5.4万円回復も伸び悩み",
+     "detail": "米イラン停戦への思惑が支えとなり日経平均は290円高の53,413円68銭。一時5万4000円を回復したがトランプ氏の会見を前に伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/1977395"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-07": {
+  "us": {
+   "items": [
+    {
+     "title": "イラン期限を前に乱高下、引けは小動き",
+     "detail": "米イラン停戦交渉の期限を前に原油が相場を左右し、終盤にS&P500(+0.08%、6,616.85)とナスダックは持ち直した。ダウは0.18%安。",
+     "direction": "flat",
+     "source": {
+      "label": "Virginia Business (Reuters)",
+      "url": "https://virginiabusiness.com/wall-street-closes-mixed-with-signs-of-progress-as-trumps-iran-deadline-draws-near/"
+     }
+    },
+    {
+     "title": "VIXは25超へ上昇",
+     "detail": "報道が錯綜するなかVIXは25を上回って終えた。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/4/7/mixed-choppy-session-as-iran-deadline-drives-volatility"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "停戦交渉の期限前で様子見、薄商い",
+     "detail": "日経平均は15円88銭高の53,429円56銭と小幅に3日続伸。米イラン停戦交渉の期限を控え見送り姿勢が強く、一時マイナス圏に沈む場面もあった。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/1977734"
+     }
+    }
+   ]
+  }
+ },
  "2026-04-08": {
   "us": {
    "items": [
@@ -96,6 +176,89 @@
      "source": {
       "label": "Japanese Stocks Jump on U.S.-Iran Ceasefire (Jiji)",
       "url": "https://english.adnkronos.com/2026/04/08/japanese-stocks-jump-on-u-s-iran-ceasefire/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-09": {
+  "us": {
+   "items": [
+    {
+     "title": "3指数とも上昇、ナスダックが優位",
+     "detail": "ダウは約275ドル高の48,185、S&P500は約41ポイント高、ナスダックは約187ポイント高で、ハイテク株が相場をけん引した。",
+     "direction": "up",
+     "source": {
+      "label": "NBC Palm Springs",
+      "url": "https://www.nbcpalmsprings.com/2026/04/09/wall-street-extends-gains-as-dow-sp-500-and-nasdaq-close-higher"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の急伸の反動で利益確定売り",
+     "detail": "前日に米イラン停戦合意を受け5%超高となった反動で売りが出て、日経平均は413円安の55,895円32銭。一時500円超安となった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/1978635"
+     }
+    },
+    {
+     "title": "イスラエルのレバノン攻撃で中東不安が再燃",
+     "detail": "ロイターによれば、イスラエルのレバノン攻撃で中東情勢の先行き不透明感が再び意識された。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/1978635"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-10": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が牽引しナスダックは上昇",
+     "detail": "ナスダックは0.35%高、ブロードコムが4.7%高、エヌビディアが2.6%高となり、フィラデルフィア半導体株指数(SOX)は最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "The Star (Reuters)",
+      "url": "https://www.thestar.com.my/news/world/2026/04/11/us-stocks-close-mixed"
+     }
+    },
+    {
+     "title": "ダウ・S&P500は小幅安",
+     "detail": "ダウは0.56%安の47,916.57、S&P500は0.11%安の6,816.89。イラン情勢とインフレ指標が重しとなった。週間では3指数とも11月以来の大幅高。",
+     "direction": "down",
+     "source": {
+      "label": "Invezz",
+      "url": "https://invezz.com/ca/news/2026/04/10/dow-jones-falls-260-points-indexes-mixed-as-iran-tensions-cpi-weigh/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体・AI関連株が買われ大幅高",
+     "detail": "前日の米国でSOXが最高値を更新した流れを受け、東京エレクトロン、キオクシア、フジクラなどが買われ、日経平均は1,028円高の56,924円11銭。",
+     "direction": "up",
+     "source": {
+      "label": "時事通信(熊本日日新聞)",
+      "url": "https://kumanichi.com/articles/1979053"
+     }
+    },
+    {
+     "title": "中東情勢の改善期待",
+     "detail": "イスラエルがレバノンと直接協議する方針を示したことで投資家心理が改善したとみられる。",
+     "direction": "up",
+     "source": {
+      "label": "limo",
+      "url": "https://limo.media/articles/-/120497"
      }
     }
    ]

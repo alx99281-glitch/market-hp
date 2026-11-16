@@ -156,6 +156,90 @@
    ]
   }
  },
+ "2026-03-13": {
+  "us": {
+   "items": [
+    {
+     "title": "原油急騰とイラン情勢で2026年の安値",
+     "detail": "原油高と地政学リスクでS&P500は0.61%安の6,632.19と年初来安値を更新した。ゴールドマンは、ホルムズ海峡の流れが滞れば原油が過去最高を超える可能性を指摘した。",
+     "direction": "down",
+     "source": {
+      "label": "Invezz",
+      "url": "https://invezz.com/news/2026/03/13/us-stocks-close-in-red-as-sp-500-dips-on-oil-rally-and-geopolitics/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "対イラン紛争の長期化懸念でリスク回避",
+     "detail": "米国とイスラエルの対イラン紛争の長期化懸念と原油高止まりで、日経平均は633円35銭安の53,819円61銭と続落。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1967720"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-16": {
+  "us": {
+   "items": [
+    {
+     "title": "原油下落とハイテク高で5週間ぶりの大幅高",
+     "detail": "S&P500は67.19ポイント(1%)高の6,699.38。米原油は朝の102ドル超から93ドル近辺まで下落し、ハイテク・AI関連株が上昇をけん引した。",
+     "direction": "up",
+     "source": {
+      "label": "Newstribune (AP)",
+      "url": "https://www.newstribune.com/news/2026/mar/17/wall-street-ends-higher-as-traders-return-to-ai/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "原油高警戒で小幅続落",
+     "detail": "中東情勢をめぐる原油高への警戒が売り材料となり、日経平均は68円46銭安の53,751円15銭と3日続落。米株先物高が下支えした。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1968663"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-17": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC初日、AI関連が戻る",
+     "detail": "FOMCの初日で金利据え置きが見込まれるなか、S&P500は6,716.09(約+0.2〜0.3%)と続伸。AI関連株に買いが戻った。",
+     "direction": "up",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4565282-sp500-nasdaq-composite-dow-jones-stock-market-news"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "原油再上昇で終盤にマイナス転落",
+     "detail": "朝方は米株高で堅調だったが、原油先物が再び上昇し日経平均は50円76銭安の53,700円39銭と4日続落。日中は637円高まで買われた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1969146"
+     }
+    }
+   ]
+  }
+ },
  "2026-03-18": {
   "jp": {
    "items": [
@@ -239,6 +323,21 @@
    ]
   }
  },
+ "2026-03-20": {
+  "us": {
+   "items": [
+    {
+     "title": "インフレ懸念で利下げ観測が後退",
+     "detail": "イランとの戦争による原油高がインフレ懸念を強め、S&P500は1.51%安の6,506.48と9月以来の安値、4週連続の下落となった。",
+     "direction": "down",
+     "source": {
+      "label": "Virginia Business (Reuters)",
+      "url": "https://virginiabusiness.com/wall-street-falls-middle-east-conflict-inflation-rates"
+     }
+    }
+   ]
+  }
+ },
  "2026-03-23": {
   "jp": {
    "items": [
@@ -285,6 +384,34 @@
    ]
   }
  },
+ "2026-03-24": {
+  "us": {
+   "items": [
+    {
+     "title": "原油高とイラン情勢で戻りが一服",
+     "detail": "前日の上昇のあと反落。原油高と地政学的な不透明感で戻りの動きが止まった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/3/24/rebound-efforts-stall-amid-higher-oil-prices-geopolitical-uncertainty"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米の対イラン攻撃見送り報道で反発",
+     "detail": "トランプ氏が23日、発電所などへの攻撃を5日間延期すると表明し、原油上昇の一服もあって日経平均は736円79銭高の52,252円28銭。TOPIXは2.10%高。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1972238"
+     }
+    }
+   ]
+  }
+ },
  "2026-03-25": {
   "jp": {
    "items": [
@@ -326,6 +453,62 @@
      "source": {
       "label": "Briefing.com",
       "url": "https://briefing.com/stock-market-update/archive/2026/3/25/stocks-rise-as-oil-retreats-200day-moving-averages-hold"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-26": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株中心に大幅安",
+     "detail": "S&P500は1.74%安、ナスダックは2.38%安。エヌビディアは4%超下落し、エネルギー株は原油先物高で上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Business Recorder / FactSet",
+      "url": "https://www.brecorder.com/news/amp/40413262"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中東情勢の楽観と悲観で小反落",
+     "detail": "日経平均は145円97銭安の53,603円65銭と3日ぶりに反落。中東情勢をめぐり楽観と悲観が交錯し、利益確定売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1973205"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-27": {
+  "us": {
+   "items": [
+    {
+     "title": "中東の戦闘と原油高で5週連続の週間下落",
+     "detail": "ダウは793ドル(1.73%)安の45,167。ブレント原油は110ドル超に上昇し、S&P500の4分の3の銘柄が下落、5週連続の週間下落となった。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo Finance (AP)",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-mostly-lower-wall-030651899.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安と半導体安で売り、配当取りが下支え",
+     "detail": "日経平均は230円58銭安の53,373円07銭。一時1,086円安となったが、3月期決算企業の権利付き最終売買日で配当取りの買いが下値を支えTOPIXは上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日新聞)",
+      "url": "https://www.kumanichi.com/articles/1973743"
      }
     }
    ]
