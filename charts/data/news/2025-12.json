@@ -1,4 +1,78 @@
 {
+ "2025-12-02": {
+  "us": {
+   "items": [
+    {
+     "title": "利下げ期待でほぼ小幅高",
+     "detail": "S&P500は0.2%高の6829.37。前日の下落後に債券利回りが小幅低下し、ビットコインも反発して落ち着いた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-tuesday-12-2-2025"
+     }
+    },
+    {
+     "title": "ボーイングとチップ株が上昇",
+     "detail": "ボーイングと半導体関連株が買われ、相場を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "iTiger(ロイター)",
+      "url": "https://www-web.itiger.com/news/2588660760"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "買い続かず横ばい",
+     "detail": "日経平均は17銭高の4万9303円45銭とほぼ変わらず。前日安からの自律反発狙いの買いが朝方に入ったが続かず、後場に一時マイナスに転じた。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1931501"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-03": {
+  "us": {
+   "items": [
+    {
+     "title": "ADP雇用が大幅減で利下げ期待",
+     "detail": "11月のADP雇用統計で民間雇用が2.5年超ぶりの大幅減となり、FRBの利下げ観測が強まってS&P500は0.3%高の6849.72。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-wednesday-12-3-2025"
+     }
+    },
+    {
+     "title": "小型株が上昇を主導",
+     "detail": "ラッセル2000が1.9%高の2512.14と最も強く、ダウも0.9%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-wednesday-12-3-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高でAI・半導体株買い",
+     "detail": "日経平均は561円23銭高の4万9864円68銭。前日の米ハイテク株高でAI・半導体関連が買われ、一時800円超上昇して5万円台を回復したが、日銀の利上げ観測による金利上昇で上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1931920"
+     }
+    }
+   ]
+  }
+ },
  "2025-12-04": {
   "us": {
    "items": [
@@ -31,6 +105,376 @@
      "source": {
       "label": "株探(大引け)",
       "url": "https://s.kabutan.jp/news/n202512041006/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-05": {
+  "us": {
+   "items": [
+    {
+     "title": "物価指標落ち着き、最高値に接近",
+     "detail": "S&P500は0.2%高の6870.40で10月の最高値に迫り、週間でも0.3%上昇。FRBの利下げ観測が支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-friday-12-5-2025"
+     }
+    },
+    {
+     "title": "ウルタ・ビューティーが好決算で上昇",
+     "detail": "ウルタ・ビューティーが市場予想を上回る利益を発表し、買われた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-friday-12-5-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "過熱感と長期金利上昇で利益確定",
+     "detail": "日経平均は536円55銭安の5万491円87銭で4営業日ぶりに反落。急ピッチな上昇による過熱感と国内長期金利の上昇で、大型株中心に利益確定売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1932795"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-08": {
+  "us": {
+   "items": [
+    {
+     "title": "FRB会合を前にハイテク株が軟調",
+     "detail": "S&P500は0.4%安の6846.51。ハイテク株の調整と債券利回りの上昇が重しとなった(Zacks集計)。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2801536/stock-market-news-for-dec-9%2C-2025"
+     }
+    },
+    {
+     "title": "バークシャーとWBDが個別材料で変動",
+     "detail": "バークシャー・ハサウェイが首脳人事を受けて下落し、ワーナー・ブラザース・ディスカバリーはパラマウントの株主向け提案で上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2801536/stock-market-news-for-dec-9%2C-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ソフトバンクG安も広く買われる",
+     "detail": "日経平均は90円07銭高の5万581円94銭。ソフトバンクグループの下げが重しとなり一時267円安となったが、プライム市場の8割近い銘柄が上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1933762"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-09": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC前で様子見、ほぼ横ばい",
+     "detail": "S&P500は0.1%安の6840.51、ナスダックは0.1%高。翌日のFRB決定を控え、方向感に乏しかった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-tuesday-12-9-2025"
+     }
+    },
+    {
+     "title": "JPモルガンが重しに",
+     "detail": "同行幹部が来年の経費が約9%増える可能性に言及し、JPモルガンが指数の最大の押し下げ要因となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-tuesday-12-9-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株高も様子見ムード",
+     "detail": "日経平均は73円16銭高の5万655円10銭と小幅続伸。前日の米半導体株高で東京エレクトロンなど装置関連が買われたが、FOMCを前に積極売買は手控えられた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1934233"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-10": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが年内3回目の利下げ",
+     "detail": "FRBが今年3回目の利下げを決定。パウエル議長の発言が想定よりハト派的で、S&P500は0.7%高の6886.68、ダウは約1%高。銀行株が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-wednesday-12-10-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "FOMC結果待ちで様子見",
+     "detail": "日経平均は52円30銭安の5万602円80銭。一時452円高まで上げたが、米FOMCの結果発表を前に利益確定売りで上げ幅を失った。TOPIXは小幅高。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1934677"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-11": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウとS&P500が最高値、オラクルは急落",
+     "detail": "ダウは1.3%高の48704.01、S&P500は0.2%高の6901.00でともに最高値。一方、オラクルがAI投資計画の拡大で急落し、ナスダックは0.3%安。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-thursday-12-11-2025"
+     }
+    },
+    {
+     "title": "FRBの利下げ翌日に金融株が上昇",
+     "detail": "前日のFRB利下げを受け、S&P500金融指数が1.84%上昇。小型株のラッセル2000も1.2%高。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq(Zacks)",
+      "url": "https://www.nasdaq.com/articles/dow-sp-500-and-russell-2000-close-new-highs"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "FOMC通過後の利益確定売り",
+     "detail": "日経平均は453円98銭安の5万148円82銭で続落。FOMC通過後の利益確定売りが広がり、ソフトバンクグループが大幅安となった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1935156"
+     }
+    },
+    {
+     "title": "オラクルの時間外急落",
+     "detail": "米オラクルの時間外株価の急落も売り材料となった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1935156"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-12": {
+  "us": {
+   "items": [
+    {
+     "title": "ブロードコムが11%超急落",
+     "detail": "ブロードコムが利益率圧迫の警告で11.4%安となり、AI関連株の売りが拡大。S&P500は1.1%安の6827.41と3週間ぶりの大幅安、ナスダックは1.7%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-friday-12-12-2025"
+     }
+    },
+    {
+     "title": "AIトレードからの資金流出",
+     "detail": "最高値圏から反落し、S&P500とナスダックは週間でも下落。ダウは週間で1%上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4530985-nasdaq-composite-sp500-dow-jones-stock-market"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高とTOPIX最高値更新",
+     "detail": "日経平均は687円73銭高の5万836円55銭で3営業日ぶりに反発。米株高を受けた景気敏感株への買いが入り、TOPIXは終値で最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1935557"
+     }
+    },
+    {
+     "title": "米半導体決算で上げ幅縮小",
+     "detail": "日中は900円超上げたが、米半導体大手の決算を嫌気した半導体関連株の下落で上げ幅が縮んだ。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1935557"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-15": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連のハイテク株が3日続落",
+     "detail": "ナスダックは0.6%安、S&P500は0.2%安の6816.51。ハイテク株の下落が重しとなり、雇用統計・物価指標の発表を前に持ち高調整も出た。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/12/15/nasdaq-slides-triple-digits-as-tech-tumbles"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安で半導体売り",
+     "detail": "日経平均は668円44銭安の5万168円11銭。前週末の米ハイテク株安で半導体関連が売られた。一方、日銀の利上げ観測で金融株は堅調で、TOPIXは史上最高値を更新した。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1936548"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-16": {
+  "us": {
+   "items": [
+    {
+     "title": "雇用統計で失業率4.6%に上昇",
+     "detail": "遅れて発表された11月の雇用統計で失業率が4.6%と2021年9月以来の高水準となり、売りが出た。S&P500は0.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "Star Tribune(AP)",
+      "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-tuesday-12162025/601547413"
+     }
+    },
+    {
+     "title": "原油安でエネルギー株が下落",
+     "detail": "米原油が2021年以来の安値をつけ、エネルギー株が大きく売られた。一方、一部の大型ハイテク株が買われナスダックは0.2%高。",
+     "direction": "flat",
+     "source": {
+      "label": "Star Tribune(AP)",
+      "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-tuesday-12162025/601547413"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "持ち高調整とAI関連株安",
+     "detail": "日経平均は784円82銭安の4万9383円29銭で3日続落し、5万円を下回った。米雇用統計などを前にした持ち高調整の売りとAI関連株の下げが重しだった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1936950"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-17": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連株の下げで4日続落",
+     "detail": "S&P500は1.2%安の6721.43、ナスダックは1.8%安。AI関連株の下落が相場全体を押し下げ、約1か月ぶりの大幅安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-wednesday-12-17-2025"
+     }
+    },
+    {
+     "title": "GEバーノバが10%超下落",
+     "detail": "GEバーノバが10%超下げ、S&P500の下落率上位となった。原油高でエネルギー株は上昇したが、ハイテク安を相殺できなかった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/12/17/tech-names-face-considerable-losses-major-averages-close-lower"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計通過で買い戻し",
+     "detail": "日経平均は128円99銭高の4万9512円28銭で3営業日ぶりに反発。米雇用統計を通過した安心感から買い戻しが優勢だったが、イベント前の様子見で一時マイナスに転じる場面もあった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1937346"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-18": {
+  "us": {
+   "items": [
+    {
+     "title": "マイクロン決算でAI関連株が反発",
+     "detail": "S&P500は0.8%高の6774.76で4日続落に歯止め。マイクロンの決算がAI関連株を押し上げ、ナスダックは1.4%高。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/12/18/tech-leadership-returns-as-micron-and-cpi-data-boost-market"
+     }
+    },
+    {
+     "title": "インフレ指標が予想より軟調",
+     "detail": "消費者物価指数が市場予想を下回ったことが投資家心理を支え、引けにかけて上げ幅を保った。",
+     "direction": "up",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4532931-wall-street-dow-sp500-nasdaq"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安を引き継ぎ反落",
+     "detail": "日経平均は510円78銭安の4万9001円50銭。前日の米国でAIへの巨額投資への収益性懸念からハイテク株が下がった流れを受け、一時800円超下げて4万9000円を割った。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1937783"
      }
     }
    ]
