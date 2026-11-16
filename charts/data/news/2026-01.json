@@ -118,5 +118,89 @@
     }
    ]
   }
+ },
+ "2026-01-28": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが金利据え置き、主要指数はほぼ横ばい",
+     "detail": "FRBが予想どおり政策金利を据え置き、S&P500は最高値圏でほぼ変わらず(0.01%安)、ナスダックは0.2%高。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-wednesday-1-28-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ASML好決算で半導体株が買われ、一時545円安からプラス転換",
+     "detail": "寄り付き後に一時545円安まで下げたが、オランダASMLの好決算を受け終盤に半導体株が買われ、25円17銭高の5万3358円71銭。TOPIXは下落して指数の方向が分かれた。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1951218"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-29": {
+  "us": {
+   "items": [
+    {
+     "title": "マイクロソフト決算後の急落が重しに、メタ急伸が相殺",
+     "detail": "マイクロソフトが決算後に下落してAI投資への警戒を招き、メタの大幅高が一部相殺。S&P500は一時1.5%下落する場面があり0.1%安で終了、ナスダックは0.7%安。FRBの据え置き決定後にテック売りも出た。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-thursday-1-29-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "アドバンテストの好決算で買い、3日続伸",
+     "detail": "指数寄与度の大きいアドバンテストの好決算で買いが強まり、一時368円安から切り返して16円89銭高の5万3375円60銭。ベッセント米財務長官が為替介入を否定し円高が一服したことも支えた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1951579"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-30": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏がFRB議長にウォーシュ氏を指名、株は下落",
+     "detail": "トランプ大統領が次期FRB議長にケビン・ウォーシュ氏を指名したことに投資家が反応し、S&P500は0.4%安、ナスダックは0.9%安。ダウは1月まで9か月連続の上昇。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-friday-1-30-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "次期FRB議長人事の思惑で朝方に下落、その後下げ幅縮小",
+     "detail": "FRB次期議長人事をめぐる思惑で朝方に450円超下落したが、その後下げ幅を縮め、52円75銭安の5万3322円85銭で4営業日ぶりに反落。TOPIXは上昇。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1951955"
+     }
+    }
+   ]
+  }
  }
 }

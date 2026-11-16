@@ -1,4 +1,32 @@
 {
+ "2026-02-02": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株が反発を主導、貴金属急落の売りを吸収",
+     "detail": "貴金属の急落で朝方は売られたが、メモリー半導体など大型株の上昇で反転し、S&P500は0.5%高の6976.44で3日続落に歯止め。1月ISM製造業景況指数が約3年3か月ぶりの大幅拡大となったことも支えた。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(Kitco)",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-02-02/tech-lifts-wall-st-higher-markets-weigh-commodity-selloff-earnings"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体・AI関連に利益確定売り、日経平均667円安",
+     "detail": "朝方は円安や選挙報道を背景に先物が買われ一時5万4000円台を回復したが、半導体・AI関連への利益確定売りが後場にかけて拡大。終値は5万2655円18銭。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1952813"
+     }
+    }
+   ]
+  }
+ },
  "2026-02-03": {
   "us": {
    "items": [
@@ -31,6 +59,90 @@
      "source": {
       "label": "PayPay証券",
       "url": "https://media.paypay-sec.co.jp/cat2/mj260203_1"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-04": {
+  "us": {
+   "items": [
+    {
+     "title": "AMDが17%安、ハイテク売りが続きナスダックは年初来安値",
+     "detail": "AMDは堅調な決算にもかかわらず17.31%下落。ハイテク株の下落でナスダックは1.5%安と2026年の最安値を更新、S&P500は0.5%安。一方、他業種への資金循環でダウは0.5%高。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/02/how-major-us-stock-indexes-fared-wednesday-2-4-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は下落、TOPIXは上昇と明暗",
+     "detail": "日経平均は427円30銭安の5万4293円36銭、TOPIXは9.74ポイント高の3655.58と逆行した。値動きの理由を説明する報道は確認できなかった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1953512"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-05": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株安とビットコイン急落で3日続落",
+     "detail": "テック株が売られビットコインも再び急落し、ナスダックは1.6%安、ダウは593ドル安。S&P500は84ポイント安の6798.40。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/02/how-major-us-stock-indexes-fared-thursday-2-5-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安で半導体など売られ続落",
+     "detail": "前日の米ハイテク株安を受け半導体関連に売りが集中し、日経平均は475円32銭安の5万3818円04銭。好決算銘柄や銀行株は底堅く下げを限定した。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1953866"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-06": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体・ハイテクが急反発、ダウは初の5万ドル台",
+     "detail": "エヌビディア、ブロードコム、AMDがそれぞれ7%超上昇するなど半導体株が主導し、S&P500は1.97%高で5月以来の大幅高。ダウは1207ドル高で初めて5万ドルを超えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)(Star Tribune)",
+      "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-friday-262026/601578199"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "一時800円超安から切り返し、衆院選での与党勝利観測で買い",
+     "detail": "前日の米ハイテク株安で一時800円超下落したが、衆院選での自民党勝利を見込む買いと先物主導の上昇でプラス転換し、435円64銭高の5万4253円68銭、高値引け。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1954242"
      }
     }
    ]
@@ -105,6 +217,138 @@
      "source": {
       "label": "時事通信(Adnkronos)",
       "url": "https://english.adnkronos.com/2026/02/10/nikkei-rewrites-closing-high-for-2nd-straight-day/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-11": {
+  "us": {
+   "items": [
+    {
+     "title": "強い雇用統計の余波で方向感に乏しく横ばい",
+     "detail": "予想を上回る雇用統計で景気不安は和らいだが、FRBが利下げを急がないとの見方も強まり、主要3指数は小幅安。S&P500はほぼ変わらず。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)(Star Tribune)",
+      "url": "https://www.startribune.com/how-major-us-stock-indexes-fared-wednesday-2112026/601580637"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-12": {
+  "us": {
+   "items": [
+    {
+     "title": "AI脅威への警戒でソフトウェア株中心に急落",
+     "detail": "AIで事業が脅かされるとみられる企業が売られ、ソフトウェア株が大きく下落。ナスダックは2.0%安、S&P500は1.6%安、ダウは669ドル安。翌日のCPI発表を控え長期金利は低下した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/02/how-major-us-stock-indexes-fared-thursday-2-12-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "5万8000円台に初めて乗せ最高値更新後、利益確定で小反落",
+     "detail": "日経平均は場中に初めて5万8000円台に乗せ史上最高値を付けたが、短期的な過熱感から利益確定売りが出て10円70銭安の5万7639円84銭で4日ぶり反落。TOPIXは最高値を更新した。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1956567"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-13": {
+  "us": {
+   "items": [
+    {
+     "title": "予想を下回るCPIで利下げ観測、S&P500はほぼ横ばい",
+     "detail": "インフレ指標が予想より軟調で利下げ期待が強まり、小型株中心のラッセル2000は1.2%高。一方ハイテクは軟調でナスダックは0.2%安、S&P500は0.1%未満の上昇にとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/02/how-major-us-stock-indexes-fared-friday-2-13-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株安を受けて売り、日経平均697円安",
+     "detail": "前日の米国株安を受けて寄り付きから売られ、一時900円超下落。利益確定売りが出たが、半導体関連が指数を支え下げ幅を縮めた。終値は5万6941円97銭。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1956990"
+     }
+    },
+    {
+     "title": "ソフトバンクG決算後の急落が指数を押し下げ",
+     "detail": "決算発表後のソフトバンクグループの急落が、1銘柄で日経平均を約340円押し下げたと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "limo",
+      "url": "https://limo.media/articles/-/112717"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-16": {
+  "jp": {
+   "items": [
+    {
+     "title": "GDPが予想を下回り日経平均は3日続落",
+     "detail": "10〜12月期の実質GDP速報は前期比0.1%増と民間予測(0.4%増)を下回り、円高方向の動きもあって日経平均は135円56銭安の5万6806円41銭。決算一巡で手掛かりに乏しく方向感に欠けた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1957912"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-17": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連の懸念でハイテクが重い一方、金融株が下支え",
+     "detail": "連休明けの米株は終日荒い値動き。AI関連のバリュエーション懸念がテック株の重しとなったが、金融株が下げを補い、S&P500は約0.1%高で引けた。ナスダックは4日続落に歯止め。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/02/how-major-us-stock-indexes-fared-tuesday-2-17-2026/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "短期的な過熱感の調整が続き4日続落",
+     "detail": "決算発表が一巡して材料難のなか、前週の急騰後の過熱感を冷ます売りが主力株に出て、日経平均は239円92銭安の5万6566円49銭。一時600円超安となったが引けにかけて下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Newsweek Japan転載)",
+      "url": "https://www.newsweekjapan.jp/articles/-/331706"
+     }
+    },
+    {
+     "title": "AIが仕事を代替するとの懸念でソフト・コンサル株に売り",
+     "detail": "市場関係者の指摘として、AIによる代替懸念からソフトウェアやコンサルティング株が売られやすい地合いと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Newsweek Japan転載)",
+      "url": "https://www.newsweekjapan.jp/articles/-/331706"
      }
     }
    ]
