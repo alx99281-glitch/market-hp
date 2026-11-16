@@ -192,5 +192,242 @@
     }
    ]
   }
+ },
+ "2026-04-22": {
+  "us": {
+   "items": [
+    {
+     "title": "米イラン停戦延長と好決算で最高値",
+     "detail": "S&P500は+1.05%の7,137.90、ナスダックは+1.6%でともに最高値。ダウは+0.69%。半導体・ハイテクが上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "Finviz",
+      "url": "https://finviz.com/news/346876/earnings-ceasefire-extension-push-nasdaq-spx-to-record-close"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中東警戒が和らぎ、AI・半導体株高で最高値",
+     "detail": "日経平均は59,585円86銭(+236円69銭)で最高値を更新。ソフトバンクG1銘柄で353円押し上げ。プライムの83%は下落した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1983416"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-23": {
+  "us": {
+   "items": [
+    {
+     "title": "ServiceNow急落でソフトウェア株が下落",
+     "detail": "ServiceNowが17.5%安と過去最悪の下げ。ソフトウェアETF(IGV)は-5.4%となり、S&P500は約-0.4%。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/544504"
+     }
+    },
+    {
+     "title": "中東情勢の不透明感と原油高",
+     "detail": "米イラン戦争の先行き懸念で原油が上昇した。テキサス・インスツルメンツは見通しが好感され19.4%上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/1486096/stocks-settle-lower-on-us-iran-stalemate"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "初の6万円台の後、利益確定売りで4営業日ぶり反落",
+     "detail": "日経平均は59,140円23銭(-445円63銭)。朝方は初めて6万円台に乗せたが、3月末から8,500円超上昇していた過熱感から売られた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1983821"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-24": {
+  "us": {
+   "items": [
+    {
+     "title": "インテル急騰で半導体株高、S&P500・ナスダックが最高値",
+     "detail": "S&P500は+0.80%の7,165.08、ナスダックは+1.63%。インテルなど半導体株が上昇を主導。ダウは-0.16%。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/544918"
+     }
+    },
+    {
+     "title": "米イラン協議への期待で原油下落",
+     "detail": "追加の米イラン協議への期待から原油が下落し、株式を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "Newsquawk",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-us-market-wrap---24th-april-2026-stocks-rise-on-hopes-of-more-usiran-talks"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "史上最高値を更新、上げは値がさ株に集中",
+     "detail": "日経平均は59,716円18銭(+575円95銭)。アドバンテスト、ソフトバンクG、イビデンの3社で上げ幅の約98%を占め、プライムの約6割は下落した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1984233"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-27": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500とナスダックが最高値、ダウは小幅安",
+     "detail": "S&P500は+0.12%の7,173.91で最高値。原油は100ドル近辺で警戒感が残る一方、イランのホルムズ海峡再開提案が支えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/545296"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株高で終値初の6万円台",
+     "detail": "日経平均は60,537円36銭(+821円18銭)で終値として初めて6万円台に乗せた。半導体株が上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1985195"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-28": {
+  "us": {
+   "items": [
+    {
+     "title": "OpenAI報道でテック株が下落",
+     "detail": "WSJが、OpenAIが社内の売上・利用者目標に届いていないと報じ、AI関連が売られた。ナスダックは-0.9%、S&P500は-0.49%。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-april-28-211643016.html"
+     }
+    },
+    {
+     "title": "米イラン協議の停滞で原油高",
+     "detail": "米イラン協議が進まずWTIが100ドルを上回り、株価の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/545700"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の早期利上げ観測とハイテク株安で反落",
+     "detail": "日経平均は59,917円46銭(-619円90銭)。ソフトバンクG・アドバンテスト・東エレクの3銘柄だけで約1,081円押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1985602"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-29": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMCが金利据え置き、原油上昇で小幅安",
+     "detail": "ダウは-0.57%で5日続落。S&P500は-0.04%、ナスダックは+0.04%。FOMCは据え置きで、地区連銀総裁の一部が反対した。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/546173"
+     }
+    },
+    {
+     "title": "ビザなどの好決算が下支え",
+     "detail": "ビザなどの好決算が相場を支え、AP報道では前向きな決算で持ちこたえた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(InsuranceNewsNet)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-wednesday-4-29-2026"
+     }
+    }
+   ]
+  }
+ },
+ "2026-04-30": {
+  "us": {
+   "items": [
+    {
+     "title": "アルファベットとキャタピラーの決算で上昇、S&P500・ナスダックが最高値",
+     "detail": "ダウは790.33ドル高の49,652.14。S&P500は+1.02%。メタ(-8.6%)とマイクロソフト(-3.9%)は決算後に下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2026/4/30/stocks-end-april-at-record-highs-on-strong-earnings-growth"
+     }
+    },
+    {
+     "title": "4月は2020年以来の月間上昇率",
+     "detail": "S&P500は4月に10.4%、ナスダックは15.3%上昇した。原油高懸念は決算の強さが打ち消した。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/546858"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "原油高・長期金利上昇を嫌気し続落",
+     "detail": "日経平均は59,284円92銭(-632円54銭)。中東情勢、原油高、長期金利の上昇が嫌気された。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1986360"
+     }
+    },
+    {
+     "title": "半導体株に利益確定売り",
+     "detail": "相場を引っ張ってきた半導体関連株に利益確定売りが出て下げ要因となった。売買代金は約9兆9,744億円。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1986360"
+     }
+    }
+   ]
+  }
  }
 }

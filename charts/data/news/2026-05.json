@@ -1,4 +1,104 @@
 {
+ "2026-05-01": {
+  "us": {
+   "items": [
+    {
+     "title": "アップル決算が好感され、S&P500・ナスダックが最高値",
+     "detail": "アップルの決算が予想を上回り、S&P500は+0.29%の7,230.12、ナスダックは+0.89%でともに最高値。ダウは-0.31%。",
+     "direction": "up",
+     "source": {
+      "label": "Proactive Investors",
+      "url": "https://www.proactiveinvestors.com/companies/news/1091591/nasdaq-s-p-500-close-at-record-highs-as-ai-trade-extends-wall-street-rally-1091591.html"
+     }
+    },
+    {
+     "title": "原油の低下が支え",
+     "detail": "原油価格の下落も株価を支えた。4月はS&P500・ナスダックとも2020年以来の月間上昇率だった。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown(米国市場クローズ)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-mixed-as-traders-digest-corporate-updates,-falling-oil-prices"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "連休中の米国高を受け小幅続伸",
+     "detail": "日経平均は59,513円12銭(+228円20銭)で終えた。4月は月間で8,221円(16.09%)上昇し過去最大の上げ幅だった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1986859"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-04": {
+  "us": {
+   "items": [
+    {
+     "title": "中東で戦闘再燃、原油急騰で最高値から反落",
+     "detail": "イランによるUAE攻撃で停戦後初の衝突となり、ブレント原油は5.8%高の114.44ドル。S&P500は-0.4%、ダウは-1.1%。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-monday-5-4-2026/"
+     }
+    },
+    {
+     "title": "GameStopのeBay買収提案でGameStopが下落",
+     "detail": "GameStopが560億ドルのeBay買収を提案し、GameStop株は10%下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC7)",
+      "url": "https://abc7ny.com/post/wall-street-drops-records-oil-prices-jump-fighting-flares-middle-east/19037966/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-05": {
+  "us": {
+   "items": [
+    {
+     "title": "原油が落ち着き、好決算で最高値更新",
+     "detail": "S&P500は約+0.8%の7,259で最高値、ナスダックは約+1.0%。原油価格の鎮静と1〜3月期決算の好調が上昇要因。ラッセル2000は約+1.8%。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/05/how-major-us-stock-indexes-fared-tuesday-5-5-2026/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-06": {
+  "us": {
+   "items": [
+    {
+     "title": "AMD決算でAI・半導体株が上昇、S&P500とナスダックが最高値",
+     "detail": "AMDの好決算がAI関連の買いを誘い、S&P500(+1.46%)とナスダックが終値で最高値。ダウは600ドル超上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/05/06/fresh-record-closes-for-s-p-500-nasdaq-amid-ai-gains"
+     }
+    },
+    {
+     "title": "原油下落と米イラン和平期待",
+     "detail": "原油価格が下落し、米・イランの和平合意への期待が再び高まったことが株価を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2026/5/6/ai-and-earnings-fuel-record-rally-as-oil-eases"
+     }
+    }
+   ]
+  }
+ },
  "2026-05-07": {
   "us": {
    "items": [
@@ -40,6 +140,52 @@
      "source": {
       "label": "fptrendy 日経平均最高値(5/7)",
       "url": "https://fptrendy.com/2026/05/08/nikkei-record-ai-iran-20260507/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-05-08": {
+  "us": {
+   "items": [
+    {
+     "title": "強い雇用統計とAI買いでS&P500・ナスダックが最高値",
+     "detail": "S&P500は+0.84%の7,398.93で最高値。雇用統計が市場予想を上回り、AI・半導体関連が上昇を主導した。ナスダックは+1.71%。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown(米国市場クローズ)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-s-and-p-500,-nasdaq-hit-new-records-after-jobs-report"
+     }
+    },
+    {
+     "title": "中東情勢と消費者心理の悪化が重し",
+     "detail": "ミシガン大5月消費者信頼感指数は48.2と過去最低に低下。イランを巡る緊張も報じられ、ダウは+0.02%とほぼ横ばいにとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "Republic World",
+      "url": "https://www.republicworld.com/business/sp-500-and-nasdaq-hit-record-highs-as-ai-boom-defies-middle-east-tensions-2026-05-09-123544"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "3営業日ぶりに反落、利益確定売り",
+     "detail": "日経平均は62,713円65銭(-120円19銭)。前日に3,300円超上げた反動で利益確定売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1988884"
+     }
+    },
+    {
+     "title": "米半導体株安を受け朝方に下げ幅拡大",
+     "detail": "前日の米国で半導体株指数が大きく下げ、前場引け前には700円近く下落した。後場に下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://kumanichi.com/articles/1988884"
      }
     }
    ]
