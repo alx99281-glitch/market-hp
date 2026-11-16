@@ -1,4 +1,142 @@
 {
+ "2025-10-01": {
+  "us": {
+   "items": [
+    {
+     "title": "政府閉鎖の影響は限定的との見方",
+     "detail": "政府閉鎖が始まったが経済への影響は限られるとの見方から、主要指数が最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "Finviz",
+      "url": "https://finviz.com/news/181458/dow-sp-500-close-at-records-on-hopes-of-short-shutdown"
+     }
+    },
+    {
+     "title": "ヘルスケア株が上昇",
+     "detail": "ヘルスケアのセクターETF(XLV)が3.1%上昇した。一方、通信サービスのETF(XLC)は1.4%下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq(Zacks)",
+      "url": "https://www.nasdaq.com/articles/stock-market-news-oct-1-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "期初のリバランス売り観測",
+     "detail": "機関投資家のリバランス売りとの観測から、日経平均は381円78銭安で4日続落した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510010905/"
+     }
+    },
+    {
+     "title": "政府閉鎖リスクと国内政策の不透明感",
+     "detail": "米政府機関閉鎖の懸念や、国内の政策不透明感も重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/20251001nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-10-02": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク主導で3指数が最高値",
+     "detail": "ハイテクが相場を支え、3指数がそろって最高値を更新した。素材セクターが1%上昇、エネルギーは1%下落。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-inch-higher-to-fresh-records-despite-government-impasse"
+     }
+    },
+    {
+     "title": "政府閉鎖でも動意薄",
+     "detail": "政府閉鎖で主要経済指標が出ず、値動きは小幅にとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/10/2/stock-market-continues-to-overlook-government-shutdown"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高で半導体株が急伸",
+     "detail": "米ハイテク株高を受け、キオクシアHDがストップ高、ディスコが11%超高。日経平均は385円88銭高。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510020866/"
+     }
+    },
+    {
+     "title": "TOPIXは小幅続落",
+     "detail": "TOPIXは小幅に続落し、広範な銘柄では利益確定売りも目立った。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510020866/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-10-03": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが最高値、ナスダックは下落",
+     "detail": "ダウは約239ドル高の最高値。エヌビディアが0.7%安、アプライドマテリアルズが業績への打撃見通しで2.7%安となり、ナスダックは0.3%安。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-10-03/dow-sp-500-gain-while-nasdaq-eases-big-tech-names"
+     }
+    },
+    {
+     "title": "政府閉鎖を織り込む",
+     "detail": "政府閉鎖の影響で9月の雇用統計が延期されたが、市場は大きく反応しなかった。",
+     "direction": "flat",
+     "source": {
+      "label": "AM920 The Answer(AP)",
+      "url": "https://am920theanswer.com/business/how-major-us-stock-indexes-fared-friday-1032025/bc44e83b77266fd0f8b609b9c0fbc2cf"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と利下げ期待",
+     "detail": "前日の米株高に加え、米雇用の減速を受けたFRBの利下げ期待が追い風になり、日経平均は832円77銭高で最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/20251003nk/"
+     }
+    },
+    {
+     "title": "AI関連の好材料",
+     "detail": "OpenAIの66億ドルの株式売り出しなどAI関連の話題が伝わった。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/japan/stock-market/news/490092"
+     }
+    }
+   ]
+  }
+ },
  "2025-10-06": {
   "jp": {
    "items": [
@@ -41,6 +179,108 @@
       "url": "https://abc30.com/amp/post/us-stocks-tick-records-amd-deal-openai-support-artificial-intelligence-infrastructure-leads/17951277/"
      },
      "title": "コメリカ買収で13.7%高"
+    }
+   ]
+  }
+ },
+ "2025-10-07": {
+  "us": {
+   "items": [
+    {
+     "title": "テスラ・オラクルの下落",
+     "detail": "テスラとオラクルの下げが、AI関連の上昇を打ち消した。S&P500の連騰は7日で止まった。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-10-07/wall-street-eases-record-highs-rising-economic-jitters"
+     }
+    },
+    {
+     "title": "景気不安",
+     "detail": "政府閉鎖などの景気への不安が広がり、最高値圏から下げた。ナスダックは0.7%安。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-10-07/wall-street-eases-record-highs-rising-economic-jitters"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "急ピッチな上昇への警戒",
+     "detail": "前日に2000円超上げた反動で警戒感が強まり、引け間際にマイナス圏に沈む場面もあった。終値はわずかに最高値を更新した。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510071121/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-10-08": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連ハイテクの上昇",
+     "detail": "エヌビディアなどAI関連が買われ、S&P500とナスダックが最高値を更新。ナスダックは1.1%高、ダウは横ばい。",
+     "direction": "up",
+     "source": {
+      "label": "Finviz",
+      "url": "https://finviz.com/news/187535/sp-500-nasdaq-snag-more-records-as-tech-resumes-climb"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安を引き継ぎ利益確定",
+     "detail": "前日の米株安を受け、ソフトバンクGや東京エレクトロンなど直近で上昇した銘柄に利益確定売りが出た。半導体株指数(SOX)の軟調も重しで、5日ぶりに反落。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510080940/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-10-09": {
+  "us": {
+   "items": [
+    {
+     "title": "政府閉鎖で経済指標の発表待ち",
+     "detail": "政府閉鎖の影響で新規失業保険申請件数の発表が2週連続で出ず、指標待ちの中で最高値圏から下げた。S&P500は0.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-pull-back-from-record-highs-as-fed-split-weighs"
+     }
+    },
+    {
+     "title": "デルタ航空が好決算で上昇",
+     "detail": "デルタ航空が好決算を受けて上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Newser",
+      "url": "https://www.newser.com/story/376635/wall-street-takes-another-pause-from-rally.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "初の4万8000円台で最高値更新",
+     "detail": "日経平均は845円45銭高の4万8580円44銭で、初めて4万8000円台に乗せ史上最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510090803/"
+     }
     }
    ]
   }
@@ -100,6 +340,30 @@
    ]
   }
  },
+ "2025-10-13": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏が対中懸念を和らげる",
+     "detail": "トランプ大統領の発言で米中摩擦への懸念が後退し、前週末の下げの約半分を戻した。S&P500は1.6%高。",
+     "direction": "up",
+     "source": {
+      "label": "Finviz",
+      "url": "https://finviz.com/news/191293/stocks-charge-higher-as-geopolitical-tensions-ease"
+     }
+    },
+    {
+     "title": "AI・半導体株が上昇",
+     "detail": "ブロードコムとOpenAIの提携などを材料に、AI・半導体関連が買われた。ダウは5日続落に歯止め。",
+     "direction": "up",
+     "source": {
+      "label": "Finviz",
+      "url": "https://finviz.com/news/191293/stocks-charge-higher-as-geopolitical-tensions-ease"
+     }
+    }
+   ]
+  }
+ },
  "2025-10-14": {
   "jp": {
    "items": [
@@ -146,6 +410,144 @@
    ]
   }
  },
+ "2025-10-15": {
+  "us": {
+   "items": [
+    {
+     "title": "大手銀行の好決算",
+     "detail": "銀行決算が堅調で、貿易摩擦や政府閉鎖への懸念を和らげた。S&P500は0.4%高、ナスダックは0.7%高。",
+     "direction": "up",
+     "source": {
+      "label": "Argaam",
+      "url": "https://www.argaam.com/en/reports/international_market_daily_report/52865"
+     }
+    },
+    {
+     "title": "ダウは小幅安",
+     "detail": "ダウ平均は17ドル安と小幅に下げ、値動きの荒い一日だった。",
+     "direction": "flat",
+     "source": {
+      "label": "IBTimes",
+      "url": "https://www.ibtimes.com/market-close-stock-round-october-15-2025-sp-nasdaq-see-modest-lifts-3787154"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株の買い戻し",
+     "detail": "前日に一時1500円超下げた反動で自律反発狙いの買いが入り、日経平均は825円高の4万7672円67銭。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510151010/"
+     }
+    },
+    {
+     "title": "ASMLの決算",
+     "detail": "後場にASMLの決算が伝わると、日経平均は一時900円超高まで上げた。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/173412"
+     }
+    }
+   ]
+  }
+ },
+ "2025-10-16": {
+  "us": {
+   "items": [
+    {
+     "title": "銀行株が下落、信用懸念",
+     "detail": "地銀の信用リスクへの不安が強まり銀行株が売られた。ファイブ・サード・バンコープがトライカラー・オートの破綻に関連して懸念された。10セクターが下落。",
+     "direction": "down",
+     "source": {
+      "label": "IBTimes",
+      "url": "https://www.ibtimes.com/market-close-stock-round-october-16-2025-ai-hype-meets-banking-blues-3787345"
+     }
+    },
+    {
+     "title": "米中貿易摩擦",
+     "detail": "米中の貿易摩擦も重しになった。S&P500は0.6%安、ラッセル2000は2.1%安。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-sharply-lower-as-bank-loan-fears-hit-sentiment"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "自民・維新が政策協議を開始",
+     "detail": "政治の不透明感が和らぎ「高市トレード」が再開。主力株に買い戻しが入り、日経平均は4万8000円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510160836/"
+     }
+    },
+    {
+     "title": "TSMCの好決算",
+     "detail": "TSMCの7〜9月期は純利益が39.1%増と好調で、半導体関連の追い風になった。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/20251016nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-10-17": {
+  "us": {
+   "items": [
+    {
+     "title": "地銀株が反発",
+     "detail": "前日に急落した地銀株が持ち直し、3指数はそろって上昇。週間では8月上旬以来の好成績になった。",
+     "direction": "up",
+     "source": {
+      "label": "IBTimes",
+      "url": "https://www.ibtimes.com/market-close-stock-round-october-17-2025-sp-nasdaq-finish-modestly-higher-after-volatile-week-3787163"
+     }
+    },
+    {
+     "title": "トランプ氏が対中高関税は持続不可能と発言",
+     "detail": "トランプ大統領が中国への高関税は持続不可能と述べ、ベッセント財務長官が中国側と協議する意向を示した。午後に株価が戻した。",
+     "direction": "up",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4505251-sp500-nasdaq-composite-dow-jones-today-stock-market-news"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米地銀の信用不安で金融株が下落",
+     "detail": "米地銀の信用不安を受けて金融株が売られ、日経平均は一時700円超安となった。値下がり177銘柄に対し値上がり45銘柄。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510170902/"
+     }
+    },
+    {
+     "title": "円高も重し",
+     "detail": "為替の円高も株価の重しになり、終値は695円59銭安の4万7582円15銭。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1914193"
+     }
+    }
+   ]
+  }
+ },
  "2025-10-20": {
   "jp": {
    "items": [
@@ -188,6 +590,98 @@
       "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/20/dow-adds-515-points-as-fear-gauge-retreats"
      },
      "title": "アップルがダウを押し上げ"
+    }
+   ]
+  }
+ },
+ "2025-10-21": {
+  "us": {
+   "items": [
+    {
+     "title": "3M・コカ・コーラの決算でダウが最高値",
+     "detail": "3Mとコカ・コーラの好決算でダウは約218ドル高の最高値で終えた。S&P500はほぼ横ばい。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-10-21/wall-street-ends-mixed-earnings-lift-dow"
+     }
+    },
+    {
+     "title": "一部の大型ハイテク株が下落",
+     "detail": "一部の大型ハイテク株が下げ、ナスダックは0.2%安とダウと明暗が分かれた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-10-21/wall-street-ends-mixed-earnings-lift-dow"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "高市首相誕生への期待と材料出尽くし",
+     "detail": "首相誕生への期待で一時5万円に迫ったが、選出後は出尽くし感と利益確定売りで引けにかけ上げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510211127/"
+     }
+    },
+    {
+     "title": "AI・半導体関連に買い戻し",
+     "detail": "3日ぶりに反発し、一時700円超上昇した。AI・半導体関連に買い戻しが入った。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1915398"
+     }
+    }
+   ]
+  }
+ },
+ "2025-10-22": {
+  "us": {
+   "items": [
+    {
+     "title": "米中摩擦が再燃",
+     "detail": "ソフトウエア輸出規制の可能性など米中の貿易摩擦が再び意識され、株価の重しになった。S&P500は0.5%安。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-dow-jones-retreats-from-record-highs-as-us-china-tensions-flare"
+     }
+    },
+    {
+     "title": "ネットフリックスが決算後に10%安",
+     "detail": "決算発表後にネットフリックス株が10.1%下落し、大型ハイテクの決算の弱さが指数を押し下げた。ナスダックは0.9%安。",
+     "direction": "down",
+     "source": {
+      "label": "IBTimes",
+      "url": "https://www.ibtimes.com/market-close-stock-round-october-22-2025-dow-jones-edges-lower-blue-chips-lose-momentum-3788067"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "高市政権の経済対策への期待",
+     "detail": "政権がまとめる経済対策の柱立てが報じられ、期待した買いが入った。朝方の700円超安から後場に切り返し、一時プラス圏に浮上した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510221076/"
+     }
+    },
+    {
+     "title": "ソフトバンクGが急落",
+     "detail": "ソフトバンクGが一時3000円近く急落し、指数を押し下げた。終値は前日比8円27銭安のほぼ横ばい。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1915894"
+     }
     }
    ]
   }
