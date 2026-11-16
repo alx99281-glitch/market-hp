@@ -5866,5 +5866,15 @@
       }
     ],
     "searched_at": "2026-11-14T01:37:28.711240+00:00"
+  },
+  "us:2026-11-13:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite」",
+    "sources": [
+      {
+        "title": "CNBC Markets: Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+        "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+      }
+    ],
+    "searched_at": "2026-11-16T16:41:05.077377+00:00"
   }
 }
