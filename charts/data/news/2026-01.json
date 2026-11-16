@@ -36,6 +36,86 @@
    ]
   }
  },
+ "2026-01-08": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク安・防衛株高でまちまち",
+     "detail": "S&P500はほぼ横ばい、ダウは0.6%高、ナスダックは0.4%安。トランプ氏の防衛予算発言でロッキード・マーチンなど防衛株が上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-thursday-1-8-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "AI・半導体株に利益確定、大幅続落",
+     "detail": "日経平均は845円安の5万1117円(-1.63%)。中国当局が一部企業にエヌビディアGPUの発注停止を求めたとの報道で半導体株が売られ、一時900円超安。日中関係悪化によるレアアース懸念も重荷。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1944221"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-09": {
+  "us": {
+   "items": [
+    {
+     "title": "雇用統計を消化し最高値、半導体が牽引",
+     "detail": "S&P500は0.6%高の6966.28で最高値。12月の雇用者増は5万人と予想を下回ったが失業率は4.4%に低下。最高裁の関税判断は出ず待ちの展開。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-friday-1-9-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ファストリ決算で3日ぶり反発",
+     "detail": "日経平均は823円高の5万1939円。ファーストリテイリングが決算後に買われ指数を約500円押し上げた。TSMCの売上高発表も半導体株の買いにつながった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信・株探",
+      "url": "https://www.kumanichi.com/articles/1944547"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-12": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBとの対立懸念を乗り越え最高値更新",
+     "detail": "S&P500は0.2%高の6977.27、ダウとともに終値の最高値。パウエル議長を巡るホワイトハウスとFRBの対立懸念で朝方売られたが、ウォルマートが全体を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-monday-1-12-2026"
+     }
+    },
+    {
+     "title": "クレジットカード上限10%案でカード株安",
+     "detail": "トランプ氏が1年間のカード金利10%上限を示唆し、カード会社など金融株が下落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-monday-1-12-2026"
+     }
+    }
+   ]
+  }
+ },
  "2026-01-13": {
   "us": {
    "items": [
@@ -68,6 +148,114 @@
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202601131088/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-14": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテクと銀行株が下落、ナスダック1%安",
+     "detail": "S&P500は0.5%安の6926.60で2日続落、ナスダックは1%安。銀行決算が期待外れで、マグニフィセントセブンがそろって下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-wednesday-1-14-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "衆院解散への期待で初の5万4000円台",
+     "detail": "日経平均は792円高の5万4341円で3日続伸、終値で初めて5万4000円台に乗せた。衆院解散決定を受けた政治的安定への期待が買い材料。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1946086"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-15": {
+  "us": {
+   "items": [
+    {
+     "title": "TSMC決算でチップ株が急伸",
+     "detail": "TSMCが市場予想を上回る利益と設備投資計画を示し、ASMLやエヌビディアなど半導体株が上昇。モルガン・スタンレーなど銀行決算も支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/01/15/stocks-finish-higher-as-chip-bank-stocks-drive-optimism"
+     }
+    },
+    {
+     "title": "原油安と経済指標の底堅さ",
+     "detail": "原油価格が大きく下落し、失業保険申請件数や地区連銀指数が景気の底堅さを示した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Washington Times)",
+      "url": "https://m.washingtontimes.com/news/2026/jan/15/wall-street-steadying-big-tech-bounces-back-oil-prices-ease/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中国のH200規制報道でハイテク売り、4日ぶり反落",
+     "detail": "日経平均は231円安の5万4110円。中国がエヌビディアの「H200」の輸入を規制との報道で米ハイテク株が下げ、東京にも波及した。直前3日で3200円超上げた過熱感も意識された。TOPIXは最高値を更新。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)・株探",
+      "url": "https://www.kumanichi.com/articles/1946504"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-16": {
+  "us": {
+   "items": [
+    {
+     "title": "週末を前にほぼ横ばい、小幅安",
+     "detail": "S&P500は0.1%安の6940.01、ダウは0.2%安、ナスダックは0.1%安。強弱の間で揺れた後、小幅安で終えた。週間では3指数とも下落。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-friday-1-16-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "高値圏で利益確定、続落",
+     "detail": "日経平均は174円安の5万3936円。前場は一時400円近く下げたが引けにかけて縮小。衆院選を巡る新党構想の報道で先行き不透明感が出た。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1946911"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-19": {
+  "jp": {
+   "items": [
+    {
+     "title": "利益確定売りと円高で3日続落",
+     "detail": "日経平均は353円安の5万3583円。衆院解散観測で急騰してきた反動の利益確定売りが続き、円高も輸出株の重しとなった。朝方は800円超安となる場面があった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1947811"
      }
     }
    ]
@@ -114,6 +302,173 @@
      "source": {
       "label": "TBLアドバイザリー",
       "url": "https://tbladvisory.com/20260120nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-21": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏が欧州への新関税を見送り、急反発",
+     "detail": "S&P500は1.2%高の6875.62。グリーンランドを巡る欧州向け関税を取りやめ、前日の急落の半分程度を取り戻した。長期金利の低下も支えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-wednesday-1-21-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株安を受け5日続落",
+     "detail": "日経平均は216円安の5万2774円。グリーンランドを巡る米欧対立懸念で前日の米株が下げ、朝方は800円近く下落したが、その後下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1948626"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-22": {
+  "us": {
+   "items": [
+    {
+     "title": "グリーンランド巡る欧州関税を撤回、安心感",
+     "detail": "トランプ大統領が欧州への追加関税方針を撤回し、貿易摩擦への懸念が後退。S&P500は0.55%高、ナスダックは0.9%高。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/stock-market-today-jan-22-markets-surge-again-today-after-greenland-tariffs-are-dropped"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米欧対立の緩和で6営業日ぶりに反発",
+     "detail": "日経平均は914円高の5万3688円(+1.73%)。トランプ氏が欧州への追加関税を取り下げ、米欧対立への懸念が和らいだ。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1949109"
+     }
+    },
+    {
+     "title": "半導体株が上昇、ディスコがストップ高",
+     "detail": "半導体関連が指数を押し上げ、前日に決算を出したディスコがストップ高となった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202601220998/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-23": {
+  "us": {
+   "items": [
+    {
+     "title": "インテルが急落、ダウは下落",
+     "detail": "インテルは見通しが市場予想を下回り17.8%安。ダウは0.6%安、S&P500はほぼ横ばい(+0.03%)、ナスダックは0.3%高。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-friday-1-23-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の金利据え置きで方向感乏しく小幅続伸",
+     "detail": "日経平均は158円高の5万3846円。前日の米株高を受けて買われたが、日銀会合の結果と総裁会見待ちで様子見ムードも強かった。金融株は堅調、半導体株は軟調。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1949491"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-26": {
+  "us": {
+   "items": [
+    {
+     "title": "決算発表を控え大型株がしっかり、4日続伸",
+     "detail": "S&P500は0.5%高の6950.23。ナスダックも0.4%高。週内のメガキャップ決算とFRBの政策発表を前に買いが入った。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters報道(Star)",
+      "url": "https://www.thestar.com.my/news/world/2026/01/27/us-stocks-close-higher"
+     }
+    },
+    {
+     "title": "医療保険株が下落",
+     "detail": "報酬引き上げが市場予想より小幅にとどまり、医療保険株が売られた。",
+     "direction": "down",
+     "source": {
+      "label": "TheStar/AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-monday-1-26-2026"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "急速な円高で輸出株中心に売り",
+     "detail": "日経平均は961円安の5万2885円(-1.8%)。円高が急速に進み、ニューヨーク連銀のレートチェックの報道もあって介入警戒が強まり、輸出関連株が売られた。一時1100円超安となった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1950428"
+     }
+    }
+   ]
+  }
+ },
+ "2026-01-27": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が連日の最高値、ハイテクが牽引",
+     "detail": "S&P500は0.4%高の6978.60で終値の最高値を更新。ナスダックは0.9%高。ハイテク大型株が指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2026/01/how-major-us-stock-indexes-fared-tuesday-1-27-2026"
+     }
+    },
+    {
+     "title": "ユナイテッドヘルスが急落しダウは下落",
+     "detail": "ユナイテッドヘルスの下げでダウは0.8%安。医療保険株はメディケア関連の報酬の動きを受けて売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(AP配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-01-27/sp-500-marks-closing-record-corporate-earnings-roll-medicare-rates-hit"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の急落の反動で反発",
+     "detail": "日経平均は448円高の5万3333円。前日に900円超下げた反動で自律反発狙いの買いが入り、半導体株の一角も上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1950836"
      }
     }
    ]
