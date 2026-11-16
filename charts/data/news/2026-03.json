@@ -1,4 +1,50 @@
 {
+ "2026-03-02": {
+  "us": {
+   "items": [
+    {
+     "title": "イラン攻撃で急落後に切り返し",
+     "detail": "米国とイスラエルのイラン攻撃を受けS&P500は一時1.2%下げたが、押し目買いで下げをほぼ解消し小幅高で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/529784"
+     }
+    },
+    {
+     "title": "エネルギー・防衛株が堅調",
+     "detail": "原油高の思惑でエネルギー株が買われ、ハイテクや防衛関連も上げた一方、クルーズ船や航空株は燃料費懸念で売られた。",
+     "direction": "up",
+     "source": {
+      "label": "AOL(Stock Market Today)",
+      "url": "https://www.aol.com/finance/stock-market-today-mar-2-152605542.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "イラン攻撃でリスク回避",
+     "detail": "米国とイスラエルによるイラン攻撃で中東情勢が緊迫し、日経平均は一時1500円超下げ、793円安の5万8057円で終えた。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1962701"
+     }
+    },
+    {
+     "title": "最高値圏からの利益確定",
+     "detail": "前週に最高値を付けた後で、地政学リスクに利益確定売りが重なった。",
+     "direction": "down",
+     "source": {
+      "label": "TBLアドバイザリー(ロイター転載)",
+      "url": "https://tbladvisory.com/20260302nk/"
+     }
+    }
+   ]
+  }
+ },
  "2026-03-03": {
   "us": {
    "items": [
@@ -91,6 +137,98 @@
    ]
   }
  },
+ "2026-03-05": {
+  "us": {
+   "items": [
+    {
+     "title": "原油急騰",
+     "detail": "イラン情勢を受けて原油が急騰し、WTIは6.7%高の79.69ドルで引けた。ダウは785ドル安。",
+     "direction": "down",
+     "source": {
+      "label": "NBC Palm Springs",
+      "url": "https://www.nbcpalmsprings.com/business-finance-and-tech/2026/03/05/dow-falls-785-points-as-wall-street-reacts-to-market-uncertainty"
+     }
+    },
+    {
+     "title": "AI半導体の輸出規制懸念とエヌビディア安",
+     "detail": "AI関連の輸出をめぐる懸念やエヌビディア株の下落が半導体株の重荷となり、ナスダックは0.3%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq.com(Zacks)",
+      "url": "https://www.nasdaq.com/articles/stocks-finish-mostly-lower-nvidia-weighs-chipmakers"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "急落の反動買い",
+     "detail": "直前3営業日で4600円超下げた反動で買いが入り、日経平均は1032円高の5万5278円で4営業日ぶりに反発した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1964117"
+     }
+    },
+    {
+     "title": "イランの対話姿勢報道",
+     "detail": "イランが米国との停戦に向けた対話の用意を示したとの報道が投資家心理を改善させたが、後場は上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1964117"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-06": {
+  "us": {
+   "items": [
+    {
+     "title": "2月雇用統計で雇用者数が減少",
+     "detail": "2月の雇用統計で雇用が予想外に減少し、景気減速への懸念が強まった。S&P500は1.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "Pakistan Today(Reuters)",
+      "url": "https://profit.pakistantoday.com.pk/2026/03/07/wall-streets-three-main-indexes-close-down-as-oil-spikes-12-job-market-weakens"
+     }
+    },
+    {
+     "title": "原油が週間で記録的な上昇",
+     "detail": "イラン戦争で原油の週間上昇率が過去最大級となり、S&P500は10月以来の週間下落率になった。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2026/03/06/stocks-sink-as-oil-logs-best-weekly-performance-on-record"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "押し目買いで続伸",
+     "detail": "中東情勢への警戒は根強いものの、値ごろ感に着目した押し目買いが優勢となり、日経平均は343円高の5万5620円で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Newsweek日本版(ロイター)",
+      "url": "https://www.newsweekjapan.jp/articles/-/315895"
+     }
+    },
+    {
+     "title": "原油高の一服",
+     "detail": "前日の急落からの戻りが続き、原油高が一服したことも支えとなった。寄り後は764円安まで下げたが後場に切り返した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1964653"
+     }
+    }
+   ]
+  }
+ },
  "2026-03-09": {
   "us": {
    "items": [
@@ -151,6 +289,107 @@
      "source": {
       "label": "Newschannel Nebraska(AP)",
       "url": "https://este.telemundonebraska.com/story/203987840/how-major-us-stock-indexes-fared-tuesday-3102026"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-11": {
+  "us": {
+   "items": [
+    {
+     "title": "イラン情勢と原油高",
+     "detail": "中東の戦闘が続き原油と米長期金利が上昇した。ダウは0.6%安、S&P500は0.1%安。",
+     "direction": "down",
+     "source": {
+      "label": "The Star(Xinhua)",
+      "url": "https://www.thestar.com.my/news/world/2026/03/12/us-stocks-close-mixed"
+     }
+    },
+    {
+     "title": "穏やかなインフレ指標は材料にならず",
+     "detail": "インフレ指標は落ち着いた内容だったが、市場の関心は戦闘に向かい反応は限定的だった。",
+     "direction": "flat",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/532720"
+     }
+    },
+    {
+     "title": "半導体株がナスダックを支える",
+     "detail": "半導体株の買いでナスダックは0.1%高と小幅に上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Invezz",
+      "url": "https://invezz.com/news/2026/03/11/us-stocks-close-mixed-as-dow-drops-289-points-despite-tech-resilience/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "原油急騰の一服とオラクル見通し",
+     "detail": "原油価格の急騰が一服したことと米オラクルの業績見通しが好感され、日経平均は5万5000円を回復し776円高で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1966680"
+     }
+    },
+    {
+     "title": "半導体株が上昇",
+     "detail": "半導体株などが買われ、日中は1500円近く上げる場面もあったが、買い一巡後は上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1966680"
+     }
+    }
+   ]
+  }
+ },
+ "2026-03-12": {
+  "us": {
+   "items": [
+    {
+     "title": "イラン戦争の激化で原油100ドル超",
+     "detail": "イラン情勢の緊迫で原油価格が高騰し、ブレント原油は1バレル100ドルを上回った。S&P500は1.5%安、ダウは739ドル安だった。",
+     "direction": "down",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4563766-sp500-nasdaq-composite-dow-jones-stock-news"
+     }
+    },
+    {
+     "title": "インフレ懸念の再燃",
+     "detail": "戦争による原油高がインフレ懸念を呼び、株価は前日までの小康から再び大きく振れた。",
+     "direction": "down",
+     "source": {
+      "label": "Invezz",
+      "url": "https://invezz.com/ca/news/2026/03/12/us-stocks-close-deep-in-red-dow-tumbles-739-points-on-war-jitters/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "原油高を受けて反落",
+     "detail": "中東情勢をめぐる原油先物の上昇を受けて売りが強まり、日経平均は572円安の5万4452円で終えた。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1967225"
+     }
+    },
+    {
+     "title": "メジャーSQ前の需給",
+     "detail": "翌日にメジャーSQ算出を控え、需給面の売買もみられた。一時5万4000円を割ったが引けにかけて下げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1967225"
      }
     }
    ]

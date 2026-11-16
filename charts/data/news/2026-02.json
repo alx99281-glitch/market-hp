@@ -110,6 +110,232 @@
    ]
   }
  },
+ "2026-02-18": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアなどAI株が上昇",
+     "detail": "エヌビディアやアマゾンなどAI関連株が買われS&P500は0.6%高。商いは薄かった。",
+     "direction": "up",
+     "source": {
+      "label": "GV Wire(Reuters)",
+      "url": "https://gvwire.com/2026/02/18/wall-street-ends-higher-lifted-by-nvidia-and-other-ai-stocks/"
+     }
+    },
+    {
+     "title": "経済指標とFOMC議事要旨",
+     "detail": "経済指標とFOMC議事要旨の後も上げを維持した。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-after-economic-data,-fomc-minutes"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高とハイテク調整一巡",
+     "detail": "前日の米株高を受け、ハイテク株の調整が一巡したとの見方が広がり、日経平均は577円高の5万7143円と5営業日ぶりに反発した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1958673"
+     }
+    },
+    {
+     "title": "第2次高市内閣への政策期待",
+     "detail": "第2次高市内閣の発足を控え、政策への期待買いも入った。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20260218nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-19": {
+  "us": {
+   "items": [
+    {
+     "title": "チップ・AI株安",
+     "detail": "半導体やAIインフラ関連が売られ、AI見通しへの慎重姿勢が強まった。S&P500は0.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq.com(Barchart)",
+      "url": "https://www.nasdaq.com/articles/stocks-decline-amid-ai-fears-and-geopolitical-risks"
+     }
+    },
+    {
+     "title": "米イラン緊張と原油7カ月ぶり高値",
+     "detail": "トランプ氏がイラン攻撃を検討と伝わり、原油は7カ月ぶりの高値となった。",
+     "direction": "down",
+     "source": {
+      "label": "Finviz",
+      "url": "https://finviz.com/news/316506/stocks-settle-sharply-lower-as-trump-weighs-attack-on-iran"
+     }
+    },
+    {
+     "title": "貿易赤字の拡大",
+     "detail": "12月の貿易赤字が拡大し、センチメントの重しとなった。ウォルマートは決算を受け上昇。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-major-indices-retreat-as-ballooning-trade-deficit-weighs-on-sentiment"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と円安で続伸",
+     "detail": "前日の米株高と円安の進行を受け、日経平均は324円高の5万7467円と続伸した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1959059"
+     }
+    },
+    {
+     "title": "半導体関連株の買い",
+     "detail": "半導体関連株への買いが指数を支え、日中は565円高まで上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1959059"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-20": {
+  "us": {
+   "items": [
+    {
+     "title": "最高裁が関税政策を違憲と判断",
+     "detail": "最高裁がトランプ政権の大規模関税を認めない判断を示し、関税緩和を好感してS&P500は0.7%高だった。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-slowdown-signals,-inflation-data-and-tariff-ruling-dominate"
+     }
+    },
+    {
+     "title": "ナスダックが上昇を主導",
+     "detail": "ナスダックは0.9%高とS&P500やダウを上回った。",
+     "direction": "up",
+     "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/stock-market-today-feb-20-183738903.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "3連休前の手じまい売り",
+     "detail": "3連休を前にした利益確定・手じまい売りが優勢で、日経平均は642円安の5万6825円と3日ぶりに反落した。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1959477"
+     }
+    },
+    {
+     "title": "米ハイテク株安とイラン警戒",
+     "detail": "前日の米ハイテク株安と米イラン協議をめぐる地政学リスクも重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1959477"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-23": {
+  "us": {
+   "items": [
+    {
+     "title": "関税引き上げ",
+     "detail": "トランプ大統領が新たな関税を引き上げ、前週末の最高裁判決後の混乱も重なって売りが広がった。S&P500は1.0%安。",
+     "direction": "down",
+     "source": {
+      "label": "PBS NewsHour(AP)",
+      "url": "https://www.pbs.org/newshour/economy/stocks-drop-after-trump-ramps-up-new-tariffs-and-investors-dump-potential-ai-losers"
+     }
+    },
+    {
+     "title": "AIで不利な銘柄の売り",
+     "detail": "AIの普及で不利になるとみられる銘柄が売られ、IBMは13.4%安、アメックスは7.3%安、セールスフォースは5.1%安。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/527836"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-24": {
+  "us": {
+   "items": [
+    {
+     "title": "AI警戒売りからの反発",
+     "detail": "前日の急落の4分の3程度を取り戻し、S&P500は0.8%高。半導体株が上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/528161"
+     }
+    },
+    {
+     "title": "大型の半導体関連契約",
+     "detail": "半導体関連の大型契約が相場の支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-bounce-back-as-mega-chip-deals-lift-mood"
+     }
+    },
+    {
+     "title": "10%の世界関税が発効",
+     "detail": "新たな10%の世界関税が発効し、先行きの不透明感は残った。",
+     "direction": "flat",
+     "source": {
+      "label": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/528110"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算前の半導体株買い",
+     "detail": "週内の米エヌビディア決算を先取りする買いが半導体株に入り、日経平均は495円高の5万7321円。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1960524"
+     }
+    },
+    {
+     "title": "前日の米株安と関税不透明感",
+     "detail": "前日の米株安とトランプ関税をめぐる不透明感で寄り付きは売り先行だった。TOPIXは0.20%高にとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1960524"
+     }
+    }
+   ]
+  }
+ },
  "2026-02-25": {
   "us": {
    "items": [
@@ -151,6 +377,107 @@
      "source": {
       "label": "Business Standard",
       "url": "https://www.business-standard.com/amp/markets/capital-market-news/japanese-markets-hit-record-high-126022500714_1.html"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-26": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算後の売り",
+     "detail": "好決算にもかかわらずエヌビディア株が下落し、アルファベットやアマゾン、アップルも安く、ナスダックは1.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "NBC Palm Springs",
+      "url": "https://www.nbcpalmsprings.com/2026/02/26/stock-market-today-dow-flat-sp-500-and-nasdaq-close-lower"
+     }
+    },
+    {
+     "title": "ナスダックは下げ幅を縮小",
+     "detail": "ナスダックは一時2%近く下げたが、引けにかけて下げ幅を縮めた。ダウはほぼ横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/stock-market-today-feb-26-183634080.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア好決算で半導体株買い",
+     "detail": "米エヌビディアの好決算を受けた半導体関連株の買いで、日経平均は170円高の5万8753円と終値の最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1961290"
+     }
+    },
+    {
+     "title": "寄り後は利益確定売り",
+     "detail": "寄り付き直後に5万9000円台を付けたが、利益確定売りで上げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1961290"
+     }
+    }
+   ]
+  }
+ },
+ "2026-02-27": {
+  "us": {
+   "items": [
+    {
+     "title": "AI敗者銘柄への売り",
+     "detail": "AIの普及で不利になるとみられる企業への売りが続き、S&P500は0.4%安、ナスダックは0.9%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "Boston.com(AP)",
+      "url": "https://www.boston.com/news/business/2026/02/27/us-stocks-sink-and-oil-prices-rise-as-worries-about-ai-inflation-and-war-hit-wall-street/"
+     }
+    },
+    {
+     "title": "PPIが予想を上回る",
+     "detail": "卸売物価(PPI)が市場の想定より強く、インフレ懸念が再燃した。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-fall-as-ppi-data,-iran-tensions-hit-sentiment"
+     }
+    },
+    {
+     "title": "イラン情勢で原油上昇",
+     "detail": "イラン情勢を背景に原油価格が上昇し、投資家心理の重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-fall-as-ppi-data,-iran-tensions-hit-sentiment"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "東京CPIの鈍化で利上げ警戒が後退",
+     "detail": "2月の東京CPIが前年比1.6%と鈍化し、日銀の早期利上げへの警戒が和らいだ。日経平均は97円高の5万8850円で連日の最高値。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1961759"
+     }
+    },
+    {
+     "title": "米ハイテク株安で売り先行後に切り返し",
+     "detail": "前日の米ハイテク株安で寄り付きは600円超下げたが、その後プラス圏に浮上した。",
+     "direction": "flat",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1961759"
      }
     }
    ]
