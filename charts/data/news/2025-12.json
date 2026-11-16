@@ -35,5 +35,375 @@
     }
    ]
   }
+ },
+ "2025-12-19": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連株が上昇をけん引",
+     "detail": "S&P500は59.74ポイント(0.9%)高の6,834.50、ナスダックは1.3%高の23,307.62。エヌビディアなどAI関連株が上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-friday-12-19-2025"
+     }
+    },
+    {
+     "title": "ナイキが急落",
+     "detail": "ナイキは中国の売上高が弱く11%急落した。オラクルは米TikTok事業の合弁参画で大きく上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-friday-12-19-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀が0.75%へ利上げ、織り込み済みで買い",
+     "detail": "日経平均は505円71銭高の49,507円21銭。日銀は政策金利を0.25%引き上げ0.75%程度としたが、市場は織り込み済みとして買われた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1938243"
+     }
+    },
+    {
+     "title": "前日の米ハイテク株高",
+     "detail": "前日の米ハイテク株高でソフトバンクグループなど値がさ株が買われた。引け後の植田総裁会見を見極めたいとの雰囲気も残った。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1938243"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-22": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株主導で3指数上昇",
+     "detail": "S&P500は43.99ポイント(0.6%)高の6,878.49、ダウは0.5%高、ナスダックは0.5%高。11業種中10業種が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-monday-12-22-2025"
+     }
+    },
+    {
+     "title": "マイクロン見通しと物価指標が背景",
+     "detail": "先週末からのハイテク株の反発は、マイクロンの好調な業績見通しと、予想より落ち着いた物価統計が背景とReutersが伝えている。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/12/22/broad-gains-push-s-and-p-500-to-doorstep-of-record-high"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "5万円台を回復、895円高",
+     "detail": "日経平均は895円18銭高の50,402円39銭。前週末の米ハイテク株高を受けてAI・半導体関連株に買い戻しが入り、場中は一時1,083円高となった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1939212"
+     }
+    },
+    {
+     "title": "日銀会合通過で警戒感が後退",
+     "detail": "日銀会合を前週末に通過したことで警戒感が和らいだ。ドル円は157円台の円安水準で輸出株を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー",
+      "url": "https://tbladvisory.com/20251222-2/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-23": {
+  "us": {
+   "items": [
+    {
+     "title": "米7〜9月GDPが予想上回る",
+     "detail": "夏の米経済成長率が市場予想を上回り、S&P500は0.46%高の6,909.79で最高値をつけた(AP)。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-tuesday-12-23-2025"
+     }
+    },
+    {
+     "title": "大型ハイテク株が指数を押し上げ",
+     "detail": "大型ハイテク株の上昇が指数を押し上げたが、構成銘柄の過半数は下落した。ナスダックは0.6%高。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/12/23/megacap-tech-lifts-major-averages-amid-lowvolume-session"
+     }
+    },
+    {
+     "title": "消費者信頼感は悪化",
+     "detail": "12月の消費者信頼感は、4月の関税発動以来の低水準に低下した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-tuesday-12-23-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "材料乏しく小幅高",
+     "detail": "日経平均は10円48銭高の50,412円87銭。材料に乏しく方向感に欠けた。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1939624"
+     }
+    },
+    {
+     "title": "財務相の円安けん制発言",
+     "detail": "午前の片山財務相の円安けん制発言で円高が進み、輸出関連株に売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1939624"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-24": {
+  "us": {
+   "items": [
+    {
+     "title": "短縮取引でダウ・S&P500が最高値",
+     "detail": "S&P500は22.26ポイント(0.3%)高の6,932.05、ダウは288.75ドル(0.6%)高の48,731.16でともに最高値。午後1時に早期終了し、売買は平均の約3分の1。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-wednesday-12-24-2025"
+     }
+    },
+    {
+     "title": "金・銀も最高値",
+     "detail": "同日は金と銀も史上最高値をつけた。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-12-24/sp-500-dow-hit-all-time-closing-highs-gold-silver-touch-records"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "4日ぶり反落、値がさ株が失速",
+     "detail": "日経平均は68円77銭安の50,344円10銭。朝方は米ハイテク株高で半導体株が買われたが、ソフトバンクグループやファーストリテイリングなど値がさ株が売られ失速した。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1940050"
+     }
+    },
+    {
+     "title": "薄商いで方向感なし",
+     "detail": "クリスマス休暇で参加者が少なく、売買代金は4兆円を割り込んだ。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1940050"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-25": {
+  "jp": {
+   "items": [
+    {
+     "title": "クリスマスで海外休場、小幅高",
+     "detail": "日経平均は63円69銭高の50,407円79銭。欧米市場が休場で、取引は限られた。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1940431"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-26": {
+  "us": {
+   "items": [
+    {
+     "title": "クリスマス明けの薄商いで小幅安",
+     "detail": "S&P500は2.11ポイント安の6,929.94、ダウは20.19ドル安、ナスダックは0.09%安。5営業日続いた上昇が止まった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-friday-12-26-2025"
+     }
+    },
+    {
+     "title": "週間では上昇",
+     "detail": "3指数とも小幅安で引けたが、週間では上昇を保った(ロイター)。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(Reuters)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-12-26/wall-st-ends-close-all-time-highs-light-post-holiday-session"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "配当権利取りの買いで続伸",
+     "detail": "日経平均は342円60銭高の50,750円39銭。12月決算企業の権利付き最終売買日で、配当権利取りを意識した買いが広がった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1940951"
+     }
+    },
+    {
+     "title": "米国市場休場で手掛かり乏しい",
+     "detail": "前日の米国市場が休場で手掛かりを欠いた。TOPIXは場中に史上最高値を更新し、終値は0.15%高。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1940951"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-29": {
+  "us": {
+   "items": [
+    {
+     "title": "大型ハイテク株の下落で3指数安",
+     "detail": "S&P500は24.20ポイント(0.3%)安の6,905.74、ダウは0.5%安、ナスダックは0.5%安。大型ハイテク株の下落が主導した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/12/how-major-us-stock-indexes-fared-monday-12-29-2025"
+     }
+    },
+    {
+     "title": "テスラ急落、エヌビディアも下落",
+     "detail": "テスラが3%超下げてナスダック100の下落率首位となり、エヌビディアも1%超下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart",
+      "url": "https://business.minstercommunitypost.com/minstercommunitypost/article/barchart-2025-12-29-stocks-settle-lower-as-weakness-in-big-tech-weighs"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は反落",
+     "detail": "日経平均は223円47銭安の50,526円92銭。年末を控えて参加者が少なく、次第にもみ合いとなった。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1941793"
+     }
+    },
+    {
+     "title": "配当権利落ちが重しに",
+     "detail": "12月末の配当権利落ち日にあたり、市場筋は日経平均を約60円押し下げたとみている(ロイター)。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1941793"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-30": {
+  "us": {
+   "items": [
+    {
+     "title": "薄商いの年末、小幅安",
+     "detail": "S&P500は9.50ポイント(0.14%)安の6,896.24。年末休暇前の薄商いで、ナスダックも約0.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "FXEmpire",
+      "url": "https://www.fxempire.com/forecasts/article/nasdaq-and-sp500-us-indices-dip-today-while-fed-minutes-reveal-deep-split-1570399"
+     }
+    },
+    {
+     "title": "FOMC議事要旨で意見の割れ",
+     "detail": "FXEmpireは、FOMC議事要旨が当局内の深い意見対立を示したと伝えている。",
+     "direction": "flat",
+     "source": {
+      "label": "FXEmpire",
+      "url": "https://www.fxempire.com/forecasts/article/nasdaq-and-sp500-us-indices-dip-today-while-fed-minutes-reveal-deep-split-1570399"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "大納会は続落、年末終値は最高値",
+     "detail": "日経平均は187円44銭安の50,339円48銭。年末終値としては過去最高を更新し、年間では26.18%上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1942010"
+     }
+    },
+    {
+     "title": "年末で売買は限定的",
+     "detail": "寄り付きは売り先行で一時327円安まで下げ幅を広げたが、年末休暇を前に積極的な売買は限られ、その後は下げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(秋田魁)",
+      "url": "https://www.sakigake.jp/news/article/20251230CO0066/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-12-31": {
+  "us": {
+   "items": [
+    {
+     "title": "大納会は4日続落、ハイテク株が重し",
+     "detail": "S&P500は50.74ポイント(0.7%)安の6,845.50、ダウは0.6%安の48,063.29、ナスダックは0.8%安。4営業日続落となった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/12/31/stocks-end-strong-year-on-underwhelming-note"
+     }
+    },
+    {
+     "title": "2025年は大幅高で終了",
+     "detail": "年間ではS&P500が16.39%、ナスダックが20.36%、ダウが12.97%上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "Nasdaq.com(Zacks)",
+      "url": "https://www.nasdaq.com/articles/stock-market-news-dec-31-2025"
+     }
+    }
+   ]
+  }
  }
 }
