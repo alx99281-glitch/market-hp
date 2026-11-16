@@ -1,0 +1,429 @@
+{
+ "2025-09-15": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500とナスダックが最高値",
+     "detail": "S&P500は約0.5%高の6,615.28、ナスダックは0.9%高の22,348.75でともに最高値。トランプ氏が中国との貿易協議の進展に言及したとも報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-higher-as-trump-talks-up-china-trade-progress"
+     }
+    },
+    {
+     "title": "テスラが3.6%高",
+     "detail": "マスクCEOが約10億ドル分の自社株を取得したと当局への届出で判明し、テスラが買われた。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-monday-9152025-2025-09-15"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-16": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMCを控え様子見、最高値圏から小反落",
+     "detail": "S&P500は約0.1%安の6,606.76。日中は最高値を付けたが、Fedの次の動きを見極めたいとの姿勢から小幅安で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "AOL(モトリーフール)",
+      "url": "https://www.aol.com/finance/stock-market-today-markets-ease-015305267.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "朝安から切り返して小幅高",
+     "detail": "日経平均は134円高の44,902.27円。もみ合いの末、プラスで終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Gentosha Go",
+      "url": "https://gentosha-go.com/articles/-/71923"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-17": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMCが0.25%の利下げ、織り込み済みで方向感乏しく",
+     "detail": "FRBは政策金利を4.00~4.25%に引き下げた。利下げは広く予想されており、S&P500は0.1%安の6,600.35と小幅安。ダウは0.57%高で最高値圏。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-09-17/wall-street-mixed-after-feds-rate-cut-trading-choppy"
+     }
+    },
+    {
+     "title": "パウエル議長の発言で追加利下げ期待が後退",
+     "detail": "議長会見後に追加利下げへの期待が弱まったと報じられ、ナスダックは0.33%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "FXEmpire",
+      "url": "https://www.fxempire.com/forecasts/article/us-indices-powell-dampens-easing-expectations-after-fed-cuts-rates-today-1549265"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "FOMC結果を前に様子見、5日ぶり反落",
+     "detail": "日経平均は112円安の44,790.38円。欧米株安を受けた利益確定売りと、FOMCとパウエル議長の発言待ちの持ち高調整が出た。円高も輸出株の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202509170995/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-18": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアがインテルに50億ドル出資、インテルは23%高",
+     "detail": "インテルは22.8%急騰し、1987年以来の上昇率。エヌビディアも3.5%上昇し、S&P500は0.5%高で最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "BNN Bloomberg(AP)",
+      "url": "https://www.bnnbloomberg.ca/markets/2025/09/18/stocks-head-for-more-records-on-wall-street-led-by-tech-gains/"
+     }
+    },
+    {
+     "title": "FRBの利下げ翌日、小型株が大幅高",
+     "detail": "ラッセル2000は2.5%高で2021年以来の高値水準。10年債利回りは4.11%に上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-9182025-2025-09-18"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "FOMCの利下げを好感、終値で初の4.5万円台",
+     "detail": "日経平均は513円高の45,303.43円で、終値の最高値を更新。米利下げでリスク選好が強まり、半導体株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "livedoorニュース",
+      "url": "https://news.livedoor.com/article/detail/29598667/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-19": {
+  "us": {
+   "items": [
+    {
+     "title": "メガキャップ主導で最高値、小型株は出遅れ",
+     "detail": "S&P500は0.5%高の6,664.36で2日連続の最高値。値下がり銘柄が値上がりの約2倍と上昇は一部の大型株に偏り、ラッセル2000は0.8%安。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/9/19/megacap-strength-powers-record-highs-while-small-caps-lag"
+     }
+    },
+    {
+     "title": "Fedの利下げが相場を支える",
+     "detail": "前週の今年初の利下げが引き続き投資家心理を支え、週間でもS&P500は約1.2%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(新華社)",
+      "url": "https://www.thestar.com.my/news/world/2025/09/20/us-stocks-close-higher-as-fed-policy-buoys-sentiment"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀がETFの売却方針を決定、後場に急落",
+     "detail": "日銀は政策金利を据え置く一方、保有ETFを年間約6,200億円(時価)のペースで売却する方針を示した。下げ幅は一時800円超となり、終値は257円安の45,045.81円。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202509191218/"
+     }
+    },
+    {
+     "title": "利上げに賛成した委員がいたことも判明",
+     "detail": "政策決定会合で利上げを支持した委員がいたことがわかり、タカ派的と受け止められた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202509191218/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-22": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアがオープンAIに投資へ、3日連続の最高値",
+     "detail": "S&P500は0.4%高の6,693.75で3日連続の最高値。エヌビディアのオープンAI投資計画が追い風となった。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-monday-9222025-2025-09-22"
+     }
+    },
+    {
+     "title": "アップルが3.8%高",
+     "detail": "ウェドブッシュが目標株価を引き上げ、iPhone 17の需要の強さを指摘したことでアップルが上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-monday-9222025-2025-09-22"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と円安で終値の最高値を更新",
+     "detail": "日経平均は447円高の45,493.66円。前週末の米国株高に加え、ドル円が148円台と円安で、自動車など輸出株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "秋田魁新報(共同)",
+      "url": "https://www.sakigake.jp/news/article/20250922CO0066/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-23": {
+  "us": {
+   "items": [
+    {
+     "title": "パウエル議長「株価は割高」",
+     "detail": "パウエル議長が「多くの指標で株価はかなり高く評価されている」と述べ、政策は「やや引き締め的」とも発言。S&P500は約0.6%安。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/stock-market-today-stocks-pull-back-tech-slide-and-powell-commentary"
+     }
+    },
+    {
+     "title": "ハイテク株が下げ、最高値更新が3日で止まる",
+     "detail": "ナスダックは0.9%安。3日続いた最高値更新は止まった。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-09-23/stocks-soften-us-yields-fall-after-powell-stresses-balance"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-24": {
+  "us": {
+   "items": [
+    {
+     "title": "AI関連株が下落、Fedの発言も交錯",
+     "detail": "S&P500は0.28%安の6,637.97。AI関連のハイテク株が売られ、Fed高官の発言が割れたことも重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "The Star(新華社)",
+      "url": "https://www.thestar.com.my/news/world/2025/09/25/us-stocks-close-lower"
+     }
+    },
+    {
+     "title": "マイクロンは好決算でも下落、住宅株は上昇",
+     "detail": "マイクロンは利益が予想を上回ったが株価は下落。新築住宅販売が強く、住宅建設株は買われた。",
+     "direction": "flat",
+     "source": {
+      "label": "The Star(新華社)",
+      "url": "https://www.thestar.com.my/news/world/2025/09/25/us-stocks-close-lower"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "後場に上げ幅を拡大、総裁選の討論会で財政拡張を意識",
+     "detail": "日経平均は136円高の45,630.31円。前場は小動きだったが、自民党総裁選の討論会を受け、次期政権の財政拡張が意識されたとされる。",
+     "direction": "up",
+     "source": {
+      "label": "Gentosha Go",
+      "url": "https://gentosha-go.com/articles/-/72129"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-25": {
+  "us": {
+   "items": [
+    {
+     "title": "強い経済指標で利下げ期待に疑問",
+     "detail": "新規失業保険申請が21万8千件に減り、4~6月期GDPも上方修正された。追加利下げへの疑念が広がり、S&P500は0.5%安で3日続落。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Metrobank転載)",
+      "url": "https://wealthinsights.metrobank.com.ph/reuters/us-stocks-wall-street-indexes-finish-lower-data-raises-uncertainty-for-rate-cut-outlook"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安と配当の権利取りで3日続伸、連日の最高値",
+     "detail": "日経平均は124円高の45,754.93円。1ドル=148円台後半の円安で輸出株が買われ、配当の権利取りの買いも入った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202509250898/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-26": {
+  "us": {
+   "items": [
+    {
+     "title": "所得・支出の統計を好感し3日続落から反発",
+     "detail": "S&P500は0.6%高の6,643.70。個人所得・支出の統計が堅調で、3日続いた下げから戻した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/weekly-wrap/archive/2025/9/26/weekly-wrap-for-september-22-2025"
+     }
+    },
+    {
+     "title": "関税関連の報道が個別株を動かす",
+     "detail": "関税をめぐるニュースが一部の個別銘柄を動かしたが、指数全体への影響は限定的だった。",
+     "direction": "flat",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-9262025-2025-09-26"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米利下げ期待の後退で半導体株が下落",
+     "detail": "堅調な米経済指標で利下げ期待が後退し、レーザーテックやディスコ、東エレクなどが売られた。日経平均は399円安の45,354.99円で安値引け。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202509261057/"
+     }
+    },
+    {
+     "title": "9月期末の権利付き最終日",
+     "detail": "この日は中間配当の権利付き最終日で、翌営業日の権利落ちを控えていた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202509261057/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-29": {
+  "us": {
+   "items": [
+    {
+     "title": "原油安でエネルギー株が重しに",
+     "detail": "原油価格の下落でエクソンモービルとシェブロンがS&P500の重しとなった(AP)。S&P500は0.3%高の6,661.21と小幅高にとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/09/how-major-us-stock-indexes-fared-monday-9-29-2025"
+     }
+    },
+    {
+     "title": "政府閉鎖の可能性に警戒",
+     "detail": "政府閉鎖が起きれば重要な雇用統計の発表が遅れる可能性があり、投資家が材料視した。ナスダックは0.5%高。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/09/how-major-us-stock-indexes-fared-monday-9-29-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "配当落ちで約300円分の押し下げ",
+     "detail": "配当権利落ちが日経平均を約300円押し下げ、実質的な下げは小さかった。終値は311円安の45,043.75円。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4341909"
+     }
+    },
+    {
+     "title": "円高の進行も売り材料",
+     "detail": "為替が円高に振れて売りが優勢となり、値下がり銘柄は全体の88%に上った。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4341909"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-30": {
+  "us": {
+   "items": [
+    {
+     "title": "政府閉鎖の懸念の中、月末・四半期末は小幅高",
+     "detail": "S&P500は0.41%高の6,688.46。米政府機関の閉鎖が迫るなか値動きは荒かったが、終盤に持ち直し、月間・四半期ともに上昇で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-09-30/wall-street-indexes-close-higher-quarterly-and-monthly-gains-even-us"
+     }
+    },
+    {
+     "title": "ダウ平均が最高値を更新",
+     "detail": "ダウ平均は81.82ドル高の46,397.68で、過去最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/9/30/modest-advance-to-cap-a-solid-september-for-equities-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米政府閉鎖・自民党総裁選・日銀利上げを見極め、3日続落",
+     "detail": "日経平均は111円安の44,932.63円で、4万5千円を割った。TOPIXは0.19%高。様子見ムードが強かった。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(ロイター配信)",
+      "url": "https://www.kumanichi.com/articles/1919125"
+     }
+    }
+   ]
+  }
+ }
+}
