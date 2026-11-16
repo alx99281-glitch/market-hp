@@ -1,101 +1,101 @@
 {
  "2025-10-06": {
-  "us": {
-   "items": [
-    {
-     "title": "AMDとOpenAIの提携でAI株高、S&P500は最高値",
-     "detail": "AMDがOpenAIの半導体供給で提携を発表して買われ、S&P500は0.4%高の6,740.28で最高値更新、ナスダック総合は0.7%高。ダウは0.1%安。",
-     "direction": "up",
-     "source": {
-      "label": "ABC30(AP)",
-      "url": "https://abc30.com/amp/post/us-stocks-tick-records-amd-deal-openai-support-artificial-intelligence-infrastructure-leads/17951277/"
-     }
-    },
-    {
-     "title": "コメリカ買収で13.7%高",
-     "detail": "フィフス・サード・バンコープがコメリカを全株式交換で買収すると発表し、コメリカ株は13.7%上昇した。",
-     "direction": "up",
-     "source": {
-      "label": "ABC30(AP)",
-      "url": "https://abc30.com/amp/post/us-stocks-tick-records-amd-deal-openai-support-artificial-intelligence-infrastructure-leads/17951277/"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "高市氏の自民党総裁就任で『高市トレード』が本格化",
      "detail": "高市関連とされる防衛・エネルギー関連が大きく上昇。日経平均は2,175円26銭高(+4.75%)の4万7944円76銭と終値の最高値を更新し、取引時間中に初めて4万8000円台に乗せた。",
      "direction": "up",
      "source": {
       "label": "PayPay証券",
       "url": "https://media.paypay-sec.co.jp/cat2/mj251006_3"
-     }
+     },
+     "title": "高市氏の自民党総裁就任で『高市トレード』が本格化"
     },
     {
-     "title": "円安も追い風",
      "detail": "ドル円が150円台となった円安も輸出株などの支えとなった。",
      "direction": "up",
      "source": {
       "label": "PayPay証券",
       "url": "https://media.paypay-sec.co.jp/cat2/mj251006_3"
-     }
+     },
+     "title": "円安も追い風"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "AMDがOpenAIの半導体供給で提携を発表して買われ、S&P500は0.4%高の6,740.28で最高値更新、ナスダック総合は0.7%高。ダウは0.1%安。",
+     "direction": "up",
+     "source": {
+      "label": "ABC30(AP)",
+      "url": "https://abc30.com/amp/post/us-stocks-tick-records-amd-deal-openai-support-artificial-intelligence-infrastructure-leads/17951277/"
+     },
+     "title": "AMDとOpenAIの提携でAI株高、S&P500は最高値"
+    },
+    {
+     "detail": "フィフス・サード・バンコープがコメリカを全株式交換で買収すると発表し、コメリカ株は13.7%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "ABC30(AP)",
+      "url": "https://abc30.com/amp/post/us-stocks-tick-records-amd-deal-openai-support-artificial-intelligence-infrastructure-leads/17951277/"
+     },
+     "title": "コメリカ買収で13.7%高"
     }
    ]
   }
  },
  "2025-10-10": {
-  "us": {
-   "items": [
-    {
-     "title": "トランプ氏が対中関税引き上げを示唆",
-     "detail": "トランプ大統領が中国への関税引き上げを示唆し、静かだった米株が急落。S&P500は2.7%安で4月以来の下落率となった。",
-     "direction": "down",
-     "source": {
-      "label": "MarketBeat(AP)",
-      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-10102025-2025-10-10"
-     }
-    },
-    {
-     "title": "ナスダックが3.6%安で下げ最大",
-     "detail": "ハイテク株の比重が高いナスダック総合は3.6%安、小型株のラッセル2000は3.3%安と、主要指数で下げが大きかった。",
-     "direction": "down",
-     "source": {
-      "label": "WTOP(AP)",
-      "url": "https://wtop.com/news/2025/10/how-major-us-stock-indexes-fared-friday-10-10-2025"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "3連休前の売りと過熱感への警戒",
      "detail": "短期的な過熱感への警戒や3連休前の売りで日経平均は491円安の48,088円80銭。TOPIXも下落した。",
      "direction": "down",
      "source": {
       "label": "共同通信(熊本日日)",
       "url": "https://www.kumanichi.com/articles/1911711"
-     }
+     },
+     "title": "3連休前の売りと過熱感への警戒"
     },
     {
-     "title": "自公連立をめぐる不透明感",
      "detail": "党首会談後に公明党が連立離脱の方針を示したと伝わり、政局不安が相場の重しになった(ロイター報道)。",
      "direction": "down",
      "source": {
       "label": "共同通信(熊本日日)",
       "url": "https://www.kumanichi.com/articles/1911711"
-     }
+     },
+     "title": "自公連立をめぐる不透明感"
     },
     {
-     "title": "ファストリが6%超上昇",
      "detail": "前日決算を受けファーストリテイリングが6%超上昇し、日経平均を約314円押し上げた。",
      "direction": "up",
      "source": {
       "label": "共同通信(熊本日日)",
       "url": "https://www.kumanichi.com/articles/1911711"
-     }
+     },
+     "title": "ファストリが6%超上昇"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "トランプ大統領が中国への関税引き上げを示唆し、静かだった米株が急落。S&P500は2.7%安で4月以来の下落率となった。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-10102025-2025-10-10"
+     },
+     "title": "トランプ氏が対中関税引き上げを示唆"
+    },
+    {
+     "detail": "ハイテク株の比重が高いナスダック総合は3.6%安、小型株のラッセル2000は3.3%安と、主要指数で下げが大きかった。",
+     "direction": "down",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/10/how-major-us-stock-indexes-fared-friday-10-10-2025"
+     },
+     "title": "ナスダックが3.6%安で下げ最大"
     }
    ]
   }
@@ -104,44 +104,44 @@
   "jp": {
    "items": [
     {
-     "title": "公明党の連立離脱表明と米中対立",
      "detail": "日経平均は1241円安の46,847円32銭(-2.58%)で5日続落。公明党の連立政権離脱表明と米中対立への警戒で、後場に一時1544円安まで下げた。",
      "direction": "down",
      "source": {
       "label": "PayPay証券",
       "url": "https://media.paypay-sec.co.jp/cat2/mj251014_1"
-     }
+     },
+     "title": "公明党の連立離脱表明と米中対立"
     },
     {
-     "title": "半導体関連の売り",
      "detail": "半導体関連の一角が売られ、値下がり194銘柄に対し値上がりは31銘柄だった。",
      "direction": "down",
      "source": {
       "label": "松井証券",
       "url": "https://finance.matsui.co.jp/news/627276/index"
-     }
+     },
+     "title": "半導体関連の売り"
     }
    ]
   },
   "us": {
    "items": [
     {
-     "title": "米中貿易摩擦への警戒",
      "detail": "米中の貿易対立への懸念が再燃し、S&P500は0.2%安。エヌビディアやブロードコムなどハイテク株の下落が重しとなった。",
      "direction": "down",
      "source": {
       "label": "MarketBeat(AP)",
       "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-10142025-2025-10-14"
-     }
+     },
+     "title": "米中貿易摩擦への警戒"
     },
     {
-     "title": "大手銀行決算はまちまち",
      "detail": "大手銀行の決算が相次ぎ、強い内容もあって主要指数はまちまちで終わった(Sharecast)。",
      "direction": "flat",
      "source": {
       "label": "Sharecast(HL)",
       "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-finish-mixed-despite-strong-bank-earnings"
-     }
+     },
+     "title": "大手銀行決算はまちまち"
     }
    ]
   }
@@ -150,173 +150,348 @@
   "jp": {
    "items": [
     {
-     "title": "自民・維新の連立合意",
      "detail": "自民党と日本維新の会が連立政権樹立で合意すると伝わり、政局の不透明感が後退。高市氏の首相就任を先取りする「高市トレード」が指摘され、日経平均は1603円35銭高の4万9185円50銭で最高値更新、初の4万9000円台。",
      "direction": "up",
      "source": {
       "label": "共同通信(熊本日日新聞)",
       "url": "https://www.kumanichi.com/articles/1915020"
-     }
+     },
+     "title": "自民・維新の連立合意"
     },
     {
-     "title": "米地銀不安の和らぎと米中交渉への楽観",
      "detail": "米地銀の信用不安が和らいだことや米中通商交渉への楽観的な見方も相場を支えた。",
      "direction": "up",
      "source": {
       "label": "tbladvisory(日経概況)",
       "url": "https://tbladvisory.com/20251020nk-2/"
-     }
+     },
+     "title": "米地銀不安の和らぎと米中交渉への楽観"
     }
    ]
   },
   "us": {
    "items": [
     {
-     "title": "米中貿易摩擦と政府閉鎖への懸念が後退",
      "detail": "主要3指数が上昇しS&P500は1.1%高の6735.13、ナスダックは1.4%高の22990.54、ダウは1.1%高の46706.58。",
      "direction": "up",
      "source": {
       "label": "Schaeffer's",
       "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/20/dow-adds-515-points-as-fear-gauge-retreats"
-     }
+     },
+     "title": "米中貿易摩擦と政府閉鎖への懸念が後退"
     },
     {
-     "title": "アップルがダウを押し上げ",
      "detail": "ダウは515ドル上昇し、アップルの大幅高が寄与した。決算週を控え、主要指数は10日の急落前の水準に戻った。",
      "direction": "up",
      "source": {
       "label": "同",
       "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/20/dow-adds-515-points-as-fear-gauge-retreats"
-     }
+     },
+     "title": "アップルがダウを押し上げ"
+    }
+   ]
+  }
+ },
+ "2025-10-23": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は666円安の4万8642円。ソフトバンクG、アドバンテスト、東エレクの3銘柄で約480円押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "東京株式 23日終値",
+      "url": "https://www.kumanichi.com/articles/1916370"
+     },
+     "title": "「高市トレード」の過熱感から利益確定売り"
+    },
+    {
+     "detail": "さえない米決算や貿易摩擦への警戒感も重しとなった(ロイター)。",
+     "direction": "down",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/20251023nk/"
+     },
+     "title": "米企業決算と米中摩擦への警戒"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は+0.6%、ナスダックは+0.9%。トランプ・習会談が確認されたことが好感された。小型株が特に強かった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-10-23/wall-st-ends-higher-amid-mixed-earnings-trump-xi-meeting-confirmed"
+     },
+     "title": "米中貿易緊張の緩和期待とハイテク高"
+    }
+   ]
+  }
+ },
+ "2025-10-24": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は658円(1.35%)高の4万9300円、TOPIXは最高値を更新。前日の米株高で半導体関連が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 24日終値",
+      "url": "https://www.kumanichi.com/articles/1916823"
+     },
+     "title": "米株高と半導体買いで3日ぶり反発"
+    },
+    {
+     "detail": "後場に所信表明演説が伝わったが、相場への影響は小さかった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510240947/"
+     },
+     "title": "高市首相の所信表明、株価の反応は限定的"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "9月CPIが予想より穏やかで利下げ期待が強まり、ダウは1%高で初めて4万7000ドル台、S&P500は+0.8%、ナスダックは+1.1%。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/10/how-major-us-stock-indexes-fared-friday-10-24-2025"
+     },
+     "title": "CPIが予想を下回り、3指数が最高値"
+    },
+    {
+     "detail": "フォードが12%高、IBMとAMDが8%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Tiger(Post-Bell)",
+      "url": "https://www.itiger.com/news/1121099987"
+     },
+     "title": "好決算の個別株が上昇"
     }
    ]
   }
  },
  "2025-10-27": {
-  "us": {
-   "items": [
-    {
-     "title": "米中貿易合意への期待で主要3指数が最高値",
-     "detail": "トランプ・習近平会談を週内に控え、貿易合意への期待が高まった。S&P500は初めて6800を上回り、ナスダックは1.86%高の2万3637.46。ダウは0.71%高。",
-     "direction": "up",
-     "source": {
-      "label": "新華社(The Star)",
-      "url": "https://www.thestar.com.my/news/world/2025/10/28/major-us-stock-indexes-hit-new-highs"
-     }
-    },
-    {
-     "title": "クアルコムがAIデータセンター向け半導体で急伸",
-     "detail": "クアルコムはAI向けデータセンター用製品の発表を受けて約11%上昇した。",
-     "direction": "up",
-     "source": {
-      "label": "Schaeffer's Research",
-      "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/27/major-indexes-extend-record-rally-on-trade-optimism"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "日経平均が終値で初の5万円突破",
      "detail": "日経平均は前週末比1212円67銭高の5万512円32銭。米中貿易摩擦の激化懸念が後退し、前週末の米国株高も支えとなった。",
      "direction": "up",
      "source": {
       "label": "共同通信(秋田魁新報)",
       "url": "https://www.sakigake.jp/news/article/20251027CO0064/"
-     }
+     },
+     "title": "日経平均が終値で初の5万円突破"
     },
     {
-     "title": "高市政権への期待(高市トレード)",
      "detail": "高市政権の経済政策への期待が株高を演出した。TOPIXも3325.05と最高値を更新した。",
      "direction": "up",
      "source": {
       "label": "共同通信(秋田魁新報)",
       "url": "https://www.sakigake.jp/news/article/20251027CO0064/"
-     }
+     },
+     "title": "高市政権への期待(高市トレード)"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "トランプ・習近平会談を週内に控え、貿易合意への期待が高まった。S&P500は初めて6800を上回り、ナスダックは1.86%高の2万3637.46。ダウは0.71%高。",
+     "direction": "up",
+     "source": {
+      "label": "新華社(The Star)",
+      "url": "https://www.thestar.com.my/news/world/2025/10/28/major-us-stock-indexes-hit-new-highs"
+     },
+     "title": "米中貿易合意への期待で主要3指数が最高値"
+    },
+    {
+     "detail": "クアルコムはAI向けデータセンター用製品の発表を受けて約11%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/27/major-indexes-extend-record-rally-on-trade-optimism"
+     },
+     "title": "クアルコムがAIデータセンター向け半導体で急伸"
+    }
+   ]
+  }
+ },
+ "2025-10-28": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は293円安の5万0219円で3日ぶりに反落。前日に初めて5万円台に乗せた反動の売りが優勢だった。",
+     "direction": "down",
+     "source": {
+      "label": "東京株式 28日終値",
+      "url": "https://www.kumanichi.com/articles/1918203"
+     },
+     "title": "初の5万円乗せの翌日、利益確定売りで反落"
+    },
+    {
+     "detail": "後場に円高が進んだことも下落要因として挙げられた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202510281008/"
+     },
+     "title": "後場にドル安・円高が加速"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "ナスダックは+0.8%、S&P500は+0.23%でいずれも最高値。エヌビディアが米エネルギー省向けAIスーパーコンピューターの構築を発表して買われた。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/10/how-major-us-stock-indexes-fared-tuesday-10-28-2025"
+     },
+     "title": "3指数が最高値、エヌビディアが上昇"
+    },
+    {
+     "detail": "パウエル議長の講演とハイテク決算を控え、利下げ期待が相場を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-extend-gains-ahead-of-powell-speech,-tech-earnings"
+     },
+     "title": "利下げ期待と大手決算前の買い"
     }
    ]
   }
  },
  "2025-10-29": {
-  "us": {
-   "items": [
-    {
-     "title": "FRBが0.25%利下げ、12月利下げは確約せず",
-     "detail": "FOMCは政策金利を3.75〜4%に引き下げたが、パウエル議長が12月の追加利下げは既定路線でないと発言し、ダウとS&P500は日中高値から上げを失った。S&P500は0.30ポイント安でほぼ横ばい。",
-     "direction": "flat",
-     "source": {
-      "label": "Nasdaq.com(Zacks)",
-      "url": "https://www.nasdaq.com/articles/markets-fall-back-fed-cut-big-earnings-after-close"
-     }
-    },
-    {
-     "title": "エヌビディアが時価総額5兆ドルを突破",
-     "detail": "同社株は3%上昇して最高値で引け、ナスダックは0.5%高の23,958.47となった。",
-     "direction": "up",
-     "source": {
-      "label": "Nasdaq.com(Zacks)",
-      "url": "https://www.nasdaq.com/articles/markets-fall-back-fed-cut-big-earnings-after-close"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "日経平均が最高値を更新",
      "detail": "終値は51,307円65銭で前日比1,088円47銭高(+2.17%)。米国株の続伸や米中貿易摩擦への懸念後退が背景とされた。",
      "direction": "up",
      "source": {
       "label": "tbladvisory(日経概況)",
       "url": "https://tbladvisory.com/20251029nk/"
-     }
+     },
+     "title": "日経平均が最高値を更新"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "FOMCは政策金利を3.75〜4%に引き下げたが、パウエル議長が12月の追加利下げは既定路線でないと発言し、ダウとS&P500は日中高値から上げを失った。S&P500は0.30ポイント安でほぼ横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "Nasdaq.com(Zacks)",
+      "url": "https://www.nasdaq.com/articles/markets-fall-back-fed-cut-big-earnings-after-close"
+     },
+     "title": "FRBが0.25%利下げ、12月利下げは確約せず"
+    },
+    {
+     "detail": "同社株は3%上昇して最高値で引け、ナスダックは0.5%高の23,958.47となった。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq.com(Zacks)",
+      "url": "https://www.nasdaq.com/articles/markets-fall-back-fed-cut-big-earnings-after-close"
+     },
+     "title": "エヌビディアが時価総額5兆ドルを突破"
+    }
+   ]
+  }
+ },
+ "2025-10-30": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は18円高の5万1326円で小幅続伸。米ハイテク株高がAI関連に波及したが、前日の1000円超上昇の反動で利益確定売りも出た。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 30日終値",
+      "url": "https://www.kumanichi.com/articles/1919125"
+     },
+     "title": "終値ベースの最高値を更新"
+    },
+    {
+     "detail": "大きな波乱なく通過し、相場への影響は限定的だった。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(検索要約)",
+      "url": "https://www.kumanichi.com/articles/1919125"
+     },
+     "title": "日銀会合・米中首脳会談は波乱なく通過"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は1%安、ナスダックは1.6%安。メタは決算後に約11%下げ、マイクロソフトも下落した。アルファベットは決算を受けて上昇。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2025/10/30/recordhigh-rally-halted-as-megacaps-pull-back"
+     },
+     "title": "メガキャップの上昇が一服、メタが急落"
+    },
+    {
+     "detail": "米中の通商合意が伝わったが、ダウとナスダックは下で始まった。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/10/30/dow-nasdaq-gap-lower-despite-us-china-trade-deal"
+     },
+     "title": "米中通商合意でも売りで始まる"
     }
    ]
   }
  },
  "2025-10-31": {
-  "us": {
-   "items": [
-    {
-     "title": "アマゾン決算で9.6%高、S&P500を押し上げ",
-     "detail": "アマゾンが9.6%上昇して相場を主導し、S&P500は17.86ポイント高の6,840.20。10月はナスダックが4.9%上昇した。",
-     "direction": "up",
-     "source": {
-      "label": "Virginia Business(AP)",
-      "url": "https://virginiabusiness.com/amazon-stock-rally-boosts-sp500-wall-street/"
-     }
-    },
-    {
-     "title": "マイクロソフトとメタは下落",
-     "detail": "マイクロソフトは1.5%、メタは2.7%下げ、指数の重しになった。ダウは0.1%高の47,562.87、ナスダックは23,724.96。",
-     "direction": "down",
-     "source": {
-      "label": "Virginia Business(AP)",
-      "url": "https://virginiabusiness.com/amazon-stock-rally-boosts-sp500-wall-street/"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "アップル・アマゾンの好決算を好感",
      "detail": "米株市場終了後に明らかになったアップルとアマゾンの好決算を受けて上昇して始まり、後場はほぼ一方向に上げた。日経平均は1085円73銭高の5万2411円34銭と高値引け。",
      "direction": "up",
      "source": {
       "label": "OANDA証券",
       "url": "https://www.oanda.jp/lab-education/market_news/mn_983258_202510311757/"
-     }
+     },
+     "title": "アップル・アマゾンの好決算を好感"
     },
     {
-     "title": "日銀総裁会見後の円安",
      "detail": "前日の日銀総裁会見後に円安が進んだことも支援材料となり、3日続伸。週内3度目の1000円超の上昇となった。",
      "direction": "up",
      "source": {
       "label": "OANDA証券",
       "url": "https://www.oanda.jp/lab-education/market_news/mn_983258_202510311757/"
-     }
+     },
+     "title": "日銀総裁会見後の円安"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "アマゾンが9.6%上昇して相場を主導し、S&P500は17.86ポイント高の6,840.20。10月はナスダックが4.9%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/amazon-stock-rally-boosts-sp500-wall-street/"
+     },
+     "title": "アマゾン決算で9.6%高、S&P500を押し上げ"
+    },
+    {
+     "detail": "マイクロソフトは1.5%、メタは2.7%下げ、指数の重しになった。ダウは0.1%高の47,562.87、ナスダックは23,724.96。",
+     "direction": "down",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/amazon-stock-rally-boosts-sp500-wall-street/"
+     },
+     "title": "マイクロソフトとメタは下落"
     }
    ]
   }

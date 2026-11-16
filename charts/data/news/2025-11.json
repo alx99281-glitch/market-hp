@@ -1,27 +1,66 @@
 {
- "2025-11-05": {
+ "2025-11-03": {
   "us": {
    "items": [
     {
-     "detail": "AI関連株の割高感への警戒が前日の急落後に和らぎ、S&P500は0.4%高の6796.29、ダウは0.5%高、ナスダックは0.6%高となった。",
+     "detail": "S&P500は+0.2%、ナスダックは+0.5%。エヌビディアが指数を押し上げ、アマゾンはOpenAIとの提携発表で上昇した。ダウは0.5%安。",
      "direction": "up",
      "source": {
-      "label": "AP(WTOP)",
-      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-wednesday-11-5-2025"
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/europe/2025/11/how-major-us-stock-indexes-fared-monday-11-3-2025"
      },
-     "title": "前日の急落から反発、ダウは最高値"
+     "title": "エヌビディアとアマゾンが指数を支える"
     },
     {
-     "detail": "ロイターはダウが最高値で引けた一方、アマゾンがナスダックの重しになったと伝えた。",
-     "direction": "flat",
+     "detail": "同社のケンビュー買収発表を受け、ダウ構成のキンバリー・クラークが売られた。",
+     "direction": "down",
      "source": {
-      "label": "ロイター(StreetInsider)",
-      "url": "https://www.streetinsider.com/Reuters/Dow+notches+record-high+close+while+Amazon+weighs+on+Nasdaq/25591590.html"
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/europe/2025/11/how-major-us-stock-indexes-fared-monday-11-3-2025"
      },
-     "title": "堅調な指標と決算が支え"
+     "title": "キンバリー・クラークがケンビュー買収で下落"
+    }
+   ]
+  }
+ },
+ "2025-11-04": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は914円(1.74%)安の5万1497円。朝方に高値を付けた後、売りが優勢となって安値引けした。ソフトバンクGや東エレクが指数を押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "東京株式 4日終値",
+      "url": "https://www.kumanichi.com/articles/1920851"
+     },
+     "title": "急ピッチな上昇の反動で利益確定売り"
     }
    ]
   },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は1.2%安の6771.55、ナスダックは2%安。AI銘柄の割高感への警戒から市場全体が売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/11/4/ai-trade-stumbles-broader-market-pulls-back-on-valuation-concerns"
+     },
+     "title": "AI関連が崩れ、ナスダックは2%安"
+    },
+    {
+     "detail": "両社は予想を上回る決算だったが、引け後は下げた。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/after-hours-report/archive/2025/11/4/advanced-micro-devices-and-arista-networks-head-lower-on-earnings-despite-beating-expectations"
+     },
+     "title": "AMD・アリスタは決算で時間外下落"
+    }
+   ]
+  }
+ },
+ "2025-11-05": {
   "jp": {
    "items": [
     {
@@ -43,9 +82,238 @@
      "title": "AI・半導体関連株に売り"
     }
    ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "AI関連株の割高感への警戒が前日の急落後に和らぎ、S&P500は0.4%高の6796.29、ダウは0.5%高、ナスダックは0.6%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-wednesday-11-5-2025"
+     },
+     "title": "前日の急落から反発、ダウは最高値"
+    },
+    {
+     "detail": "ロイターはダウが最高値で引けた一方、アマゾンがナスダックの重しになったと伝えた。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(StreetInsider)",
+      "url": "https://www.streetinsider.com/Reuters/Dow+notches+record-high+close+while+Amazon+weighs+on+Nasdaq/25591590.html"
+     },
+     "title": "堅調な指標と決算が支え"
+    }
+   ]
+  }
+ },
+ "2025-11-06": {
+  "jp": {
+   "items": [
+    {
+     "detail": "前日に1200円超下げた反動で買いが入り、日経平均は671円高の5万0884円。一時5万1000円を回復したが午後は伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 6日終値",
+      "url": "https://www.kumanichi.com/articles/1921675"
+     },
+     "title": "前日の急落の反動で買い戻し"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "AI関連の割高感と景気への不安からS&P500は約1%安、ナスダックは約1.7%安。半導体指数も1.6%下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Trading Economics(検索要約)",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/499977"
+     },
+     "title": "バリュエーション懸念でハイテク株が下落"
+    },
+    {
+     "detail": "Challenger社の人員削減データが弱く、政府閉鎖が6週目に入ったことも心理を冷やした。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq/Barchart",
+      "url": "https://www.nasdaq.com/articles/stocks-slide-signs-cooling-labor-market"
+     },
+     "title": "雇用の弱さと政府閉鎖の長期化も重荷"
+    }
+   ]
+  }
+ },
+ "2025-11-07": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は607円安の5万0276円。AI関連株主導で一時1000円超下げたが、大引けにかけて下げ幅を縮め、5万円台を維持した。",
+     "direction": "down",
+     "source": {
+      "label": "東京株式 7日終値",
+      "url": "https://www.kumanichi.com/articles/1922136"
+     },
+     "title": "米国株安とAI関連の急落で反落"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は一時1.3%安まで下げたが、議会の閉鎖打開で進展との報道を受けて終盤に上昇に転じ、+0.13%で終えた。ナスダックは0.2%安。",
+     "direction": "flat",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-friday-11-7-2025"
+     },
+     "title": "終盤に持ち直し、S&P500・ダウは小幅高"
+    },
+    {
+     "detail": "AI関連株の調整が続き、消費者心理の悪化も重なって、ナスダックは週間で3%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/11/07/stocks-suffer-steep-weekly-drops-despite-last-minute-friday-rally"
+     },
+     "title": "ナスダックは週間で4月以来の大幅安"
+    }
+   ]
+  }
+ },
+ "2025-11-10": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は635円(1.26%)高の5万0912円。投資家心理が改善し、AI・半導体関連株が指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 10日終値",
+      "url": "https://www.kumanichi.com/articles/1923075"
+     },
+     "title": "米政府閉鎖の解消期待で反発"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は+1.5%、ナスダックは+2.3%(5月以来の上昇率)、ダウは+0.8%。閉鎖終結への期待が広がり、前週の下げをほぼ取り戻した。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-monday-11-10-2025"
+     },
+     "title": "政府機関閉鎖の解消期待で急反発"
+    },
+    {
+     "detail": "ダウは381ドル高の4万7369ドル。前週分の下落を全て埋めた(Sharecast報道)。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-dow-hits-new-record,-but-markets-end-mixed"
+     },
+     "title": "ダウが最高値で終了"
+    }
+   ]
+  }
+ },
+ "2025-11-11": {
+  "jp": {
+   "items": [
+    {
+     "detail": "朝方は堅調だったが、持ち高調整や決算発表への警戒から売りが優勢となり、日経平均は68円安の5万0843円で終えた。TOPIXは小幅高。",
+     "direction": "down",
+     "source": {
+      "label": "東京株式 11日終値",
+      "url": "https://www.kumanichi.com/articles/1923465"
+     },
+     "title": "前日の米ハイテク高で始まるも利益確定売りで小反落"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は朝の下げを取り戻して+0.2%、ダウは559ドル高の4万7928ドルで最高値を更新した。先週の下落分を取り戻す動きとなった。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-tuesday-11-11-2025"
+     },
+     "title": "ダウが最高値、朝方の下げを消す"
+    },
+    {
+     "detail": "AI関連の割高感への警戒でハイテクが売られ、ナスダックは58.87ポイント安。CoreWeaveは見通しが期待外れで16%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/11/11/mixed-finish-as-early-megacap-weakness-weighs-against-broadermarket-strength"
+     },
+     "title": "ナスダックは下落、CoreWeaveが急落"
+    }
+   ]
+  }
+ },
+ "2025-11-12": {
+  "jp": {
+   "items": [
+    {
+     "detail": "序盤の300円超の下落から切り返し、日経平均は220円高の5万1063円で引けた。TOPIXは1.14%高で最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "東京株式 12日終値",
+      "url": "https://www.kumanichi.com/articles/1923905"
+     },
+     "title": "円安が輸出株を押し上げ、TOPIXは最高値"
+    },
+    {
+     "detail": "決算を受けてソフトバンクグループが下げたが、指数全体への影響は限定的だった。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(検索要約)",
+      "url": "https://s.kabutan.jp/news/n202511121079/"
+     },
+     "title": "ソフトバンクGは決算後に下落も影響は限定的"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は小幅高(+0.06%)にとどまる一方、ダウは史上最高値を更新した。大型ハイテクの下落をその他の銘柄の買いが相殺した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/11/12/djia-captures-record-highs-amid-rotation-out-of-megacap-tech"
+     },
+     "title": "ダウが最高値、大型ハイテクから他業種へ資金循環"
+    },
+    {
+     "detail": "エネルギーが約1.4%安、通信サービスが約1.2%安となり、指数の上値を抑えた(新華社報道)。",
+     "direction": "down",
+     "source": {
+      "label": "Xinhua(検索要約)",
+      "url": "https://www.thestar.com.my/news/world/2025/11/13/us-stocks-close-mixed"
+     },
+     "title": "エネルギー・通信サービスが下落"
+    }
+   ]
   }
  },
  "2025-11-13": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は218円52銭高の5万1281円83銭。米政府機関の閉鎖解除を受けた買いに加え、円安を背景に海外短期筋とみられる先物買いが指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1924338"
+     },
+     "title": "米政府閉鎖の解除でリスク選好"
+    }
+   ]
+  },
   "us": {
    "items": [
     {
@@ -67,22 +335,22 @@
      "title": "ダウは最高値圏から反落"
     }
    ]
-  },
-  "jp": {
-   "items": [
-    {
-     "detail": "日経平均は218円52銭高の5万1281円83銭。米政府機関の閉鎖解除を受けた買いに加え、円安を背景に海外短期筋とみられる先物買いが指数を押し上げた。",
-     "direction": "up",
-     "source": {
-      "label": "共同通信(熊本日日)",
-      "url": "https://www.kumanichi.com/articles/1924338"
-     },
-     "title": "米政府閉鎖の解除でリスク選好"
-    }
-   ]
   }
  },
  "2025-11-14": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は905円30銭安の5万0376円53銭(1.77%安)。アドバンテスト、ソフトバンクG、東京エレクトロンの3銘柄で約800円押し下げた。一時1000円超下げたが5万円は維持。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1924802"
+     },
+     "title": "米ハイテク株安でAI関連が売られ反落"
+    }
+   ]
+  },
   "us": {
    "items": [
     {
@@ -104,44 +372,9 @@
      "title": "FRB高官発言で利下げ休止観測"
     }
    ]
-  },
-  "jp": {
-   "items": [
-    {
-     "detail": "日経平均は905円30銭安の5万0376円53銭(1.77%安)。アドバンテスト、ソフトバンクG、東京エレクトロンの3銘柄で約800円押し下げた。一時1000円超下げたが5万円は維持。",
-     "direction": "down",
-     "source": {
-      "label": "共同通信(熊本日日)",
-      "url": "https://www.kumanichi.com/articles/1924802"
-     },
-     "title": "米ハイテク株安でAI関連が売られ反落"
-    }
-   ]
   }
  },
  "2025-11-17": {
-  "us": {
-   "items": [
-    {
-     "detail": "エヌビディア決算を前に株価の割高感が警戒され、ダウは1.2%安、S&P500は0.9%安の6,672.41、ナスダックは0.8%安。",
-     "direction": "down",
-     "source": {
-      "label": "AP(WTOP)",
-      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-monday-11-17-2025"
-     },
-     "title": "AI株売りでダウ557ドル安"
-    },
-    {
-     "detail": "ビットコインの下落も重なり、VIXは約1カ月ぶりの高水準で引けた。",
-     "direction": "down",
-     "source": {
-      "label": "Briefing.com",
-      "url": "https://www.briefing.com/stock-market-update/archive/2025/11/17/major-averages-close-below-50day-moving-averages-for-first-time-since-april"
-     },
-     "title": "ビットコイン下落でリスク回避"
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
@@ -163,31 +396,31 @@
      "title": "ファストリ1銘柄で約240円押し下げ"
     }
    ]
-  }
- },
- "2025-11-18": {
+  },
   "us": {
    "items": [
     {
-     "detail": "S&P500は0.8%安の6617、ダウは1.1%安。株価の割高懸念と利下げ継続への不透明感が世界的な株安につながった。",
+     "detail": "エヌビディア決算を前に株価の割高感が警戒され、ダウは1.2%安、S&P500は0.9%安の6,672.41、ナスダックは0.8%安。",
      "direction": "down",
      "source": {
       "label": "AP(WTOP)",
-      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-tuesday-11-18-2025"
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-monday-11-17-2025"
      },
-     "title": "割高感とFRB利下げ観測の後退で下落"
+     "title": "AI株売りでダウ557ドル安"
     },
     {
-     "detail": "エヌビディアは2.8%安で、月初からの下落は10%超の調整局面に入った。決算発表を控え売りが出た。",
+     "detail": "ビットコインの下落も重なり、VIXは約1カ月ぶりの高水準で引けた。",
      "direction": "down",
      "source": {
-      "label": "AP(WTOP)",
-      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-tuesday-11-18-2025"
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2025/11/17/major-averages-close-below-50day-moving-averages-for-first-time-since-april"
      },
-     "title": "エヌビディアが下落"
+     "title": "ビットコイン下落でリスク回避"
     }
    ]
-  },
+  }
+ },
+ "2025-11-18": {
   "jp": {
    "items": [
     {
@@ -209,31 +442,31 @@
      "title": "日中関係の緊張も懸念"
     }
    ]
-  }
- },
- "2025-11-19": {
+  },
   "us": {
    "items": [
     {
-     "detail": "S&P500は0.4%高の6,642.16、ナスダックは0.6%高。AI株高値警戒が強いなか、決算発表を控えた買いが入った。",
-     "direction": "up",
-     "source": {
-      "label": "AP(WTOP)",
-      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-wednesday-11-19-2025"
-     },
-     "title": "エヌビディア決算前の買いで4日続落に歯止め"
-    },
-    {
-     "detail": "当局者が利下げはインフレ抑制を損ねかねないと警告したことが、センチメントを圧迫した。",
+     "detail": "S&P500は0.8%安の6617、ダウは1.1%安。株価の割高懸念と利下げ継続への不透明感が世界的な株安につながった。",
      "direction": "down",
      "source": {
       "label": "AP(WTOP)",
-      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-wednesday-11-19-2025"
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-tuesday-11-18-2025"
      },
-     "title": "FOMC議事要旨が重しに"
+     "title": "割高感とFRB利下げ観測の後退で下落"
+    },
+    {
+     "detail": "エヌビディアは2.8%安で、月初からの下落は10%超の調整局面に入った。決算発表を控え売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-tuesday-11-18-2025"
+     },
+     "title": "エヌビディアが下落"
     }
    ]
-  },
+  }
+ },
+ "2025-11-19": {
   "jp": {
    "items": [
     {
@@ -255,31 +488,31 @@
      "title": "日中関係悪化と長期金利上昇"
     }
    ]
-  }
- },
- "2025-11-20": {
+  },
   "us": {
    "items": [
     {
-     "detail": "好決算で朝は大きく上昇したが午後に売りへ転じ、S&P500は1.6%安の6,538.76、ナスダックは2.2%安。",
-     "direction": "down",
+     "detail": "S&P500は0.4%高の6,642.16、ナスダックは0.6%高。AI株高値警戒が強いなか、決算発表を控えた買いが入った。",
+     "direction": "up",
      "source": {
-      "label": "WTOP(AP)",
-      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-thursday-11-20-2025"
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-wednesday-11-19-2025"
      },
-     "title": "エヌビディア決算後に急反転"
+     "title": "エヌビディア決算前の買いで4日続落に歯止め"
     },
     {
-     "detail": "午後にかけてAI・ハイテクのバリュエーション警戒が再燃し、全業種高の場面から下落に転じた(Briefing.com)。",
+     "detail": "当局者が利下げはインフレ抑制を損ねかねないと警告したことが、センチメントを圧迫した。",
      "direction": "down",
      "source": {
-      "label": "Briefing.com",
-      "url": "https://briefing.com/stock-market-update/archive/2025/11/20/intraday-reversal-underscores-fading-ai-momentum-despite-strong-nvidia-beat"
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-wednesday-11-19-2025"
      },
-     "title": "AI関連の割高感への警戒"
+     "title": "FOMC議事要旨が重しに"
     }
    ]
-  },
+  }
+ },
+ "2025-11-20": {
   "jp": {
    "items": [
     {
@@ -301,9 +534,44 @@
      "title": "国内金利上昇と財政懸念"
     }
    ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "好決算で朝は大きく上昇したが午後に売りへ転じ、S&P500は1.6%安の6,538.76、ナスダックは2.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-thursday-11-20-2025"
+     },
+     "title": "エヌビディア決算後に急反転"
+    },
+    {
+     "detail": "午後にかけてAI・ハイテクのバリュエーション警戒が再燃し、全業種高の場面から下落に転じた(Briefing.com)。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/11/20/intraday-reversal-underscores-fading-ai-momentum-despite-strong-nvidia-beat"
+     },
+     "title": "AI関連の割高感への警戒"
+    }
+   ]
   }
  },
  "2025-11-21": {
+  "jp": {
+   "items": [
+    {
+     "detail": "前日の米ハイテク株安を受けAI関連が売られ、アドバンテスト12%超安、ソフトバンクG10%超安、東京エレクトロン7%超安。日経平均は1198円安の4万8625円88銭で、TOPIXはほぼ横ばいだった。",
+     "direction": "down",
+     "source": {
+      "label": "ビジネス+IT(市況 2025/11/21)",
+      "url": "https://www.sbbit.jp/article/refers/175759"
+     },
+     "title": "AI・半導体株が大幅安"
+    }
+   ]
+  },
   "us": {
    "items": [
     {
@@ -323,19 +591,6 @@
       "url": "https://wtop.com/news/2025/11/how-major-us-stock-indexes-fared-friday-11-21-2025/"
      },
      "title": "エヌビディアが下落"
-    }
-   ]
-  },
-  "jp": {
-   "items": [
-    {
-     "detail": "前日の米ハイテク株安を受けAI関連が売られ、アドバンテスト12%超安、ソフトバンクG10%超安、東京エレクトロン7%超安。日経平均は1198円安の4万8625円88銭で、TOPIXはほぼ横ばいだった。",
-     "direction": "down",
-     "source": {
-      "label": "ビジネス+IT(市況 2025/11/21)",
-      "url": "https://www.sbbit.jp/article/refers/175759"
-     },
-     "title": "AI・半導体株が大幅安"
     }
    ]
   }
@@ -365,6 +620,19 @@
   }
  },
  "2025-11-25": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は33円64銭高の4万8659円52銭。寄り付きは一時4万9000円台を回復したが、後場にマイナス圏へ。ソフトバンクGが約10%下落し、指数を約333円押し下げた。",
+     "direction": "flat",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1928669"
+     },
+     "title": "ソフトバンクG急落が重しで小幅高にとどまる"
+    }
+   ]
+  },
   "us": {
    "items": [
     {
@@ -386,22 +654,22 @@
      "title": "エヌビディアは軟調"
     }
    ]
-  },
-  "jp": {
-   "items": [
-    {
-     "detail": "日経平均は33円64銭高の4万8659円52銭。寄り付きは一時4万9000円台を回復したが、後場にマイナス圏へ。ソフトバンクGが約10%下落し、指数を約333円押し下げた。",
-     "direction": "flat",
-     "source": {
-      "label": "共同通信(熊本日日)",
-      "url": "https://www.kumanichi.com/articles/1928669"
-     },
-     "title": "ソフトバンクG急落が重しで小幅高にとどまる"
-    }
-   ]
   }
  },
  "2025-11-26": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は899円55銭高の4万9559円07銭(1.85%高)。上げ幅は一時1000円を超えたが、5万円の節目が近づくと上値が重くなった。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1929218"
+     },
+     "title": "前日の米株高を受け大幅続伸"
+    }
+   ]
+  },
   "us": {
    "items": [
     {
@@ -423,19 +691,6 @@
      "title": "ロビンフッドが10.9%高"
     }
    ]
-  },
-  "jp": {
-   "items": [
-    {
-     "detail": "日経平均は899円55銭高の4万9559円07銭(1.85%高)。上げ幅は一時1000円を超えたが、5万円の節目が近づくと上値が重くなった。",
-     "direction": "up",
-     "source": {
-      "label": "共同通信(熊本日日)",
-      "url": "https://www.kumanichi.com/articles/1929218"
-     },
-     "title": "前日の米株高を受け大幅続伸"
-    }
-   ]
   }
  },
  "2025-11-27": {
@@ -454,6 +709,19 @@
   }
  },
  "2025-11-28": {
+  "jp": {
+   "items": [
+    {
+     "detail": "米国市場が感謝祭で休場となり参加者が少なく小幅高。終値は5万0253円91銭(86円81銭高)で、一時割り込んだ5万円を引けにかけて維持した。",
+     "direction": "up",
+     "source": {
+      "label": "共同通信(熊本日日)",
+      "url": "https://www.kumanichi.com/articles/1930100"
+     },
+     "title": "米休場で薄商い、日経平均は4日続伸"
+    }
+   ]
+  },
   "us": {
    "items": [
     {
@@ -473,19 +741,6 @@
       "url": "https://www.bnnbloomberg.ca/markets/2025/11/28/us-stocks-rise-on-last-trading-day-of-november/"
      },
      "title": "12月利下げ期待が支え"
-    }
-   ]
-  },
-  "jp": {
-   "items": [
-    {
-     "detail": "米国市場が感謝祭で休場となり参加者が少なく小幅高。終値は5万0253円91銭(86円81銭高)で、一時割り込んだ5万円を引けにかけて維持した。",
-     "direction": "up",
-     "source": {
-      "label": "共同通信(熊本日日)",
-      "url": "https://www.kumanichi.com/articles/1930100"
-     },
-     "title": "米休場で薄商い、日経平均は4日続伸"
     }
    ]
   }
