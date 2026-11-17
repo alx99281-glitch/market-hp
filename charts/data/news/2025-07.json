@@ -1,4 +1,354 @@
 {
+ "2025-07-03": {
+  "us": {
+   "items": [
+    {
+     "title": "6月雇用統計が強く、S&P500とナスダックが最高値",
+     "detail": "S&P500は0.8%高の6,279.35、ダウは344ドル高。雇用者数が14.7万人増・失業率4.1%と強く、独立記念日前の短縮取引で最高値を更新した。利下げ再開観測は後退した。",
+     "direction": "up",
+     "source": {
+      "label": "Xinhua(The Star)",
+      "url": "https://www.thestar.com.my/news/world/2025/07/04/us-stocks-close-higher-after-strong-june-jobs-report"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計を控え様子見、小反発",
+     "detail": "日経平均は23円高の39,786円。米6月雇用統計の発表前で様子見が広がり、値幅は小さかった。日米関税交渉や参院選の行方も不透明感となった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507030959/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-04": {
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計堅調も、日米関税交渉の不透明感で小幅続伸",
+     "detail": "日経平均は25円高の39,811円。寄り付き直後に4万円を上回ったが、関税交渉などの不透明感から利益確定売りに押された。大手銀行株が上昇し、自動車株は軟調だった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507040952/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-07": {
+  "us": {
+   "items": [
+    {
+     "title": "関税書簡・マスク氏との対立でS&P500は0.8%安",
+     "detail": "S&P500は0.8%安の6,229.98、ダウは0.9%安。ホワイトハウスが貿易相手国に取引を急ぐよう圧力を強め、テスラはマスク氏とトランプ氏の対立再燃で下落した。値下がり銘柄数は値上がりの約4倍だった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-monday-7-7-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ関税への警戒で3日ぶり反落",
+     "detail": "日経平均は223円安の39,588円。9日に期限を迎える相互関税の上乗せ停止を前に、関税政策への警戒から上値の重い展開となった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507071026/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-08": {
+  "us": {
+   "items": [
+    {
+     "title": "関税期限を巡る不透明感でほぼ横ばい",
+     "detail": "S&P500は0.1%安の6,225.52、ダウは0.4%安、ナスダックは小幅高。新たな関税期限を巡る不透明感の中で、前日の下落後に小動きとなった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-tuesday-7-8-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日本への25%関税通告は想定内、反発",
+     "detail": "日経平均は101円高の39,689円。トランプ氏が日本に8月1日から25%の関税を通告したが想定内との見方が多く、最悪シナリオは回避されたとして景気敏感株中心に買いが広がった。ETF分配金捻出の売り観測で上げ幅は縮小した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507081001/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-09": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが牽引しナスダックは最高値",
+     "detail": "S&P500は0.6%高の6,263.26、ナスダックは0.9%高で最高値。エヌビディアが上昇を主導し、一時は時価総額4兆ドルを超えたが、終盤は利益確定が出た。",
+     "direction": "up",
+     "source": {
+      "label": "Xinhua(The Star)",
+      "url": "https://www.thestar.com.my/news/world/2025/07/10/us-stocks-close-higher-as-nvidia-reaches-milestone"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安が支えとなり4日ぶり反発",
+     "detail": "日経平均は132円高の39,821円。半導体関連が支えとなり、円安進行で再び上昇したが、ハイテク株の利益確定売りが上値を抑え方向感に乏しかった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507090990/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-10": {
+  "us": {
+   "items": [
+    {
+     "title": "デルタ決算で航空株急騰、S&P500とナスダックが最高値",
+     "detail": "S&P500は0.27%高の6,280.46で最高値。デルタ航空が予想を上回る決算で通期見通しを復活し約12%高、ユナイテッド航空は14.3%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/p-500-gains-losses-today-212941176.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日米関税交渉・参院選の不透明感で3営業日ぶり反落",
+     "detail": "日経平均は175円安の39,646円。日米関税交渉や参院選の行方、企業決算への懸念に加え、ETFの分配金捻出に伴う売り観測も重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎GOLD ONLINE",
+      "url": "https://gentosha-go.com/articles/-/70320"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-11": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏がカナダに35%関税、主要指数は下落",
+     "detail": "S&P500は0.3%安の6,259.75、ダウは0.6%安。カナダ製品への新たな関税など関税圧力が重しとなり、前日の最高値から反落。10年債利回りは4.42%に上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Seeking Alpha)",
+      "url": "https://seekingalpha.com/pr/20163751-how-major-us-stock-indexes-fared-friday-7-11-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ファーストリテイリング決算後の急落が指数を押し下げ",
+     "detail": "日経平均は77円安の39,570円。前日に決算を発表したファストリが大幅安となり、日経平均を約320円押し下げた。半導体関連は上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507110891/"
+     }
+    },
+    {
+     "title": "トランプ氏の関税計画も売り材料に",
+     "detail": "トランプ米大統領が多くの貿易相手国に一律15%または20%の関税を課す計画を示したことも売りを誘った(ロイター報道)。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507110891/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-14": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏がEU・メキシコに30%関税、持ち直して小幅高",
+     "detail": "S&P500は0.1%高の6,268.56、ナスダックは0.3%高で最高値。EUとメキシコへの30%関税発表で朝は下げたが、発動が8月1日でまだ交渉余地があるとして下げ幅を戻した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/7/14/resilience-despite-tariff-pressure"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "関税不透明感と参院選控え、方向感に欠け3日続落",
+     "detail": "日経平均は110円安の39,460円。米関税を巡る不透明感や日銀の政策に関する報道で上下に振れ、週末の参院選で与党の過半数割れが懸念された。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507140963/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-15": {
+  "us": {
+   "items": [
+    {
+     "title": "CPIで利下げ期待後退、ダウは1%安",
+     "detail": "S&P500は0.4%安の6,243.76、ダウは1%安。インフレ指標が利下げ期待を後退させた。一方でナスダックは、エヌビディアが中国向けH20販売の再開に期待を示し約4%高となり最高値を更新した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-tuesday-7-15-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高とエヌビディアの対中輸出再開で半導体株高",
+     "detail": "日経平均は218円高の39,678円で高値引け。前日の米株高やエヌビディアの中国向けAI半導体の輸出再開が好感され、AI関連株中心に買いが入った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507151018/"
+     }
+    },
+    {
+     "title": "参院選を巡る財政懸念で金利上昇、上値は重く",
+     "detail": "参院選をめぐる財政懸念から金利が上昇し、株価の上値を抑えた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507151018/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-16": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウ・S&P500は上昇、パウエル議長解任観測で乱高下",
+     "detail": "ダウは0.5%高の44,254.78、S&P500は0.3%高の6,263.70。トランプ氏のパウエルFRB議長解任発言で日中は荒い値動きとなったが、後に解任しない見通しを示した。銀行決算とCPIも意識された。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-wednesday-7-16-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体が支えるも終盤に伸び悩み、ほぼ横ばい",
+     "detail": "日経平均は14円安の39,663円。半導体関連が支えとなり一時200円超上昇したが、ASMLの決算を受けた終盤の利益確定で上げ幅を失った。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507161011/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-17": {
+  "us": {
+   "items": [
+    {
+     "title": "堅調な小売売上高・決算でS&P500とナスダックが最高値",
+     "detail": "S&P500は0.5%高の6,297.36、ナスダックは0.7%高で、ともに最高値を更新。好調な小売売上高と失業保険申請件数、企業決算が支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-thursday-7-17-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "TSMC決算を好感し引けにかけ上げ幅拡大",
+     "detail": "日経平均は237円高の39,901円。朝は下落で始まったが、午後に発表されたTSMCの決算が好感され引けにかけて上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202507170885/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-18": {
+  "us": {
+   "items": [
+    {
+     "title": "主要指数はほぼ横ばい、ナスダックは最高値",
+     "detail": "S&P500は0.1%未満の下落で6,296.79、ダウは0.3%安、ナスダックは小幅高で最高値を更新。前日の最高値圏で小動きに終わった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WTOP)",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-friday-7-18-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "3連休・参院選前の持ち高調整で小幅反落",
+     "detail": "日経平均は82円安の39,819円。朝方は前日の米株高で一時4万円を回復したが、参院選と3連休を控えた持ち高調整の売りが優勢になった。",
+     "direction": "down",
+     "source": {
+      "label": "limo",
+      "url": "https://limo.media/articles/-/91412"
+     }
+    },
+    {
+     "title": "ディスコ決算を嫌気し半導体関連に売り",
+     "detail": "前日に決算を発表したディスコは7〜9月期の利益見通しが期待に届かず大幅安。アドバンテストなど関連株にも利益確定売りが波及した。",
+     "direction": "down",
+     "source": {
+      "label": "limo",
+      "url": "https://limo.media/articles/-/91412"
+     }
+    }
+   ]
+  }
+ },
  "2025-07-21": {
   "us": {
    "items": [
