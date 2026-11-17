@@ -1,4 +1,32 @@
 {
+ "2025-05-01": {
+  "us": {
+   "items": [
+    {
+     "title": "MSFT・Metaの好決算でハイテク高",
+     "detail": "マイクロソフトが7.6%、メタが4.2%上昇。1〜3月期の利益が市場予想を上回り、S&P500は0.6%高、ナスダックは1.5%高。",
+     "direction": "up",
+     "source": {
+      "label": "Fortune",
+      "url": "https://dc.fortune.com/2025/05/01/stock-market-close-sp500-dow-nasdaq-tech-profits-expansion-plans/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の政策金利据え置きで円安",
+     "detail": "日銀決定会合の後に為替が円安へ振れ、輸出関連株が買われて日経平均は6日続伸(+406円92銭)。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20250501nk/"
+     }
+    }
+   ]
+  }
+ },
  "2025-05-02": {
   "us": {
    "items": [

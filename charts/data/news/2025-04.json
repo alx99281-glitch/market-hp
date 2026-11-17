@@ -1,4 +1,60 @@
 {
+ "2025-04-01": {
+  "us": {
+   "items": [
+    {
+     "title": "「解放の日」関税発表を控え荒い値動き",
+     "detail": "S&P500は+0.38%、ナスダックは+0.87%、ダウは−0.03%。関税の行方待ちで方向感に欠けた。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-04-01/mixed-finish-wall-street-gyrates-trump-tariffs-limbo"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "期初の益出し警戒で上値重い",
+     "detail": "朝方は一時3万6000円を超えたが、期初の益出し売り警戒で伸びず、終値は前日比6円92銭高の横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/1975684"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-02": {
+  "us": {
+   "items": [
+    {
+     "title": "相互関税の発表を前に乱高下",
+     "detail": "S&P500は1.1%安から1.1%高まで振れ+0.7%で終了。自動車関税が正式化され、引け後に急落した。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-422025-2025-04-02"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "相互関税の詳細発表前で様子見",
+     "detail": "一時198円安まで下げたが値ごろ感の買いで持ち直し+0.28%。半導体株が買われ、銀行株は売られた。",
+     "direction": "flat",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20250402nk/"
+     }
+    }
+   ]
+  }
+ },
  "2025-04-03": {
   "us": {
    "items": [
@@ -249,6 +305,71 @@
    ]
   }
  },
+ "2025-04-14": {
+  "us": {
+   "items": [
+    {
+     "title": "スマホ・PC・半導体を相互関税から除外",
+     "detail": "アップルなどハイテク株が上昇し、S&P500は+0.8%。自動車関税の猶予にも言及された。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(Fidelity)",
+      "url": "https://fidelity.com/news/article/default/202504141508RTRSNEWSCOMBINED_L4N3QS1EY_1"
+     }
+    },
+    {
+     "title": "米10年債利回りが低下",
+     "detail": "10年債利回りは約11.6bp低下の4.4%となり、債券市場の緊張が和らいだ。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-monday-4142025-2025-04-14"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前週末の米国株高で反発も、関税警戒で伸び悩む",
+     "detail": "日経平均は+1.18%で、朝方は700円超上げたが関税への警戒で買い一巡後は上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/1980245"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-15": {
+  "us": {
+   "items": [
+    {
+     "title": "関税報道と決算が交錯、方向感の乏しい展開",
+     "detail": "S&P500は約0.2%安、ダウは0.4%安。中国が航空機の引き渡しを停止したと伝わりボーイングが下落、バンカメは好決算。",
+     "direction": "down",
+     "source": {
+      "label": "Fortune",
+      "url": "https://www.fortune.com/2025/04/15/choppy-stock-market-today-sp500-nasdaq-dollar-tech-tariff-trump-china-boeing"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米国株の流れを引き継ぎ続伸",
+     "detail": "日経平均は+0.84%の3万4267円54銭。米市場の流れを受けたが上昇の勢いは強くなかった。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20250415nk/"
+     }
+    }
+   ]
+  }
+ },
  "2025-04-16": {
   "us": {
    "items": [
@@ -281,6 +402,49 @@
      "source": {
       "label": "株探(大引け)",
       "url": "https://s.kabutan.jp/news/n202504161066/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-17": {
+  "us": {
+   "items": [
+    {
+     "title": "ユナイテッドヘルスが決算で急落",
+     "detail": "決算が市場予想に届かず株価は22%下落。ダウを約527ポイント押し下げた(S&P500は+0.13%)。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-04-17/sp-500-ends-eli-lilly-jumps-and-unitedhealth-plummets"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安とTSMC決算が追い風",
+     "detail": "日米関税交渉で為替が議論されなかったとの報道で円安が進み、TSMCの決算も良好で終盤に上げ幅拡大(+1.35%)。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/20250417nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-18": {
+  "jp": {
+   "items": [
+    {
+     "title": "薄商いの中で続伸、医薬品などが支え",
+     "detail": "米国が聖金曜日で休場、東証プライムの売買代金は年初来最低水準。中外製薬1銘柄だけで日経平均を120円超押し上げ、+1.03%。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202504180907/"
      }
     }
    ]
@@ -351,6 +515,43 @@
    ]
   }
  },
+ "2025-04-23": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏が対中関税の引き下げを示唆",
+     "detail": "関税が「大幅に下がる」と述べたことなどで貿易戦争の緩和期待が広がり、S&P500は+1.67%、ナスダックは+2.5%。",
+     "direction": "up",
+     "source": {
+      "label": "Good Morning America",
+      "url": "https://www.goodmorningamerica.com/news/story/us-stocks-rally-trump-signals-thaw-trade-war-121078759"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米国株急騰を受けた買い",
+     "detail": "日経平均は+1.89%と大幅反発し、取引開始直後に3万5000円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202504231062/"
+     }
+    },
+    {
+     "title": "FRB議長の解任否定で円安",
+     "detail": "トランプ大統領がFRB議長を解任する意向はないと述べ、中銀独立性への懸念が後退して円安が進んだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202504231062/"
+     }
+    }
+   ]
+  }
+ },
  "2025-04-24": {
   "us": {
    "items": [
@@ -383,6 +584,132 @@
      "source": {
       "label": "Reuters系報道(サイト検索で確認)",
       "url": "https://www.sbbit.jp/article/refers/163094"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-25": {
+  "us": {
+   "items": [
+    {
+     "title": "アルファベット・エヌビディアが上昇",
+     "detail": "アルファベットが1.7%、エヌビディアが3.4%上昇し、ナスダックは1.3%高、S&P500は0.7%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/asian-shares-soar-wall-street-040418087.html"
+     }
+    },
+    {
+     "title": "関税で業績見通しが難しいとの声",
+     "detail": "トランプ政権の関税で先行きが読みにくいとする企業トップが増え、S&P500の半数超の銘柄は下落。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/asian-shares-soar-wall-street-040418087.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米中摩擦の緩和期待と円安",
+     "detail": "日経平均は+1.90%の3万5705円74銭で3日続伸。米中貿易摩擦の緩和期待や円安が買い材料と報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202504251029/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-28": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウとS&Pは5日続伸、ハイテクは軟調",
+     "detail": "S&P500は+0.06%で5連勝、ダウは+0.28%、ナスダックは約0.1%安と小動き。",
+     "direction": "flat",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/dow-sp-500-nab-5th-straight-win-tech-lags"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高で買い先行も伸び悩み",
+     "detail": "日経平均は4日続伸(+0.38%)。米ハイテク株高で朝方は買われたが、戻り待ちの売りで上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(日経概況)",
+      "url": "https://tbladvisory.com/?p=37092"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-29": {
+  "us": {
+   "items": [
+    {
+     "title": "決算と関税交渉の進展を好感",
+     "detail": "企業決算や関税交渉の進展の兆しが材料となり、S&P500は上昇し6日続伸となった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-04-29/us-stocks-fluctuate-oil-drops-amid-earnings-trade-talks"
+     }
+    },
+    {
+     "title": "雇用・消費者信頼感が弱く金利低下",
+     "detail": "求人件数と消費者信頼感が弱く、米国債利回りが低下して株価の支えになった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-04-29/us-stocks-fluctuate-oil-drops-amid-earnings-trade-talks"
+     }
+    }
+   ]
+  }
+ },
+ "2025-04-30": {
+  "us": {
+   "items": [
+    {
+     "title": "米1〜3月期GDPが3年ぶりマイナス",
+     "detail": "GDP統計で景気が3年ぶりに縮小と示され、S&P500は一時2.3%安まで売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/indexes-log-3rd-monthly-drop-despite-strong-april-finish"
+     }
+    },
+    {
+     "title": "引けにかけて急速に戻す",
+     "detail": "売りが一巡して持ち直し、S&P500は+0.15%でダウと共に7日続伸。ただし4月は3カ月連続の月間下落。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/indexes-log-3rd-monthly-drop-despite-strong-april-finish"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "関税交渉進展への期待と決算物色",
+     "detail": "日経平均は5日続伸(+0.57%)。約1カ月ぶりの高値水準で、関税交渉への期待や個別決算銘柄の物色が背景と報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202504301132/"
      }
     }
    ]
