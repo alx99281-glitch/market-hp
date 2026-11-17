@@ -1,4 +1,41 @@
 {
+ "2025-05-09": {
+  "us": {
+   "items": [
+    {
+     "title": "週末の米中協議を控え様子見",
+     "detail": "米中の貿易協議を週末に控え模様眺めとなり、S&P500は4.03ポイント安の5,659.91(週間では-0.5%)、ダウは119.07ドル安の41,249.38。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/5/9/closing-stock-market-summary"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米英の貿易協定と対中関税引き下げ観測",
+     "detail": "米英が2国間の貿易協定で合意したことや、中国への関税引き下げ検討の報道が買い材料に。終値は3万7503円33銭(574円70銭高、+1.56%)。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164101"
+     }
+    },
+    {
+     "title": "円安で輸出関連株が上昇",
+     "detail": "為替が円安方向に振れ、自動車や機械などの輸出関連株が買われた。TOPIXは11連騰。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164101"
+     }
+    }
+   ]
+  }
+ },
  "2025-05-12": {
   "us": {
    "items": [
@@ -31,6 +68,190 @@
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202505120980/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-13": {
+  "us": {
+   "items": [
+    {
+     "title": "4月CPIが予想を下回り、S&P500は年初来プラスに",
+     "detail": "4月の消費者物価が市場予想より穏やかで、S&P500は+0.72%の5,886.55と2025年の下げを解消した。ナスダックは+301.74の19,010.08。",
+     "direction": "up",
+     "source": {
+      "label": "NBC News",
+      "url": "https://www.nbcnews.com/business/markets/sp-500-closes-higher-tuesday-wiping-2025-loss-nvidia-surges-rcna206544"
+     }
+    },
+    {
+     "title": "エヌビディア上昇",
+     "detail": "エヌビディアはサウジアラビアへの半導体出荷の報道を受け約5.6%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "NBC News",
+      "url": "https://www.nbcnews.com/business/markets/sp-500-closes-higher-tuesday-wiping-2025-loss-nvidia-surges-rcna206544"
+     }
+    },
+    {
+     "title": "ユナイテッドヘルス急落でダウは下落",
+     "detail": "CEOの退任発表でユナイテッドヘルスが約16%下落し、ダウは269.67ドル安の42,140.43。",
+     "direction": "down",
+     "source": {
+      "label": "How major US stock indexes fared (AP)",
+      "url": "https://wnyt.com/business-news/how-major-us-stock-indexes-fared-tuesday-5-13-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米中の追加関税引き下げ合意を好感",
+     "detail": "米中が追加関税の引き下げで合意し、前日の米株高も追い風に。終値は3万8183円26銭(539円高、+1.43%)で4日続伸、3万8000円台は3月26日以来。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164289"
+     }
+    },
+    {
+     "title": "朝高後は利益確定売りで伸び悩み",
+     "detail": "寄り付き後は一時800円超高となったが、短期筋の利益確定売りや米CPI発表前の様子見で上値が重くなった。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164289"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-14": {
+  "us": {
+   "items": [
+    {
+     "title": "米中の一時休戦が下支え、ナスダックは続伸",
+     "detail": "米中の一時休戦を背景に週初の上げを維持。ナスダックはハイテク株高で+0.7%の19,146.81、S&P500は+0.1%の5,892.58。",
+     "direction": "up",
+     "source": {
+      "label": "How major US stock indexes fared (AP)",
+      "url": "https://wnyt.com/business-news/how-major-us-stock-indexes-fared-wednesday-5-14-2025"
+     }
+    },
+    {
+     "title": "ダウは小幅安",
+     "detail": "ダウは89.37ドル安(-0.2%)の42,051.06、小型株のラッセル2000は-0.9%。",
+     "direction": "down",
+     "source": {
+      "label": "How major US stock indexes fared (AP)",
+      "url": "https://wnyt.com/business-news/how-major-us-stock-indexes-fared-wednesday-5-14-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "4日続伸の後の利益確定売りで5日ぶり反落",
+     "detail": "前日までの4日続伸で3万8000円台を回復していたため利益確定売りが優勢となり、終値は3万8128円13銭(55円13銭安、-0.14%)。TOPIXは-0.32%。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164416"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-15": {
+  "us": {
+   "items": [
+    {
+     "title": "関税への警戒と強弱まちまちの経済指標",
+     "detail": "関税が心理の重しとなる中、指標は強弱まちまち。S&P500は+0.41%の5,916.93で4連騰、ダウは+0.65%、ナスダックは約0.2%安で6連騰が止まった。",
+     "direction": "flat",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2025/05/15/stocks-close-mixed-thursday-tariffs-weigh-on-sentiment/"
+     }
+    },
+    {
+     "title": "ダウとS&P500が上昇、ナスダックは反落",
+     "detail": "ダウは271.69ドル高の42,322.75、S&P500は3月3日以来の高値で引けた。ナスダックは34.49ポイント安の19,112.32。",
+     "direction": "up",
+     "source": {
+      "label": "How major US stock indexes fared (AP)",
+      "url": "https://wnyt.com/business-news/how-major-us-stock-indexes-fared-thursday-5-15-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "急上昇の反動で利益確定売り",
+     "detail": "短期間で急上昇した反動で利益確定売りが続き、下げ幅は一時500円近くに拡大。終値は3万7755円51銭(372円62銭安、-0.98%)。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164569"
+     }
+    },
+    {
+     "title": "円高が相場の重しに",
+     "detail": "為替の円高進行も重しとなった。TOPIXは0.88%安の2738.96。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164569"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-16": {
+  "us": {
+   "items": [
+    {
+     "title": "米中が関税の90日停止で合意、センチメント支え",
+     "detail": "米中が高関税の大半を90日間停止することで合意し、貿易摩擦の緩和が株価を支えた。S&P500は+0.7%の5,958.38で5連騰、週間では+5.3%。",
+     "direction": "up",
+     "source": {
+      "label": "AP",
+      "url": "https://am920theanswer.com/national/how-major-us-stock-indexes-fared-friday-5162025/e189a5a1827aaf3eb7cc53dbf50888b2"
+     }
+    },
+    {
+     "title": "米消費者信頼感が3年近い低水準、株価は意に介さず",
+     "detail": "ミシガン大学の消費者信頼感指数は3年近い低水準に落ち込んだが、株価は大きく崩れなかった。ダウは+0.8%、ナスダックは+0.5%。",
+     "direction": "flat",
+     "source": {
+      "label": "How major US stock indexes fared (AP)",
+      "url": "https://am920theanswer.com/national/how-major-us-stock-indexes-fared-friday-5162025/e189a5a1827aaf3eb7cc53dbf50888b2"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高を嫌気した売りと押し目買いで前日並み",
+     "detail": "朝方は円高を嫌気した利益確定売りで一時276円安まで下げたが、午後に押し目買いが入り、終値は3万7753円72銭(1円79銭安)で3日続落。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164655"
+     }
+    },
+    {
+     "title": "米ハイテク株安と国内GDPのマイナス",
+     "detail": "米ハイテク株安で半導体関連が軟調だったほか、1〜3月期GDP速報値が4四半期ぶりのマイナスとなり重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/164655"
      }
     }
    ]
