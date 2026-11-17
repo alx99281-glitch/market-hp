@@ -1,0 +1,296 @@
+{
+ "2025-06-23": {
+  "us": {
+   "items": [
+    {
+     "title": "イランの報復が限定的との見方でS&P500は1%高",
+     "detail": "米のイラン核施設攻撃後、報復が限定的との見方からS&P500は57.33ポイント(1%)高の6,025.17で、6,000を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "Barchart/Briefing.com",
+      "url": "https://www.barchart.com/story/news/33009826/how-major-us-stock-indexes-fared-monday-6-23-2025"
+     }
+    },
+    {
+     "title": "原油が7%安",
+     "detail": "WTI原油先物は7.0%安の1バレル68.63ドル。イランが海峡を封鎖しないとの見方が広がった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/23/closing-stock-market-summary"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米のイラン攻撃で朝方は売り",
+     "detail": "週末の米によるイラン核施設攻撃で地政学リスクが高まり、日経平均は一時376円91銭安まで下落した。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/166978"
+     }
+    },
+    {
+     "title": "円安で下げ幅縮小、半導体株は売り",
+     "detail": "1ドル=147円台の円安が支えとなり戻り歩調。ただし対中半導体規制強化の観測でアドバンテストや東エレクトロンは売られた。終値は49円14銭安の3万8354円09銭で3日続落。",
+     "direction": "flat",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/166978"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-24": {
+  "us": {
+   "items": [
+    {
+     "title": "イスラエル・イラン停戦でS&P500が1.11%高",
+     "detail": "トランプ氏が「完全な停戦」を発表。S&P500は1.11%高の6,092.18、ダウは507.24ドル高、ナスダックは1.43%高。ナスダック100は最高値。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/24/closing-stock-market-summary"
+     }
+    },
+    {
+     "title": "原油が急落",
+     "detail": "WTI原油は6%安の1バレル64.37ドル。エネルギー株が最も弱く、金融とハイテクが上昇を主導した。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/24/closing-stock-market-summary"
+     }
+    },
+    {
+     "title": "パウエル議長は慎重、利下げ観測も",
+     "detail": "物価圧力が抑えられれば利下げは早まりうると述べつつ時期は示さず。消費者信頼感の弱さが利下げ観測を強めた。",
+     "direction": "up",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2025/06/24/markets-rise-israel-iran-ceasefire-federal-reserve-jerome-powell/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "停戦報道で4営業日ぶり反発",
+     "detail": "トランプ氏のSNS投稿でイスラエル・イラン停戦が伝わり、日経平均は436円47銭高の3万8790円56銭。一時600円超上げたが3万9000円手前で伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/167060"
+     }
+    },
+    {
+     "title": "円高と米利下げ観測、半導体株に買い",
+     "detail": "ドルが145円台前半まで下落。東エレク、アドバンテスト、レーザーテックなど半導体株に買いが集中し、エネルギー株は軟調だった。",
+     "direction": "up",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/167060"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-25": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500はほぼ横ばい、ナスダックは小幅高",
+     "detail": "S&P500は0.02下落の6,092.16、ナスダックは61.02ポイント高の19,973.57、ダウは106.59ドル安。エヌビディアは最高値に達した。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/25/closing-stock-market-summary"
+     }
+    },
+    {
+     "title": "引け後にマイクロンが好見通し",
+     "detail": "マイクロンの4〜6月期見通し(売上104億〜110億ドル)が市場予想の99億ドルを上回り、時間外でAI関連株への信頼が戻った。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/after-hours-report/archive/2025/6/25/micron-on-the-move-after-upbeat-report-and-guidance"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株高と中東緩和で続伸",
+     "detail": "日経平均は151円51銭高の3万8942円07銭で、2月19日以来の高値。前日の米ハイテク株高と、イスラエル・イラン停戦による地政学リスク緩和が支えた。",
+     "direction": "up",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/167176"
+     }
+    },
+    {
+     "title": "3万9000円手前で利益確定、日銀の早期利上げ警戒",
+     "detail": "節目の3万9000円を前に利益確定売りが出て、日銀の早期利上げへの警戒感も指摘された。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/167176"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-26": {
+  "us": {
+   "items": [
+    {
+     "title": "広範な上昇でS&P500は最高値に迫る",
+     "detail": "S&P500は約0.8%高の6,141.02で、2月の最高値にあと0.05%に迫った。小型株中心に広く買われ、ラッセル2000は1.7%高。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/26/closing-stock-market-summary"
+     }
+    },
+    {
+     "title": "経済指標で金利低下、利下げ期待",
+     "detail": "新規失業保険申請や耐久財受注が予想より良好で、米長期金利が低下した。利下げ期待が買いを促した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/26/closing-stock-market-summary"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア最高値で半導体株が買われ3日続伸",
+     "detail": "日経平均は642円51銭高の3万9584円58銭で、終値は約5カ月ぶりの高値。米ハイテク株高とエヌビディアの最高値更新で半導体株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/20250626nk/"
+     }
+    },
+    {
+     "title": "関税交渉の行方を見極め",
+     "detail": "7月9日の米相互関税の猶予期限を前に、日米交渉の進展が見えるまで方向感を出しにくいとの見方もあった。",
+     "direction": "flat",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/20250626nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-27": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が最高値を更新",
+     "detail": "S&P500は32.05ポイント高の6,173.07で、2月の最高値を上回った。ダウは432.43ドル高、ナスダックは105.55ポイント高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(PBS掲載)",
+      "url": "https://www.pbs.org/newshour/economy/u-s-stocks-close-at-an-all-time-high-just-months-after-plunging-from-trump-trade-worries"
+     }
+    },
+    {
+     "title": "米中貿易合意と中東の停戦で春の下げを回復",
+     "detail": "先月の米中の関税引き下げ合意と、停戦による原油安・地政学リスク後退が相場を支えた。ナイキは15%超上昇。",
+     "direction": "up",
+     "source": {
+      "label": "AP(PBS掲載)",
+      "url": "https://www.pbs.org/newshour/economy/u-s-stocks-close-at-an-all-time-high-just-months-after-plunging-from-trump-trade-worries"
+     }
+    },
+    {
+     "title": "カナダとの通商協議打ち切りで一時下押し",
+     "detail": "トランプ氏がカナダとの通商協議を直ちに打ち切ると表明し、午後に一時売られたが、その後持ち直した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(検索結果)",
+      "url": "https://abc7ny.com/post/sp-500-hits-record-closing-high-investors-shrug-off-tariff-war-concerns/16864739/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア最高値で半導体株が上昇",
+     "detail": "日経平均は566円21銭高の4万150円79銭で4日続伸し、5カ月ぶりに4万円を回復して年初来高値を更新。エヌビディアの最高値更新を受け、アドバンテストなど値がさ半導体株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/167393"
+     }
+    },
+    {
+     "title": "米インフレ鈍化で利下げ観測、中東警戒も後退",
+     "detail": "米PCEなどがインフレ圧力の鈍化を示し、年内利下げ観測が広がった。中東情勢への警戒後退や海外勢の買いも支えた。",
+     "direction": "up",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/167393"
+     }
+    },
+    {
+     "title": "7月9日の関税猶予期限を意識",
+     "detail": "米相互関税の上乗せ猶予期限が迫ることへの警戒感が上値を抑えた。",
+     "direction": "down",
+     "source": {
+      "label": "sbbit",
+      "url": "https://www.sbbit.jp/article/refers/167393"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-30": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500とナスダックが最高値、四半期末",
+     "detail": "S&P500は0.52%高の6,204.95で初めて6,200台に乗せ、ナスダックは0.47%高、ダウは0.63%高。S&P500の4〜6月は10%超の上昇で、2023年10〜12月以来の大きさ。",
+     "direction": "up",
+     "source": {
+      "label": "Finviz(Zacks)",
+      "url": "https://finviz.com/news/92705/markets-close-rollercoaster-q2-on-top"
+     }
+    },
+    {
+     "title": "上期・月間も3指数そろって上昇",
+     "detail": "主要3指数は6月と上半期もそろって上昇して引けた。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/06/30/nasdaq-logs-biggest-quarterly-gain-in-5-years"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は5日続伸",
+     "detail": "日経平均は336円60銭(0.84%)高の4万0487円39銭で5日続伸した。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/20250630nk/"
+     }
+    }
+   ]
+  }
+ }
+}

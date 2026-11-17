@@ -1,4 +1,96 @@
 {
+ "2025-07-01": {
+  "us": {
+   "items": [
+    {
+     "title": "テスラなど大型株が重しでS&P500は小幅安",
+     "detail": "S&P500は0.1%安の6,198.01で、4日ぶりに下落。ナスダックは約0.8%安だった。テスラが指数を押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Newser掲載)",
+      "url": "https://www.newser.com/story/371224/tesla-nvidia-drag-down-sp-500.html"
+     }
+    },
+    {
+     "title": "ダウは約400ドル高で4連勝",
+     "detail": "GMが5.7%高、フォードが4.6%高となり、ダウ平均は約400ドル上昇して4日続伸した。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/07/01/dow-marks-4th-straight-win-with-400-point-gain"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "関税交渉の難航を警戒、5連騰後の利益確定",
+     "detail": "日経平均は501円06銭安の3万9986円33銭で、6営業日ぶりに反落。米国との関税交渉の難航を警戒した売りが優勢で、終値は3営業日ぶりに4万円を割った。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/167607"
+     }
+    },
+    {
+     "title": "過熱感からの調整売り",
+     "detail": "前日までの5連騰で2,000円超上昇していたため、短期的な過熱感を嫌った調整売りが出たとされる。",
+     "direction": "down",
+     "source": {
+      "label": "gentosha-go",
+      "url": "https://gentosha-go.com/articles/-/79824"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-02": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が3度目の最高値",
+     "detail": "S&P500は0.5%高の6,227.42で引け、4営業日で3度目の最高値を更新した。ナスダックは約0.9%高、ダウは小幅安。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-722025-2025-07-02"
+     }
+    },
+    {
+     "title": "ADP雇用が弱く、税制法案の採決に注目",
+     "detail": "弱いADP雇用統計と、トランプ氏の大型減税法案の下院最終採決が相場を左右したと報じられた。",
+     "direction": "flat",
+     "source": {
+      "label": "Sharecast(検索結果)",
+      "url": "https://www.thestar.com.my/news/world/2025/07/03/us-stocks-close-mixed"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日米関税交渉でトランプ氏が追加引き上げに言及",
+     "detail": "トランプ大統領が日本への関税をさらに引き上げる可能性に触れ、投資家心理の重しとなった。日経平均は223円85銭安の3万9762円48銭で続落。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/167705"
+     }
+    },
+    {
+     "title": "後場にかけて下げ幅を縮小",
+     "detail": "寄り付き後は一時541円安まで下げたが、後場にかけて下げ幅を縮めた。TOPIXは0.21%安。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/167705"
+     }
+    }
+   ]
+  }
+ },
  "2025-07-03": {
   "us": {
    "items": [
