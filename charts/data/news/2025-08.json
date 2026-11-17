@@ -35,5 +35,79 @@
     }
    ]
   }
+ },
+ "2025-08-28": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算後もS&P500が初の6,500超え",
+     "detail": "S&P500は0.3%高の6,501.86で連日の最高値。エヌビディアは決算後も1%未満の下落にとどまった。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-thursday-8-28-2025"
+     }
+    },
+    {
+     "title": "ホーメルが急落",
+     "detail": "ホーメルは決算が予想に届かず通期見通しも引き下げ、13.1%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-thursday-8-28-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算でハイテク株高",
+     "detail": "308円52銭高の42,828円79銭。寄り後は赤沢経済再生相の訪米取りやめ報道で売られたが、エヌビディア決算を受けたハイテク買いでプラス転換した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ(ロイター)",
+      "url": "https://s.minkabu.jp/news/4607027"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-29": {
+  "us": {
+   "items": [
+    {
+     "title": "PCE物価を受けAI関連株が下落、月末は反落",
+     "detail": "S&P500は0.64%安の6,460.26、ナスダックは1.15%安。ハイテク株が重しだった。",
+     "direction": "down",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-friday-8-29-2025"
+     }
+    },
+    {
+     "title": "8月は月間で上昇",
+     "detail": "8月はダウ3.2%、S&P500 1.9%、ナスダック1.6%上昇。S&P500とダウは4カ月連続の上昇。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-friday-8-29-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "月末を控え利益確定売り",
+     "detail": "110円32銭(0.26%)安の42,718円47銭で3日ぶり反落。月末控えと上昇後の利益確定売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508300046/"
+     }
+    }
+   ]
+  }
  }
 }

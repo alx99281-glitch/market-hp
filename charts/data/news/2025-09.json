@@ -1,4 +1,370 @@
 {
+ "2025-09-01": {
+  "jp": {
+   "items": [
+    {
+     "title": "米中AI・半導体競争懸念で半導体株売り",
+     "detail": "529円68銭安の42,188円79銭で8月8日以来の安値。アリババがAI向け半導体を開発したとの報道で米半導体株が下げ、国内半導体株に売りが集中した。",
+     "direction": "down",
+     "source": {
+      "label": "Limo",
+      "url": "https://limo.media/articles/-/95009"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-02": {
+  "us": {
+   "items": [
+    {
+     "title": "連休明け、9月入りで売り優勢",
+     "detail": "3指数とも下落。S&P500は0.69%安の6,415.54、ナスダックは0.82%安。季節的な弱さと金利上昇が重荷。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/9/2/stocks-move-lower-amid-tariff-uncertainty"
+     }
+    },
+    {
+     "title": "長期金利が上昇",
+     "detail": "10年債利回りは5bp上昇し4.28%となった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/9/2/stocks-move-lower-amid-tariff-uncertainty"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "自律反発狙いの買い戻し",
+     "detail": "121円70銭(0.29%)高の42,310円49銭。前日の大幅安の反動で買い戻しが入り、3営業日ぶりに反発した。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/?p=42668"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-03": {
+  "us": {
+   "items": [
+    {
+     "title": "グーグル親会社が反発、ナスダック1%高",
+     "detail": "米判事がグーグルの分割を認めない判断を示し、アルファベットが急伸。S&P500は0.5%高の6,448.26、ナスダックは約1%高。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(Reuters)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-09-03/nasdaq-sp-500-end-higher-alphabet-apple-rate-cut-hopes"
+     }
+    },
+    {
+     "title": "ボーイング下落でダウは小幅安",
+     "detail": "ボーイングが2.1%下落しダウの重しに。ダウは約0.05%安。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-932025-2025-09-03"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安を受け反落",
+     "detail": "371円60銭(0.88%)安の41,938円89銭。前日の米ハイテク株売りを引き継ぎ、午後は下げ幅が一時440円超に。押し目買いやディフェンシブ株への資金流入も見られた。",
+     "direction": "down",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://kumanichi.com/articles/2032056"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-04": {
+  "us": {
+   "items": [
+    {
+     "title": "民間雇用の弱さで利下げ期待、S&P500最高値",
+     "detail": "民間雇用の伸び鈍化と人員削減増加を示す指標で国債利回りが低下。S&P500は0.8%高の6,502.08で最高値。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-942025-2025-09-04"
+     }
+    },
+    {
+     "title": "ナスダックは1%高",
+     "detail": "ナスダックは1%高の21,707.69、ダウは0.8%高、小型株も1.3%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(Xinhua)",
+      "url": "https://www.thestar.com.my/news/world/2025/09/04/us-stocks-close-mixed"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ハイテク株主導で反発",
+     "detail": "641円38銭(1.53%)高の42,580円27銭。前日の米ハイテク株高を受け半導体株に押し目買いが入った。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/?p=42993"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-05": {
+  "us": {
+   "items": [
+    {
+     "title": "8月雇用統計が予想大幅未達",
+     "detail": "非農業部門雇用者数の増加は2.2万人と予想の7.5万人を下回り、前月までも下方修正された。",
+     "direction": "down",
+     "source": {
+      "label": "The Star(Xinhua)",
+      "url": "https://www.thestar.com.my/news/world/2025/09/06/us-stocks-close-lower-after-weak-jobs-data"
+     }
+    },
+    {
+     "title": "寄り付きは最高値も上げ幅を失う",
+     "detail": "利下げ観測で一時3指数とも最高値をつけたが、景気減速懸念が出て売りに転じ終値は下落。ダウは約0.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/wall-street-dips-weak-jobs-data-fed/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "4万3000円台回復で続伸",
+     "detail": "438円48銭高の43,018円75銭。場中は600円超高となり、4万3000円台は8月19日以来。",
+     "direction": "up",
+     "source": {
+      "label": "Limo",
+      "url": "https://limo.media/articles/-/95634"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-08": {
+  "us": {
+   "items": [
+    {
+     "title": "ナスダックが最高値、利下げ観測が支え",
+     "detail": "ナスダックは0.5%高で最高値を更新、S&P500は0.2%高。雇用減速を示す指標が相次ぎ利下げ期待が続いた。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/09/how-major-us-stock-indexes-fared-monday-9-8-2025"
+     }
+    },
+    {
+     "title": "アップラビンとロビンフッドのS&P500採用",
+     "detail": "アップラビンとロビンフッドが月内にS&P500へ採用されると伝わり、両銘柄が上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/09/how-major-us-stock-indexes-fared-monday-9-8-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "石破首相の退陣表明で続伸",
+     "detail": "625円06銭高の43,643円81銭。退陣表明で次期政権の経済対策への期待が高まり、円安も加わって買われた。TOPIXは最高値。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA(共同)",
+      "url": "https://www.oanda.jp/lab-education/market_news/kn_2025090801000995/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-09": {
+  "us": {
+   "items": [
+    {
+     "title": "弱い雇用統計の改定を意識しつつ3指数が最高値",
+     "detail": "雇用の下方改定を受けつつも利下げ期待とAI期待が優勢で、3指数が同日に終値の最高値をつけた(S&P500は約0.3%高)。",
+     "direction": "up",
+     "source": {
+      "label": "InsuranceNewsNet(AP)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-tuesday-9-9-2025"
+     }
+    },
+    {
+     "title": "アップルはiPhone新型発表後に下落",
+     "detail": "アップルは新型iPhone発表後に1.5%下落した一方、ユナイテッドヘルスが指数を支えた。",
+     "direction": "flat",
+     "source": {
+      "label": "InsuranceNewsNet(AP)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-tuesday-9-9-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "4営業日ぶり反落、場中は4万4000円台",
+     "detail": "184円52銭安の43,459円29銭。高市早苗氏の総裁選出馬報道で一時初の4万4000円台に乗せたが、利益確定売りで午後マイナスに転じた。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/20250909nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-10": {
+  "us": {
+   "items": [
+    {
+     "title": "8月の物価統計が予想を下回り利下げ観測が維持",
+     "detail": "インフレ指標が市場予想より穏やかで、利下げ期待からS&P500は6,532.04と最高値を更新(約0.3%高)。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/09/how-major-us-stock-indexes-fared-wednesday-9-10-2025"
+     }
+    },
+    {
+     "title": "アップル下落でダウは0.5%安",
+     "detail": "アップルが3.2%下落しダウの重しとなり、ダウは約0.5%安の45,490.92。",
+     "direction": "down",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2025/09/how-major-us-stock-indexes-fared-wednesday-9-10-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と半導体株買いで最高値",
+     "detail": "378円38銭高の43,837円67銭で終値の最高値。前日の米株高、利下げ観測を受け半導体などハイテク株が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "熊本日日新聞(共同)",
+      "url": "https://www.kumanichi.com/articles/1911711"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-11": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500・ナスダックが最高値、ダウは616ドル高",
+     "detail": "ダウは約1.4%高の46,108、S&P500は0.8%高の6,587.47で3日連続の最高値、ナスダックは初の22,000超え。",
+     "direction": "up",
+     "source": {
+      "label": "Finviz(Barchart)",
+      "url": "https://finviz.com/news/164263/stocks-mark-record-closes-with-dow-up-616-points"
+     }
+    },
+    {
+     "title": "まちまちの経済指標が利下げ観測を補強",
+     "detail": "物価・失業保険申請関連の指標がまちまちで、FRBの利下げ観測が強まり株高につながった。小型株のラッセル2000は約1.8%上昇。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(Xinhua)",
+      "url": "https://www.thestar.com.my/news/world/2025/09/12/us-stocks-close-higher"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "初の4万4000円台、ソフトバンクGが押し上げ",
+     "detail": "534円83銭高の44,372円50銭で最高値。前日の米ハイテク株高でAI・半導体株が買われ、ソフトバンクG1社で約329円押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/20250911nk/"
+     }
+    },
+    {
+     "title": "総裁選前の財政拡張期待",
+     "detail": "自民党総裁選を前に財政拡張への期待も相場を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/20250911nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-09-12": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500ほぼ横ばい、ナスダックは最高値",
+     "detail": "S&P500は0.1%未満の下落でほぼ横ばい、ダウは約0.6%安、ナスダックは約0.4%高で終値の最高値。来週のFOMCでの利下げ観測が下支えした。",
+     "direction": "flat",
+     "source": {
+      "label": "PBS NewsHour(AP)",
+      "url": "https://www.pbs.org/newshour/economy/wall-street-finishes-its-best-week-in-over-a-month"
+     }
+    },
+    {
+     "title": "ミシガン大消費者信頼感が予想より悪化",
+     "detail": "9月のミシガン大消費者信頼感指数は55.4と予想の58を下回った。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-9122025-2025-09-12"
+     }
+    },
+    {
+     "title": "週間では3指数とも上昇、AI関連が復調",
+     "detail": "3指数とも週間で上昇し、AI関連株の持ち直しがS&P500とナスダックを押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "Boston.com(AP)",
+      "url": "https://www.boston.com/news/business/2025/09/13/wall-street-coasts-to-the-finish-of-its-best-week-in-the-last-5/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は3日連続で終値最高値",
+     "detail": "395円高の44,768円12銭で最高値を更新。米株高と利下げ観測が背景だったが、3連休前で伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "秋田魁新報(共同)",
+      "url": "https://www.sakigake.jp/news/article/20250912CO0084/"
+     }
+    }
+   ]
+  }
+ },
  "2025-09-15": {
   "us": {
    "items": [
