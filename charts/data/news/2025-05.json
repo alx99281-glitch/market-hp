@@ -36,6 +36,161 @@
    ]
   }
  },
+ "2025-05-19": {
+  "us": {
+   "items": [
+    {
+     "title": "米国債格下げで急落後に持ち直す",
+     "detail": "ムーディーズが米国債の格付けをAaaからAa1に引き下げ、S&P500は一時1%安まで売られたが、長期金利が高値から低下して下げを埋め、0.1%高で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(HL)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-erase-losses-as-bond-yields-ease"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米国債格下げと半導体株安",
+     "detail": "ムーディーズによる米国債格下げが警戒され、前日の米半導体株安も響いて4日続落、255.09円(0.68%)安の37,498.63円。内需系は買われ、33業種中27業種が上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202505190970/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-20": {
+  "us": {
+   "items": [
+    {
+     "title": "米長期金利の上昇",
+     "detail": "米国債利回りの上昇で、S&P500は6連騰のあと0.4%安。ダウは0.3%安、ナスダックは0.4%安だった。貿易緊張緩和やインフレ鈍化への楽観は時期尚早との警戒も出た。",
+     "direction": "down",
+     "source": {
+      "label": "The Star(Xinhua)",
+      "url": "https://www.thestar.com.my/news/world/2025/05/21/us-stocks-close-lower-amid-doubts-from-tariffs-inflation-optimism"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日米財務相会談で為替への言及を警戒",
+     "detail": "朝は400円超上昇したが、翌週の日米財務相会談で為替が議論されるとの懸念から引けにかけて失速し、日経平均は30.80円高の37,529.49円とほぼ横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "幻冬舎GOLD ONLINE",
+      "url": "https://gentosha-go.com/articles/-/69197"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-21": {
+  "us": {
+   "items": [
+    {
+     "title": "米債利回り急騰、20年債入札が低調",
+     "detail": "20年債入札の需要が弱く、米政府債務への懸念から米長期金利が急上昇。ダウは816.80ドル(1.91%)安、S&P500は1.61%安の5,844.61と急落した。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-5212025-2025-05-21"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高と長期金利上昇、日米財務相会談を前にした調整",
+     "detail": "為替の円高進行と長期金利の上昇が上値を抑え、日米財務相の協議で為替も議論されるとの見方から持ち高調整の売りが優勢となり、日経平均は230.51円安の37,298.98円。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎GOLD ONLINE",
+      "url": "https://gentosha-go.com/articles/-/69233"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-22": {
+  "us": {
+   "items": [
+    {
+     "title": "米政府債務への懸念でまちまち",
+     "detail": "米政府の債務増大への懸念が重荷となり、主要指数はほぼ横ばいからまちまちで終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "RTTNews(finanzen.at)",
+      "url": "https://www.finanzen.at/nachrichten/aktien/u-s-stocks-give-back-ground-to-close-roughly-flat-1034756745"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株安と円高",
+     "detail": "前日の米株安と円高が背景となり、日経平均は313.11円(0.84%)安の36,985.87円と反落した。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202505221167/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-23": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏の通商交渉への発言で下落",
+     "detail": "トランプ大統領が貿易交渉は進んでいないと発言し、S&P500は0.7%安の5,802.82、ナスダックは1%安。週間ではS&P500が2.6%下げ、VIXは25.53に上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-5232025-2025-05-23"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安と米ハイテク株の堅調",
+     "detail": "為替が円安方向に振れたことや米ハイテク株の堅調を背景に3日ぶりに反発し、日経平均は174.60円高の37,160.47円。前場には400円近く上げたが、その後は上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202505230942/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-26": {
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ氏がEU向け50%関税を延期",
+     "detail": "トランプ大統領がEUへの50%関税(6月1日発動予定)を延期したことが買いを支え、半導体関連が指数を押し上げた。日経平均は371.06円高の37,531.53円と高値引け。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ(Reuters)",
+      "url": "https://minkabu.jp/news/4241440"
+     }
+    }
+   ]
+  }
+ },
  "2025-05-27": {
   "us": {
    "items": [
@@ -59,6 +214,90 @@
      "source": {
       "label": "ビズバイト(ロイター配信)",
       "url": "https://www.sbbit.jp/article/refers/165269"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-28": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC議事要旨と決算前の持ち高調整",
+     "detail": "FRBの会合議事要旨を消化する中、引けにかけて半導体設計企業が下げ、S&P500は0.56%安の5,888.55。取引終了後のエヌビディア決算を控えていた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(Reuters)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-05-28/indexes-end-down-after-chip-designers-ease-late-nvidia-jumps-after"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中東警戒とエヌビディア決算前の調整",
+     "detail": "日経平均は一時454円高まで上げたが買いが続かず、4営業日ぶりに1.71円安の37,722.40円と反落。翌日のエヌビディア決算を前にポジション調整もみられた。",
+     "direction": "flat",
+     "source": {
+      "label": "SBI BIT(Reuters)",
+      "url": "https://www.sbbit.jp/article/refers/165340"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-29": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算を好感",
+     "detail": "エヌビディアが決算を受けて上昇し相場を支え、S&P500は0.4%高の5,912.17。ただ、米裁判所がトランプ関税の多くを差し止めた判決(政権は控訴)で上げ幅は縮んだ。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-5292025-2025-05-29"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算の好感と円安",
+     "detail": "前日のエヌビディア決算が好感され、円安も追い風となって日経平均は710.58円(1.88%)高の38,432.98円と急反発した。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎GOLD ONLINE",
+      "url": "https://gentosha-go.com/articles/-/69416"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-30": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500ほぼ横ばいで5月の月間上昇率は6.15%",
+     "detail": "ダウは小幅高、ナスダックは0.32%安と高安まちまちで引けた。5月は月間でS&P500が約6.15%、ナスダックが約9.56%上昇し、2023年以来の好調な月となった。",
+     "direction": "flat",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-5302025-2025-05-30"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "関税差し止め判決の停止と円高",
+     "detail": "米国での関税差し止めが一時停止されたことや円高進行が売り材料となり、日経平均は467.88円(1.22%)安の37,965.10円。TOPIXは0.37%安。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters(SBI BIT)",
+      "url": "https://www.sbbit.jp/article/refers/165558"
      }
     }
    ]

@@ -1,4 +1,97 @@
 {
+ "2025-06-02": {
+  "us": {
+   "items": [
+    {
+     "title": "製造業の悪化で朝安も、引けにかけ反発",
+     "detail": "製造業指標の悪化で寄り付きは1%近く下げたが、貿易摩擦を意に介さず切り返し、S&P500は0.4%高の5,935.94で終えた。原油は3%超上昇。5月は2023年以来の月間上昇率だった。",
+     "direction": "up",
+     "source": {
+      "label": "DTN(AP)",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/news/article/2025/06/02/wall-street-drifts-higher-oil-prices"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米中貿易摩擦への懸念と円高",
+     "detail": "米中貿易摩擦への懸念と円高進行で売りが優勢となり、日経平均は494.43円(1.30%)安の37,470.67円。トランプ大統領の鉄鋼・アルミ追加関税表明も逆風となった。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202506020989/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-03": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株高と求人件数の増加",
+     "detail": "半導体株が上昇し、4月の求人件数も予想を上回ってS&P500は0.6%高。エヌビディアが2.8%上昇し時価総額で世界首位に返り咲いた。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-632025-2025-06-03"
+     }
+    },
+    {
+     "title": "OECDが米成長見通しを下方修正",
+     "detail": "OECDが2025年の米成長率予想を2.2%から1.6%に引き下げた。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-632025-2025-06-03"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高で朝高も、国内機関の売りで小幅続落",
+     "detail": "前日の米ハイテク株高で朝方は半導体関連主導に250円超上昇したが、年金など国内機関投資家とみられる売りに押され23.86円安の37,446.81円で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(月刊ゲントシャ経由)",
+      "url": "https://gentosha-go.com/articles/-/69517"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-04": {
+  "us": {
+   "items": [
+    {
+     "title": "民間雇用が弱く、鉄鋼・アルミ関税も重荷",
+     "detail": "民間部門の雇用統計が弱く、鉄鋼・アルミへの新たな関税も嫌気され、ダウは4日続伸が止まり0.22%安。S&P500はほぼ横ばい、ナスダックは0.32%高だった。",
+     "direction": "down",
+     "source": {
+      "label": "Xinhua(The Star)",
+      "url": "https://www.thestar.com.my/news/world/2025/06/05/us-stocks-close-mixed-on-weak-hiring-data-in-private-sector"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株高を受けた半導体関連の買い",
+     "detail": "米投資銀行の半導体株への強気判断を受けて半導体関連株が買われ、日経平均は300.64円高の37,747.45円と反発した。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎GOLD ONLINE",
+      "url": "https://gentosha-go.com/articles/-/69545"
+     }
+    }
+   ]
+  }
+ },
  "2025-06-05": {
   "us": {
    "items": [
