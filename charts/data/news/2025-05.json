@@ -1,4 +1,190 @@
 {
+ "2025-05-02": {
+  "us": {
+   "items": [
+    {
+     "title": "4月雇用統計が予想を上回る",
+     "detail": "4月の非農業部門雇用者数は17.7万人増で、予想の約13.5万人を上回った。S&P500は1.5%高の5,686.67で9連騰となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Triblive)",
+      "url": "https://triblive.com/news/wire-stories/wall-street-extends-its-gains-to-a-9th-straight-day-reclaiming-losses-since-tariff-escalation"
+     }
+    },
+    {
+     "title": "中国が米国との貿易交渉に前向きな姿勢",
+     "detail": "中国当局が米国の呼びかけに応じて貿易交渉を再開する可能性を示し、貿易への懸念が和らいだ。",
+     "direction": "up",
+     "source": {
+      "label": "CNN(abc17news)",
+      "url": "https://abc17news.com/money/cnn-business-consumer/2025/05/02/sp-500-on-track-for-longest-winning-streak-in-20-years-as-trump-and-china-show-some-willingness-to-bend-on-trade/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安で輸出関連株が上昇、7日続伸",
+     "detail": "日経平均は378.39円高の3万6830.69円。円安を受けて自動車など輸出関連株が買われ、一時3万7000円に迫った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202505021138/"
+     }
+    },
+    {
+     "title": "日米関税交渉の通過で安心感",
+     "detail": "日米の第2回関税交渉を通過したことで安心感が広がったが、3万7000円の節目では利益確定売りも出た。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202505021138/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-05": {
+  "us": {
+   "items": [
+    {
+     "title": "貿易の不確実性で連騰が止まる",
+     "detail": "世界的な貿易の先行き不透明感から下落。S&P500は9連騰、ナスダックも9連騰が止まった。",
+     "direction": "down",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2025/05/05/stock-market-today-sp500-dow-nasdaq-winning-streak-ends/"
+     }
+    },
+    {
+     "title": "朝の1%安から下げ幅を縮小",
+     "detail": "S&P500とナスダックは朝方に約1%下げたが、その後は戻して下げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2025/05/05/stock-market-today-sp500-dow-nasdaq-winning-streak-ends/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-06": {
+  "us": {
+   "items": [
+    {
+     "title": "AI熱の一服と企業の業績見通し撤回",
+     "detail": "AIをめぐる期待が弱まり、トランプ関税の不確実性で業績予想を取り下げる企業が増えたため、S&P500は43.47ポイント安の5,606.91となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Barchart)",
+      "url": "https://www.barchart.com/story/news/32245189/how-major-us-stock-indexes-fared-tuesday-5-6-2025"
+     }
+    },
+    {
+     "title": "FDAのワクチン責任者人事で医療株安",
+     "detail": "FDAがプラサド氏をワクチン部門の責任者に指名したとの報道で、ヘルスケア株に売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2463920/stock-market-news-for-may-7-2025"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-07": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが金利据え置き、景気リスクに言及",
+     "detail": "FRBは政策金利を据え置いたが、経済リスクの高まりにも警告した。終盤は荒い値動きとなったが、S&P500は24.37ポイント高の5,631.28で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WNYT)",
+      "url": "https://wnyt.com/business-news/how-major-us-stock-indexes-fared-wednesday-5-7-2025"
+     }
+    },
+    {
+     "title": "アルファベットが急落、通信セクターが重荷",
+     "detail": "アルファベットの下落で通信サービスセクターが最も弱く、指数の上値を抑えた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WNYT)",
+      "url": "https://wnyt.com/business-news/how-major-us-stock-indexes-fared-wednesday-5-7-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "8日ぶり反落、米株安と円高で売り優勢",
+     "detail": "日経平均は51.03円安の3万6779.66円と8日ぶりに反落した。前日の米株安と円高が重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202505071253/"
+     }
+    },
+    {
+     "title": "FOMC結果発表前で様子見",
+     "detail": "米関税政策への警戒と夜のFOMC結果発表を控え、日中の値幅は210円と小幅にとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202505071253/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-05-08": {
+  "us": {
+   "items": [
+    {
+     "title": "米英が貿易協定を発表",
+     "detail": "米国と英国が関税や規制の一部を引き下げる貿易協定を発表し、貿易摩擦への警戒が和らいで主要3指数がそろって上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-582025-2025-05-08"
+     }
+    },
+    {
+     "title": "ハイテク・エネルギー・資本財が上昇を主導",
+     "detail": "ハイテク、エネルギー、資本財株が買われ、S&P500は32.66ポイント高の5,663.94で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/5/8/closing-summary"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と半導体株の上昇で反発",
+     "detail": "日経平均は148.97円高の3万6928.63円。米株高とAI半導体の輸出規制撤回報道を受け、半導体関連株が相場をけん引した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202505081483/"
+     }
+    },
+    {
+     "title": "FOMC通過と円安が支え",
+     "detail": "FOMCが予想どおり政策金利を据え置いたことと円安基調が買い材料になった。一方で短期的な過熱感から一時マイナスに転じる場面もあった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202505081483/"
+     }
+    }
+   ]
+  }
+ },
  "2025-05-09": {
   "us": {
    "items": [
