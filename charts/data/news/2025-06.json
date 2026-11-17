@@ -1,4 +1,462 @@
 {
+ "2025-06-05": {
+  "us": {
+   "items": [
+    {
+     "title": "テスラが約14%急落",
+     "detail": "トランプ米大統領がマスク氏の企業への政府契約・補助金打ち切りを示唆し、テック株が下げた。S&P500は約0.5%安。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq(Barchart)",
+      "url": "https://www.nasdaq.com/articles/stocks-settle-lower-tech-stocks-fall-plunge-tesla"
+     }
+    },
+    {
+     "title": "新規失業保険申請が予想外に増加",
+     "detail": "週間の新規申請が247,000件と7カ月半ぶりの高水準になり、雇用統計前に労働市場への懸念が出た。ダウは-108ドル(-0.3%)の42,319.74。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq(Barchart)",
+      "url": "https://www.nasdaq.com/articles/stocks-settle-lower-tech-stocks-fall-plunge-tesla"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [],
+   "note": "報道を確認できず"
+  }
+ },
+ "2025-06-06": {
+  "us": {
+   "items": [
+    {
+     "title": "5月雇用統計が予想を上回る",
+     "detail": "S&P500は+1%の6,000.36と2月下旬以来の6,000台に乗せ、2週連続の週間上昇となった。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat / AP",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-662025-2025-06-06"
+     }
+    },
+    {
+     "title": "VIXは2月以来の低水準",
+     "detail": "VIX指数は16.77と2月以来の低い終値になり、安心感が広がった。",
+     "direction": "up",
+     "source": {
+      "label": "Lincoln Daily News / AP",
+      "url": "https://archives.lincolndailynews.com/2025/Jun/07/NEWS/business_b.shtml"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ氏と習氏の電話会談で米中協議への期待",
+     "detail": "日経平均は37,742円(+0.50%)と反発。協議進展への思惑が支えとなった一方、米雇用統計への警戒で伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506061059/"
+     }
+    },
+    {
+     "title": "防衛関連など重工株が買われる",
+     "detail": "重工大手など防衛関連株が買われ、鉄鋼や建設株も堅調だった。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506061059/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-09": {
+  "us": {
+   "items": [
+    {
+     "title": "米中貿易協議の進展期待",
+     "detail": "ハセット国家経済会議委員長が、中国のレアアース輸出規制緩和と引き換えに一部のハイテク輸出規制を緩める用意があると述べた。S&P500は3カ月半ぶり高値の6,005.88(+0.1%)。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq(Barchart)",
+      "url": "https://www.nasdaq.com/articles/stocks-post-modest-gains-signs-progress-us-china-trade-talks"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米5月雇用統計が良好、景気懸念が後退",
+     "detail": "日経平均は38,089円(+0.92%)と続伸し、終値で3万8000円台を回復した。買い一巡後は上値が重かったが、下値は堅かった。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506091020/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-10": {
+  "us": {
+   "items": [
+    {
+     "title": "米中貿易協議の進展期待とチップ株高",
+     "detail": "S&P500とナスダック100は3カ月半ぶり高値、ダウは3カ月ぶり高値をつけた。ダウは+105ドル(+0.25%)の42,866.87。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq(Barchart)",
+      "url": "https://www.nasdaq.com/articles/stocks-settle-higher-signs-progress-us-china-trade-talks"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高と円安で一時400円超高",
+     "detail": "日経平均は38,211円(+0.32%)。半導体株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "ゲンダイ(gentosha-go)",
+      "url": "https://gentosha-go.com/articles/-/69677"
+     }
+    },
+    {
+     "title": "TSMCの5月売上高が前月比約8%減、半導体に利益確定売り",
+     "detail": "買い一巡後は伸び悩んで上げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "ゲンダイ(gentosha-go)",
+      "url": "https://gentosha-go.com/articles/-/69677"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-11": {
+  "us": {
+   "items": [
+    {
+     "title": "CPIは落ち着いた内容も、株価は小反落",
+     "detail": "S&P500は-0.3%の6,022.24で4日ぶりに下落。ダウはほぼ横ばい、ナスダックは-0.5%だった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/11/stocks-dip-despite-cool-cpi"
+     }
+    },
+    {
+     "title": "米中貿易協議の終了への反応は薄い",
+     "detail": "2日間の米中協議が終わったが、市場の反応は限られた。",
+     "direction": "flat",
+     "source": {
+      "label": "Bradford Era / AP",
+      "url": "https://www.bradfordera.com/2025/06/11/wall-streets-rally-stalls-as-stocks-dip-for-their-1st-loss-in-4-days/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高を受け4日続伸、半導体が牽引",
+     "detail": "日経平均は38,421円(+0.55%)。円安を背景に一時300円超高となった後は伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506111004/"
+     }
+    },
+    {
+     "title": "寄与度上位は東エレク、SBG、リクルートなど",
+     "detail": "東京エレクトロン、ソフトバンクグループ、リクルート、TDK、信越化学工業が指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506111004/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-12": {
+  "us": {
+   "items": [
+    {
+     "title": "5月の卸売物価が予想より低い伸び",
+     "detail": "PPIが市場予想を下回り、S&P500は+0.4%の6,045.26。高値まで2%未満に迫った。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat / AP",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-6122025-2025-06-12"
+     }
+    },
+    {
+     "title": "オラクルが+13.3%、ボーイングは-4.8%",
+     "detail": "オラクルは決算とクラウド見通しが好感されS&P500採用銘柄で最大の上昇。ボーイングはインドでの787墜落事故で下げ、構成銘柄で最も弱かった。",
+     "direction": "flat",
+     "source": {
+      "label": "MarketBeat / AP",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-6122025-2025-06-12"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "5営業日ぶりに反落",
+     "detail": "日経平均は38,173円(-0.65%)。円高の進行と、前日までの4連騰の反動で売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/166374"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-13": {
+  "us": {
+   "items": [
+    {
+     "title": "イスラエルがイランを攻撃、原油が約7%急騰",
+     "detail": "地政学リスクで売られ、S&P500は-1.1%、ダウは-770ドル(-1.8%)、ナスダックは-1.3%。週間の上昇分も消えた。",
+     "direction": "down",
+     "source": {
+      "label": "MarketBeat / AP",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-firday-6132025-2025-06-13"
+     }
+    },
+    {
+     "title": "米10年債利回りが4.42%へ上昇",
+     "detail": "原油高を受けて長期金利が7bp上昇し、株式の重荷になった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/13/geopolitical-worries-outweigh-fear-of-missing-out"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "イスラエルのイラン核施設攻撃でリスク回避",
+     "detail": "日経平均は37,834円(-0.89%)と続落。円高も警戒され、半導体などハイテク株中心に売りが優勢だった。",
+     "direction": "down",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506130894/"
+     }
+    },
+    {
+     "title": "自動車株安・石油関連株高",
+     "detail": "米国の自動車関税引き上げ示唆で自動車株が売られ、原油高を受けて石油関連株は上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506130894/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-16": {
+  "us": {
+   "items": [
+    {
+     "title": "中東の戦闘が拡大しないとの期待と半導体株高",
+     "detail": "イスラエルとイランの戦闘が限定的にとどまるとの期待で買われ、S&P500は+0.9%、ナスダックは+1.5%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/32903714/stocks-settle-higher-on-possible-de-escalation-of-israel-iran-war"
+     }
+    },
+    {
+     "title": "原油が下落、NY連銀製造業指数は予想外に低下",
+     "detail": "WTI原油は約1.7%下落した。一方、6月のNY連銀製造業景況指数が予想外に低下し、上値を抑えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/32903714/stocks-settle-higher-on-possible-de-escalation-of-israel-iran-war"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安と先物主導の買いで急反発",
+     "detail": "日経平均は38,311円(+1.26%)。一時1ドル=144円台後半まで円安が進み、海外短期筋とみられる先物買いが終日相場を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506160991/"
+     }
+    },
+    {
+     "title": "イスラエルのイラン核施設攻撃後も半導体株に買い戻し",
+     "detail": "地政学リスクがある中でも、前日に売られた半導体株の買い戻しが目立った。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506160991/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-17": {
+  "us": {
+   "items": [
+    {
+     "title": "イスラエル・イラン緊迫化で安全資産へ",
+     "detail": "トランプ米大統領がイランに「無条件降伏」を要求し、地政学リスクが高まった。S&P500は-0.8%の5,982.72で、前日の上昇分を失った。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/6/17/closing-stock-market-summary"
+     }
+    },
+    {
+     "title": "小売売上高が弱い内容",
+     "detail": "期待外れの小売売上高も重荷となり、ダウは-299ドル、ナスダックは-0.9%と下げた。",
+     "direction": "down",
+     "source": {
+      "label": "新華社(The Star)",
+      "url": "https://www.thestar.com.my/news/world/2025/06/18/us-stocks-tumble-as-geopolitical-conflicts-weak-data-dent-sentiment"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中東情勢への過度な警戒が和らぐ",
+     "detail": "前日の米国で株高・ドル高となったことが支えとなり、日経平均は38,537円(+0.59%)と続伸。終値は4カ月ぶりの高値水準だった。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory(ロイター報道を引用)",
+      "url": "https://tbladvisory.com/20250617nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-18": {
+  "jp": {
+   "items": [
+    {
+     "title": "3日続伸、終値は4カ月ぶりの高値",
+     "detail": "日経平均は38,885円(+0.90%)で高値引け。TOPIXも3日続伸の2,808ポイントだった。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506181014/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "FRBは政策金利を据え置き、年内2回の利下げ余地を示唆",
+     "detail": "FOMCは金利を据え置き、年内に2回利下げする可能性を示した。ただ確実ではないとされ、S&P500は-0.03%の5,980.87とほぼ横ばいで終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "MarketBeat / AP",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-6182025-2025-06-18"
+     }
+    },
+    {
+     "title": "イスラエル・イランの戦闘で原油が上下",
+     "detail": "原油相場が戦闘を巡って振れ、株価の上値を抑えた。ナスダックは+0.13%、ダウは-0.10%と指数でまちまち。",
+     "direction": "flat",
+     "source": {
+      "label": "MarketBeat / AP",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-6182025-2025-06-18"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-19": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連が売られ4日ぶりに反落",
+     "detail": "日経平均は38,488円(-1.02%)と安値引け。半導体関連株の下げが指数を押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506191079/"
+     }
+    },
+    {
+     "title": "FOMC通過後も中東情勢への警戒がくすぶる",
+     "detail": "FOMCは無難に通過したが、中東情勢の緊迫化への警戒から利益確定売りが出た。3日続伸で1,000円超上げた反動も意識された。",
+     "direction": "down",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202506191079/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-06-20": {
+  "us": {
+   "items": [
+    {
+     "title": "中東情勢の不透明感で序盤の上昇が消える",
+     "detail": "トランプ米大統領がイランへの関与を2週間以内に判断すると表明し、様子見ムード。FRBウォラー理事の発言で朝は買われたが戻りは続かず、S&P500は-0.2%と2週連続の週間下落となった。",
+     "direction": "down",
+     "source": {
+      "label": "HL US close",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-erase-early-gains-as-geopolitical-uncertainty-hits-sentiment"
+     }
+    },
+    {
+     "title": "ナスダックは-0.5%、ダウは小幅高",
+     "detail": "ダウは約0.1%高と前日までの3週間ぶり安値から反発した一方、ナスダックは約0.5%安と指数ごとにまちまちだった。トリプルウィッチングの金曜日で値動きは荒かった。",
+     "direction": "flat",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/06/20/dow-nasdaq-notch-weekly-wins-as-s-p-500-slips"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中東情勢の緊迫化で小幅続落",
+     "detail": "日経平均は38,403円(-0.22%)で大引け。中東情勢への警戒と欧米株安を受けて売りが優勢だった。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 大引け",
+      "url": "https://minkabu.jp/news/4266611"
+     }
+    },
+    {
+     "title": "前日の米国休場で手掛かり材料に乏しい",
+     "detail": "米株式市場が前日休場だったため方向感に欠け、TOPIXは-0.75%の2,771ポイントと安値引けだった。",
+     "direction": "flat",
+     "source": {
+      "label": "みんかぶ 大引け",
+      "url": "https://minkabu.jp/news/4266611"
+     }
+    }
+   ]
+  }
+ },
  "2025-06-23": {
   "us": {
    "items": [
