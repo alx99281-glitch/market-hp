@@ -64,6 +64,89 @@
    "note": "報道を確認できず"
   }
  },
+ "2025-03-12": {
+  "us": {
+   "items": [
+    {
+     "title": "インフレ指標への安心感",
+     "detail": "物価の動きを示すデータが好感され、S&P500とナスダックは上昇。S&P500は0.49%高。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/3/12/closing-summary-"
+     }
+    },
+    {
+     "title": "貿易戦争で揺れる相場",
+     "detail": "上昇日ながら、トランプ大統領の関税政策に相場が振られる展開で、ダウは82ドル安。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/3/12/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ウクライナ停戦をめぐる動き",
+     "detail": "ウクライナ・ロシアの停戦をめぐる報道が相場を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=35660"
+     }
+    },
+    {
+     "title": "関税の不透明感と米CPI待ち",
+     "detail": "トランプ政権の関税政策の先行き不透明感が残り、米消費者物価指数の発表を前に後半は小動きで、上げは限られた。",
+     "direction": "flat",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=35660"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-13": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ大統領の貿易戦争の激化",
+     "detail": "関税をめぐる動きの激化で売られ、S&P500は1.4%安。高値から10%超下げ調整局面入り。",
+     "direction": "down",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4420368-stock-market-news-today-nasdaq-sp500-dow-jones"
+     }
+    },
+    {
+     "title": "ナスダックが2%安",
+     "detail": "ナスダック総合は2%安、ダウは1.3%安と、ハイテク株の下げが目立った。",
+     "direction": "down",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4420368-stock-market-news-today-nasdaq-sp500-dow-jones"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "為替がドル安・円高に",
+     "detail": "朝方は500円超上昇したが、為替がドル安・円高に振れて伸び悩み、小幅に反落した。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=35717"
+     }
+    }
+   ]
+  }
+ },
  "2025-03-14": {
   "us": {
    "items": [
@@ -87,6 +170,462 @@
      "source": {
       "label": "sbbit(ロイター配信)",
       "url": "https://www.sbbit.jp/article/refers/160191"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-17": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMCを前に楽観",
+     "detail": "FOMCの政策決定を前に投資家が楽観的で、経済指標を見極めながら主要指数は上昇。S&P500は0.64%高(ブログ集計)。",
+     "direction": "up",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503171633MIDNIGHTUSEQUITY_A3337175"
+     }
+    },
+    {
+     "title": "前週の急落からの戻り",
+     "detail": "前週はダウが3.1%下げて2023年3月以来の悪い週となった(Zacks報道)後の反発。",
+     "direction": "up",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2430603/{https:/www.zackstrade.com/2019-1-dollar}"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株高",
+     "detail": "フィラデルフィア半導体指数(SOX)が3%超上昇したことを受け、半導体関連株が指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250317nikkei/"
+     }
+    },
+    {
+     "title": "米株反発とドイツの防衛力強化",
+     "detail": "前週末の米国株の反発に加え、ドイツの防衛力強化の動きで防衛関連株が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250317nikkei/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-18": {
+  "us": {
+   "items": [
+    {
+     "title": "大手ハイテク・AI株の売り",
+     "detail": "トランプ政権の貿易戦争による不透明感で売られてきた大手ハイテク・AI株が再び下落。ナスダックは1.71%安。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2025/3/18/closing-summary-"
+     }
+    },
+    {
+     "title": "FOMC前の警戒",
+     "detail": "FRBの政策決定を翌日に控えて警戒感が強く、S&P500は1.07%安。VIXは21.7に上昇。",
+     "direction": "down",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4421806-stock-market-news-today-nasdaq-sp500-dow-jones"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株高と円安",
+     "detail": "前日の米株高と円安が買い材料で、一時3万8000円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(sbbit・ロイター)",
+      "url": "https://www.sbbit.jp/article/refers/160362"
+     }
+    },
+    {
+     "title": "半導体株高とバークシャーの商社株買い増し",
+     "detail": "半導体関連株が上昇。バークシャー・ハサウェイによる大手商社株の保有比率引き上げも材料になった。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(sbbit・ロイター)",
+      "url": "https://www.sbbit.jp/article/refers/160362"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-19": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMCが政策金利を据え置き",
+     "detail": "FOMCは金利を据え置き、年内の利下げ見通しも維持。株価は上昇し、S&P500は1.08%高、ダウは約383ドル高。",
+     "direction": "up",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503191625MIDNIGHTUSEQUITY_A3338633"
+     }
+    },
+    {
+     "title": "ボーイングが急伸",
+     "detail": "ボーイング株が大きく上昇し、指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "Zee Business",
+      "url": "https://www.zeebiz.com/markets/global-markets/news-fed-rate-decision-march-19-dow-us-stock-market-closing-sp-500-nasdaq-boeing-rockets-351614"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の政策据え置きは材料視されず",
+     "detail": "日銀は政策金利を据え置いたが織り込み済みで影響は限定的。",
+     "direction": "flat",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=35853"
+     }
+    },
+    {
+     "title": "FOMC前の様子見と手じまい売り",
+     "detail": "FOMC結果を前に様子見ムードが強まり、後場は手じまい売りが優勢。一時283円高の3万8128円まで上げたが3万8000円を維持できなかった。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=35853"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-20": {
+  "us": {
+   "items": [
+    {
+     "title": "上昇が続かず小幅安",
+     "detail": "反発の流れを維持できず、主要指数は小幅に下落。S&P500は0.22%安。",
+     "direction": "down",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503201654MIDNIGHTUSEQUITY_A3339495"
+     }
+    },
+    {
+     "title": "トランプ大統領のFRBへの利下げ要求",
+     "detail": "トランプ大統領が利下げを求める発言をした日で、指数は主にまちまちから下落で引けた。",
+     "direction": "flat",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503201654MIDNIGHTUSEQUITY_A3339495"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-21": {
+  "us": {
+   "items": [
+    {
+     "title": "FRB当局者の発言と先行き不透明感",
+     "detail": "FRB当局者が経済の不確実性の高さに言及。4月2日の関税発表を前に貿易戦争への不安もあり、S&P500は0.08%高と小動き。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503211639RTRSNEWSCOMBINED_L1N3Q410W_1"
+     }
+    },
+    {
+     "title": "マイクロンが大幅安",
+     "detail": "マイクロン・テクノロジーが8%安でS&P500の下落率最大。ナスダックは4週続いた下落に歯止めがかかった。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503211639RTRSNEWSCOMBINED_L1N3Q410W_1"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株安と円高",
+     "detail": "前日にダウ平均が下落し、円高・ドル安傾向も自動車・機械など輸出株の重荷になった。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=35900"
+     }
+    },
+    {
+     "title": "ソフトバンクGの米半導体企業買収",
+     "detail": "買収発表で一時株価が上昇したが続かず、様子見の相場だった。",
+     "direction": "flat",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=35900"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-24": {
+  "us": {
+   "items": [
+    {
+     "title": "関税に慎重な姿勢との観測",
+     "detail": "トランプ政権が関税でより抑制的な対応を取る兆しが好感された。S&P500は1.8%高、ナスダックは2.3%高。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503241600RTRSNEWSCOMBINED_L6N3Q70LS_1"
+     }
+    },
+    {
+     "title": "テスラ、エヌビディアが上昇",
+     "detail": "テスラは11.9%高でS&P500の値上がり率トップ。一般消費財セクターが指数を牽引した。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503241600RTRSNEWSCOMBINED_L6N3Q70LS_1"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "関税警戒で上げ幅縮小",
+     "detail": "朝方は買いが先行したが、米関税政策への警戒が残り上げ幅を縮めて小幅安。3日続落。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250324nk/"
+     }
+    },
+    {
+     "title": "配当狙いの買い",
+     "detail": "配当狙いの買いが相場を支えた。後場は値幅95円程度の膠着した動きだった。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250324nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-25": {
+  "us": {
+   "items": [
+    {
+     "title": "関税懸念の後退",
+     "detail": "報復関税への懸念はあるものの、関税をめぐる思惑から買われ、3日続伸。S&P500は0.16%高の小幅な上昇。",
+     "direction": "up",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503251602MIDNIGHTUSEQUITY_A3341643"
+     }
+    },
+    {
+     "title": "消費者信頼感が予想を下回る",
+     "detail": "3月の消費者信頼感指数は92.9で市場予想を下回った(Zacks報道)。",
+     "direction": "flat",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2435394/stock-market-news-for-mar-26-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米国株高と自動車関税の発表見送り観測",
+     "detail": "米株高に加え、自動車関税の4月2日発表が見送られる方向と伝わり買いが先行。4営業日ぶりに反発した。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=36013"
+     }
+    },
+    {
+     "title": "3万8000円の節目",
+     "detail": "3万8000円は戻りの節目と意識され、一時507円高まで上げたあとは上値が重くなった。",
+     "direction": "flat",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=36013"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-26": {
+  "us": {
+   "items": [
+    {
+     "title": "自動車関税発表への警戒",
+     "detail": "発表を翌日に控えて売りが優勢。S&P500は1.12%安、ナスダックは2.04%安。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503261635RTRSNEWSCOMBINED_L6N3Q90TD_1"
+     }
+    },
+    {
+     "title": "エヌビディア、テスラが下落",
+     "detail": "エヌビディアは5.7%安でダウ構成銘柄の最大の下げ。ハイテク株売りが指数を押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503261635RTRSNEWSCOMBINED_L6N3Q90TD_1"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株高と円安",
+     "detail": "米ハイテク株高で投資家心理が改善し、円安も追い風。終値は2月27日以来の3万8000円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250326nk/"
+     }
+    },
+    {
+     "title": "関税警戒で終盤は伸び悩み",
+     "detail": "関税への警戒感から終盤は上値が重くなった。",
+     "direction": "flat",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250326nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-27": {
+  "us": {
+   "items": [
+    {
+     "title": "自動車関税の発動",
+     "detail": "トランプ大統領が輸入車への関税を定める大統領令に署名し、自動車株を中心に売られた。S&P500は約0.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503271625MIDNIGHTUSEQUITY_A3343190"
+     }
+    },
+    {
+     "title": "GMが下落",
+     "detail": "自動車関税を受けてゼネラル・モーターズ株が下げた。一方、ダラー・ツリーはS&P500の値上がり率トップで11%高。",
+     "direction": "down",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503271642MIDNIGHTUSEQUITY_A3343154"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米輸入車への25%追加関税",
+     "detail": "トランプ大統領の発表を受けてトヨタなど自動車株が売られた。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250327nk/"
+     }
+    },
+    {
+     "title": "米半導体株安",
+     "detail": "米国の半導体株安でアドバンテストや東京エレクトロンが軟調。アドバンテストの下押しが最大だった。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250327nk/"
+     }
+    },
+    {
+     "title": "年度内最終売買日の配当狙い",
+     "detail": "受け渡し最終売買日で配当狙いの買いが下値を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/20250327nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-28": {
+  "us": {
+   "items": [
+    {
+     "title": "PCEコア加速と消費者心理悪化",
+     "detail": "インフレ指標が予想より強く、消費者センチメントも弱かったため売りが広がった。S&P500は約2%安、ナスダックは2.7%安。",
+     "direction": "down",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503281643MIDNIGHTUSEQUITY_A3343831"
+     }
+    },
+    {
+     "title": "相互関税への警戒",
+     "detail": "4月の関税発表を控えて警戒が続き、3指数とも週間で下落。S&P500は3月に約6.3%下げ、2022年9月以来の月間下落率となる見通し。",
+     "direction": "down",
+     "source": {
+      "label": "MT Newswires(Fidelity)",
+      "url": "https://fidelity.com/news/article/us-markets/202503281626MIDNIGHTUSEQUITY_A3343853"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ関税への警戒",
+     "detail": "高関税政策への警戒が続き、自動車株を中心に売られた。日経平均は一時935円安まで下げた。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=36119"
+     }
+    },
+    {
+     "title": "配当権利落ち",
+     "detail": "配当権利落ち分が約307円とされ、年度末の配当狙いの買いが一巡して下げを大きくした。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=36119"
+     }
+    },
+    {
+     "title": "AI関連株の軟調",
+     "detail": "米大手ソフトウェア企業のデータセンター計画撤退報道が、半導体などAI関連株の重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "日経概況(TBLアドバイザリー)",
+      "url": "https://tbladvisory.com/?p=36119"
      }
     }
    ]
