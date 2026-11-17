@@ -1,4 +1,179 @@
 {
+ "2025-08-01": {
+  "us": {
+   "items": [
+    {
+     "title": "7月の雇用の伸びが急減速",
+     "detail": "政府統計で雇用の伸びが大きく鈍化し、景気懸念が強まった。",
+     "direction": "down",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-friday-8-1-2025"
+     }
+    },
+    {
+     "title": "トランプ政権の広範な関税",
+     "detail": "多数の貿易相手国への関税発動も重なり、S&P500は1.6%安の6,238.01、5月以来の下げ幅となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-friday-8-1-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "東京エレクトロンが急落",
+     "detail": "業績予想の下方修正で18%超安となり、1銘柄で日経平均を約484円押し下げた。半導体関連に売りが波及。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202508011099/"
+     }
+    },
+    {
+     "title": "内需株は堅調",
+     "detail": "建設や不動産などの内需株は堅調でTOPIXは上昇。米雇用統計を前に様子見も強まり、日経平均は40,799.60円(-0.66%)。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202508011099/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-04": {
+  "us": {
+   "items": [
+    {
+     "title": "前週末の急落から反発",
+     "detail": "S&P500は1.5%高の6,329.94で、4日続落に終止符。ナスダックは約2%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-monday-8-4-2025"
+     }
+    },
+    {
+     "title": "利下げ観測の強まり",
+     "detail": "弱い経済指標でFRBの利下げ観測が高まり、買いが入った。",
+     "direction": "up",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-monday-8-4-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計の弱さと円高",
+     "detail": "7月の米雇用統計が弱く、米株安と円高が売り材料となり、一時4万円を割り込んだ。終値は40,290.70円(-1.25%)。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202508041020/"
+     }
+    },
+    {
+     "title": "決算への期待が下支え",
+     "detail": "今週本格化する企業決算への期待から、下げ幅は縮小した。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202508041020/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-05": {
+  "us": {
+   "items": [
+    {
+     "title": "サービス業指標の悪化",
+     "detail": "米サービス業の指標が予想外に悪化し、景気への警戒から主要3指数が下落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-tuesday-8-5-2025"
+     }
+    },
+    {
+     "title": "関税を巡る新たな発言",
+     "detail": "トランプ大統領の関税に関する発言も重荷となり、S&P500は約0.5%安、ナスダックは0.7%安。",
+     "direction": "down",
+     "source": {
+      "label": "The Star(Xinhua)",
+      "url": "https://www.thestar.com.my/news/world/2025/08/06/us-stocks-close-lower-on-weak-economic-data-tariff-concerns"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米利下げ観測で3営業日ぶり反発",
+     "detail": "FRBの9月利下げ観測が強まり買い戻しが進み、終値は40,549.54円(+0.64%)。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/20250805nk/"
+     }
+    },
+    {
+     "title": "三菱重工が売買代金首位",
+     "detail": "好決算と豪州護衛艦の受注を背景に買いを集めた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/20250805nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-06": {
+  "us": {
+   "items": [
+    {
+     "title": "アップル主導で大型株が上昇",
+     "detail": "S&P500は0.7%高の6,345.06、ナスダックは1.2%高。アップルの上昇が相場を牽引した。",
+     "direction": "up",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-wednesday-8-6-2025"
+     }
+    },
+    {
+     "title": "小型株は下落",
+     "detail": "ラッセル2000は0.2%安。上昇は大型株に集中し、S&P500均等加重指数は下落した。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/8/6/megacap-gains-boost-major-averages"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安と輸出関連株の買い",
+     "detail": "朝方は米株安で下落する場面もあったが、円安進行と輸出関連株への買いで続伸。終値は40,794.86円(+0.60%)。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/20250806nk/"
+     }
+    }
+   ]
+  }
+ },
  "2025-08-07": {
   "jp": {
    "items": [

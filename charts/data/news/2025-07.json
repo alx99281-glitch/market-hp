@@ -1,4 +1,74 @@
 {
+ "2025-07-21": {
+  "us": {
+   "items": [
+    {
+     "title": "決算シーズンの入り口で小動き",
+     "detail": "S&P500は0.1%高、ナスダックは0.4%高でともに最高値。ダウは0.1%未満の下落。日中の高値からは大きく押し戻された。",
+     "direction": "flat",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-monday-7-21-2025"
+     }
+    },
+    {
+     "title": "ベライゾンの好決算と関税動向",
+     "detail": "ベライゾンが予想を上回る決算で上昇を主導。8月1日の関税期限を前に関税報道への警戒が続いた。",
+     "direction": "up",
+     "source": {
+      "label": "BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/markets/2025/07/21/us-stocks-set-more-records-as-verizon-begins-a-big-week-for-profit-reports-with-a-beat/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-22": {
+  "us": {
+   "items": [
+    {
+     "title": "決算が本格化、S&P500は最高値",
+     "detail": "S&P500は0.1%高で前日に続き最高値。ダウは0.4%高、ナスダックは0.4%安と強弱まちまち。",
+     "direction": "flat",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-tuesday-7-22-2025"
+     }
+    },
+    {
+     "title": "リッチモンド連銀指数が悪化",
+     "detail": "7月のリッチモンド連銀製造業指数は-20と予想より弱かった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/7/22/mixed-finish-to-heavy-earnings-day"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "参院選で与党が過半数割れ",
+     "detail": "自民・公明の連立与党が過半数を割り込み、政局不透明感が意識された。朝高も後場に値を消し、終値39,774.92円(-0.11%)。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507221196/"
+     }
+    },
+    {
+     "title": "8月1日の関税期限への警戒",
+     "detail": "米国との関税交渉の期限を控え、警戒感が残った。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507221196/"
+     }
+    }
+   ]
+  }
+ },
  "2025-07-23": {
   "jp": {
    "items": [
@@ -49,6 +119,273 @@
      "source": {
       "label": "Briefing.com",
       "url": "https://briefing.com/stock-market-update/archive/2025/7/23/trade-developments-and-earnings-propel-to-record-highs"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-24": {
+  "us": {
+   "items": [
+    {
+     "title": "大型ハイテクが指数を支える",
+     "detail": "一部の大型ハイテク株の上昇でS&P500は0.1%高、ナスダックは0.2%高といずれも最高値。ただ値下がり銘柄が多かった。",
+     "direction": "up",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-thursday-7-24-2025"
+     }
+    },
+    {
+     "title": "ダウ・ダウ社とIBMなどが重荷",
+     "detail": "ダウは0.7%安。ダウ社が予想を大幅に上回る赤字と減配を発表して売られた。",
+     "direction": "down",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-thursday-7-24-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日米関税合意でリスクオン継続",
+     "detail": "日米の関税交渉合意を受け、一時4万2000円台に乗せて最高値に迫った。終値41,826.34円(+1.59%)。TOPIXは1年ぶり高値。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507241121/"
+     }
+    },
+    {
+     "title": "後場は過熱感で伸び悩み",
+     "detail": "連日の大幅高で過熱感への警戒が出て、後場は上げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507241121/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-25": {
+  "us": {
+   "items": [
+    {
+     "title": "企業決算と通商面の進展",
+     "detail": "好調な決算や貿易面の前向きな動きを受け、3指数がそろって上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-friday-7-25-2025"
+     }
+    },
+    {
+     "title": "S&P500とナスダックが最高値",
+     "detail": "S&P500は0.4%高の6,388.64で5営業日連続の最高値、ナスダックは0.24%高で最高値。",
+     "direction": "up",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-friday-7-25-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "2日間で2,000円超上昇した反動",
+     "detail": "前日までの上昇への利益確定売りで3営業日ぶりに反落。終値41,456.23円(-0.88%)。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507251042/"
+     }
+    },
+    {
+     "title": "信越化学など決算を嫌気",
+     "detail": "決算内容を嫌気した個別株の売りも重しとなった。為替がやや円高に振れたことも重荷。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507251042/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-28": {
+  "us": {
+   "items": [
+    {
+     "title": "米EU通商合意を織り込み済みに",
+     "detail": "米EUの貿易合意の発表にも市場の反応は限定的で、S&P500は0.02%高の6,389.77と横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-monday-7-28-2025"
+     }
+    },
+    {
+     "title": "ナスダックとS&P500が最高値",
+     "detail": "ナスダックは0.3%高で最高値。S&P500は6日連続の最高値更新。ダウは0.1%安。ハイテク決算とFOMCを控える週。",
+     "direction": "up",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-monday-7-28-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株に利益確定売り",
+     "detail": "指数寄与度の高い半導体関連株に利益確定売りが出て、終値40,998.27円(-1.10%)。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507280843/"
+     }
+    },
+    {
+     "title": "銀行株も軟調",
+     "detail": "前週に大きく上昇した銀行株も売られた。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507280843/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-29": {
+  "us": {
+   "items": [
+    {
+     "title": "最高値更新の連続記録が止まる",
+     "detail": "寄り付き直後に最高値をつけたが午前に売りが出て反落。S&P500は0.3%安の6,370.86で、史上最高値の6日連続更新が途切れた。",
+     "direction": "down",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-tuesday-7-29-2025"
+     }
+    },
+    {
+     "title": "FOMCと決算を前に慎重姿勢",
+     "detail": "企業決算や経済指標、FRBの政策決定を控え、投資家は様子見姿勢を強めた。",
+     "direction": "flat",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-tuesday-7-29-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連の持ち高調整",
+     "detail": "前週の大幅上昇への利益確定売りと、決算発表前の半導体株の持ち高調整で3日続落。終値40,674.55円(-0.79%)。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507291048/"
+     }
+    },
+    {
+     "title": "日米会合を前に様子見",
+     "detail": "金融政策決定会合を控え、様子見ムードが強かった。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507291048/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-30": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが政策金利を据え置き",
+     "detail": "FOMCが金利据え置きを決定。長期金利の上昇が重荷となりS&P500は0.1%安の6,362.90。",
+     "direction": "down",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-wednesday-7-30-2025"
+     }
+    },
+    {
+     "title": "ナスダックは小幅高",
+     "detail": "ナスダック総合は0.1%高。ダウは0.4%安と、指数ごとに強弱が分かれた。",
+     "direction": "flat",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-wednesday-7-30-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "FOMC・日銀会合を前に様子見",
+     "detail": "日米の金融政策会合を控えて小幅なもみ合い。日経平均は40,654.70円(-0.05%)で4日続落。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507301094/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-07-31": {
+  "us": {
+   "items": [
+    {
+     "title": "マイクロソフト・メタの決算で一時最高値",
+     "detail": "好決算を受け寄り付き後に主要指数が一時最高値を更新したが、上げは維持できなかった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-thursday-7-31-2025"
+     }
+    },
+    {
+     "title": "ヘルスケア株の下落",
+     "detail": "ヘルスケア株が下げを主導し、S&P500は0.4%安、ダウは0.7%安。7月は3指数とも月間で上昇。",
+     "direction": "down",
+     "source": {
+      "label": "AP",
+      "url": "https://wtop.com/news/2025/07/how-major-us-stock-indexes-fared-thursday-7-31-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の政策金利据え置きと円安",
+     "detail": "日銀が政策金利を据え置き、為替の円安も好感されて5営業日ぶりに急反発。終値41,069.82円(+1.02%)。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507311122/"
+     }
+    },
+    {
+     "title": "FOMC・日銀会合を無難に通過",
+     "detail": "米ハイテク大手の好決算も投資家心理を改善させたとロイターが報じた。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202507311122/"
      }
     }
    ]
