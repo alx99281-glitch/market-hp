@@ -1,4 +1,105 @@
 {
+ "2025-08-07": {
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は3日続伸、TOPIXは最高値",
+     "detail": "終値は前日比264円高の4万1059円。TOPIXは取引時間中・終値とも史上最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー(日経平均解説)",
+      "url": "https://tbladvisory.com/?p=40310"
+     }
+    },
+    {
+     "title": "米相互関税の発動も影響は限定的",
+     "detail": "午後に米相互関税が発動されたが株価への影響は小さかった。一方、米半導体関税の発言が半導体関連株の重荷となった。",
+     "direction": "flat",
+     "source": {
+      "label": "TBLアドバイザリー(日経平均解説)",
+      "url": "https://tbladvisory.com/?p=40310"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "半導体関税の発表と関税疲れでダウ下落",
+     "detail": "ダウは0.5%安の43,968.64、S&P500は0.1%安の6,340.00と小幅安。ナスダックは0.3%高で最高値を更新した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(WTOP転載)",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-thursday-8-7-2025"
+     }
+    },
+    {
+     "title": "アップルが米国内投資の発表で上昇",
+     "detail": "アップルが米国内の製造投資を発表し、株価は3%超上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/8/7/mixed-finish-after-opening-highs"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-08": {
+  "jp": {
+   "items": [
+    {
+     "title": "ソフトバンクGが決算発表後に急伸",
+     "detail": "決算を発表したソフトバンクグループが10.3%高となり、1銘柄で日経平均を264円押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "玄冬舎GO(日経平均終値)",
+      "url": "https://gentosha-go.com/articles/-/71004"
+     }
+    },
+    {
+     "title": "米関税への懸念が後退",
+     "detail": "相互関税をめぐる日米間の誤解が解消したとの受け止めが広がり、買いを支えた。日経平均は4日続伸し、前日比761円高の4万1820円で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "玄冬舎GO(日経平均終値)",
+      "url": "https://gentosha-go.com/articles/-/71004"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株が主導し3指数そろって上昇",
+     "detail": "S&P500は0.8%高の6,389.45で、前週に付けた過去最高値にわずかに届かず。ナスダックは2日連続で終値の最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP転載)",
+      "url": "https://wtop.com/news/2025/08/how-major-us-stock-indexes-fared-friday-8-8-2025"
+     }
+    },
+    {
+     "title": "アップルが4.2%高",
+     "detail": "アップルが上昇してハイテク株を牽引した。利下げ観測も追い風となった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター系)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-08-08/nasdaq-posts-record-closing-high-tech-gains-rate-cut-optimism"
+     }
+    },
+    {
+     "title": "7月の雇用統計が弱く利下げ観測",
+     "detail": "7月の非農業部門雇用者数が予想外に減少したと報じられ、金融政策をめぐる思惑が続いた。",
+     "direction": "flat",
+     "source": {
+      "label": "The Star(AP配信)",
+      "url": "https://www.thestar.com.my/news/world/2025/08/09/us-stocks-close-higher-to-end-the-week"
+     }
+    }
+   ]
+  }
+ },
  "2025-08-11": {
   "us": {
    "items": [
