@@ -1,4 +1,28 @@
 {
+ "2025-08-11": {
+  "us": {
+   "items": [
+    {
+     "title": "米中関税休戦を90日延長",
+     "detail": "トランプ大統領が対中関税の猶予を90日延ばす大統領令に署名した。ただしS&P500は終盤に売られ、約0.25%安で引けた。",
+     "direction": "flat",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-lower-as-trump-pauses-china-tariffs-for-another-90-days"
+     }
+    },
+    {
+     "title": "CPI発表前の警戒で最高値圏から後退",
+     "detail": "翌日の7月CPIを前に様子見姿勢が強まり、ナスダックは一時最高値を付けた後に売られた。VIX指数も大きく上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq.com(Zacks)",
+      "url": "https://www.nasdaq.com/articles/stocks-decline-ahead-us-inflation-news"
+     }
+    }
+   ]
+  }
+ },
  "2025-08-12": {
   "us": {
    "items": [
@@ -31,6 +55,521 @@
      "source": {
       "label": "PayPay証券(株価が動いた理由)",
       "url": "https://media.paypay-sec.co.jp/cat2/mj250812_2"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-13": {
+  "us": {
+   "items": [
+    {
+     "title": "利下げ期待で最高値圏を維持",
+     "detail": "前日の落ち着いた7月CPIを受け9月利下げ観測が続き、S&P500は約0.3%高、ダウは463ドル高で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ClickOnDetroit)",
+      "url": "https://www.clickondetroit.com/business/2025/08/13/asian-shares-charge-higher-after-us-stocks-rally-to-records-on-hopes-for-interest-rate-cuts/"
+     }
+    },
+    {
+     "title": "ヘルスケアと住宅株が上昇",
+     "detail": "ヘルスケアがS&P500の業種別で最大の約1.4%高。低金利の恩恵を受ける住宅建設のピュルトやレナーも5%超上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Business Standard",
+      "url": "https://www.business-standard.com/amp/world-news/s-p-500-nasdaq-near-record-highs-on-hopes-of-fed-rate-cut-in-september-125081301971_1.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI落ち着きで利下げ期待、最高値更新",
+     "detail": "7月の米CPIが穏当で早期利下げ期待が高まり、日経平均は1.30%高の4万3274円67銭と2日連続で最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508131157/"
+     }
+    },
+    {
+     "title": "AI・半導体関連株中心に買い",
+     "detail": "AI・半導体関連株が買われて相場を主導した。TOPIXも0.83%高と最高値を付けた。",
+     "direction": "up",
+     "source": {
+      "label": "Intellinews(共同引用)",
+      "url": "https://www.intellinews.com/japan-s-nikkei-sets-new-record-396049"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-14": {
+  "us": {
+   "items": [
+    {
+     "title": "卸売物価が予想を大きく上回る",
+     "detail": "7月の生産者物価は前月比0.9%上昇し、予想の0.2%を大幅に上回った。利下げ観測が後退し、一時は売りが先行した。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-stocks-erase-losses-but-finish-flat-after-ppi-jumps"
+     }
+    },
+    {
+     "title": "S&P500は終値で最高値を更新",
+     "detail": "売りは引けにかけて戻り、S&P500は0.03%高で終値の最高値を更新。ダウとナスダックはほぼ横ばいだった。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-08-14/wall-street-ends-flat-sp-hits-another-closing-high-as-rate-cut-bets-waver"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "連騰後の利益確定売り",
+     "detail": "日経平均は6連騰で最高値を更新した後で過熱感があり、1.45%安の4万2649円26銭。値下がりは225銘柄中173銘柄だった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508141119/"
+     }
+    },
+    {
+     "title": "ベッセント長官の日銀発言で円高",
+     "detail": "ベッセント米財務長官が日銀はインフレ対応で後手に回っていると述べ、早期利上げ観測から円高が進み重荷になった。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ/松井証券",
+      "url": "https://finance.matsui.co.jp/news/609451/index"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-15": {
+  "us": {
+   "items": [
+    {
+     "title": "卸売インフレが重しで最高値から小反落",
+     "detail": "前日の高い卸売物価を引き続き消化し、S&P500は0.3%安。直近2日で付けた最高値から後退した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ClickOnDetroit)",
+      "url": "https://www.clickondetroit.com/business/2025/08/15/asian-shares-mostly-gain-after-uptick-in-inflation-pulls-us-stocks-lower/"
+     }
+    },
+    {
+     "title": "7月小売売上高は予想通り",
+     "detail": "7月の小売売上高は前月比0.5%増(6月は0.9%増に上方修正)で市場予想どおり。消費の底堅さが確認された。",
+     "direction": "flat",
+     "source": {
+      "label": "InvestmentNews",
+      "url": "https://www.investmentnews.com/equities/us-stocks-steady-as-retail-sales-ease-economic-slowdown-concerns/261742"
+     }
+    },
+    {
+     "title": "ユナイテッドヘルスが急伸",
+     "detail": "著名投資家による大口保有が明らかになり、ユナイテッドヘルスが約11%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/market-reports/us-close-dow-jones-falls-short-of-record-close"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "GDP上振れと円安で最高値",
+     "detail": "4〜6月期の実質GDP(速報)が年率1.0%増と予想を上回り、円安も進行。日経平均は1.71%高の4万3378円31銭で終値の最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508151111/"
+     }
+    },
+    {
+     "title": "半導体株・大手銀行株が上昇",
+     "detail": "GDP上振れを受けて半導体株や大手銀行株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "LIMO",
+      "url": "https://limo.media/articles/-/93468"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-18": {
+  "us": {
+   "items": [
+    {
+     "title": "ウクライナ首脳会談も市場の反応は薄い",
+     "detail": "トランプ大統領がゼレンスキー大統領や欧州首脳と協議したが、市場の反応は限られ、S&P500はほぼ変わらずで引けた。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-08-18/global-shares-flat-amid-ukraine-talks-ahead-jackson-hole"
+     }
+    },
+    {
+     "title": "ジャクソンホール会議と小売決算待ち",
+     "detail": "週末のパウエル議長講演と小売大手の決算を控え、最高値圏で横ばいの推移だった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(BIV)",
+      "url": "https://www.biv.com/news/wall-street-holds-at-a-standstill-near-its-record-heights-11089668"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "続伸で終値の最高値を更新",
+     "detail": "日経平均は0.77%高の4万3714円31銭。ロイターによればTOPIXとともに終値ベースで最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508180944/"
+     }
+    },
+    {
+     "title": "円安が買いを支援",
+     "detail": "円安が支えとなり、売買代金は8営業日連続で5兆円を超えた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508180944/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-19": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株が下落、パランティアが急落",
+     "detail": "パランティアが約9%下落しS&P500の下落率最大。エヌビディアも3.3%安で、ナスダックは1.5%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Washington Times)",
+      "url": "https://m.washingtontimes.com/news/2025/aug/19/palantir-nvidia-ai-stars-dimming-wall-street-edges-records/"
+     }
+    },
+    {
+     "title": "ダウは小幅高",
+     "detail": "ホーム・デポが通期見通しを据え置き、ダウを下支え。ダウは0.1%未満の上昇だった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Washington Times)",
+      "url": "https://m.washingtontimes.com/news/2025/aug/19/palantir-nvidia-ai-stars-dimming-wall-street-edges-records/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "高値警戒の利益確定売り",
+     "detail": "日経平均は0.38%安の4万3546円29銭。最高値圏で利益確定売りが優勢となり、一時は最高値を更新後に反落した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508191032/"
+     }
+    },
+    {
+     "title": "ジャクソンホール会議前の様子見",
+     "detail": "パウエル議長の講演を控えた様子見姿勢が強かった。AI・半導体関連株中心に売られた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ/松井証券",
+      "url": "https://finance.matsui.co.jp/news/610780/index"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-20": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC議事要旨で政策据え置きの姿勢",
+     "detail": "7月会合の議事要旨では、ほぼ全員が金利据え置きを適切としていた。インフレリスクを重視する声が雇用を上回った。",
+     "direction": "flat",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4487467-sp500-nasdaq-dow-jones-outlook-stock-market"
+     }
+    },
+    {
+     "title": "ハイテク株安が続く",
+     "detail": "ナスダックは0.7%安。インテルは政府出資の観測が続く中で約7%下落した。アナログ・デバイセズは約6%上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-08-20/tech-selloff-pushes-down-nasdaq-sp-500-investors-cautious-ahead-fed"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安を受け半導体売り",
+     "detail": "日経平均は657円74銭(1.51%)安の4万2888円55銭。米ハイテク株の下落で半導体・AI関連株に利益確定売りが広がり、一時800円超下落した。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/?p=40866"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-21": {
+  "us": {
+   "items": [
+    {
+     "title": "ウォルマート決算が失望を誘う",
+     "detail": "ウォルマートの決算が失望を誘い、S&P500は5日続落となった。",
+     "direction": "down",
+     "source": {
+      "label": "Hargreaves Lansdown",
+      "url": "https://companyresearch.digitallook.com/news/35303660/US_close_Markets_slip_on_Walmart_earnings_Powell_speech_nerves.html"
+     }
+    },
+    {
+     "title": "パウエル議長講演を控え様子見",
+     "detail": "翌日のジャクソンホール講演を前に警戒感が強まり、ダウは約0.3%、S&P500は約0.4%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Motley Fool",
+      "url": "https://www.fool.com/data-news/2025/08/21/stock-market-today-stocks-slide-jackson-hole"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク安と高値圏の反動",
+     "detail": "日経平均は3日続落し278円38銭(0.65%)安の4万2610円17銭。米ハイテク株の下落と高値圏での反動売りが背景。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508210930/"
+     }
+    },
+    {
+     "title": "ジャクソンホール会議前の様子見",
+     "detail": "週末のジャクソンホール会議を控えた様子見姿勢が強く、消費関連株などが売られた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ/松井証券",
+      "url": "https://finance.matsui.co.jp/news/611661/index"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-22": {
+  "us": {
+   "items": [
+    {
+     "title": "パウエル議長が利下げに前向き",
+     "detail": "ジャクソンホール講演で、経済情勢が変われば政策スタンドの調整が必要になりうると述べた。9月利下げ観測が高まった。",
+     "direction": "up",
+     "source": {
+      "label": "The National(AP)",
+      "url": "https://www.thenationalnews.com/business/2025/08/22/wall-street-rallies-as-fed-chair-jerome-powell-signals-rate-cuts"
+     }
+    },
+    {
+     "title": "ダウは846ドル高で最高値",
+     "detail": "ダウは1.9%高で最高値を更新。S&P500は5日続落を止めて1.5%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Daily Herald(AP)",
+      "url": "https://www.dailyherald.com/20250822/markets/wall-street-rallies-and-the-dow-soars-900-points-on-hopes-for-lower-interest-rates/"
+     }
+    },
+    {
+     "title": "小型株が急伸",
+     "detail": "金利低下の恩恵を受けやすいラッセル2000は3.9%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "The National(AP)",
+      "url": "https://www.thenationalnews.com/business/2025/08/22/wall-street-rallies-as-fed-chair-jerome-powell-signals-rate-cuts"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "講演前で方向感に欠ける",
+     "detail": "日経平均は23円12銭高の4万2633円29銭とわずかに反発。パウエル議長講演を控えて方向感に乏しかった。",
+     "direction": "flat",
+     "source": {
+      "label": "TBL Advisory",
+      "url": "https://tbladvisory.com/20250822nk/"
+     }
+    },
+    {
+     "title": "円安で輸出株上昇、半導体株は下落",
+     "detail": "円安で輸出関連株が買われた一方、エヌビディアが中国向けAI半導体の生産停止を要請と米メディアが報じ、半導体関連株が売られた。",
+     "direction": "flat",
+     "source": {
+      "label": "Business Standard",
+      "url": "https://www.business-standard.com/markets/capital-market-news/japan-s-nikkei-end-marginally-higher-125082200774_1.html"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-25": {
+  "us": {
+   "items": [
+    {
+     "title": "先週の急伸の反動でダウが最高値から後退",
+     "detail": "ダウは0.8%安、S&P500は0.4%安。先週のパウエル講演後の上昇が一服した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Washington Times)",
+      "url": "https://m.washingtontimes.com/news/2025/aug/25/stocks-slip-wall-street-monday-last-weeks-rally/"
+     }
+    },
+    {
+     "title": "エヌビディア決算待ち",
+     "detail": "水曜のエヌビディア決算を前に積極的な買いは控えられた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-08-25/sp-500-ends-down-traders-focus-nvidia-after-last-weeks-rally"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "パウエル講演後の米株高を好感",
+     "detail": "日経平均は174円53銭(0.41%)高の4万2807円82銭。米主要株の急伸を受け、半導体株や主力輸出株に買いが広がった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508250914/"
+     }
+    },
+    {
+     "title": "円高が上値を抑制",
+     "detail": "円高傾向が重しとなり、上値は伸び悩んだ。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508250914/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-26": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ大統領がFRBのクック理事の解任を発表",
+     "detail": "解任の発表を受けて市場は動揺せず、米長期金利とドルは低下。S&P500は0.4%高で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-08-26/sp-500-edges-after-trump-attacks-fed-nvidia-climbs"
+     }
+    },
+    {
+     "title": "小型株が上昇",
+     "detail": "ラッセル2000は0.8%上昇し、ダウも0.3%高。S&P500は最高値まであと約2.6ポイントだった。",
+     "direction": "up",
+     "source": {
+      "label": "Virginia Business(AP)",
+      "url": "https://virginiabusiness.com/wall-street-holds-steady-just-below-recent-records/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安とクック理事解任でリスクオフ",
+     "detail": "日経平均は413円42銭(0.97%)安の4万2394円40銭。前日の米株安に、トランプ大統領のFRB理事解任発表が重なった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508260993/"
+     }
+    },
+    {
+     "title": "円高が輸出株に逆風",
+     "detail": "ドル安・円高が進み、一時600円超下落する場面があった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508260993/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-08-27": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算前にS&P500が最高値",
+     "detail": "S&P500は0.2%高の6481.40で最高値を更新。決算は引け後で、同社はS&P500の約8%を占める。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(iTiger)",
+      "url": "https://www.itiger.com/news/2562854727"
+     }
+    },
+    {
+     "title": "予想PERが4年ぶり高水準",
+     "detail": "S&P500の予想PERは22倍超とLSEG集計で4年ぶりの高さ。決算結果への注目が高まった。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(iTiger)",
+      "url": "https://www.itiger.com/news/2562854727"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算前で様子見",
+     "detail": "日経平均は125円87銭(0.30%)高の4万2520円27銭。決算を日本時間の翌朝に控え方向感に欠けた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508270962/"
+     }
+    },
+    {
+     "title": "アドバンテストが指数を支援",
+     "detail": "アドバンテストの上昇が日経平均を支えた一方、TOPIXは小幅マイナスで引けた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202508270962/"
      }
     }
    ]
