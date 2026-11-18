@@ -45,6 +45,76 @@
    ]
   }
  },
+ "2024-11-04": {
+  "us": {
+   "items": [
+    {
+     "title": "大統領選を翌日に控え株価は小幅安",
+     "detail": "S&P500は0.3%安の5,712.69、ダウは0.6%安、ナスダックは0.3%安だった。一方でラッセル2000は0.4%高。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-1142024-115484660"
+     }
+    },
+    {
+     "title": "産油国が増産延期を決め原油が上昇",
+     "detail": "産油国が計画していた増産の開始を延期したことを受け、原油価格が上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-1142024-115484660"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-05": {
+  "us": {
+   "items": [
+    {
+     "title": "大統領選の投票日を前に株高",
+     "detail": "投票日に米株は上昇し、S&P500は約1.2%高、ナスダックは1.4%高、ラッセル2000は1.9%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2024/11/5/closing-summary-"
+     }
+    },
+    {
+     "title": "パランティアが急伸",
+     "detail": "パランティアはS&P500採用銘柄で最大の上昇率となり、23.4%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2024/11/5/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前週末の急落の反動で自律反発",
+     "detail": "11月1日に1027円安となった反動で買いが優勢となり、日経平均は421円23銭高の3万8474円90銭。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/64785"
+     }
+    },
+    {
+     "title": "大統領選後の株高を見込む買いと決算物色",
+     "detail": "米大統領選やFOMCを前に選挙後の株高を期待した買いが入り、好決算銘柄も物色された。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/64785"
+     }
+    }
+   ]
+  }
+ },
  "2024-11-06": {
   "jp": {
    "items": [
@@ -86,6 +156,411 @@
      "source": {
       "label": "The Star(AP)",
       "url": "https://www.thestar.com.my/news/world/2024/11/07/us-stocks-close-higher"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-07": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが利下げ、ハイテク・成長株が上昇",
+     "detail": "市場の予想通りの利下げを受けて大型ハイテク株が買われ、ナスダックは1.5%高、S&P500は0.7%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-1172024-115619998"
+     }
+    },
+    {
+     "title": "銀行株と小型株は軟調",
+     "detail": "ダウはほぼ横ばい、ラッセル2000は0.4%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-1172024-115619998"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の急伸の反動で利益確定売り",
+     "detail": "前日は米大統領選でトランプ氏の勝利が見えて1005円上昇しており、その反動で売られ、日経平均は99円26銭安の3万9381円41銭と反落した。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/?p=29709"
+     }
+    },
+    {
+     "title": "半導体など値がさ株が軟調",
+     "detail": "値がさの半導体関連株が指数を押し下げた。一方TOPIXは3日続伸した。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/?p=29709"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-08": {
+  "us": {
+   "items": [
+    {
+     "title": "選挙後の上昇で年内最高の1週間",
+     "detail": "トランプ氏当選とFRBの利下げを受けた上昇で、この週は約1年ぶりの週間上昇率となった。S&P500は0.4%高、ダウは0.6%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1182024-115657135"
+     }
+    },
+    {
+     "title": "S&P500とダウが節目に接近",
+     "detail": "S&P500は一時初めて6,000に達し、ダウも日中に4万4000ドルに乗せた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1182024-115657135"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "FRB利下げと米株高を好感",
+     "detail": "FRBが0.25%の利下げを決め、ナスダックの連日の最高値更新も追い風となり、日経平均は118円96銭高の3万9500円37銭。",
+     "direction": "up",
+     "source": {
+      "label": "limo.media",
+      "url": "https://limo.media/articles/-/70007"
+     }
+    },
+    {
+     "title": "円安一服と利益確定売りで上値重い",
+     "detail": "一時437円高まで上げたが、円安の一服感や今週の急伸の反動、決算への警戒で伸び悩んだ。",
+     "direction": "down",
+     "source": {
+      "label": "limo.media",
+      "url": "https://limo.media/articles/-/70007"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-11": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が初の6000台、ダウは初の4万4000ドル超え",
+     "detail": "トランプ氏当選後の上昇が続き、S&P500は6,001.35、ダウは44,293.13で終え、いずれも初めて節目を超えた。ラッセル2000は約1.5%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-11112024-115750372"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "目新しい材料に乏しい中で小幅続伸",
+     "detail": "終値は32円95銭(0.08%)高の3万9533円32銭。前週に1400円超上げた反動の利益確定売りと、米株高を好感した買いが交錯した。",
+     "direction": "flat",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/?p=29826"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-12": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏当選後の上昇が一服",
+     "detail": "選挙後の「トランプ・トレード」の勢いが弱まり、S&P500は0.29%安で5日連続上昇が止まった。ダウは0.86%安、ラッセル2000は1.8%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-11122024-115790087"
+     }
+    },
+    {
+     "title": "米長期金利の上昇",
+     "detail": "債券利回りが上昇し、株価の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-11122024-115790087"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "TSMCへの対中出荷停止命令で半導体株安",
+     "detail": "米国が台湾TSMCに中国向け先端半導体の出荷停止を命じたとの報道で、アドバンテストと東京エレクトロンの2銘柄で指数を約146円押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/64949"
+     }
+    },
+    {
+     "title": "ルビオ氏起用報道で対中規制強化を警戒",
+     "detail": "トランプ次期大統領がルビオ上院議員を国務長官に起用する見通しと伝わり、一時395円安まで下げた。終値は157円23銭安の3万9376円09銭。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/64949"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-13": {
+  "us": {
+   "items": [
+    {
+     "title": "消費者物価は予想通り",
+     "detail": "10月のインフレ指標が市場予想通りで、12月の利下げ期待が支えられた。S&P500はほぼ横ばい。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11132024-115837064"
+     }
+    },
+    {
+     "title": "選挙後の上昇が勢い鈍化",
+     "detail": "トランプ氏当選後の上昇が勢いを失い、ナスダックは0.3%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11132024-115837064"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ次期政権への楽観後退",
+     "detail": "前日の欧米市場で次期政権への楽観論が後退し、日経平均は654円43銭(1.66%)安の3万8721円66銭と大幅続落した。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/64982"
+     }
+    },
+    {
+     "title": "対中関税への警戒と先物主導の売り",
+     "detail": "人事報道で早期の対中関税発動が意識され、外需株が売られた。先物主導で3万9000円を割り込み、値下がり銘柄が6割を占めた。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/64982"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-14": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏当選後の上昇が一服",
+     "detail": "選挙後に急伸した銘柄が反落し、S&P500は0.6%安、ラッセル2000は1.4%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11142024-115883363"
+     }
+    },
+    {
+     "title": "パウエル議長が利下げを急がない考え",
+     "detail": "短期債利回りが上昇し、株価の重しとなった。ディズニーは決算を受け急伸した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11142024-115883363"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "3万9000円で戻り売り",
+     "detail": "寄り付き直後は360円超高となり一時3万9000円を回復したが、利益確定売りに押され185円96銭(0.48%)安の3万8535円70銭で3日続落した。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/?p=29917"
+     }
+    },
+    {
+     "title": "為替と日銀の追加利上げ観測",
+     "detail": "円高方向への振れや日銀の追加利上げ観測が上値を抑えたとされる。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/?p=29917"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-15": {
+  "us": {
+   "items": [
+    {
+     "title": "パウエルFRB議長が利下げ急がず",
+     "detail": "パウエル議長が利下げを急がない姿勢を示し、トランプ氏当選後の上昇が弱まった。S&P500は約1.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-11152024-115915509"
+     }
+    },
+    {
+     "title": "トランプ次期政権の閣僚人事",
+     "detail": "閣僚人事への反応も売り材料となり、生活必需品などが下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-11-15/wall-st-sinks-powell-rate-cut-caution-trump-cabinet-picks"
+     }
+    },
+    {
+     "title": "アプライドマテリアルズ急落、パランティア急伸",
+     "detail": "アプライドマテリアルズは9.2%安でS&P500採用銘柄で最大の下落、パランティアはナスダック上場移行の発表で11.1%高となった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-11152024-115915509"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安で輸出株に買い",
+     "detail": "1ドル=156円台の円安を受け、自動車・機械など輸出関連株が買われ、日経平均は107円21銭高の3万8642円91銭と4営業日ぶりに反発した。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/15nkgaikyou/"
+     }
+    },
+    {
+     "title": "半導体株の自律反発と週末の手じまい",
+     "detail": "軟調だった半導体株に自律反発狙いの買いが入ったが、週末を控えた売りで上げ幅は縮小した。",
+     "direction": "flat",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/15nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-18": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株が反発し先週の下げを一部回復",
+     "detail": "先週の急落からの戻りでハイテク株が買われ、S&P500は0.39%高、ナスダックは0.60%高。ダウは0.13%安だった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-11182024-115986063"
+     }
+    },
+    {
+     "title": "米長期金利の低下",
+     "detail": "債券利回りの低下がハイテク株の買いを支えたと報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "バーチャート(Nasdaq.com掲載)",
+      "url": "https://www.nasdaq.com/articles/stocks-settle-mostly-higher-tech-stock-strength-and-lower-bond-yields"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安を受け反落",
+     "detail": "前週の米市場でハイテク株が大きく売られた流れを受け、日経平均は422円06銭(1.09%)安の3万8220円85銭と反落した。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/18nkgaikyou/"
+     }
+    },
+    {
+     "title": "半導体関連株が下げを主導",
+     "detail": "下げが目立ったのは半導体関連株で、TOPIXも0.73%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/18nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-19": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算前にハイテク株が上昇",
+     "detail": "エヌビディアなどハイテク株が決算発表前に買われ、S&P500は0.4%高、ナスダックは約1%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-11192024-116023804"
+     }
+    },
+    {
+     "title": "ロシア・ウクライナ情勢への警戒",
+     "detail": "戦争の激化懸念で朝方は下落して始まったが、その後ハイテク株主導で持ち直した。ダウは0.28%安で終えた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-11192024-116023804"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株高を受け反発",
+     "detail": "前日の米ハイテク株高を受けて朝方から上昇し、日経平均は193円58銭(0.51%)高の3万8414円43銭で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "sbbit 市況",
+      "url": "https://www.sbbit.jp/article/refers/152828"
+     }
+    },
+    {
+     "title": "エヌビディア決算前で上げ幅縮小",
+     "detail": "上げ幅は一時300円超となったが、翌20日の米エヌビディア決算を控え、引けにかけて縮小した。",
+     "direction": "flat",
+     "source": {
+      "label": "sbbit 市況",
+      "url": "https://www.sbbit.jp/article/refers/152828"
      }
     }
    ]
