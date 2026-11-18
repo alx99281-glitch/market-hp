@@ -1,4 +1,188 @@
 {
+ "2025-03-03": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏が対カナダ・メキシコ関税を予定通り実施と表明",
+     "detail": "「猶予の余地はない」との発言で午後に売りが加速。S&Pは1.8%安の5,849.72、ダウは649.67ドル安の43,191.24、ナスダックは2.6%安で11月4日以来の安値。",
+     "direction": "down",
+     "source": {
+      "label": "WTTW(AP)",
+      "url": "https://news.wttw.com/2025/03/03/dow-falls-650-points-donald-trump-confirms-tariffs-mexico-and-canada-will-start-tuesday"
+     }
+    },
+    {
+     "title": "S&Pの選挙後上昇が1%強まで縮小",
+     "detail": "この日の下げでS&Pの選挙日以降の上昇率は、ピークの6%超から1%強に縮んだ。エヌビディアなど大型ハイテクも総じて下落。",
+     "direction": "down",
+     "source": {
+      "label": "WTTW(AP)",
+      "url": "https://news.wttw.com/2025/03/03/dow-falls-650-points-donald-trump-confirms-tariffs-mexico-and-canada-will-start-tuesday"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前週末の急落の反動で自律反発",
+     "detail": "日経平均は629.97円高の37,785.47円(+1.70%)。前週末の1100円超の下落への反動で、自律反発狙いの買いが先行した。33業種すべてが上昇。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250303nk/"
+     }
+    },
+    {
+     "title": "米長期金利低下とファストリの寄与",
+     "detail": "米長期金利の低下も追い風。寄与度トップはファーストリテイリングで133円分押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250303nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-04": {
+  "us": {
+   "items": [
+    {
+     "title": "米国の対カナダ・メキシコ・中国関税が発動",
+     "detail": "貿易戦争の激化への懸念で売られ、S&Pは約1.2%安、ダウは約1.6%安、ナスダックは約0.4%安。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters LIVE MARKETS(itiger転載)",
+      "url": "https://itiger.com/news/2517768989"
+     }
+    },
+    {
+     "title": "S&Pの選挙後の上昇分が帳消し",
+     "detail": "APは、貿易摩擦の激化でS&P500の大統領選後の上昇分が消えたと伝えた。",
+     "direction": "down",
+     "source": {
+      "label": "PBS NewsHour(AP)",
+      "url": "https://www.pbs.org/newshour/economy/stocks-fall-as-trade-war-between-u-s-and-key-partners-escalate-wiping-out-sp-500-post-election-gains"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株安と関税発動への警戒",
+     "detail": "日経平均は454円29銭安の37,331.18円(-1.20%)。前日の米国市場でエヌビディアなどが下落、関税への警戒から一時969円安の36,816.16円まで下げた。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250304nk/"
+     }
+    },
+    {
+     "title": "ウクライナ支援停止と円高も重荷",
+     "detail": "米国のウクライナ軍事支援停止の決定による地政学リスクや円高の進行も売りを誘った。関税発動後は引けにかけて下げ幅を縮小。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250304nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-05": {
+  "us": {
+   "items": [
+    {
+     "title": "ラトニック商務長官が関税で歩み寄りを示唆",
+     "detail": "商務長官がカナダ・メキシコ関税で「中間点」で折り合う可能性に言及し、引けにかけて上昇。ダウは500ドル近く、S&Pは約1.1%、ナスダックは約1.5%高。",
+     "direction": "up",
+     "source": {
+      "label": "Digitallook(Sharecast)",
+      "url": "https://companyresearch.digitallook.com/news/34922833/US_close_Stocks_higher_as_tariffs_Ukraine_tensions_remain_in_focus.html"
+     }
+    },
+    {
+     "title": "週初の下げはなお残る",
+     "detail": "3指数とも週初からの下落率は1%超で、この日の反発は直近の売りに対する戻りにとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "Stock Market News for Mar 5, 2025",
+      "url": "https://www.nasdaq.com/articles/stock-market-news-mar-5-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ演説で日本名指しなく不安後退",
+     "detail": "日経平均は87.06円高の37,418.24円(+0.23%)。施政方針演説で日本が関税で名指しされなかったことが安心材料となり、後場はプラス圏で推移した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均大引け",
+      "url": "https://minkabu.jp/news/4165373"
+     }
+    },
+    {
+     "title": "前日の米株安で朝方は弱含み",
+     "detail": "前日の米国でダウが大きく下げた流れで朝方は売り先行。引けにかけては上値が重かった。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均大引け",
+      "url": "https://minkabu.jp/news/4165373"
+     }
+    }
+   ]
+  }
+ },
+ "2025-03-06": {
+  "us": {
+   "items": [
+    {
+     "title": "関税をめぐる揺れとAI株の下落で大幅安",
+     "detail": "S&Pは約1.78%安、ナスダックは2.61%安で高値から10%下げ調整局面入り。関税発表の相次ぎとAI関連株の下げが重なった。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2426981/heavy-march-headwinds-continue-stocks-market-indexes-down"
+     }
+    },
+    {
+     "title": "ダウは427ドル安",
+     "detail": "ダウ平均は427ドル(0.99%)安、ラッセル2000は1.63%安と幅広く売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2426981/heavy-march-headwinds-continue-stocks-market-indexes-down"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "自動車関税の1カ月免除を好感",
+     "detail": "日経平均は286.69円高の37,704.93円(+0.77%)。トランプ政権がカナダ・メキシコ向け25%関税のうち自動車分を1カ月免除すると発表し、一時400円超上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "株探 日経平均大引け",
+      "url": "https://s.kabutan.jp/news/n202503061303/"
+     }
+    },
+    {
+     "title": "防衛関連が高く半導体は安い",
+     "detail": "防衛関連が一斉高で指数を押し上げた一方、半導体は軟調。買い一巡後は利益確定売りで上げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探 日経平均大引け",
+      "url": "https://s.kabutan.jp/news/n202503061303/"
+     }
+    }
+   ]
+  }
+ },
  "2025-03-07": {
   "us": {
    "items": [
@@ -62,6 +246,52 @@
   "jp": {
    "items": [],
    "note": "報道を確認できず"
+  }
+ },
+ "2025-03-11": {
+  "us": {
+   "items": [
+    {
+     "title": "関税の不透明感と景気減速懸念で反落",
+     "detail": "S&Pは0.76%安の5,572.07。取引中は小幅高から高値圏比で約10%安まで振れる荒い展開で、関税の先行き不安と景気減速への警戒が重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "The Star(ロイター系)",
+      "url": "https://www.thestar.com.my/news/world/2025/03/12/us-stocks-close-lower-over-tariff-uncertainty-slowing-economy"
+     }
+    },
+    {
+     "title": "ダウは478ドル安",
+     "detail": "ダウ平均は1.14%(478.23ドル)安の41,433.48で終え、主要指数は引けにかけて下げ幅をやや縮めたものの全面安となった。",
+     "direction": "down",
+     "source": {
+      "label": "US Stock Market Summary(3/11)",
+      "url": "https://seekomegainvesting.blogspot.com/2025/03/us-stock-market-summary-for-tuesday_11.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株安で売り先行、一時3万6000円割れ",
+     "detail": "日経平均は終値で235円16銭安の36,793.11円(-0.64%)。前日の米株大幅安を受け、前場に一時3万6000円を割り込み(安値35,987.13円)、昨年9月以来の水準となった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250311nk/"
+     }
+    },
+    {
+     "title": "自律反発狙いの買いで下げ幅縮小",
+     "detail": "下げ幅が1000円を超える場面もあったが、自律反発狙いの買いで急速に縮小した。ドルは一時146.54円まで円高が進み重しとなった。TOPIXは1.11%安。",
+     "direction": "flat",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250311nk/"
+     }
+    }
+   ]
   }
  },
  "2025-03-12": {

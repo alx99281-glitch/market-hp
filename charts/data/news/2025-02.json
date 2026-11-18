@@ -36,6 +36,324 @@
    ]
   }
  },
+ "2025-02-19": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が最高値を更新",
+     "detail": "S&Pは約0.2%高で終値の最高値(年初来3回目)。マイクロソフトが指数の最大の押し上げ要因で、アナログ・デバイセズは9.7%高。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(ロイター系)",
+      "url": "https://www.thestar.com.my/business/2025/02/20/sp-500-records-closing-high-as-fed-minutes-parsed"
+     }
+    },
+    {
+     "title": "FOMC議事要旨は慎重姿勢",
+     "detail": "1月会合の議事要旨は、インフレ懸念から高い政策金利を維持する姿勢を支持した内容。自動車・半導体・医薬品への25%以上の関税警告は織り込み済みとして受け止められた。",
+     "direction": "flat",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4410120-nasdaq-sp500-dow-jones-stock-market-news-today"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀委員発言と自動車関税で3営業日ぶり反落",
+     "detail": "日経平均は105円79銭安の39,164.61円(-0.27%)。日銀の高田審議委員の発言が引き締め寄りと受け止められ円高が進み、トランプ氏が輸入自動車関税を「25%くらい」と述べたことも重しとなり、一時300円近く下落。",
+     "direction": "down",
+     "source": {
+      "label": "ゲントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/67192"
+     }
+    },
+    {
+     "title": "3万9000円割れで押し目買い",
+     "detail": "下値では押し目買いが入り、下げ幅を縮小した。値上がり96銘柄、値下がり127銘柄。",
+     "direction": "up",
+     "source": {
+      "label": "ゲントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/67192"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-20": {
+  "us": {
+   "items": [
+    {
+     "title": "ウォルマートの弱い見通しで消費に懸念",
+     "detail": "ウォルマートの慎重な見通しが嫌気され、生活必需品セクターが1.8%安。S&Pは26.53ポイント安の6,117.62、ダウは450.94ドル安の44,176.65で、前日の最高値から反落した。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/2/20/closing-summary--"
+     }
+    },
+    {
+     "title": "トランプ氏の関税発言",
+     "detail": "ロイターによれば、新たな関税発言を受けて投資家がリスクを避け、寄り付きから売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-20/wall-st-dips-markets-assess-trumps-tariff-threats-walmart-slides"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高と関税警戒で続落",
+     "detail": "日経平均は486円57銭安の38,678.04円(-1.24%)。円高の進行とトランプ政権の関税政策への警戒で輸出株中心に売りが広がった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250220nk/"
+     }
+    },
+    {
+     "title": "後場は下げ幅縮小",
+     "detail": "後場に一時700円近く下げたが、引けにかけて縮小。値下がり181銘柄に対し値上がり43銘柄。TOPIXは1.18%安。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250220nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-21": {
+  "us": {
+   "items": [
+    {
+     "title": "消費者心理の悪化で全面安",
+     "detail": "ミシガン大学の2月確報値は64.7と予想の67.8を下回った。APによればS&Pは1.7%安で2カ月ぶりの大幅下落、構成銘柄の約5分の4が下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP報道(itiger/fxempire等)",
+      "url": "https://fxempire.com/forecasts/article/dow-jones-400-point-drop-as-weak-consumer-sentiment-and-unitedhealth-hit-us-stocks-1499457"
+     }
+    },
+    {
+     "title": "ユナイテッドヘルスが急落",
+     "detail": "WSJが司法省による同社調査を報じ、株価は7〜9%程度下げた。",
+     "direction": "down",
+     "source": {
+      "label": "FXEmpire",
+      "url": "https://fxempire.com/forecasts/article/dow-jones-400-point-drop-as-weak-consumer-sentiment-and-unitedhealth-hit-us-stocks-1499457"
+     }
+    },
+    {
+     "title": "関税と景気への懸念",
+     "detail": "ロイターは、経済と関税への懸念の高まりで大幅安になったと伝えた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-21/wall-st-set-weekly-declines-investors-parse-more-data-unitedhealth"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "植田総裁の国債買い入れ発言で円安・反発",
+     "detail": "日経平均は98円90銭高の38,776.94円(+0.26%)。前日の米株安で売り先行後、日銀総裁が金利急上昇時には国債買い入れ増額で機動的に対応と述べて円安が進み、持ち直した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ/経済メディア報道",
+      "url": "https://minkabu.jp/news/4386764"
+     }
+    },
+    {
+     "title": "3日ぶりの反発",
+     "detail": "前日の続落から3日ぶりに反発。値上がり130銘柄、値下がり93銘柄だった。",
+     "direction": "up",
+     "source": {
+      "label": "現代ビジネス系 ゲントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/67275"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-24": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが下げ6週間ぶり安値",
+     "detail": "S&Pは29.88ポイント安の5,983.25(-0.5%)、ナスダックは237ポイント安。エヌビディアは3.1%安で指数の最大の押し下げ要因。午後の売りで両指数は6週間ぶり安値となった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com / Sharecast",
+      "url": "https://briefing.com/stock-market-update/archive/2025/2/24/closing-summary-"
+     }
+    },
+    {
+     "title": "アップルは米国投資計画で上昇",
+     "detail": "アップルが今後4年で米国に5,000億ドル超を投資する計画を示し、買われた。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com / Sharecast",
+      "url": "https://briefing.com/stock-market-update/archive/2025/2/24/closing-summary-"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-25": {
+  "us": {
+   "items": [
+    {
+     "title": "消費者信頼感が急低下",
+     "detail": "コンファレンス・ボードの2月指数は98.3と1月の105.3から低下、2021年8月以来の大幅な落ち込みで、1カ月ぶり安値圏まで売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com / Kitco",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-25/indexes-touch-over-one-month-low-growth-and-inflation-uncertainty"
+     }
+    },
+    {
+     "title": "テスラ・エヌビディアが下落",
+     "detail": "APによればテスラは7%安、エヌビディアは3.6%安。インフレや関税への不安が重なった。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/02/25/nasdaq-logs-another-triple-digit-drop"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安が波及し大幅反落",
+     "detail": "日経平均は539.15円安の38,237.79円(-1.39%)。前日の米国でエヌビディアなど半導体株が売られ、アドバンテストや東京エレクトロンが下げた。",
+     "direction": "down",
+     "source": {
+      "label": "株探 日経平均大引け",
+      "url": "https://s.kabutan.jp/news/n202502251080/"
+     }
+    },
+    {
+     "title": "バフェット氏の発言で商社株は堅調",
+     "detail": "バフェット氏が投資拡大に意欲を示したと伝わり、総合商社株に買いが入って下支えした。",
+     "direction": "up",
+     "source": {
+      "label": "株探 日経平均大引け",
+      "url": "https://s.kabutan.jp/news/n202502251080/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-26": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算待ちで方向感なし",
+     "detail": "S&Pは0.81ポイント高の5,956.06でほぼ横ばい、ナスダックは48.88ポイント高、ダウは188.04ドル安。エヌビディアは約3.7%上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/2/26/closing-stock-market-summary"
+     }
+    },
+    {
+     "title": "決算発表を前に様子見",
+     "detail": "ロイターは、S&P500とナスダックは投資家がエヌビディア決算を待つなかほぼ変わらずで引けたと伝えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-26/sp-500-nasdaq-end-barely-changed-investors-await-nvidia-results"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安と決算前の調整売り",
+     "detail": "日経平均は95.42円安の38,142.37円(-0.25%)。前日の米ナスダック大幅安と、エヌビディア決算前の半導体株の持ち高調整売りが重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "株探 日経平均大引け",
+      "url": "https://s.kabutan.jp/news/n202502261167/"
+     }
+    },
+    {
+     "title": "後場は買い戻しで下げ幅縮小",
+     "detail": "一時38,000円を割り込んだが、後場は空売りの買い戻しが入り、後場の高値で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "株探 日経平均大引け",
+      "url": "https://s.kabutan.jp/news/n202502261167/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-27": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが決算後に8%超下落",
+     "detail": "好決算ながら翌四半期の見通しが慎重と受け止められ、約2,730億ドルの時価総額が消失。S&Pは約1.6%安の5,861.57、ナスダックは約2.8%安。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-27/sp-500-nasdaq-fall-nvidia-swings-red-economic-data-disappoints"
+     }
+    },
+    {
+     "title": "カナダ・メキシコ関税を予定通り3月4日に発動と再確認",
+     "detail": "トランプ氏が関税発動を改めて明言し、投資家心理を冷やした。景気減速を示す経済指標も重なった。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-27/wall-street-ends-lower-tariff-risk-rattles-european-shares"
+     }
+    },
+    {
+     "title": "セールスフォースも下落",
+     "detail": "利益は予想を上回ったが、2026年度見通しが弱く約4%下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-27/sp-500-nasdaq-fall-nvidia-swings-red-economic-data-disappoints"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア好決算を受け半導体株に買い",
+     "detail": "日経平均は113.80円高の38,256.17円(+0.30%)。前夜のエヌビディア決算を好感して半導体関連が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250227nk/"
+     }
+    },
+    {
+     "title": "米景気減速懸念と円高で様子見",
+     "detail": "米景気減速への懸念や円高が重荷で、上値は限られた。",
+     "direction": "flat",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/20250227nk/"
+     }
+    }
+   ]
+  }
+ },
  "2025-02-28": {
   "jp": {
    "items": [
