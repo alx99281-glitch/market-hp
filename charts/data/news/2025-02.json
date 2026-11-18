@@ -36,6 +36,257 @@
    ]
   }
  },
+ "2025-02-10": {
+  "us": {
+   "items": [
+    {
+     "title": "鉄鋼・アルミに25%関税、素材株は急騰",
+     "detail": "トランプ氏が鉄鋼とアルミ輸入に25%の関税を表明。ニューコアなど鉄鋼株が5〜13%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-10/wall-st-advances-trumps-tariffs-lift-us-steelmakers"
+     }
+    },
+    {
+     "title": "ハイテク株の戻り",
+     "detail": "エヌビディアなどが買われ、主要指数は上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-10/wall-st-advances-trumps-tariffs-lift-us-steelmakers"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安で売り先行も半導体株の押し目買いで小幅高",
+     "detail": "日経平均は14円高の38,801円。前日の米株安で朝方は売られたが、半導体関連の押し目買いでプラス圏に戻した。",
+     "direction": "flat",
+     "source": {
+      "label": "tbladvisory(ロイター配信)",
+      "url": "https://tbladvisory.com/20250210nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-11": {
+  "us": {
+   "items": [
+    {
+     "title": "パウエル議長の議会証言を前に様子見",
+     "detail": "FRB議長が利下げを急がない姿勢を示し、指数はまちまちで終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "FXEmpire",
+      "url": "https://www.fxempire.com/forecasts/article/dow-jones-and-nasdaq-100-markets-drops-as-powell-testifies-coca-cola-jumps-3-1496952"
+     }
+    },
+    {
+     "title": "鉄鋼・アルミへの新関税が重し",
+     "detail": "鉄鋼とアルミ輸入への新たな関税がインフレ懸念を招いた。",
+     "direction": "down",
+     "source": {
+      "label": "Nashua Telegraph(AP)",
+      "url": "https://www.nashuatelegraph.com/news/business/2025/02/11/stock-market-today-wall-street-falls-as-trump-imposes-new-tariffs-on-steel-and-aluminum-imports/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-12": {
+  "us": {
+   "items": [
+    {
+     "title": "米CPIが予想を上回り利下げ観測が後退",
+     "detail": "1月の消費者物価は前年比3.0%上昇(予想2.9%)、コア指数は3.3%上昇(予想3.1%)。S&P500は0.27%安で、次の利下げは9月以降との見方が強まった。",
+     "direction": "down",
+     "source": {
+      "label": "BNN Bloomberg(AP)",
+      "url": "https://www.bnnbloomberg.ca/investing/2025/02/12/stock-market-today-worse-inflation-data-hits-wall-street-and-dow-drops-400-points/"
+     }
+    },
+    {
+     "title": "CVSが決算好調で急伸",
+     "detail": "CVSヘルスは決算が予想を上回り大幅高となった。",
+     "direction": "up",
+     "source": {
+      "label": "BNN Bloomberg(AP)",
+      "url": "https://www.bnnbloomberg.ca/investing/2025/02/12/stock-market-today-worse-inflation-data-hits-wall-street-and-dow-drops-400-points/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "関税警戒で上値重く小幅続伸",
+     "detail": "日経平均は163円高の38,964円。朝高後は米関税政策への警戒で伸び悩み、後場に一時マイナスに転じた。",
+     "direction": "flat",
+     "source": {
+      "label": "tbladvisory(ロイター配信)",
+      "url": "https://tbladvisory.com/20250212nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-13": {
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏の相互関税、発動は先との見方",
+     "detail": "相互関税の計画が発表されたが、発動は数カ月先になりうるとして市場は冷静に受け止め、S&P500は1.04%高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Value the Markets転載)",
+      "url": "https://value-the-markets-production-butx6j.laravel.cloud/news/stock-market-today-wall-street-rallies-near-a-record-after-yawning-at-trumps-latest-tariff-threat"
+     }
+    },
+    {
+     "title": "企業決算が好調",
+     "detail": "予想を上回る利益を出した企業が相場を押し上げ、S&P500は最高値の0.2%手前まで戻した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Value the Markets転載)",
+      "url": "https://value-the-markets-production-butx6j.laravel.cloud/news/stock-market-today-wall-street-rallies-near-a-record-after-yawning-at-trumps-latest-tariff-threat"
+     }
+    },
+    {
+     "title": "卸売物価は予想より強めで米金利は低下",
+     "detail": "生産者物価は市場予想を上回ったが、株価は上昇し米長期金利は低下した。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-02-13/wall-st-advances-after-producer-prices-data"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI上振れで円安、3日続伸",
+     "detail": "日経平均は497円高の39,461円と3日続伸。米消費者物価指数が予想を上回って円安が進み、日中は一時600円超高となった。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(ロイター配信)",
+      "url": "https://tbladvisory.com/20250213nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-14": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500はほぼ横ばい、最高値手前で足踏み",
+     "detail": "S&P500は0.44ポイント安の6,114.63、ダウは0.4%安。決算がまちまちで、最高値を前に小幅に後退した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(Value the Markets転載)",
+      "url": "https://www.valuethemarkets.com/news/how-major-us-stock-indexes-fared-friday-2142025"
+     }
+    },
+    {
+     "title": "エアビーアンドビーが14%高",
+     "detail": "宿泊仲介のエアビーアンドビーは増収決算を受けて14.4%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Value the Markets転載)",
+      "url": "https://www.valuethemarkets.com/news/stock-market-today-wall-street-finishes-a-winning-week-just-shy-of-a-record"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高警戒と週末の見送りで反落",
+     "detail": "日経平均は312円安の39,149円と4日ぶりに反落。ドル円が154円台から152円台半ばへ円高に振れ、輸出関連株に売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "tbladvisory(ロイター配信)",
+      "url": "https://tbladvisory.com/20250214nk/"
+     }
+    },
+    {
+     "title": "好決算銘柄は個別に買われ下支え",
+     "detail": "好決算の銘柄には買いが入り、相場を一定程度支えた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(ロイター配信)",
+      "url": "https://tbladvisory.com/20250214nk/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-17": {
+  "jp": {
+   "items": [
+    {
+     "title": "関税警戒と円高で輸出株が売られる",
+     "detail": "日経平均は24円高の39,174円と小幅高だが、米関税政策への警戒や円高で輸出株が売られ、構成銘柄の6割超が下落した。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202502170949/"
+     }
+    },
+    {
+     "title": "好業績株への買いが下支え",
+     "detail": "値がさ株が指数を押し上げ、好決算銘柄への買いが下値を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202502170949/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-18": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が最高値を更新",
+     "detail": "日中は前日終値をはさんで上下したが、終盤の買いでS&P500は0.2%高の6,129.58となり、1月の最高値をわずかに上回って終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2025/02/18/s-p-500-nabs-record-close-as-stocks-eke-out-gains"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安で輸出・防衛関連株が上昇",
+     "detail": "日経平均は96円高の39,270円と小幅続伸。円安の進行が支えとなり、防衛関連や輸出株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(ロイター配信)",
+      "url": "https://tbladvisory.com/20250218nk/"
+     }
+    },
+    {
+     "title": "長期金利が1.430%と2009年以来の高水準",
+     "detail": "長期金利の上昇を受けて銀行株などが買われた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory(ロイター配信)",
+      "url": "https://tbladvisory.com/20250218nk/"
+     }
+    }
+   ]
+  }
+ },
  "2025-02-19": {
   "us": {
    "items": [
