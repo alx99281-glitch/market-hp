@@ -1,4 +1,228 @@
 {
+ "2024-12-06": {
+  "us": {
+   "items": [
+    {
+     "title": "雇用統計を受けS&P500とナスダックは最高値",
+     "detail": "11月の雇用者数は予想を上回り失業率は4.2%に上昇。利下げ観測が保たれ、S&P500は0.2%高の6,090、ナスダックは0.8%高で最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(KOB配信)",
+      "url": "https://kob.com/?p=734643"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "4日続伸の反動と雇用統計前の調整で日経平均は反落",
+     "detail": "終値は3万9,091円17銭(0.77%安)。前日の米株安を引き継ぎ、アドバンテストと東エレクで約138円押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(SBBIT)",
+      "url": "https://www.sbbit.jp/article/refers/153979"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-09": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア安で最高値から後退",
+     "detail": "エヌビディアの下落でS&P500は約0.6%安の6,052.85、ナスダックも0.6%安となり、史上最高値圏から押し戻された。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-1292024-116615502"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は小幅反発も上値重く、韓国株安が重し",
+     "detail": "終値は3万9,160円50銭(+0.18%)。半導体関連が弱く、政治混乱が続く韓国のKOSPIが一時3%近く下げたことも重しになった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412090976/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-10": {
+  "us": {
+   "items": [
+    {
+     "title": "午後に売りが強まりダウは4日続落",
+     "detail": "S&P500は17.94ポイント安の6,034.91、ダウは154ドル安(0.35%安)で4日続落。午前は前日終値付近だったが、午後に売りが広がった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-12102024-116656285"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "中国の景気対策期待と円安で日経平均は反発",
+     "detail": "終値は3万9,367円58銭(0.53%高)。中国共産党政治局会議が来年の財政・金融の積極姿勢を示し、景気懸念が和らいだ。円安も追い風。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412101060/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-11": {
+  "us": {
+   "items": [
+    {
+     "title": "CPIでFRBの利下げ観測、ナスダックは初の2万台",
+     "detail": "ナスダックは1.8%高の20,034で初めて2万を上回った。S&P500は0.8%高。インフレ指標がFRBの追加利下げを後押しするとの見方が広がった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-12112024-116700104"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI前の様子見で日経平均は小幅高、防衛関連が急伸",
+     "detail": "終値は3万9,372円23銭(+0.01%)。川崎重工が10%超高、IHI・三菱重工も4〜6%超高。半導体関連は軟調で、売買代金は4営業日連続で4兆円割れ。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412110854/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-12": {
+  "us": {
+   "items": [
+    {
+     "title": "経済指標とアドビ安で下落、S&P500は0.5%安",
+     "detail": "S&P500は6,051(0.5%安)、ナスダックは0.7%安。経済指標への懸念と、アドビの弱い見通しが重しになり、長期金利も上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-12122024-116742920"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株高で日経平均は4日続伸、一時4万円台",
+     "detail": "終値は3万9,849円14銭(476円高、+1.21%)。前日の米ハイテク株高で半導体関連が買われ、アドバンテストとファーストリテイリングで約154円押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412120882/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-13": {
+  "us": {
+   "items": [
+    {
+     "title": "ブロードコム急騰も指数は方向感なし",
+     "detail": "ブロードコムが決算で24%超上昇した一方、ダウは7日続落、S&P500はほぼ横ばいで取引を終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-12132024-116778489"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安と利益確定で日経平均は5日ぶり反落(0.95%安)",
+     "detail": "終値は3万9,470円44銭。ダウが6日続落した流れを受け、前日までの4日続伸の反動が出た。ファーストリテイリングと東エレクの2銘柄で約185円押し下げ。日銀短観は大企業製造業DIが+14。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412130874/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-16": {
+  "us": {
+   "items": [
+    {
+     "title": "ナスダックが最高値、ダウは8日続落",
+     "detail": "ナスダックは316ポイント高の20,243で最高値を更新。S&P500は+0.38%、ダウは110ドル安で8日続落した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/12/16/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は小幅続落、FOMC・日銀会合前の様子見",
+     "detail": "終値は3万9,457円49銭(0.03%安)。米ハイテク高を受け一時160円超高となったが、主力株の手じまい売りで上げ幅を失った。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412160791/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-17": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC前の様子見でダウは9日続落、S&P500は0.4%安",
+     "detail": "S&P500は6,050.61(0.4%安)、ダウは0.6%安で9日続落(約50年ぶりの長さ)。ナスダックは前日の最高値から小幅に反落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-12172024-116884649"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "アドバンテスト安が重しで日経平均は3日続落",
+     "detail": "終値は3万9,364円68銭(0.24%安)。日米の金融政策会合を前に様子見が強く、アドバンテストが約230円分指数を押し下げた。SBGは4%超高。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412171034/"
+     }
+    }
+   ]
+  }
+ },
  "2024-12-18": {
   "us": {
    "items": [
@@ -31,6 +255,118 @@
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202412180899/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-19": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC後の急落の翌日、小幅な値動きでダウは連敗止まる",
+     "detail": "S&P500は0.09%安の5,867、ナスダックは0.10%安。ダウは15ドル高で10日続落が止まった。前日のFOMCショックから朝方は反発したが戻りは続かなかった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(WNYT配信)",
+      "url": "https://wnyt.com/?p=791792"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀は据え置き、日経平均は5日続落(0.69%安)",
+     "detail": "終値は3万8,813円58銭。前日のFOMC後の米株急落で朝方は700円近く下げたが、日銀が政策金利0.25%を据え置き(9対1)、円安が進んで下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412191112/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-20": {
+  "us": {
+   "items": [
+    {
+     "title": "FRB警戒の売りから反発、S&P500は+1.1%",
+     "detail": "FOMCで利下げ回数の見通しが減った後の急落から反発し、S&P500は+1.1%、ダウは約500ドル高。全11セクターが上昇した(4半期の先物・オプション満期日)。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Kaal/KOB配信)",
+      "url": "https://kob.com/?p=743187"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株安で日経平均は6日続落、安値引け",
+     "detail": "終値は3万8,701円90銭(0.29%安)。前日の米SOX指数の大幅続落で半導体関連が売られ、日銀の利上げ見送りでメガバンクも下落した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412201036/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-23": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク高でS&P500は0.7%上昇、ダウ連敗は止まる",
+     "detail": "エヌビディアやブロードコムなど大型ハイテクが支え、S&P500は0.7%、ナスダックは約1%上昇した。前週の急落からの戻りが続いた。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com / Sharecast",
+      "url": "https://briefing.com/stock-market-update/archive/2024/12/23/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は7日ぶり反発、米株高とPCE鈍化が支え",
+     "detail": "終値は3万9,161円(459円高、+1.19%)。前週末の米株高と、米PCE物価指数が市場予想を下回ったことが好感され3万9,000円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4103551"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-24": {
+  "us": {
+   "items": [
+    {
+     "title": "短縮取引でハイテク株が上昇、S&P500は+1.1%",
+     "detail": "クリスマスイブの短縮取引で、アップル、アマゾン、ブロードコムなど大型ハイテクがけん引し、S&P500は6,040、ナスダックは約1.3%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Kaal TV(AP配信)",
+      "url": "https://kaaltv.com/?p=735267"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は小反落、休暇前で参加者減り見送りムード",
+     "detail": "終値は3万9,036円85銭(124円安)。クリスマス休暇で海外勢の参加が減り、様子見姿勢が強かった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412241060/"
      }
     }
    ]
