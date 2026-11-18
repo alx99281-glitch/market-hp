@@ -35,5 +35,377 @@
     }
    ]
   }
+ },
+ "2024-10-16": {
+  "us": {
+   "items": [
+    {
+     "title": "銀行決算が好調でダウ最高値",
+     "detail": "ダウは337ポイント高で終値の最高値。モルガン・スタンレーなど決算が好調だった一方、メガキャップ・ハイテクは下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-10-16/wall-street-mixed-megacap-tech-stocks-fall-banks-gain"
+     }
+    },
+    {
+     "title": "ユナイテッド航空が決算後急伸",
+     "detail": "ユナイテッド航空が決算と自社株買い発表で大幅に上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Fortune",
+      "url": "https://dc.fortune.com/2024/10/16/stock-market-today-dow-sp500-nasdaq-nvidia/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ASML下方修正で半導体株が下落",
+     "detail": "日経平均は730円25銭安の39,180円30銭(-1.83%)。オランダASMLが業績見通しを下方修正し、半導体関連株中心に売られて5営業日ぶりに反落した。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters配信(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/150558"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-17": {
+  "us": {
+   "items": [
+    {
+     "title": "小売売上高とTSMC決算でダウ最高値",
+     "detail": "S&P500は横ばい(-1.00)の5,841.47、ダウは161ポイント高で最高値。9月の小売売上高が堅調で、TSMC決算を受け半導体が戻ったが、アルファベットなどの下落が指数を抑えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/10/17/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ASML下方修正で半導体株安、続落",
+     "detail": "日経平均は269円11銭安の38,911円19銭(-0.69%)。前日にASMLが業績見通しを下方修正した影響で半導体株が売られ、39,000円を1週間ぶりに割り込んだ。TSMC決算後に一時戻したが安値引け。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/17nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-18": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が最高値、6週連続高",
+     "detail": "S&P500は0.40%高の5,864.67で、今週前半につけた最高値を上回り6週連続の週間上昇となった。アメックスの下落でダウは小幅高にとどまった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-10182024-114940134"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高を受け3日ぶり反発",
+     "detail": "日経平均は70円56銭高の38,981円75銭(+0.18%)。前日の米ダウ最高値更新を好感したが、4万円回復には至らず上値が重かった。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/?p=28939"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-21": {
+  "us": {
+   "items": [
+    {
+     "title": "米長期金利が急上昇",
+     "detail": "S&P500は0.18%安の5,853.98。10年債利回りが12.4bp上昇し4.206%となり、最高値圏からの利益確定売りが出た。ナスダックは小幅高。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-10212024-115004435"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "選挙見極めで小幅反落",
+     "detail": "日経平均は27円15銭安の38,954円60銭(-0.07%)。前週末の米株高を引き継げず、衆院選の結果を見極めたいとの様子見姿勢が強かった。",
+     "direction": "flat",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/21nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-22": {
+  "us": {
+   "items": [
+    {
+     "title": "GEエアロ急落もほぼ横ばい",
+     "detail": "S&P500は0.05%安の5,851.20とほぼ横ばいで、前日の下げを引きずり約1か月半ぶりの連日安。GEエアロスペースが9%下落し最大の重しとなった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-10222024-115040512"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ほぼ全面安で続落",
+     "detail": "日経平均は542円64銭安の38,411円96銭(-1.39%)。一時700円超下げ、プライムは値下がり1493銘柄に対し値上がり135とほぼ全面安だった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/22nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-23": {
+  "us": {
+   "items": [
+    {
+     "title": "米長期金利上昇で3日続落",
+     "detail": "S&P500は0.92%安の5,797.42、ナスダックは1.6%安、ダウは0.96%安。米国債利回りの上昇圧力が強まり、S&P500は6週間ぶりの3日続落となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-10232024-115082353"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "政治不透明感と決算前の調整で3日続落",
+     "detail": "日経平均は307円10銭安の38,104円86銭(-0.80%)。日足は11日連続の陰線となり、後場には一時3万8000円を割った。国内政治の不透明感や日米決算前のポジション調整が背景。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters配信(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/151114"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-24": {
+  "us": {
+   "items": [
+    {
+     "title": "テスラが決算で急騰",
+     "detail": "S&P500は0.21%高の5,809.86。テスラが好決算で約22%急騰した一方、IBMは売上高の未達で下落しダウは約0.3%安となった。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/10/24/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米金利低下で下げ渋り4日ぶり反発",
+     "detail": "日経平均は38円43銭高の38,143円29銭(+0.10%)。朝は米株安で392円安まで下げたが、米長期金利の低下で持ち直し、陰線の連続は11日で途切れた。選挙への警戒で上値は限られた。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters配信(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/151114"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-25": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウ下落、ナスダックは上昇",
+     "detail": "S&P500はほぼ横ばい(-1.74)の5,808.12。ダウは0.6%安、ナスダックは0.6%高とまちまちで、メガキャップや半導体が終盤に買われた。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/10/25/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "衆院選前の持ち高調整で反落",
+     "detail": "日経平均は229円37銭安の37,913円92銭(-0.60%)で3週間ぶりに3万8000円を割った。選挙前の持ち高調整の売りと151円台への円高が重しで、値下がり銘柄は約84%だった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/25nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-28": {
+  "us": {
+   "items": [
+    {
+     "title": "原油急落でエネルギー安もハイテク高",
+     "detail": "S&P500は0.27%高の5,823.52。イスラエルのイラン攻撃で原油生産が損なわれなかったとして原油が急落しエネルギー株は下げたが、大手ハイテクの上昇が補った。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-10282024-115235671"
+     }
+    },
+    {
+     "title": "巨大ハイテク決算を控えた買い",
+     "detail": "週内の大手ハイテク決算を前に買いが入ったと報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/10/28/oil-dragged-5-lower-as-dow-halts-losing-streak"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "衆院選の不透明感が後退し急反発",
+     "detail": "日経平均は691円61銭高の38,605円53銭(+1.82%)。27日の衆院選で与党が過半数割れしたが事前に織り込み済みとして買い戻しが入り、後場には800円超上げる場面もあった。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/28nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-29": {
+  "us": {
+   "items": [
+    {
+     "title": "ナスダックが最高値、ダウは下落",
+     "detail": "S&P500は0.16%高の5,832.92。ナスダックは0.78%高で終値の最高値を更新、ダウは0.36%安と指数ごとにまちまちだった。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/10/29/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "金融株高で続伸",
+     "detail": "日経平均は298円高の38,903円(+0.77%)で高値引け。銀行や保険など金融株の上昇が目立ち、トランプ氏勝利を見込んだ動きとの見方もあった。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/29nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-30": {
+  "us": {
+   "items": [
+    {
+     "title": "GDP下振れと決算まちまちで小反落",
+     "detail": "S&P500は0.33%安の5,813.67。速報GDPが予想を下回り、アルファベットやイーライリリーなど決算がまちまちで、朝の上昇を維持できなかった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://archives.lincolndailynews.com/2024/Oct/31/NEWS/business_b.shtml"
+     }
+    },
+    {
+     "title": "GDP速報が予想未達",
+     "detail": "米GDP速報が市場予想を下回ったと報じられ、株価の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-lower-following-preliminary-gdp-reading--17870018.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高で3日続伸、3万9000円台回復",
+     "detail": "日経平均は373円71銭高の39,277円39銭(+0.96%)。前日の米ハイテク高、特にエヌビディア高が半導体関連への買いを誘い、アドバンテスト、ソフトバンクG、ディスコが寄与した。",
+     "direction": "up",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/30nkgaikyou/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-31": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク決算失望で急落",
+     "detail": "S&P500は1.86%安の5,705.45、ナスダックは約2.8%安。大手ハイテクの決算を受けた売りが主導し、VIXは8月初旬以来の高水準で引けた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10312024-115368701"
+     }
+    },
+    {
+     "title": "10月は月間で下落",
+     "detail": "ダウとS&P500は4月以来の月間下落で10月を終えた。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://schaeffersresearch.com/content/ezines/2024/10/31/dow-s-p-500-log-first-monthly-loss-since-april"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀据え置きで円高、4日ぶり反落",
+     "detail": "日経平均は196円14銭安の39,081円25銭(-0.50%)。日銀が政策金利を据え置いたが会合後に円高が進み、前日の米ハイテク安も重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory 日経概況",
+      "url": "https://tbladvisory.com/31nkgaikyou/"
+     }
+    }
+   ]
+  }
  }
 }
