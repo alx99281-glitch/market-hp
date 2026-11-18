@@ -36,6 +36,154 @@
    ]
   }
  },
+ "2025-02-04": {
+  "jp": {
+   "items": [
+    {
+     "title": "関税先送りで朝高、午後は米中関税で失速",
+     "detail": "米国がカナダ・メキシコへの追加関税発動を先送りしたことを好感し、日経平均は一時600円超上昇。午後に米国の対中関税引き上げと中国の報復関税が伝わり、上げ幅が縮小した。終値は38,798円(+0.72%)。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202502040903/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "関税の1カ月猶予でハイテク株が上昇",
+     "detail": "トランプ政権が対カナダ・メキシコの25%関税を1カ月猶予したことで、前日の急変動から落ち着きを取り戻し、ナスダックは約1.4%上昇、S&P500は0.7%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(How major US stock indexes fared)",
+      "url": "https://www.valuethemarkets.com/news/how-major-us-stock-indexes-fared-tuesday-242025"
+     }
+    },
+    {
+     "title": "パランティアが決算でAI需要の強さを示し急伸",
+     "detail": "S&P500構成銘柄の値動きでパランティアが決算を受けて上昇し、ハイテク株の上げを後押しした。",
+     "direction": "up",
+     "source": {
+      "label": "Investopedia(iTiger転載)",
+      "url": "https://itiger.com/news/2509049026"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-05": {
+  "jp": {
+   "items": [
+    {
+     "title": "円高で上げ幅を失う中、トヨタ決算が下支え",
+     "detail": "米株高を受けて上昇して始まったが、為替の円高で前日比マイナス圏に転落。トヨタ自動車が今期純利益見通しを上方修正し急伸して下支えし、終値は38,831円(+0.09%)と小幅高だった。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202502071260/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが5%超上昇",
+     "detail": "スーパー・マイクロ・コンピューターがデータセンター向けサーバーの量産態勢を発表したことを受け、エヌビディアが5%超上昇して指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "Value the Markets(AP)",
+      "url": "https://www.valuethemarkets.com/news/how-major-us-stock-indexes-fared-wednesday-252025"
+     }
+    },
+    {
+     "title": "アルファベットは決算後に下落",
+     "detail": "アルファベットが決算発表後に売られたが、多くの銘柄の上昇が下落を上回り、主要指数は上昇して終えた。",
+     "direction": "down",
+     "source": {
+      "label": "Value the Markets(AP)",
+      "url": "https://www.valuethemarkets.com/news/how-major-us-stock-indexes-fared-wednesday-252025"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-06": {
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株高を受け3日続伸、39,000円台回復",
+     "detail": "前日の米国市場で半導体関連株が買われ、東京エレクトロンやアドバンテストなどが上昇。日銀審議委員の発言で円高が進み上げ幅が縮む場面もあったが、午後は先物主導で再び上昇し、終値は39,066円(+0.61%)。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/66889"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "Philip Morrisが決算好調で約11%高",
+     "detail": "Philip Morris Internationalが市場予想を上回る利益を受けて10.9%上昇し、S&P500を押し上げた最大の要因の一つとなった。",
+     "direction": "up",
+     "source": {
+      "label": "Value the Markets(AP)",
+      "url": "https://www.valuethemarkets.com/news/how-major-us-stock-indexes-fared-thursday-262025"
+     }
+    },
+    {
+     "title": "ハネウェル、フォード、クアルコムが下落",
+     "detail": "ハネウェルは5.6%下落してS&P500の大きな重しとなった。フォードとクアルコムも予想を上回る利益ながら下げた。Dowは0.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "Value the Markets(AP)",
+      "url": "https://www.valuethemarkets.com/news/how-major-us-stock-indexes-fared-thursday-262025"
+     }
+    }
+   ]
+  }
+ },
+ "2025-02-07": {
+  "jp": {
+   "items": [
+    {
+     "title": "円高と東エレの決算後安で4営業日ぶり反落",
+     "detail": "円高・ドル安で輸出関連株が売られ、東京エレクトロンが決算後に大きく下げた。夜の米雇用統計と日米首脳会談を控えて様子見も強く、終値は38,787円(-0.72%)。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202502071260/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "相互関税の発表と弱い経済指標でインフレ・関税懸念",
+     "detail": "トランプ大統領の相互関税の発表に加え、弱い雇用・消費者センチメント指標が重なり、S&P500は0.9%安、Dowは1%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "Value the Markets(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-272025-2025-02-07"
+     }
+    },
+    {
+     "title": "アマゾンが決算後に急落しナスダックを押し下げ",
+     "detail": "アマゾンが決算後に大きく下げ、ナスダックは1.4%安と主要指数で最大の下落となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(iTiger転載)",
+      "url": "https://itiger.com/news/2509106784"
+     }
+    }
+   ]
+  }
+ },
  "2025-02-10": {
   "us": {
    "items": [
