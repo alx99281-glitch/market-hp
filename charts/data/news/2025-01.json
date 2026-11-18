@@ -1,0 +1,150 @@
+{
+ "2025-01-28": {
+  "jp": {
+   "items": [
+    {
+     "title": "DeepSeekショックで半導体株売られ3日続落",
+     "detail": "終値は3万9016円87銭(前日比548円93銭安、1.39%安)。アドバンテストは9%超、ソフトバンクGは5%超、東京エレクトロンとディスコは3%超下落。一時600円超安。",
+     "direction": "down",
+     "source": {
+      "label": "TBLアドバイザリー 日経概況",
+      "url": "https://tbladvisory.com/20250128nk/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアなどハイテク株が反発",
+     "detail": "前日の中国AI新興DeepSeekを巡る急落から戻し、ナスダックは2%高、S&P500は0.9%高。エヌビディアは大幅に反発した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(InsuranceNewsNet掲載)",
+      "url": "https://insurancenewsnet.com/oarticle/stock-market-today-nvidia-and-other-tech-stocks-win-back-some-of-mondays-sharp-losses"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-29": {
+  "jp": {
+   "items": [
+    {
+     "title": "4営業日ぶりに反発",
+     "detail": "終値は3万9414円78銭(前日比397円91銭高、1.02%高)。前日の米ハイテク株の戻りが支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202501291077/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "FRBが政策金利を据え置き",
+     "detail": "政策金利を4.25〜4.50%で据え置き。9月から続いた利下げの初の休止で、株式は軟化した。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-01-29/wall-street-stocks-down-treasury-yields-fed-leaves-rates-unchanged"
+     }
+    },
+    {
+     "title": "エヌビディアが4%安",
+     "detail": "月曜の約17%安、火曜の反発に続き4%下落し、S&P500を最も押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(InsuranceNewsNet掲載)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-wednesday-1-29-2025"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-30": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株の買い戻しで続伸",
+     "detail": "大引けは3万9513円97銭(前日比99円19銭高、0.25%高)。前日の米ハイテク株安で売り先行後、アドバンテストと東京エレクトロンが日経平均を約118円押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202501301148/"
+     }
+    },
+    {
+     "title": "FOMCは利下げ見送り、声明がタカ派寄りとの見方",
+     "detail": "FOMCで利下げが見送られ、声明文がタカ派とみられたことが相場の重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202501301148/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "決算好調でダウ・S&P500・ナスダックそろって上昇",
+     "detail": "S&P500は0.5%高の6071.17。テスラ、IBM、メタ・プラットフォームズが上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ワシントン・タイムズ掲載)",
+      "url": "https://www.washingtontimes.com/news/2025/jan/30/tesla-ibm-meta-lead-wall-street-higher/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-31": {
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は3日続伸、小幅高",
+     "detail": "終値は前日比58円52銭(0.15%)高の3万9572円49銭。前日の米株高を受けた買いが先行した一方、週末前の利益確定売りで上げ幅は限られた。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー 日経概況",
+      "url": "https://tbladvisory.com/20250131nk/"
+     }
+    },
+    {
+     "title": "1月は2カ月ぶりに下落",
+     "detail": "月末値は前月末比322円05銭(0.8%)安。DeepSeek登場によるハイテク株の急落が1月相場で最も大きな材料とされた。",
+     "direction": "down",
+     "source": {
+      "label": "TBLアドバイザリー 日経概況",
+      "url": "https://tbladvisory.com/20250131nk/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "トランプ関税の実施を政権が確認",
+     "detail": "ホワイトハウスが2月1日からカナダ・メキシコに25%、中国に10%の関税を課すと表明。S&P500は一時0.8%高から反転し0.5%安で終了、全体の約75%の銘柄が下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-01-31/trump-tariff-plan-rattles-stocks-pushes-dollar-treasury-yields-higher"
+     }
+    },
+    {
+     "title": "エクソン、決算は予想超えも株価下落",
+     "detail": "エクソンモービルは10〜12月期利益が予想を上回ったが、株価は2.5%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com 引け概況",
+      "url": "https://briefing.com/stock-market-update/archive/2025/1/31/closing-summary-"
+     }
+    }
+   ]
+  }
+ }
+}
