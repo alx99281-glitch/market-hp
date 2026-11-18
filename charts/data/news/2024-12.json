@@ -35,5 +35,128 @@
     }
    ]
   }
+ },
+ "2024-12-25": {
+  "jp": {
+   "items": [
+    {
+     "title": "米休場控えの薄商いで小幅反発",
+     "detail": "米株高を受け寄り付き後は上昇したが買い材料に乏しく失速。売買代金は3兆円台で今年3番目の薄商い。植田日銀総裁の講演は従来見解の繰り返しで反応は限定的。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202412250998/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-26": {
+  "us": {
+   "items": [
+    {
+     "title": "クリスマス休場明けの薄商いでほぼ横ばい",
+     "detail": "S&P500は0.04%安の6,037.59。ハイテク・通信が弱く、ヘルスケアが堅調でウォルグリーンが5.3%高。",
+     "direction": "flat",
+     "source": {
+      "label": "Newser(AP)",
+      "url": "https://img1-azrcdn.newser.com/story/361608/tech-stock-losses-gains-for-retail-make-for-mixed-finish.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "先物の買い戻しと配当権利取りで続伸",
+     "detail": "米国休場明けの先物主導の買い戻しと、権利付き最終売買日の個人買いが寄与。終値は437円63銭高の39,568円06銭。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4106827"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-27": {
+  "us": {
+   "items": [
+    {
+     "title": "大型ハイテク売りで全セクター下落",
+     "detail": "エヌビディア、テスラ、マイクロソフトなどが下げ、S&P500は1.1%安の5,970.84、ナスダックは1.5%安。週間では3指数とも上昇。",
+     "direction": "down",
+     "source": {
+      "label": "Newser(AP)",
+      "url": "https://www.newser.com/story/361663/stocks-drop-across-the-board.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "個人の節税売り一巡と円安で約5カ月ぶりの4万円台",
+     "detail": "終値は713円10銭高の40,281円16銭。年末の受け渡しで新年入りし節税売りが一巡、新NISA枠の買いも指摘された。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202412261013/"
+     }
+    },
+    {
+     "title": "円安で輸出株、半導体値がさ株が上昇",
+     "detail": "円安でトヨタなど輸出関連が買われ、アドバンテストや東京エレクトロンが指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/66092"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-30": {
+  "us": {
+   "items": [
+    {
+     "title": "年末を控え主要3指数が約1%安",
+     "detail": "S&P500は1.1%安の5,906.94、ダウは418.48ドル安、ナスダックは1.2%安。エネルギーを除く全セクターが下落し、一般消費財が最大の下げ。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/12/30/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "大納会は4万円割れで反落",
+     "detail": "年末年始の休場を控えた手控えと4万円回復後の高値警戒感から、終値は386円62銭安の39,894円54銭。年間では19.22%上昇し年末値として35年ぶり高値。",
+     "direction": "down",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/?p=76754"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-31": {
+  "us": {
+   "items": [
+    {
+     "title": "2024年の大納会は小幅安、年末の持ち高調整",
+     "detail": "S&P500は0.4%安の5,881.63、ナスダックは0.9%安。年末の税対策売りや金利上昇、2025年の不透明感が指摘された。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/12/31/closing-summary-"
+     }
+    }
+   ]
+  }
  }
 }

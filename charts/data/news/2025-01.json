@@ -1,4 +1,188 @@
 {
+ "2025-01-02": {
+  "us": {
+   "items": [
+    {
+     "title": "年初は小幅安、テスラ下落が重荷",
+     "detail": "S&P500は0.2%安の5,868.55。テスラが6.1%下落しS&P500構成銘柄で最大の下げ。",
+     "direction": "down",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-122025-117280662"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-03": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア高などテクノロジー主導で今年初の本格反発",
+     "detail": "S&P500は1.3%高の5,942.47と約2カ月ぶりの大幅高。全11セクターが上昇し、エヌビディアは4.5%上昇。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(Xinhua)",
+      "url": "https://thestar.com.my/news/world/2025/01/04/us-stocks-close-higher"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-06": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体・大型株が主導しS&P500とナスダックが上昇",
+     "detail": "S&P500は0.6%高の5,975.38、ナスダックは1.2%高。エヌビディアが最高値を更新。ダウは小幅安。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-monday-162025-2025-01-06"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "大発会は先物主導で続落",
+     "detail": "休場中の米株軟調を受け先物に売りが出て、日経平均は587円49銭安の39,307円05銭。値下がり銘柄は約76%、大発会は3年連続の下落。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202501060914/"
+     }
+    },
+    {
+     "title": "国内長期金利の上昇",
+     "detail": "国内の長期金利が13年半ぶりの水準に上昇し、株式の割高感を意識した売りにつながった。",
+     "direction": "down",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/?p=76963"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-07": {
+  "us": {
+   "items": [
+    {
+     "title": "債券利回りが9カ月ぶり高水準、ハイテク株が下落",
+     "detail": "強い経済指標とインフレ懸念で長期金利が上昇。ISMサービス業の物価指数が60超となり、エヌビディアなど大型ハイテクが売られS&P500は1.1%安の5,909.03。",
+     "direction": "down",
+     "source": {
+      "label": "InsuranceNewsNet(AP)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-tuesday-1-7-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株高とエヌビディア期待で大幅反発",
+     "detail": "前日の米ハイテク株高を受け半導体関連が上昇し、日経平均は776円25銭高の40,083円30銭と4万円台を回復。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202501071035/"
+     }
+    },
+    {
+     "title": "円安で自動車関連も買われる",
+     "detail": "為替が円安に振れ自動車関連株が買われ、上げ幅が900円を超える場面もあった。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202501071035/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-08": {
+  "us": {
+   "items": [
+    {
+     "title": "好調な経済指標で金利警戒、ダウとS&Pは小幅高",
+     "detail": "強い経済指標でインフレ・高金利長期化の懸念が残る中、商いは低調。S&P500は0.2%高の5,918.25、ナスダックは0.1%安。",
+     "direction": "flat",
+     "source": {
+      "label": "InsuranceNewsNet(AP)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-wednesday-1-8-2025"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米長期金利上昇への警戒で反落",
+     "detail": "前日の米国株安と米金利上昇への警戒が重荷。一方でエヌビディアCEOの発言への期待が半導体株を支え、下げは0.26%にとどまった。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202501081034/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-09": {
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体株安と対中規制観測でリスクオフ",
+     "detail": "前日の米半導体関連株の軟調と、米政府が対中半導体輸出規制を強めるとの観測報道が売りを誘い、一時500円超下落。終値は375円97銭安の39,605円09銭。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202501091106/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-10": {
+  "us": {
+   "items": [
+    {
+     "title": "雇用統計が強く金利上昇、株は全面安",
+     "detail": "雇用者数が市場予想を上回り長期金利が上昇。利下げ観測が後退し、S&P500は1.5%安の5,827.04、ナスダックは1.6%安。",
+     "direction": "down",
+     "source": {
+      "label": "KSTP(AP)",
+      "url": "https://kstp.com/?p=3499661"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ファストリ急落が指数を押し下げ",
+     "detail": "前日決算のファーストリテイリングが大幅安となり、この1銘柄だけで日経平均を約328円押し下げた。終値は414円69銭安の39,190円40銭。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202501101014/"
+     }
+    },
+    {
+     "title": "米雇用統計と3連休前で買い手控え",
+     "detail": "米国市場が休場だったうえ、夜の米雇用統計と連休を控え、買いが手控えられた(ロイター報道)。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202501101014/"
+     }
+    }
+   ]
+  }
+ },
  "2025-01-13": {
   "us": {
    "items": [
