@@ -1,4 +1,19 @@
 {
+ "2024-09-02": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高・円安で朝高も利益確定",
+     "detail": "前週末の米株高と円安で朝は3万9,000円台を回復したが、利益確定売りで伸び悩み38,700円87銭(+0.14%)。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409020957/"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-03": {
   "us": {
    "items": [
@@ -82,6 +97,227 @@
    ]
   }
  },
+ "2024-09-05": {
+  "jp": {
+   "items": [
+    {
+     "title": "円高と米エヌビディア急落",
+     "detail": "ドル安・円高で自動車や機械などの輸出株が軟調。エヌビディア急落を受けて半導体関連も売られ、日経平均は390円52銭安の36,657円09銭。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409051111/"
+     }
+    },
+    {
+     "title": "押し目買いで下げ幅縮小",
+     "detail": "下げ幅が700円を超えた後は押し目買いで縮小した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409051111/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "雇用統計を控えて小動き",
+     "detail": "S&P500は0.3%安の5,503.41で3日続落。ナスダックは0.25%高と、まちまち。",
+     "direction": "flat",
+     "source": {
+      "label": "Zacks",
+      "url": "https://zacks.com/stock/news/2332022/-stock-market-news-for-sep-5-2024"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-06": {
+  "jp": {
+   "items": [
+    {
+     "title": "円高でハイテク株に売り",
+     "detail": "午後に円高が進み、ハイテク株が売られて日経平均は4日続落の36,391.47円(-0.72%)。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409061076/"
+     }
+    },
+    {
+     "title": "米雇用統計を控えた調整",
+     "detail": "前日の米ダウ反落と、夜の米雇用統計を前にした持ち高調整の売りが出た。半導体の下げが目立った。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409061076/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "8月雇用統計が予想を下回る",
+     "detail": "8月の雇用統計が予想より弱く、主要3指数がそろって下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-101-3605954"
+     }
+    },
+    {
+     "title": "半導体株が下げ主導",
+     "detail": "半導体の弱さが売りを広げ、指数は安値圏で引けた。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/weekly-wrap/archive/2024/9/6/weekly-wrap-for-september-3-2024"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-09": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安で半導体が下落",
+     "detail": "米国でハイテクが下げた流れから半導体株が下げ、一時3万5,000円台まで下落。終値36,215円75銭(-0.48%)。",
+     "direction": "down",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/09nikkei"
+     }
+    },
+    {
+     "title": "押し目買いで下げ幅縮小",
+     "detail": "割安感から押し目買いが入り、引けにかけて下げ幅を大きく縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/09nikkei"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "4日続落に歯止め",
+     "detail": "S&P500は1.2%高の5,471.05。前週の約1年半ぶりの悪い週の後で反発し、4日続落を止めた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Spectrum News)",
+      "url": "https://spectrumlocalnews.com/us/snplus/business/2024/09/09/wall-street-ends-higher-to-snap-a-4-day-losing-streak"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-10": {
+  "jp": {
+   "items": [
+    {
+     "title": "米大統領選討論会を前に様子見",
+     "detail": "トランプ氏とハリス氏の討論会を前に手控えムードが広がり、日経平均は6日続落の36,159.16円(-0.16%)。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409100951/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "OPEC+の需要見通し引き下げで原油安",
+     "detail": "OPEC+が2024・25年の需要見通しを引き下げて原油が下落し、エネルギー株が1.9%安。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-09-10/sp-500-ends-slightly-higher-banks-and-energy-weigh"
+     }
+    },
+    {
+     "title": "銀行株が安い",
+     "detail": "銀行首脳の慎重な発言で銀行株が下げた。S&P500は約0.5%高、ダウは0.23%安と、まちまち。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-09-10/sp-500-ends-slightly-higher-banks-and-energy-weigh"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-11": {
+  "jp": {
+   "items": [
+    {
+     "title": "急速な円高",
+     "detail": "ドル円が141円を割り込み140円台まで円高が進んで売りが加速し、日経平均は539円安の35,619円。7日続落で36,000円を割った。",
+     "direction": "down",
+     "source": {
+      "label": "ゲンダイGO",
+      "url": "https://gentosha-go.com/articles/-/63520"
+     }
+    },
+    {
+     "title": "米大統領選の討論会でハリス優位の見方",
+     "detail": "日本時間11日の討論会でハリス氏優位との見方が広がり、トランプ氏の劣勢が逆風との思惑から先物売りが強まった。",
+     "direction": "down",
+     "source": {
+      "label": "ゲンダイGO",
+      "url": "https://gentosha-go.com/articles/-/63520"
+     }
+    },
+    {
+     "title": "米CPIを控えたポジション調整",
+     "detail": "日銀審議委員の講演も伝わり、夜の米CPIを前に持ち高調整が出た。",
+     "direction": "down",
+     "source": {
+      "label": "ゲンダイGO",
+      "url": "https://gentosha-go.com/articles/-/63520"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "朝の急落から切り返す",
+     "detail": "朝は1.6%下げたS&P500が1.1%高の5,554.13で終え、ナスダックは2.2%上昇。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2024/9/11/closing-summary-"
+     }
+    },
+    {
+     "title": "エヌビディアが急伸",
+     "detail": "エヌビディアが約8%上昇し、半導体とメガテックがけん引した。",
+     "direction": "up",
+     "source": {
+      "label": "Newser(AP)",
+      "url": "https://img1-azrcdn.newser.com/story/356097/stocks-roar-back-from-morning-wipeout.html"
+     }
+    },
+    {
+     "title": "米CPI(8月)が朝に発表",
+     "detail": "8月の消費者物価統計が朝に出た。ファーストソーラーは約14〜15%上昇。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/9/11/treasuries-settle-slightly-lower-after-cpi-data"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-12": {
   "jp": {
    "items": [
@@ -119,6 +355,141 @@
    ]
   }
  },
+ "2024-09-13": {
+  "jp": {
+   "items": [
+    {
+     "title": "円高で朝高から反落",
+     "detail": "前日の米株高で買いが先行したが、円高が嫌気されて36,581.76円(-0.68%)。自動車株が売られ半導体株は堅調。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4021285"
+     }
+    },
+    {
+     "title": "3連休前の持ち高調整",
+     "detail": "3連休を前に一部で持ち高調整の売りが出た。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4021285"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "今年最高の週で終える",
+     "detail": "S&P500は+0.5%。週間ではS&P500が約4%、ナスダックが5.9%上昇し、いずれも今年最高の週。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://schaeffersresearch.com/content/ezines/2024/09/13/s-p-500-nasdaq-score-perfect-week-best-of-2024"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-16": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが最高値、ハイテクは軟調",
+     "detail": "ダウは0.6%高の41,622.08で最高値。アップルやエヌビディアなどが下げ、S&P500は0.1%高、ナスダックは0.5%安。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-9162024-113738705"
+     }
+    },
+    {
+     "title": "利下げ決定会合を前にした持ち高調整",
+     "detail": "FOMCでの利下げ(コロナ禍以来の利下げ)を見込んだ動きが中心だった。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/9/16/closing-summary-"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-17": {
+  "jp": {
+   "items": [
+    {
+     "title": "急速な円高",
+     "detail": "日米金利差縮小の思惑でドル円が139円台まで円高となり、輸出関連株に売り。日経平均は378円54銭安の36,203円22銭。",
+     "direction": "down",
+     "source": {
+      "label": "ゲンダイGO/ほか市況",
+      "url": "https://gentosha-go.com/articles/-/63630"
+     }
+    },
+    {
+     "title": "米ハイテク株安を受け半導体が軟調",
+     "detail": "前日の米国で半導体関連株が売られ、東京でも半導体関連が軟調。下げ幅は一時700円超(安値は753円安)だったが、後場に押し目買いで縮小した。",
+     "direction": "down",
+     "source": {
+      "label": "ゲンダイGO/ほか市況",
+      "url": "https://gentosha-go.com/articles/-/63630"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "小売売上高が堅調、FOMC待ち",
+     "detail": "米8月小売売上高が予想外に増え、株価を支える一方で米金利は反発。S&P500はほぼ横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-mixed-as-investors-turn-to-fed-decision--17515906.html"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-18": {
+  "jp": {
+   "items": [
+    {
+     "title": "円高一服で輸出株に買い",
+     "detail": "円高が一服し、輸出関連株に買いが入って日経平均は176.95円高の36,380.17円。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409180934/"
+     }
+    },
+    {
+     "title": "FOMC結果を控え上値は限定",
+     "detail": "米FOMCの結果を控え、買いは手控えられた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202409180934/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "FRBが0.5ポイントの大幅利下げ",
+     "detail": "FRBが通常より大きい利下げで景気後退回避に動いた後、S&P500は0.3%安の5,618.26。11業種中9業種が下落。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/9/18/closing-summary-"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-19": {
   "us": {
    "items": [
@@ -142,6 +513,76 @@
      "source": {
       "label": "tbladvisory(日経概況)",
       "url": "https://tbladvisory.com/20nikkei/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-20": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高を受け3日続伸",
+     "detail": "前日の米利下げ後の株高を受け、日経平均は一時800円超上げ、終値は37,723円91銭(+1.53%)。",
+     "direction": "up",
+     "source": {
+      "label": "現代ビジネス系(ゲンダイGO)",
+      "url": "https://gentosha-go.com/articles/-/63709"
+     }
+    },
+    {
+     "title": "日銀会合を控え上げ幅縮小",
+     "detail": "日銀の金融政策決定会合(結果は現状維持)を前に様子見が広がり、3万8,000円台を目前に上げ幅を縮めた。",
+     "direction": "flat",
+     "source": {
+      "label": "現代ビジネス系(ゲンダイGO)",
+      "url": "https://gentosha-go.com/articles/-/63709"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "FedExが急落",
+     "detail": "FedExが弱い四半期決算で約14%下落し、指数の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Toledo Blade)",
+      "url": "https://toledoblade.com/business/stock-market/2024/09/20/stock-market-fedex-slumps-nike-jumps-wall-street-record-setting-week-mixed/stories/20240920124"
+     }
+    },
+    {
+     "title": "ナイキは新CEO発表で上昇",
+     "detail": "ナイキが新CEOを発表して上昇。ダウは最高値を更新したがS&P500は0.2%安で週間では上昇。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(Toledo Blade)",
+      "url": "https://toledoblade.com/business/stock-market/2024/09/20/stock-market-fedex-slumps-nike-jumps-wall-street-record-setting-week-mixed/stories/20240920124"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-23": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が最高値を更新",
+     "detail": "FRB高官の利下げ支持発言を受け、S&P500は0.3%高の5,718.57で最高値を更新。値動きは小さかった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-09-23/wall-st-ends-slightly-higher-after-fed-policymakers-back-rate-cuts"
+     }
+    },
+    {
+     "title": "米PMIが予想を下回る",
+     "detail": "月曜朝の米景況指数は製造業の低迷で景気拡大が予想より鈍いことを示した。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-09-23/wall-st-ends-slightly-higher-after-fed-policymakers-back-rate-cuts"
      }
     }
    ]
