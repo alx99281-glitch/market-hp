@@ -90,5 +90,225 @@
     }
    ]
   }
+ },
+ "2024-11-20": {
+  "us": {
+   "items": [
+    {
+     "title": "まちまちで小動き、エヌビディア決算待ち",
+     "detail": "ダウは約0.3%高の43,408.47、S&P500はほぼ変わらず、ナスダックは約0.1%安。地政学的な緊張とエヌビディアの決算発表を控えて方向感に乏しい展開だった。",
+     "direction": "flat",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-mixed-amid-geopolitical-tensions-nvidia-earnings--18130350.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算前の様子見で日経平均は小幅続落",
+     "detail": "終値は38,352.34円(62.09円安)。決算発表を前に様子見ムードが強く、東証プライムの売買代金は3兆円台と低調だった。",
+     "direction": "flat",
+     "source": {
+      "label": "ゼントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/65127"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-21": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウ1.1%高、小型株も上昇",
+     "detail": "ダウは461.88ドル(1.1%)高の43,870.35、S&P500は0.5%高の5,948.71、ナスダックは0.1%未満の上昇、ラッセル2000は1.7%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11212024-116110990"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算後の時間外安で日経平均は続落",
+     "detail": "終値は38,026.17円(326.17円安)。エヌビディア決算は予想を上回ったが時間外で株価が下がり、半導体や電気機器などハイテク株が売られた。一時400円超下げ3万8000円を割った。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(SBBIT)",
+      "url": "https://www.sbbit.jp/article/refers/153002"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-22": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが最高値、週間でも上昇",
+     "detail": "ダウは0.97%高の44,296.51で最高値、S&P500は0.35%高の5,969.34、ナスダックは0.16%高。景況感の指標を受けた買いで、5日連続高となり週間でも上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-11222024-116148134"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は3日ぶり反発、エヌビディア決算通過で半導体買い戻し",
+     "detail": "終値は38,283.85円(257.68円高、0.68%上昇)。前日の米ダウ上昇とエヌビディア決算の無難な通過で半導体株に買い戻しが入ったが、ショートカバーの域を出ず上値は限られた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202411221015/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-25": {
+  "us": {
+   "items": [
+    {
+     "title": "財務長官人事で金利低下、ダウが最高値",
+     "detail": "ダウは1%高の44,736.50で最高値、S&P500は0.3%高の5,987.37、ナスダックは0.3%高。トランプ氏の財務長官指名で債券利回りの上昇懸念が和らぎ、不動産株などが買われた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-11252024-116215137"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高とベッセント氏指名を好感し日経平均は大幅続伸",
+     "detail": "終値は38,780.14円(496.29円高、1.30%上昇)。前週末の米株高と、次期財務長官にベッセント氏が指名され政策への過度な警戒が和らいだことが買い材料。MSCI入れ替えで売買代金は6兆5076億円に膨らんだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202411250922/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-26": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500とダウが最高値、トランプ氏の関税発言をこなす",
+     "detail": "S&P500は0.57%高の6,021.63、ダウは0.28%高の44,860.31でともに最高値、ナスダックは0.6%高。トランプ次期大統領の関税の発表があったが、株価は上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-11262024-116254670"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ氏の関税発言と円高で日経平均は反落",
+     "detail": "終値は38,442.00円(338.14円安、0.87%下落)。次期米大統領の関税に関する考えが伝わり主力株に利益確定売りが出て、円高も売りを促した。一時760円超下げたが、配当再投資などで終盤に戻した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202411261094/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-27": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株安で下落、S&P500は連騰が7日で止まる",
+     "detail": "S&P500は0.38%安の5,998.74、ダウは0.31%安、ナスダックは0.60%安。エヌビディア、マイクロソフト、ブロードコムの下落が重しとなり、粘着質なインフレでFRBが利下げに慎重になるとの懸念も出た。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-11272024-116288622"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ次期政権の関税警戒と円高で日経平均は続落",
+     "detail": "終値は38,134.97円(307.03円安、0.80%下落)。関税引き上げへの警戒と円高で自動車など輸出株が売られ、米感謝祭休場前のポジション調整の売りも出た。",
+     "direction": "down",
+     "source": {
+      "label": "ゼントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/65272"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-28": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株の買い戻しで日経平均は3日ぶり反発",
+     "detail": "終値は38,349.06円(214.09円高、0.56%上昇)。米政権による対中半導体規制への悲観的な見方が後退し、東京エレクトロンやTDK、ソフトバンクGなど値がさ株が買い直された。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202411281005/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-11-29": {
+  "us": {
+   "items": [
+    {
+     "title": "短縮取引のブラックフライデーでS&P500・ダウが最高値",
+     "detail": "S&P500は0.6%高の6,032.38、ダウは0.4%高の44,910.65でともに最高値、ナスダックは0.8%高。13時終了の短縮取引で、メーシーズやベストバイなど小売株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "Tiger Brokers(S&P 500 Gains and Losses)",
+      "url": "https://www.itiger.com/news/2487948145"
+     }
+    },
+    {
+     "title": "11月はダウが7.5%高、主要指数が大幅上昇",
+     "detail": "11月の月間でダウは7.5%上昇、S&P500とナスダックも5〜6%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Tiger Brokers(S&P 500 Gains and Losses)",
+      "url": "https://www.itiger.com/news/2487948145"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は円高と前日の米株安で下落、押し目買いで下げ幅縮小",
+     "detail": "終値は38,208.03円(141.03円安)。前日の米株安と円高が重荷となり、一時3万8000円を割ったが押し目買いで戻した。東京エレクトロンとソフトバンクGで約64円押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "ゼントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/65345"
+     }
+    }
+   ]
+  }
  }
 }

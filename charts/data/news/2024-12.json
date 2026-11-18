@@ -1,4 +1,161 @@
 {
+ "2024-12-02": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク主導でS&P500・ナスダックが最高値、ダウは小幅安",
+     "detail": "S&P500は0.24%高の6,047.15、ナスダックは0.97%高の19,403.95でともに最高値を更新。ダウは0.29%安の44,782.00。VIXは7月中旬以来の低水準となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-1222024-116386993"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は反発、円安と年金運用方針が下支え",
+     "detail": "終値は38,513.02円(304.99円高、0.80%上昇)。円安の進行や年金運用目標の引き上げ方針が伝わったことなどが支えとなり、アドバンテスト、TDK、東京エレクトロンが指数を押し上げた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412020968/"
+     }
+    },
+    {
+     "title": "日銀の追加利上げ観測で金融株が買われる",
+     "detail": "銀行や生保などの金融株が、日銀の追加利上げ観測を背景に買われた。",
+     "direction": "up",
+     "source": {
+      "label": "ゼントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/65375"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-03": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500とナスダックが2日連続で最高値、ダウは小幅安",
+     "detail": "S&P500は0.05%高で年55回目の最高値、ナスダックは0.4%高、ダウは0.17%安。ハイテクと通信株が指数を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-1232024-116428158"
+     }
+    },
+    {
+     "title": "USスチールが急落",
+     "detail": "トランプ次期大統領が日本製鉄によるUSスチール買収を阻止する考えを示し、USスチール株が急落した。",
+     "direction": "down",
+     "source": {
+      "label": "Tiger Brokers(Reuters系)",
+      "url": "https://itiger.com/news/2488976021"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株が急伸、日経平均は735円高で3万9000円台回復",
+     "detail": "終値は39,248.86円(735.84円高)で約3週間ぶりに3万9000円台を回復。前日の米ナスダック最高値と半導体指数の上昇、東京エレクトロンの米エンティティー・リスト除外が買い材料となった。",
+     "direction": "up",
+     "source": {
+      "label": "ゼントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/65393"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-04": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが初の4万5000ドル台、S&P500・ナスダックも最高値",
+     "detail": "ダウは0.7%高の45,014.04で初めて45,000ドル超え、S&P500は0.6%高の6,086.49、ナスダックは1.3%高。ハイテク各社がAIブームの恩恵を語り買いが広がった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-1242024-116464269"
+     }
+    },
+    {
+     "title": "セールスフォースが約11%急騰",
+     "detail": "セールスフォースの株価が約11%上昇し、S&P500とダウで最大の上昇率となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-1242024-116464269"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は小幅3日続伸、日銀の利上げ見送り観測で銀行株は軟調",
+     "detail": "終値は39,276.39円(27.53円高)。小売関連が堅調で円安も支えとなったが、日銀が12月会合で追加利上げを見送る可能性が報じられ銀行株は弱かった。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(SBBIT)",
+      "url": "https://www.sbbit.jp/article/refers/153818"
+     }
+    }
+   ]
+  }
+ },
+ "2024-12-05": {
+  "us": {
+   "items": [
+    {
+     "title": "最高値から小幅反落、雇用統計を前に様子見",
+     "detail": "ダウは0.6%安の44,765.71、S&P500は0.2%安の6,075.11、ナスダックは0.2%安。前日に最高値を付けた後で、翌日の雇用統計を控えた小幅な調整となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-1252024-116503249"
+     }
+    },
+    {
+     "title": "シノプシスが中国規制の影響で急落",
+     "detail": "S&P500構成銘柄のシノプシスが、中国向け規制が見通しに響くとの見方で下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Tiger Brokers(Reuters系)",
+      "url": "https://itiger.com/news/2489193419"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均は4日続伸、利益確定売りで上値重い",
+     "detail": "終値は39,395.60円(119.21円高)。前日の米株高で買いが先行したが、日銀の12月会合での追加利上げ観測が揺れる中、後場は主力株に利益確定売りが出た。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202412051283/"
+     }
+    },
+    {
+     "title": "日銀審議委員の発言で円安、日経平均は一時買い直し",
+     "detail": "日銀の中村審議委員の発言を受けて円安が進み、日経平均は一時買い直されたが、後場は勢いが続かなかった。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(SBBIT)",
+      "url": "https://www.sbbit.jp/article/refers/153914"
+     }
+    }
+   ]
+  }
+ },
  "2024-12-06": {
   "us": {
    "items": [
