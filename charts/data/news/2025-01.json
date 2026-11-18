@@ -1,4 +1,394 @@
 {
+ "2025-01-13": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク安と長期金利高止まり、エネルギー株が支え",
+     "detail": "エヌビディアなど大手ハイテクが下げた一方、石油・ガス株が上昇しS&P500は0.2%高の5,836.22と小幅高。ダウは358ドル高、ナスダックは小幅安。",
+     "direction": "flat",
+     "source": {
+      "label": "InsuranceNewsNet(AP)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-monday-1-13-2025"
+     }
+    },
+    {
+     "title": "モデルナが来年の売上見通しで急落",
+     "detail": "来年の売上高見通しが市場予想に届かずモデルナが約16〜19%下落し、S&P500最大の下げ。",
+     "direction": "down",
+     "source": {
+      "label": "Newser(AP)",
+      "url": "https://img1-azrcdn.newser.com/story/362423/big-tech-stocks-drop-oil-companies-rise.html"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-14": {
+  "jp": {
+   "items": [
+    {
+     "title": "米のAI半導体輸出規制案で半導体株が急落",
+     "detail": "米政府が13日発表したAI向け先端半導体の輸出規制見直し案を受けエヌビディアなど米半導体株が下落。アドバンテストが9%超安となり、日経平均は716円10銭安の38,474円30銭と4日続落。",
+     "direction": "down",
+     "source": {
+      "label": "OANDA証券 市況",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_937012_202501141942/"
+     }
+    },
+    {
+     "title": "安川電機の下方修正と日銀利上げ観測",
+     "detail": "安川電機の業績見通し下方修正や日銀の利上げ観測も重なって売りが膨らんだ。",
+     "direction": "down",
+     "source": {
+      "label": "ゲンロン 日本株概況",
+      "url": "https://gentosha-go.com/articles/-/66279"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "卸売物価が予想下回るも上値は重い",
+     "detail": "12月の卸売物価(PPI)は前月比0.2%上昇と予想を下回り、コアは横ばい。寄り付きは上昇したが、場中に伸び悩み、S&P500は小幅高で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/1/14/stocks-climb-after-cool-ppi-numbers"
+     }
+    },
+    {
+     "title": "翌日のCPI発表待ちで慎重",
+     "detail": "10年債利回りは高水準で、翌日のCPIを控えて様子見姿勢が強かった。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2025-01-14/bond-yields-dip-stocks-nearly-flat-focus-inflation-trump"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-15": {
+  "jp": {
+   "items": [
+    {
+     "title": "米半導体規制報道で午後にマイナス転落、5日続落",
+     "detail": "寄り付きは上昇したが、午後に米国の半導体規制を巡る報道で半導体関連株が売られ、日経平均は29円72銭安の38,444円58銭と5日続落。当月の安値、2024年11月末以来の安値水準。",
+     "direction": "down",
+     "source": {
+      "label": "OANDA証券 市況",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_937232_202501151938/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "12月CPIが予想を下回り急伸",
+     "detail": "12月の消費者物価でコア指数が予想の3.3%を下回り、利下げ期待が回復。長期金利は約4.65%へ低下し、S&P500は1.8%高の5,949.91と大統領選後で最大の上げ。",
+     "direction": "up",
+     "source": {
+      "label": "Nasdaq.com(Barchart)",
+      "url": "https://www.nasdaq.com/articles/stocks-soar-bond-yields-fall-fed-friendly-us-cpi-report"
+     }
+    },
+    {
+     "title": "JPモルガン・ゴールドマンなど大手銀の好決算",
+     "detail": "大手銀の好決算も追い風となり金融株が上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drift-higher-with-cpi-data-earnings-on-tap-3813085"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-16": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高を引き継ぐも上げ幅縮小",
+     "detail": "前日の米株市場の上昇を引き継いで一時500円近く上げたが買い一巡後に伸び悩み、日経平均は128円02銭高の38,572円60銭。",
+     "direction": "up",
+     "source": {
+      "label": "ゲンロン 日本株概況",
+      "url": "https://gentosha-go.com/articles/-/66339"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "決算が分かれユナイテッドヘルスが急落",
+     "detail": "ユナイテッドヘルスが決算の見劣りで約6%下落し最大の下げ。モルガン・スタンレーは好決算で4%上昇。S&P500は0.2%安の5,937.34。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/1/16/closing-summary-"
+     }
+    },
+    {
+     "title": "ハイテク安でナスダック下落",
+     "detail": "ビッグテックの弱さが重しとなり、ナスダックは0.9%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/weakness-big-tech-drags-stocks-lower"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-17": {
+  "jp": {
+   "items": [
+    {
+     "title": "就任式前のリスク回避で小反落",
+     "detail": "20日のトランプ氏の大統領就任式を控えて持ち高調整の売りが出て、一時500円超安。午後に下げ幅を縮め、日経平均は121円14銭安の38,451円46銭。",
+     "direction": "down",
+     "source": {
+      "label": "LIMO",
+      "url": "https://limo.media/articles/-/75108"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "利下げ期待とインテル買収観測で上昇",
+     "detail": "インフレ鈍化で利下げ期待が支えとなり、S&P500は1%高の5,996.66。トランプ当選後で最高の週となった。",
+     "direction": "up",
+     "source": {
+      "label": "Nashua Telegraph(AP)",
+      "url": "https://www.nashuatelegraph.com/news/business/2025/01/17/stock-market-today-wall-street-drifts-lower-as-momentum-slows-for-us-stocks/"
+     }
+    },
+    {
+     "title": "インテルが買収観測で9%超高",
+     "detail": "インテルが買収対象になり得るとの報道で9.3%上昇し、S&P500の上昇率トップだった。",
+     "direction": "up",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2398777/stock-market-news-for-jan-17-2025"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-20": {
+  "jp": {
+   "items": [
+    {
+     "title": "前週末の米株高で買い戻し、就任式前で上値は限定",
+     "detail": "前週末の欧米株高を受けて買い戻しが優勢となり、日経平均は451円04銭高の38,902円50銭。米大統領就任式を控え上値追いは限られ、売買代金は3兆3,768億円と低調。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202501200900/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-21": {
+  "jp": {
+   "items": [
+    {
+     "title": "トランプ就任初日、関税報道で乱高下",
+     "detail": "就任初日の大統領令に関税引き上げが含まれないとの報道で朝方は上昇したが、午後に関税懸念が再燃して上げ幅を縮小。日経平均は125円48銭高の39,027円98銭。",
+     "direction": "up",
+     "source": {
+      "label": "株探 大引け",
+      "url": "https://s.kabutan.jp/news/n202501210954/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "トランプ氏の関税発言が想定より穏やかと受け止められる",
+     "detail": "トランプ氏がカナダ・メキシコへの25%関税を2月1日から見込むと述べたが、市場は想定より穏当と受け止めて株価は上昇。S&P500は0.88%高。",
+     "direction": "up",
+     "source": {
+      "label": "InsuranceNewsNet(AP)",
+      "url": "https://insurancenewsnet.com/oarticle/stock-market-today-netflix-and-ai-excitement-send-wall-street-higher"
+     }
+    },
+    {
+     "title": "ネットフリックスなどハイテクが上昇",
+     "detail": "ネットフリックス、オラクルなどハイテク株が指数を押し上げ、S&P500は場中に最高値をつけた。",
+     "direction": "up",
+     "source": {
+      "label": "Pique Newsmagazine(AP)",
+      "url": "https://piquenewsmagazine.com/the-mix/stock-market-today-netflix-and-ai-excitement-send-wall-street-higher-10112415"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-22": {
+  "jp": {
+   "items": [
+    {
+     "title": "スターゲート計画と米株高でソフトバンクG急騰",
+     "detail": "トランプ大統領がソフトバンクG、OpenAI、オラクルによる5000億ドル規模のAIインフラ投資計画を発表。ソフトバンクGは日経平均を193円押し上げ、半導体株も上昇し日経平均は618円高の39,646円25銭。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー 日経概況",
+      "url": "https://tbladvisory.com/20250122nknew/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ネットフリックス決算とAI関連株の上昇",
+     "detail": "ネットフリックスの好決算とAI関連株の上昇でハイテクが主導し、S&P500は0.6%高の6,086.37と最高値の手前で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-up-after-trumpinduced-wall-st-gains-netflix-soars-on-strong-q4-3823509"
+     }
+    },
+    {
+     "title": "スターゲートAI計画が発表",
+     "detail": "OpenAI、オラクル、ソフトバンクGなどが最大5000億ドルをAI基盤に投じる計画を発表し、オラクル株が急伸した。",
+     "direction": "up",
+     "source": {
+      "label": "MarketPulse",
+      "url": "https://www.marketpulse.com/markets/sp-500-dow-jones-djia-update-us-indexes-continue-advance-on-trump-ai-push/"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-23": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高を受けハイテク中心に4日続伸",
+     "detail": "前日の米株高を受けソフトバンクGなど値がさハイテク株に買いが入り、日経平均は312円62銭高の39,958円87銭。AIインフラ投資計画も材料視された。翌日の日銀会合を控え利上げは織り込み済みとみられた。",
+     "direction": "up",
+     "source": {
+      "label": "TBLアドバイザリー 日経概況",
+      "url": "https://tbladvisory.com/20250123nk/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が最高値を更新",
+     "detail": "決算や、トランプ大統領の発言を見極めるなかS&P500が0.5%高の6,118.71で終値の最高値を更新。ダウは0.9%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Lincoln Daily News掲載)",
+      "url": "https://archives.lincolndailynews.com/2025/Jan/24/NEWS/business_a.shtml"
+     }
+    },
+    {
+     "title": "GEエアロスペースが好見通しで上昇",
+     "detail": "2025年の利益見通しが市場予想を上回り、GEエアロスペース株が上昇して指数を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "FXEmpire",
+      "url": "https://fxempire.com/forecasts/article/s-ge-aerospace-soars-1492489"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-24": {
+  "jp": {
+   "items": [
+    {
+     "title": "日銀が0.5%に利上げ、午後に売り優勢",
+     "detail": "日銀が政策金利を0.25%から0.5%へ引き上げ、長期金利上昇と円高で午後にマイナス圏へ。ソフトバンクGやソニーGが下落し、日経平均は26円89銭安の39,931円98銭と5日ぶりに反落した。",
+     "direction": "down",
+     "source": {
+      "label": "LIMO",
+      "url": "https://limo.media/articles/-/75723"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "消費者心理悪化・民間景況の鈍化で小反落",
+     "detail": "消費者マインドが予想より弱く、民間部門の成長も9カ月ぶりの低水準に鈍化。S&P500は0.3%安の6,101.24と、前日の最高値から小幅に下げた。週間では上昇。",
+     "direction": "down",
+     "source": {
+      "label": "Nashua Telegraph(AP)",
+      "url": "https://www.nashuatelegraph.com/news/business/2025/01/25/stock-market-today-wall-street-edges-back-from-its-record/"
+     }
+    },
+    {
+     "title": "メタが巨額設備投資計画で堅調",
+     "detail": "メタが2025年に600〜650億ドルの設備投資を行う計画を示し、他の銘柄に対して堅調だった。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2025/1/24/closing-stock-market-summary"
+     }
+    }
+   ]
+  }
+ },
+ "2025-01-27": {
+  "jp": {
+   "items": [
+    {
+     "title": "DeepSeekショックで半導体・電線株が急落",
+     "detail": "中国の新興AI企業が低コストで高性能なAIモデルを開発したと報じられ、AI向け半導体の需要減速懸念からフジクラや古河電工など電線株が2桁下落。日経平均は366円安の39,565円80銭。",
+     "direction": "down",
+     "source": {
+      "label": "OANDA証券 市況",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_938956_202501271937/"
+     }
+    },
+    {
+     "title": "TOPIXは小幅高、物色は広がる",
+     "detail": "東証プライムは約8割の銘柄が上昇し、TOPIXは0.26%高の2,758.07。値がさ株主導で日経平均だけが下落した。",
+     "direction": "flat",
+     "source": {
+      "label": "LIMO",
+      "url": "https://limo.media/articles/-/75748"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "DeepSeekショックでハイテク株が急落、エヌビディア約17%安",
+     "detail": "中国の競合AIモデルがAI業界の優位を脅かすとの見方でナスダックが大幅安。エヌビディアは約17%下げ時価総額が5000億ドル超消失、ブロードコムも急落した。S&P500は1.5%安の6,012.28。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC7掲載)",
+      "url": "https://abc7.com/15840649"
+     }
+    },
+    {
+     "title": "ダウは小幅高、債券に資金流入",
+     "detail": "大半の銘柄は上昇しダウは上昇。10年債利回りは4.62%から4.54%へ低下した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Yahoo Finance掲載)",
+      "url": "https://finance.yahoo.com/news/asia-shares-mixed-us-tech-035042922.html"
+     }
+    }
+   ]
+  }
+ },
  "2025-01-28": {
   "jp": {
    "items": [
