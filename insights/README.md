@@ -23,7 +23,12 @@ python insights/src/build_page.py        # output/ を生成
 
 ### データが古いとき
 
-`manifest.json` の `last_date` が期待する取引日より古ければ、5分ごとに `market-data` を取り直して最大30分待つ(`git fetch origin market-data` → 展開し直す)。それでも古ければ公開せず、報告して終了する(Yahoo側の未更新や Actions の遅延のため)。
+GitHub Actions の定期実行(cron)は大幅に遅れることがある(2026年11月には6〜10時間遅れ、締め切りに間に合わなかった)。そのため、**分析の視点・日本アジア版とも、データを展開したら最初に鮮度を確かめ、古ければ自分で取得を起動する**。
+
+1. `git log -1 --format=%ci FETCH_HEAD`(market-data の最終コミット時刻)を見る。分析の視点は直近の 21:00 UTC 以降、日本アジア版はその日の 07:00 UTC 以降のコミットでなければ古い。`manifest.json` の `last_date` も確かめる。
+2. 古ければ、GitHub のツールで `insights-data.yml` を起動する(ToolSearch で `mcp__github__actions_run_trigger` を読み込み、method `run_workflow`、owner `alx99281-glitch`、repo `market-hp`、workflow_id `insights-data.yml`、ref `main`)。手動起動は通常すぐ始まり、2〜3分で market-data に反映される。
+3. 起動後は1分ごとに `git fetch origin market-data` で新しいコミットを待つ(最大15分)。来たら展開し直す。
+4. 起動できない、または15分待っても来なければ、5分ごとに取り直してさらに最大30分待つ。それでも古ければ公開せず、報告して終了する。
 
 ### マーケットチャートの「日々の材料」
 
