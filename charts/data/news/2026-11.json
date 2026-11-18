@@ -403,8 +403,17 @@
  },
  "2026-11-16": {
   "us": {
-   "items": [],
-   "note": "報道を確認できず"
+   "items": [
+    {
+     "title": "エヌビディア主導でハイテク株安、S&P500は3日続落",
+     "detail": "S&P500は-1.9%、ナスダックは-2.5%、ダウは-1.4%。半導体ETF(SMH)は-5.1%。",
+     "direction": "down",
+     "source": {
+      "label": "La Nación(AP配信、報道)",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/"
+     }
+    }
+   ]
   },
   "jp": {
    "items": [],
@@ -417,8 +426,35 @@
    "note": "報道を確認できず"
   },
   "us": {
-   "items": [],
-   "note": "報道を確認できず"
+   "items": [
+    {
+     "title": "エヌビディア決算を前にダウ約850ドル安、全業種が下落",
+     "detail": "S&P500は-1.03%、ダウは-1.64%。S&P500採用銘柄の値上がりは14.5%にとどまり、生活必需品やヘルスケアも下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo Finance(報道)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+     }
+    },
+    {
+     "title": "TSMCが-3.7%、決算前に半導体で警戒",
+     "detail": "個別の材料は報じられておらず、エヌビディア決算前の半導体全体の警戒と結び付けられた。",
+     "direction": "down",
+     "source": {
+      "label": "24/7 Wall St.(報道)",
+      "url": "https://247wallst.com/investing/etf/2026/11/17/tsmc-is-sliding-before-nvidia-reports-your-chip-etf-is-taking-the-hit/"
+     }
+    },
+    {
+     "title": "引け後にエヌビディアが予想超えの決算と見通し、時間外で約3%高",
+     "detail": "売上高1,158億ドル、第4四半期見通し約1,300億ドルと報じられ、株価指数先物も上昇した(報道値)。",
+     "direction": "up",
+     "source": {
+      "label": "CNBC(報道)",
+      "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+     }
+    }
+   ]
   }
  },
  "2026-11-18": {
