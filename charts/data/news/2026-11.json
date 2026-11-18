@@ -463,8 +463,35 @@
    "note": "報道を確認できず"
   },
   "us": {
-   "items": [],
-   "note": "報道を確認できず"
+   "items": [
+    {
+     "title": "エヌビディアは好決算でも上げを失い-2.9%、5日続落",
+     "detail": "予想を上回る決算と見通し(報道)で寄り付きは+2.4%だったが、引けは-2.89%。経営体制への不透明感が重荷と報じられた。S&P500は5日続落。",
+     "direction": "down",
+     "source": {
+      "label": "CNBC(報道)",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
+     }
+    },
+    {
+     "title": "FOMC議事要旨で追加利上げを示唆、ダウは-1.11%",
+     "detail": "ほぼ全員が追加利上げを適切とみて、0.25%超の利上げの検討にも触れたと報じられた。AIインフラ建設をインフレリスクに挙げた。",
+     "direction": "down",
+     "source": {
+      "label": "CNBC(報道)",
+      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+     }
+    },
+    {
+     "title": "ユナイテッドヘルスなど保険株が規則案で下落",
+     "detail": "メディケアの不正対策の規則案を受け、ヘルスケア株が下げ、ダウの重荷になったと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "TipRanks(報道)",
+      "url": "https://www.tipranks.com/news/healthcare-stocks-unitedhealth-unh-humana-hum-cigna-ci-and-others-fall-on-proposed-crush-rule"
+     }
+    }
+   ]
   }
  }
 }

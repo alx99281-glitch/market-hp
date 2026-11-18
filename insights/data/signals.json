@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T10:52+00:00",
+ "generated_at": "2026-11-18T22:18+00:00",
  "intraday_jp": {
   "日経225ETF": {
    "ticker": "1321.T",
@@ -332,7 +332,7 @@
  },
  "dispersion": {
   "start": "1999-02-02",
-  "end": "2026-11-17",
+  "end": "2026-11-18",
   "by_quintile": [
    {
     "quintile": 1,
@@ -362,7 +362,7 @@
     "quintile": 4,
     "disp": 3.9,
     "fwd20": 0.49,
-    "hit20": 62.0,
+    "hit20": 61.0,
     "maxdd20": -3.39,
     "p_dd5": 22.0
    },
@@ -375,19 +375,19 @@
     "p_dd5": 28.0
    }
   ],
-  "current": 5.42,
-  "current_pct_5y": 85.0,
+  "current": 6.21,
+  "current_pct_5y": 91.0,
   "current_quintile": 5,
   "near_high_and_top_quintile": {
-   "days": 420,
+   "days": 419,
    "fwd20": -0.1,
    "hit20": 53.0,
-   "maxdd20": -2.99,
+   "maxdd20": -3.0,
    "p_dd5": 23.0,
    "is_now": false
   },
   "base": {
-   "fwd20": 0.77,
+   "fwd20": 0.76,
    "hit20": 64.0,
    "maxdd20": -2.84,
    "p_dd5": 18.0
@@ -395,29 +395,29 @@
   "leaders_20d": [
    {
     "t": "XLP",
-    "r": 4.2
+    "r": 4.7
    },
    {
     "t": "XLU",
     "r": 3.7
    },
    {
-    "t": "XLV",
-    "r": 3.0
+    "t": "XLY",
+    "r": 3.2
    }
   ],
   "laggards_20d": [
    {
     "t": "XLK",
-    "r": -12.0
+    "r": -13.1
    },
    {
     "t": "XLE",
-    "r": -6.8
+    "r": -10.1
    },
    {
     "t": "XLI",
-    "r": -1.2
+    "r": -2.2
    }
   ]
  },
@@ -455,10 +455,10 @@
     "basehit60d": 72.0
    },
    "latest": {
-    "date": "2026-11-17",
-    "ret": -1.03,
-    "vol_ratio": 0.96,
-    "dd20": -5.37,
+    "date": "2026-11-18",
+    "ret": -0.23,
+    "vol_ratio": 0.57,
+    "dd20": -5.43,
     "signal_today": false,
     "last_signal": "2026-03-20"
    }
@@ -512,12 +512,12 @@
     "name": "日経平均",
     "d120": {
      "sox_beta": 0.25,
-     "t10_per10bp": -0.29,
+     "t10_per10bp": -0.32,
      "r2": 0.23
     },
     "d250": {
-     "sox_beta": 0.28,
-     "t10_per10bp": -0.41,
+     "sox_beta": 0.29,
+     "t10_per10bp": -0.4,
      "r2": 0.24
     }
    },
@@ -646,16 +646,16 @@
    "nikkei_worst": -12.4
   },
   "last_us": {
-   "date": "2026-11-17",
-   "sox": 0.34,
-   "ndx": -0.72,
-   "spx": -1.03,
-   "t10_bp": -1.8,
-   "usdjpy_pct": -0.15
+   "date": "2026-11-18",
+   "sox": 0.1,
+   "ndx": 0.42,
+   "spx": -0.23,
+   "t10_bp": -3.7,
+   "usdjpy_pct": -0.14
   },
   "spx_vs_10y_corr60": 0.07,
   "spx_vs_10y_corr250": -0.22,
-  "tnx_level": 5.1
+  "tnx_level": 5.07
  },
  "hyperscaler_memory": {
   "hyperscalers": [
@@ -668,7 +668,7 @@
     "capex_ocf": 69.0,
     "fcf_ttm_bn": 60.0,
     "capex_yoy": 103.0,
-    "fwd_pe": 20.9
+    "fwd_pe": 21.0
    },
    {
     "t": "GOOGL",
@@ -690,7 +690,7 @@
     "capex_ocf": 124.0,
     "fcf_ttm_bn": -37.6,
     "capex_yoy": 140.0,
-    "fwd_pe": 23.6
+    "fwd_pe": 24.5
    },
    {
     "t": "META",
@@ -712,55 +712,55 @@
     "capex_ocf": 161.0,
     "fcf_ttm_bn": -28.7,
     "capex_yoy": 235.0,
-    "fwd_pe": 10.4
+    "fwd_pe": 10.3
    }
   ],
   "memory": [
    {
     "t": "MU",
-    "trailing_pe": 9.6,
+    "trailing_pe": 9.5,
     "fwd_pe": 3.4,
     "pb": 5.8,
     "op_margin": 75.0,
-    "ret_1d": -0.9,
+    "ret_1d": -1.0,
     "ret_1m": -21.3,
-    "from_high": -41.3
+    "from_high": -41.9
    },
    {
     "t": "SNDK",
-    "trailing_pe": 6.4,
-    "fwd_pe": 2.8,
-    "pb": 6.3,
+    "trailing_pe": 6.2,
+    "fwd_pe": 2.7,
+    "pb": 6.2,
     "op_margin": 73.0,
-    "ret_1d": -1.5,
-    "ret_1m": -41.9,
-    "from_high": -65.9
+    "ret_1d": -2.6,
+    "ret_1m": -43.1,
+    "from_high": -66.8
    },
    {
     "t": "WDC",
-    "trailing_pe": 10.0,
-    "fwd_pe": 7.0,
-    "pb": 11.3,
+    "trailing_pe": 10.1,
+    "fwd_pe": 7.1,
+    "pb": 11.5,
     "op_margin": 41.0,
-    "ret_1d": 0.9,
-    "ret_1m": -19.6,
-    "from_high": -62.0
+    "ret_1d": 1.7,
+    "ret_1m": -20.9,
+    "from_high": -61.4
    },
    {
     "t": "STX",
-    "trailing_pe": 26.4,
-    "fwd_pe": 7.7,
-    "pb": 33.6,
+    "trailing_pe": 27.1,
+    "fwd_pe": 7.9,
+    "pb": 34.3,
     "op_margin": 40.0,
-    "ret_1d": 1.1,
-    "ret_1m": -23.7,
-    "from_high": -53.8
+    "ret_1d": 2.3,
+    "ret_1m": -23.6,
+    "from_high": -52.8
    },
    {
     "t": "285A.T",
     "trailing_pe": 10.8,
     "fwd_pe": null,
-    "pb": 1.4,
+    "pb": 4.4,
     "op_margin": 69.0,
     "ret_1d": 0.7,
     "ret_1m": -41.0,
