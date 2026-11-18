@@ -1,4 +1,41 @@
 {
+ "2024-10-01": {
+  "us": {
+   "items": [
+    {
+     "title": "イランのイスラエル向けミサイル攻撃で下落",
+     "detail": "S&P500は0.9%安の5,708.75、ナスダックは1.5%安、ダウは約0.4%安。前日に最高値をつけた後で、エネルギー株のみ原油高(約2.4%上昇)で上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters(Kitco配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-10-01/indexes-end-down-iran-launches-missiles-israel-defense-shares-rise"
+     }
+    },
+    {
+     "title": "米港湾ストライキ開始も重し",
+     "detail": "米主要港湾の労働者のストライキ開始による景気への影響懸念も売り材料となった。",
+     "direction": "down",
+     "source": {
+      "label": "Benzinga(iTiger掲載)",
+      "url": "https://itiger.com/news/2472531871"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の大幅安の反動と円安で反発",
+     "detail": "終値は3万8651円97銭(732円42銭高、+1.93%)。前日に石破新総裁の誕生で大幅反落した反動買いと円安が支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory 日経概況",
+      "url": "https://tbladvisory.com/01nikkei/"
+     }
+    }
+   ]
+  }
+ },
  "2024-10-02": {
   "us": {
    "items": [
@@ -31,6 +68,281 @@
      "source": {
       "label": "sbbit(ロイター配信)",
       "url": "https://www.sbbit.jp/article/refers/149714"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-03": {
+  "us": {
+   "items": [
+    {
+     "title": "中東緊迫で原油高、指数は最高値から後退",
+     "detail": "ダウは184.93ポイント安。原油が中東情勢の緊迫で急伸し、株は最高値から下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-lower-as-traders-await-september-payrolls-report--17600203.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "石破首相の利上げ慎重発言で円安、大幅反発",
+     "detail": "終値は3万8552円06銭(743円30銭高、+1.97%)。前夜の石破首相の日銀追加利上げに慎重な発言で円安が進んだ。一時1,000円超高となったが上げ幅は縮小。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit.jp掲載)",
+      "url": "https://www.sbbit.jp/article/refers/149769"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-04": {
+  "us": {
+   "items": [
+    {
+     "title": "9月雇用統計が強く景気後退懸念が後退",
+     "detail": "非農業部門雇用者数は25万4,000人増(予想約15万人)、失業率は4.1%に低下。S&P500は0.9%高で前週の最高値に迫った。小型株も堅調。",
+     "direction": "up",
+     "source": {
+      "label": "How major US stock indexes fared(InsuranceNewsNet/AP)",
+      "url": "https://insurancenewsnet.com/oarticle/how-major-us-stock-indexes-fared-friday-10-4-2024"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の早期利上げ観測後退で小幅続伸、米雇用統計待ち",
+     "detail": "終値は3万8635円62銭(83円56銭高)。朝方の約200円高から上げ幅を縮めた。米雇用統計を前に様子見が強まった。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit.jp掲載)",
+      "url": "https://www.sbbit.jp/article/refers/149864"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-07": {
+  "us": {
+   "items": [
+    {
+     "title": "米金利上昇と中東リスクで3指数とも約1%安",
+     "detail": "ロイターによると3指数とも約1%下落。利下げ観測の後退で米国債利回りが上昇(4%台に乗せた)し、中東情勢の悪化で原油が上げて売りが広がった。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters(Kitco配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-10-07/wall-street-falters-rising-yields-geopolitical-risks"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "石破首相の発言による円安を受け3日続伸",
+     "detail": "終値は3万9332円74銭(697円12銭高、+1.80%)。朝方は900円超高まであったが、利益確定売りで上げ幅を縮めた。TOPIXも3日続伸。",
+     "direction": "up",
+     "source": {
+      "label": "tbladvisory 日経概況",
+      "url": "https://tbladvisory.com/?p=28654"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-08": {
+  "us": {
+   "items": [
+    {
+     "title": "ビッグテック主導で反発、前日の下げを取り戻す",
+     "detail": "S&P500は約1%高の5,751、ナスダックは約1.4〜1.5%高の18,182.92。大型ハイテク株が上昇を主導し、原油安も支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "How major US stock indexes fared(ABC News/AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-1082024-114617521"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安・米金利上昇・円高でリスク回避の売り",
+     "detail": "終値は3万8937円54銭(395円20銭安、-1.00%)で4営業日ぶりに反落。前日の米株安と米長期金利上昇、中東緊迫、円高が重なり、プライムの値下がり銘柄は84%に達した。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均大引け",
+      "url": "https://minkabu.jp/news/4037560"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-09": {
+  "us": {
+   "items": [
+    {
+     "title": "連銀議事要旨を受け、ダウとS&P500が最高値",
+     "detail": "ダウは431.63ドル(1.03%)高の42,512.00、S&P500は0.71%高の5,792.04でともに最高値。9月FOMC議事要旨を消化した。",
+     "direction": "up",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2024/10/09/stock-market-today-dow-sp500-nasdaq-records/"
+     }
+    },
+    {
+     "title": "グーグル分割報道でアルファベットが重し",
+     "detail": "司法省がグーグルの分割を求める可能性が伝わり、アルファベットが下落してナスダックの上げを限定した(ナスダック総合は0.6%高の18,291.62)。",
+     "direction": "down",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2024/10/09/stock-market-today-dow-sp500-nasdaq-records/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米ハイテク高で半導体関連中心に反発",
+     "detail": "終値は3万9277円96銭(340円42銭高、+0.87%)。前日の米国市場でハイテク株が買われ、半導体関連を中心に買いが優勢だった。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ 日経平均大引け",
+      "url": "https://minkabu.jp/news/4038369?selected_platform=pc"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-10": {
+  "us": {
+   "items": [
+    {
+     "title": "CPI発表と失業保険申請増で主要指数は最高値から小反落",
+     "detail": "ダウは57.88ポイント(0.1%)安の42,454.12。9月CPIの発表後に前日の上げを一部削り、新規失業保険申請件数が予想以上に増えたことも伝えられた。ハイテク株が軟調だった。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks(Nasdaq.com掲載)",
+      "url": "https://www.zacks.com/stock/news/2348805/stock-market-news-for-oct-10-2024"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高・円安で底堅く、米CPI前で後場は様子見",
+     "detail": "終値は3万9380円89銭(102円93銭高)で続伸。前日の米株高と円安が支えとなったが、夜の米CPI発表を控えて後場は一進一退。値下がり銘柄が57%と多数だった。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん(株探)",
+      "url": "https://s.kabutan.jp/news/n202410100938/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-11": {
+  "us": {
+   "items": [
+    {
+     "title": "大手金融の好決算で金融株が上昇、S&P500・ダウが最高値",
+     "detail": "S&P500は34.98ポイント(0.6%)高の5,815.03、ダウは1%高。JPモルガンやウェルズ・ファーゴが予想を上回る決算を発表し金融株が上げを主導した。",
+     "direction": "up",
+     "source": {
+      "label": "How major US stock indexes fared(ABC News/AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-10112024-114733585"
+     }
+    },
+    {
+     "title": "テスラ安でナスダックは小幅高にとどまる",
+     "detail": "ナスダック総合は0.3%高。テスラ株の下落が重しとなり、他指数に出遅れた。",
+     "direction": "flat",
+     "source": {
+      "label": "How major US stock indexes fared(ABC News/AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-10112024-114733585"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "ファストリ決算で日経平均は3日続伸",
+     "detail": "終値は3万9605円80銭(224円91銭高)。前日に決算を出したファーストリテイリングが6.1%高となり、日経平均を277.88円押し上げた。構成銘柄の7割超は下落し、TOPIXは反落した。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター東京マーケット・サマリー(sbbit.jp掲載)",
+      "url": "https://www.sbbit.jp/article/refers/150361"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-14": {
+  "us": {
+   "items": [
+    {
+     "title": "半導体株主導でS&P500とダウが最高値、ダウは初の4万3,000ドル台",
+     "detail": "ロイターによるとチップ株が上昇を主導し、S&P500とダウが最高値で引け、ダウは初めて4万3,000ドルを超えた。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-dow-closes-above-43000-points-for-the-first-time--17682966.html"
+     }
+    },
+    {
+     "title": "決算シーズン入りと連銀関係者発言を見極め",
+     "detail": "主要指数は上昇して終えた。企業決算の本格化と連銀高官の発言を材料に買いが続いた。",
+     "direction": "up",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4158337-nasdaq-sp-dow-closed-in-the-green-with-more-earnings-and-additional-fedspeak"
+     }
+    }
+   ]
+  }
+ },
+ "2024-10-15": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク・半導体株が下落、主要指数は最高値から後退",
+     "detail": "ナスダックが約1%安、S&P500は5,815.26で0.76%安。ASMLの弱い見通しを受けて半導体株が売られ、エヌビディアは約5%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "How major US stock indexes fared(ABC News/AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-10152024-114829556"
+     }
+    },
+    {
+     "title": "原油安でエネルギー株が下落",
+     "detail": "原油価格の下落でエネルギーセクターが約3%安となり、指数の重しになった。",
+     "direction": "down",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2024/10/15/wall-street-retreats-from-records-as-tech-stocks-drop/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と円安が支え、4日続伸",
+     "detail": "終値は3万9910円55銭(304円75銭高)。朝方は一時4万円を回復したが、買い一巡後は利益確定売りで4万円を割った。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit.jp掲載)",
+      "url": "https://www.sbbit.jp/article/refers/150448"
      }
     }
    ]

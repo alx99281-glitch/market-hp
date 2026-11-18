@@ -147,6 +147,62 @@
    ]
   }
  },
+ "2024-09-24": {
+  "us": {
+   "items": [
+    {
+     "title": "中国の景気対策観測と利下げで最高値圏、小幅高",
+     "detail": "ダウとS&P500が最高値をつけた。中国の景気刺激策を受けて鉱業株が上昇した一方、消費者信頼感指数の予想外の低下が上げを抑えた。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-dow-sp-500-reach-new-highs-on-china-stimulus--17548427.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "3万8,000円近辺で戻り売り、小幅続伸",
+     "detail": "終値は3万7940円59銭(216円68銭高、+0.57%)。一時703円高の3万8427円まで買われたが、節目の3万8,000円前後で利益確定売りに押され上げ幅を縮小した。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん(株探)",
+      "url": "https://s.kabutan.jp/news/n202409241141/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-09-25": {
+  "us": {
+   "items": [
+    {
+     "title": "最高値更新後の一服、ダウは4連騰止まる",
+     "detail": "ダウは293.47ポイント(0.7%)安の41,914.75、S&P500は0.19%安の5,722.26、ナスダックは0.04%高。前日の最高値後で材料に乏しい静かな展開だった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com / Zacks",
+      "url": "https://www.zacks.com/stock/news/2341151/stock-market-news-for-sep-25-2024"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "5日ぶり反落、終盤に利益確定売りと円高",
+     "detail": "終値は3万7870円26銭(70円33銭安、-0.19%)。終盤に利益確定売りと円高で下げに転じた。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ 日経平均大引け",
+      "url": "https://minkabu.jp/news/4623090?selected_platform=pc"
+     }
+    }
+   ]
+  }
+ },
  "2024-09-26": {
   "jp": {
    "items": [
