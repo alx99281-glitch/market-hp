@@ -1,0 +1,39 @@
+{
+ "2024-05-31": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが574ドル高、月末の買い戻し",
+     "detail": "ダウは1.5%高の38,686.32、S&P500は0.8%高の5,277.51。中盤の下落から終盤に買い戻された。5月のS&P500は4.8%上昇。",
+     "direction": "up",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/26563193/stocks-rally-late-to-close-out-a-volatile-session"
+     }
+    },
+    {
+     "title": "エヌビディアなどハイテク株が下落",
+     "detail": "エヌビディアなどハイテク株の売りでナスダックは2ポイント安の16,735.02とほぼ横ばいだった。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/26563193/stocks-rally-late-to-close-out-a-volatile-session"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米金利低下と3日続落後の買い戻し",
+     "detail": "3日続落で800円超下げた反動の買い戻しと米長期金利の低下で、日経平均は434円高の38,487円90銭と4日ぶりに反発。後場に上げ幅を拡大した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405310881/"
+     }
+    }
+   ]
+  }
+ }
+}

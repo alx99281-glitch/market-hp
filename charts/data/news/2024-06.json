@@ -1,4 +1,402 @@
 {
+ "2024-06-03": {
+  "us": {
+   "items": [
+    {
+     "title": "ISM製造業景況指数が予想外に悪化",
+     "detail": "5月のISM製造業景気指数は48.7(予想49.6)に低下し、景気減速懸念からダウは0.3%安。ナスダックは0.56%高、S&P500は0.11%高と最高値圏で小幅に上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "The Star(新華社)",
+      "url": "https://www.thestar.com.my/news/world/2024/06/04/us-stocks-close-mixed-on-weak-manufacturing-data"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米金利低下と前週末の米株高",
+     "detail": "米長期金利の低下や前週末のNYダウ大幅高で警戒感が後退。金融や海運などバリュー株が買われ、日経平均は435円高の38,923円03銭(+1.13%)。半導体株は冴えなかった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406030904/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-04": {
+  "us": {
+   "items": [
+    {
+     "title": "米求人件数が減少し利下げ期待",
+     "detail": "4月の米求人件数が2021年以来の低水準に減少。国債利回りが下がり、年内利下げへの期待が強まった。ダウは0.4%高の38,711.29。",
+     "direction": "up",
+     "source": {
+      "label": "Spectrum News(AP)",
+      "url": "https://spectrumnews1.com/ca/la/business/2024/06/04/wall-street-holds-steady-as-bets-rise-for-rate-cuts-following-job-openings-data"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の急伸の反動で利益確定売り",
+     "detail": "前日に39,000円近辺まで上昇した反動で売りが出て、日経平均は86円安の38,837円46銭と3営業日ぶりに反落した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406041045/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-05": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが時価総額3兆ドル超え",
+     "detail": "エヌビディアが約5%上昇し時価総額が初めて3兆ドルを上回り、アップルを抜いて米国2位に。S&P500とナスダックは最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2024/06/how-major-us-stock-indexes-fared-wednesday-6-5-2024"
+     }
+    },
+    {
+     "title": "マイクロソフトも上昇",
+     "detail": "マイクロソフトが1.9%上昇。半導体ETFは4.9%高と年初来2番目の上昇率だった。",
+     "direction": "up",
+     "source": {
+      "label": "Fortune",
+      "url": "https://fortune.com/2024/06/05/nvidia-stock-apples-3-trillion-valuation"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連に利益確定売り",
+     "detail": "前日の米半導体株の下落で東京エレクトロンやレーザーテックが売られ、日経平均は347円安の38,490円17銭と続落。米経済指標の下振れで景気敏感株も売られた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406051064/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-06": {
+  "us": {
+   "items": [
+    {
+     "title": "最高値更新の翌日で上値は重い",
+     "detail": "S&P500は0.02%安、ナスダックは0.1%安、ダウは0.2%高の38,886.17。雇用統計を前に動意に乏しかった。",
+     "direction": "flat",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4113811-dow-sp-and-nasdaq-end-mixed-in-a-mostly-muted-trading-day"
+     }
+    },
+    {
+     "title": "貿易赤字の拡大",
+     "detail": "米貿易赤字が拡大し、上値を抑えた。",
+     "direction": "down",
+     "source": {
+      "label": "Ahram(AP)",
+      "url": "https://english.ahram.org.eg/News/525020.aspx"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米SOX指数高を受け半導体株が買われる",
+     "detail": "前日の米半導体株高で東京エレクトロン、アドバンテストなどが上昇し、日経平均は213円高の38,703円51銭と3営業日ぶりに反発。39,000円近辺では上値が重かった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406060994/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-07": {
+  "us": {
+   "items": [
+    {
+     "title": "5月雇用統計が予想を大幅に上回る",
+     "detail": "非農業部門雇用者数は27.2万人増(予想18万人)、失業率は4.0%に上昇。10年債利回りは4.29%から4.43%へ跳ね上がり、利下げ観測が後退した。",
+     "direction": "down",
+     "source": {
+      "label": "CNN",
+      "url": "https://amp.cnn.com/cnn/business/live-news/jobs-report-may-06-07-24/index.html"
+     }
+    },
+    {
+     "title": "主要指数は小幅安だが週間では上昇",
+     "detail": "ダウは0.2%安、S&P500は0.1%安、ナスダックは0.2%安。3指数とも週間では上昇し、ラッセル2000は1.1%安だった。",
+     "direction": "flat",
+     "source": {
+      "label": "CNN",
+      "url": "https://amp.cnn.com/cnn/business/live-news/jobs-report-may-06-07-24/index.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計を控え様子見、半導体株に売り",
+     "detail": "前日の米ハイテク株安で半導体関連の一角が売られ、日経平均は20円安の38,683円93銭と小幅反落。売買代金は3兆4,624億円と薄商いだった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406100934/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-10": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株高でS&P500・ナスダックが最高値",
+     "detail": "エヌビディア、メタ、マイクロソフトなどが指数を押し上げ、S&P500とナスダックが終値最高値。ダウは69ドル高。",
+     "direction": "up",
+     "source": {
+      "label": "investingLive",
+      "url": "https://investinglive.com/news/sp-and-nasdaq-indices-close-at-record-levels-dow-pushes-into-positive-territory-at-close-20240610"
+     }
+    },
+    {
+     "title": "アップルはWWDC初日に下落",
+     "detail": "WWDCで新AI機能が発表されたが新製品はなく、アップル株は約1.9%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "StreetBeat",
+      "url": "https://news.streetbeat.com/article/39259064"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米金利上昇と円安で値がさ株に買い",
+     "detail": "米金利上昇に伴う国内金利上昇やドル高・円安がバリュー株を支え、日経平均は354円高の39,038円16銭と反発。ただ売買代金は年内最低水準だった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406100934/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-11": {
+  "us": {
+   "items": [
+    {
+     "title": "アップルが7.3%急騰",
+     "detail": "アップルが7.3%高で最高値を更新し、S&P500(+0.3%)とナスダック(+0.9%)を押し上げ、ともに2日連続の終値最高値。ダウは0.3%安。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2024/06/how-major-us-stock-indexes-fared-tuesday-6-11-2024"
+     }
+    },
+    {
+     "title": "CPI・FOMC待ちの様子見",
+     "detail": "物価統計とFRBの政策発表を控え、投資家は慎重な姿勢だった。",
+     "direction": "flat",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2024/06/how-major-us-stock-indexes-fared-tuesday-6-11-2024"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高を受け半導体に買い",
+     "detail": "前日の米ハイテク株高で半導体関連が買われ、日経平均は97円高の39,134円79銭と続伸。ただ日米の重要会合を前に様子見ムードが強く、上げ幅は縮んだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406111008/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-12": {
+  "us": {
+   "items": [
+    {
+     "title": "5月CPIが予想を下回り最高値更新",
+     "detail": "コアCPIは3年超ぶりの低い伸び。利下げ期待が高まり、S&P500は0.85%高の5,421.03、ナスダックとともに終値最高値となった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-06-12/sp-500-nasdaq-post-closing-record-highs-after-cpi-fed-statement"
+     }
+    },
+    {
+     "title": "FOMCは据え置き、年内利下げ1回の見通し",
+     "detail": "FRBは金利を据え置き、新たな予測では年内の利下げは1回にとどまった(3月時点は3回)。発表後に上げ幅が縮み、ダウは小幅安で終えた。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2024/6/12/closing-summary"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI・FOMC待ちの持ち高調整",
+     "detail": "米CPIとFOMCの結果を控えて売りが優勢となり、日経平均は258円安の38,876円71銭と続落。値下がり170銘柄、値上がり51銘柄だった。",
+     "direction": "down",
+     "source": {
+      "label": "Business Standard",
+      "url": "https://www.business-standard.com/amp/markets/capital-market-news/japan-nikkei-falls-on-profit-taking-124061200496_1.html"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-13": {
+  "us": {
+   "items": [
+    {
+     "title": "ブロードコムが急騰、AI期待で最高値",
+     "detail": "ブロードコムが12.3%高。AI関連への期待と利下げ観測でS&P500(+0.2%)とナスダック(+0.3%)が最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "WTOP(AP)",
+      "url": "https://wtop.com/news/2024/06/how-major-us-stock-indexes-fared-thursday-6-13-2024/"
+     }
+    },
+    {
+     "title": "米卸売物価が予想を下回る",
+     "detail": "5月の米PPIは前年比2.2%上昇と市場予想の2.5%を下回り、新規失業保険申請は10カ月ぶり高水準。ただし値上がり銘柄は少なく、ダウは下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Zacks(Yahoo)",
+      "url": "https://malaysia.news.yahoo.com/stock-market-news-june-14-133400715.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀会合・メジャーSQ前のポジション調整",
+     "detail": "翌日の日銀会合結果とメジャーSQを控えて持ち高調整の売りが強まり、日経平均は156円安の38,720円47銭と続落。値下がり1,340銘柄、値上がり274銘柄だった。",
+     "direction": "down",
+     "source": {
+      "label": "TBL Advisory(日経概況)",
+      "url": "https://tbladvisory.com/2024%E5%B9%B46%E6%9C%8813%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E6%A6%82%E6%B3%81%E5%8F%8A%E3%81%B3%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%B1%95%E6%9C%9B/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-14": {
+  "us": {
+   "items": [
+    {
+     "title": "Nasdaqは最高値、S&P500はほぼ横ばい",
+     "detail": "S&P500は0.04%安の5,431.60、ナスダックは0.1%高で最高値。欧州の選挙結果を受けた不安で欧州株が下げ、慎重な空気が広がった。",
+     "direction": "flat",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-61420242024-111138548"
+     }
+    },
+    {
+     "title": "小型株が下落",
+     "detail": "ラッセル2000は1.6%安の2,006.16。週間ではS&P500が1.6%高、ダウは0.5%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-61420242024-111138548"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀会合は国債買い入れ減額を決定",
+     "detail": "日銀は国債買い入れ減額の方針を決めたが具体的な計画は示さず。日経平均は94円高の38,814円56銭と3日ぶりに反発したが、大引けにかけ伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406140898/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-17": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク高でS&P500・ナスダックが最高値",
+     "detail": "S&P500は0.8%高の5,473.23、ナスダックとともに終値最高値を更新。エヌビディアが最高値をつけ、ハイテクが相場を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-6172024-111195901"
+     }
+    },
+    {
+     "title": "米長期金利の上昇",
+     "detail": "米債利回りの上昇が重しとなり、ダウは一時マイナス圏に沈んだが、引けでは0.5%高(38,778.10)となった。",
+     "direction": "down",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-6172024-111195901"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "欧州の政治不安で全面安",
+     "detail": "仏市場の下落など欧州の政治リスクが嫌気され、日経平均は712円安の38,102円44銭。東証33業種のうち32業種が下落した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://kabutan.jp/news/marketnews/?b=n202406170829"
+     }
+    },
+    {
+     "title": "米景気・スタグフレーション懸念",
+     "detail": "前週末の米消費者信頼感の低下や米スタグフレーション懸念で投資家心理が悪化し、海外勢の先物売りで下げ幅が一時800円を超えた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://kabutan.jp/news/marketnews/?b=n202406170829"
+     }
+    }
+   ]
+  }
+ },
  "2024-06-18": {
   "us": {
    "items": [
