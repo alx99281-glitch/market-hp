@@ -1,4 +1,143 @@
 {
+ "2024-04-09": {
+  "us": {
+   "items": [
+    {
+     "title": "CPI発表を前に様子見、金融株が重しでまちまち",
+     "detail": "ダウは9.13ドル(0.02%)安の38,883.67、S&P500は7.52ポイント高の5,209.91、ナスダックは52.68ポイント高の16,306.64。金融株が重しとなり、翌日の物価指標を控えて小動きだった。",
+     "direction": "flat",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-down-002-3372019"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体関連株が買われ日経平均は426円高の39,773円",
+     "detail": "日経平均は426円09銭高の39,773円13銭と続伸。半導体関連株を中心に買いが優勢だった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404090912/"
+     }
+    },
+    {
+     "title": "TSMCの米工場への補助金発表で製造装置に期待",
+     "detail": "米商務省がTSMCの米アリゾナ新工場への補助金を発表したことで、製造装置の引き合いが高まるとの思惑があったとみられると解説された。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/59477"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-10": {
+  "us": {
+   "items": [
+    {
+     "title": "3月CPIが予想を上回り、利下げ期待が後退して急落",
+     "detail": "Reutersは、インフレ指標が市場予想より強く6月利下げ期待が後退したため米株が大幅安で終えたと伝えた。Zacksによるとダウ-1.09%、S&P500-0.95%、ナスダック-0.84%、小型株のラッセル2000は-2.52%。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/stock/news/2253675/markets-fall-on-high-cpi-rate-cut-speculation"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI発表を控えた持ち高調整で3営業日ぶりに反落",
+     "detail": "日経平均は191円32銭安の39,581円81銭。米CPIが予想を上回れば米金利上昇・米株安につながるとの警戒から売りが優勢になった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404100980/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-11": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株主導で前日の下げから反発、ナスダックは最高値",
+     "detail": "S&P500は5,199.06と約0.7%上昇し、ナスダック総合は約1.7%高で最高値を更新した。ダウはほぼ横ばい(0.1%未満の下落)。前日の売りからの戻りとなった。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP配信)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-4112024-2024-04-11"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI上振れで早期利下げ観測が後退し日経平均は続落",
+     "detail": "日経平均は139円18銭安の39,442円63銭。米CPIが予想を上回りFRBの早期利下げ観測が後退。寄り後は一時516円安まで下げ幅を広げた。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/137935"
+     }
+    },
+    {
+     "title": "円安が輸出関連株を下支え",
+     "detail": "円安が輸出関連株を支え、下げ幅の拡大は限られたと報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/137935"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-12": {
+  "us": {
+   "items": [
+    {
+     "title": "決算シーズン序盤のまちまちな結果で米株が急落",
+     "detail": "APは、米株が決算発表シーズンの出足がまちまちだったことを受けて大きく下げ、S&P500は約1.5%安(ダウ約1.2%安、ナスダック約1.6%安)だったと伝えた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(MarketBeat掲載)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-4122024-2024-04-12/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米ハイテク株高で半導体関連が買われ小幅反発",
+     "detail": "日経平均は80円92銭高の39,523円55銭。前日の米ハイテク株高を受けて半導体関連株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "limo(ロイター配信を引用)",
+      "url": "https://limo.media/articles/-/56911"
+     }
+    },
+    {
+     "title": "週末を控えた持ち高調整売りで上値は重い",
+     "detail": "買い一巡後は週末を控えた持ち高調整の売りが出て、小幅高の水準でもみ合った。",
+     "direction": "flat",
+     "source": {
+      "label": "limo(ロイター配信を引用)",
+      "url": "https://limo.media/articles/-/56911"
+     }
+    }
+   ]
+  }
+ },
  "2024-04-15": {
   "us": {
    "items": [
