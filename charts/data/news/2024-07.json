@@ -1,194 +1,514 @@
 {
  "2024-07-12": {
-  "us": {
-   "items": [
-    {
-     "title": "利下げ観測で主要指数が上昇",
-     "detail": "S&P500は0.6%高の5615.35、ダウは0.6%高で4万円台に乗せた。小型株のラッセル2000は1.1%高だった。",
-     "direction": "up",
-     "source": {
-      "label": "AP(Yahoo)",
-      "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-201423968.html"
-     }
-    },
-    {
-     "title": "卸売物価は予想より強く、消費者心理は悪化",
-     "detail": "卸売物価は予想より強く、消費者センチメントは8カ月ぶりの低水準となり、9月の利下げ観測を支えた。",
-     "direction": "up",
-     "source": {
-      "label": "AP(Yahoo)",
-      "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-201423968.html"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "米CPI後のハイテク株安を嫌気し今年最大の下げ",
      "detail": "日経平均は前営業日比1033円34銭安の4万1190円68銭と4営業日ぶりに反落し、下げ幅は2021年2月以来の大きさだった。前日の米6月CPI発表後のハイテク株安の流れを受けた。",
      "direction": "down",
      "source": {
       "label": "ロイター(sbbit)",
       "url": "https://www.sbbit.jp/article/refers/144367"
-     }
+     },
+     "title": "米CPI後のハイテク株安を嫌気し今年最大の下げ"
     },
     {
-     "title": "半導体関連など主力株が下げを主導",
      "detail": "半導体関連株などの主力株が下げを主導した。TOPIXは2894.56で34.61ポイント安。",
      "direction": "down",
      "source": {
       "label": "ロイター(sbbit)",
       "url": "https://www.sbbit.jp/article/refers/144367"
-     }
+     },
+     "title": "半導体関連など主力株が下げを主導"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は0.6%高の5615.35、ダウは0.6%高で4万円台に乗せた。小型株のラッセル2000は1.1%高だった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Yahoo)",
+      "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-201423968.html"
+     },
+     "title": "利下げ観測で主要指数が上昇"
+    },
+    {
+     "detail": "卸売物価は予想より強く、消費者センチメントは8カ月ぶりの低水準となり、9月の利下げ観測を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Yahoo)",
+      "url": "https://uk.finance.yahoo.com/news/major-us-stock-indexes-fared-201423968.html"
+     },
+     "title": "卸売物価は予想より強く、消費者心理は悪化"
+    }
+   ]
+  }
+ },
+ "2024-07-15": {
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は約+0.3%の5,631でほぼ最高値、ダウは約+0.5%の40,212で最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-7152024-111966666"
+     },
+     "title": "トランプ氏襲撃未遂後の初取引日、ダウが最高値"
+    }
+   ]
+  }
+ },
+ "2024-07-16": {
+  "jp": {
+   "items": [
+    {
+     "detail": "前週末の1000円超安の反動で自律反発狙いの買いが入り、終値は+84円40銭の4万1275円08銭。買い一巡後は上値が重かった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202407160900/"
+     },
+     "title": "前週末の急落の反動で反発"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "好決算が相次ぎダウは+742.76の40,954で最高値。エヌビディアは-2.1%、10年債利回りは4.17%に低下。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/7/16/closing-summary-"
+     },
+     "title": "大手企業の好決算でダウが約740pt高"
+    }
+   ]
+  }
+ },
+ "2024-07-17": {
+  "jp": {
+   "items": [
+    {
+     "detail": "米政権が対中半導体規制の強化を検討との報道で東京エレクトロンやアドバンテストが売られ、日経平均は-177円39銭の4万1097円69銭。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202407171005/"
+     },
+     "title": "半導体株が下落し後場にマイナス転落"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "ナスダックは-2.8%、S&P500は-1.4%。エヌビディアやアップルなど大型株の下落が響いた。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/7/17/closing-summary-"
+     },
+     "title": "ナスダックが2022年以来の大幅下落"
+    },
+    {
+     "detail": "ダウは+0.6%の41,198で最高値を更新。利下げ観測を背景に小型株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "Lincoln Daily News(Reuters)",
+      "url": "https://archives.lincolndailynews.com/2024/Jul/17/NEWS/business_a.shtml"
+     },
+     "title": "ダウは利下げ観測と小型株買いで最高値"
     }
    ]
   }
  },
  "2024-07-18": {
-  "us": {
-   "items": [
-    {
-     "title": "大型ハイテク株が下落",
-     "detail": "前日のナスダック急落に続き大型ハイテクが売られ、アップル約2%安、アマゾン約2.2%安。S&P500は0.78%安の5544.59、ダウは1.3%安。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7182024-112076651"
-     }
-    },
-    {
-     "title": "ドミノ・ピザが急落",
-     "detail": "同一店舗売上高が予想に届かず13.6%安。小型株のラッセル2000は1.8%安だった。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7182024-112076651"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "半導体株売りと円高",
      "detail": "半導体関連株の売りと円高が重なり、日経平均は971円34銭安の4万126円35銭(2.36%安)と下げ幅が1000円に迫った。売買代金は約4.67兆円。",
      "direction": "down",
      "source": {
       "label": "株探(大引け)",
       "url": "https://s.kabutan.jp/news/n202407181042/"
-     }
+     },
+     "title": "半導体株売りと円高"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "前日のナスダック急落に続き大型ハイテクが売られ、アップル約2%安、アマゾン約2.2%安。S&P500は0.78%安の5544.59、ダウは1.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7182024-112076651"
+     },
+     "title": "大型ハイテク株が下落"
+    },
+    {
+     "detail": "同一店舗売上高が予想に届かず13.6%安。小型株のラッセル2000は1.8%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7182024-112076651"
+     },
+     "title": "ドミノ・ピザが急落"
+    }
+   ]
+  }
+ },
+ "2024-07-19": {
+  "jp": {
+   "items": [
+    {
+     "detail": "前日の米株安を受けた売りが優勢で、終値は-62円56銭の4万0063円79銭。7月11日の最高値後で利益確定売りも出やすかった。",
+     "direction": "down",
+     "source": {
+      "label": "limo",
+      "url": "https://limo.media/articles/-/63574"
+     },
+     "title": "前日の米株安で3日続落、一時4万円割れ"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は-0.7%の5,505、ナスダックは-0.8%。週ではS&P500が約2%、ナスダックが3.6%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-7192024-112112669"
+     },
+     "title": "ハイテク・銀行株の下げで週間では4月以来の大幅安"
+    },
+    {
+     "detail": "ナスダックが週間で劣後したのは、AI関連の超大型株から他へ資金が動いたことが一因とされる。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/7/19/closing-stock-market-summary"
+     },
+     "title": "AI関連の超大型株から資金が流出"
+    }
+   ]
+  }
+ },
+ "2024-07-22": {
+  "jp": {
+   "items": [
+    {
+     "detail": "半導体関連が売られ日経平均は-464円79銭(-1.16%)の3万9599円と4万円の大台を割った。値下がり銘柄は84%。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202407221029/"
+     },
+     "title": "半導体株売りで4日続落、4万円割れ"
+    },
+    {
+     "detail": "バイデン氏の撤退表明で米大統領選を巡る不透明感が意識され、リスク回避の動きが出たと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "SBBIT(ロイター)",
+      "url": "https://www.sbbit.jp/article/refers/144870"
+     },
+     "title": "米大統領選の不透明感"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は+1.1%の5,564、ナスダックは+1.6%。構成銘柄の4分の3超が上昇し、エヌビディアは+4.8%。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-7222024-112178582"
+     },
+     "title": "ハイテク株が反発し3日続落に歯止め"
+    },
+    {
+     "detail": "バイデン氏が大統領選からの撤退とハリス副大統領支持を表明。先物は上昇して始まった。",
+     "direction": "flat",
+     "source": {
+      "label": "TipRanks",
+      "url": "https://tipranks.com/news/stock-market-news-today-7-22-24-futures-higher-after-bidens-withdrawal"
+     },
+     "title": "バイデン大統領の撤退表明"
+    }
+   ]
+  }
+ },
+ "2024-07-23": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は-4円61銭の3万9594円39銭と小幅に5日続落。値上がり117、値下がり107と拮抗した。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202407231057/"
+     },
+     "title": "米半導体株高で主力株の一角が上昇、指数は小動き"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "アルファベットとテスラの決算発表を控え、S&P500は-0.2%、ダウは-0.1%。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-7232024-112210852"
+     },
+     "title": "大手ハイテク決算を前に小幅安"
+    },
+    {
+     "detail": "UPSが弱い決算で12.1%下落し約4年ぶり安値。一方ラッセル2000は+1%と上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "Newser",
+      "url": "https://img1-cdn.newser.com/story/353363/wall-street-holds-steady-as-profit-reports-roll-in.html"
+     },
+     "title": "UPSが12%急落、小型株は上昇"
     }
    ]
   }
  },
  "2024-07-24": {
-  "us": {
-   "items": [
-    {
-     "title": "テスラとアルファベットの決算が失望",
-     "detail": "テスラは利益率が5年超ぶりの低水準で予想を下回り、アルファベットはYouTube広告収入が予想未達。大型ハイテクが売られ、S&P500は2.3%安、ナスダックは3.6%安(ともに2022年以来最大の下げ)。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-7242024-112246868"
-     }
-    },
-    {
-     "title": "製造業PMIと新築住宅販売が弱め",
-     "detail": "7月の製造業PMIと6月の新築住宅販売が冴えず、売りに拍車をかけた。ダウは1.24%安の3万9858.88。",
-     "direction": "down",
-     "source": {
-      "label": "Kitco(ロイター)",
-      "url": "https://www.kitco.com/news/off-the-wire/2024-07-24/sp-and-nasdaq-end-multi-week-lows-tesla-alphabet-weighing"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "円高と米株先物安で6日続落",
      "detail": "円高と米株先物の下落で引けにかけて下げ幅を拡大し、日経平均は439円54銭安の3万9154円85銭(1.11%安)。6日続落は2021年以来の長さ。",
      "direction": "down",
      "source": {
       "label": "ビジネス+IT(市況 2024/07/24)",
       "url": "https://www.sbbit.jp/article/refers/145063"
-     }
+     },
+     "title": "円高と米株先物安で6日続落"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "テスラは利益率が5年超ぶりの低水準で予想を下回り、アルファベットはYouTube広告収入が予想未達。大型ハイテクが売られ、S&P500は2.3%安、ナスダックは3.6%安(ともに2022年以来最大の下げ)。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-7242024-112246868"
+     },
+     "title": "テスラとアルファベットの決算が失望"
+    },
+    {
+     "detail": "7月の製造業PMIと6月の新築住宅販売が冴えず、売りに拍車をかけた。ダウは1.24%安の3万9858.88。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-07-24/sp-and-nasdaq-end-multi-week-lows-tesla-alphabet-weighing"
+     },
+     "title": "製造業PMIと新築住宅販売が弱め"
     }
    ]
   }
  },
  "2024-07-25": {
-  "us": {
-   "items": [
-    {
-     "title": "ハイテク株が反落、アルファベット決算も重荷",
-     "detail": "S&P500は約0.5%安、ナスダックは約1%安。前日の急落後の反発が続かず、アルファベットが決算後に大きく下げた。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7252024-112284350"
-     }
-    },
-    {
-     "title": "小型株は上昇、フォードは18%安",
-     "detail": "大型ハイテクから小型株などへの資金移動でダウは約0.2〜0.3%高。一方フォードは利益が予想を下回り18%下げた。",
-     "direction": "flat",
-     "source": {
-      "label": "Newser(AP配信)",
-      "url": "https://amp.newser.com/story/353485/tech-rebound-fizzles-on-wall-street.html"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "日経平均は3.28%安、今年最大の下げ",
      "detail": "前日の米ハイテク株安を受けリスク回避の売りが広がり、終値は3万7869円。値下がり銘柄は約8割、7日続落で3万8000円割れは約3カ月ぶり。",
      "direction": "down",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202407251072/"
-     }
+     },
+     "title": "日経平均は3.28%安、今年最大の下げ"
     },
     {
-     "title": "急速な円高も重荷",
      "detail": "為替は一時1ドル152円台前半まで円高が進み、半導体関連など指数寄与度の高い銘柄に売りが集中した。",
      "direction": "down",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202407251072/"
-     }
+     },
+     "title": "急速な円高も重荷"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は約0.5%安、ナスダックは約1%安。前日の急落後の反発が続かず、アルファベットが決算後に大きく下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-7252024-112284350"
+     },
+     "title": "ハイテク株が反落、アルファベット決算も重荷"
+    },
+    {
+     "detail": "大型ハイテクから小型株などへの資金移動でダウは約0.2〜0.3%高。一方フォードは利益が予想を下回り18%下げた。",
+     "direction": "flat",
+     "source": {
+      "label": "Newser(AP配信)",
+      "url": "https://amp.newser.com/story/353485/tech-rebound-fizzles-on-wall-street.html"
+     },
+     "title": "小型株は上昇、フォードは18%安"
+    }
+   ]
+  }
+ },
+ "2024-07-26": {
+  "jp": {
+   "items": [
+    {
+     "detail": "前日の米ハイテク株安で半導体関連が売られ、終値は-202円10銭の3万7667円41銭と3カ月ぶりの安値。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202407261068/"
+     },
+     "title": "前日の米ハイテク株安で半導体が売られ8日続落"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "6月のPCEは前年比+2.5%と5月の+2.6%から鈍化し、株式が上昇。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco/Reuters",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-07-26/wall-st-ends-higher-revival-supported-inflation-data-tech"
+     },
+     "title": "PCE物価が鈍化、利下げ観測が再燃"
+    },
+    {
+     "detail": "3Mなど複数の大手の好決算でダウは約650pt上昇。ラッセル2000は7月に10%超上げた。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/7/26/closing-summary-"
+     },
+     "title": "3Mなど好決算でダウが約650pt高"
     }
    ]
   }
  },
  "2024-07-29": {
-  "us": {
-   "items": [
-    {
-     "title": "日米の決算・FOMC前でほぼ横ばい",
-     "detail": "S&P500は0.1%高の5,463.54、ダウは0.1%安、ナスダックは0.1%高。ビッグテック決算とFRB会合を控えて様子見で、ラッセル2000は1.1%下落した。",
-     "direction": "flat",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-7292024-112381901"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "8営業日続落の反動で日経平均が大幅反発",
      "detail": "終値は38,468円63銭で前日比801円22銭高。前週末の米ハイテク株高と、約3,600円下落した後の自律反発狙いの買いが入った。日米の金融政策会合を前に後場は伸び悩んだ。",
      "direction": "up",
      "source": {
       "label": "sbbit(ロイター配信)",
       "url": "https://www.sbbit.jp/article/refers/145401"
-     }
+     },
+     "title": "8営業日続落の反動で日経平均が大幅反発"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は0.1%高の5,463.54、ダウは0.1%安、ナスダックは0.1%高。ビッグテック決算とFRB会合を控えて様子見で、ラッセル2000は1.1%下落した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-7292024-112381901"
+     },
+     "title": "日米の決算・FOMC前でほぼ横ばい"
+    }
+   ]
+  }
+ },
+ "2024-07-30": {
+  "jp": {
+   "items": [
+    {
+     "detail": "下げ幅が一時400円近くに広がったが、円安方向への動きもあり大引け前にプラス転換。終値は+57円32銭の3万8525円95銭。",
+     "direction": "flat",
+     "source": {
+      "label": "tbladvisory/株探",
+      "url": "https://s.kabutan.jp/news/n202407311093/"
+     },
+     "title": "日銀会合を前に様子見、引けにかけ持ち直す"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "ナスダックが約-1.3%、S&P500が-0.5%と下落。半導体や超大型株が売られた。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco/Reuters",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-07-30/sp-500-nasdaq-drop-caution-reigns-ahead-tech-earnings"
+     },
+     "title": "大手ハイテク決算とFOMCを前に慎重姿勢"
+    },
+    {
+     "detail": "ダウは203pt(+0.5%)高の40,743で、S&P500でも値上がり銘柄が多かった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Yahoo)",
+      "url": "https://sg.finance.yahoo.com/news/major-us-stock-indexes-fared-202053165.html"
+     },
+     "title": "ダウは小幅高"
+    }
+   ]
+  }
+ },
+ "2024-07-31": {
+  "jp": {
+   "items": [
+    {
+     "detail": "30〜31日の会合で賛成多数で利上げを決定。発表後は一時400円超下げたが、先物主導の買い戻しで切り返し、終値は+575円87銭の3万9101円82銭。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202407311093/"
+     },
+     "title": "日銀が政策金利の引き上げを決定"
+    },
+    {
+     "detail": "半導体株の上昇も指数を支え、日中値幅は1233円と今年最大。長期金利は1.055%まで上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "SBBIT(ロイター)",
+      "url": "https://www.sbbit.jp/article/refers/145558"
+     },
+     "title": "半導体株が上昇、日中値幅は今年最大"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "FOMCは金利を据え置き、パウエル議長が9月に利下げの用意があり得ると述べた。S&P500は+1.6%と5カ月ぶりの大幅高。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco/Reuters",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-07-31/sp-500-nasdaq-firm-after-fed-signals-upcoming-rate-cut"
+     },
+     "title": "FRBが据え置き、9月利下げの可能性を示唆"
+    },
+    {
+     "detail": "エヌビディアの上昇やAMDの好決算など半導体株が牽引し、ナスダックは約452pt高の17,599。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/7/31/closing-summary-"
+     },
+     "title": "ハイテク株が反発、ナスダック+2.6%"
     }
    ]
   }

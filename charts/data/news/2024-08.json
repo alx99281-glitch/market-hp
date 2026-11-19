@@ -1,185 +1,292 @@
 {
  "2024-08-01": {
-  "us": {
-   "items": [
-    {
-     "title": "景気減速懸念で主要指数が下落",
-     "detail": "製造業の活動が縮小を続け、新規失業保険申請が1年近くぶりの高水準となり、FRBが利下げの好機を逃したとの不安が広がった。S&P500は1.4%安の5446.68、ナスダックは2.3%安。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-812024-112493568"
-     }
-    },
-    {
-     "title": "メタの好決算が下げを緩和",
-     "detail": "ロイターによると小型株が売りの中心となった。メタ・プラットフォームズの好決算が下げをやや和らげた。",
-     "direction": "flat",
-     "source": {
-      "label": "Kitco(ロイター)",
-      "url": "https://www.kitco.com/news/off-the-wire/2024-08-01/wall-street-retreats-slowdown-fears-dow-small-caps-slide"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "円高進行で輸出関連株が売られる",
      "detail": "日経平均は前日比975円49銭(2.49%)安の3万8126円33銭。円高が進み、一時1ドル=148円台に入ったことで輸出関連株に売りが集まった。",
      "direction": "down",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202408011337/"
-     }
+     },
+     "title": "円高進行で輸出関連株が売られる"
     },
     {
-     "title": "日銀の利上げ決定後の円高",
      "detail": "7月31日の日銀会合で利上げが決まった後の為替の円高が相場を押し下げた。日中の下げ幅は一時1300円を超えた。",
      "direction": "down",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202408011337/"
-     }
+     },
+     "title": "日銀の利上げ決定後の円高"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "製造業の活動が縮小を続け、新規失業保険申請が1年近くぶりの高水準となり、FRBが利下げの好機を逃したとの不安が広がった。S&P500は1.4%安の5446.68、ナスダックは2.3%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-812024-112493568"
+     },
+     "title": "景気減速懸念で主要指数が下落"
+    },
+    {
+     "detail": "ロイターによると小型株が売りの中心となった。メタ・プラットフォームズの好決算が下げをやや和らげた。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-08-01/wall-street-retreats-slowdown-fears-dow-small-caps-slide"
+     },
+     "title": "メタの好決算が下げを緩和"
     }
    ]
   }
  },
  "2024-08-02": {
-  "us": {
-   "items": [
-    {
-     "title": "弱い景気指標で世界株安",
-     "detail": "米7月の雇用増が11万4000人にとどまるなど景気減速懸念が強まり、S&P500は約1.8%安、ナスダックは2.4%安で直近高値から10%下落した。ダウは1.51%安の3万9737.26ドル。",
-     "direction": "down",
-     "source": {
-      "label": "How major US stock indexes fared Friday, 8/2/2024",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-822024-112524474"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "2216円安、歴代2位の下げ幅",
      "detail": "日経平均は2216円63銭(5.81%)安の3万5909円70銭。米7月ISM製造業景況指数の予想割れで景気後退懸念が強まり、前日の米株安も売りを誘った。",
      "direction": "down",
      "source": {
       "label": "カブキソウ 日経平均2000円超下落",
       "url": "https://kabukiso.com/column/news/20240802_nikkei2000down.html"
-     }
+     },
+     "title": "2216円安、歴代2位の下げ幅"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "米7月の雇用増が11万4000人にとどまるなど景気減速懸念が強まり、S&P500は約1.8%安、ナスダックは2.4%安で直近高値から10%下落した。ダウは1.51%安の3万9737.26ドル。",
+     "direction": "down",
+     "source": {
+      "label": "How major US stock indexes fared Friday, 8/2/2024",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-822024-112524474"
+     },
+     "title": "弱い景気指標で世界株安"
     }
    ]
   }
  },
  "2024-08-05": {
-  "us": {
-   "items": [
-    {
-     "title": "米景気後退懸念で世界的な株安",
-     "detail": "7月の雇用統計が弱く、製造業の景況感も悪化。景気後退懸念からS&P500とナスダックはそれぞれ約3%下落し、3日間の下落率は2022年6月以来の大きさとなった。",
-     "direction": "down",
-     "source": {
-      "label": "ロイター(Lincoln Daily News転載)",
-      "url": "https://archives.lincolndailynews.com/2024/Aug/06/NEWS/business_e.shtml"
-     }
-    },
-    {
-     "title": "日本株急落で世界に波及",
-     "detail": "日経平均が12.4%安と記録的に下落するなど海外市場も急落。ただ米ISM非製造業指数が予想を上回り、終盤には最悪期から下げ幅を縮めた。",
-     "direction": "down",
-     "source": {
-      "label": "Barchart",
-      "url": "https://www.barchart.com/story/news/27832931/stocks-finish-sharply-lower-on-economic-jitters"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "米景気不安で日経平均が史上最大の下げ",
      "detail": "日経平均は4,451.28円安の31,458.42円で、下げ幅は過去最大(下落率12.4%)。米7月雇用統計が市場予想を下回り景気悪化懸念が広がった。構成225銘柄は全面安。",
      "direction": "down",
      "source": {
       "label": "moomoo(日経平均寄与度)",
       "url": "https://moomoo.com/news/post/41778917/nikkei-average-contribution-ranking-closing-nikkei-average-fell-significantly-pushed"
-     }
+     },
+     "title": "米景気不安で日経平均が史上最大の下げ"
     },
     {
-     "title": "円高が重しに",
      "detail": "為替が一時1ドル=142円台まで円高ドル安に進み、輸出株などの重しとなった。",
      "direction": "down",
      "source": {
       "label": "moomoo(日経平均寄与度)",
       "url": "https://moomoo.com/news/post/41778917/nikkei-average-contribution-ranking-closing-nikkei-average-fell-significantly-pushed"
-     }
+     },
+     "title": "円高が重しに"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "7月の雇用統計が弱く、製造業の景況感も悪化。景気後退懸念からS&P500とナスダックはそれぞれ約3%下落し、3日間の下落率は2022年6月以来の大きさとなった。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(Lincoln Daily News転載)",
+      "url": "https://archives.lincolndailynews.com/2024/Aug/06/NEWS/business_e.shtml"
+     },
+     "title": "米景気後退懸念で世界的な株安"
+    },
+    {
+     "detail": "日経平均が12.4%安と記録的に下落するなど海外市場も急落。ただ米ISM非製造業指数が予想を上回り、終盤には最悪期から下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/27832931/stocks-finish-sharply-lower-on-economic-jitters"
+     },
+     "title": "日本株急落で世界に波及"
     }
    ]
   }
  },
  "2024-08-06": {
-  "us": {
-   "items": [
-    {
-     "title": "急落の反動と好決算で反発",
-     "detail": "S&P500は約1%高の5,240.03で3日続落に歯止め。ウーバーなどの好決算も支えとなった。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-862024-112621811"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "記録的な急落の反動で過去最大の上げ幅",
      "detail": "日経平均は3,217.04円高の34,675.46円(+10.23%)で、上げ幅は過去最大。前日の急落の自律反発狙いの買いが海外短期筋中心に入った。",
      "direction": "up",
      "source": {
       "label": "ペイペイ証券 市況",
       "url": "https://media.paypay-sec.co.jp/cat2/mj240806_1"
-     }
+     },
+     "title": "記録的な急落の反動で過去最大の上げ幅"
     },
     {
-     "title": "円安への振れと米景気不安の後退",
      "detail": "為替が一時146円台へ円安方向に振れ、米景気への懸念も和らいだ。財務省・金融庁・日銀が臨時会合を開いたとも報じられた。",
      "direction": "up",
      "source": {
       "label": "ペイペイ証券 市況",
       "url": "https://media.paypay-sec.co.jp/cat2/mj240806_1"
-     }
+     },
+     "title": "円安への振れと米景気不安の後退"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は約1%高の5,240.03で3日続落に歯止め。ウーバーなどの好決算も支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-862024-112621811"
+     },
+     "title": "急落の反動と好決算で反発"
+    }
+   ]
+  }
+ },
+ "2024-08-07": {
+  "jp": {
+   "items": [
+    {
+     "detail": "前日の過去最大の上げの反動で朝は900円超下げたが、日銀副総裁の発言を受けた円安・ドル高で午後に上昇転換。終値は3万5089円62銭(+414円16銭)。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4591694"
+     },
+     "title": "朝安から午後に急反発"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "午前の上昇が失速し、S&P500は-0.8%の5,199.50、ナスダックは約-1%。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-872024-112657066"
+     },
+     "title": "朝の上げが消え主要指数は下落"
+    },
+    {
+     "detail": "米国の旅行需要の軟化を示唆し株価が過去最大級の下げとなり、決算失望が相場の重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "Spectrum News",
+      "url": "https://spectrumlocalnews.com/us/snplus/news/2024/08/07/stock-market-august-7-2024"
+     },
+     "title": "エアビーアンドビーが急落"
     }
    ]
   }
  },
  "2024-08-08": {
-  "us": {
-   "items": [
-    {
-     "title": "全面高でS&P500は2022年11月以来の上昇率",
-     "detail": "S&P500は2.3%高、ダウは約683ドル(1.8%)高、ナスダックは2.9%高、ラッセル2000は2.4%高。S&P500の全11業種とダウ構成30銘柄中29銘柄が上昇した。",
-     "direction": "up",
-     "source": {
-      "label": "Investing.com",
-      "url": "https://investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-176-3562955"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "日銀の「主な意見」で利上げ観測",
      "detail": "朝方公表された日銀会合の主な意見で段階的な利上げ必要論が示され、一時800円超下げたが、その後プラス圏まで戻る荒い値動き。日経平均は258円47銭安の3万4831円15銭(0.74%安)。",
      "direction": "down",
      "source": {
       "label": "TBLアドバイザリー",
       "url": "https://tbladvisory.com/2024%E5%B9%B48%E6%9C%888%E6%97%A5%E3%81%AE%E6%97%A5%E7%B5%8C%E6%A6%82%E6%B3%81%E5%8F%8A%E3%81%B3%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%B1%95%E6%9C%9B/"
-     }
+     },
+     "title": "日銀の「主な意見」で利上げ観測"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は2.3%高、ダウは約683ドル(1.8%)高、ナスダックは2.9%高、ラッセル2000は2.4%高。S&P500の全11業種とダウ構成30銘柄中29銘柄が上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-176-3562955"
+     },
+     "title": "全面高でS&P500は2022年11月以来の上昇率"
+    }
+   ]
+  }
+ },
+ "2024-08-09": {
+  "jp": {
+   "items": [
+    {
+     "detail": "前日の米株高を受け買いが先行し、円安・ドル高を背景に自動車・機械など輸出関連が上昇。日経平均は193円85銭高の3万5025円で、TOPIXは+0.88%。",
+     "direction": "up",
+     "source": {
+      "label": "limo",
+      "url": "https://limo.media/articles/-/65064"
+     },
+     "title": "前日の米株高と円安で輸出株に買い"
+    },
+    {
+     "detail": "3連休を前にした持ち高調整や利益確定売りで、場中は上げ幅を縮める場面もあった。",
+     "direction": "flat",
+     "source": {
+      "label": "limo",
+      "url": "https://limo.media/articles/-/65064"
+     },
+     "title": "3連休前の持ち高調整・利益確定売り"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "前週月曜の急落後の戻りが続き、S&P500は+0.47%。週間ではほぼ横ばいに戻した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/8/9/closing-summary-"
+     },
+     "title": "急落後の戻りで主要3指数が上昇"
+    },
+    {
+     "detail": "イーライリリーが約5.5%、ノボノルディスクが4%超上昇し、相場の上げを支えた。",
+     "direction": "up",
+     "source": {
+      "label": "Zhitong/longport",
+      "url": "https://longportapp.cn/news/211247766"
+     },
+     "title": "イーライリリーなど減量薬株が上昇"
+    }
+   ]
+  }
+ },
+ "2024-08-12": {
+  "us": {
+   "items": [
+    {
+     "detail": "主要指数は方向感に欠ける展開。エヌビディアが約4%上昇して指数を支えた一方、値下がり銘柄が多く、S&P500はほぼ横ばい(+0.23pt)で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2024/8/12/closing-summary"
+     },
+     "title": "エヌビディアが急伸も全体は小動き"
+    },
+    {
+     "detail": "前週の世界的な荒い値動きが落ち着く中、インフレ関連の重要統計を前に積極的な売買は限られた。",
+     "direction": "flat",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4138810-nasdaq-sp-and-dow-finished-mixed-as-investors-await-key-inflation-data"
+     },
+     "title": "週内の物価統計を控え様子見"
     }
    ]
   }
@@ -188,127 +295,127 @@
   "jp": {
    "items": [
     {
-     "title": "米ハイテク株高と円安",
      "detail": "前日の米ハイテク株高と円安進行が追い風。日経平均は1207.51円高の3万6232.51円で3日続伸し、2週間ぶりに3万6000円を回復した。",
      "direction": "up",
      "source": {
       "label": "かぶたん",
       "url": "https://s.kabutan.jp/news/n202408131199/"
-     }
+     },
+     "title": "米ハイテク株高と円安"
     },
     {
-     "title": "半導体関連が指数を押し上げ",
      "detail": "東京エレクトロン(約156円)、アドバンテスト(約116円)、TDK(約71円)が指数への寄与上位。売買代金は8月入り後初めて5兆円に届かなかった。",
      "direction": "up",
      "source": {
       "label": "gentosha-go",
       "url": "https://gentosha-go.com/articles/-/62782"
-     }
+     },
+     "title": "半導体関連が指数を押し上げ"
     }
    ]
   },
   "us": {
    "items": [
     {
-     "title": "卸売物価の伸び鈍化",
      "detail": "卸売物価の上昇が予想以上に鈍化したことで買いが強まり、S&P500は約1.7%高の5434.43。11業種中10業種が上昇した。",
      "direction": "up",
      "source": {
       "label": "AP通信(ABC News)",
       "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-8132024-112813532"
-     }
+     },
+     "title": "卸売物価の伸び鈍化"
     },
     {
-     "title": "ナスダックが大幅高",
      "detail": "ナスダック総合は約2.4%高の17187.61、ダウは約1.04%高の39765.64。S&P500は8月1日以来初めて5400を上回った。",
      "direction": "up",
      "source": {
       "label": "Briefing.com",
       "url": "https://briefing.com/stock-market-update/archive/2024/8/13/closing-summary-"
-     }
+     },
+     "title": "ナスダックが大幅高"
     }
    ]
   }
  },
  "2024-08-14": {
-  "us": {
-   "items": [
-    {
-     "title": "7月CPIはほぼ予想通り",
-     "detail": "総合CPIは前年比2.9%(6月3.0%)、コアは3.2%(同3.3%)。9月の0.25ポイント利下げ観測が維持され、S&P500は0.38%高の5,455.21で5日続伸。",
-     "direction": "up",
-     "source": {
-      "label": "The Star(ロイター配信)",
-      "url": "https://archives.lincolndailynews.com/2024/Aug/14/NEWS/business_b.shtml"
-     }
-    },
-    {
-     "title": "小型株が上昇",
-     "detail": "ラッセル2000は1.6%上昇し、ダウは243ドル高の40,008.39となった。",
-     "direction": "up",
-     "source": {
-      "label": "The Star(ロイター配信)",
-      "url": "https://archives.lincolndailynews.com/2024/Aug/14/NEWS/business_b.shtml"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "朝高後に伸び悩むも終盤に買い戻し",
      "detail": "日経平均は210円高の36,442.43円。朝方に400円超上げた後に売られ、前引けはマイナス圏だったが、終盤に買い直された。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/62805"
-     }
+     },
+     "title": "朝高後に伸び悩むも終盤に買い戻し"
     },
     {
-     "title": "岸田首相の総裁選不出馬の報道",
      "detail": "同日、岸田首相が自民党総裁選に出馬しないとの報道があった。",
      "direction": "flat",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/62805"
-     }
+     },
+     "title": "岸田首相の総裁選不出馬の報道"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "総合CPIは前年比2.9%(6月3.0%)、コアは3.2%(同3.3%)。9月の0.25ポイント利下げ観測が維持され、S&P500は0.38%高の5,455.21で5日続伸。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(ロイター配信)",
+      "url": "https://archives.lincolndailynews.com/2024/Aug/14/NEWS/business_b.shtml"
+     },
+     "title": "7月CPIはほぼ予想通り"
+    },
+    {
+     "detail": "ラッセル2000は1.6%上昇し、ダウは243ドル高の40,008.39となった。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(ロイター配信)",
+      "url": "https://archives.lincolndailynews.com/2024/Aug/14/NEWS/business_b.shtml"
+     },
+     "title": "小型株が上昇"
     }
    ]
   }
  },
  "2024-08-15": {
-  "us": {
-   "items": [
-    {
-     "title": "7月小売売上高が予想を大きく上回る",
-     "detail": "小売売上高は約1%増と、予想の約0.3%増を超えた。景気減速懸念が和らぎ、S&P500は1.6%高の5,543.22。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8152024-112875057"
-     }
-    },
-    {
-     "title": "ウォルマート決算と、バークシャーのアルタ株取得",
-     "detail": "ウォルマートの決算が好感され、バークシャーが株式を取得したアルタ・ビューティは約11%上昇した。ナスダックは2.3%高。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8152024-112875057"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "4〜6月期GDPがプラス成長",
      "detail": "朝に発表された速報値がプラス成長で、日経平均は284円高の36,726.64円。37,000円を目前に上げ幅を縮めた。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/62842"
-     }
+     },
+     "title": "4〜6月期GDPがプラス成長"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "小売売上高は約1%増と、予想の約0.3%増を超えた。景気減速懸念が和らぎ、S&P500は1.6%高の5,543.22。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8152024-112875057"
+     },
+     "title": "7月小売売上高が予想を大きく上回る"
+    },
+    {
+     "detail": "ウォルマートの決算が好感され、バークシャーが株式を取得したアルタ・ビューティは約11%上昇した。ナスダックは2.3%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8152024-112875057"
+     },
+     "title": "ウォルマート決算と、バークシャーのアルタ株取得"
     }
    ]
   }
@@ -317,477 +424,477 @@
   "jp": {
    "items": [
     {
-     "title": "米株高と円安で5日続伸",
      "detail": "日経平均は1336円03銭(3.64%)高の3万8062円67銭。前日の米株高と円安進行が追い風となり、暴落後初めて3万8000円台を回復した。",
      "direction": "up",
      "source": {
       "label": "tbladvisory(日経概況)",
       "url": "https://tbladvisory.com/?p=26809"
-     }
+     },
+     "title": "米株高と円安で5日続伸"
     },
     {
-     "title": "米景気ソフトランディング期待",
      "detail": "米景気のソフトランディング期待が米株高につながり、東京市場の買いを支えた。上げ幅は今年2番目の大きさ。",
      "direction": "up",
      "source": {
       "label": "同",
       "url": "https://tbladvisory.com/?p=26809"
-     }
+     },
+     "title": "米景気ソフトランディング期待"
     }
    ]
   },
   "us": {
    "items": [
     {
-     "title": "週間で年内最大の上昇率",
      "detail": "S&P500は0.2%上げて7日続伸。景気後退懸念の後退で、11月以来の好調な週を締めくくった。",
      "direction": "up",
      "source": {
       "label": "AP通信(Washington Times)",
       "url": "https://m.washingtontimes.com/news/2024/aug/16/wall-street-closes-its-best-week-of-year-with-some/"
-     }
+     },
+     "title": "週間で年内最大の上昇率"
     },
     {
-     "title": "主要3指数は小幅高",
      "detail": "ダウは96.70ドル高の40659.76、ナスダックは37.22ポイント高の17631.71、S&Pは11.03ポイント高の5554.25。",
      "direction": "up",
      "source": {
       "label": "Briefing.com",
       "url": "https://briefing.com/stock-market-update/archive/2024/8/16/closing-summary-"
-     }
+     },
+     "title": "主要3指数は小幅高"
     }
    ]
   }
  },
  "2024-08-19": {
-  "us": {
-   "items": [
-    {
-     "title": "S&P500が8連騰、最高値まで1%以内",
-     "detail": "S&P500は1.0%高の5,608.25、ナスダックは1.4%高、ダウは0.6%高。7月につけた最高値に迫った。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-8192024-112957997"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "急速な円高で6営業日ぶりに反落",
      "detail": "日経平均は674円安の37,388.62円(-1.77%)。ドル円が145円台まで円高に振れ、先週までの上昇に対する利益確定売りも出た。",
      "direction": "down",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/62905"
-     }
+     },
+     "title": "急速な円高で6営業日ぶりに反落"
     },
     {
-     "title": "値下がり銘柄が191",
      "detail": "日経平均構成銘柄は値上がり33、値下がり191と全面安の様相だった。",
      "direction": "down",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/62905"
-     }
+     },
+     "title": "値下がり銘柄が191"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は1.0%高の5,608.25、ナスダックは1.4%高、ダウは0.6%高。7月につけた最高値に迫った。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-8192024-112957997"
+     },
+     "title": "S&P500が8連騰、最高値まで1%以内"
     }
    ]
   }
  },
  "2024-08-20": {
-  "us": {
-   "items": [
-    {
-     "title": "ジャクソンホールを前に8連騰が止まる",
-     "detail": "3指数とも下落。S&P500は0.2%安だったが、7月の高値まで1.2%の水準にある。商いは平均より少なかった。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-8202024-112994725"
-     }
-    },
-    {
-     "title": "ボウマン理事が利下げに慎重",
-     "detail": "ナスダックの引け後の報道は、FRBのボウマン理事が利下げに慎重な姿勢を示したことを伝えた。",
-     "direction": "down",
-     "source": {
-      "label": "Nasdaq.com",
-      "url": "https://www.nasdaq.com/articles/stock-market-news-today-08-20-24-indices-slide-feds-bowman-cautious-about-rate-cuts"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "米株高とリスク選好で大幅反発",
      "detail": "日経平均は674円高(+1.80%)の38,062.92円。前日の米株高で投資家心理が改善し、円高にも一服感が出た。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/62931"
-     }
+     },
+     "title": "米株高とリスク選好で大幅反発"
     },
     {
-     "title": "プライムの9割超が上昇",
      "detail": "値上がり銘柄は全体の9割を超え、上げ幅は一時800円を超えた。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/62931"
-     }
+     },
+     "title": "プライムの9割超が上昇"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "3指数とも下落。S&P500は0.2%安だったが、7月の高値まで1.2%の水準にある。商いは平均より少なかった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-8202024-112994725"
+     },
+     "title": "ジャクソンホールを前に8連騰が止まる"
+    },
+    {
+     "detail": "ナスダックの引け後の報道は、FRBのボウマン理事が利下げに慎重な姿勢を示したことを伝えた。",
+     "direction": "down",
+     "source": {
+      "label": "Nasdaq.com",
+      "url": "https://www.nasdaq.com/articles/stock-market-news-today-08-20-24-indices-slide-feds-bowman-cautious-about-rate-cuts"
+     },
+     "title": "ボウマン理事が利下げに慎重"
     }
    ]
   }
  },
  "2024-08-21": {
-  "us": {
-   "items": [
-    {
-     "title": "FOMC議事要旨が9月利下げを示唆",
-     "detail": "議事要旨で利下げの可能性が示され、3指数は小幅高。ダウは59ドル高の40,893.96。",
-     "direction": "up",
-     "source": {
-      "label": "The Star(ロイター配信)",
-      "url": "https://thestar.com.my/news/world/2024/08/22/us-stocks-close-higher-after-fed-minutes-signal-possible-rate-cuts"
-     }
-    },
-    {
-     "title": "半導体株がナスダックを押し上げ",
-     "detail": "金融株が重しとなったダウより、ナスダックの上げが大きかった。",
-     "direction": "up",
-     "source": {
-      "label": "The Star(ロイター配信)",
-      "url": "https://thestar.com.my/news/world/2024/08/22/us-stocks-close-higher-after-fed-minutes-signal-possible-rate-cuts"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "朝方に450円超下げた後、下げ幅を縮小",
      "detail": "日経平均は111円安の37,951.80円で反落。寄り付き後に450円超下げたが、底堅さを見せた。",
      "direction": "down",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/62960"
-     }
+     },
+     "title": "朝方に450円超下げた後、下げ幅を縮小"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "議事要旨で利下げの可能性が示され、3指数は小幅高。ダウは59ドル高の40,893.96。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(ロイター配信)",
+      "url": "https://thestar.com.my/news/world/2024/08/22/us-stocks-close-higher-after-fed-minutes-signal-possible-rate-cuts"
+     },
+     "title": "FOMC議事要旨が9月利下げを示唆"
+    },
+    {
+     "detail": "金融株が重しとなったダウより、ナスダックの上げが大きかった。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(ロイター配信)",
+      "url": "https://thestar.com.my/news/world/2024/08/22/us-stocks-close-higher-after-fed-minutes-signal-possible-rate-cuts"
+     },
+     "title": "半導体株がナスダックを押し上げ"
     }
    ]
   }
  },
  "2024-08-22": {
-  "us": {
-   "items": [
-    {
-     "title": "パウエル講演を前にハイテクが売られる",
-     "detail": "S&P500は0.89%安の5,570.64、ナスダックは299ポイント安。ハイテクが2.1%下げ最も弱かった。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8222024-113071485"
-     }
-    },
-    {
-     "title": "不動産が上昇、景気後退懸念は後退",
-     "detail": "不動産株が上げを主導。景気後退懸念が和らぎ、米長期金利は上昇した。",
-     "direction": "flat",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8222024-113071485"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "上げ幅縮小も反発",
      "detail": "日経平均は259円高の38,211.01円。上げ幅は一時400円を超えたが、利益確定売りで縮小した。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63018"
-     }
+     },
+     "title": "上げ幅縮小も反発"
     },
     {
-     "title": "8月5日の安値から約7,000円戻す",
      "detail": "8月5日の安値31,156円から約7,055円戻した水準となった。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63018"
-     }
+     },
+     "title": "8月5日の安値から約7,000円戻す"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は0.89%安の5,570.64、ナスダックは299ポイント安。ハイテクが2.1%下げ最も弱かった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8222024-113071485"
+     },
+     "title": "パウエル講演を前にハイテクが売られる"
+    },
+    {
+     "detail": "不動産株が上げを主導。景気後退懸念が和らぎ、米長期金利は上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8222024-113071485"
+     },
+     "title": "不動産が上昇、景気後退懸念は後退"
     }
    ]
   }
  },
  "2024-08-23": {
-  "us": {
-   "items": [
-    {
-     "title": "パウエル議長「時が来た」で急伸",
-     "detail": "ジャクソンホール講演で利下げの時期が来たと述べ、9月利下げ観測が強まった。S&P500は+1.15%、ナスダックは+1.47%、ダウは+1.14%。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-8232024-113109231"
-     }
-    },
-    {
-     "title": "エヌビディア・アップル・テスラが上昇を主導",
-     "detail": "講演の発表後に3指数とも急伸し、メガキャップ株が上げを牽引した。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-8232024-113109231"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "植田総裁の国会答弁で利上げ警戒が後退",
      "detail": "日経平均は153円高の38,364.27円で続伸。日銀総裁の答弁を受け、利上げへの警戒感が和らいだ。",
      "direction": "up",
      "source": {
       "label": "LIMO",
       "url": "https://limo.media/articles/-/65949"
-     }
+     },
+     "title": "植田総裁の国会答弁で利上げ警戒が後退"
     },
     {
-     "title": "売買代金は約3.4兆円",
      "detail": "プライム市場の売買代金は約3兆4,008億円だった。",
      "direction": "flat",
      "source": {
       "label": "みんかぶ",
       "url": "https://fx.minkabu.jp/news/309358"
-     }
+     },
+     "title": "売買代金は約3.4兆円"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "ジャクソンホール講演で利下げの時期が来たと述べ、9月利下げ観測が強まった。S&P500は+1.15%、ナスダックは+1.47%、ダウは+1.14%。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-8232024-113109231"
+     },
+     "title": "パウエル議長「時が来た」で急伸"
+    },
+    {
+     "detail": "講演の発表後に3指数とも急伸し、メガキャップ株が上げを牽引した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-8232024-113109231"
+     },
+     "title": "エヌビディア・アップル・テスラが上昇を主導"
     }
    ]
   }
  },
  "2024-08-26": {
-  "us": {
-   "items": [
-    {
-     "title": "ビッグテック安でS&P500・ナスダックが下落",
-     "detail": "S&P500は0.3%安、ナスダックは0.9%安。エヌビディアが決算前に下げ、大型ハイテクが重しとなった。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-8262024-113163248"
-     }
-    },
-    {
-     "title": "ダウは最高値を更新",
-     "detail": "ダウは約0.2%高で、7月につけた史上最高値を上回って引けた。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-8262024-113163248"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "米利下げ観測で円高が進み反落",
      "detail": "日経平均は254円安の38,110.22円で3日ぶりに反落。パウエル議長の講演後にドル安・円高が進み、朝方は一時500円超下げた。",
      "direction": "down",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63113"
-     }
+     },
+     "title": "米利下げ観測で円高が進み反落"
     },
     {
-     "title": "ファストリなど値がさ株が下げ幅を縮小",
      "detail": "ファーストリテイリングなど一部の値がさ株が買われ、下げ幅は縮小した。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63113"
-     }
+     },
+     "title": "ファストリなど値がさ株が下げ幅を縮小"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は0.3%安、ナスダックは0.9%安。エヌビディアが決算前に下げ、大型ハイテクが重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-8262024-113163248"
+     },
+     "title": "ビッグテック安でS&P500・ナスダックが下落"
+    },
+    {
+     "detail": "ダウは約0.2%高で、7月につけた史上最高値を上回って引けた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-8262024-113163248"
+     },
+     "title": "ダウは最高値を更新"
     }
    ]
   }
  },
  "2024-08-27": {
-  "us": {
-   "items": [
-    {
-     "title": "ダウが最高値を更新",
-     "detail": "S&P500は0.2%高の5,625.80、ダウは41,250.50で記録的な終値。エヌビディア決算を控え、全体は方向感に欠けた。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-8272024-113193815"
-     }
-    },
-    {
-     "title": "パラマウントが7%超下落",
-     "detail": "対抗する買収提案者が撤退したことを受け、パラマウント・グローバルが急落した。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-8272024-113193815"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "エヌビディア決算前で半導体株が売られる",
      "detail": "日経平均は178円高の38,288.62円。朝高後に伸び悩み、半導体関連は売り優勢だった。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63139"
-     }
+     },
+     "title": "エヌビディア決算前で半導体株が売られる"
     },
     {
-     "title": "売買代金は今年2番目の少なさ",
      "detail": "プライム市場の売買代金は約3兆2,309億円にとどまり、商いは低調だった。",
      "direction": "flat",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63139"
-     }
+     },
+     "title": "売買代金は今年2番目の少なさ"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は0.2%高の5,625.80、ダウは41,250.50で記録的な終値。エヌビディア決算を控え、全体は方向感に欠けた。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-8272024-113193815"
+     },
+     "title": "ダウが最高値を更新"
+    },
+    {
+     "detail": "対抗する買収提案者が撤退したことを受け、パラマウント・グローバルが急落した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-8272024-113193815"
+     },
+     "title": "パラマウントが7%超下落"
     }
    ]
   }
  },
  "2024-08-28": {
-  "us": {
-   "items": [
-    {
-     "title": "大型ハイテクが下落",
-     "detail": "エヌビディア、アップル、マイクロソフト、アマゾンが下げ、S&P500は0.6%安の5,592.18、ナスダックは1.1%安となった。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-8282024-113225490"
-     }
-    },
-    {
-     "title": "スーパー・マイクロが決算報告の遅延で急落",
-     "detail": "同社は年次報告書の提出遅延を発表し、S&P500構成銘柄で最大の下落率となった。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-8282024-113225490"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "エヌビディア決算前で様子見、小幅続伸",
      "detail": "日経平均は83円高の38,371.76円。前場は軟調だったが、後場に主力株の買い戻しでプラスに切り返した。",
      "direction": "up",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63165"
-     }
+     },
+     "title": "エヌビディア決算前で様子見、小幅続伸"
     },
     {
-     "title": "売買代金は今年ワースト3の低水準",
      "detail": "プライム市場の売買代金は約3兆2,680億円。決算発表を前に積極的な売買が控えられた。",
      "direction": "flat",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63165"
-     }
+     },
+     "title": "売買代金は今年ワースト3の低水準"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "エヌビディア、アップル、マイクロソフト、アマゾンが下げ、S&P500は0.6%安の5,592.18、ナスダックは1.1%安となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-8282024-113225490"
+     },
+     "title": "大型ハイテクが下落"
+    },
+    {
+     "detail": "同社は年次報告書の提出遅延を発表し、S&P500構成銘柄で最大の下落率となった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-8282024-113225490"
+     },
+     "title": "スーパー・マイクロが決算報告の遅延で急落"
     }
    ]
   }
  },
  "2024-08-29": {
-  "us": {
-   "items": [
-    {
-     "title": "エヌビディアが決算後に6%安",
-     "detail": "決算は好調だったが投資家の反応は冷ややかで、同社株は6.4%下落しナスダックを押し下げた。",
-     "direction": "down",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8292024-113255630"
-     }
-    },
-    {
-     "title": "ダウは上昇、引けにかけ大型ハイテクが失速",
-     "detail": "ダウは243.63ドル高の41,335.05。S&P500は午前の1%近い上昇を失い、ほぼ横ばいで終えた。",
-     "direction": "flat",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8292024-113255630"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "エヌビディア決算後の米株安を引き継ぎ小幅安",
      "detail": "日経平均は9円安の38,362.53円。寄り付き後に一時400円超下げたが押し目買いが入り、後場には一時プラスに転じた。",
      "direction": "flat",
      "source": {
       "label": "幻冬舎ゴールドオンライン",
       "url": "https://gentosha-go.com/articles/-/63200"
-     }
+     },
+     "title": "エヌビディア決算後の米株安を引き継ぎ小幅安"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "決算は好調だったが投資家の反応は冷ややかで、同社株は6.4%下落しナスダックを押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8292024-113255630"
+     },
+     "title": "エヌビディアが決算後に6%安"
+    },
+    {
+     "detail": "ダウは243.63ドル高の41,335.05。S&P500は午前の1%近い上昇を失い、ほぼ横ばいで終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-8292024-113255630"
+     },
+     "title": "ダウは上昇、引けにかけ大型ハイテクが失速"
     }
    ]
   }
  },
  "2024-08-30": {
-  "us": {
-   "items": [
-    {
-     "title": "全面高でダウ最高値更新",
-     "detail": "S&P500は全業種が上昇し+1.0%の5,648.40。ダウは41,563.08で史上最高値の終値となった。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-8302024-113284599"
-     }
-    },
-    {
-     "title": "S&P500は月間で4カ月連続の上昇",
-     "detail": "8月の月間上昇率は2.3%で4カ月連続の月間高となった。",
-     "direction": "up",
-     "source": {
-      "label": "AP(ABC News)",
-      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-8302024-113284599"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "前日の米株高を受け反発",
      "detail": "日経平均は285円高の38,647.75円で3営業日ぶりに反発。前日のダウ最高値更新とエヌビディア決算への懸念後退が買いを呼んだ。",
      "direction": "up",
      "source": {
       "label": "LIMO",
       "url": "https://limo.media/articles/-/66322"
-     }
+     },
+     "title": "前日の米株高を受け反発"
     },
     {
-     "title": "売買代金は5兆円超に増加",
      "detail": "プライム市場の売買代金は5兆1,924億円と、低調が続いた前日までから大商いに転じた。",
      "direction": "flat",
      "source": {
       "label": "LIMO",
       "url": "https://limo.media/articles/-/66322"
-     }
+     },
+     "title": "売買代金は5兆円超に増加"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は全業種が上昇し+1.0%の5,648.40。ダウは41,563.08で史上最高値の終値となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-8302024-113284599"
+     },
+     "title": "全面高でダウ最高値更新"
+    },
+    {
+     "detail": "8月の月間上昇率は2.3%で4カ月連続の月間高となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-8302024-113284599"
+     },
+     "title": "S&P500は月間で4カ月連続の上昇"
     }
    ]
   }
