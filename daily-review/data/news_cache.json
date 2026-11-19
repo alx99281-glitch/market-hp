@@ -6294,5 +6294,109 @@
       }
     ],
     "searched_at": "2026-11-18T16:06:54.681085+00:00"
+  },
+  "us:2026-11-18:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show」「Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test」「Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+        "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+      },
+      {
+        "title": "CNBC Economy: Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+        "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html"
+      },
+      {
+        "title": "CNBC Economy: Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+        "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+      }
+    ],
+    "searched_at": "2026-11-19T02:44:28.643166+00:00"
+  },
+  "us:2026-11-18:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite」",
+    "sources": [
+      {
+        "title": "CNBC Markets: Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+        "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+      }
+    ],
+    "searched_at": "2026-11-19T02:44:29.101780+00:00"
+  },
+  "us:2026-11-18:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-18fd75f1?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-19T02:44:29.081906+00:00"
+  },
+  "us:2026-11-18:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-db96511d?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-19T02:44:29.115201+00:00"
+  },
+  "jp:2026-11-18:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-19T02:45:14.388905+00:00"
+  },
+  "jp:2026-11-18:sector:電力・ガス": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性」",
+    "sources": [
+      {
+        "title": "NHK 経済: 中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015196091000.html"
+      }
+    ],
+    "searched_at": "2026-11-19T02:45:14.620345+00:00"
+  },
+  "jp:2026-11-18:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続」",
+    "sources": [
+      {
+        "title": "NHK 経済: KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続",
+        "url": "http://www3.nhk.or.jp/news/html/20260808/k10015199811000.html"
+      }
+    ],
+    "searched_at": "2026-11-19T02:45:14.639987+00:00"
+  },
+  "jp:2026-11-18:sector:小売": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査」「イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ」「イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪」",
+    "sources": [
+      {
+        "title": "NHK 経済: イオンモール熊本 “LPガス爆発の可能性高い”経産省など調査",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197391000.html"
+      },
+      {
+        "title": "NHK 経済: イオン 7人死亡の大規模な爆発を受け 事故調査委員会を設置へ",
+        "url": "http://www3.nhk.or.jp/news/html/20260805/k10015197331000.html"
+      },
+      {
+        "title": "NHK 経済: イオンモール爆発 雑貨店の指示で2人戻り犠牲に 遺族に謝罪",
+        "url": "http://www3.nhk.or.jp/news/html/20260803/k10015194801000.html"
+      }
+    ],
+    "searched_at": "2026-11-19T02:45:14.653961+00:00"
   }
 }
