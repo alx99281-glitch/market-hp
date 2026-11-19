@@ -1,4 +1,78 @@
 {
+ "2024-07-01": {
+  "us": {
+   "items": [
+    {
+     "title": "ナスダック主導で主要3指数が上昇",
+     "detail": "ナスダックが146.70ポイント高の17,879.30、S&P500は14.61ポイント高の5,475.09で終えた。一方で値下がり銘柄が値上がりを上回り、中小型株や均等加重指数は下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/7/1/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀短観は製造業改善・非製造業は小幅悪化",
+     "detail": "6月調査の大企業製造業DIは+13で2期ぶりに改善、非製造業は+33で16期ぶりに悪化した。",
+     "direction": "flat",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/592534/index"
+     }
+    },
+    {
+     "title": "半導体株高も4万円手前で上値重く",
+     "detail": "朝方は一時4万円に迫ったが、買い一巡後は伸び悩み、終値は39,631.06円(+47.98円)の小幅3日続伸だった。",
+     "direction": "up",
+     "source": {
+      "label": "松井証券",
+      "url": "https://finance.matsui.co.jp/news/592534/index"
+     }
+    }
+   ]
+  }
+ },
+ "2024-07-02": {
+  "us": {
+   "items": [
+    {
+     "title": "テスラ好調でS&P500が初の5500台",
+     "detail": "テスラの4〜6月期販売が予想を上回り、大型ハイテクが上昇。S&P500は5,509.01で終値として初めて5,500を上回り、ナスダックも最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-722024-111624672"
+     }
+    },
+    {
+     "title": "長期金利低下",
+     "detail": "パウエルFRB議長がディスインフレの再開に言及し、米長期金利が低下。株式の支援材料になった。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/7/2/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安進行で後場に買い広がり、4万円回復",
+     "detail": "午後に為替が円安に振れて買いが広がり、日経平均は3日続伸。終値40,074.69円(+1.12%)で、4月4日以来約3カ月ぶりに4万円台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(tbladvisory)",
+      "url": "https://tbladvisory.com/2024%e5%b9%b47%e6%9c%882%e6%97%a5%e3%81%ae%e6%97%a5%e7%b5%8c%e6%a6%82%e6%b3%81%e5%8f%8a%e3%81%b3%e4%bb%8a%e5%be%8c%e3%81%ae%e5%b1%95%e6%9c%9b/"
+     }
+    }
+   ]
+  }
+ },
  "2024-07-03": {
   "jp": {
    "items": [

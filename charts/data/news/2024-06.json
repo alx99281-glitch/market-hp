@@ -1,0 +1,268 @@
+{
+ "2024-06-18": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが時価総額首位に",
+     "detail": "エヌビディアがマイクロソフトを抜き米国最大の時価総額(3兆ドル超)に。S&P500は5,487.03、ナスダックは17,862.23でともに終値最高値を更新(ナスダックは7日続伸)。",
+     "direction": "up",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-6182024-111229762"
+     }
+    },
+    {
+     "title": "弱い小売売上高を消化",
+     "detail": "小売売上高が弱い内容で、ダウは56.76ドル高の38,834.86と小幅高にとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://schaeffersresearch.com/content/ezines/2024/06/18/s-p-500-nabs-record-close-nasdaq-ekes-out-7-straight"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "反発",
+     "detail": "日経平均は379円67銭高の38,482.11円と反発して取引を終えた(ロイター配信)。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/142567"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-19": {
+  "jp": {
+   "items": [
+    {
+     "title": "朝高後は利益確定売りで伸び悩み",
+     "detail": "朝方に300円超上昇したが、米国市場の休場を控えた利益確定売りで午後は伸び悩み、終値38,570.76円(+88.65円、+0.23%)。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406191000/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-20": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが下落、ナスダックは続伸止まる",
+     "detail": "エヌビディアの下落が重しとなりナスダックは約0.8%安の17,721.59、S&P500は-0.25%の5,473.17。ダウは約0.8%高。前日は祝日(ジューンティーンス)で休場だった。",
+     "direction": "down",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/6/20/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "小幅に3日続伸",
+     "detail": "ロイター配信によると終値は38,633円02銭(+62円26銭)で3日続伸。米市場休場明け前で小動きだった。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/142763"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-21": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアなど半導体株が重し",
+     "detail": "エヌビディアが約3%、ブロードコムが約4%下落し、S&P500・ナスダックはともに約0.2%安。エヌビディアは9週間で初の週間下落となったが、主要3指数は週間では上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-6212024-111326513"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米ハイテク株安を意識",
+     "detail": "前日の米ハイテク株安が意識され、日経平均は36円55銭安の38,596.47円と4営業日ぶりに小反落した。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/142851"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-24": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア続落でナスダックが下落",
+     "detail": "エヌビディアのさらなる下落でハイテクが重く、ナスダックは-1.1%の17,496.82、S&P500は-0.3%の5,447.87。ダウは+0.7%で、値上がり銘柄は多数だった。",
+     "direction": "down",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-6242024-111381647"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安で自動車株が買われる",
+     "detail": "円安が業績の追い風となるトヨタ自動車など自動車株が買われ、寄り付きの下落から反発。終値は38,804.65円(+208.18円)。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/61449"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-25": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが反発、ダウは下落",
+     "detail": "エヌビディアが約7%高と、前週までの13%下落に歯止め。S&P500は+0.4%の5,469.30、ナスダックは+1.3%。一方ダウは299ドル安(-0.8%)で約1カ月ぶりの大幅安だった。",
+     "direction": "flat",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-6252024-111420087"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "バリュー株買いで3万9000円台回復",
+     "detail": "金融・自動車などバリュー株が買われ、終値は39,173.15円(+368.50円、+0.95%)。3万9000円台の終値は11日以来。一方、米半導体株安を受けて半導体関連は売られた。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit)/株探",
+      "url": "https://s.kabutan.jp/news/n202406250951/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-26": {
+  "us": {
+   "items": [
+    {
+     "title": "アマゾン上昇、リビアン急騰",
+     "detail": "アマゾンが約3.9%上昇し時価総額2兆ドルを突破。フォルクスワーゲンの最大50億ドル出資でリビアンは約23%急騰した。S&P500は+0.16%の5,477.90。",
+     "direction": "up",
+     "source": {
+      "label": "New Straits Times",
+      "url": "https://nst.com.my/amp/business/corporate/2024/06/1068912/wall-street-ends-slightly-trade-choppy-ahead-inflation-data"
+     }
+    },
+    {
+     "title": "討論会・インフレ指標待ち",
+     "detail": "大統領選討論会とインフレ指標を控え、前週の最高値圏で方向感に欠ける展開。銀行株はFRBのストレステスト結果発表前に軟調だった。",
+     "direction": "flat",
+     "source": {
+      "label": "New Straits Times",
+      "url": "https://nst.com.my/amp/business/corporate/2024/06/1068912/wall-street-ends-slightly-trade-choppy-ahead-inflation-data"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株高で半導体関連が上昇",
+     "detail": "米ハイテク株高を受け半導体関連に買いが入り、一時600円超上昇。ただ4万円を前に上げ幅を縮め、終値39,667.07円(+493.92円)で大幅3日続伸。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/61512"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-27": {
+  "us": {
+   "items": [
+    {
+     "title": "PCE発表待ちの小動き",
+     "detail": "主要3指数は小幅高。景気減速を示唆する経済指標が相次ぎ、翌日のPCE物価指数を控えて様子見ムードだった。S&P500は5,482.87。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://briefing.com/stock-market-update/archive/2024/6/27/closing-summary-"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "マイクロン時間外安で半導体株に売り",
+     "detail": "米株高にもかかわらず、引け後に決算を発表したマイクロンが時間外で大きく下げ、半導体株中心に売り。為替介入への警戒も重しとなり、日経平均は325円53銭安の39,341.54円で4営業日ぶりに反落した。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/143273"
+     }
+    }
+   ]
+  }
+ },
+ "2024-06-28": {
+  "us": {
+   "items": [
+    {
+     "title": "討論会後の政治不透明感と大型ハイテク安",
+     "detail": "序盤の上昇が失速し、PCEなど物価指標が想定内だったことや大統領選討論会後の不透明感が重しに。マイクロソフト、アップル、アルファベット、アマゾン、メタが下落しS&P500は-0.41%の5,460.48。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(XM)",
+      "url": "https://xm.com/research/markets/allNews/reuters/wall-street-ends-lower-as-investors-digest-inflation-data-presidential-debate-53870788"
+     }
+    },
+    {
+     "title": "上半期の総括",
+     "detail": "上半期はナスダックが+18.1%、S&P500が+14.5%、ダウは+3.8%とAI人気を背景にハイテク主導だった。",
+     "direction": "flat",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-6282024-111529942"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安が1ドル161円超まで進行",
+     "detail": "円安が追い風となり、日経平均は反発して39,583.08円(+241.54円、+0.61%)で引け、6月は前月末比2.84%高で2カ月連続の上昇となった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202406280892/"
+     }
+    }
+   ]
+  }
+ }
+}
