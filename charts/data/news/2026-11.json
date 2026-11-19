@@ -527,8 +527,35 @@
    ]
   },
   "us": {
-   "items": [],
-   "note": "報道を確認できず"
+   "items": [
+    {
+     "title": "S&P500は-2.02%で6日続落、ダウは1,101ドル安",
+     "detail": "利上げ観測が重荷となり全業種が下落、S&P500採用銘柄の9割超が下げたと報じられた。VIXは28.44まで上昇。",
+     "direction": "down",
+     "source": {
+      "label": "YourNews(報道)",
+      "url": "https://yournews.com/2026/11/19/7274761/dow-plunges-1101-points-as-wall-street-selloff-overshadows-anthropics/"
+     }
+    },
+    {
+     "title": "アンソロピックが上場、初値は公開価格の34%高も引けは+17%",
+     "detail": "公開価格83ドル、初値111.50ドル、終値97.17ドル。ナスダックも高く始まった後に下げに転じた。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo Finance(報道)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-shares-open-34-above-170830708.html"
+     }
+    },
+    {
+     "title": "メキシコペソが17か月ぶり安値、新興国通貨に売り",
+     "detail": "FOMC議事要旨で追加の引き締めが見込まれたことなどが理由と報じられた。金・銀も下落。",
+     "direction": "down",
+     "source": {
+      "label": "Bloomberg(報道)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/mexican-peso-hits-17-month-low-as-fed-outlook-rattles-markets"
+     }
+    }
+   ]
   }
  }
 }
