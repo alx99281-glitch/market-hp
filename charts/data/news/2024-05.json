@@ -1,4 +1,102 @@
 {
+ "2024-05-01": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMCとパウエル議長会見で利下げ期待後退",
+     "detail": "FOMCは政策金利を据え置き。パウエル議長は次の一手が利上げとはなりにくいと述べたが、利下げ観測が後退し、S&P500・ナスダックは下落して終えた。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo!ファイナンス(ロイター)",
+      "url": "https://au.finance.yahoo.com/news/us-stocks-p-500-ends-200037287.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株安とFOMC待ちで反落",
+     "detail": "日経平均は131円安の38,274円(-0.34%)。前日の米株安を受けた売りに加え、FOMC結果発表を控えて様子見ムードが広がった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405011121/"
+     }
+    },
+    {
+     "title": "レーザーテックが決算で14%超高",
+     "detail": "決算を手がかりにした個別物色が活発で、レーザーテックは14%超上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405011121/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-02": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC通過後の安心感で反発",
+     "detail": "FOMCの翌日、Fedの利下げ開始が遅れるとの見方で売られた分を取り戻す形で主要3指数が上昇。S&P500は約0.9%高、ナスダックは約1.5%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(ABC News)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-522024-109883368"
+     }
+    },
+    {
+     "title": "パウエル議長が利上げ観測を打ち消し",
+     "detail": "パウエル議長が次の一手が利上げになる可能性は低いと述べたことが、相場の下支えになった。",
+     "direction": "up",
+     "source": {
+      "label": "inkl(Stock Market Today)",
+      "url": "https://www.inkl.com/news/stock-market-today-stocks-gain-as-powell-nixes-rate-hikes-apple-on-deck"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "大型連休前のポジション調整売り",
+     "detail": "日経平均は小幅続落し、終値は38,236円(-0.10%)。大型連休を前にしたポジション調整の売りが目立った。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405021137/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-03": {
+  "us": {
+   "items": [
+    {
+     "title": "アップルが1,100億ドルの自社株買い",
+     "detail": "アップルが約1,100億ドルの自社株買いを発表して株価が急伸し、指数を押し上げた。ナスダックは約2%高。",
+     "direction": "up",
+     "source": {
+      "label": "AP(WTOP転載)",
+      "url": "https://wtop.com/news/2024/05/how-major-us-stock-indexes-fared-friday-5-3-2024"
+     }
+    },
+    {
+     "title": "4月雇用統計が予想を下回る",
+     "detail": "非農業部門雇用者数は17.5万人増で予想の24万人を下回り、失業率は3.9%に上昇。債券利回りが低下し、年内の利下げ期待が強まった。",
+     "direction": "up",
+     "source": {
+      "label": "トレーディングビュー(ロイター)",
+      "url": "https://fr.tradingview.com/news/reuters.com,2024:newsml_L1N3HD2S5:0-wall-street-closes-mixed-but-higher-for-the-week"
+     }
+    }
+   ]
+  }
+ },
  "2024-05-06": {
   "us": {
    "items": [

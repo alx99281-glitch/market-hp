@@ -1,4 +1,134 @@
 {
+ "2024-04-15": {
+  "us": {
+   "items": [
+    {
+     "title": "中東情勢と米金利上昇",
+     "detail": "イスラエルとイランの緊張に加え、米国債利回りが急上昇し、早い時間の上昇分を失って下落。S&P500は1.20%安、ナスダックは1.79%安。",
+     "direction": "down",
+     "source": {
+      "label": "ジービズ(ロイター)",
+      "url": "https://www.zeebiz.com/markets/global-markets/news-us-stock-market-news-stocks-close-lower-as-middle-east-tensions-treasury-yields-weigh-284374"
+     }
+    },
+    {
+     "title": "アップルが2%超下落",
+     "detail": "アップルが2.19%安となり、S&P500の主な押し下げ要因になった。",
+     "direction": "down",
+     "source": {
+      "label": "ジービズ(ロイター)",
+      "url": "https://www.zeebiz.com/markets/global-markets/news-us-stock-market-news-stocks-close-lower-as-middle-east-tensions-treasury-yields-weigh-284374"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安と中東緊迫で反落",
+     "detail": "日経平均は291円安の39,233円(-0.74%)。前週末の米株安と中東情勢の緊迫化で朝方は700円超安となったが、買い戻しで下げ幅を縮めた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404150903/"
+     }
+    },
+    {
+     "title": "半導体関連が売られる",
+     "detail": "アドバンテストや東京エレクトロンなど半導体関連株が売られた。",
+     "direction": "down",
+     "source": {
+      "label": "ゲントウシャGO",
+      "url": "https://gentosha-go.com/articles/-/59636"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-16": {
+  "us": {
+   "items": [
+    {
+     "title": "パウエル議長が利下げ慎重姿勢",
+     "detail": "パウエル議長が金利を高めに維持する必要があるかもしれないと発言。2年債利回りは一時5%に上昇。ダウは0.2%高、S&P500は0.2%安とまちまち。",
+     "direction": "down",
+     "source": {
+      "label": "シェアキャスト",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close--16609733.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安と長期金利上昇で全面安",
+     "detail": "日経平均は762円安の38,471円(-1.94%)。前日の米ハイテク株の大幅安と米長期金利の約5カ月ぶりの高水準が重しに。プライム銘柄の約89%が下落し、半導体株の下げが目立った。",
+     "direction": "down",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_894713_202404161943/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-17": {
+  "us": {
+   "items": [
+    {
+     "title": "ASMLの受注が予想下回り半導体株安",
+     "detail": "半導体製造装置ASMLの受注が予想を下回り、半導体株が下落。ナスダックは約1.1%、S&P500は約0.6%下げた。",
+     "direction": "down",
+     "source": {
+      "label": "マーケットビート(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-wednesday-4172024-2024-04-17"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "高値警戒の利益確定売り、安値引け",
+     "detail": "日経平均は509円安の37,962円(-1.32%)で3日続落、安値引け。米利下げ観測の後退と地政学リスクが重しで、半導体関連の一角が下げた。TOPIXは1.26%安。",
+     "direction": "down",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://s.minkabu.jp/news/4491525"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-18": {
+  "us": {
+   "items": [
+    {
+     "title": "インフレ懸念でS&P500は5日続落",
+     "detail": "S&P500は約0.2%安で5日続落(昨年10月以来の長さ)。インフレが鈍化しないとの懸念が重しに。フィラデルフィア連銀の製造業指数は予想より強かった。",
+     "direction": "down",
+     "source": {
+      "label": "マーケットビート(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-4182024-2024-04-18/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株が下げ止まり押し目買い",
+     "detail": "日経平均は118円高の38,080円で4日ぶり反発。一時300円超下げたが、半導体株が下げ止まるとプラスに転じた。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_895125_202404181158/"
+     }
+    }
+   ]
+  }
+ },
  "2024-04-19": {
   "jp": {
    "items": [
@@ -40,6 +170,71 @@
      "source": {
       "label": "Barchart",
       "url": "https://www.barchart.com/story/news/25451897/stocks-end-sharply-lower-on-war-jitters-in-the-middle-east"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-22": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が6連敗を止め反発",
+     "detail": "S&P500は0.87%高の5,010.60で6営業日続いた連敗に終止符。ダウは0.67%高、ナスダックは1.11%高。",
+     "direction": "up",
+     "source": {
+      "label": "Star(米国株式まとめ)",
+      "url": "https://www.thestar.com.my/news/world/2024/04/23/us-stocks-close-higher"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前週末の1,000円超下落の反動買い",
+     "detail": "日経平均は370円高の37,439円(+1.00%)。前週末に1,000円超下げた反動で買い戻しが入った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404221080/"
+     }
+    },
+    {
+     "title": "東京エレクトロンなど半導体株が軟調",
+     "detail": "指数寄与度の高い半導体関連が軟調で、東京エレクトロンを筆頭に上げ幅を抑えた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404221080/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-23": {
+  "us": {
+   "items": [
+    {
+     "title": "決算とメガキャップ期待で反発続く",
+     "detail": "S&P500は1.2%高の5,070.55。6営業日続いた連敗を止めた前日に続いて上昇。大手企業の好決算とマグニフィセント・セブンへの期待が買いを誘った。",
+     "direction": "up",
+     "source": {
+      "label": "Star(ロイター)",
+      "url": "https://www.thestar.com.my/news/world/2024/04/24/us-stocks-close-higher"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "欧米株高も半導体株が重く小幅高",
+     "detail": "日経平均は113円高の37,552円(+0.30%)。欧米株高でリスク選好は続いたが、半導体主力株が軟調で上値は重く、一時はマイナス圏に沈んだ。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404230991/"
      }
     }
    ]
@@ -105,6 +300,113 @@
      "source": {
       "label": "sbbit(市況)",
       "url": "https://www.sbbit.jp/article/refers/138976"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-26": {
+  "us": {
+   "items": [
+    {
+     "title": "アルファベットとマイクロソフトの決算",
+     "detail": "アルファベットは決算と初の配当で株価が急伸し、マイクロソフトとともに市場を押し上げた。ナスダックは約2%高。",
+     "direction": "up",
+     "source": {
+      "label": "マーケットビート(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-friday-4262024-2024-04-26"
+     }
+    },
+    {
+     "title": "強いインフレ指標をハイテク決算が相殺",
+     "detail": "インフレ指標が強めだったが、大手ハイテクの決算がそれを上回り、S&P500は約1%上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Moomoo",
+      "url": "https://www.moomoo.com/news/post/37251036/s-p-500-gains-and-losses-today-resmed-soars-amid"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀が政策維持、円安進行",
+     "detail": "昼休み中に日銀が現状維持を決定。後場に上げ幅が広がり、為替は156円台へ円安が進行。輸出関連や半導体、不動産、海運株が買われ、終値は37,935円(+0.81%)。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404260987/"
+     }
+    },
+    {
+     "title": "前日の大幅安の反動",
+     "detail": "前日25日は800円超下げており、その反動も出た。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404260987/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-29": {
+  "us": {
+   "items": [
+    {
+     "title": "Q1決算期待と利回り低下",
+     "detail": "決算への期待と企業の好材料、債券利回りの低下が支えとなり小幅高。ただし大型ハイテク株の弱さが上値を抑えた。FOMCを控え値動きは限定的だった。",
+     "direction": "up",
+     "source": {
+      "label": "Quartz(AP)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-monday-4-29-2024-1851443957"
+     }
+    }
+   ]
+  }
+ },
+ "2024-04-30": {
+  "us": {
+   "items": [
+    {
+     "title": "インフレ懸念で利下げ観測が後退",
+     "detail": "S&P500は約1.6%安、ダウは1.5%安、ナスダックは約2%安。根強いインフレでFedが高金利を長く維持するとの懸念から債券利回りが上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "AP(グローブ・アンド・メール転載)",
+      "url": "https://www.theglobeandmail.com/investing/markets/commodities/ZTM22/pressreleases/25856875/how-major-us-stock-indexes-fared-tuesday-4302024/"
+     }
+    },
+    {
+     "title": "ダウは4月に5%下落",
+     "detail": "ダウは4月に約5%下げ、2022年9月以来の月間下落率となった(取引終了前のCNBC推計)。",
+     "direction": "down",
+     "source": {
+      "label": "Star(米国株式まとめ)",
+      "url": "https://www.thestar.com.my/news/world/2024/05/01/us-stocks-tumble-to-end-april"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "連休中の米株高と決算物色で大幅続伸",
+     "detail": "日経平均は470円高の38,405円(+1.24%)。連休中の米国株上昇を受けて朝方から買いが先行し、決算発表が本格化して個別株の物色も強まった。TOPIXは2.11%高。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_897031_202404301933/"
+     }
+    },
+    {
+     "title": "日銀の政策維持で円安基調",
+     "detail": "日銀が金融政策を維持し円安基調が続くとの見方が、輸出株を支えたと報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "OANDA証券",
+      "url": "https://www.oanda.jp/lab-education/market_news/mn_897031_202404301933/"
      }
     }
    ]
