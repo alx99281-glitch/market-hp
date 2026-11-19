@@ -109,5 +109,135 @@
     }
    ]
   }
+ },
+ "2024-02-26": {
+  "us": {
+   "items": [
+    {
+     "title": "週内の物価指標を控え小幅安",
+     "detail": "S&P500は0.4%安の5,069.53。前週のAI株高から、週内発表のインフレ指標へ関心が移り、金利上昇も重しとなった。大型ハイテクの下げが他の上昇を相殺した。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(Reuters)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-02-26/equities-close-slightly-lower-focus-shifts-data"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日経平均が続伸、取引時間中・終値とも最高値",
+     "detail": "135.03円高の3万9233円71銭で、日中は一時290円近く上昇した。上値は抑えられた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402260901/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-02-27": {
+  "us": {
+   "items": [
+    {
+     "title": "消費者信頼感の悪化で方向感に乏しい展開",
+     "detail": "コンファレンスボードの2月消費者信頼感指数が予想以上に低下し、指数はほぼ横ばいで終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(Kitco)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-02-27/stocks-pause-key-inflation-data-eyed"
+     }
+    },
+    {
+     "title": "アップルはAI投資の報道で上昇",
+     "detail": "アップルがAI分野に資金を振り向けたとの報道で買われた。",
+     "direction": "up",
+     "source": {
+      "label": "RTHK",
+      "url": "https://news.rthk.hk/rthk/en/component/k2/1742135-20240228.htm"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米半導体株高で最高値更新、小幅続伸",
+     "detail": "日中は史上最高値を更新したが、終値は5.81円高の3万9239円52銭とほぼ横ばい。1月の全国コアCPIは前年同月比2.0%上昇と予想を上回り、銀行株などにも買いが向かった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402271040/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-02-28": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株安で小幅下落",
+     "detail": "S&P500は0.2%安の5,069.76、ダウは0.1%安、ナスダックは約0.5%安。ハイテク株の下落が重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "Quartz(AP)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-wednesday-2-28-2024-1851295125"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "過熱感と月末のリバランス売りで4営業日ぶり反落",
+     "detail": "短期的な上昇による過熱感や月末のリバランスに絡む売りが意識され、31.49円安の3万9208円03銭で反落した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402281152/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-02-29": {
+  "us": {
+   "items": [
+    {
+     "title": "1月PCEは予想どおり、安心感が広がる",
+     "detail": "FRBが重視するPCE物価は目標の2%を上回ったが予想と一致し、S&P500は0.52%高の5,096.27、ナスダックは0.90%高でともに最高値で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2024/02/28/stock-market-today-live-updates.html"
+     }
+    },
+    {
+     "title": "2月は4カ月連続の月間上昇",
+     "detail": "AI関連のハイテク株主導で、主要指数は2月まで4カ月連続で上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/02/29/wall-street-clocks-4th-straight-monthly-win"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安と日銀の政策正常化観測で売り先行",
+     "detail": "売りが先行し一時331円安となったが、後場に下げ渋り、41.84円安の3万9166円19銭で終えた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402291175/"
+     }
+    }
+   ]
+  }
  }
 }

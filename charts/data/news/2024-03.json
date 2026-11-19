@@ -1,4 +1,217 @@
 {
+ "2024-03-01": {
+  "us": {
+   "items": [
+    {
+     "title": "AI・半導体株高でS&P500とナスダックが最高値",
+     "detail": "S&P500は0.8%高の5,137.08、ナスダックは1.1%高。AMDは5.25%高、フィラデルフィア半導体指数は4.29%高で最高値となった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(Reuters)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-03-01/sp-500-nasdaq-close-fresh-records-ai-boost-easing-yields"
+     }
+    },
+    {
+     "title": "デル急騰、長期金利は低下",
+     "detail": "デルは業績見通しが予想を上回り31.6%高。2月のISM製造業景況指数は47.8と悪化し、金利低下が株高を後押しした。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(Reuters)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-03-01/sp-500-nasdaq-close-fresh-records-ai-boost-easing-yields"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株買いで700円超の大幅反発",
+     "detail": "半導体関連株が買われ、日経平均は744.63円高(+1.90%)の3万9910円82銭。一時3万9990円まで上昇し、4万円に迫った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403011039/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-04": {
+  "us": {
+   "items": [
+    {
+     "title": "最高値から反落、パウエル議長の議会証言待ち",
+     "detail": "S&P500は0.12%安の5,130.95、ナスダックは0.41%安。AI関連が堅調でも全体は小幅安で、週内のパウエル議長の議会証言を控えた。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-sp-500-and-nasdaq-composite-fall-from-record-highs--16374553.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株主導で初の4万円台、終値でも最高値",
+     "detail": "日経平均は取引時間中に初めて4万円を突破し、終値は198.41円高の4万109円23銭と最高値を更新した。半導体関連が牽引した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403041053/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-05": {
+  "us": {
+   "items": [
+    {
+     "title": "アップルなど大型ハイテク株が下落",
+     "detail": "アップルなどメガキャップ株が重しとなり、S&P500は1.02%安の5,078.65、ナスダックは1.65%安と、約3週間ぶりの大幅安となった。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-lower-apple-weighs-on-major-indices--16382086.html"
+     }
+    },
+    {
+     "title": "テスラ安",
+     "detail": "ベルリン工場の火災による操業停止が報じられ、テスラ株が下落した。下落率は報道により異なる。",
+     "direction": "down",
+     "source": {
+      "label": "Newser(AP)",
+      "url": "https://img1-azrcdn.newser.com/story/347316/wall-street-just-had-its-worst-day-in-weeks.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "4万円台を維持も小幅続落",
+     "detail": "寄り後に4万円台を保ち高値4万226円まで上昇したが、引けにかけて値を消し、11.60円安の4万97円63銭で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403051138/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-06": {
+  "us": {
+   "items": [
+    {
+     "title": "パウエル議長の議会証言で利下げ期待",
+     "detail": "下院証言で議長が年内の利下げに言及し、S&P500は0.51%高の5,104.76、ナスダックは0.58%高と、2日続落から反発した。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/us-shares-end-higher-treasury-yields-dip-as-powell-gives-rate-cut-assurances-3325837"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安を受け安く始まるも押し目買い",
+     "detail": "前日の米株安で寄り付きは下落、一時330円近く下げたが半導体関連が下支えし、6.85円安の4万90円78銭とほぼ横ばいで終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403061181/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-07": {
+  "us": {
+   "items": [
+    {
+     "title": "パウエル議長が議会証言で利下げに前向き",
+     "detail": "議長は上院証言で、利下げに必要な確信を得るまで「遠くない」と述べ、利下げ期待が強まった。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com(Reuters)",
+      "url": "https://investing.com/news/stock-market-news/wall-street-rallies-sp-500-posts-record-closing-high-3328141"
+     }
+    },
+    {
+     "title": "エヌビディアなどハイテク主導でS&P500が最高値",
+     "detail": "S&P500は1.03%高の5,157.36で最高値、ナスダックは1.51%高。エヌビディアは約4.5%上昇し、IT・通信サービスが上昇を主導した。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com(Reuters)",
+      "url": "https://investing.com/news/stock-market-news/wall-street-rallies-sp-500-posts-record-closing-high-3328141"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の政策修正報道で円高、反落",
+     "detail": "寄り付き直後は4万472円まで上昇し最高値を更新したが、日銀のマイナス金利解除前倒し観測で円高が進み下落に転じた。終値は492円安の3万9598円71銭。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403071299/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-08": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが急反転しナスダックが1.2%安",
+     "detail": "エヌビディアは一時約5%高まで買われた後に反落し、ハイテク株全般が下落。S&P500とナスダックは最高値を付けた後に下げて終えた。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters(Kontan)",
+      "url": "https://english.kontan.co.id/news/us-stocks-wall-street-slips-from-records-with-nasdaq-leading-declines"
+     }
+    },
+    {
+     "title": "2月雇用統計は強弱まちまち",
+     "detail": "非農業部門雇用者数は27.5万人増と予想の約20万人を上回った一方、賃金の伸びは予想を下回った。長期金利は低下した。",
+     "direction": "flat",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/economy/futures-steady-before-key-payrolls-test-3330322"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高を受け半導体株に買い戻し",
+     "detail": "前日の米国株高で半導体株などに買いが入り、日経平均は90.23円高の3万9688.94円と4日ぶり反発。一時4万円に迫った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403080999/"
+     }
+    },
+    {
+     "title": "メジャーSQ算出日で引けにかけ上げ幅縮小",
+     "detail": "週末要因もあり利益確定売りに押され、上げ幅を縮めた。日銀のマイナス金利解除観測で銀行株は堅調だった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403080999/"
+     }
+    }
+   ]
+  }
+ },
  "2024-03-11": {
   "us": {
    "items": [
@@ -22,6 +235,89 @@
      "source": {
       "label": "sbbit(市況)",
       "url": "https://www.sbbit.jp/article/refers/135561"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-12": {
+  "us": {
+   "items": [
+    {
+     "title": "2月CPIは予想上振れも市場は織り込み",
+     "detail": "CPIは前月比0.4%、前年比3.2%と予想の3.1%を上回ったが、投資家は反応を限定し、利下げ観測も維持された。",
+     "direction": "flat",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/economy/sp-500-posts-record-high-close-as-oracle-jumps-traders-keep-ratecut-bets-3333584"
+     }
+    },
+    {
+     "title": "オラクルが決算好感で約12%急騰",
+     "detail": "クラウド事業の伸びで決算が予想を上回り、オラクルが急伸。S&P500は1.12%高で最高値を更新、ナスダックは1.54%高。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/economy/sp-500-posts-record-high-close-as-oracle-jumps-traders-keep-ratecut-bets-3333584"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安を受け半導体株が売られる",
+     "detail": "前日の米ハイテク株安を嫌気し半導体関連が下落、一時549円安まで売られたが、後場に下げ幅を縮め22.98円安の3万8797.51円。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403120983/"
+     }
+    },
+    {
+     "title": "日銀総裁の国会答弁はサプライズなし",
+     "detail": "植田総裁の答弁は市場には驚きとならず、米CPI発表を控えたポジション調整が中心だった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403120983/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-13": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株の利食いでS&P500が小反落",
+     "detail": "S&P500は前日の最高値から0.19%安の5,165.31、ナスダックは0.54%安。半導体株の利益確定が重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "Investing.com(Reuters)",
+      "url": "https://investing.com/news/stock-market-news/wall-street-ends-mostly-lower-as-chipmakers-ease-inflation-data-ahead-3335449"
+     }
+    },
+    {
+     "title": "翌日の物価・小売指標を控え様子見",
+     "detail": "翌14日朝にPPIと小売売上高の発表を控え、投資家は慎重だった。ダウは小幅に上昇して3日続伸。",
+     "direction": "flat",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/03/13/nasdaq-s-p-500-settle-lower-ahead-of-big-data-release"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "春闘の賃上げ回答で日銀の政策修正観測",
+     "detail": "大企業の春闘で賃上げ回答が相次ぎ、18〜19日の日銀会合を前に政策修正への思惑が強まった。日経平均は101.54円安の3万8695.97円で3日続落。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403131063/"
      }
     }
    ]
