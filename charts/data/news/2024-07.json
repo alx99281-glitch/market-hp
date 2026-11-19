@@ -1,4 +1,259 @@
 {
+ "2024-07-03": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体値がさ株が指数を押し上げ",
+     "detail": "東京エレクトロン、TDK、アドバンテストの3銘柄だけで日経平均を約180円押し上げ、終値は506円高の4万0580円76銭。",
+     "direction": "up",
+     "source": {
+      "label": "時事通信(Kabutan等で確認)",
+      "url": "https://gentosha-go.com/articles/-/61693"
+     }
+    },
+    {
+     "title": "米株高と円安が追い風",
+     "detail": "前日の米株高と1ドル=161円台後半の円安を背景に、海外投資家の買いがハイテクに流入した。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎GO",
+      "url": "https://gentosha-go.com/articles/-/61693"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "弱めの経済指標で利下げ期待",
+     "detail": "指標が下振れして利下げ期待が強まり、ハイテク株主導でS&P500とナスダックが最高値で終えた(午後1時までの短縮取引)。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(XM配信)",
+      "url": "https://xm.com/es/research/markets/allNews/reuters/sp-500-nasdaq-post-record-closing-highs-as-data-stokes-hope-for-rate-cut-53873563"
+     }
+    }
+   ]
+  }
+ },
+ "2024-07-04": {
+  "jp": {
+   "items": [
+    {
+     "title": "外国人買い復活で終値ベースの最高値",
+     "detail": "日経平均は5連騰で40,913.65円(+0.82%)となり、3月の終値最高値を更新。TOPIXも34年7カ月ぶりに最高値を付けた。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信",
+      "url": "https://abcnews.go.com/US/wireStory/japans-nikkei-225-benchmark-closes-fresh-record-high-111667250"
+     }
+    }
+   ]
+  }
+ },
+ "2024-07-05": {
+  "jp": {
+   "items": [
+    {
+     "title": "最高値更新の反動で利益確定売り",
+     "detail": "前日の最高値更新の反動で売りが優勢となり、終値は1円28銭安の4万0912円37銭。自動車株の下落も指数を押し下げた。",
+     "direction": "flat",
+     "source": {
+      "label": "幻冬舎GO",
+      "url": "https://gentosha-go.com/articles/-/61764"
+     }
+    },
+    {
+     "title": "米雇用統計を前に様子見",
+     "detail": "夜の米雇用統計を控え様子見姿勢が強く、下値は堅かった。",
+     "direction": "flat",
+     "source": {
+      "label": "幻冬舎GO",
+      "url": "https://gentosha-go.com/articles/-/61764"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "雇用統計で9月利下げ観測",
+     "detail": "6月の雇用者増は予想を上回ったが5月からは減速し、長期金利が低下。S&P500とナスダックが最高値で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-752024-111703569"
+     }
+    }
+   ]
+  }
+ },
+ "2024-07-08": {
+  "jp": {
+   "items": [
+    {
+     "title": "利益確定売りとETF分配金の売り",
+     "detail": "4万1000円超で利益確定売りが出て反落。ETF分配金捻出の売り(1兆円強の見込み)も上値を抑え、終値は131円67銭安の4万0780円70銭。",
+     "direction": "down",
+     "source": {
+      "label": "tbladvisory",
+      "url": "https://tbladvisory.com/?p=25634"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "パウエル証言・CPI・決算を前に小動き",
+     "detail": "S&P500は0.1%高で最高値を更新。半導体株は堅調(エヌビディアなど)だったが、通信サービス業種が下げ、指数は小幅にとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "AP通信",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-782024-111759196"
+     }
+    }
+   ]
+  }
+ },
+ "2024-07-09": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク高・半導体株が指数を押し上げ",
+     "detail": "前日の米市場でナスダックが最高値を更新し、SOX指数も2%近く上昇。値がさ半導体株が買われ、799円47銭高の4万1580円17銭と最高値更新。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/144072"
+     }
+    },
+    {
+     "title": "国内金利低下と米先物高",
+     "detail": "国内長期金利の低下と時間外の米株先物高も支えとなり、パウエル議長の証言前の様子見ムードの中で『意外高』となった。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/144072"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "パウエル議長の議会証言",
+     "detail": "証言は利下げ時期について目新しい示唆は乏しかったが、『良好なデータが続けば利下げの根拠が強まる』との趣旨で、S&P500とナスダックは最高値。ダウは小幅安。",
+     "direction": "flat",
+     "source": {
+      "label": "AP通信",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-792024-111789861"
+     }
+    }
+   ]
+  }
+ },
+ "2024-07-10": {
+  "jp": {
+   "items": [
+    {
+     "title": "円安と海外勢の買いで最高値連日更新",
+     "detail": "円安による業績改善期待と海外勢とみられる買いに支えられ、251円82銭高の4万1831円99銭で最高値を2日連続で更新。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(幻冬舎GO)",
+      "url": "https://gentosha-go.com/articles/-/61919"
+     }
+    },
+    {
+     "title": "米ナスダック6連騰と利下げ期待",
+     "detail": "前日の米株でナスダックが6連騰して最高値を更新し、米利下げ期待も好感された。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎GO",
+      "url": "https://gentosha-go.com/articles/-/61919"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "パウエル議長の発言が穏健と受け止め",
+     "detail": "インフレが2%へ持続的に向かうとはまだ断定できないとしつつ『ある程度の確信』と述べ、市場はタカ派的でないと受け止めて9月利下げ観測が強まった。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信/Reuters",
+      "url": "https://xm.com/research/markets/allNews/reuters/nvidia-leads-nasdaq-and-sp-500-to-record-high-closes-53878011"
+     }
+    },
+    {
+     "title": "エヌビディアなどAI関連高",
+     "detail": "エヌビディアが2〜3%上昇して3週間ぶり高値。アップルも最高値を付け、10年債利回り低下(4.28%)も株価を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP通信/Reuters",
+      "url": "https://xm.com/research/markets/allNews/reuters/nvidia-leads-nasdaq-and-sp-500-to-record-high-closes-53878011"
+     }
+    }
+   ]
+  }
+ },
+ "2024-07-11": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体・ハイテク株中心に買い、4万2000円台",
+     "detail": "3日続伸し、392円高の4万2224円02銭と初めて4万2000円台で引け、最高値を3日連続で更新。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/144246"
+     }
+    },
+    {
+     "title": "円安(161円台)とパウエル証言後の米株高",
+     "detail": "1ドル161円台の円安と、利下げ期待を高めた米株の連日の最高値が支え。一部で過熱感を指摘する声もあった。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4293194"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "CPIが予想より鈍化し大型ハイテクから資金流出",
+     "detail": "6月CPIが予想を下回り利下げ期待が高まる一方、資金が大型ハイテクから小型株へ移動。ナスダックは約2%下落、S&P500は0.9%安。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters(XM配信)",
+      "url": "https://xm.com/research/markets/allNews/reuters/nasdaq-ends-sharply-lower-as-investors-rotate-out-of-big-tech-53878956"
+     }
+    },
+    {
+     "title": "エヌビディア・テスラ急落",
+     "detail": "エヌビディアは約4〜5.6%安(報道により差)、テスラは約8%安となり指数を押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/stock-market-today-nasdaq-tumbles-despite-soft-cpi-data-nvidia-falls-56-3514786"
+     }
+    },
+    {
+     "title": "小型株が急騰",
+     "detail": "ラッセル2000は3%台の上昇で2022年3月以来の高値。値上がり銘柄は全体の約4分の3に上った。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(XM配信)",
+      "url": "https://xm.com/research/markets/allNews/reuters/nasdaq-ends-sharply-lower-as-investors-rotate-out-of-big-tech-53878956"
+     }
+    }
+   ]
+  }
+ },
  "2024-07-12": {
   "jp": {
    "items": [
