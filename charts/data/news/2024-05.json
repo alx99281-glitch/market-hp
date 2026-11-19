@@ -1,4 +1,241 @@
 {
+ "2024-05-22": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC議事要旨でインフレ警戒",
+     "detail": "議事要旨で一部参加者が必要なら追加引き締めに言及したことが伝わり、午後に売りが強まりS&P500は-0.3%(5,307)。",
+     "direction": "down",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/05/22/stocks-slide-after-fed-minutes-raise-inflation-worries"
+     }
+    },
+    {
+     "title": "エヌビディア決算前の様子見",
+     "detail": "決算発表を控え通常取引では下落、時間外で上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/stock-market-today-sp-500-ends-lower-as-fed-minutes-flag-inflation-jitters-3451153"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算・FOMC議事要旨前のポジション調整",
+     "detail": "両イベントを控えて朝方から売り優勢となり、日経平均は続落(-330円)。",
+     "direction": "down",
+     "source": {
+      "label": "ビジネス+IT(2024/05/22掲載)",
+      "url": "https://www.sbbit.jp/article/refers/140804"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-23": {
+  "us": {
+   "items": [
+    {
+     "title": "強い経済指標と長期金利上昇",
+     "detail": "堅調な経済指標でFRBが高金利を長く続けるとの警戒が強まり、エヌビディア決算の期待を打ち消して3指数とも下落。ダウは約1.5%安。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-05-23/wall-street-tumbles-ai-fervor-dampened-rate-jitters"
+     }
+    },
+    {
+     "title": "エヌビディアが好決算と10分割を発表",
+     "detail": "市場予想を上回る決算と株式分割を発表。S&P500でテクノロジーのみ上昇したが、指数は最高値圏から押し戻された。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us/us-open-stocks-mixed-following-nvidia-earnings-data-points--16832934.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算への期待で半導体買い",
+     "detail": "前日の決算を受けAI投資期待が高まり、後場に39,000円台へ上昇。日経平均は+486円。",
+     "direction": "up",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/60582"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-24": {
+  "us": {
+   "items": [
+    {
+     "title": "ナスダックが最高値、エヌビディアが牽引",
+     "detail": "前日の下げを取り戻しS&P500は+0.70%、ナスダックは最高値を更新。ダウは横ばいで週間では2.3%下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/05/24/nasdaq-scores-record-close-fifth-straight-weekly-win"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米経済指標上振れで利下げ観測後退、米金利上昇",
+     "detail": "前日の米株安を受け一時700円超下落。ディフェンシブ株の買いで下げ幅を縮め、日経平均は-457円で終えた。",
+     "direction": "down",
+     "source": {
+      "label": "幻冬舎ゴールドオンライン",
+      "url": "https://gentosha-go.com/articles/-/60625"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-27": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ナスダック・SOX最高値を受け半導体買い",
+     "detail": "前週末の米国でナスダックとSOX指数が最高値を更新し、半導体関連中心に買われ日経平均は+253円。ただ売買代金は年初来最低水準にとどまった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405270830/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-28": {
+  "us": {
+   "items": [
+    {
+     "title": "10年債利回りが3週間ぶり高水準",
+     "detail": "利回り上昇が相場の重しとなり、S&P500は小幅高(+0.02%)にとどまった。値下がり銘柄が全体の約3分の2。",
+     "direction": "flat",
+     "source": {
+      "label": "Barchart(Nasdaq掲載)",
+      "url": "https://www.nasdaq.com/articles/stocks-see-support-from-chip-stocks-but-t-note-yield-rises"
+     }
+    },
+    {
+     "title": "エヌビディア約6%高、ナスダック最高値",
+     "detail": "半導体株を主導しナスダックが最高値を更新、指数を下支えした。",
+     "direction": "up",
+     "source": {
+      "label": "Newser",
+      "url": "https://www.newser.com/story/350933/nvidia-surges-as-nasdaq-hits-new-high.html"
+     }
+    },
+    {
+     "title": "ヘルスケア株が軟調",
+     "detail": "モデルナが8.1%安となるなどヘルスケアが最も弱い業種だった。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart(Nasdaq掲載)",
+      "url": "https://www.nasdaq.com/articles/stocks-see-support-from-chip-stocks-but-t-note-yield-rises"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米休場で材料難、長期金利上昇でハイテク売り",
+     "detail": "前日の米国がメモリアルデーで休場で手掛かりに乏しく、長期金利上昇を嫌いハイテク株が売られ日経平均は小幅続落(-44円)。金融・電力・海運には買い。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405280856/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-29": {
+  "us": {
+   "items": [
+    {
+     "title": "国債入札と長期金利上昇",
+     "detail": "2年債・5年債入札の需要が弱く10年債利回りは約4.6%と4週間ぶり高水準に上昇。利下げ時期への見方が後退し、S&P500は-0.7%。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Spectrum News)",
+      "url": "https://spectrumlocalnews.com/nys/central-ny/business/2024/05/29/wall-street-wilts-to-trim-its-may-gains-as-dow-drops-400-points"
+     }
+    },
+    {
+     "title": "利回り上昇でダウ約400ドル安",
+     "detail": "金利上昇は公益株などに特に重しとなり、ダウは約1.1%下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(ロイター)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-05-29/wall-st-slides-rate-jitters-drive-bond-yields-higher"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "長期金利が約12年5カ月ぶり高水準、グロース株売り",
+     "detail": "国内長期金利の上昇でグロース株中心に売られ、日経平均は続落(-298円)。値下がり銘柄は約83%に達した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405290973/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-30": {
+  "us": {
+   "items": [
+    {
+     "title": "セールスフォースが急落、大型ハイテクも重し",
+     "detail": "ダウ構成のセールスフォースが約20年ぶりの下落率となり、一部の大型ハイテク株も売られて指数を押し下げた。値上がり銘柄の方が多く、S&P500は-0.60%。",
+     "direction": "down",
+     "source": {
+      "label": "AP(mb.com.ph転載)",
+      "url": "https://mb.com.ph/2024/5/30/most-of-wall-street-rises-but-falls-for-some-big-tech-stocks-drag-indexes-lower"
+     }
+    },
+    {
+     "title": "利下げ観測の後退",
+     "detail": "FRBの金融引き締めが長引くとの懸念が続き、株式を圧迫した。",
+     "direction": "down",
+     "source": {
+      "label": "Barchart(Nasdaq掲載)",
+      "url": "https://www.nasdaq.com/articles/stocks-settle-lower-concern-fed-policy-will-remain-restrictive"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "欧米株安と長期金利上昇で半導体売り",
+     "detail": "前日の欧州株の全面安と米株のリスクオフ、国内外の長期金利上昇で半導体関連が売られ、日経平均は3日続落(-502円)。一時900円超下げた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405300995/"
+     }
+    }
+   ]
+  }
+ },
  "2024-05-31": {
   "us": {
    "items": [
