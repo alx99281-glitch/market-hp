@@ -6398,5 +6398,15 @@
       }
     ],
     "searched_at": "2026-11-19T02:45:14.653961+00:00"
+  },
+  "us:2026-11-18:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-oil/energy-utilities-roundup-market-talk-fcde730a?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-19T16:14:31.383668+00:00"
   }
 }
