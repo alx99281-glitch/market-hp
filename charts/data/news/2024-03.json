@@ -27,6 +27,62 @@
    ]
   }
  },
+ "2024-03-14": {
+  "jp": {
+   "items": [
+    {
+     "title": "朝安から押し目買いでプラス転換",
+     "detail": "前日の米ハイテク株安で寄り付きは約300円安まで売られたが、押し目買いで後場にプラス転換。終値は38,807円(+0.29%)で値上がり銘柄は約75%。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403140830/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "PPIが予想を上回り利回り上昇",
+     "detail": "卸売物価(PPI)が予想を上回り、国債利回りが上昇。ダウ0.35%安、S&P500約0.3%安、ナスダックも下落した。",
+     "direction": "down",
+     "source": {
+      "label": "Zacks",
+      "url": "https://www.zacks.com/amp/stock/news/2240567/stock-market-news-for-mar-14-2024"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-15": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ハイテク株安で半導体株が重荷、小幅反落",
+     "detail": "日経平均は99円安の38,707円(-0.26%)。前日の米ハイテク株売りを受け、東京エレクトロンなど半導体関連が指数を押し下げた。商社・自動車は堅調。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403150936/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "インフレ懸念とトリプルウィッチングで下落",
+     "detail": "3指数とも下落(S&P500は5,127.12、ナスダックは16,033.73)。予想を上回る物価指標への警戒が続き、この日は四半期に一度のオプション等の同時満期日だった。",
+     "direction": "down",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://m.uk.investing.com/news/stock-market-news/us-shares-lower-at-close-of-trade-dow-jones-industrial-average-down-049-3386010?ampMode=1"
+     }
+    }
+   ]
+  }
+ },
  "2024-03-18": {
   "jp": {
    "items": [
@@ -73,6 +129,49 @@
    ]
   }
  },
+ "2024-03-19": {
+  "jp": {
+   "items": [
+    {
+     "title": "日銀がマイナス金利を解除、円安・株高で反応",
+     "detail": "日銀はマイナス金利とYCCの撤廃、ETF・REITの新規買い入れ終了を決定。事前報道どおりで安心感が広がり、日経平均は263円高の40,003円と終値で4万円を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "共同/ロイター系市況",
+      "url": "https://www.sbbit.jp/article/refers/136173"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアが下げから切り返し、3指数が上昇",
+     "detail": "FOMCを前にエヌビディアが序盤の下落から持ち直し、3指数がそろって上昇した(ナスダックは約0.4%高)。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(Investing.com)",
+      "url": "https://investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-083-3344745"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-20": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMCが利下げ見通しを維持、3指数が最高値",
+     "detail": "FRBは金利を据え置き、年内3回の利下げ見通しを維持。S&P500は0.9%高の5,224.62で初めて5,200を超え、ダウは1.03%高、ナスダックは1.3%高でいずれも最高値。",
+     "direction": "up",
+     "source": {
+      "label": "RTHK/Reuters",
+      "url": "https://news.rthk.hk/rthk/en/component/k2/1745545-20240321.htm"
+     }
+    }
+   ]
+  }
+ },
  "2024-03-21": {
   "us": {
    "items": [
@@ -96,6 +195,161 @@
      "source": {
       "label": "かぶたん",
       "url": "https://s.kabutan.jp/news/n202403211090/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-22": {
+  "jp": {
+   "items": [
+    {
+     "title": "円安が支え、終値ベース最高値を更新",
+     "detail": "日経平均は73円高の40,888円で4日続伸、終値で史上最高値。日銀の政策決定後も円安基調が続いたことが株式を支えた。",
+     "direction": "up",
+     "source": {
+      "label": "共同/ロイター系市況",
+      "url": "https://www.sbbit.jp/article/refers/136479"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "週間では今年最大の上昇、当日は横ばい",
+     "detail": "S&P500は0.14%安の5,234.18、ダウは0.77%安、ナスダックは小幅高。週間ではS&P500が2.3%上昇し今年最大の上げとなった。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/us-stocks-p-500-ends-204237597.html"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-25": {
+  "jp": {
+   "items": [
+    {
+     "title": "先週の急伸の反動で利益確定売り",
+     "detail": "日経平均は474円安の40,414円で5営業日ぶりに反落。先週1週間で約2,180円上昇した反動で、プライムの値下がり銘柄は約76%だった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403251122/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "最高値更新の後に小休止",
+     "detail": "3指数とも下落(ダウ約0.4%安、S&P500・ナスダック約0.3%安)。利回り上昇の中、先週の最高値更新後の一服となった。",
+     "direction": "down",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4083424-dow-sp-and-nasdaq-ended-lower-while-yields-advanced-to-start-the-week"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-26": {
+  "jp": {
+   "items": [
+    {
+     "title": "期末の需給調整でもみ合い、小幅続落",
+     "detail": "日経平均は16円安の40,398円(-0.04%)。期末を控えたリバランスなど需給要因で前日終値を挟んだ小動きになった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403261059/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "消費者信頼感が小幅低下、3日続落",
+     "detail": "3月の消費者信頼感指数は104.7と前月から小幅低下。S&P500は0.3%安で3営業日連続の下落、ナスダックは大型株の上昇が終盤に反転して下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP/Kitco",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-03-26/dow-sp-third-straight-session-inflation-data-eyed"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-27": {
+  "jp": {
+   "items": [
+    {
+     "title": "配当権利取りの買いとドル高円安で反発",
+     "detail": "日経平均は364円高の40,762円(+0.90%)。配当権利取りの需給買いと1ドル=151円台後半の円安が支えたが、引けにかけて上げ幅を縮めた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403271012/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "3日続落を脱し、S&P500が最高値",
+     "detail": "ダウは477ポイント(+1.22%)高、S&P500は0.9%高の5,248.49で最高値を更新。物価統計とFRB高官発言に注目が集まる中、続落が止まった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(Reuters配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-03-27/stocks-close-gains-led-dow-investors-look-rate-insight"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-28": {
+  "jp": {
+   "items": [
+    {
+     "title": "配当・優待の権利落ちで反落",
+     "detail": "3月期末の配当・株主優待の権利落ち日で、日経平均は594円安の40,168円(-1.46%)。月末を控えた利益確定売りも出た。",
+     "direction": "down",
+     "source": {
+      "label": "共同/ロイター系市況",
+      "url": "https://www.sbbit.jp/article/refers/136939"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "四半期末にS&P500とダウが最高値",
+     "detail": "S&P500は5,254.35、ダウは39,807.37で終値の最高値を更新、ナスダックは小幅安。S&P500は1〜3月期として2019年以来の大幅高となった。",
+     "direction": "up",
+     "source": {
+      "label": "Reuters(Investing.com)",
+      "url": "https://investing.com/news/economy/futures-rangebound-ahead-of-long-weekend-break-3356318"
+     }
+    }
+   ]
+  }
+ },
+ "2024-03-29": {
+  "jp": {
+   "items": [
+    {
+     "title": "年度末の自律反発で4万円台を維持",
+     "detail": "前日の下落の反動で買いが優勢となり、日経平均は201円高の40,369円。1〜3月の上昇幅は約6,905円と四半期で過去最大。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202403290997/"
      }
     }
    ]

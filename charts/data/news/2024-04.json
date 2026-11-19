@@ -1,4 +1,32 @@
 {
+ "2024-04-01": {
+  "jp": {
+   "items": [
+    {
+     "title": "期初の益出し売りで反落",
+     "detail": "期初の需給要因による利益確定売りで日経平均は566円安の39,803円。日中値幅は990円超と昨年来最大で、寄り付き直後の上昇から売りに転じた。",
+     "direction": "down",
+     "source": {
+      "label": "共同/ロイター系市況",
+      "url": "https://www.sbbit.jp/article/refers/137159"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ISM製造業が予想外の改善、金利上昇で下落",
+     "detail": "ISM製造業景況指数が3月に50.3へ上昇し約1年半ぶりに50超え。10年債利回りが上昇し利下げ期待が後退、ダウとS&Pは下落した(S&P500は約0.2%安)。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters(Investing.com)",
+      "url": "https://investing.com/news/stock-market-news/dow-sp-close-lower-as-manufacturing-data-lifts-yields-3359454"
+     }
+    }
+   ]
+  }
+ },
  "2024-04-02": {
   "us": {
    "items": [
@@ -9,6 +37,19 @@
      "source": {
       "label": "Zacks",
       "url": "https://zacks.com/stock/news/2249472/stock-market-news-for-apr-3-2024"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株が支え、期初の益出しで伸び悩む",
+     "detail": "前日の米ハイテク株高で半導体株が買われ一時340円超高となったが、年度初めの利益確定売りで上げ幅を縮小。終値は39,838.91円(+0.09%)で値下がり銘柄が約8割だった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202404021102/"
      }
     }
    ]
