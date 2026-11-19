@@ -1,4 +1,327 @@
 {
+ "2024-05-06": {
+  "us": {
+   "items": [
+    {
+     "title": "米株が続伸",
+     "detail": "S&P500は約+1%、ナスダック+1.2%(16,349)、ダウ+0.5%(38,852)。前週の上昇に続き、主要指数がそろって上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-monday-562024-109969839"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-07": {
+  "us": {
+   "items": [
+    {
+     "title": "小幅高で落ち着いた相場",
+     "detail": "S&P500は+0.13%の5,187.70で4日続伸、ダウ+0.08%、ナスダック-0.10%。直近の大きな変動の後で取引は落ち着いた(AP)。",
+     "direction": "flat",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-tuesday-572024-110005763"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計の弱さによる米株高で半導体買い",
+     "detail": "日経平均は599円03銭高の38,835円10銭。連休中に米4月雇用統計が予想より弱く長期金利が低下、米株高を受けて半導体・ハイテク株が買われた。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405071167/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-08": {
+  "us": {
+   "items": [
+    {
+     "title": "小動きの膠着相場",
+     "detail": "ダウは172ドル高の39,056.39で6日続伸(2024年で最長)、S&P500はほぼ横ばい、ナスダックは-0.2%。値動きの乏しい一日だった。",
+     "direction": "flat",
+     "source": {
+      "label": "ABC News(AP)",
+      "url": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-582024-110041289"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の大幅高の反動で利益確定売り",
+     "detail": "日経平均は632円73銭安の38,202円37銭で前日の上げ幅を帳消しに。米半導体株安の波及と利益確定売りで半導体関連が下げ、午後にはトヨタの決算も出た。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405081413/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-09": {
+  "us": {
+   "items": [
+    {
+     "title": "弱い新規失業保険申請で利下げ期待",
+     "detail": "週次の雇用指標が弱く利下げ期待が強まり、10年債利回りは4.46%に低下。ダウは331ドル高の39,387.76で7日続伸、S&P500は4月9日以来の5,200台回復。",
+     "direction": "up",
+     "source": {
+      "label": "The Edge Malaysia",
+      "url": "https://theedgemalaysia.com/node/711035"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "先物主導の売りと半導体株安",
+     "detail": "日経平均は128円39銭安の38,073円98銭で続落。先物主導で下値を探り、翌日のオプションSQを前にした売りや日米長期金利上昇への警戒があった。東京エレクトロンとファーストリテイリングで約155円押し下げた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405091410/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-10": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウは8連騰、ミシガン大の消費者心理は低下",
+     "detail": "ダウは125ドル高の39,512.84で8日続伸し、2024年で最良の週に。S&P500は+0.16%、ナスダックは-0.03%。ミシガン大5月速報の消費者信頼感は67.4と6カ月ぶりの低水準。",
+     "direction": "up",
+     "source": {
+      "label": "NBC San Diego",
+      "url": "https://www.nbcsandiego.com/news/business/money-report/stock-futures-are-little-changed-after-dow-notches-seven-day-win-streak-live-updates/3510926/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "3日ぶり反発も買い一巡後は伸び悩み",
+     "detail": "日経平均は155円13銭高の38,229円11銭で3日ぶりに反発したが、買い一巡後は伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405101210/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-13": {
+  "us": {
+   "items": [
+    {
+     "title": "米CPIを前に様子見",
+     "detail": "S&P500はほぼ横ばい、ダウ-0.2%、ナスダック+0.3%。水曜の米インフレ指標を前に動きが乏しく、10年債利回りは4.48%に低下。",
+     "direction": "flat",
+     "source": {
+      "label": "Inquirer(AP)",
+      "url": "https://business.inquirer.net/?p=458661"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀の国債買い入れ減額で警戒、円高進行",
+     "detail": "日経平均は49円65銭安の38,179円46銭。日銀が国債買い入れオペの減額を通知し、正常化への警戒と一時的な円高で一時3万8000円を割り込んだ。米CPIを前に様子見も強かった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405130976/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-14": {
+  "us": {
+   "items": [
+    {
+     "title": "CPI前の期待でナスダック最高値",
+     "detail": "米4月CPIの減速観測から株が上昇し、ナスダックは最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "Barchart",
+      "url": "https://www.barchart.com/story/news/26204138/stocks-settle-higher-on-expectations-for-us-apr-cpi-to-moderate"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "値がさ株が支え、午後に買い戻し反発",
+     "detail": "日経平均は176円60銭高の38,356円06銭。朝方は300円近い上昇から一時マイナス圏に沈んだが、午後に買いが戻った。パウエルFRB議長の講演と米CPIを控え上値は重かった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405141199/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-15": {
+  "us": {
+   "items": [
+    {
+     "title": "米CPIが鈍化しS&P500・ナスダックが最高値",
+     "detail": "4月CPIは前年比+3.4%(3月+3.5%)、コアは+3.6%(同+3.8%)と鈍化。長期金利が低下し利下げ期待が強まり、S&P500は+1.2%の5,308で初めて5,300台に乗せた。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/05/15/indexes-score-record-closes-amid-rate-cut-optimism"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI発表を前に小幅続伸",
+     "detail": "日経平均は29円67銭高の38,385円73銭。15日夜の米CPI発表を前に、方向感の出にくい小幅な動きだった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405151297/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-16": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが一時4万ドルに届くも反落",
+     "detail": "ダウは一時初めて4万ドルを超えたが引けは-0.1%。S&P500は-0.2%、ナスダックは-0.3%と小幅安だった。",
+     "direction": "down",
+     "source": {
+      "label": "2NEWS(AP)",
+      "url": "https://www.2news.com/news/dow-briefly-surpasses-40-000-for-first-time-ends-day-below-record-high/article_a4d311a2-1393-11ef-a9ae-8343d2992259.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI下振れの米株高を受け大幅高",
+     "detail": "日経平均は534円53銭高の38,920円26銭で3日続伸。前日の米4月CPIが予想を下回り米株が最高値を更新、リスク選好の買いが優勢。値がさ株が指数を押し上げたが、円高は自動車株の逆風になった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405161254/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-17": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが初の4万ドル台で引ける",
+     "detail": "ダウは134ドル高の40,003.59で初めて4万ドル台で終値をつけた。S&P500は+0.12%、ナスダックは-0.07%と小動きで、週間ではS&P500が+1.5%。",
+     "direction": "up",
+     "source": {
+      "label": "NBC Chicago",
+      "url": "https://www.nbcchicago.com/news/national-international/dow-futures-are-little-changed-after-blue-chip-average-touches-40000-for-first-time-live-updates/3439256/"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米株安受け利益確定売り",
+     "detail": "日経平均は132円88銭安の38,787円38銭で4日ぶり反落。一時380円安まで下げたが、値頃感からの買いで下げ渋った。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202405170976/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-20": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク主導でナスダック最高値",
+     "detail": "ナスダックは約+0.7%で最高値、S&P500は約+0.1%で最高値手前。エヌビディア決算前にハイテクセクターが買われた(Reuters報道)。",
+     "direction": "up",
+     "source": {
+      "label": "AP(AOL)",
+      "url": "https://www.aol.com/major-us-stock-indexes-fared-201806258.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "約1カ月ぶりに3万9000円台を回復",
+     "detail": "日経平均は282円30銭高の39,069円68銭。寄与度上位は信越化学、ファーストリテイリング、東京エレクトロン。下位はソフトバンクグループ、ダイキン工業。",
+     "direction": "up",
+     "source": {
+      "label": "ゲントウゴー",
+      "url": "https://gentosha-go.com/articles/-/60510"
+     }
+    }
+   ]
+  }
+ },
+ "2024-05-21": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア決算前の静かな相場",
+     "detail": "S&P500は+0.3%で最高値を更新、ナスダックも+0.2%。引け後のエヌビディア決算を控え、取引は落ち着いていた。",
+     "direction": "up",
+     "source": {
+      "label": "Yahoo Finance(AP)",
+      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-202028974.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "エヌビディア決算前に伸び悩み反落",
+     "detail": "日経平均は122円75銭安の38,946円93銭。寄り付きは上昇したが、米エヌビディアの決算を控え上値が重く、3万9000円を割り込んだ。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit)",
+      "url": "https://www.sbbit.jp/article/refers/140696"
+     }
+    }
+   ]
+  }
+ },
  "2024-05-22": {
   "us": {
    "items": [
