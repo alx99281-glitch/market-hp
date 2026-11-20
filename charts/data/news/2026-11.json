@@ -589,6 +589,37 @@
      }
     }
    ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディア-14%、ロイターが「SECの調査は会計に焦点」と報道",
+     "detail": "7週連続安となり、半導体指数(SOX)も-10.7%。マイクロン、AMDも13%超下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Reuters(Investing.com掲載、報道)",
+      "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460"
+     }
+    },
+    {
+     "title": "S&P500は-3.7%で7日続落、ダウとともに調整入り。ナスダックは年初来の上げを失う",
+     "detail": "AI関連の売りが続き、VIXは35台に上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "NBC News(報道)",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+     }
+    },
+    {
+     "title": "アンソロピックは上場2日目に下落、12月利上げ確率は98%台と報道",
+     "detail": "上場初日の+17%の後に反落。CMEのFedWatchで12月利上げ確率98.2%と報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "Korea Times(報道)",
+      "url": "https://www.koreatimes.co.kr/world/20261121/nasdaq-falls-as-anthropic-fails-to-rekindle-ai-optimism"
+     }
+    }
+   ]
   }
  }
 }
