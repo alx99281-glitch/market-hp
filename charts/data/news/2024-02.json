@@ -1,37 +1,173 @@
 {
- "2024-02-08": {
-  "us": {
-   "items": [
-    {
-     "title": "決算とアーム急騰、S&P500は5000に接近",
-     "detail": "アーム・ホールディングスが決算を受け48%急騰、ディズニーも決算が予想を上回り上昇。S&P500は0.06%高と小幅高で、5000の節目に迫った。",
-     "direction": "up",
-     "source": {
-      "label": "Kitco(ロイター配信)",
-      "url": "https://www.kitco.com/news/off-the-wire/2024-02-08/sp-500-nears-5000-mark-earnings-jobs-data-focus"
-     }
-    },
-    {
-     "title": "失業保険申請が減少",
-     "detail": "週次の新規失業保険申請件数は9000件減の21万8000件。政策担当者の利下げ関連の発言にも注目が集まった。",
-     "direction": "flat",
-     "source": {
-      "label": "Kitco(ロイター配信)",
-      "url": "https://www.kitco.com/news/off-the-wire/2024-02-08/sp-500-nears-5000-mark-earnings-jobs-data-focus"
-     }
-    }
-   ]
-  },
+ "2024-02-05": {
   "jp": {
    "items": [
     {
-     "title": "日銀の内田副総裁の発言を受け急反発",
+     "detail": "日経平均は196円14銭高の36,354.16円(+0.54%)。米株高や円安を背景に買いが優勢だった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402050937"
+     },
+     "title": "米株高・円安でリスク選好の買い"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "3月の利下げ期待が後退して売りが再燃。S&P500は-0.3%の4,942.81、ダウは-0.7%、ラッセル2000は-1.3%。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Business Standard転載)",
+      "url": "https://www.business-standard.com/amp/markets/capital-market-news/us-dow-sheds-more-than-270-points-124020600167_1.html"
+     },
+     "title": "パウエル議長発言で3月利下げ期待が後退"
+    },
+    {
+     "detail": "マクドナルドが予想を下回る売上高を発表し、ダウの重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Business Standard転載)",
+      "url": "https://www.business-standard.com/amp/markets/capital-market-news/us-dow-sheds-more-than-270-points-124020600167_1.html"
+     },
+     "title": "マクドナルドの売上高が予想を下回る"
+    }
+   ]
+  }
+ },
+ "2024-02-06": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は193円50銭安の36,160.66円(-0.53%)で3日ぶり反落。米株安を受けた売りが優勢だった一方、トヨタは決算を受け一時5%超高となった。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(SBBIT)",
+      "url": "https://www.sbbit.jp/article/refers/133139"
+     },
+     "title": "米株安を受けた売り、トヨタは決算で上昇"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は+0.2%、ダウは+0.4%、ナスダックは+0.1%と狭いレンジで小幅高。S&P500は前週末の最高値にほぼ戻した。",
+     "direction": "up",
+     "source": {
+      "label": "Yahoo(AP)",
+      "url": "https://ca.news.yahoo.com/major-us-stock-indexes-fared-215013621.html"
+     },
+     "title": "前日の下げから小幅反発"
+    }
+   ]
+  }
+ },
+ "2024-02-07": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は40円74銭安の36,119.92円。前日の米半導体株安が重しとなったが、好決算の自動車・商社などバリュー株は堅調でTOPIXは小幅高。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(SBBIT)",
+      "url": "https://www.sbbit.jp/article/refers/133215"
+     },
+     "title": "米半導体株安で続落、割安株は底堅い"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "フォードやエマソン・エレクトリックなどの好決算が買いを促し、S&P500とダウが終値で最高値をつけた(S&P500は+0.82%)。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-both-dow-and-sp-500-reach-new-highs-as-earnings-impress--16108482.html"
+     },
+     "title": "好決算でS&P500とダウが最高値"
+    }
+   ]
+  }
+ },
+ "2024-02-08": {
+  "jp": {
+   "items": [
+    {
      "detail": "内田副総裁の発言が上昇を後押しし、ソフトバンクグループやファーストリテイリングなど指数寄与度の高い銘柄がけん引。日経平均は743円36銭(2.06%)高の3万6863円28銭と3日ぶりに急反発し、約34年ぶりの高値を更新した。",
      "direction": "up",
      "source": {
       "label": "みんかぶFX(ロイター配信)",
       "url": "https://fx.minkabu.jp/news/290569"
-     }
+     },
+     "title": "日銀の内田副総裁の発言を受け急反発"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "アーム・ホールディングスが決算を受け48%急騰、ディズニーも決算が予想を上回り上昇。S&P500は0.06%高と小幅高で、5000の節目に迫った。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-02-08/sp-500-nears-5000-mark-earnings-jobs-data-focus"
+     },
+     "title": "決算とアーム急騰、S&P500は5000に接近"
+    },
+    {
+     "detail": "週次の新規失業保険申請件数は9000件減の21万8000件。政策担当者の利下げ関連の発言にも注目が集まった。",
+     "direction": "flat",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-02-08/sp-500-nears-5000-mark-earnings-jobs-data-focus"
+     },
+     "title": "失業保険申請が減少"
+    }
+   ]
+  }
+ },
+ "2024-02-09": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は34円14銭高の36,897.42円。アームの好決算でソフトバンクグループが急騰し指数を約128円押し上げたが、連休・週末前で上げ幅は縮んだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402091004"
+     },
+     "title": "アーム好決算でソフトバンクGが急騰"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は+0.6%の5,026.61で初めて5,000を上回って終えた。ナスダックは+1.2%、ダウは約-0.1%。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/02/09/s-p-500-clears-historic-close-as-benchmarks-close-mixed"
+     },
+     "title": "S&P500が初の5,000台で引ける"
+    }
+   ]
+  }
+ },
+ "2024-02-12": {
+  "us": {
+   "items": [
+    {
+     "detail": "ダウは約+0.3%で12回目の最高値更新。S&P500は約-0.1%、ナスダックは約-0.3%で、マイクロソフトやアップルが重しだった。",
+     "direction": "flat",
+     "source": {
+      "label": "Yahoo(AP)",
+      "url": "https://sg.news.yahoo.com/major-us-stock-indexes-fared-211416548.html"
+     },
+     "title": "CPI発表を控えて方向感に欠ける展開"
     }
    ]
   }
@@ -40,202 +176,417 @@
   "jp": {
    "items": [
     {
-     "title": "半導体関連株が買われ大幅続伸",
      "detail": "日経平均は前日比1,066.55円高の37,963.97円(+2.89%)。半導体関連株への買いが相場を押し上げた。",
      "direction": "up",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202402131055/"
-     }
+     },
+     "title": "半導体関連株が買われ大幅続伸"
     }
    ]
   },
   "us": {
    "items": [
     {
-     "title": "1月CPIが予想より強く利下げ期待が後退",
      "detail": "1月の消費者物価が市場予想を上回り、3月の利下げ観測が後退。S&P500は1.4%下落し4,953.17となった。",
      "direction": "down",
      "source": {
       "label": "MarketBeat(AP)",
       "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-2132024-2024-02-13"
-     }
+     },
+     "title": "1月CPIが予想より強く利下げ期待が後退"
     },
     {
-     "title": "長期金利の急上昇で小型株が急落",
      "detail": "米国債利回りが急上昇し、小型株のラッセル2000は4%下落と大きく売られた。",
      "direction": "down",
      "source": {
       "label": "MarketBeat(AP)",
       "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-tuesday-2132024-2024-02-13"
-     }
+     },
+     "title": "長期金利の急上昇で小型株が急落"
+    }
+   ]
+  }
+ },
+ "2024-02-14": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は260円65銭安の37,703.32円で4日ぶり反落。米1月CPIが予想を上回り早期利下げ観測が後退、前の3営業日で1,800円超上げた反動の売りも出た。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402141134/"
+     },
+     "title": "米CPI上振れで利益確定売り"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "1月CPIが前年比3.1%と予想の2.9%を上回った前日の急落(S&P500 -1.37%)から、S&P500は+0.96%の5,000.62、ナスダックは+1.3%と戻した。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-regain-some-of-yesterdays-cpi-fuelled-losses--16196436.html"
+     },
+     "title": "前日のCPI急落からの反発"
+    },
+    {
+     "detail": "前日に約14%上昇したVIXが低下し、警戒感がやや和らいだ。",
+     "direction": "up",
+     "source": {
+      "label": "FXStreet",
+      "url": "https://www.fxstreet.com/amp/news/us-stocks-look-to-rebound-following-tuesdays-sharp-decline-202402141313"
+     },
+     "title": "VIXが約9%低下"
+    }
+   ]
+  }
+ },
+ "2024-02-15": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は454円62銭高の38,157.94円(+1.21%)。朝方から半導体関連が相場をけん引し、終値で3万8000円を34年ぶりに上回った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402151094"
+     },
+     "title": "半導体株が主導し終値で3万8000円を突破"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "小売売上高が予想を下回り、利下げ観測が戻った。S&P500は+0.58%の5,029.73で終値の最高値、ダウは+0.91%。",
+     "direction": "up",
+     "source": {
+      "label": "Technews",
+      "url": "https://finance.technews.tw/2024/02/16/u-s-stock-0215/"
+     },
+     "title": "小売売上高が弱く、利下げ期待が回復"
+    },
+    {
+     "detail": "前日までのインフレ指標による下げ分を主要3指数が取り戻し、S&P500は5,000台を回復した。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/02/15/wall-street-completes-v-shaped-rally-as-bond-yields-soften"
+     },
+     "title": "CPI後の急落を取り戻す"
+    }
+   ]
+  }
+ },
+ "2024-02-16": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は329円30銭高の38,487.24円(+0.86%)。前日の米アプライド・マテリアルズ決算を受けた買いで、取引時間中は史上最高値の38,915円に50円弱まで迫った。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402160932"
+     },
+     "title": "米アプライドの決算を好感、最高値に迫る"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "インフレ関連の数字を受けて利下げ先送りへの警戒が強まり金利が上昇。S&P500は-0.5%の5,005.57、ナスダックは-0.8%。",
+     "direction": "down",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-037-3306729"
+     },
+     "title": "インフレ指標を受けて米長期金利が上昇"
+    },
+    {
+     "detail": "この日は下げたものの、米主要指数は週間ベースで5週連続の上昇で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Anadolu",
+      "url": "https://www.aa.com.tr/en/americas/us-stock-exchanges-rack-up-5-week-winning-streak/3140530"
+     },
+     "title": "5週連続の週間上昇が止まらず"
+    }
+   ]
+  }
+ },
+ "2024-02-19": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は16円86銭安の38,470.38円で反落。前週末の米株安で半導体関連が売られた一方、銀行や商社などバリュー株が買われTOPIXは上昇した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402190999/"
+     },
+     "title": "半導体株に売り、バリュー株が下支え"
+    }
+   ]
+  }
+ },
+ "2024-02-20": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は106円77銭安の38,363.61円で続落(-0.28%)。前日の米国休場で材料に乏しく、決算前で半導体株は様子見だった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402200958"
+     },
+     "title": "米休場で材料難、エヌビディア決算待ち"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "決算発表を前にエヌビディアが4%超下げ、S&P500は-0.6%、ナスダックは-0.9%となった。",
+     "direction": "down",
+     "source": {
+      "label": "Quartz(AP)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-tuesday-2-20-2024-1851272326"
+     },
+     "title": "エヌビディアが4%超下落、ハイテクに売り"
+    },
+    {
+     "detail": "大統領の日の連休明け最初の取引日で、小型株のラッセル2000も約-1.4%と下げた。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-lower-in-first-session-of-holiday-shortened-week--16255156.html"
+     },
+     "title": "米国の3連休明け"
+    }
+   ]
+  }
+ },
+ "2024-02-21": {
+  "jp": {
+   "items": [
+    {
+     "detail": "日経平均は101円45銭安の38,262.16円で3日続落。前日の米ハイテク株安を受け半導体関連が売られ、エヌビディア決算前の警戒感もあった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402211027"
+     },
+     "title": "米ハイテク株安を受け半導体に利益確定売り"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "1月会合の議事要旨が公表され、早期の利下げへの懸念が意識された。S&P500とダウは約+0.1%、ナスダックは-0.3%でまちまち。",
+     "direction": "flat",
+     "source": {
+      "label": "Xinhua(The Star)",
+      "url": "https://www.thestar.com.my/news/world/2024/02/22/us-stocks-end-mixed-after-fomc-minutes"
+     },
+     "title": "FOMC議事要旨で早期利下げ観測に慎重論"
+    },
+    {
+     "detail": "ナスダックは3日続落。決算は取引終了後の発表で、これを待つ姿勢が強かった。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(Yahoo)",
+      "url": "https://sg.finance.yahoo.com/news/us-stocks-p-500-dow-214309508.html"
+     },
+     "title": "エヌビディア決算前の様子見"
     }
    ]
   }
  },
  "2024-02-22": {
-  "us": {
-   "items": [
-    {
-     "title": "エヌビディア急伸でS&P500・ダウが最高値",
-     "detail": "好決算を受けエヌビディアが16%超上昇しAI関連株が買われ、S&P500は2.1%高の5,087.03、ダウは1.2%高で初めて39,000ドル台で引け、ともに最高値を更新した。",
-     "direction": "up",
-     "source": {
-      "label": "MarketBeat(AP)",
-      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-2222024-2024-02-22/"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "日経平均がバブル後の最高値を34年ぶりに更新",
      "detail": "終値は39,098円68銭で前日比836円52銭高。1989年12月の終値ベース最高値(38,915円87銭)を上回った。",
      "direction": "up",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202402221390/"
-     }
+     },
+     "title": "日経平均がバブル後の最高値を34年ぶりに更新"
     },
     {
-     "title": "米エヌビディア好決算で半導体株が上昇",
      "detail": "前日発表の好決算で半導体関連が買われ、円安・ドル高で自動車・機械など輸出株も買われた。",
      "direction": "up",
      "source": {
       "label": "LIMO",
       "url": "https://limo.media/articles/-/54212"
-     }
+     },
+     "title": "米エヌビディア好決算で半導体株が上昇"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "好決算を受けエヌビディアが16%超上昇しAI関連株が買われ、S&P500は2.1%高の5,087.03、ダウは1.2%高で初めて39,000ドル台で引け、ともに最高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "MarketBeat(AP)",
+      "url": "https://www.marketbeat.com/articles/how-major-us-stock-indexes-fared-thursday-2222024-2024-02-22/"
+     },
+     "title": "エヌビディア急伸でS&P500・ダウが最高値"
+    }
+   ]
+  }
+ },
+ "2024-02-23": {
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は5,088.8で+0.03%、ダウは+0.16%の39,131.53で最高値。ナスダックは-0.28%。S&P500は週間で+1.7%だった。",
+     "direction": "flat",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-016-3313641"
+     },
+     "title": "S&P500とダウが最高値を更新、ナスダックは小反落"
     }
    ]
   }
  },
  "2024-02-26": {
-  "us": {
-   "items": [
-    {
-     "title": "週内の物価指標を控え小幅安",
-     "detail": "S&P500は0.4%安の5,069.53。前週のAI株高から、週内発表のインフレ指標へ関心が移り、金利上昇も重しとなった。大型ハイテクの下げが他の上昇を相殺した。",
-     "direction": "down",
-     "source": {
-      "label": "Kitco(Reuters)",
-      "url": "https://www.kitco.com/news/off-the-wire/2024-02-26/equities-close-slightly-lower-focus-shifts-data"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "日経平均が続伸、取引時間中・終値とも最高値",
      "detail": "135.03円高の3万9233円71銭で、日中は一時290円近く上昇した。上値は抑えられた。",
      "direction": "up",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202402260901/"
-     }
+     },
+     "title": "日経平均が続伸、取引時間中・終値とも最高値"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は0.4%安の5,069.53。前週のAI株高から、週内発表のインフレ指標へ関心が移り、金利上昇も重しとなった。大型ハイテクの下げが他の上昇を相殺した。",
+     "direction": "down",
+     "source": {
+      "label": "Kitco(Reuters)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-02-26/equities-close-slightly-lower-focus-shifts-data"
+     },
+     "title": "週内の物価指標を控え小幅安"
     }
    ]
   }
  },
  "2024-02-27": {
-  "us": {
-   "items": [
-    {
-     "title": "消費者信頼感の悪化で方向感に乏しい展開",
-     "detail": "コンファレンスボードの2月消費者信頼感指数が予想以上に低下し、指数はほぼ横ばいで終えた。",
-     "direction": "flat",
-     "source": {
-      "label": "Reuters(Kitco)",
-      "url": "https://www.kitco.com/news/off-the-wire/2024-02-27/stocks-pause-key-inflation-data-eyed"
-     }
-    },
-    {
-     "title": "アップルはAI投資の報道で上昇",
-     "detail": "アップルがAI分野に資金を振り向けたとの報道で買われた。",
-     "direction": "up",
-     "source": {
-      "label": "RTHK",
-      "url": "https://news.rthk.hk/rthk/en/component/k2/1742135-20240228.htm"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "前日の米半導体株高で最高値更新、小幅続伸",
      "detail": "日中は史上最高値を更新したが、終値は5.81円高の3万9239円52銭とほぼ横ばい。1月の全国コアCPIは前年同月比2.0%上昇と予想を上回り、銀行株などにも買いが向かった。",
      "direction": "up",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202402271040/"
-     }
+     },
+     "title": "前日の米半導体株高で最高値更新、小幅続伸"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "コンファレンスボードの2月消費者信頼感指数が予想以上に低下し、指数はほぼ横ばいで終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "Reuters(Kitco)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-02-27/stocks-pause-key-inflation-data-eyed"
+     },
+     "title": "消費者信頼感の悪化で方向感に乏しい展開"
+    },
+    {
+     "detail": "アップルがAI分野に資金を振り向けたとの報道で買われた。",
+     "direction": "up",
+     "source": {
+      "label": "RTHK",
+      "url": "https://news.rthk.hk/rthk/en/component/k2/1742135-20240228.htm"
+     },
+     "title": "アップルはAI投資の報道で上昇"
     }
    ]
   }
  },
  "2024-02-28": {
-  "us": {
-   "items": [
-    {
-     "title": "ハイテク株安で小幅下落",
-     "detail": "S&P500は0.2%安の5,069.76、ダウは0.1%安、ナスダックは約0.5%安。ハイテク株の下落が重しとなった。",
-     "direction": "down",
-     "source": {
-      "label": "Quartz(AP)",
-      "url": "https://qz.com/how-major-us-stock-indexes-fared-wednesday-2-28-2024-1851295125"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "過熱感と月末のリバランス売りで4営業日ぶり反落",
      "detail": "短期的な上昇による過熱感や月末のリバランスに絡む売りが意識され、31.49円安の3万9208円03銭で反落した。",
      "direction": "down",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202402281152/"
-     }
+     },
+     "title": "過熱感と月末のリバランス売りで4営業日ぶり反落"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "S&P500は0.2%安の5,069.76、ダウは0.1%安、ナスダックは約0.5%安。ハイテク株の下落が重しとなった。",
+     "direction": "down",
+     "source": {
+      "label": "Quartz(AP)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-wednesday-2-28-2024-1851295125"
+     },
+     "title": "ハイテク株安で小幅下落"
     }
    ]
   }
  },
  "2024-02-29": {
-  "us": {
-   "items": [
-    {
-     "title": "1月PCEは予想どおり、安心感が広がる",
-     "detail": "FRBが重視するPCE物価は目標の2%を上回ったが予想と一致し、S&P500は0.52%高の5,096.27、ナスダックは0.90%高でともに最高値で引けた。",
-     "direction": "up",
-     "source": {
-      "label": "CNBC",
-      "url": "https://www.cnbc.com/2024/02/28/stock-market-today-live-updates.html"
-     }
-    },
-    {
-     "title": "2月は4カ月連続の月間上昇",
-     "detail": "AI関連のハイテク株主導で、主要指数は2月まで4カ月連続で上昇した。",
-     "direction": "up",
-     "source": {
-      "label": "Schaeffer's",
-      "url": "https://www.schaeffersresearch.com/content/ezines/2024/02/29/wall-street-clocks-4th-straight-monthly-win"
-     }
-    }
-   ]
-  },
   "jp": {
    "items": [
     {
-     "title": "米株安と日銀の政策正常化観測で売り先行",
      "detail": "売りが先行し一時331円安となったが、後場に下げ渋り、41.84円安の3万9166円19銭で終えた。",
      "direction": "down",
      "source": {
       "label": "株探",
       "url": "https://s.kabutan.jp/news/n202402291175/"
-     }
+     },
+     "title": "米株安と日銀の政策正常化観測で売り先行"
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "detail": "FRBが重視するPCE物価は目標の2%を上回ったが予想と一致し、S&P500は0.52%高の5,096.27、ナスダックは0.90%高でともに最高値で引けた。",
+     "direction": "up",
+     "source": {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2024/02/28/stock-market-today-live-updates.html"
+     },
+     "title": "1月PCEは予想どおり、安心感が広がる"
+    },
+    {
+     "detail": "AI関連のハイテク株主導で、主要指数は2月まで4カ月連続で上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "Schaeffer's",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2024/02/29/wall-street-clocks-4th-straight-monthly-win"
+     },
+     "title": "2月は4カ月連続の月間上昇"
     }
    ]
   }
