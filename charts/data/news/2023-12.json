@@ -26,5 +26,328 @@
     }
    ]
   }
+ },
+ "2023-12-14": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBのハト派転換で利下げ期待、ダウが最高値",
+     "detail": "FOMC後の利下げ観測で上昇し、ダウは158ドル(0.4%)高の37,248.35と2日連続で最高値を更新。S&P500は0.26%高の4,719.55、ナスダックは0.19%高。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-extend-fomc-fuelled-rally--15611748.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "FOMC後の円高で輸出株が売られ4日ぶり反落",
+     "detail": "FOMCを経て利下げ観測が強まり、為替が円高に振れた。自動車など輸出株が売られ、日経平均は240円10銭(0.73%)安の3万2686円25銭。下げ幅は一時400円を超えた。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312140894/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-15": {
+  "us": {
+   "items": [
+    {
+     "title": "利下げ期待で週間7連騰、S&P500はほぼ横ばい",
+     "detail": "ダウは0.2%高の37,305.16と3日連続で最高値。S&P500は0.1%未満の下げでほぼ横ばい、ナスダックは0.4%高。3指数とも7週連続の週間上昇で、金利低下が追い風。",
+     "direction": "flat",
+     "source": {
+      "label": "Schaeffer's Research",
+      "url": "https://www.schaeffersresearch.com/content/ezines/2023/12/15/stocks-extend-weekly-rally-to-7-straight"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米国株高を受けて反発",
+     "detail": "FOMC後の米利下げ観測を背景とした前日の米国株高が買いを促し、景気敏感株が買われた。日経平均は284円30銭(0.87%)高の3万2970円55銭。ドル円の戻りが鈍く後場は伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312150868/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-18": {
+  "us": {
+   "items": [
+    {
+     "title": "日本製鉄のUSスチール買収発表、同社株が急騰",
+     "detail": "日本製鉄が買収を発表し、USスチールは26.1%高と12年超ぶりの高値。来年の利下げ期待も支えとなり、S&P500は21.37ポイント高の4,740.56、ダウはほぼ横ばい。",
+     "direction": "up",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-monday-12-18-2023-1851109208"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀会合を前に様子見の売り",
+     "detail": "翌19日の日銀金融政策決定会合の結果公表を控え、警戒感から売りが先行。前場は一時430円ほど下げたが、後場は押し目買いで下げ渋り、日経平均は211円57銭(0.64%)安の3万2758円98銭。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312180943/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-19": {
+  "us": {
+   "items": [
+    {
+     "title": "利下げ期待が続きダウが5日連続の最高値",
+     "detail": "利下げ期待が年末ラリーを支えた。ダウは0.68%高の37,557.92と5日連続で最高値を更新。S&P500は0.59%高の4,768.37、ナスダックは0.66%高。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close--15650222.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀が政策維持、後場に買い強まる",
+     "detail": "日銀会合は現状維持となり、買い安心感が広がった。前場は様子見で、後場に買いが強まって日経平均は460円41銭(1.41%)高の3万3219円39銭と高値引け。植田総裁は先行きは不透明と述べ、マイナス金利解除の早期化を期待した向きには失望も出た。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312190957/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-20": {
+  "us": {
+   "items": [
+    {
+     "title": "利益確定売りで全面安、ダウの連騰は9日で止まる",
+     "detail": "S&P500は1.5%安の4,698.35で、全11業種が下落。ダウは475.92ドル(1.3%)安の37,082、ナスダックは1.5%安。年末ラリーの反動で利益確定売りが広がった。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-sharply-lower-as-investors-look-to-take-profits--15665890.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "日銀のマイナス金利解除見送りで買い戻し加速",
+     "detail": "先物主導で買い戻しが加速し、空売り筋のショートカバーで前日に続く上昇。日銀会合でマイナス金利解除が見送られたことも安心感につながり、日経平均は456円55銭(1.37%)高の3万3675円94銭。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312201097/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-21": {
+  "us": {
+   "items": [
+    {
+     "title": "好決算が相次ぎ、前日の急落分を大半戻す",
+     "detail": "前日の大幅安から反発し、S&P500は約1.0%高、ナスダックは1.3%高、ダウは0.9%高の37,404.35。複数の好調な企業決算が買い戻しを促した。",
+     "direction": "up",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-thursday-12-21-2023-1851119012"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米国株の急落と円高、利食い売りで大幅反落",
+     "detail": "前日の米国株が終盤に崩れてNYダウとナスダックが大幅反落したうえ、直近2営業日で900円超上昇した反動の利食いや日米金利差縮小による円高が重なった。日経平均は535円47銭(1.59%)安の3万3140円47銭で、値下がり銘柄は全体の約8割。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312211128/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-22": {
+  "us": {
+   "items": [
+    {
+     "title": "インフレ指標が予想より落ち着き、S&P500は小幅高",
+     "detail": "インフレ指標が予想を下回り利下げ観測が強まった。S&P500は0.17%高の4,754.63、ナスダックは0.19%高、ダウは0.05%安。3指数とも8週連続の週間上昇。",
+     "direction": "up",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-down-005-3262613"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高で買い戻されるも円高が上値を抑える",
+     "detail": "NYダウ上昇を受けて買い戻しが入り、海運株も堅調。一方で一時1ドル=141円台の円高が上値を抑え、日経平均は28円58銭(0.09%)高の3万3169円05銭と小幅反発。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312221006/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-25": {
+  "jp": {
+   "items": [
+    {
+     "title": "海外勢のクリスマス休暇で薄商い、小幅続伸",
+     "detail": "海外勢が休暇入りして売買代金は約2.5兆円と3兆円を下回った。日経平均は84円98銭(0.26%)高の3万3254円03銭。",
+     "direction": "flat",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312250751/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-26": {
+  "us": {
+   "items": [
+    {
+     "title": "クリスマス明けは利下げ期待で上昇",
+     "detail": "ハイテクや資本財が上げ、原油高でエネルギー株も上昇。S&P500とダウは約0.4%高、ナスダックは約0.5%高。10年債利回りは3.90%近辺。",
+     "direction": "up",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://www.onenewspage.com/n/Business/1zpowybw7s/How-major-US-stock-indexes-fared-Tuesday-12.htm"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "先物の買い戻しと権利取り、半導体関連が牽引",
+     "detail": "半導体関連が相場を牽引し、前日に急落した海運株も持ち直した。市場参加者は少なく売買代金は約2.6兆円と低調。日経平均は51円82銭(0.16%)高の3万3305円85銭と3日続伸。",
+     "direction": "up",
+     "source": {
+      "label": "みんかぶ",
+      "url": "https://minkabu.jp/news/4106827"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-27": {
+  "us": {
+   "items": [
+    {
+     "title": "休暇週の薄商いでダウが最高値",
+     "detail": "S&P500は0.14%高の4,781.58、ダウは0.3%高の37,656.52で最高値、ナスダックは0.2%高。休暇で取引は閑散だった。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-stocks-higher-sp-500-nears-all-time-high--15708042.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と円安で買い広がる、権利付き最終日",
+     "detail": "米国株高や円安を背景に買いが広がり、東証プライムの値上がりは89%。日経平均は375円39銭(1.13%)高の3万3681円24銭と4日続伸で、年初来高値に迫った。",
+     "direction": "up",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312270980/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-28": {
+  "us": {
+   "items": [
+    {
+     "title": "S&P500は最高値圏で小幅高、ダウは最高値",
+     "detail": "S&P500は0.04%高の4,783.35、ダウは0.14%高の37,710.10で最高値、ナスダックは0.03%安。年末に向け方向感に乏しい動き。",
+     "direction": "flat",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-sp-500-continues-to-hover-near-all-time-high--15717252.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高と配当権利落ちで5日ぶり反落",
+     "detail": "米国債利回りの低下でドル安・円高が進み、12月末の配当権利落ち日(50〜60円程度の押し下げ要因)も重なった。日経平均は141円62銭(0.42%)安の3万3539円62銭。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312280845/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-29": {
+  "us": {
+   "items": [
+    {
+     "title": "年末最終日は小幅安、S&P500は年間24%上昇",
+     "detail": "3指数とも小幅安で、ダウは0.05%安の37,689.55。ただし3指数とも週・月・四半期・年間で上昇し、S&P500は年間24.2%高、ナスダックは約43%高で2023年を終えた。",
+     "direction": "down",
+     "source": {
+      "label": "Investing.com",
+      "url": "https://investing.com/news/economy/futures-inch-up-firm-rate-cut-bets-drive-strong-gains-in-2023-3264642"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "大納会は年末の手控えムードで続落",
+     "detail": "年末年始の休暇を前に手控えムードが広がり、方向感に乏しい展開。日経平均は75円45銭(0.22%)安の3万3464円17銭で2023年の取引を終えた。年間の上げ幅は7,369円67銭。",
+     "direction": "down",
+     "source": {
+      "label": "かぶたん",
+      "url": "https://s.kabutan.jp/news/n202312290811"
+     }
+    }
+   ]
+  }
  }
 }
