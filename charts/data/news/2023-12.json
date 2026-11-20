@@ -1,4 +1,41 @@
 {
+ "2023-12-05": {
+  "us": {
+   "items": [
+    {
+     "title": "JOLTSを消化しS&P500は小幅安",
+     "detail": "S&P500は0.1%安の4,567.18、ダウは0.2%安、ナスダックは0.3%高とまちまち。小型株のラッセル2000は1.4%安だった。",
+     "direction": "down",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-tuesday-12-5-2023-1851075307"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株中心に売られ3万3000円割れ",
+     "detail": "日経平均は455円45銭安(-1.37%)の32,775.82円。リスクオフが強まり一時500円超下落、東京エレクトロンなど半導体主力株の下げが目立った。値下がり銘柄は8割超。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202312051058"
+     }
+    },
+    {
+     "title": "香港株安が手控えムードを強める",
+     "detail": "香港株などの下げが投資家の手控えムードを強めたと伝えられた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202312051058"
+     }
+    }
+   ]
+  }
+ },
  "2023-12-06": {
   "us": {
    "items": [
@@ -22,6 +59,173 @@
      "source": {
       "label": "かぶたん",
       "url": "https://s.kabutan.jp/news/n202312061113"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-07": {
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク株主導で3日続落に歯止め",
+     "detail": "アルファベットが前日に発表したAIモデル「Gemini」を受け上昇。S&P500は0.8%高の4,585.59、ナスダックは1.4%高、ダウは0.2%高。新規失業保険申請は予想通りだった。",
+     "direction": "up",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-thursday-12-7-2023-1851082243"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株安と円高でリスク回避の売り",
+     "detail": "日経平均は587円59銭安(-1.76%)の32,858.31円と急反落。円高が嫌気され、米株安も重なってリスクオフに傾いた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202312071174"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-08": {
+  "us": {
+   "items": [
+    {
+     "title": "雇用統計は強め、S&P500は2022年3月以来の高値",
+     "detail": "11月の雇用者数が市場予想を上回り国債利回りが上昇する中、ダウは0.36%高、S&P500は0.41%高の4,604.37(2022年3月29日以来の高値)、ナスダックは0.45%高。6週連続の週間上昇。",
+     "direction": "up",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-friday-12-8-2023-1851085982"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高で利益確定売り、メジャーSQで荒い値動き",
+     "detail": "日経平均は550円45銭安(-1.68%)の32,307.86円。前日のNY市場で円が急伸しハイテク株や自動車株が売られた。メジャーSQ算出日で一時650円超下げる場面もあった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202312080854/"
+     }
+    },
+    {
+     "title": "日銀の政策修正観測で銀行株は堅調",
+     "detail": "日銀の金融政策修正をめぐる思惑から、銀行株は堅調だった。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202312080854/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-11": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC前に続伸、週間6連勝の流れ",
+     "detail": "FOMC(13日)を控える中でダウは157.06ドル高と続伸した。主要指数は6週連続高の流れにあり、S&P500は年初来で約20%上昇している。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast / Quartz",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-monday-12-11-2023-1851090762"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米雇用統計で景気懸念が和らぎ反発",
+     "detail": "日経平均は483円94銭高の32,791.80円で反発。米雇用統計で米景気減速への懸念が和らいだことと、円高の一服が背景とされる。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/129203"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-12": {
+  "us": {
+   "items": [
+    {
+     "title": "CPIが予想通りで3指数とも上昇",
+     "detail": "インフレ指標がおおむね予想通りとなり、S&P500は0.5%高の4,643.70、ナスダックは0.7%高、ダウは0.5%高。FOMCを翌日に控えた。",
+     "direction": "up",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-tuesday-12-12-2023-1851093920"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米株高が追い風も3万3000円台は定着せず",
+     "detail": "日経平均は51円90銭高の32,843.70円で続伸。朝方は3万3000円台を回復したが、国内の政局不安や円高が重荷となり伸び悩んだ。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202312121017/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-13": {
+  "us": {
+   "items": [
+    {
+     "title": "FRBが2024年の利下げを示唆、ダウ最高値",
+     "detail": "FOMC後に利下げ観測が強まり、ダウは1.4%高の37,090.24で初の3万7000ドル台・最高値、S&P500は1.4%高の4,707.09。10年債利回りは8月以来の4%割れ。",
+     "direction": "up",
+     "source": {
+      "label": "PBS NewsHour(AP配信)",
+      "url": "https://www.pbs.org/newshour/economy/dow-hits-a-record-after-the-fed-signals-rate-cuts-in-2024"
+     }
+    },
+    {
+     "title": "中小型株が急伸",
+     "detail": "ラッセル2000は3.5%高の1,947.51と大型株を上回って上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "PBS NewsHour(AP配信)",
+      "url": "https://www.pbs.org/newshour/economy/dow-hits-a-record-after-the-fed-signals-rate-cuts-in-2024"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米CPI後の米株高と短観改善が支え",
+     "detail": "日経平均は82円65銭高の32,926.35円で3日続伸。米CPI後の米株上昇と日銀短観の景況感改善が支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/129397"
+     }
+    },
+    {
+     "title": "FOMC控えで3万3000円付近は重い",
+     "detail": "FOMC結果発表を前に午後は様子見ムードが強まり、3万3000円付近では上値が重かった。",
+     "direction": "flat",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/129397"
      }
     }
    ]
