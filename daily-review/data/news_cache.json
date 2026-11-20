@@ -6408,5 +6408,171 @@
       }
     ],
     "searched_at": "2026-11-19T16:14:31.383668+00:00"
+  },
+  "us:2026-11-19:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew」「Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Economy: Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html"
+      },
+      {
+        "title": "CNBC Economy: Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+        "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html"
+      }
+    ],
+    "searched_at": "2026-11-20T02:29:52.683229+00:00"
+  },
+  "us:2026-11-19:breadth:advance_pct": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew」「Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Economy: Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html"
+      },
+      {
+        "title": "CNBC Economy: Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+        "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html"
+      }
+    ],
+    "searched_at": "2026-11-20T02:29:52.690750+00:00"
+  },
+  "us:2026-11-19:sector:Consumer Discretionary": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew」「Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Economy: Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+        "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html"
+      },
+      {
+        "title": "CNBC Economy: Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+        "url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html"
+      }
+    ],
+    "searched_at": "2026-11-20T02:29:52.698882+00:00"
+  },
+  "us:2026-11-19:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-oil/energy-utilities-roundup-market-talk-fcde730a?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-20T02:29:52.996038+00:00"
+  },
+  "us:2026-11-19:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/finance/commodities-futures/basic-materials-roundup-market-talk-e522fa66?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-20T02:29:53.008545+00:00"
+  },
+  "us:2026-11-19:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite」「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Markets: Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+        "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+      },
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-oil/energy-utilities-roundup-market-talk-fcde730a?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-20T02:29:53.023259+00:00"
+  },
+  "us:2026-11-19:sector:Financials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「TPG, Corpay to Buy Finance Platform Bill for About $6 Billion」",
+    "sources": [
+      {
+        "title": "WSJ Markets: TPG, Corpay to Buy Finance Platform Bill for About $6 Billion",
+        "url": "https://www.wsj.com/business/deals/tpg-corpay-to-buy-finance-platform-bill-for-about-6-billion-9f8be10c?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-20T02:29:53.049988+00:00"
+  },
+  "jp:2026-11-19:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-20T02:30:26.935147+00:00"
+  },
+  "jp:2026-11-19:factor:Value": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-20T02:30:26.942704+00:00"
+  },
+  "jp:2026-11-19:sector:商社・卸売": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-20T02:30:27.062024+00:00"
+  },
+  "jp:2026-11-19:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「ソフトバンクグループ 17％余の減益 4-6月期決算」",
+    "sources": [
+      {
+        "title": "NHK 経済: ソフトバンクグループ 17％余の減益 4-6月期決算",
+        "url": "http://www3.nhk.or.jp/news/html/20260806/k10015198231000.html"
+      }
+    ],
+    "searched_at": "2026-11-20T02:30:27.206605+00:00"
   }
 }
