@@ -560,8 +560,35 @@
  },
  "2026-11-20": {
   "jp": {
-   "items": [],
-   "note": "報道を確認できず"
+   "items": [
+    {
+     "title": "アンソロピック上場後もAI株売り止まらず、日経平均は3,007円安の56,436円で下げ幅歴代5位",
+     "detail": "前日の米国株安に加え、同社株を買うための換金売り、米国の追加利上げへの警戒、原油高が重荷と報じられた。終値は4月上旬以来の水準。",
+     "direction": "down",
+     "source": {
+      "label": "共同通信(OANDA掲載、報道)",
+      "url": "https://www.oanda.jp/lab-education/market_news/kn_2026112001001255/"
+     }
+    },
+    {
+     "title": "アドバンテストとソフトバンクGの2銘柄で約1,016円押し下げ、TOPIXも-3.88%で5日続落",
+     "detail": "ソフトバンクGは-14.48%。プライムは値上がり90・値下がり1,443の全面安で、上げた業種は保険と医薬品だけと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "フィスコ(みんかぶ、報道)",
+      "url": "https://s.minkabu.jp/news/4670102"
+     }
+    },
+    {
+     "title": "KOSPI-5.2%・台湾-6.2%、アジア株は2020年3月以来の悪い週",
+     "detail": "台湾加権は週間で1990年以来の下げと報じられた。円と債券は小幅に買われた。",
+     "direction": "down",
+     "source": {
+      "label": "MarketScreener(ロイター、報道)",
+      "url": "https://www.marketscreener.com/news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-ce785ed2de8ef627"
+     }
+    }
+   ]
   }
  }
 }
