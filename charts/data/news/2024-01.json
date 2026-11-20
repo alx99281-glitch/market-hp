@@ -26,5 +26,257 @@
     }
    ]
   }
+ },
+ "2024-01-19": {
+  "jp": {
+   "items": [
+    {
+     "title": "米SOX3%超高で半導体株が急反発",
+     "detail": "前日の米国でフィラデルフィア半導体指数が3%超上昇し、東京エレクトロンやアドバンテストが買われた。トヨタも円安で最高値を付け、日経平均は497円高。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401190975"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ハイテク主導でS&P500が2022年1月以来の最高値",
+     "detail": "ハイテク株が相場をけん引し、S&P500は2022年1月以来となる史上最高値で終えた。ナスダックは約1.7%上昇。",
+     "direction": "up",
+     "source": {
+      "label": "AP系市況(How major US stock indexes fared)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-friday-1-19-2024-1851181248"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-22": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高と半導体買いで34年ぶり高値圏",
+     "detail": "前週末の米株高や半導体関連株への買いで、日経平均は584円高の3万6547円。1990年2月以来の水準でバブル後の高値を更新した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401221061"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ダウが初の3万8000ドル超え",
+     "detail": "ダウ平均は初めて3万8000ドルを上回って引け、S&P500とともに最高値を更新。ナスダックも上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "investinglive",
+      "url": "https://investinglive.com/news/us-stocks-close-higher-to-start-the-trading-week-20240122"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-23": {
+  "jp": {
+   "items": [
+    {
+     "title": "日銀が緩和維持、織り込み済みで利益確定売り",
+     "detail": "日銀は大規模緩和とマイナス金利を維持。発表直後に一時430円超上げたが、材料出尽くしで利益確定売りが出て日経平均は29円安の3万6517円で終えた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401230975/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が3日連続の最高値、ダウは小反落",
+     "detail": "S&P500は0.3%高で最高値を更新、ナスダックも上昇。前日に初めて3万8000ドルを超えたダウは0.3%安だった。",
+     "direction": "up",
+     "source": {
+      "label": "The Star(AP系)",
+      "url": "https://thestar.com.my/business/2024/01/24/sp-500-notches-third-straight-record-high-close"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-24": {
+  "jp": {
+   "items": [
+    {
+     "title": "長期金利上昇と円高で続落",
+     "detail": "国内長期金利の上昇や円高方向への振れが逆風となり、日経平均は291円安の3万6226円。値下がり銘柄が7割を占めた。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401240982"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "ネットフリックス決算で指数は小幅高",
+     "detail": "ネットフリックスの決算後の急伸がS&P500とナスダックを押し上げ最高値を更新。ボーイングはダウの重荷となった。",
+     "direction": "up",
+     "source": {
+      "label": "AP系市況(How major US stock indexes fared)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-wednesday-1-24-2024-1851194221"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-25": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株が切り返し小幅反発",
+     "detail": "前場は利益確定売りで3万6000円を割る場面もあったが、半導体関連が買われ小幅高。日米の長期金利上昇が上値を抑えた。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401251113"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "GDPと決算を好感、S&P500が最高値",
+     "detail": "IBMが予想を上回る利益を報告し株価を押し上げ、3指数がそろって上昇。S&P500は最高値を更新した一方、テスラは下落した。",
+     "direction": "up",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-dow-and-sp-500-hit-fresh-highs-after-gdp-beat--15963710.html"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-26": {
+  "jp": {
+   "items": [
+    {
+     "title": "米インテル決算を嫌気し半導体株が下落",
+     "detail": "インテル決算を受けアドバンテストや東京エレクトロンなど半導体株が売られ、日経平均は485円安の3万5751円と3万6000円を割り込んだ。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401261048"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "インテルの弱い見通しでハイテクが重荷",
+     "detail": "インテルが売上見通しの弱さで6週間ぶり安値に沈みナスダックが下落。ダウは最高値を更新し、S&P500は5日連続の最高値更新後の初の下落。",
+     "direction": "down",
+     "source": {
+      "label": "AP系市況(How major US stock indexes fared)",
+      "url": "https://au.news.yahoo.com/major-us-stock-indexes-fared-212114762.html"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-29": {
+  "jp": {
+   "items": [
+    {
+     "title": "円安を追い風に3万6000円台を回復",
+     "detail": "円安を背景にトヨタなどが指数をけん引し、日経平均は276円高の3万6027円と反発した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401290913/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "S&P500が最高値更新、長期金利は低下",
+     "detail": "S&P500は史上最高値で終え、ナスダックの上昇が最大。米10年債利回りは4.14%から4.07%に低下し株式の支えとなった。",
+     "direction": "up",
+     "source": {
+      "label": "Briefing.com",
+      "url": "https://www.briefing.com/stock-market-update/archive/2024/1/29/closing-summary-"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-30": {
+  "jp": {
+   "items": [
+    {
+     "title": "米ダウ最高値も円高が重しで小幅続伸",
+     "detail": "前日のダウ最高値更新で心理は改善したが、円高が自動車など輸出株の重荷に。決算発表を控えた買い手控えもあり、上げは39円にとどまった。",
+     "direction": "flat",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401301028"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "決算まちまち、FOMC開始を前に膠着",
+     "detail": "GMは決算が予想を上回り上昇、UPSは弱い売上見通しで下落。FRBの会合が始まり、S&P500はほぼ横ばい。",
+     "direction": "flat",
+     "source": {
+      "label": "AP系市況(How major US stock indexes fared)",
+      "url": "https://uk.news.yahoo.com/major-us-stock-indexes-fared-212333400.html"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-31": {
+  "jp": {
+   "items": [
+    {
+     "title": "銀行・電気ガスが上昇、日経平均は続伸",
+     "detail": "日経平均は220円高の3万6286円。ファーストリテイリングやキヤノンが指数を押し上げ、銀行業などが上昇した。",
+     "direction": "up",
+     "source": {
+      "label": "ゲンロン市況",
+      "url": "https://gentosha-go.com/articles/-/57657"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "FRBが3月利下げに慎重、ハイテク決算も失望",
+     "detail": "FRBが早期の利下げを見込まない姿勢を示し、マイクロソフトとAMDは慎重な見通しで各3%近く下落。S&P500は1.6%安、ナスダックは約2.2%安。",
+     "direction": "down",
+     "source": {
+      "label": "AP系市況(How major US stock indexes fared)",
+      "url": "https://wtop.com/news/2024/01/how-major-us-stock-indexes-fared-wednesday-1-31-2024"
+     }
+    }
+   ]
+  }
  }
 }

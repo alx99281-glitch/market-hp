@@ -1,4 +1,69 @@
 {
+ "2024-02-01": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株安と円高で4日ぶり反落",
+     "detail": "前日の米株安と円高が売り材料となり、日経平均は275円安の3万6011円。一時3万6000円を割り込んだ。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202402011052/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "パウエル発言後の売りから反発",
+     "detail": "前日のFRB議長発言による下げから主要3指数がそろって上昇。ダウは最高値を更新し、ハイテク決算を控えナスダックの上昇が最大だった。",
+     "direction": "up",
+     "source": {
+      "label": "AP系市況(How major US stock indexes fared)",
+      "url": "https://ca.news.yahoo.com/major-us-stock-indexes-fared-211729336.html"
+     }
+    }
+   ]
+  }
+ },
+ "2024-02-02": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株反発・ダウ最高値で底堅く",
+     "detail": "前日の米国株が反発しダウ平均が過去最高値を更新したことが支えとなり、日経平均は146円高の3万6158円で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "Limo",
+      "url": "https://limo.media/articles/-/53120"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "メタ・アマゾン決算で急伸",
+     "detail": "メタは約20%高、アマゾンは約8%高。両社の決算がけん引し、S&P500は1.1%上昇して最高値圏で終えた。",
+     "direction": "up",
+     "source": {
+      "label": "AP系市況(How major US stock indexes fared)",
+      "url": "https://au.finance.yahoo.com/news/major-us-stock-indexes-fared-211758647.html"
+     }
+    },
+    {
+     "title": "1月雇用統計が強く利下げ観測に影",
+     "detail": "強い雇用統計でFRBの利下げ見通しが読みにくくなったが、株価は決算を優先した。",
+     "direction": "flat",
+     "source": {
+      "label": "AP系市況(How major US stock indexes fared)",
+      "url": "https://au.finance.yahoo.com/news/major-us-stock-indexes-fared-211758647.html"
+     }
+    }
+   ]
+  }
+ },
  "2024-02-05": {
   "jp": {
    "items": [
