@@ -44,5 +44,201 @@
     }
    ]
   }
+ },
+ "2023-11-21": {
+  "us": {
+   "items": [
+    {
+     "title": "FOMC議事要旨後に下落、S&P500とNasdaqの連騰が止まる",
+     "detail": "S&P500は-0.2%の4538.19、Nasdaqは-0.6%、ダウは-0.18%。S&P500とNasdaqの5営業日連続上昇が途切れた。小型株のラッセル2000は-1.3%。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Yahoo Finance掲載)",
+      "url": "https://ca.finance.yahoo.com/news/major-us-stock-indexes-fared-211904725.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高で自動車株売り、ハイテクが下支え",
+     "detail": "朝方は買い先行も利益確定売りで値を消し、ドル円は147円台前半まで円高。自動車株が売られた一方、半導体などハイテクが支えた。日経平均は33円89銭安の3万3354円14銭。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311211160"
+     }
+    }
+   ]
+  }
+ },
+ "2023-11-22": {
+  "us": {
+   "items": [
+    {
+     "title": "感謝祭前に上昇、エヌビディアは決算後に下落",
+     "detail": "S&P500は約+0.4%の4556.62、ダウは+184.74ポイントの3万5273.03。エヌビディアは好決算でも約2.5%下落した。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Newser掲載)",
+      "url": "https://amp.newser.com/story/343001/wall-street-has-a-winning-day-ahead-of-holiday.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安とガザ戦闘休止報道で3日ぶり反発",
+     "detail": "円安進行が買いを支え、イスラエルのガザ戦闘4日間休止報道で警戒感が和らいだ。日経平均は97円69銭高の3万3451円83銭だが、後場は上値が重く、売買代金は約1カ月ぶりの低水準。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311221179"
+     }
+    }
+   ]
+  }
+ },
+ "2023-11-24": {
+  "us": {
+   "items": [
+    {
+     "title": "感謝祭翌日の短縮取引、まちまちで4週連続の週間上昇",
+     "detail": "取引は午後1時に終了。ダウは+0.3%、S&P500は+0.1%、Nasdaqは-0.1%で、S&P500の週間上昇は+1%。S&P500では9セクターが上昇し、ヘルスケアが先導。",
+     "direction": "flat",
+     "source": {
+      "label": "AP(Quartz掲載)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-friday-11-24-2023-1851046513"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円安が支えとなり一時年初来高値、後場は伸び悩み",
+     "detail": "ドル円が149円台半ばまで円安に振れて支えとなり、前場は一時3万3800円台。後場は利益確定売りで伸び悩み、終値は173円70銭高の3万3625円53銭。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311240757/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-11-27": {
+  "us": {
+   "items": [
+    {
+     "title": "サイバーマンデーの中、経済指標とFRB発言を前に小幅安",
+     "detail": "インフレ指標とFRB当局者の発言を週内に控え様子見ムード。ダウ約-0.15%、S&P500約-0.2%、Nasdaq約-0.18%と小幅に下げた。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Quartz掲載)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-monday-11-27-2023-1851051248"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "利上げ打ち止め観測で一時上昇も、高値警戒の売りで反落",
+     "detail": "寄り付き後は一時185円高の3万3811円41銭まで上げたが、利益確定売りと円高・アジア株安で一時228円安。終値は177円86銭安の3万3447円67銭。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311270959/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-11-28": {
+  "us": {
+   "items": [
+    {
+     "title": "消費者信頼感が予想上回り小幅上昇",
+     "detail": "コンファレンス・ボードの11月消費者信頼感指数が予想を上回り、FRBの利上げ終了への期待もあって小幅高。S&P500は+0.10%、ダウは+0.24%、Nasdaqは+0.29%。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Quartz掲載)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-tuesday-11-28-2023-1851055769"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高基調で輸出株重く続落",
+     "detail": "前日の欧州株安と米株の小幅安を受けた買い控えに、ドル安・円高基調が加わった。日経平均は39円28銭安の3万3408円39銭。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311280983/"
+     }
+    }
+   ]
+  }
+ },
+ "2023-11-29": {
+  "us": {
+   "items": [
+    {
+     "title": "メタ・アルファベット安でナスダックなど小幅安",
+     "detail": "メタが約2%、アルファベットが約1.6%下落し、S&P500は-0.09%、Nasdaqは-0.16%。ダウはほぼ横ばいで、小型株のラッセル2000は+0.6%。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Quartz掲載)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-wednesday-11-29-2023-1851059333"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高進行で利益確定売り、3日続落",
+     "detail": "ドル円が146円台後半まで円高に振れ、利益確定売りが優勢。日経平均は87円17銭安の3万3321円22銭。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311290950"
+     }
+    }
+   ]
+  }
+ },
+ "2023-11-30": {
+  "us": {
+   "items": [
+    {
+     "title": "ダウが年初来高値を更新、月間では約1年ぶりの上昇率",
+     "detail": "ダウは+1.47%の3万5950.89でCNBCは年内高値超えと報じた。11月はS&P500が+8.9%、Nasdaqが+10.7%で、ともに2022年7月以来の月間上昇。S&P500は+0.38%、Nasdaqは小幅安。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Quartz掲載)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-thursday-11-30-2023-1851063080"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "MSCI指数見直しで売買代金が急増、日経平均は反発",
+     "detail": "MSCIの構成見直しに絡み売買代金が5.5兆円台に急増。日経平均は165円67銭高の3万3486円89銭(+0.50%)。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202311300995/"
+     }
+    }
+   ]
+  }
  }
 }

@@ -1,4 +1,60 @@
 {
+ "2023-12-01": {
+  "us": {
+   "items": [
+    {
+     "title": "パウエル発言で利上げ終了観測、S&P500は年初来の高値引け",
+     "detail": "パウエルFRB議長の発言で政策金利はピークとの見方が強まり、S&P500は+0.59%の4594.63で2023年の終値ベース最高値。小型株・輸送株の上昇が目立った。",
+     "direction": "up",
+     "source": {
+      "label": "AP(Quartz掲載)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-friday-12-1-2023-1851067105"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "米金利上昇とハイテク安で半導体売り、小幅反落",
+     "detail": "米金利の上昇とハイテク株安が嫌気され、半導体関連が売られた。日経平均は55円安の3万3431円51銭で、方向感に乏しい展開。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202312010882"
+     }
+    }
+   ]
+  }
+ },
+ "2023-12-04": {
+  "us": {
+   "items": [
+    {
+     "title": "ビッグテック安で3指数下落、Nasdaqが最大の下げ",
+     "detail": "5週連続の週間上昇の後、複数のビッグテックの下落が他の銘柄の上昇を打ち消した。雇用関連指標を週内に控えた持ち高調整もあった。S&P500は-0.54%。",
+     "direction": "down",
+     "source": {
+      "label": "AP(Quartz掲載)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-monday-12-4-2023-1851071715"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "円高で輸出株売り、日経平均は続落",
+     "detail": "ドル安・円高で輸出関連株に売りが出て、一時400円超安。押し目買いで下げ幅を縮め、終値は3万3231円27銭(-200円24銭)。",
+     "direction": "down",
+     "source": {
+      "label": "ロイター(sbbit掲載)",
+      "url": "https://www.sbbit.jp/article/refers/128741"
+     }
+    }
+   ]
+  }
+ },
  "2023-12-05": {
   "us": {
    "items": [
