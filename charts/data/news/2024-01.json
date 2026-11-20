@@ -1,4 +1,142 @@
 {
+ "2024-01-02": {
+  "us": {
+   "items": [
+    {
+     "title": "アップル急落でナスダックが続落",
+     "detail": "ナスダックは1.6%安の1万4765.94で、10月以来の大きな下げ。アップルが証券会社の格下げで約5カ月ぶりの大幅安となり、米金利の上昇も大型ハイテクの重しになった。S&P500は0.6%安の4742.83。",
+     "direction": "down",
+     "source": {
+      "label": "Asiae",
+      "url": "https://www.asiae.co.kr/en/article/2024010306242199301"
+     }
+    },
+    {
+     "title": "ダウは小幅高",
+     "detail": "ダウ平均は約25ポイント(0.1%)高の3万7715.04と、ハイテクが下げる中で小幅に上昇した。",
+     "direction": "flat",
+     "source": {
+      "label": "The Sun(ロイター配信)",
+      "url": "https://thesun.my/business/sp-500-nasdaq-end-down-on-first-session-of-2024-kk11935834/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-03": {
+  "us": {
+   "items": [
+    {
+     "title": "ゴールドマンの格下げでアップルなど大型株が下落",
+     "detail": "S&P500は約0.8%安、ナスダックは約1.2%安。ゴールドマン・サックスの格下げを受け、アップルなど大型ハイテクが売られた。米金利は景気減速を示す指標を受けおおむね低下した。",
+     "direction": "down",
+     "source": {
+      "label": "The Star(ロイター配信)",
+      "url": "https://www.thestar.com.my/business/2024/01/04/wall-st-ends-lower-as-2024-starts-with-profit-taking"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-04": {
+  "us": {
+   "items": [
+    {
+     "title": "米長期金利上昇でS&P500・ナスダックが3日続落",
+     "detail": "10年債利回りが4%で終え、成長株が売られた。S&P500は0.34%安、ナスダックは0.56%安。ダウは金融株に支えられ小幅高だった(ロイター報道)。",
+     "direction": "down",
+     "source": {
+      "label": "Yahoo Finance(ロイター配信)",
+      "url": "https://finance.yahoo.com/news/us-stocks-p-nasdaq-extend-215317386.html"
+     }
+    }
+   ]
+  },
+  "jp": {
+   "items": [
+    {
+     "title": "前日の米ハイテク安で日経平均は3日続落",
+     "detail": "日経平均は175円88銭安の3万3288円29銭。前日の米ハイテク株安と能登半島地震の影響を見極める動きで朝方は700円超下げたが、その後下げ幅を縮め、TOPIXは続伸した。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401040915/"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-05": {
+  "jp": {
+   "items": [
+    {
+     "title": "円安が支えとなり日経平均は4日ぶり反発",
+     "detail": "日経平均は89円13銭高の3万3377円42銭。為替の円安が輸出関連株を支えた一方、米雇用統計を前に上値は限られた(ロイター報道)。",
+     "direction": "up",
+     "source": {
+      "label": "limo",
+      "url": "https://limo.media/articles/-/51530"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "3指数は小幅高、ただし週間では下落",
+     "detail": "S&P500は0.18%高の4697.24、ナスダックは0.09%高の1万4524.07。週間ではS&P500が1.52%安、ナスダックが3.25%安となり、9週続いた上昇が止まった。",
+     "direction": "flat",
+     "source": {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4052749-nasdaq-sp-dow-end-in-the-red-and-closed-lower-for-the-first-week-of-2024"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-08": {
+  "us": {
+   "items": [
+    {
+     "title": "金利低下でハイテクが急伸、ナスダック2.2%高",
+     "detail": "S&P500は1.4%高の4763.54、ナスダックは2.20%高の1万4843.77で、年初来初の1%超の上昇。米長期金利の低下で大型ハイテクが買われた。ボーイングの急落でダウの上げは0.58%にとどまった。",
+     "direction": "up",
+     "source": {
+      "label": "Kitco(ロイター配信)",
+      "url": "https://www.kitco.com/news/off-the-wire/2024-01-08/nasdaq-jumps-yields-fall-boeing-weighs-dow"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-09": {
+  "jp": {
+   "items": [
+    {
+     "title": "半導体株主導で日経平均がバブル後最高値を更新",
+     "detail": "日経平均は385円76銭(1.16%)高の3万3763円18銭。前日の米半導体株高が波及し、終値で昨年7月の高値を上回った。値上がり銘柄は全体の約8割。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401091087"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "前日の急騰の反動で小反落",
+     "detail": "S&P500は0.15%安の4756.50。前日の大幅上昇の反動で売りが出て、エネルギー株が最も弱かった。",
+     "direction": "down",
+     "source": {
+      "label": "Malay Mail(ロイター配信)",
+      "url": "https://www.malaymail.com/news/money/2024/01/10/dow-sp-500-retreat-as-yields-edge-up-ahead-of-data-earnings/111541"
+     }
+    }
+   ]
+  }
+ },
  "2024-01-10": {
   "us": {
    "items": [
@@ -22,6 +160,161 @@
      "source": {
       "label": "SBブレイン(ロイター配信)",
       "url": "https://www.sbbit.jp/article/refers/130999"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-11": {
+  "jp": {
+   "items": [
+    {
+     "title": "米株高・円安で日経平均は4日続伸、3万5000円台に",
+     "detail": "日経平均は608円14銭(1.77%)高の3万5049円86銭。前日の米株高と円安に加え、米CPI発表前にインフレ鈍化を先取りする買いが続いた。翌日のオプションSQ算出も先物買いを促した。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401111215/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "CPI発表後は方向感乏しくもみ合い",
+     "detail": "S&P500は0.1%安の4780.24、ダウは15.29ドル高、ナスダックはほぼ横ばい。インフレ指標を受けて利下げ観測がやや後退した。小型株のラッセル2000は0.8%安。",
+     "direction": "flat",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-thursday-1-11-2024-1851160707"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-12": {
+  "jp": {
+   "items": [
+    {
+     "title": "ファストリ好決算とSQで日経平均は5日続伸",
+     "detail": "日経平均は527円25銭(1.50%)高の3万5577円11銭、1990年2月以来の高値圏。前日に好決算を出したファーストリテイリングが大きく上げ、後場は先物主導で戻した。この日はオプションSQ算出日。",
+     "direction": "up",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401120872/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "決算シーズン入りでまちまち",
+     "detail": "S&P500は約0.1%高と過去最高値から0.3%以内で終え、ダウはユナイテッドヘルスの下げで0.3%安。デルタ航空などの決算はまちまちだった。",
+     "direction": "flat",
+     "source": {
+      "label": "Malay Mail(ロイター配信)",
+      "url": "https://www.malaymail.com/news/money/2024/01/13/us-stocks-end-little-changed-as-earnings-offset-inflation-data/112148"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-15": {
+  "jp": {
+   "items": [
+    {
+     "title": "出遅れ株買いで日経平均が続伸、一時3万6000円台",
+     "detail": "日経平均は324円68銭高の3万5901円79銭。出遅れていたバリュー株に買いが向かい、取引時間中は1990年2月以来の3万6000円台に乗せた。新NISA開始に伴う資金流入も指摘された。",
+     "direction": "up",
+     "source": {
+      "label": "ゲンダイGo",
+      "url": "https://gentosha-go.com/articles/-/57250"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-16": {
+  "jp": {
+   "items": [
+    {
+     "title": "高値警戒の利益確定売りで7日ぶり反落",
+     "detail": "日経平均は282円61銭(0.79%)安の3万5619円18銭。前日の米国市場が休場で手掛かりに乏しく、上昇後の利益確定売りが優勢。円安は下支えになった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401160876/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "3連休明けは小幅安",
+     "detail": "S&P500は0.4%安、ダウは0.6%安。祝日明けで材料に乏しい中、売りが優勢だった。",
+     "direction": "down",
+     "source": {
+      "label": "Quartz(AP配信)",
+      "url": "https://qz.com/how-major-us-stock-indexes-fared-tuesday-1-16-2024-1851170290"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-17": {
+  "jp": {
+   "items": [
+    {
+     "title": "後場に売り直され日経平均は反落",
+     "detail": "日経平均は141円43銭(0.40%)安の3万5477円75銭。前場は600円超上げたが、アジア株安や米株先物の軟調で後場に売られ、ほぼ安値引け。売買代金は5兆円超。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401170966/"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "米長期金利の上昇で下落",
+     "detail": "S&P500は0.56%安。堅調な経済指標に加え、米欧の当局者が早期の利下げ観測をけん制したことで金利が上昇し、株が売られた(ロイター報道)。",
+     "direction": "down",
+     "source": {
+      "label": "Sharecast",
+      "url": "https://sharecast.com/amp/news/market-report-us-close/us-close-rising-yields-hawkish-comments-weigh-on-stocks--15878606.html"
+     }
+    }
+   ]
+  }
+ },
+ "2024-01-18": {
+  "jp": {
+   "items": [
+    {
+     "title": "欧州株安と米金利上昇で小幅続落",
+     "detail": "日経平均は11円58銭安の3万5466円17銭と3日続落。前日の欧州株安と米長期金利の上昇、中国株の軟調が重しで、後場は売りが優勢だった。",
+     "direction": "down",
+     "source": {
+      "label": "株探",
+      "url": "https://s.kabutan.jp/news/n202401180991"
+     }
+    }
+   ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "大型ハイテクが戻りをけん引",
+     "detail": "S&P500は0.9%高、ナスダックは1.3%高、ダウは0.5%高。週前半の2日続落から、大型ハイテクが買われて戻した。",
+     "direction": "up",
+     "source": {
+      "label": "Dow Jones(Easterly AM転載)",
+      "url": "https://funds.easterlyam.com/news-post/u-s-stocks-book-best-day-in-nearly-2-weeks-as-dow-snaps-3-day-losing-streak-after-big-tech-rally/"
      }
     }
    ]
