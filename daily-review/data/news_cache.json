@@ -6592,5 +6592,179 @@
       }
     ],
     "searched_at": "2026-11-20T15:53:05.424052+00:00"
+  },
+  "us:2026-11-20:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Warsh wants Fed officials to talk less. Instead, they’re talking more」「A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'」「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Warsh wants Fed officials to talk less. Instead, they’re talking more",
+        "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
+      },
+      {
+        "title": "CNBC Economy: A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
+        "url": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html"
+      },
+      {
+        "title": "CNBC Markets: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:41:48.216421+00:00"
+  },
+  "us:2026-11-20:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis」「Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged」「Jensen Huang's — and Nvidia's — legal exposure balloons」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+        "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"
+      },
+      {
+        "title": "CNBC Economy: Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+        "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
+      },
+      {
+        "title": "CNBC Economy: Jensen Huang's — and Nvidia's — legal exposure balloons",
+        "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:41:48.463607+00:00"
+  },
+  "us:2026-11-20:factor:Volatility": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Warsh wants Fed officials to talk less. Instead, they’re talking more」「A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'」「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Warsh wants Fed officials to talk less. Instead, they’re talking more",
+        "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
+      },
+      {
+        "title": "CNBC Economy: A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
+        "url": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html"
+      },
+      {
+        "title": "CNBC Markets: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:41:48.228530+00:00"
+  },
+  "us:2026-11-20:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/finance/commodities-futures/basic-materials-roundup-market-talk-e522fa66?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-21T02:41:48.447137+00:00"
+  },
+  "us:2026-11-20:sector:Energy": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite」",
+    "sources": [
+      {
+        "title": "CNBC Markets: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Markets: Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+        "url": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:41:48.455780+00:00"
+  },
+  "jp:2026-11-20:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:42:21.787757+00:00"
+  },
+  "jp:2026-11-20:sector:素材・化学": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:42:21.794691+00:00"
+  },
+  "jp:2026-11-20:sector:建設・資材": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:42:21.802185+00:00"
+  },
+  "jp:2026-11-20:sector:機械": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:42:21.808245+00:00"
+  },
+  "jp:2026-11-20:sector:電力・ガス": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性」",
+    "sources": [
+      {
+        "title": "NHK 経済: 中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015196091000.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:42:21.945059+00:00"
+  },
+  "jp:2026-11-20:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続」「ソフトバンクグループ 17％余の減益 4-6月期決算」",
+    "sources": [
+      {
+        "title": "NHK 経済: KDDI 楽天への回線提供の契約 9月で終了 一部では提供継続",
+        "url": "http://www3.nhk.or.jp/news/html/20260808/k10015199811000.html"
+      },
+      {
+        "title": "NHK 経済: ソフトバンクグループ 17％余の減益 4-6月期決算",
+        "url": "http://www3.nhk.or.jp/news/html/20260806/k10015198231000.html"
+      }
+    ],
+    "searched_at": "2026-11-21T02:42:21.969024+00:00"
   }
 }
