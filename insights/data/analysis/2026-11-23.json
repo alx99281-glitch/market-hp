@@ -1,0 +1,861 @@
+{
+ "worst_week": {
+  "^GSPC": {
+   "threshold": -7.0,
+   "events": [
+    {
+     "week_end": "2000-04-14",
+     "week_pct": -10.54,
+     "next_day": 3.31,
+     "next_5d": 5.4,
+     "next_20d": 7.06,
+     "next_60d": 10.05
+    },
+    {
+     "week_end": "2001-09-21",
+     "week_pct": -11.6,
+     "next_day": 3.9,
+     "next_5d": 7.78,
+     "next_20d": 11.15,
+     "next_60d": 17.45
+    },
+    {
+     "week_end": "2002-07-19",
+     "week_pct": -7.99,
+     "next_day": -3.29,
+     "next_5d": 0.6,
+     "next_20d": 9.56,
+     "next_60d": -0.74
+    },
+    {
+     "week_end": "2008-10-03",
+     "week_pct": -9.4,
+     "next_day": -3.85,
+     "next_5d": -18.2,
+     "next_20d": -11.87,
+     "next_60d": -18.98
+    },
+    {
+     "week_end": "2008-10-10",
+     "week_pct": -18.2,
+     "next_day": 11.58,
+     "next_5d": 4.6,
+     "next_20d": 3.53,
+     "next_60d": 0.83
+    },
+    {
+     "week_end": "2008-11-21",
+     "week_pct": -8.39,
+     "next_day": 6.47,
+     "next_5d": 2.02,
+     "next_20d": 8.95,
+     "next_60d": -3.75
+    },
+    {
+     "week_end": "2009-03-06",
+     "week_pct": -7.03,
+     "next_day": -1.0,
+     "next_5d": 10.71,
+     "next_20d": 23.28,
+     "next_60d": 38.25
+    },
+    {
+     "week_end": "2011-08-05",
+     "week_pct": -7.19,
+     "next_day": -6.66,
+     "next_5d": -1.72,
+     "next_20d": -2.12,
+     "next_60d": 4.5
+    },
+    {
+     "week_end": "2018-12-21",
+     "week_pct": -7.05,
+     "next_day": -2.71,
+     "next_5d": 3.73,
+     "next_20d": 9.19,
+     "next_60d": 18.14
+    },
+    {
+     "week_end": "2020-02-28",
+     "week_pct": -11.49,
+     "next_day": 4.6,
+     "next_5d": 0.61,
+     "next_20d": -13.97,
+     "next_60d": 1.27
+    },
+    {
+     "week_end": "2020-03-13",
+     "week_pct": -8.79,
+     "next_day": -11.98,
+     "next_5d": -14.98,
+     "next_20d": 1.87,
+     "next_60d": 18.3
+    },
+    {
+     "week_end": "2020-03-20",
+     "week_pct": -14.98,
+     "next_day": -2.93,
+     "next_5d": 10.26,
+     "next_20d": 22.48,
+     "next_60d": 35.57
+    },
+    {
+     "week_end": "2025-04-04",
+     "week_pct": -9.08,
+     "next_day": -0.23,
+     "next_5d": 5.7,
+     "next_20d": 11.36,
+     "next_60d": 22.73
+    },
+    {
+     "week_end": "2026-11-20",
+     "week_pct": -8.61,
+     "next_day": null,
+     "next_5d": null,
+     "next_20d": null,
+     "next_60d": null
+    }
+   ],
+   "all": {
+    "next_day": {
+     "n": 13,
+     "median": -1.0,
+     "mean": -0.21,
+     "up_pct": 38.0,
+     "min": -11.98,
+     "max": 11.58
+    },
+    "next_5d": {
+     "n": 13,
+     "median": 3.73,
+     "mean": 1.27,
+     "up_pct": 77.0,
+     "min": -18.2,
+     "max": 10.71
+    },
+    "next_20d": {
+     "n": 13,
+     "median": 8.95,
+     "mean": 6.19,
+     "up_pct": 77.0,
+     "min": -13.97,
+     "max": 23.28
+    },
+    "next_60d": {
+     "n": 13,
+     "median": 10.05,
+     "mean": 11.05,
+     "up_pct": 77.0,
+     "min": -18.98,
+     "max": 38.25
+    }
+   },
+   "first_only": {
+    "next_day": {
+     "n": 9,
+     "median": -1.0,
+     "mean": -0.66,
+     "up_pct": 33.0,
+     "min": -6.66,
+     "max": 4.6
+    },
+    "next_5d": {
+     "n": 9,
+     "median": 3.73,
+     "mean": 1.62,
+     "up_pct": 78.0,
+     "min": -18.2,
+     "max": 10.71
+    },
+    "next_20d": {
+     "n": 9,
+     "median": 9.19,
+     "mean": 4.85,
+     "up_pct": 67.0,
+     "min": -13.97,
+     "max": 23.28
+    },
+    "next_60d": {
+     "n": 9,
+     "median": 10.05,
+     "mean": 10.3,
+     "up_pct": 78.0,
+     "min": -18.98,
+     "max": 38.25
+    }
+   },
+   "latest_week_pct": -8.61
+  },
+  "^NDX": {
+   "threshold": -9.0,
+   "events": [
+    {
+     "week_end": "2000-01-28",
+     "week_pct": -10.49,
+     "next_day": 3.6,
+     "next_5d": 12.43,
+     "next_20d": 20.78,
+     "next_60d": 5.09
+    },
+    {
+     "week_end": "2000-04-14",
+     "week_pct": -25.25,
+     "next_day": 10.02,
+     "next_5d": 4.54,
+     "next_20d": 9.48,
+     "next_60d": 21.61
+    },
+    {
+     "week_end": "2000-07-28",
+     "week_pct": -11.04,
+     "next_day": 3.8,
+     "next_5d": 4.06,
+     "next_20d": 13.05,
+     "next_60d": -1.59
+    },
+    {
+     "week_end": "2000-11-10",
+     "week_pct": -12.99,
+     "next_day": -1.86,
+     "next_5d": 1.54,
+     "next_20d": 2.86,
+     "next_60d": -18.5
+    },
+    {
+     "week_end": "2000-12-01",
+     "week_pct": -9.91,
+     "next_day": 0.18,
+     "next_5d": 13.56,
+     "next_20d": -16.51,
+     "next_60d": -22.81
+    },
+    {
+     "week_end": "2000-12-15",
+     "week_pct": -12.17,
+     "next_day": 0.0,
+     "next_5d": -4.2,
+     "next_20d": 0.61,
+     "next_60d": -33.23
+    },
+    {
+     "week_end": "2001-03-16",
+     "week_pct": -9.13,
+     "next_day": 5.03,
+     "next_5d": 3.49,
+     "next_20d": 0.16,
+     "next_60d": 12.41
+    },
+    {
+     "week_end": "2001-06-15",
+     "week_pct": -10.27,
+     "next_day": -2.06,
+     "next_5d": 1.52,
+     "next_20d": -0.93,
+     "next_60d": -26.38
+    },
+    {
+     "week_end": "2001-09-21",
+     "week_pct": -17.46,
+     "next_day": 5.69,
+     "next_5d": 3.68,
+     "next_20d": 19.58,
+     "next_60d": 45.56
+    },
+    {
+     "week_end": "2002-04-26",
+     "week_pct": -9.68,
+     "next_day": -0.33,
+     "next_5d": -4.81,
+     "next_20d": 0.17,
+     "next_60d": -28.31
+    },
+    {
+     "week_end": "2008-10-03",
+     "week_pct": -12.03,
+     "next_day": -4.05,
+     "next_5d": -13.67,
+     "next_20d": -9.25,
+     "next_60d": -18.32
+    },
+    {
+     "week_end": "2008-10-10",
+     "week_pct": -13.67,
+     "next_day": 12.58,
+     "next_5d": 3.3,
+     "next_20d": 0.14,
+     "next_60d": -2.46
+    },
+    {
+     "week_end": "2020-02-28",
+     "week_pct": -10.43,
+     "next_day": 4.92,
+     "next_5d": 0.81,
+     "next_20d": -10.32,
+     "next_60d": 10.97
+    },
+    {
+     "week_end": "2020-03-20",
+     "week_pct": -12.52,
+     "next_day": 0.18,
+     "next_5d": 8.49,
+     "next_20d": 24.77,
+     "next_60d": 42.25
+    },
+    {
+     "week_end": "2025-04-04",
+     "week_pct": -9.77,
+     "next_day": 0.19,
+     "next_5d": 7.43,
+     "next_20d": 14.77,
+     "next_60d": 30.14
+    },
+    {
+     "week_end": "2026-11-20",
+     "week_pct": -10.43,
+     "next_day": null,
+     "next_5d": null,
+     "next_20d": null,
+     "next_60d": null
+    }
+   ],
+   "all": {
+    "next_day": {
+     "n": 15,
+     "median": 0.19,
+     "mean": 2.53,
+     "up_pct": 67.0,
+     "min": -4.05,
+     "max": 12.58
+    },
+    "next_5d": {
+     "n": 15,
+     "median": 3.49,
+     "mean": 2.81,
+     "up_pct": 80.0,
+     "min": -13.67,
+     "max": 13.56
+    },
+    "next_20d": {
+     "n": 15,
+     "median": 0.61,
+     "mean": 4.62,
+     "up_pct": 73.0,
+     "min": -16.51,
+     "max": 24.77
+    },
+    "next_60d": {
+     "n": 15,
+     "median": -1.59,
+     "mean": 1.1,
+     "up_pct": 47.0,
+     "min": -33.23,
+     "max": 45.56
+    }
+   },
+   "first_only": {
+    "next_day": {
+     "n": 11,
+     "median": 3.6,
+     "mean": 2.27,
+     "up_pct": 64.0,
+     "min": -4.05,
+     "max": 10.02
+    },
+    "next_5d": {
+     "n": 11,
+     "median": 3.49,
+     "mean": 1.91,
+     "up_pct": 82.0,
+     "min": -13.67,
+     "max": 12.43
+    },
+    "next_20d": {
+     "n": 11,
+     "median": 2.86,
+     "mean": 5.49,
+     "up_pct": 73.0,
+     "min": -10.32,
+     "max": 20.78
+    },
+    "next_60d": {
+     "n": 11,
+     "median": 5.09,
+     "mean": 2.97,
+     "up_pct": 55.0,
+     "min": -28.31,
+     "max": 45.56
+    }
+   },
+   "latest_week_pct": -10.43
+  },
+  "nikkei_next": [
+   {
+    "week_end": "2000-04-14",
+    "nikkei_next_session": -6.98,
+    "session": "2000-04-17"
+   },
+   {
+    "week_end": "2001-09-21",
+    "nikkei_next_session": 1.45,
+    "session": "2001-09-25"
+   },
+   {
+    "week_end": "2002-07-19",
+    "nikkei_next_session": -0.13,
+    "session": "2002-07-22"
+   },
+   {
+    "week_end": "2008-10-03",
+    "nikkei_next_session": -4.25,
+    "session": "2008-10-06"
+   },
+   {
+    "week_end": "2008-10-10",
+    "nikkei_next_session": 14.15,
+    "session": "2008-10-14"
+   },
+   {
+    "week_end": "2008-11-21",
+    "nikkei_next_session": 5.22,
+    "session": "2008-11-25"
+   },
+   {
+    "week_end": "2009-03-06",
+    "nikkei_next_session": -1.21,
+    "session": "2009-03-09"
+   },
+   {
+    "week_end": "2011-08-05",
+    "nikkei_next_session": -2.18,
+    "session": "2011-08-08"
+   },
+   {
+    "week_end": "2018-12-21",
+    "nikkei_next_session": -5.01,
+    "session": "2018-12-25"
+   },
+   {
+    "week_end": "2020-02-28",
+    "nikkei_next_session": 0.95,
+    "session": "2020-03-02"
+   },
+   {
+    "week_end": "2020-03-13",
+    "nikkei_next_session": -2.46,
+    "session": "2020-03-16"
+   },
+   {
+    "week_end": "2020-03-20",
+    "nikkei_next_session": 2.02,
+    "session": "2020-03-23"
+   },
+   {
+    "week_end": "2025-04-04",
+    "nikkei_next_session": -7.83,
+    "session": "2025-04-07"
+   }
+  ],
+  "nikkei_next_stats": {
+   "n": 13,
+   "median": -1.21,
+   "mean": -0.48,
+   "up_pct": 38.0,
+   "min": -7.83,
+   "max": 14.15
+  }
+ },
+ "thanksgiving": {
+  "rows": [
+   {
+    "year": 2000,
+    "week_pct": -1.9,
+    "prior_20d_pct": -2.09
+   },
+   {
+    "year": 2001,
+    "week_pct": 1.03,
+    "prior_20d_pct": 6.07
+   },
+   {
+    "year": 2002,
+    "week_pct": 0.62,
+    "prior_20d_pct": 3.67
+   },
+   {
+    "year": 2003,
+    "week_pct": 2.21,
+    "prior_20d_pct": 0.62
+   },
+   {
+    "year": 2004,
+    "week_pct": 1.05,
+    "prior_20d_pct": 6.81
+   },
+   {
+    "year": 2005,
+    "week_pct": 1.6,
+    "prior_20d_pct": 5.82
+   },
+   {
+    "year": 2006,
+    "week_pct": -0.02,
+    "prior_20d_pct": 2.38
+   },
+   {
+    "year": 2007,
+    "week_pct": -1.24,
+    "prior_20d_pct": -2.79
+   },
+   {
+    "year": 2008,
+    "week_pct": 12.03,
+    "prior_20d_pct": -8.75
+   },
+   {
+    "year": 2009,
+    "week_pct": 0.01,
+    "prior_20d_pct": 1.09
+   },
+   {
+    "year": 2010,
+    "week_pct": -0.86,
+    "prior_20d_pct": 1.41
+   },
+   {
+    "year": 2011,
+    "week_pct": -4.69,
+    "prior_20d_pct": -1.83
+   },
+   {
+    "year": 2012,
+    "week_pct": 3.62,
+    "prior_20d_pct": -6.92
+   },
+   {
+    "year": 2013,
+    "week_pct": 0.06,
+    "prior_20d_pct": 2.56
+   },
+   {
+    "year": 2014,
+    "week_pct": 0.2,
+    "prior_20d_pct": 5.04
+   },
+   {
+    "year": 2015,
+    "week_pct": 0.05,
+    "prior_20d_pct": 0.68
+   },
+   {
+    "year": 2016,
+    "week_pct": 1.44,
+    "prior_20d_pct": 1.9
+   },
+   {
+    "year": 2017,
+    "week_pct": 0.91,
+    "prior_20d_pct": 0.14
+   },
+   {
+    "year": 2018,
+    "week_pct": -3.79,
+    "prior_20d_pct": -1.14
+   },
+   {
+    "year": 2019,
+    "week_pct": 0.99,
+    "prior_20d_pct": 2.9
+   },
+   {
+    "year": 2020,
+    "week_pct": 2.27,
+    "prior_20d_pct": 2.66
+   },
+   {
+    "year": 2021,
+    "week_pct": -2.2,
+    "prior_20d_pct": 3.37
+   },
+   {
+    "year": 2022,
+    "week_pct": 1.53,
+    "prior_20d_pct": 5.66
+   },
+   {
+    "year": 2023,
+    "week_pct": 1.0,
+    "prior_20d_pct": 6.86
+   },
+   {
+    "year": 2024,
+    "week_pct": 1.06,
+    "prior_20d_pct": 2.78
+   },
+   {
+    "year": 2025,
+    "week_pct": 3.73,
+    "prior_20d_pct": -2.78
+   }
+  ],
+  "all": {
+   "n": 26,
+   "median": 0.95,
+   "mean": 0.8,
+   "up_pct": 73.0,
+   "min": -4.69,
+   "max": 12.03
+  },
+  "all_others": {
+   "n": 1402,
+   "median": 0.25,
+   "mean": 0.14,
+   "up_pct": 56.0,
+   "min": -18.2,
+   "max": 12.1
+  },
+  "prior20_neg5": {
+   "n": 2,
+   "median": 7.82,
+   "mean": 7.82,
+   "up_pct": 100.0,
+   "min": 3.62,
+   "max": 12.03
+  },
+  "prior20_neg5_years": [
+   2008,
+   2012
+  ],
+  "latest_prior20": -9.36
+ },
+ "btc": {
+  "last_rows": {
+   "2026-11-13": 68249.0,
+   "2026-11-14": 64128.0,
+   "2026-11-15": 65305.0,
+   "2026-11-16": 64856.0,
+   "2026-11-17": 64894.0,
+   "2026-11-18": 62987.0,
+   "2026-11-19": 61902.0,
+   "2026-11-21": 58552.0
+  },
+  "ath": 124753.0,
+  "ath_date": "2025-10-06",
+  "nov16_monday": {
+   "NDX": -2.67,
+   "N225": -2.42
+  },
+  "corr_btc_ndx_60d": 0.47,
+  "corr_btc_ndx_250d": 0.45,
+  "corr_ibit_smh_60d": 0.53,
+  "ibit_vol_last5": {
+   "2026-11-16": 61451500,
+   "2026-11-17": 47956100,
+   "2026-11-18": 56407200,
+   "2026-11-19": 72937000,
+   "2026-11-20": 108836000
+  },
+  "ibit_vol_rank_last5": [
+   138,
+   253,
+   168,
+   83,
+   14
+  ],
+  "ibit_days": 719,
+  "vs_55300": {
+   "from_1119": -10.66,
+   "from_ath": -55.67
+  },
+  "vs_55632": {
+   "from_1119": -10.13,
+   "from_ath": -55.41
+  },
+  "vs_60000": {
+   "from_1119": -3.07,
+   "from_ath": -51.9
+  },
+  "weekend_le5_since2021": {
+   "n": 12,
+   "ndx": {
+    "n": 12,
+    "median": -0.78,
+    "mean": -1.25,
+    "up_pct": 42.0,
+    "min": -4.6,
+    "max": 1.71
+   },
+   "n225": {
+    "n": 11,
+    "median": -0.92,
+    "mean": -2.36,
+    "up_pct": 36.0,
+    "min": -12.4,
+    "max": 1.82
+   },
+   "dates": [
+    "2021-01-08",
+    "2021-04-16",
+    "2021-05-14",
+    "2021-05-21",
+    "2021-07-30",
+    "2021-12-03",
+    "2022-05-06",
+    "2022-06-10",
+    "2024-08-02",
+    "2025-03-07",
+    "2025-04-04",
+    "2026-01-30"
+   ]
+  }
+ },
+ "breadth": {
+  "date": "2026-11-20",
+  "pct_above_50d": 42.6,
+  "pct_above_200d": 47.5,
+  "pct_above_50d_1w_ago": 71.6,
+  "pct_above_50d_1m_ago": 61.2,
+  "median_dd_52w": -15.9,
+  "members": 516,
+  "min_50d": 5.6,
+  "min_50d_date": "2025-04-08",
+  "start": "2023-11-13",
+  "min_200d": 18.0,
+  "min_200d_date": "2025-04-08",
+  "week_pct_up": 6.0,
+  "week_median": -5.85,
+  "week_pct_le_-10": 20.8,
+  "below20_events": [
+   {
+    "date": "2025-01-10",
+    "pct_above_50d": 18.2,
+    "spx_fwd20": 4.11,
+    "spx_min_fwd20": 0.0
+   },
+   {
+    "date": "2025-04-04",
+    "pct_above_50d": 10.8,
+    "spx_fwd20": 11.36,
+    "spx_min_fwd20": -1.8
+   },
+   {
+    "date": "2026-03-27",
+    "pct_above_50d": 19.9,
+    "spx_fwd20": 12.64,
+    "spx_min_fwd20": -0.39
+   }
+  ],
+  "rsp_spy": {
+   "1w": {
+    "RSP": -6.2,
+    "SPY": -8.56
+   },
+   "1m": {
+    "RSP": -4.94,
+    "SPY": -9.71
+   }
+  }
+ },
+ "servers": {
+  "DELL": {
+   "close": 278.02,
+   "r_1w": -19.3,
+   "r_1m": -38.62,
+   "ytd": 123.19,
+   "dd_52w": -52.68,
+   "corr_mu_2025": 0.65,
+   "corr_excess_mu_2025": 0.42,
+   "corr_mu_2026": 0.42,
+   "corr_excess_mu_2026": 0.32,
+   "corr_mu_last60": 0.68,
+   "corr_excess_mu_last60": 0.55
+  },
+  "HPE": {
+   "close": 40.91,
+   "r_1w": -15.28,
+   "r_1m": -26.25,
+   "ytd": 72.35,
+   "dd_52w": -44.31,
+   "corr_mu_2025": 0.58,
+   "corr_excess_mu_2025": 0.29,
+   "corr_mu_2026": 0.4,
+   "corr_excess_mu_2026": 0.26,
+   "corr_mu_last60": 0.63,
+   "corr_excess_mu_last60": 0.48
+  },
+  "HPQ": {
+   "close": 27.96,
+   "r_1w": -4.77,
+   "r_1m": -17.18,
+   "ytd": 30.34,
+   "dd_52w": -21.2,
+   "corr_mu_2025": 0.45,
+   "corr_excess_mu_2025": 0.08,
+   "corr_mu_2026": -0.01,
+   "corr_excess_mu_2026": -0.19,
+   "corr_mu_last60": 0.08,
+   "corr_excess_mu_last60": -0.21
+  },
+  "SMCI": {
+   "close": 21.65,
+   "r_1w": -19.43,
+   "r_1m": -35.79,
+   "ytd": -26.03,
+   "dd_52w": -56.85,
+   "corr_mu_2025": 0.51,
+   "corr_excess_mu_2025": 0.29,
+   "corr_mu_2026": 0.46,
+   "corr_excess_mu_2026": 0.36,
+   "corr_mu_last60": 0.71,
+   "corr_excess_mu_last60": 0.61
+  },
+  "MU": {
+   "r_1m": -30.59,
+   "ytd": 108.45,
+   "dd_52w": -51.0
+  },
+  "quarterly_rel_vs_spy": {
+   "2025-09-30": {
+    "DELL": 7.39,
+    "HPQ": 4.0,
+    "MU": 25.68
+   },
+   "2025-12-31": {
+    "DELL": -13.21,
+    "HPQ": -19.35,
+    "MU": 66.32
+   },
+   "2026-03-31": {
+    "DELL": 36.94,
+    "HPQ": -8.38,
+    "MU": 23.83
+   },
+   "2026-06-30": {
+    "DELL": 129.05,
+    "HPQ": 0.42,
+    "MU": 196.78
+   },
+   "2026-09-30": {
+    "DELL": 21.99,
+    "HPQ": 40.61,
+    "MU": -9.85
+   },
+   "2026-12-31": {
+    "DELL": -42.78,
+    "HPQ": -1.18,
+    "MU": -38.28
+   }
+  },
+  "dell_big_days": {
+   "2026-08-04": 8.92,
+   "2026-08-12": 9.87,
+   "2026-09-02": 15.81,
+   "2026-09-11": 11.98,
+   "2026-10-14": -11.27,
+   "2026-10-30": -10.77,
+   "2026-11-04": -8.82,
+   "2026-11-05": -14.89,
+   "2026-11-11": 11.75,
+   "2026-11-20": -11.04
+  }
+ }
+}

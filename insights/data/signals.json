@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T22:16+00:00",
+ "generated_at": "2026-11-21T02:49+00:00",
  "intraday_jp": {
   "日経225ETF": {
    "ticker": "1321.T",
@@ -473,7 +473,7 @@
     "basehit5d": 56.0,
     "fwd20d": 1.17,
     "hit20d": 50.0,
-    "base20d": 0.82,
+    "base20d": 0.81,
     "basehit20d": 59.0,
     "fwd60d": 3.64,
     "hit60d": 65.0,
@@ -488,7 +488,7 @@
     "basehit5d": 56.0,
     "fwd20d": 1.44,
     "hit20d": 56.0,
-    "base20d": 0.82,
+    "base20d": 0.81,
     "basehit20d": 59.0,
     "fwd60d": 4.54,
     "hit60d": 56.0,
@@ -496,10 +496,10 @@
     "basehit60d": 60.0
    },
    "latest": {
-    "date": "2026-11-19",
-    "ret": 0.71,
-    "vol_ratio": 0.81,
-    "dd20": -8.07,
+    "date": "2026-11-20",
+    "ret": -5.06,
+    "vol_ratio": 1.01,
+    "dd20": -12.72,
     "signal_today": false,
     "last_signal": "2026-11-06"
    }
@@ -512,12 +512,12 @@
     "name": "日経平均",
     "d120": {
      "sox_beta": 0.25,
-     "t10_per10bp": -0.31,
+     "t10_per10bp": -0.29,
      "r2": 0.23
     },
     "d250": {
-     "sox_beta": 0.28,
-     "t10_per10bp": -0.43,
+     "sox_beta": 0.29,
+     "t10_per10bp": -0.41,
      "r2": 0.24
     }
    },
@@ -651,7 +651,7 @@
    "ndx": -5.61,
    "spx": -3.7,
    "t10_bp": -14.0,
-   "usdjpy_pct": -0.55
+   "usdjpy_pct": 0.2
   },
   "spx_vs_10y_corr60": 0.22,
   "spx_vs_10y_corr250": -0.15,
@@ -719,7 +719,7 @@
    {
     "t": "MU",
     "trailing_pe": 8.0,
-    "fwd_pe": 2.9,
+    "fwd_pe": 2.8,
     "pb": 4.9,
     "op_margin": 75.0,
     "ret_1d": -13.9,
@@ -732,9 +732,9 @@
     "fwd_pe": 2.2,
     "pb": 5.0,
     "op_margin": 73.0,
-    "ret_1d": -16.1,
-    "ret_1m": -49.7,
-    "from_high": -72.9
+    "ret_1d": -2.7,
+    "ret_1m": -45.2,
+    "from_high": -67.7
    },
    {
     "t": "WDC",
