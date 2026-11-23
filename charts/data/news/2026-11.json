@@ -621,5 +621,38 @@
     }
    ]
   }
+ },
+ "2026-11-23": {
+  "us": {
+   "items": [
+    {
+     "title": "エヌビディアがフアン氏をCEOに復帰させ、株価は+31.5%",
+     "detail": "取締役会は全会一致で復帰を決めたと発表。独立委員会の調査は継続。時価総額の増加は約9,500億ドル規模と伝えられた。",
+     "direction": "up",
+     "source": {
+      "label": "NVIDIA(一次情報)",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+     }
+    },
+    {
+     "title": "S&P500+4.7%、ナスダック+6%台で2025年4月以来の大幅高",
+     "detail": "半導体・AI関連が主導し、マイクロン+19%、CoreWeave+22%。VIXは急低下。ナスダック100は高値からなお調整局面と報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "CNBC(報道)",
+      "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+     }
+    },
+    {
+     "title": "12月利上げ観測は残り、水曜のPCEに注目",
+     "detail": "株高でもドルは強く、金も反発。0.25%の利上げが広く見込まれ、感謝祭週は木曜休場・金曜短縮取引。",
+     "direction": "flat",
+     "source": {
+      "label": "FXStreet(報道)",
+      "url": "https://www.fxstreet.com/news/gold-reclaims-3-650-as-nvidia-news-sparks-rally-ahead-of-us-pce-202611231916"
+     }
+    }
+   ]
+  }
  }
 }
