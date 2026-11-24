@@ -6868,5 +6868,15 @@
       }
     ],
     "searched_at": "2026-11-24T05:26:38.851456+00:00"
+  },
+  "us:2026-11-23:sector:Real Estate": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Commercial real estate activity falls 14% in October, as interest rates rise」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Commercial real estate activity falls 14% in October, as interest rates rise",
+        "url": "https://www.cnbc.com/2026/11/24/commercial-real-estate-activity-falls-14percent-in-october.html"
+      }
+    ],
+    "searched_at": "2026-11-24T18:33:17.966924+00:00"
   }
 }
