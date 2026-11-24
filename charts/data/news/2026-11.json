@@ -686,6 +686,37 @@
      }
     }
    ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "半導体が反落、SOX-7.9%・ナスダック100-2.0%",
+     "detail": "月曜のフアン氏復帰による急反発の翌日、エヌビディア-5.9%、CoreWeave-11.8%。アンソロピックは公開価格83ドルを下回った。S&P500は-0.5%。",
+     "direction": "down",
+     "source": {
+      "label": "BNN Bloomberg / AP(報道)",
+      "url": "https://www.bnnbloomberg.ca/investing/market-outlook/2026/11/24/tech-stocks-wane-a-day-after-a-huang-rally-as-anthropic-tumbles-below-its-initial-offering-price/"
+     }
+    },
+    {
+     "title": "ダウは+0.85%で5万ドル台、ヘルスケアへ資金が移動",
+     "detail": "ハイテク売りの一方、ヘルスケア・生活必需品などバリューへの循環でダウは上昇と報じられた。",
+     "direction": "up",
+     "source": {
+      "label": "Motley Fool(報道)",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/"
+     }
+    },
+    {
+     "title": "米政権が中国・EUなどへの新関税を準備とWSJ報道、メモリ株は格下げで急落",
+     "detail": "寄り付き前に関税報道で先物が下落。マイクロンはBNPパリバの格下げで-11%。引け後、デルはAI受注602億ドルの決算を発表。",
+     "direction": "down",
+     "source": {
+      "label": "FXStreet(WSJ報道の二次情報)",
+      "url": "https://www.fxstreet.com/news/us-prepares-new-tariffs-on-china-and-other-trading-partners-wsj-202611241338"
+     }
+    }
+   ]
   }
  }
 }

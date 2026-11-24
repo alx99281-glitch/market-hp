@@ -205,7 +205,11 @@
   "2510.T",
   "000001.SS",
   "^SET.BK",
-  "ANT"
+  "ANT",
+  "DELL",
+  "HPQ",
+  "WDC",
+  "STX"
  ],
  "intraday": [
   "1306.T",
