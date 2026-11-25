@@ -750,6 +750,37 @@
      }
     }
    ]
+  },
+  "us": {
+   "items": [
+    {
+     "title": "PCE上振れとAI株安で朝に急落、ダウは1,100ドル超安から切り返し",
+     "detail": "S&P500は日中-3.2%から-0.25%の7,182.78、ダウは+0.33%の50,182.95で引け。ナスダック100は-0.64%。素材・エネルギー・不動産が上昇し、等加重は+0.83%。",
+     "direction": "flat",
+     "source": {
+      "label": "Motley Fool(報道)",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/"
+     }
+    },
+    {
+     "title": "10月PCEは前年比3.8%、コア3.3%と予想超え。12月利上げ観測は9割超",
+     "detail": "それでも米10年金利は4.85%へ低下。株安と関税懸念で安全資産が買われたと報じられた。",
+     "direction": "down",
+     "source": {
+      "label": "InvestmentNews(報道)",
+      "url": "https://www.investmentnews.com/equities/pce-inflation-gauge-still-running-hot-as-december-rate-hike-looms/269173"
+     }
+    },
+    {
+     "title": "エヌビディア-3.9%、デルは受注残1,323億ドルでも朝に急落後プラス圏",
+     "detail": "エヌビディアはフアン氏復帰後の上げをさらに縮小。デルは寄り付き-9%から+0.6%、HPは+11.5%、マイクロンは-4.5%。",
+     "direction": "down",
+     "source": {
+      "label": "GuruFocus(報道)",
+      "url": "https://www.gurufocus.com/news/9220392/dell-technologies-stocks-drop-869-despite-1323-billion-ai-backlog"
+     }
+    }
+   ]
   }
  }
 }
