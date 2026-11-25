@@ -7052,5 +7052,15 @@
       }
     ],
     "searched_at": "2026-11-25T04:29:41.265104+00:00"
+  },
+  "us:2026-11-24:sector:Industrials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「European Stock Indexes Mostly Higher as Industrials, Luxuries Gain」",
+    "sources": [
+      {
+        "title": "WSJ Markets: European Stock Indexes Mostly Higher as Industrials, Luxuries Gain",
+        "url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-8-dragged-by-chip-related-stocks-79ef7a34?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-25T17:45:02.147493+00:00"
   }
 }
