@@ -6878,5 +6878,179 @@
       }
     ],
     "searched_at": "2026-11-24T18:33:17.966924+00:00"
+  },
+  "us:2026-11-24:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist」「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Record diesel prices drive UK inflation to 1-year high of 3.6%」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+        "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+      },
+      {
+        "title": "CNBC Markets: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Markets: Record diesel prices drive UK inflation to 1-year high of 3.6%",
+        "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:07.001003+00:00"
+  },
+  "us:2026-11-24:sector_internal_dispersion:Consumer Staples": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist」「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Record diesel prices drive UK inflation to 1-year high of 3.6%」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+        "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+      },
+      {
+        "title": "CNBC Markets: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Markets: Record diesel prices drive UK inflation to 1-year high of 3.6%",
+        "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:07.009696+00:00"
+  },
+  "us:2026-11-24:factor:Growth": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist」「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Record diesel prices drive UK inflation to 1-year high of 3.6%」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+        "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+      },
+      {
+        "title": "CNBC Markets: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Markets: Record diesel prices drive UK inflation to 1-year high of 3.6%",
+        "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:07.016021+00:00"
+  },
+  "us:2026-11-24:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist」「Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices」「Record diesel prices drive UK inflation to 1-year high of 3.6%」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+        "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+      },
+      {
+        "title": "CNBC Markets: Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+      },
+      {
+        "title": "CNBC Markets: Record diesel prices drive UK inflation to 1-year high of 3.6%",
+        "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:07.023497+00:00"
+  },
+  "us:2026-11-24:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/energy-utilities-roundup-market-talk-762271f0?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:07.326111+00:00"
+  },
+  "us:2026-11-24:sector:Materials": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Basic Materials Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Basic Materials Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/basic-materials-roundup-market-talk-90784e85?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:07.336160+00:00"
+  },
+  "jp:2026-11-24:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:41.094641+00:00"
+  },
+  "jp:2026-11-24:factor:Growth": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:41.101588+00:00"
+  },
+  "jp:2026-11-24:sector:電機・精密": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:41.109360+00:00"
+  },
+  "jp:2026-11-24:sector:機械": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:41.116873+00:00"
+  },
+  "jp:2026-11-24:sector:電力・ガス": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性」",
+    "sources": [
+      {
+        "title": "NHK 経済: 中部電力に不正アクセス 約7万4000人の個人情報漏えいの可能性",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015196091000.html"
+      }
+    ],
+    "searched_at": "2026-11-25T04:29:41.265104+00:00"
   }
 }
