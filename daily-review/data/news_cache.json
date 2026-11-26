@@ -7208,5 +7208,15 @@
       }
     ],
     "searched_at": "2026-11-26T03:43:11.302491+00:00"
+  },
+  "us:2026-11-25:sector:Health Care": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Health Care Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Health Care Roundup: Market Talk",
+        "url": "https://www.wsj.com/business/health-care-roundup-market-talk-b4d17b6e?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-26T17:29:16.365292+00:00"
   }
 }
