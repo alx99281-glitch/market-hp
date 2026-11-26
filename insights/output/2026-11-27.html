@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分析の視点 2026-11-27</title><style>
+:root { --bg:#0d1117; --panel:#161b22; --panel2:#21262c; --border:#30363d; --text:#e6edf3;
+  --muted:#8b949e; --accent:#58a6ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --watch:#a371f7; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); line-height:1.65;
+  font-family:-apple-system,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif; }
+.wrap { max-width:1120px; margin:0 auto; padding:24px 20px 56px; }
+.top { display:flex; justify-content:space-between; gap:12px; align-items:center; color:var(--muted); font-size:.8rem; }
+select { background:var(--panel2); color:var(--text); border:1px solid var(--border); border-radius:5px; padding:4px 8px; }
+h1 { font-size:1.5rem; line-height:1.35; margin:10px 0 8px; }
+.lead { color:var(--muted); max-width:820px; margin:0 0 18px; }
+.snap { display:grid; grid-template-columns:repeat(auto-fit,minmax(135px,1fr)); gap:8px; margin-bottom:18px; }
+.snap div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.snap span { display:block; color:var(--muted); font-size:.72rem; }
+.snap b { font-size:1rem; font-variant-numeric:tabular-nums; }
+.filters { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; }
+.filters button { background:var(--panel2); border:1px solid var(--border); color:var(--text);
+  padding:5px 12px; border-radius:5px; cursor:pointer; font-size:.8rem; }
+.filters button.active { background:var(--accent); color:#04101f; border-color:var(--accent); font-weight:600; }
+.grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; align-items:start; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px 18px; min-width:0; }
+.meta { display:flex; justify-content:space-between; gap:8px; font-size:.75rem; color:var(--muted); }
+.badge { font-weight:600; }
+.ok { color:var(--ok); } .warn { color:var(--warn); } .bad { color:var(--bad); } .watch { color:var(--watch); }
+h2 { font-size:1.08rem; line-height:1.4; margin:6px 0 8px; }
+h3 { font-size:.74rem; color:var(--muted); margin:12px 0 2px; font-weight:600; }
+p { margin:0; font-size:.88rem; } ul { margin:0; padding-left:1.1em; font-size:.84rem; } li { margin:2px 0; }
+.post { background:var(--panel2); border-left:3px solid var(--accent); padding:7px 10px; border-radius:0 5px 5px 0; }
+.scroll { overflow-x:auto; margin-top:10px; }
+table { width:100%; border-collapse:collapse; font-size:.8rem; font-variant-numeric:tabular-nums; }
+caption { text-align:left; color:var(--muted); font-size:.74rem; padding-bottom:4px; }
+th,td { padding:4px 8px; border-bottom:1px solid var(--border); text-align:right; white-space:nowrap; }
+th:first-child,td:first-child { text-align:left; } th { color:var(--muted); font-weight:500; }
+.note { color:var(--muted); font-size:.74rem; margin-top:4px; }
+.src { margin-top:12px; font-size:.74rem; color:var(--muted); }
+a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+.section { font-size:1.15rem; margin:30px 0 10px; }
+.x { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:8px; }
+.x p + p { color:var(--muted); font-size:.82rem; }
+.method { color:var(--muted); font-size:.76rem; margin-top:26px; border-top:1px solid var(--border); padding-top:12px; }
+.moves { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:10px; }
+.move { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 14px; min-width:0; }
+.move .grp { color:var(--muted); font-size:.7rem; }
+.move h4 { margin:2px 0 0; font-size:.95rem; }
+.move .big { font-size:1.25rem; font-weight:700; font-variant-numeric:tabular-nums; }
+.move .since { font-size:.76rem; color:var(--warn); }
+.move svg { display:block; width:100%; height:56px; margin:6px 0 4px; }
+.move .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.66rem; }
+.move p { font-size:.8rem; margin-top:6px; }
+.up { color:var(--ok); } .down { color:var(--bad); }
+.inv-sum { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:12px 16px; margin-bottom:10px; }
+.inv-sum p { font-size:.86rem; }
+.stance { font-weight:600; white-space:nowrap; }
+.s-bull { color:var(--ok); } .s-bear { color:var(--bad); } .s-neu { color:var(--muted); } .s-mix { color:var(--warn); }
+td.wrap { white-space:normal; text-align:left; min-width:220px; }
+table.left th, table.left td { text-align:left; vertical-align:top; }
+table.left td { white-space:normal; }
+.move .axis span:nth-child(2) { text-align:center; }
+.secnav { position:sticky; top:0; z-index:5; display:flex; flex-wrap:wrap; gap:6px; padding:8px 0; margin:0 0 14px;
+  background:var(--bg); border-bottom:1px solid var(--border); }
+.secnav a { background:var(--panel2); border:1px solid var(--border); color:var(--text); padding:5px 12px; border-radius:999px; font-size:.8rem; }
+.secnav a:hover { border-color:var(--accent); text-decoration:none; }
+.secnav a b { color:var(--muted); font-weight:500; margin-left:4px; }
+[id^="sec-"] { scroll-margin-top:56px; }
+.mtiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin-bottom:10px; }
+.mtiles div { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 12px; }
+.mtiles span { display:block; color:var(--muted); font-size:.72rem; } .mtiles b { font-size:1.05rem; font-variant-numeric:tabular-nums; }
+.mtiles i { display:block; font-style:normal; font-size:.72rem; color:var(--muted); }
+.mchart { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin-bottom:10px; }
+.mchart svg { display:block; width:100%; height:90px; } .mchart .axis { display:flex; justify-content:space-between; color:var(--muted); font-size:.68rem; }
+.pos { color:var(--ok); } .neg { color:var(--bad); }
+@media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } .wrap { padding:16px 16px 40px; } }
+</style></head>
+<body><div class="wrap">
+<div class="top"><span>分析の視点 ・ 感謝祭休場明けの号(週末版と同じ扱い)。米国株・米国債・米国上場ETFは11/25(水)NY引けまで。欧州株・米株価指数先物・為替・商品は11/26(木)の値(11/26 18:50 UTC取得時点。先物・為替は確定前の値の可能性あり)。米国は11/26休場、11/27は13時(米東部)までの短縮取引</span>
+<select aria-label="号を選択" onchange="location.href=this.value"><option value="2026-11-27.html" selected>2026-11-27</option><option value="2026-11-26.html">2026-11-26</option><option value="2026-11-25.html">2026-11-25</option><option value="2026-11-24.html">2026-11-24</option><option value="2026-11-23.html">2026-11-23</option><option value="2026-11-21.html">2026-11-21</option><option value="2026-11-20.html">2026-11-20</option><option value="2026-11-19.html">2026-11-19</option><option value="2026-11-18.html">2026-11-18</option><option value="2026-11-16.html">2026-11-16</option><option value="2026-11-14.html">2026-11-14</option><option value="2026-11-13.html">2026-11-13</option><option value="2026-11-11.html">2026-11-11</option><option value="2026-11-08.html">2026-11-08</option><option value="2026-11-06.html">2026-11-06</option><option value="2026-11-05.html">2026-11-05</option><option value="2026-11-04.html">2026-11-04</option><option value="2026-11-03.html">2026-11-03</option><option value="2026-10-31.html">2026-10-31</option></select></div>
+<h1>休場明け版: 関税案は日本・EUに15%の上限を維持、欧州株は木曜+2%。感謝祭の木曜にDAXが+1%超の3年は金曜の米国も上昇(n=3)。株が債券に6pt負けた月の月末最終日は30回中19回上昇</h1><p class="lead">米国が感謝祭で休場の木曜、欧州株はDAX+2.08%、ユーロ・ストックス50+2.04%と大きく戻しました。報道では、11/25に米通商代表部(USTR)が示した14経済圏への関税案(301条)が「懸念ほど厳しくなかった」ことが理由とされています。案では日本・EU・韓国・台湾・スイスは15%(既存関税と重ねない)で、2025年に合意した上限が維持されました。米株価指数先物は木曜に+0.5%程度にとどまっており、短縮取引の金曜に米国が欧州にどこまで追いつくかが最初の論点です。もう一つは月末です。11月はS&amp;P500が-5.2%、長期国債ETF(TLT)が+0.9%で、株と債券の差は約6ptあり、月曜(11/30)の月末に向けた資産配分の戻し(リバランス)の株買いが話題になりやすい局面です。今回の号は新しい米国の取引日がないため、3枚に絞っています。</p>
+<nav class="secnav" aria-label="セクション"><a href="#sec-cards">分析の視点<b>3</b></a><a href="#sec-x">Xで拾った論点<b>6</b></a></nav>
+<div class="snap"><div><span>S&amp;P500 / ナスダック100(11/25)</span><b>7,182.78 (-0.25%) / 26,046.9 (-0.64%)</b></div><div><span>S&amp;P500先物 / ナスダック100先物(11/26)</span><b>7,234.5 (+0.54%) / 26,221.25 (+0.46%)</b></div><div><span>DAX / ユーロ・ストックス50 / FTSE(11/26)</span><b>25,215.52 (+2.08%) / 6,014.74 (+2.04%) / 10,609.3 (+1.75%)</b></div><div><span>CME日経先物 / ドル円(11/26)</span><b>57,665円 (+0.55%) / 159.27円</b></div><div><span>11月の騰落(10/30→11/25)</span><b>S&amp;P500 -5.24% / ナスダック100 -8.24% / 等加重RSP -1.18% / TLT +0.91%</b></div><div><span>VIX(11/25)</span><b>28.29 (+7.32%)</b></div><div><span>金 / 銀 / 銅(11/26)</span><b>3,595.9ドル (+1.70%) / 41.79ドル (+4.34%) / 5.437ドル (+1.96%)</b></div><div><span>ビットコイン(11/26取得時点)</span><b>60,512ドル (+0.22%)</b></div></div>
+<div class="filters" id="sec-cards"><button class="active" data-t="all">すべて</button><button data-t="政策・クロスアセット">政策・クロスアセット</button><button data-t="季節性・クロスアセット">季節性・クロスアセット</button><button data-t="需給・季節性">需給・季節性</button></div>
+<div class="grid"><article class="card" data-t="政策・クロスアセット">
+<div class="meta"><span>政策・クロスアセット</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>関税案は日本・EU・韓国・台湾に15%(重ねない)で上限を維持、欧州株は木曜+2%。ただ米国上場の国別ETFでは、関税率の高さと値動きはほぼ無関係で、韓国・台湾の下げは半導体安の影響が大きい</h2>
+<p>USTRは11/25、301条の「構造的な過剰生産能力」調査で14経済圏への関税案を示しました。法律事務所などの解説によると、日本・韓国・台湾は既存関税との差し引きで最大15%(協議が不十分なら日本20%、韓国・台湾25%)、EUとスイスも15%、中国は既存に上乗せで20%、ベトナムは35%(合意すれば20%)とされ、メキシコとノルウェーは判断が保留されました(報道・二次情報。意見募集は2027年1月5日まで、公聴会は1月25日で、まだ確定ではありません)。木曜の欧州は「懸念ほど厳しくない」として大きく上げたと報じられています(DAX+2.08%、取得データ)。では、市場は関税率の違いを値付けしたのでしょうか。WSJの事前報道(11/24)から正式案(11/25)までの2日間で、米国上場の国別ETFの騰落を全世界株(ACWI、-0.63%)と比べると、関税案の対象15本の中央値は-0.30pt、対象外・保留の6本は+1.65ptで、対象国が弱かったのは確かです。ただ対象国の中では、税率と値動きの関係ははっきりしません。35%のベトナム(-0.15pt)や17〜25%のインド(+2.66pt)より、15%の韓国(-4.18pt)と台湾(-4.73pt)の方が大きく下げました。韓国・台湾は11/24にSOX指数が-7.9%となった半導体安の影響が大きく、関税だけでは説明できません。</p>
+<h3>データ</h3><ul><li>国別ETFの2日騰落(11/23終値→11/25終値)のACWI比: 日本EWJ +1.03pt、ドイツEWG +0.61pt、スイスEWL +2.52pt、韓国EWY -4.18pt、台湾EWT -4.73pt、インドINDA +2.66pt、中国MCHI -0.71pt、ベトナムVNM -0.15pt(取得データ)</li><li>対象外・保留: ブラジルEWZ +3.78pt、英国EWU +1.95pt、カナダEWC +1.84pt、メキシコEWW +1.46pt、ノルウェーNORW +1.10pt、豪州EWA +1.18pt</li><li>中央値: 関税案の対象15本 -0.30pt、対象外・保留6本 +1.65pt。n=21で、1回の出来事の比較</li><li>11/26(木): DAX +2.08%、ユーロ・ストックス50 +2.04%、FTSE +1.75%、S&amp;P500先物 +0.54%、CME日経先物 +0.55%(取得時点の値)</li><li>報道では欧州の上昇は関税案への安心感と、半導体株(ソイテック+7%、インフィニオン+3.6%)の戻りによる(報道)</li></ul>
+<div class="scroll"><table><caption>関税案と国別ETFの2日騰落(11/23→11/25、ACWI比、pt)</caption><thead><tr><th>国・地域</th><th>提案税率</th><th>ETF</th><th>ACWI比</th></tr></thead><tbody><tr><td>インド</td><td>17%(合意なければ25%)</td><td>INDA</td><td>+2.66</td></tr><tr><td>スイス</td><td>15%</td><td>EWL</td><td>+2.52</td></tr><tr><td>マレーシア</td><td>18%</td><td>EWM</td><td>+1.14</td></tr><tr><td>日本</td><td>15%(最大20%)</td><td>EWJ</td><td>+1.03</td></tr><tr><td>ドイツ(EU)</td><td>15%</td><td>EWG</td><td>+0.61</td></tr><tr><td>ベトナム</td><td>35%(合意なら20%)</td><td>VNM</td><td>-0.15</td></tr><tr><td>シンガポール</td><td>10%(合意なければ20%)</td><td>EWS</td><td>-0.56</td></tr><tr><td>中国</td><td>20%(既存に上乗せ)</td><td>MCHI</td><td>-0.71</td></tr><tr><td>タイ</td><td>18%</td><td>THD</td><td>-1.66</td></tr><tr><td>韓国</td><td>15%(最大25%)</td><td>EWY</td><td>-4.18</td></tr><tr><td>台湾</td><td>15%(最大25%)</td><td>EWT</td><td>-4.73</td></tr><tr><td>ブラジル</td><td>対象外</td><td>EWZ</td><td>+3.78</td></tr><tr><td>メキシコ</td><td>判断保留</td><td>EWW</td><td>+1.46</td></tr></tbody></table></div><div class="note">税率は報道・法律事務所の解説による提案値で未確定。ETFはドル建てで、為替の影響を含む。</div>
+<h3>日本株への含意</h3><p>日本は「15%(重ねない)」で、2025年の合意水準が維持された形です。対象分野には自動車・鉄鋼・半導体・光ファイバーが挙がっていると解説されています(二次情報)。米国上場の日本株ETF(EWJ)はこの2日間で全世界株を1pt上回っており、関税案は日本株にとって悪材料としては扱われていません。注意点は、協議が不十分なら20%に上がりうる条項と、韓国・台湾の25%の代替税率です。金曜の東京では、関税よりも半導体の戻りと木曜の欧州の上昇(CME日経先物+0.55%)の方が材料になりやすいと見ます。</p>
+<h3>見方を変える条件</h3><p>意見募集の過程で日本向けの代替税率(20%)の適用が報じられる、またはEUが報復措置を打ち出し、欧州株が木曜の上げを失えば、「安心感」の見方は修正が必要です。</p>
+<h3>発信用の一言</h3><p class="post">USTRの関税案、日本・EU・韓国・台湾は15%(重ねない)で上限を維持。欧州株は木曜+2%。ただ国別ETFでは税率の高低と値動きはほぼ無関係で、韓国・台湾の下げは半導体安の影響が大きい。</p>
+<div class="src">ネタ元: <a href="https://www.bloomberg.com/news/articles/2026-11-25/us-targets-china-eu-with-new-tariffs-after-overcapacity-probe" target="_blank" rel="noopener noreferrer">Bloomberg: 米国、過剰生産能力の調査を受け中国・EUに新関税(報道、11/25)</a> / <a href="https://www.kelleydrye.com/viewpoints/blogs/trade-and-manufacturing-monitor/ustr-proposes-section-301-overcapacity-tariffs-on-14-of-16-economies-investigated-public-comment-period-and-public-hearing-will-precede-any-final-action" target="_blank" rel="noopener noreferrer">Kelley Drye: USTR、調査対象16経済圏のうち14に301条関税を提案(法律事務所の解説)</a> / <a href="https://www.koreatimes.co.kr/world/20261126/us-proposes-tariffs-over-excess-production-retains-15-cap-for-korea-japan-eu" target="_blank" rel="noopener noreferrer">Korea Times: 韓国・日本・EUは15%の上限を維持(報道)</a> / <a href="https://mlq.ai/news/europes-stoxx-600-gains-18-imperial-brands-jumps-13-on-altria-bid-talk/" target="_blank" rel="noopener noreferrer">MLQ: 欧州Stoxx600は+1.8%(報道、11/26)</a> / <a href="https://x.com/sidhant/status/2125654144413491287" target="_blank" rel="noopener noreferrer">X: Sidhant Sibal「国別の提案税率一覧」(投稿の要約、未検証)</a></div>
+</article><article class="card" data-t="季節性・クロスアセット">
+<div class="meta"><span>季節性・クロスアセット</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>感謝祭の木曜にDAX+2.08%、米国先物は+0.54%。2000年以降、木曜のDAXと金曜のS&amp;P500の相関は0.57で、DAXが+1%超の3年は金曜も上昇。ただ3年とも翌5日は伸びず</h2>
+<p>米国が休場の木曜、欧州は関税案への安心感で大きく上げました。一方、取得時点の米株価指数先物は+0.54%と、欧州ほど上げていません。前号では「感謝祭明けの金曜は26年で14回上昇とほぼ五分」と書きましたが、今回は木曜の欧州の動きが金曜の米国の手がかりになるかを確かめました。2000〜2025年の26回で、感謝祭の木曜のDAXの騰落と、金曜のS&amp;P500(水曜終値比)の相関は0.57、向きが一致したのは16回です。回帰の傾きは0.51で、欧州の動きの半分程度が米国に引き継がれる計算です。DAXが+1%以上上げた年は2000年(+1.39%)、2008年(+2.30%)、2015年(+1.35%)の3回で、金曜のS&amp;P500はそれぞれ+1.47%、+0.96%、+0.06%と、すべて上昇しました。ただ翌5営業日は-1.98%、-2.25%、+0.08%で、木曜の欧州の上昇はその後の米国の上昇を約束していません。n=3と少なく、今年のDAX+2%は前日まで2日続けて-1.26%下げた後の戻りでもあります。</p>
+<h3>データ</h3><ul><li>感謝祭の木曜のDAXと金曜のS&amp;P500(2000〜2025年、n=26): 相関0.57、向きの一致16回、回帰の傾き0.51(取得データ)</li><li>DAX+1%以上の3年: 2000年 金曜+1.47%・翌5日-1.98%、2008年 +0.96%・-2.25%、2015年 +0.06%・+0.08%</li><li>DAXが下げた年の最大は2009年(ドバイ・ショック)の-3.25%、金曜のS&amp;P500は-1.72%</li><li>2026年: DAX 11/24 -1.26%、11/25 -1.26%、11/26 +2.08%。S&amp;P500先物は11/26に+0.54%(取得時点)</li><li>金曜は13時(米東部)までの短縮取引(報道)</li></ul>
+<div class="scroll"><table><caption>感謝祭の木曜のDAXと、金曜・翌5日のS&amp;P500(%)</caption><thead><tr><th>年</th><th>DAX(木)</th><th>S&amp;P500(金)</th><th>翌5日</th></tr></thead><tbody><tr><td>2000</td><td>+1.39</td><td>+1.47</td><td>-1.98</td></tr><tr><td>2008</td><td>+2.30</td><td>+0.96</td><td>-2.25</td></tr><tr><td>2009</td><td>-3.25</td><td>-1.72</td><td>+1.33</td></tr><tr><td>2015</td><td>+1.35</td><td>+0.06</td><td>+0.08</td></tr><tr><td>2021</td><td>+0.25</td><td>-2.27</td><td>-1.22</td></tr><tr><td>2022</td><td>+0.78</td><td>-0.03</td><td>+1.13</td></tr><tr><td>2023</td><td>+0.23</td><td>+0.06</td><td>+0.77</td></tr><tr><td>2024</td><td>+0.85</td><td>+0.56</td><td>+0.96</td></tr><tr><td>2025</td><td>+0.18</td><td>+0.54</td><td>+0.31</td></tr><tr><td>2026</td><td>+2.08</td><td></td><td></td></tr></tbody></table></div><div class="note">金曜は水曜終値比。全26年のうち、DAXの動きが大きい年と直近の年を抜粋。2021年はオミクロン報道で金曜に急落。</div>
+<h3>日本株への含意</h3><p>金曜の東京は、米国の現物の動きを見ないまま取引します。手がかりは木曜の欧州の上昇とCME日経先物(57,665円、+0.55%)です。過去の関係では欧州の動きの半分程度しか米国に引き継がれておらず、金曜の東京が欧州並みに上げても、夜の米国の短縮取引で追いつかなければ、週明けの月曜に修正が入る可能性があります。</p>
+<h3>見方を変える条件</h3><p>金曜のS&amp;P500が下げれば、欧州の上昇は米国に引き継がれなかったことになります。逆に+1%を超えて上げ、週明けも続けば、過去3年の「翌5日は伸びない」の型から外れます。</p>
+<h3>発信用の一言</h3><p class="post">感謝祭の木曜にDAX+2.1%。2000年以降、木曜のDAXと金曜のS&amp;P500の相関は0.57、DAX+1%超の3年は金曜も上昇。ただ3年とも翌5日は伸びず、n=3。</p>
+<div class="src">ネタ元: <a href="https://jbiznews.com/european-stocks-jump-as-tariff-fears-ease-stoxx-600-gains-1-8-dax-rises-2-1/" target="_blank" rel="noopener noreferrer">JBizNews: 関税懸念が和らぎ欧州株が上昇、DAX+2.1%(報道、11/26)</a> / <a href="https://x.com/barronsonline/status/2125817636864807299" target="_blank" rel="noopener noreferrer">X: Barron&#x27;s「感謝祭は株式・債券市場とも休場」(投稿の要約、未検証)</a> / <a href="https://x.com/traderepublic/status/2125550346064048211" target="_blank" rel="noopener noreferrer">X: Trade Republic「木曜は休場、金曜は短縮取引」(投稿の要約、未検証)</a></div>
+</article><article class="card" data-t="需給・季節性">
+<div class="meta"><span>需給・季節性</span><span class="badge warn">検証: 条件付き</span></div>
+<h2>11月はS&amp;P500-5.2%、長期国債+0.9%で差は約6pt。2002年以降、月末3営業日前で株が債券に6pt以上負けていた30か月では、月末最終日のS&amp;P500は19回上昇。全体の44%より高いが、月末までの3日間では18回</h2>
+<p>株が大きく下げて債券が上げた月は、年金や株債均衡型ファンドが目標の配分に戻すため、月末に株を買う(リバランス)という見方がよく語られます。過去には大手証券が数百億ドル規模の推計を出しており(報道)、今月も話題になりやすい局面です。ただ、今月の推計値は今回の検索では確認できませんでした。データで確かめると、11月は10/30から11/25までにS&amp;P500が-5.24%、長期国債ETF(TLT)が+0.91%で、差は-6.15ptです。2002年以降の月で、月末の3営業日前の時点でS&amp;P500がTLTを6pt以上下回っていた30か月では、月末最終日のS&amp;P500は19回上昇(中央値+0.31%)で、全291か月の44%(127回、中央値-0.09%)より上昇しやすい結果でした。逆に株が債券を6pt以上上回った45か月では、最終日の上昇は14回だけです。向きはリバランスの説明と合っています。ただ3営業日前から月末までの3日間では18回上昇(中央値+0.72%)で、2002年9月(-4.64%)、2020年2月(-5.20%)のように下げが続いた月もあります。月の前半の大きな値動きに比べると、月末の効果は小さいと考えるべきです。</p>
+<h3>データ</h3><ul><li>11月(10/30→11/25): S&amp;P500 -5.24%、ナスダック100 -8.24%、等加重RSP -1.18%、TLT +0.91%、IEF +0.67%(取得データ)</li><li>2002年以降の月(n=291): 月末最終日 上昇127回・中央値-0.09%、3営業日前→月末 上昇152回・中央値+0.04%</li><li>株が債券を6pt以上下回った月(n=30): 最終日 上昇19回・中央値+0.31%、3日間 上昇18回・中央値+0.72%、翌月初5日 上昇18回・中央値+0.76%</li><li>株が債券を6pt以上上回った月(n=45): 最終日 上昇14回・中央値-0.22%</li><li>今月の差に近い月: 2003年9月(-6.15pt、3日間-0.09%)、2011年5月(-6.01pt、+1.47%)、2025年2月(-6.56pt、-0.03%)</li></ul>
+<div class="scroll"><table><caption>月末3営業日前の株と債券の差と、その後のS&amp;P500(2002年以降、%)</caption><thead><tr><th>区分</th><th>n</th><th>最終日 上昇</th><th>最終日 中央値</th><th>3日間 中央値</th><th>翌月初5日 中央値</th></tr></thead><tbody><tr><td>株が債券を6pt以上下回る</td><td>30</td><td>19</td><td>+0.31</td><td>+0.72</td><td>+0.76</td></tr><tr><td>全体</td><td>291</td><td>127</td><td>-0.09</td><td>+0.04</td><td>+0.53</td></tr><tr><td>株が債券を6pt以上上回る</td><td>45</td><td>14</td><td>-0.22</td><td>-0.22</td><td>+1.39</td></tr></tbody></table></div><div class="note">株はS&amp;P500、債券はTLT(長期国債ETF、2002年7月以降)。差は前月末から月末3営業日前までの騰落率の差。期間が重なる月や2008年に偏りがある。</div>
+<h3>日本株への含意</h3><p>米国の月末は日本時間12/1(火)の早朝です。月末の株買いが出ても、東京が取り込むのは12/1以降です。また、今月は株と債券の差に加えて、ナスダック100(-8.2%)と等加重(-1.2%)の差が大きく、配分の戻しは指数全体の買いとして出るため、出遅れた大型ハイテク株の比率が高い指数ほど効きやすいと考えられます。東京では、日経平均の寄与が大きい半導体・AI関連が同じ流れに乗るかが論点です。</p>
+<h3>見方を変える条件</h3><p>金曜(短縮)と月曜でS&amp;P500が下げ続け、株と債券の差がさらに広がれば、月末の需給より相場の流れが勝っていると見ます。年金の株買いの推計が報じられれば、その規模で見方を更新します。</p>
+<h3>発信用の一言</h3><p class="post">11月はS&amp;P500-5.2%、長期国債+0.9%。2002年以降、株が債券に6pt以上負けた月の最終日は30回中19回上昇(全体は44%)。月末の株買いの向きは合うが、効果は月中の値動きより小さい。</p>
+<div class="src">ネタ元: <a href="https://www.thewealthadvisor.com/article/jpmorgan-sees-possible-300-billion-rebalancing-flow-stocks" target="_blank" rel="noopener noreferrer">The Wealth Advisor: JPモルガン、最大3,000億ドルのリバランスの可能性(報道、過去の推計)</a> / <a href="https://www.tickmill.com/blog/institutional-insights-goldman-sachs-month-end-rebalancing-flows-to-know" target="_blank" rel="noopener noreferrer">Tickmill: ゴールドマン・サックスの月末リバランス推計の解説(二次情報、時期不明)</a></div>
+</article></div>
+
+
+
+<h2 class="section" id="sec-x">Xで拾った論点</h2><div class="x"><p><a href="https://x.com/sidhant/status/2125654144413491287" target="_blank" rel="noopener noreferrer">「USTRの301条関税案: シンガポール10%、EU・日本・韓国・スイス・台湾15%、インド17%、中国20%、ベトナム35%」(Sidhant Sibal、投稿)</a>（未検証）</p><p>法律事務所の解説とおおむね一致。国別ETFの反応をカード1で検証</p></div><div class="x"><p><a href="https://x.com/i/trending/2125221510344245574" target="_blank" rel="noopener noreferrer">「新関税の報道で米国株が急落」(X トレンド)</a>（未検証）</p><p>11/24のWSJ報道時点。正式案後の木曜に欧州は戻した。カード1</p></div><div class="x"><p><a href="https://x.com/RT_com/status/2125236778755863016" target="_blank" rel="noopener noreferrer">「EU・日本・韓国は15%以下、中国・ベトナム・インドはそれ以上と報道。ナスダック100先物-2.5%」(RT、投稿)</a>（未検証）</p><p>事前報道の段階。正式案の税率と比べてカード1</p></div><div class="x"><p><a href="https://x.com/DoC_GoI/status/2125656454640349665" target="_blank" rel="noopener noreferrer">インド商工省「USTRの通知を精査中」(インド政府、投稿)</a>（一次情報の投稿、内容は声明のみ）</p><p>インドETFは2日間で全世界株を2.7pt上回った。カード1</p></div><div class="x"><p><a href="https://x.com/tenet_research/status/2125596216604200968" target="_blank" rel="noopener noreferrer">「Section 301の関税、産業株・鉄鋼・自動車が焦点」(TENET RESEARCH、投稿)</a>（未検証）</p><p>個別業種の反応は金曜の米国で確かめる</p></div><div class="x"><p><a href="https://x.com/barronsonline/status/2125817636864807299" target="_blank" rel="noopener noreferrer">「感謝祭は株式・債券市場とも休場」(Barron&#x27;s、投稿)</a>（未検証）</p><p>金曜は短縮取引。カード2</p></div>
+<p class="method">感謝祭休場明けの号(週末版と同じ扱い)です。定量値はYahoo Financeのデータ(GitHub Actionsで取得、11/26 18:50 UTC)から自前で算出しました(insights/analysis/2026-11-27.py、結果は insights/data/analysis/2026-11-27.json)。米国株・米国上場ETF・TLTは11/25のNY引けまで、欧州株・米株価指数先物・為替・商品は11/26の取得時点の値で、先物と為替は確定前の可能性があります。関税案の税率は報道と法律事務所の解説による提案値で、USTRの一次資料は確認していません。国別ETFの比較は1回の出来事についてで、同じ期間の半導体安などの影響を分けていません。感謝祭の検証は2000〜2025年(n=26)、月末の検証はTLTのある2002年以降の月(n=291)で、期間が重なる月を含みます。月末リバランスの今月の推計値は確認できていません。Xはタイムラインを直接読まず、検索経由で取得できた投稿のみを掲載しています。X投稿は要約で、内容の真偽は未検証です。バックテストは少数サンプルを含み、将来の結果を保証しません。新しい米国の取引日がないため、大きく動いたもの・大物投資家の相場観は前号(11/26)を参照してください。 情報提供を目的としたもので、投資勧誘ではありません。</p>
+</div><script>
+document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
+  b.classList.add('active');
+  document.querySelectorAll('.card').forEach(c => {
+    c.style.display = (b.dataset.t === 'all' || c.dataset.t === b.dataset.t) ? '' : 'none';
+  });
+});
+</script></body></html>

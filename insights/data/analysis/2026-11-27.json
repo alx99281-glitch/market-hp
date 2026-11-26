@@ -1,0 +1,649 @@
+{
+ "tariff_etf": {
+  "acwi_2d": -0.63,
+  "spy_2d": -0.77,
+  "rows": [
+   {
+    "ticker": "EWS",
+    "label": "シンガポール 10%(合意なければ20%)",
+    "r2d": -1.2,
+    "r2d_vs_acwi": -0.56,
+    "r1d": -0.14
+   },
+   {
+    "ticker": "EWG",
+    "label": "EU 15%(ドイツ)",
+    "r2d": -0.02,
+    "r2d_vs_acwi": 0.61,
+    "r1d": 0.02
+   },
+   {
+    "ticker": "EWQ",
+    "label": "EU 15%(フランス)",
+    "r2d": 1.22,
+    "r2d_vs_acwi": 1.86,
+    "r1d": 0.33
+   },
+   {
+    "ticker": "EWI",
+    "label": "EU 15%(イタリア)",
+    "r2d": -0.93,
+    "r2d_vs_acwi": -0.3,
+    "r1d": -0.53
+   },
+   {
+    "ticker": "EWN",
+    "label": "EU 15%(オランダ)",
+    "r2d": -1.59,
+    "r2d_vs_acwi": -0.96,
+    "r1d": -0.8
+   },
+   {
+    "ticker": "EWJ",
+    "label": "日本 15%(最大20%)",
+    "r2d": 0.4,
+    "r2d_vs_acwi": 1.03,
+    "r1d": 0.7
+   },
+   {
+    "ticker": "EWY",
+    "label": "韓国 15%(最大25%)",
+    "r2d": -4.81,
+    "r2d_vs_acwi": -4.18,
+    "r1d": -1.16
+   },
+   {
+    "ticker": "EWL",
+    "label": "スイス 15%",
+    "r2d": 1.89,
+    "r2d_vs_acwi": 2.52,
+    "r1d": 0.8
+   },
+   {
+    "ticker": "EWT",
+    "label": "台湾 15%(最大25%)",
+    "r2d": -5.36,
+    "r2d_vs_acwi": -4.73,
+    "r1d": -1.27
+   },
+   {
+    "ticker": "INDA",
+    "label": "インド 17%(合意なければ25%)",
+    "r2d": 2.03,
+    "r2d_vs_acwi": 2.66,
+    "r1d": 0.87
+   },
+   {
+    "ticker": "EIDO",
+    "label": "インドネシア 18%",
+    "r2d": -1.13,
+    "r2d_vs_acwi": -0.5,
+    "r1d": -1.04
+   },
+   {
+    "ticker": "EWM",
+    "label": "マレーシア 18%",
+    "r2d": 0.51,
+    "r2d_vs_acwi": 1.14,
+    "r1d": 0.47
+   },
+   {
+    "ticker": "THD",
+    "label": "タイ 18%",
+    "r2d": -2.29,
+    "r2d_vs_acwi": -1.66,
+    "r1d": -1.12
+   },
+   {
+    "ticker": "MCHI",
+    "label": "中国 20%(既存に上乗せ)",
+    "r2d": -1.34,
+    "r2d_vs_acwi": -0.71,
+    "r1d": -0.39
+   },
+   {
+    "ticker": "VNM",
+    "label": "ベトナム 35%(合意なら20%)",
+    "r2d": -0.78,
+    "r2d_vs_acwi": -0.15,
+    "r1d": -0.78
+   },
+   {
+    "ticker": "EWW",
+    "label": "メキシコ 判断保留",
+    "r2d": 0.82,
+    "r2d_vs_acwi": 1.46,
+    "r1d": 2.02
+   },
+   {
+    "ticker": "NORW",
+    "label": "ノルウェー 判断保留",
+    "r2d": 0.47,
+    "r2d_vs_acwi": 1.1,
+    "r1d": 0.76
+   },
+   {
+    "ticker": "EWZ",
+    "label": "ブラジル 対象外",
+    "r2d": 3.15,
+    "r2d_vs_acwi": 3.78,
+    "r1d": 2.94
+   },
+   {
+    "ticker": "EWU",
+    "label": "英国 対象外",
+    "r2d": 1.32,
+    "r2d_vs_acwi": 1.95,
+    "r1d": 0.55
+   },
+   {
+    "ticker": "EWC",
+    "label": "カナダ 対象外",
+    "r2d": 1.21,
+    "r2d_vs_acwi": 1.84,
+    "r1d": 0.87
+   },
+   {
+    "ticker": "EWA",
+    "label": "豪州 対象外",
+    "r2d": 0.55,
+    "r2d_vs_acwi": 1.18,
+    "r1d": 0.29
+   }
+  ]
+ },
+ "tariff_group": {
+  "target_median": -0.3,
+  "non_median": 1.65,
+  "n_t": 15,
+  "n_n": 6
+ },
+ "thu": {
+  "^GDAXI": 2.08,
+  "^STOXX50E": 2.04,
+  "^FTSE": 1.75,
+  "^AXJO": 0.82,
+  "^TA125.TA": 2.95,
+  "^BVSP": 3.75,
+  "^MXX": -1.05,
+  "XU100.IS": 0.82,
+  "ES=F": 0.54,
+  "NQ=F": 0.46,
+  "NKD=F": 0.55,
+  "MXN=X": 1.48,
+  "BRL=X": -2.73,
+  "CNY=X": -0.21,
+  "JPY=X": 0.01,
+  "EURUSD=X": 0.09,
+  "KRW=X": 0.07,
+  "TWD=X": 0.06,
+  "GC=F": 1.7,
+  "SI=F": 4.34,
+  "HG=F": 1.96,
+  "PL=F": 3.33,
+  "PA=F": 5.1,
+  "NG=F": 10.03,
+  "CL=F": 1.42,
+  "BTC-USD": 0.22
+ },
+ "thanksgiving": {
+  "n": 26,
+  "corr": 0.57,
+  "same_sign": 16,
+  "dax_up1": [
+   {
+    "year": 2000,
+    "dax_thu": 1.39,
+    "spx_fri": 1.47,
+    "spx_next5": -1.98
+   },
+   {
+    "year": 2008,
+    "dax_thu": 2.3,
+    "spx_fri": 0.96,
+    "spx_next5": -2.25
+   },
+   {
+    "year": 2015,
+    "dax_thu": 1.35,
+    "spx_fri": 0.06,
+    "spx_next5": 0.08
+   }
+  ],
+  "rows": [
+   {
+    "year": 2000,
+    "dax_thu": 1.39,
+    "spx_fri": 1.47,
+    "spx_next5": -1.98
+   },
+   {
+    "year": 2001,
+    "dax_thu": 0.74,
+    "spx_fri": 1.17,
+    "spx_next5": -0.95
+   },
+   {
+    "year": 2002,
+    "dax_thu": 0.44,
+    "spx_fri": -0.27,
+    "spx_next5": -2.57
+   },
+   {
+    "year": 2003,
+    "dax_thu": 0.86,
+    "spx_fri": -0.02,
+    "spx_next5": 0.31
+   },
+   {
+    "year": 2004,
+    "dax_thu": 0.85,
+    "spx_fri": 0.08,
+    "spx_next5": 0.72
+   },
+   {
+    "year": 2005,
+    "dax_thu": -0.16,
+    "spx_fri": 0.21,
+    "spx_next5": -0.25
+   },
+   {
+    "year": 2006,
+    "dax_thu": -0.01,
+    "spx_fri": -0.37,
+    "spx_next5": -0.3
+   },
+   {
+    "year": 2007,
+    "dax_thu": 0.58,
+    "spx_fri": 1.69,
+    "spx_next5": 2.81
+   },
+   {
+    "year": 2008,
+    "dax_thu": 2.3,
+    "spx_fri": 0.96,
+    "spx_next5": -2.25
+   },
+   {
+    "year": 2009,
+    "dax_thu": -3.25,
+    "spx_fri": -1.72,
+    "spx_next5": 1.33
+   },
+   {
+    "year": 2010,
+    "dax_thu": 0.82,
+    "spx_fri": -0.75,
+    "spx_next5": 2.97
+   },
+   {
+    "year": 2011,
+    "dax_thu": -0.54,
+    "spx_fri": -0.27,
+    "spx_next5": 7.39
+   },
+   {
+    "year": 2012,
+    "dax_thu": 0.84,
+    "spx_fri": 1.3,
+    "spx_next5": 0.5
+   },
+   {
+    "year": 2013,
+    "dax_thu": 0.39,
+    "spx_fri": -0.08,
+    "spx_next5": -0.04
+   },
+   {
+    "year": 2014,
+    "dax_thu": 0.6,
+    "spx_fri": -0.25,
+    "spx_next5": 0.38
+   },
+   {
+    "year": 2015,
+    "dax_thu": 1.35,
+    "spx_fri": 0.06,
+    "spx_next5": 0.08
+   },
+   {
+    "year": 2016,
+    "dax_thu": 0.25,
+    "spx_fri": 0.39,
+    "spx_next5": -0.97
+   },
+   {
+    "year": 2017,
+    "dax_thu": -0.05,
+    "spx_fri": 0.21,
+    "spx_next5": 1.53
+   },
+   {
+    "year": 2018,
+    "dax_thu": -0.94,
+    "spx_fri": -0.66,
+    "spx_next5": 4.85
+   },
+   {
+    "year": 2019,
+    "dax_thu": -0.31,
+    "spx_fri": -0.4,
+    "spx_next5": 0.16
+   },
+   {
+    "year": 2020,
+    "dax_thu": -0.02,
+    "spx_fri": 0.24,
+    "spx_next5": 1.67
+   },
+   {
+    "year": 2021,
+    "dax_thu": 0.25,
+    "spx_fri": -2.27,
+    "spx_next5": -1.22
+   },
+   {
+    "year": 2022,
+    "dax_thu": 0.78,
+    "spx_fri": -0.03,
+    "spx_next5": 1.13
+   },
+   {
+    "year": 2023,
+    "dax_thu": 0.23,
+    "spx_fri": 0.06,
+    "spx_next5": 0.77
+   },
+   {
+    "year": 2024,
+    "dax_thu": 0.85,
+    "spx_fri": 0.56,
+    "spx_next5": 0.96
+   },
+   {
+    "year": 2025,
+    "dax_thu": 0.18,
+    "spx_fri": 0.54,
+    "spx_next5": 0.31
+   }
+  ],
+  "beta": 0.511
+ },
+ "nov": {
+  "oct_end": "2026-10-30",
+  "spx_mtd": -5.24,
+  "tlt_mtd": 0.91,
+  "ief_mtd": 0.67,
+  "rsp_mtd": -1.18,
+  "ndx_mtd": -8.24
+ },
+ "rebal": {
+  "current_diff": -6.15,
+  "all": {
+   "n": 291,
+   "up_end": 152,
+   "med_end": 0.04,
+   "up_last": 127,
+   "med_last": -0.09,
+   "up_next5": 180,
+   "med_next5": 0.53
+  },
+  "low6": {
+   "n": 30,
+   "up_end": 18,
+   "med_end": 0.72,
+   "up_last": 19,
+   "med_last": 0.31,
+   "up_next5": 18,
+   "med_next5": 0.76
+  },
+  "low6_rows": [
+   {
+    "month": "2008-11",
+    "diff": -24.29,
+    "r_cut_to_end": 4.53,
+    "r_lastday": 0.96,
+    "r_next5": -2.25
+   },
+   {
+    "month": "2020-03",
+    "diff": -22.11,
+    "r_cut_to_end": 1.7,
+    "r_lastday": -1.6,
+    "r_next5": 2.89
+   },
+   {
+    "month": "2008-10",
+    "diff": -20.6,
+    "r_cut_to_end": 4.16,
+    "r_lastday": 1.54,
+    "r_next5": -3.9
+   },
+   {
+    "month": "2008-12",
+    "diff": -17.98,
+    "r_cut_to_end": 3.89,
+    "r_lastday": 1.42,
+    "r_next5": 0.72
+   },
+   {
+    "month": "2010-05",
+    "diff": -17.06,
+    "r_cut_to_end": 2.01,
+    "r_lastday": -1.24,
+    "r_next5": -3.57
+   },
+   {
+    "month": "2011-08",
+    "diff": -15.99,
+    "r_cut_to_end": 0.73,
+    "r_lastday": 0.49,
+    "r_next5": -2.71
+   },
+   {
+    "month": "2011-09",
+    "diff": -15.24,
+    "r_cut_to_end": -1.71,
+    "r_lastday": -2.5,
+    "r_next5": 2.12
+   },
+   {
+    "month": "2019-08",
+    "diff": -14.54,
+    "r_cut_to_end": 1.33,
+    "r_lastday": 0.06,
+    "r_next5": 1.78
+   },
+   {
+    "month": "2018-12",
+    "diff": -14.4,
+    "r_cut_to_end": 0.72,
+    "r_lastday": 0.85,
+    "r_next5": 2.7
+   },
+   {
+    "month": "2016-01",
+    "diff": -12.41,
+    "r_cut_to_end": 3.04,
+    "r_lastday": 2.48,
+    "r_next5": -3.1
+   },
+   {
+    "month": "2015-01",
+    "diff": -11.37,
+    "r_cut_to_end": -0.36,
+    "r_lastday": -1.3,
+    "r_next5": 3.03
+   },
+   {
+    "month": "2002-12",
+    "diff": -11.05,
+    "r_cut_to_end": 0.5,
+    "r_lastday": 0.05,
+    "r_next5": 3.42
+   },
+   {
+    "month": "2016-06",
+    "diff": -10.27,
+    "r_cut_to_end": 3.08,
+    "r_lastday": 1.36,
+    "r_next5": 1.48
+   },
+   {
+    "month": "2019-05",
+    "diff": -10.15,
+    "r_cut_to_end": -1.11,
+    "r_lastday": -1.32,
+    "r_next5": 4.41
+   },
+   {
+    "month": "2007-11",
+    "diff": -10.15,
+    "r_cut_to_end": 0.83,
+    "r_lastday": 0.78,
+    "r_next5": 1.59
+   },
+   {
+    "month": "2014-01",
+    "diff": -9.91,
+    "r_cut_to_end": 0.47,
+    "r_lastday": -0.65,
+    "r_next5": 0.81
+   },
+   {
+    "month": "2008-06",
+    "diff": -9.81,
+    "r_cut_to_end": -0.25,
+    "r_lastday": 0.13,
+    "r_next5": -0.49
+   },
+   {
+    "month": "2012-05",
+    "diff": -9.8,
+    "r_cut_to_end": -1.66,
+    "r_lastday": -0.23,
+    "r_next5": 0.36
+   },
+   {
+    "month": "2002-09",
+    "diff": -9.74,
+    "r_cut_to_end": -4.64,
+    "r_lastday": -1.46,
+    "r_next5": -3.68
+   },
+   {
+    "month": "2011-11",
+    "diff": -9.31,
+    "r_cut_to_end": 4.56,
+    "r_lastday": 4.33,
+    "r_next5": 1.13
+   },
+   {
+    "month": "2008-01",
+    "diff": -9.27,
+    "r_cut_to_end": 1.19,
+    "r_lastday": 1.68,
+    "r_next5": -3.02
+   },
+   {
+    "month": "2010-08",
+    "diff": -8.55,
+    "r_cut_to_end": -1.43,
+    "r_lastday": 0.04,
+    "r_next5": 4.72
+   },
+   {
+    "month": "2009-02",
+    "diff": -7.48,
+    "r_cut_to_end": -3.9,
+    "r_lastday": -2.36,
+    "r_next5": -7.03
+   },
+   {
+    "month": "2018-10",
+    "diff": -7.41,
+    "r_cut_to_end": 2.67,
+    "r_lastday": 1.09,
+    "r_next5": 3.77
+   },
+   {
+    "month": "2015-09",
+    "diff": -6.62,
+    "r_cut_to_end": 2.03,
+    "r_lastday": 1.91,
+    "r_next5": 3.95
+   },
+   {
+    "month": "2025-02",
+    "diff": -6.56,
+    "r_cut_to_end": -0.03,
+    "r_lastday": 1.59,
+    "r_next5": -3.1
+   },
+   {
+    "month": "2020-02",
+    "diff": -6.54,
+    "r_cut_to_end": -5.2,
+    "r_lastday": -0.82,
+    "r_next5": 0.61
+   },
+   {
+    "month": "2008-09",
+    "diff": -6.49,
+    "r_cut_to_end": -3.87,
+    "r_lastday": 5.42,
+    "r_next5": -14.59
+   },
+   {
+    "month": "2003-09",
+    "diff": -6.15,
+    "r_cut_to_end": -0.09,
+    "r_lastday": -1.05,
+    "r_next5": 4.35
+   },
+   {
+    "month": "2011-05",
+    "diff": -6.01,
+    "r_cut_to_end": 1.47,
+    "r_lastday": 1.06,
+    "r_next5": -4.48
+   }
+  ],
+  "high6": {
+   "n": 45,
+   "up_end": 19,
+   "med_end": -0.22,
+   "up_last": 14,
+   "med_last": -0.22,
+   "up_next5": 34,
+   "med_next5": 1.39
+  }
+ },
+ "MXN=X": {
+  "last": 19.7338,
+  "r1": 1.48,
+  "sig1": 2.4,
+  "r3": 3.45,
+  "sig3": 3.0,
+  "n_ge_3y": 15,
+  "last_date": "2026-11-26",
+  "r1m": 5.42
+ },
+ "BRL=X": {
+  "last": 5.7428,
+  "r1": -2.73,
+  "sig1": -2.9,
+  "r3": -3.45,
+  "sig3": -2.6,
+  "n_ge_3y": 17,
+  "last_date": "2026-11-26",
+  "r1m": 15.78
+ },
+ "ewz_ew_w": {
+  "EWW_2d": 0.82,
+  "EWZ_2d": 3.15,
+  "MXX_thu": -1.05,
+  "BVSP_thu": 3.75
+ }
+}
