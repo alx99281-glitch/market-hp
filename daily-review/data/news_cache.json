@@ -7264,5 +7264,165 @@
       }
     ],
     "searched_at": "2026-11-27T03:44:49.316093+00:00"
+  },
+  "us:2026-11-27:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Inflation has shoppers hunting for value. That bodes well for Black Friday」「Semiconductor chips are the new oil. Here's why」「U.S. tariff-hike threats pile pressure on partners to sign trade deals」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Inflation has shoppers hunting for value. That bodes well for Black Friday",
+        "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+      },
+      {
+        "title": "CNBC Economy: Semiconductor chips are the new oil. Here's why",
+        "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html"
+      },
+      {
+        "title": "CNBC Markets: U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+        "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:27:29.135287+00:00"
+  },
+  "us:2026-11-27:breadth:advance_pct": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Inflation has shoppers hunting for value. That bodes well for Black Friday」「Semiconductor chips are the new oil. Here's why」「U.S. tariff-hike threats pile pressure on partners to sign trade deals」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Inflation has shoppers hunting for value. That bodes well for Black Friday",
+        "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+      },
+      {
+        "title": "CNBC Economy: Semiconductor chips are the new oil. Here's why",
+        "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html"
+      },
+      {
+        "title": "CNBC Markets: U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+        "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:27:29.145676+00:00"
+  },
+  "us:2026-11-27:sector:Information Technology": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Inflation has shoppers hunting for value. That bodes well for Black Friday」「Semiconductor chips are the new oil. Here's why」「U.S. tariff-hike threats pile pressure on partners to sign trade deals」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Inflation has shoppers hunting for value. That bodes well for Black Friday",
+        "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+      },
+      {
+        "title": "CNBC Economy: Semiconductor chips are the new oil. Here's why",
+        "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html"
+      },
+      {
+        "title": "CNBC Markets: U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+        "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:27:29.157160+00:00"
+  },
+  "us:2026-11-27:factor:Volatility": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「Inflation has shoppers hunting for value. That bodes well for Black Friday」「Semiconductor chips are the new oil. Here's why」「U.S. tariff-hike threats pile pressure on partners to sign trade deals」",
+    "sources": [
+      {
+        "title": "CNBC Economy: Inflation has shoppers hunting for value. That bodes well for Black Friday",
+        "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+      },
+      {
+        "title": "CNBC Economy: Semiconductor chips are the new oil. Here's why",
+        "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html"
+      },
+      {
+        "title": "CNBC Markets: U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+        "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:27:29.166446+00:00"
+  },
+  "us:2026-11-27:sector:Utilities": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「Energy & Utilities Roundup: Market Talk」",
+    "sources": [
+      {
+        "title": "WSJ Markets: Energy & Utilities Roundup: Market Talk",
+        "url": "https://www.wsj.com/finance/investing/energy-utilities-roundup-market-talk-6ec085c9?mod=rss_markets_main"
+      }
+    ],
+    "searched_at": "2026-11-28T03:27:29.605780+00:00"
+  },
+  "jp:2026-11-27:correlation:sector_avg": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:28:15.279975+00:00"
+  },
+  "jp:2026-11-27:sector:鉄鋼・非鉄": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:28:15.291696+00:00"
+  },
+  "jp:2026-11-27:sector:機械": {
+    "summary": "（自動キーワード一致・要確認）マクロ全般の材料として関連する可能性のある見出し: 「米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む」「石油元売りに新交付金案 原油の代替調達促す 経産省会合で」「NY外国為替市場 円高ドル安が進む 米雇用統計発表受け」",
+    "sources": [
+      {
+        "title": "NHK 経済: 米就業者 市場予想に反し減少 利上げ観測後退で円高ドル安進む",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199701000.html"
+      },
+      {
+        "title": "NHK 経済: 石油元売りに新交付金案 原油の代替調達促す 経産省会合で",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199711000.html"
+      },
+      {
+        "title": "NHK 経済: NY外国為替市場 円高ドル安が進む 米雇用統計発表受け",
+        "url": "http://www3.nhk.or.jp/news/html/20260807/k10015199721000.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:28:15.302907+00:00"
+  },
+  "jp:2026-11-27:sector:情報通信・サービスその他": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「ソフトバンクグループ 17％余の減益 4-6月期決算」",
+    "sources": [
+      {
+        "title": "NHK 経済: ソフトバンクグループ 17％余の減益 4-6月期決算",
+        "url": "http://www3.nhk.or.jp/news/html/20260806/k10015198231000.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:28:15.531801+00:00"
+  },
+  "jp:2026-11-27:sector:食品": {
+    "summary": "（自動キーワード一致・要確認）関連する可能性のある見出し: 「農林水産物 食品の輸出額 上半期2年連続で過去最高に」「【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ」",
+    "sources": [
+      {
+        "title": "NHK 経済: 農林水産物 食品の輸出額 上半期2年連続で過去最高に",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195821000.html"
+      },
+      {
+        "title": "NHK 経済: 【きょうのおはBiz 8月4日(火)】広がる食品ロス削減アプリ",
+        "url": "http://www3.nhk.or.jp/news/html/20260804/k10015195571000.html"
+      }
+    ],
+    "searched_at": "2026-11-28T03:28:15.547205+00:00"
   }
 }
